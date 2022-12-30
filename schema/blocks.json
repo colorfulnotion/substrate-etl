@@ -1,0 +1,77 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "parent_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "state_root",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsics_root",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "author_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "author_pub_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "spec_version",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "relay_block_number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "relay_state_root",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "extrinsic_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "event_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "transfer_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "trace_count",
+    "type": "INTEGER"
+  }
+]

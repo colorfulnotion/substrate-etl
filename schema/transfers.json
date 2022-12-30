@@ -1,0 +1,97 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "event_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "section",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "method",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "from_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "from_pub_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "to_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "to_pub_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "asset",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "amount_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "symbol",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "decimals",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "amount",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "raw_amount",
+    "type": "NUMERIC"
+  }
+]

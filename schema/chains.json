@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "para_id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "chain_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ss58_prefix",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "symbol",
+    "type": "STRING"
+  }
+]

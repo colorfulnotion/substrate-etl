@@ -1,0 +1,62 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "transfer_index",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "xcm_index",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "para_id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "para_id_dest",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "symbol",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "price_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "amount_sent_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "amount_received_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "xcm_info",
+    "type": "JSON"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "event_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "section",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "method",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "data",
+    "type": "JSON"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_hash",
+    "type": "STRING"
+  }
+]

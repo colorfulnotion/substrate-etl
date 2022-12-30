@@ -1,0 +1,74 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "block_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lifetime",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "section",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "method",
+    "type": "STRING"
+  },
+  {
+    "mode": "",
+    "name": "params",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "fee",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "weight",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "signed",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "signer_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "signer_pub_key",
+    "type": "STRING"
+  }
+]
+
+
