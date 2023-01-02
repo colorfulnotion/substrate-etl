@@ -58,17 +58,17 @@ This exports XCM transfers of polkadot network from 2022-12-25 to 2022-12-31 to 
 
 _Get blocks of paraid 2007_ ([Schema](#blocksjson)):
 ```bash
-select * from `us-west1-wlk.kusama.blocks2007` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
+select * from `substrate-etl.kusama.blocks2007` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
 ```
 
 _Get extrinsics of paraid 2007_ ([Schema](#extrinsicsjson)):
 ```bash
-select * from `us-west1-wlk.kusama.extrinsics2007` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
+select * from `substrate-etl.kusama.extrinsics2007` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
 ```
 
 _Get XCM Transfers of Polkadot Network_ ([Schema](#xcmtransfersjson)):
 ```bash
-select * from `us-west1-wlk.polkadot.xcmtransfers` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
+select * from `substrate-etl.polkadot.xcmtransfers` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
 ```
 
 ## Table of Contents
@@ -389,8 +389,8 @@ Substrate data for each chain is held in 7 tables in one of 2 public
 datasets, with one dataset for each relay chain and all its
 parachains.  By convention, relaychain data is considered "paraid=0".
 
-Project: (this will be changed to `substrate-etl` or similar)
-* `us-west1-wlk`
+Project: (Location: us-central1)
+* `substrate-etl`
 
 Datasets: 
 * `polkadot`
@@ -407,7 +407,7 @@ Tables: (replace `{paraid}` with a specific paraid, e.g. `2000` for `acala`)
 * `specversions{paraid}`
 * `xcmtransfers` (system)
 
-Thus polkadot relay chain blocks are held in `us-west1-wlk.polkadot.blocks0`, acala blocks are stored in `us-west1-wlk.polkadot.blocks2000`, and so on.  
+Thus polkadot relay chain blocks are held in `substrate-etl.polkadot.blocks0`, acala blocks are stored in `substrate-etl.polkadot.blocks2000`, and so on.  
 
 Notes:
 * System tables `chains` and `xcmtransfers` are not specific to any parachain and apply to the whole network.

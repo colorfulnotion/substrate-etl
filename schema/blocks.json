@@ -2,76 +2,91 @@
   {
     "mode": "REQUIRED",
     "name": "hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Block hash"
   },
   {
     "mode": "REQUIRED",
     "name": "parent_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Block hash of parent"
   },
   {
     "mode": "REQUIRED",
     "name": "number",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Block number"
   },
   {
     "mode": "REQUIRED",
     "name": "state_root",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "State root of block"
   },
   {
     "mode": "REQUIRED",
     "name": "extrinsics_root",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Extrinsics root of block"
   },
   {
     "mode": "REQUIRED",
     "name": "block_time",
-    "type": "TIMESTAMP"
+    "type": "TIMESTAMP",
+    "description": "Unix timestamp (UTC) of block (from set timestamp extrinsic)"
   },
   {
     "mode": "NULLABLE",
     "name": "author_ss58",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Author/Collator of block (ss58) using blocks SS58 Prefix"
   },
   {
     "mode": "NULLABLE",
     "name": "author_pub_key",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Author/Collator of block (public key) using blocks SS58 Prefix"
   },
   {
     "mode": "REQUIRED",
     "name": "spec_version",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Spec version of block"
   },
   {
     "mode": "NULLABLE",
     "name": "relay_block_number",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Relay chain block number"
   },
   {
     "mode": "NULLABLE",
     "name": "relay_state_root",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Relay chain state root"
   },
   {
     "mode": "NULLABLE",
     "name": "extrinsic_count",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Total number of events loaded into the events{paraid} table for this block"
   },
   {
     "mode": "NULLABLE",
     "name": "event_count",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Total number of events loaded into the events{paraid} table for this block"
   },
   {
     "mode": "NULLABLE",
     "name": "transfer_count",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Total number of transfers loaded into the transfer{paraid} table for this block"
   },
   {
     "mode": "NULLABLE",
     "name": "trace_count",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Total number of traces loaded into the traces{paraid} table for this block"
   }
 ]

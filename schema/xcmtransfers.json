@@ -2,61 +2,73 @@
   {
     "mode": "REQUIRED",
     "name": "extrinsic_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Extrinsic Hash of the XCM Transfer"
   },
   {
     "mode": "REQUIRED",
     "name": "extrinsic_id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Extrinsic ID of the XCM Transfer"
   },
   {
     "mode": "REQUIRED",
     "name": "transfer_index",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "If the extrinsic contains multiple XCM transfer, this is an zero-based index into the multiple xcm transfers"
   },
   {
     "mode": "REQUIRED",
     "name": "xcm_index",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "If there are multiple assets in a XCM transfer, this is zero-based index into the multiple assets"
   },
   {
     "mode": "REQUIRED",
     "name": "para_id",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Sending  ParaID -- if 0, then the origin chain is the relay chain"
   },
   {
     "mode": "REQUIRED",
     "name": "para_id_dest",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Destination ParaID -- if 0, then the destination chain is the relay chain"
   },
   {
     "mode": "REQUIRED",
     "name": "block_time",
-    "type": "TIMESTAMP"
+    "type": "TIMESTAMP",
+    "description": "Block time of the block that contains the extrinsic"
   },
   {
     "mode": "NULLABLE",
     "name": "symbol",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Symbol for asset being transferred"
   },
   {
     "mode": "NULLABLE",
     "name": "price_usd",
-    "type": "FLOAT"
+    "type": "FLOAT",
+    "description": "Value in USD of 1 token of the asset being transferred"
   },
   {
     "mode": "NULLABLE",
     "name": "amount_sent_usd",
-    "type": "FLOAT"
+    "type": "FLOAT",
+    "description": "Total value in USD of the asset being transferred"
   },
   {
     "mode": "NULLABLE",
     "name": "amount_received_usd",
-    "type": "FLOAT"
+    "type": "FLOAT",
+    "description": "Total value in USD of the asset received"
   },
   {
     "mode": "REQUIRED",
     "name": "xcm_info",
-    "type": "JSON"
+    "type": "JSON",
+    "description": "Data structure containing organized information of the origination and destination chain"
   }
 ]

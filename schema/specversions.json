@@ -2,26 +2,31 @@
   {
     "mode": "REQUIRED",
     "name": "spec_version",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Spec version" 
   },
   {
     "mode": "REQUIRED",
     "name": "block_number",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "First block number at which the spec version was seen" 
   },
   {
     "mode": "REQUIRED",
     "name": "block_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Block hash of the first block number at which the spec version was seen" 
   },
   {
     "mode": "REQUIRED",
     "name": "block_time",
-    "type": "TIMESTAMP"
+    "type": "TIMESTAMP",
+    "description": "Block time of the First block number at which the spec version was seen" 
   },
   {
     "mode": "REQUIRED",
     "name": "spec",
-    "type": "JSON"
+    "type": "JSON",
+    "description": "Full JSON spec for the spec version"
   }
 ]

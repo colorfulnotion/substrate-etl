@@ -2,52 +2,62 @@
   {
     "mode": "REQUIRED",
     "name": "trace_id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Trace ID of extrinsic (of the form '{blocknumber}-{index}')"
   },
   {
     "mode": "REQUIRED",
     "name": "block_time",
-    "type": "TIMESTAMP"
+    "type": "TIMESTAMP",
+    "description": "Unix timestamp of block"  
   },
   {
     "mode": "REQUIRED",
     "name": "block_number",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Block number of trace data"  
   },
   {
     "mode": "REQUIRED",
     "name": "block_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Block hash of trace data"  
   },
   {
     "mode": "REQUIRED",
     "name": "k",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Trace key in hex form"  
   },
   {
     "mode": "NULLABLE",
     "name": "v",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Trace value in hex form"  
   },
   {
     "mode": "NULLABLE",
     "name": "section",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Trace pallet/section (if available), generally inferred from the decoded key"  
   },
   {
     "mode": "NULLABLE",
     "name": "storage",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "trace storage (if available), generally inferred from the decoded key"  
   },
   {
     "mode": "NULLABLE",
     "name": "pk_extra",
-    "type": "JSON"
+    "type": "JSON",
+    "description": "If the trace key can be decoded, this includes any additional decoded data beyond the section/storage information in JSON form"  
   },
   {
     "mode": "REQUIRED",
     "name": "pv",
-    "type": "JSON"
+    "type": "JSON",
+    "description": "If the trace value can be decoded, this included the decoded value in JSON form"  
   }
 ]
 

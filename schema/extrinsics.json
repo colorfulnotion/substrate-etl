@@ -2,72 +2,86 @@
   {
     "mode": "REQUIRED",
     "name": "hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Hash of extrinsic data -- because of account reaping, may not be unique"
   },
   {
     "mode": "REQUIRED",
     "name": "extrinsic_id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Extrinsic ID of extrinsic"
   },
   {
     "mode": "REQUIRED",
     "name": "block_time",
-    "type": "TIMESTAMP"
+    "type": "TIMESTAMP",
+    "description": "Block timestamp of block that includes the extrinsic"
   },
   {
     "mode": "REQUIRED",
     "name": "block_number",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Block number that includes the extrinsic"
   },
   {
     "mode": "NULLABLE",
     "name": "block_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Block hash of extrinsic"
   },
   {
     "mode": "NULLABLE",
     "name": "lifetime",
-    "type": "JSON"
+    "type": "JSON",
+    "description": "Lifetime of extrinsic"
   },
   {
     "mode": "NULLABLE",
     "name": "section",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Pallet/section of extrinsic"
   },
   {
     "mode": "REQUIRED",
     "name": "method",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Method of extrinsic pallet/section"
   },
   {
-    "mode": "",
+    "mode": "NULLABLE",
     "name": "params",
-    "type": "JSON"
+    "type": "JSON",
+    "description": "Parameters of extrinsic"
   },
   {
     "mode": "NULLABLE",
     "name": "fee",
-    "type": "FLOAT"
+    "type": "FLOAT",
+    "description": "Fee of extrinsic"
   },
   {
     "mode": "NULLABLE",
     "name": "weight",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Extrinsic weight (if available)"
   },
   {
     "mode": "NULLABLE",
     "name": "signed",
-    "type": "BOOLEAN"
+    "type": "BOOLEAN",
+    "description": "Whether extrinsic has been signed (true) or not (false)"
   },
   {
     "mode": "NULLABLE",
     "name": "signer_ss58",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "SS58 Address of Signer of extrinsic, if signed"
   },
   {
     "mode": "NULLABLE",
     "name": "signer_pub_key",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Pub key of Signer of extrinsic"
   }
 ]
 

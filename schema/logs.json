@@ -2,26 +2,31 @@
   {
     "mode": "REQUIRED",
     "name": "log_id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Log ID of the form '{blocknumber}-{logIndex}'"
   },
   {
     "mode": "REQUIRED",
     "name": "block_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Block hash of the block for the Log ID"
   },
   {
     "mode": "REQUIRED",
     "name": "block_time",
-    "type": "TIMESTAMP"
+    "type": "TIMESTAMP",
+    "description": "Block time of the block for the Log ID"
   },
   {
     "mode": "REQUIRED",
     "name": "block_number",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Block number of the block for the Log ID"
   },
   {
     "mode": "REQUIRED",
     "name": "log",
-    "type": "JSON"
+    "type": "JSON",
+    "description": "Raw Log data in JSON form"
   }
 ]

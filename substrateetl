@@ -6,7 +6,7 @@ const fs = require('fs');
 
 
 class SubstrateETL {
-    project = "us-west1-wlk";
+    project = "substrate-etl";
 
     async execute_bqJob(sqlQuery, fn = false) {
 	// run bigquery job with suitable credentials

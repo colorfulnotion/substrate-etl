@@ -2,26 +2,31 @@
   {
     "mode": "REQUIRED",
     "name": "para_id",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Para ID of the parachain, or 0 if the chain is the relay chain"
   },
   {
     "mode": "REQUIRED",
     "name": "id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "String representation of the chain, in lowercase without spaces, suitable for subdomains"
   },
   {
     "mode": "REQUIRED",
     "name": "chain_name",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "String representation of the chain, in mixed case potentially with spaces, suitable for display"
   },
   {
     "mode": "REQUIRED",
     "name": "ss58_prefix",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "SS58 Prefix used for SS58 Encoded addresses"
   },
   {
     "mode": "REQUIRED",
     "name": "symbol",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Primary native token of the chain"
   }
 ]

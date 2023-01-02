@@ -2,46 +2,55 @@
   {
     "mode": "REQUIRED",
     "name": "event_id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Event ID of the event ('blocknumber-extrinsicIndex-eventIdx')"
   },
   {
     "mode": "REQUIRED",
     "name": "section",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Event section of the event"
   },
   {
     "mode": "REQUIRED",
     "name": "method",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Event method of the event"
   },
   {
     "mode": "REQUIRED",
     "name": "data",
-    "type": "JSON"
+    "type": "JSON",
+    "description": "JSON data of the event"
   },
   {
     "mode": "REQUIRED",
     "name": "extrinsic_id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Extrinsic ID of the extrinsic that includes this event"
   },
   {
     "mode": "REQUIRED",
     "name": "extrinsic_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Extrinsic hash of the extrinsic that includes this event"
   },
   {
     "mode": "REQUIRED",
     "name": "block_time",
-    "type": "TIMESTAMP"
+    "type": "TIMESTAMP",
+    "description": "Block time (unix time) of the block that includes this event"
   },
   {
     "mode": "REQUIRED",
     "name": "block_number",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Block number of the block that includes this event"
   },
   {
     "mode": "REQUIRED",
     "name": "block_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Block hash of the block that includes this event"
   }
 ]

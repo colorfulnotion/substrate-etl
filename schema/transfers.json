@@ -2,96 +2,115 @@
   {
     "mode": "REQUIRED",
     "name": "event_id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Event ID for the transfer"
   },
   {
     "mode": "REQUIRED",
     "name": "section",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Section/Pallet for the event"
   },
   {
     "mode": "REQUIRED",
     "name": "method",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Event method"
   },
   {
     "mode": "REQUIRED",
     "name": "extrinsic_id",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Extrinsic ID of the extrinsic which includes the event"
   },
   {
     "mode": "REQUIRED",
     "name": "extrinsic_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Extrinsic Hash of the extrinsic which includes the event"
   },
   {
     "mode": "REQUIRED",
     "name": "block_time",
-    "type": "TIMESTAMP"
+    "type": "TIMESTAMP",
+    "description": "Block time of the block which includes the event"
   },
   {
     "mode": "REQUIRED",
     "name": "block_number",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Block number of the block which includes the event"
   },
   {
     "mode": "REQUIRED",
     "name": "block_hash",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Block hash of the block which includes the event"
   },
   {
     "mode": "REQUIRED",
     "name": "from_ss58",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "SS58 Encoded address of the origin of the transfer"
   },
   {
     "mode": "REQUIRED",
     "name": "from_pub_key",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Pub key of the origin of the transfer"
   },
   {
     "mode": "REQUIRED",
     "name": "to_ss58",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "SS58 Encoded address of the recipient of the transfer"
   },
   {
     "mode": "REQUIRED",
     "name": "to_pub_key",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Pub key of the recipient of the transfer"
   },
   {
     "mode": "NULLABLE",
     "name": "asset",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "String representation of the transfer"
   },
   {
     "mode": "NULLABLE",
     "name": "price_usd",
-    "type": "FLOAT"
+    "type": "FLOAT",
+    "description": "Estimated USD value of 1 token of the transfer"
   },
   {
     "mode": "NULLABLE",
     "name": "amount_usd",
-    "type": "FLOAT"
+    "type": "FLOAT",
+    "description": "Estimated value of the transfer in USD"
   },
   {
     "mode": "NULLABLE",
     "name": "symbol",
-    "type": "STRING"
+    "type": "STRING",
+    "description": "Symbol of the asset, if available"
   },
   {
     "mode": "NULLABLE",
     "name": "decimals",
-    "type": "INTEGER"
+    "type": "INTEGER",
+    "description": "Decimals of the asset, if available"
   },
   {
     "mode": "NULLABLE",
     "name": "amount",
-    "type": "FLOAT"
+    "type": "FLOAT",
+    "description": "Decimalized version of the asset"
   },
   {
     "mode": "REQUIRED",
     "name": "raw_amount",
-    "type": "NUMERIC"
+    "type": "NUMERIC",
+    "description": "Raw (non-decimalized) version of the amount of the asset being transferred"
   }
 ]
