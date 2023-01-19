@@ -1,74 +1,212 @@
 [
   {
-    "mode": "REQUIRED",
-    "name": "extrinsic_hash",
-    "type": "STRING",
-    "description": "Extrinsic Hash of the XCM Transfer"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "extrinsic_id",
-    "type": "STRING",
-    "description": "Extrinsic ID of the XCM Transfer"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "transfer_index",
-    "type": "INTEGER",
-    "description": "If the extrinsic contains multiple XCM transfer, this is an zero-based index into the multiple xcm transfers"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "xcm_index",
-    "type": "INTEGER",
-    "description": "If there are multiple assets in a XCM transfer, this is zero-based index into the multiple assets"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "para_id",
-    "type": "INTEGER",
-    "description": "Sending  ParaID -- if 0, then the origin chain is the relay chain"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "para_id_dest",
-    "type": "INTEGER",
-    "description": "Destination ParaID -- if 0, then the destination chain is the relay chain"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "block_time",
-    "type": "TIMESTAMP",
-    "description": "Block time of the block that contains the extrinsic"
-  },
-  {
     "mode": "NULLABLE",
     "name": "symbol",
-    "type": "STRING",
-    "description": "Symbol for asset being transferred"
+    "type": "STRING"
   },
   {
     "mode": "NULLABLE",
     "name": "price_usd",
-    "type": "FLOAT",
-    "description": "Value in USD of 1 token of the asset being transferred"
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_ts",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_chain_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_extrinsic_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_extrinsic_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_transfer_index",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_xcm_index",
+    "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "amount_sent_usd",
-    "type": "FLOAT",
-    "description": "Total value in USD of the asset being transferred"
+    "name": "origination_transaction_hash",
+    "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "amount_received_usd",
-    "type": "FLOAT",
-    "description": "Total value in USD of the asset received"
+    "name": "origination_msg_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "origination_is_msg_sent",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_block_number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_para_id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_section",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_method",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_sender_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_sender_pub_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "origination_amount_sent",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "origination_amount_sent_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_tx_fee",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_tx_fee_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_tx_fee_symbol",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "origination_is_fee_item",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "origination_sent_at",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "destination_execution_status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_chain_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_para_id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_beneficiary_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_beneficiary_pub_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_extrinsic_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_event_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_block_number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_ts",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_amount_received",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_amount_received_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_teleport_fee",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_teleport_fee_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_teleport_fee_symbol",
+    "type": "STRING"
   },
   {
     "mode": "REQUIRED",
     "name": "xcm_info",
-    "type": "JSON",
-    "description": "Data structure containing organized information of the origination and destination chain"
+    "type": "JSON"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "xcm_info_last_update_time",
+    "type": "TIMESTAMP"
   }
 ]

@@ -1,7 +1,7 @@
 
 # Substrate ETL
 
-***NOTE: As of January 2023, this is under active development.  Data is only available for December 2022.***
+***NOTE: As of January 2023, this is under active development.  Sample Data is available for all chains but is in the process of being made complete until 2022.  See [this blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9)***
 
 Using Substrate ETL, users can query Polkadot and Kusama networks for
 large scale analysis data of blocks, extrinsics, events, traces, logs,
