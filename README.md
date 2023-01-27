@@ -1,10 +1,11 @@
 
 # Substrate ETL
 
-***NOTE: As of January 2023, this is under active development.  Sample Data is available for all chains but is in the process of being made complete until 2022.  See [this blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9)***
+***NOTE: As of January 2023, this is under active development.  Sample Data is available for all chains but is in the process of being made complete until 2022.
+See [this blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9)***
 
 Using Substrate ETL, users can query Polkadot and Kusama networks for
-large scale analysis data of blocks, extrinsics, events, traces, logs,
+large scale analysis data of blocks, extrinsics, events, balances, logs,
 transfers and xcmtransfers.  Substrate ETL relies on Colorful Notion's
 [Polkaholic.io indexer dump](https://github.com/colorfulnotion/polkaholic/blob/main/substrate/dumpSubstrateETL)
 of Polkadot + Kusama networks into public Google BigQuery datasets
@@ -80,7 +81,7 @@ select * from `substrate-etl.polkadot.xcmtransfers` where DATE(block_time) >= "2
     - [blocks.json](#blocksjson)
     - [events.json](#eventsjson)
     - [extrinsics.json](#extrinsicsjson)
-    - [traces.json](#tracesjson)
+    - [balances.json](#balancesjson)
     - [transfers.json](#transfersjson)
     - [logs.json](#logsjson)
     - [xcmtransfers.json](#xcmtransfersjson)
@@ -208,20 +209,28 @@ decimals                | int8                  | INTEGER |
 amount                  | float                 | FLOAT64 |
 raw_amount              | bigint                | INTEGER |
 
-### traces.json
+### balances.json
 
-* [traces.json BigQuery Schema](https://github.com/colorfulnotion/substrate-etl/tree/main/schema/traces.json)
+* [balances.json BigQuery Schema](https://github.com/colorfulnotion/substrate-etl/tree/main/schema/balances.json)
 
 Field                   | Type                  | BigQuery Type         |
 ------------------------|-----------------------|-----------------------|
-block_number            | bigint                | INTEGER               |
-trace_id                | string                | STRING                |
-k                       | hex_string            | STRING |
-v                       | hex_string            | STRING |
-section                 | string                | STRING |
-storage                 | string                | STRING |
-pk_extra                | JSON                  | JSON |
-pv                      | JSON                  | JSON | 
+symbol                  | string                | STRING                |
+address_ss58            | string                | STRING                |
+address_pubkey          | string                | STRING                |
+ts                      | bigint                | TIMESTAMP             |
+id                      | string                | STRING  |
+chain_name              | string                | STRING  |
+para_id                 | int                   | INTEGER |
+free                    | bigint                | FLOAT |
+free_usd                | float                 | FLOAT |
+reserved                | float                 | FLOAT |
+reserved_usd            | float                 | FLOAT |
+misc_frozen             | float                 | FLOAT |
+misc_frozen_usd         | float                 | FLOAT |
+frozen                  | float                 | FLOAT |
+frozen_usd              | float                 | FLOAT |
+
 
 ### specversions.json
 
@@ -241,23 +250,53 @@ spec                    | JSON                  | JSON  |
 
 Field                   | Type                  | BigQuery Type         |
 ------------------------|-----------------------|-----------------------|
-extrinsic_hash          | hex_string            | STRING |
-extrinsic_id            | bigint                | INTEGER |
-transfer_index          | bigint                | INTEGER               |
-xcm_index               | bigint                | INTEGER               |
-para_id                 | bigint                | INTEGER               |
-para_id_dest            | bigint                | INTEGER               |
-block_time              | bigint                | TIMESTAMP |
-symbol                  | string                | STRING |
-price_usd               | float                 | FLOAT |
-amount_sent_usd         | float                 | FLOAT |
-amount_received_usd     | float                 | FLOAT |
-xcm_info                | JSON                  | JSON  |
+symbol             | string            | STRING |
+price_usd          | float            | FLOAT |
+origination_ts     | bigint                | TIMESTAMP |
+origination_chain_name  | string            | STRING |
+origination_id          | string            | STRING |
+origination_extrinsic_hash          | hex_string            | STRING |
+origination_extrinsic_id            | string                | STRING |
+origination_transfer_index          | bigint                | INTEGER               |
+origination_xcm_index               | bigint                | INTEGER               |
+origination_transaction_hash        | hex_string            | STRING               |
+origination_msg_hash                | hex_string            | STRING           |
+origination_is_msg_sent             | boolean               | BOOLEAN           |
+origination_block_number            | bigintn               | INTEGER          |
+origination_section                 | string                | STRING |
+origination_method                  | string                | STRING |
+origination_para_id                 | bigint                | INTEGER               |
+origination_sender_ss58             | string                | STRING               |
+origination_sender_pub_key          | string                | STRING               |
+destination_para_id                 | bigint                | INTEGER               |
+origination_amount_sent             | float                 | FLOAT |
+origination_amount_sent_usd         | float                 | FLOAT |
+origination_tx_fee                  | float                 | FLOAT |
+origination_tx_fee_usd      | float                 | FLOAT |
+origination_tx_fee_symbol   | string                 | STRING |
+origination_is_fee_item     | boolean                 | BOOLEAN |
+origination_sent_at         | bigint                 | INTEGER |
+destination_execution_status     | string                 | STRING |
+destination_chain_name           | string                 | STRING |
+destination_para_id              | integer                 |INTEGER |
+destination_beneficiary_ss58     | string                 | STRING |
+destination_beneficiary_pub_key  | string                 | STRING |
+destination_extrinsic_id         | string                 | STRING |
+destination_event_id             | string                 | STRING |
+destination_block_number         | bigint                 | INTEGER |
+destination_ts                   | bigint                 | TIMESTAMP |
+destination_amount_received      | float                 | FLOAT |
+destination_amount_received_usd  | float                 | FLOAT |
+destination_teleport_fee         | float                 | FLOAT |
+destination_teleport_fee_usd     | float                 | FLOAT |
+destination_teleport_fee_symbol  | string                | STRING |
+xcm_info                         | JSON                  | JSON  |
+xcm_info_last_update_time        | bigint                  | TIMESTAMP  |
 
 **Notes**:
-1. relay_chain_block_number only available as of December 2022
 
-1. parses of trace "k" (in `pk_extra`) and "v" (in `pv`) are best effort
+See [this blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9)
+for a tutorial with representative queries covering the above.
 
 
 ### Command Reference
