@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var Reporter = require("./reporter");
+
+async function main() {
+    let manager = new Reporter();
+    await manager.generateNetworksSummary();
+}
+
+main()
+    .then(() => {
+        process.exit(0);
+    })
+    .catch((e) => {
+        console.error('ERROR', e);
+        process.exit(1);
+    });
+
+

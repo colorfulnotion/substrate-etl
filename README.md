@@ -1,7 +1,7 @@
 
 # Substrate ETL
 
-***NOTE: As of February 2023, this is under active development.***
+***Status: As of February 2023, this is under active development, but we welcome feedback.***
 
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,
@@ -13,7 +13,6 @@ of Polkadot + Kusama networks into public Google BigQuery datasets
 Network Summary: (All-time, Monthly, Daily)
 * [Polkadot](/polkadot)
 * [Kusama](/kusama)
-* [Both](/SUMMARY.md)
 
 Included in each summary are sample queries.  See also this [XCM Transfers blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9)
 
@@ -377,7 +376,6 @@ Options:
   --end-block <endblock>          End block
   --blocks-output <output>        The output file for blocks. If not provided blocks data will not be exported.
   --extrinsics-output <output>    The output file for extrinsics. If not provided extrinsics data will not be exported.
-  --traces-output <output>        The output file for traces. If not provided traces data will not be exported.
   --events-output <output>        The output file for events. If not provided events data will not be exported.
   --logs-output <output>          The output file for logs. If not provided logs data will not be exported.
   --transfers-output <output>     The output file for logs. If not provided transfers data will not be exported.
@@ -392,13 +390,12 @@ Example:
   --blocks-output blocks.json \
   --extrinsics-output extrinsics.json \
   --events-output events.json \
-  --traces-output traces.json \
   --logs-output logs.json \
   --transfers-output transfers.json \
   --specversions-output specversions.json
 ```
 
-Omit `--blocks-output`, `--extrinsics-output`, `--traces-output`, `--events-output`, etc. options if you want to export particular sets of data.
+Omit `--blocks-output`, `--extrinsics-output`, `--events-output`, etc. options if you want to export particular sets of data.
 
 #### xcmtransfers
 
@@ -441,10 +438,8 @@ Datasets:
 * `kusama`
 
 Tables: (replace `{paraid}` with a specific paraid, e.g. `2000` for `acala`)
-* `chains`  (system)
 * `blocks{paraid}`
 * `extrinsics{paraid}`
-* `traces{paraid}`
 * `transfers{paraid}`
 * `events{paraid}`
 * `logs{paraid}`
@@ -458,17 +453,34 @@ Notes:
 * All tables are date partitioned, to support low cost, high speed scans, with the exception of `chains` and `specversions{paraid}`
 * If a parachain has a renewal, the first paraid is used for subsequent renewals.
 
+### Reporting / Missing data
+
+Generally the data is complete as can be, but the sole data source is the Polkaholic.io indexer.  
+
+From this single source the primary causes of missing data stem from:
+* Chains that do not provide a public node.  Most of the time, there are new with very little actual activity.  
+* Chains that have a public node, but these nodes are not _archive_ nodes
+* Chains that are being onboarded.
+* Some blocks fail decoding due to chain halting, missing APIs with type.
+
+A daily/hourly github actions process summarizes the state of the index for:
+* [polkadot](/polkadot)
+* [kusama](/kusama)
+and for every single chain that is being indexed.
+
+See the **Crawling Status** column for chains with systemic issues, and the **# Missing** column for blocks that are missing
 
 
 ### Design choices:
 
-* At present, the sole data source is the Polkaholic.io indexer.  Data is limited to December 2022 data but will have increasing larger archive, then loaded in daily to hourly, and potentially streamed in real-time. 
 * All temporal BigQuery datasets are date-partitioned and split into multiple tables by {paraId} to enable low-cost low-latency BigQuery scans for specific date, parachain combinations. Timestamped data use BigQuery TIMESTAMP date types.
 * Addresses are provided in “public key” (signer_pub_key) and SS58 Address (signer_ss58) form to support multi-chain queries with wild card table selection eg`select * from polkadot.extrinsics* where signer_pub_key='<pubkey>' ` aggregates multi-chain transactional history for a given account. 
-* When assets are mentioned (transfers, xcmtransfers), we “decimalize” the output and include basic USD price valuation if possible
-Trace support is unavailable for some chains because the chain does not publish an compilable open source repo with bootnodes.
+* When assets are mentioned (transfers, xcmtransfers), we “decimalize” the output and include basic USD price valuation if possible.
+* EVM Transaction / Transfers support is under active development 
 
 ### Contributions
 
-Contributions are welcome.  Contributors will be invited to a dedicated Telegram group and are held to the [Polkadot communities' Code of Conduct](https://github.com/paritytech/polkadot/blob/master/CODE_OF_CONDUCT.md).
+Contributions are welcome.  Contributors will be invited to a
+dedicated Telegram group and are held to the [Polkadot communities'
+Code of Conduct](https://github.com/paritytech/polkadot/blob/master/CODE_OF_CONDUCT.md).
 

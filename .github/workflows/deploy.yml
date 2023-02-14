@@ -1,0 +1,47 @@
+name: substrate-etl Report Generation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/deploy.yml
+      - reporter.js
+      - generateNetworksSummary
+  schedule:
+    - cron: '30 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        node-version: [17.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use node js
+        uses: actions/setup-node@v2
+        with:
+         node-version: ${{ matrix.node-version }}
+      - name: Install dependencies
+        run: npm install
+      - name: substrate-etl Report Generation
+        run: node generateNetworksSummary
+      - name: Configure Git Client
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+      - name: Set timestamp
+        run: |
+          echo "CURRENT_TIMESTAMP=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_ENV
+      - name: Commit changes to substrate-etl
+        run: |
+          git add polkadot/* && \
+          git add kusama/* && \
+          git commit -m "[Auto] Substrate-etl Summary (${{ env.CURRENT_TIMESTAMP }})" || echo "No changes to commit"
+      - name: Push changes to substrate-etl
+        run: git push origin $BRANCH_NAME
+        env:
+          BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
