@@ -1,0 +1,129 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "nonce",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "transaction_index",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "from_address",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "to_address",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "value",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "value_usd",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "gas_price",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "input",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "receipt_gas_used",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "receipt_contract_address",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "receipt_status",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "block_number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "block_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "fee",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "burned_fee",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "gas_limit",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "base_fee_per_gas",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "extrinsic_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "transaction_type",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "method_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "signature",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "params",
+    "type": "JSON"
+  }
+]
+
+
