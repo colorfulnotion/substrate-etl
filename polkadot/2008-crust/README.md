@@ -4,7 +4,7 @@ _Source_: [crust.polkaholic.io](https://crust.polkaholic.io)
 
 *Relay Chain*: polkadot
 *Para ID*: 2008
-Status: Only partial index available: Onboarding
+
 
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |

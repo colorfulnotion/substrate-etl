@@ -4,7 +4,7 @@ _Source_: [tanganika.polkaholic.io](https://tanganika.polkaholic.io)
 
 *Relay Chain*: kusama
 *Para ID*: 2116
-Status: Only partially index: No archive node available.
+Status: Only partial index available: Archive node unavailable
 
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |

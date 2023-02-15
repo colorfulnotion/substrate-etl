@@ -4,7 +4,7 @@ _Source_: [encointer.polkaholic.io](https://encointer.polkaholic.io)
 
 *Relay Chain*: kusama
 *Para ID*: 1001
-Status: Only partially indexed: Old decoding errors
+Status: Only partial index available: Old Decoding issues
 
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |

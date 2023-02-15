@@ -4,7 +4,7 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 
 *Relay Chain*: kusama
 *Para ID*: 2110
-Status: Only partial index available: Reindexing
+Status: Only partial index available: Onboarding
 
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |

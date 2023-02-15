@@ -4,7 +4,7 @@ _Source_: [tinkernet.polkaholic.io](https://tinkernet.polkaholic.io)
 
 *Relay Chain*: kusama
 *Para ID*: 2125
-Status: Only partial index available: Onboarding
+
 
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
