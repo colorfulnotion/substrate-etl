@@ -9,7 +9,7 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-15](/polkadot/1000-statemint/2023-02-28.md) | 3,114,475 | 3,214,640 | 100,166 | none  | 380 | 11 | 533 | - | 
+| [2023-02-01 to 2023-02-15](/polkadot/1000-statemint/2023-02-28.md) | 3,114,475 | 3,217,800 | 103,326 | none  | 386 | 11 | 533 | - | 
 | [2023-01-01 to 2023-01-31](/polkadot/1000-statemint/2023-01-31.md) | 2,893,961 | 3,114,474 | 220,514 | none  | 468 | 8 | 471 | - | 
 | [2022-12-01 to 2022-12-31](/polkadot/1000-statemint/2022-12-31.md) | 2,675,090 | 2,893,960 | 218,871 | none  | 406 | 6 | 389 | - | 
 | [2022-11-01 to 2022-11-30](/polkadot/1000-statemint/2022-11-30.md) | 2,461,314 | 2,675,089 | 213,776 | none  | 712 | 8 | 318 | - | 
