@@ -1,9 +1,9 @@
-# substrate-etl Network Coverage (All-time)
+# substrate-etl Summary (All-time, All Networks)
 
 Source: [Polkaholic.io](https://polkaholic.io)
 
 
-| Chain            | End Date | # Chains | # Blocks  | # Missing |
-| ---------------- | -------- | -------- | --------- | --------- |
-| [polkadot](/substrate-etl/polkadot) | 2023-02-14 | 29 indexed out of 32 | 63,222,360 | 428,255 (0.68%) |
-| [kusama](/substrate-etl/kusama) | 2023-02-14 | 40 indexed out of 40 | 90,965,319 | 5,238,075 (5.76%) |
+| Network          | Indexed up until | # Chains Indexed | # Chains Not Indexed | # Blocks Across Network   | # Blocks Missing |
+| ---------------- | ---------------- | ---------------- | -------------------- | ------------------------- | ---------------- |
+| [polkadot](polkadot) | 2023-02-15 | 29 | 3 | 63,543,738 | 428,172 |
+| [kusama](kusama) | 2023-02-15 | 40 | 0 | 93,866,263 | 2,457,307 |
