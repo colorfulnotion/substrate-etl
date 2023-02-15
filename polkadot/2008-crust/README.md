@@ -9,7 +9,7 @@ Status: Only partial index available: Onboarding
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-14](/polkadot/2008-crust/2023-02-28.md) | 504,230 | 595,989 | 91,760 | none  |  |  | 985 | - | 
+| [2023-02-01 to 2023-02-15](/polkadot/2008-crust/2023-02-28.md) | 504,230 | 603,551 | 99,322 | none  |  |  | 985 | - | 
 | [2023-01-01 to 2023-01-31](/polkadot/2008-crust/2023-01-31.md) | 285,366 | 504,229 | 218,736 | 128 (0.06%) |  |  | 974 | - | 
 | [2022-12-01 to 2022-12-31](/polkadot/2008-crust/2022-12-31.md) | 67,183 | 285,365 | 218,183 | none  |  |  | 9 | - | 
 | [2022-11-21 to 2022-11-30](/polkadot/2008-crust/2022-11-30.md) | 1 | 67,182 | 67,182 | none  |  |  | 9 | - | 
