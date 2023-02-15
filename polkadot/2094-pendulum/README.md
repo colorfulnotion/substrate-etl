@@ -4,12 +4,12 @@ _Source_: [pendulum.polkaholic.io](https://pendulum.polkaholic.io)
 
 *Relay Chain*: polkadot
 *Para ID*: 2094
-Status: Only partial index available: Onboarding
+
 
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-13 to 2023-02-15](/polkadot/2094-pendulum/2023-02-28.md) | 3,248 | 6,227 | 2,846 | 134 (4.50%) |  |  |  | - | 
+| [2023-02-13 to 2023-02-15](/polkadot/2094-pendulum/2023-02-28.md) | 1 | 6,560 | 6,560 | none  | 16 | 2 |  | - | 
 
 ## # Blocks
 ```
