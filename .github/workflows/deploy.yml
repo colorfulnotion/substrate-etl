@@ -38,8 +38,7 @@ jobs:
           echo "CURRENT_TIMESTAMP=$(date +'%Y-%m-%d %H:%M')" >> $GITHUB_ENV
       - name: Commit changes to substrate-etl
         run: |
-          git add --all polkadot/* && \
-          git add --all kusama/* && \
+          git add --all SUMMARY.md kusama/* polkadot/* && \
           git commit -m "[Auto] Substrate-etl Summary (${{ env.CURRENT_TIMESTAMP }})" || echo "No changes to commit"
       - name: Push changes to substrate-etl
         run: git push origin $BRANCH_NAME
