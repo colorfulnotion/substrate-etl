@@ -67,7 +67,7 @@ module.exports = class Reporter {
 	    let numChains_missing = rc.missing ? rc.missing.length : 0;
 	    let numBlocks_total = rc.numBlocks_total ? rc.numBlocks_total.toLocaleString('en-US') : "";
 	    let numBlocks_missing = rc.numBlocks_missing ? rc.numBlocks_missing.toLocaleString('en-US') : "";
-	    summary.push(`| [${rc.relayChain}](/${rc.relayChain}) | ${rc.endDT} | ${rc.numChains} | ${numChains_missing} | ${numBlocks_total} | ${numBlocks_missing} |`);
+	    summary.push(`| [${rc.relayChain}](${rc.relayChain}) | ${rc.endDT} | ${rc.numChains} | ${numChains_missing} | ${numBlocks_total} | ${numBlocks_missing} |`);
 	    if ( rc.missing ) {
 		o[relayChain].push(`\r\n## Missing chains\r\n\r\n`);
 		if ( numBlocks_missing > 0 ) {
