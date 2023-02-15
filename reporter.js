@@ -35,6 +35,10 @@ module.exports = class Reporter {
 	let polkaholic = JSON.parse(stdout);
 	let chains = {};
 	let o = {};
+	let summary = [];
+	summary.push(`# substrate-etl Summary (All-time, All Networks)\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\n\r\n`);
+	summary.push(`| Network          | Indexed up until | # Chains Indexed | # Chains Not Indexed | # Blocks Across Network   | # Blocks Missing |`);
+	summary.push(`| ---------------- | ---------------- | ---------------- | -------------------- | ------------------------- | ---------------- |`);
 	for (const relayChain of Object.keys(polkaholic)) {
             if (o[relayChain] == undefined) {
 		o[relayChain] = [];
@@ -43,7 +47,7 @@ module.exports = class Reporter {
 		o[relayChain].push(`| ---------------- | ---------- | ---------| ----------- | --------- | -------- | --------- | ------------------------- | --------------- |`);
             }
 	    let rc = polkaholic[relayChain]
-            for ( const r of polkaholic[relayChain].chains ) {
+            for ( const r of rc.chains ) {
 		let desc = `[${r.chainName} Para ID ${r.paraID}](/${relayChain}/${r.paraID}-${r.id})`
 		let startDT = r.startDT ? r.startDT : "";
 		let endDT = r.endDT ? r.endDT : "";
@@ -60,21 +64,26 @@ module.exports = class Reporter {
 		r.relayChain = relayChain;
 		chains[r.chainID] = r;
 	    }
+	    let numChains_missing = rc.missing ? rc.missing.length : 0;
+	    let numBlocks_total = rc.numBlocks_total ? rc.numBlocks_total.toLocaleString('en-US') : "";
+	    let numBlocks_missing = rc.numBlocks_missing ? rc.numBlocks_missing.toLocaleString('en-US') : "";
+	    summary.push(`| [${rc.relayChain}](/${rc.relayChain}) | ${rc.endDT} | ${rc.numChains} | ${numChains_missing} | ${numBlocks_total} | ${numBlocks_missing} |`);
+	    if ( rc.missing ) {
+		o[relayChain].push(`\r\n## Missing chains\r\n\r\n`);
+		if ( numBlocks_missing > 0 ) {
+		    for (const c of rc.missing) {
+			o[relayChain].push(`* *${c.chainName}* Para ID ${c.paraID}; ${c.crawlingStatus}`);
+		    }
+		} else {
+		    o[relayChain].push(`None`);
+		}
+	    }
 	}
     
-	for (const chainID of Object.keys(chains)) {
-            if (chains[chainID] == undefined) {
-		let c = chains[chainID];
-		let desc = c.crawling > 0 ? "active and onboarding" : "active but not being indexed";
-		o[c.relayChain].push(`* *${c.chainName}* Para ID ${desc}; ${c.crawlingStatus}`);
-            }
-	}
-	/*
-        let fn = path.join(dir, `README.md`);
+        let fn = path.join(dir, `SUMMARY.md`);
         let f = fs.openSync(fn, 'w', 0o666);
-        fs.writeSync(f, s.join(NL) + NL);
+        fs.writeSync(f, summary.join(NL) + NL);
         console.log("generated", fn);
-	*/
 
         for (const relayChain of Object.keys(o)) {
             let fn = path.join(dir, relayChain, `README.md`);

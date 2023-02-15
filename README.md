@@ -13,6 +13,7 @@ of Polkadot + Kusama networks into public Google BigQuery datasets
 Network Summary: (All-time, Monthly, Daily)
 * [Polkadot](/polkadot)
 * [Kusama](/kusama)
+* [All Networks (Polkadot+Kusama)](SUMMARY.md)
 
 Included in each summary are sample queries.  See also this [XCM Transfers blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9)
 
