@@ -9,7 +9,7 @@ _Source_: [frequency.polkaholic.io](https://frequency.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-16](/polkadot/2091-frequency/2023-02-28.md) | 450,021 | 557,981 | 107,597 | 364 (0.34%) | 30 | 1 | 27 | - | 
+| [2023-02-01 to 2023-02-16](/polkadot/2091-frequency/2023-02-28.md) | 450,021 | 558,311 | 107,927 | 364 (0.34%) | 30 | 1 | 27 | - | 
 | [2023-01-01 to 2023-01-31](/polkadot/2091-frequency/2023-01-31.md) | 233,132 | 450,020 | 216,889 | none  | 15 |  | 27 | - | 
 | [2022-12-01 to 2022-12-31](/polkadot/2091-frequency/2022-12-31.md) | 11,895 | 233,131 | 221,237 | none  |  |  | 27 | - | 
 | [2022-11-29 to 2022-11-30](/polkadot/2091-frequency/2022-11-30.md) | 1 | 11,894 | 11,894 | none  |  |  | 27 | - | 
