@@ -9,7 +9,7 @@ _Source_: [tinkernet.polkaholic.io](https://tinkernet.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-16](/kusama/2125-tinkernet/2023-02-28.md) | 1,097,041 | 1,190,443 | 93,403 | none  | 5,108 | 237 | 8,055 | - | 
+| [2023-02-01 to 2023-02-16](/kusama/2125-tinkernet/2023-02-28.md) | 1,097,041 | 1,191,110 | 94,070 | none  | 5,111 | 237 | 8,055 | - | 
 | [2023-01-01 to 2023-01-31](/kusama/2125-tinkernet/2023-01-31.md) | 900,714 | 1,097,040 | 196,327 | none  | 1,015 | 20 | 1,861 | - | 
 | [2022-12-01 to 2022-12-31](/kusama/2125-tinkernet/2022-12-31.md) | 710,911 | 900,713 | 189,803 | none  | 440 | 12 | 1,808 | - | 
 | [2022-11-01 to 2022-11-30](/kusama/2125-tinkernet/2022-11-30.md) | 515,885 | 710,910 | 195,026 | none  | 647 | 15 | 1,793 | - | 
