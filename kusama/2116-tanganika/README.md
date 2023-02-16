@@ -9,7 +9,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-08 to 2023-02-16](/kusama/2116-tanganika/2023-02-28.md) | 1,401,932 | 1,457,103 | 55,172 | none  | 783 | 54 |  | - | 
+| [2023-02-08 to 2023-02-16](/kusama/2116-tanganika/2023-02-28.md) | 1,401,932 | 1,457,773 | 55,842 | none  | 783 | 54 |  | - | 
 | [2023-01-23 to 2023-01-24](/kusama/2116-tanganika/2023-01-31.md) | 1,283,096 | 1,296,404 | 13,309 |  **BROKEN**  | 149 | 46 |  | - | 
 | [2022-12-01 to 2022-12-13](/kusama/2116-tanganika/2022-12-31.md) | 935,791 | 1,009,889 | 74,036 |  **BROKEN** (0.09%) | 1,090 | 48 | 3,213 | - | 
 | [2022-11-01 to 2022-11-30](/kusama/2116-tanganika/2022-11-30.md) | 770,800 | 935,790 | 162,603 | 2,388 (1.45%) | 2,504 | 44 | 3,057 | - | 
