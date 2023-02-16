@@ -70,7 +70,7 @@ module.exports = class Reporter {
 	    summary.push(`| [${rc.relayChain}](${rc.relayChain}) | ${rc.endDT} | ${rc.numChains} | ${numChains_missing} | ${numBlocks_total} | ${numBlocks_missing} |`);
 	    if ( rc.missing ) {
 		o[relayChain].push(`\r\n## Missing chains\r\n\r\n`);
-		if ( numBlocks_missing > 0 ) {
+		if ( numChains_missing > 0 ) {
 		    for (const c of rc.missing) {
 			o[relayChain].push(`* *${c.chainName}* Para ID ${c.paraID}; ${c.crawlingStatus}`);
 		    }
