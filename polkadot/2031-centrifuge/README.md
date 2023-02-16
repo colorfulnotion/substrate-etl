@@ -9,7 +9,7 @@ _Source_: [centrifuge.polkaholic.io](https://centrifuge.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-16](/polkadot/2031-centrifuge/2023-02-28.md) | 2,229,646 | 2,339,331 | 109,686 | none  | 4,535 | 118 | 44,439 | - | 
+| [2023-02-01 to 2023-02-16](/polkadot/2031-centrifuge/2023-02-28.md) | 2,229,646 | 2,339,974 | 110,329 | none  | 4,638 | 119 | 44,439 | - | 
 | [2023-01-01 to 2023-01-31](/polkadot/2031-centrifuge/2023-01-31.md) | 2,009,160 | 2,229,645 | 220,486 | none  | 8,263 | 113 | 44,248 | - | 
 | [2022-12-01 to 2022-12-31](/polkadot/2031-centrifuge/2022-12-31.md) | 1,789,038 | 2,009,159 | 220,122 | none  | 5,453 | 73 | 43,855 | - | 
 | [2022-11-01 to 2022-11-30](/polkadot/2031-centrifuge/2022-11-30.md) | 1,575,642 | 1,789,037 | 213,396 | none  | 8,626 | 103 | 43,649 | - | 

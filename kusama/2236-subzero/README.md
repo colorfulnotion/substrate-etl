@@ -9,7 +9,7 @@ Status: Only partial index available: Onboarding
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-16](/kusama/2236-subzero/2023-02-28.md) | 341,779 | 449,787 | 108,009 | none  |  |  | 9 | - | 
+| [2023-02-01 to 2023-02-16](/kusama/2236-subzero/2023-02-28.md) | 341,779 | 450,170 | 108,392 | none  |  |  | 9 | - | 
 | [2023-01-01 to 2023-01-31](/kusama/2236-subzero/2023-01-31.md) | 127,025 | 341,778 | 214,754 | none  |  |  | 9 | - | 
 | [2022-12-13 to 2022-12-31](/kusama/2236-subzero/2022-12-31.md) | 1 | 127,024 | 127,024 | none  |  |  | 9 | - | 
 
