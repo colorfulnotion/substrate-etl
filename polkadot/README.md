@@ -5,36 +5,36 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | Start Block | End Block | # Blocks | # Missing | # Addresses with Balances | Crawling Status |
 | ---------------- | ---------- | ---------| ----------- | --------- | -------- | --------- | ------------------------- | --------------- |
-| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2023-02-16 | 1 | 14,273,460 | 14,273,460 |   | 1,135,572 |  |
-| [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-02-16 | 1 | 3,225,196 | 3,225,196 |   | 509 |  |
+| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2023-02-16 | 1 | 14,274,524 | 14,274,524 |   | 1,135,572 |  |
+| [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-02-16 | 1 | 3,225,584 | 3,225,584 |   | 509 |  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-02-16 | 1 | 621,432 | 621,432 |   | 18 |  |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-02-16 | 1 | 2,959,739 | 2,959,739 |   | 167,843 |  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-02-16 | 1 | 2,873,765 | 2,873,765 |   | 4,078 |  |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-02-16 | 1 | 2,961,753 | 2,961,708 | 45 (0.00%) | 2,012,432 |  |
-| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-02-16 | 1 | 2,956,214 | 2,956,214 |   | 495,215 |  |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-02-16 | 1 | 2,962,043 | 2,961,998 | 45 (0.00%) | 2,012,432 |  |
+| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-02-16 | 1 | 2,956,517 | 2,956,517 |   | 495,215 |  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-02-13 | 236,762 | 1,068,185 | 405,597 | 425,827 (39.86%) | 1,054 | Only partial index available: Onboarding |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-02-16 | 1 | 614,339 | 614,463 | 128 (0.02%) | 984 |  |
-| [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-02-16 | 1 | 1,752,623 | 1,752,623 |   | 9,126 |  |
-| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-02-16 | 1 | 2,910,216 | 2,910,216 |   | 47,045 |  |
+| [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-02-16 | 1 | 1,752,887 | 1,752,887 |   | 9,126 |  |
+| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-02-16 | 1 | 2,910,542 | 2,910,542 |   | 47,045 |  |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-02-16 | 1 | 1,698,471 | 1,698,471 |   | 4,757 |  |
-| [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-02-16 | 1 | 1,400,458 | 1,400,458 |   | 10 |  |
-| [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-02-16 | 1 | 2,183,751 | 2,183,751 |   | 16,042 |  |
-| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-02-16 | 1 | 2,078,736 | 2,078,736 |   | 690,343 |  |
-| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-02-16 | 1 | 1,755,182 | 1,755,182 |   | 3,659 |  |
-| [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-02-16 | 1 | 2,340,485 | 2,340,485 |   | 44,350 |  |
-| [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-02-16 | 1 | 2,170,853 | 2,170,853 |   | 11,123 |  |
+| [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-02-16 | 1 | 1,400,768 | 1,400,768 |   | 10 |  |
+| [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-02-16 | 1 | 2,184,263 | 2,184,263 |   | 16,042 |  |
+| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-02-16 | 1 | 2,079,112 | 2,079,112 |   | 690,343 |  |
+| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-02-16 | 1 | 1,755,420 | 1,755,420 |   | 3,659 |  |
+| [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-02-16 | 1 | 2,340,862 | 2,340,862 |   | 44,350 |  |
+| [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-02-16 | 1 | 2,171,274 | 2,171,274 |   | 11,123 |  |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-02-16 | 1 | 1,966,188 | 1,966,188 |   | 23,215 |  |
-| [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-02-16 | 1 | 1,920,864 | 1,920,864 |   | 3,039 |  |
-| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-02-16 | 1 | 1,731,657 | 1,731,657 |   | 16,161 |  |
-| [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-02-16 | 1 | 1,030,228 | 1,030,228 |   | 1 |  |
-| [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-02-16 | 1 | 1,786,044 | 1,786,044 |   | 3,616 |  |
-| [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-02-16 | 1 | 922,231 | 922,231 |   | 22 |  |
-| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-02-16 | 1 | 197,874 | 197,874 |   | 193 |  |
+| [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-02-16 | 1 | 1,921,298 | 1,921,298 |   | 3,039 |  |
+| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-02-16 | 1 | 1,732,103 | 1,732,103 |   | 16,161 |  |
+| [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-02-16 | 1 | 1,030,649 | 1,030,649 |   | 1 |  |
+| [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-02-16 | 1 | 1,786,403 | 1,786,403 |   | 3,616 |  |
+| [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-02-16 | 1 | 922,365 | 922,365 |   | 22 |  |
+| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-02-16 | 1 | 198,206 | 198,206 |   | 193 |  |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-02-16 | 1 | 597,534 | 597,534 |   | 7 |  |
-| [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-02-16 | 1 | 658,822 | 658,822 |   | 1,108 | Only partial index available: Network endpoint unreliable |
-| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-02-16 | 1 | 3,175,212 | 3,174,658 | 554 (0.02%) | 17,957 |  |
-| [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-02-16 | 1 | 561,484 | 561,484 |   | 27 |  |
-| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-02-16 | 1 | 8,981 | 8,981 |   | 58 |  |
+| [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-02-16 | 1 | 659,182 | 659,182 |   | 1,108 | Only partial index available: Network endpoint unreliable |
+| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-02-16 | 1 | 3,175,490 | 3,174,936 | 554 (0.02%) | 17,957 |  |
+| [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-02-16 | 1 | 561,812 | 561,812 |   | 27 |  |
+| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-02-16 | 1 | 9,156 | 9,156 |   | 58 |  |
 
 ## Missing chains
 
