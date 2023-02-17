@@ -9,7 +9,7 @@ Status: Only partial index available: Network endpoint unreliable
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-17](/polkadot/2052-kylin/2023-02-28.md) | 602,893 | 662,881 | 59,989 | none  | 35 | 2 | 1,108 | - | 
+| [2023-02-01 to 2023-02-17](/polkadot/2052-kylin/2023-02-28.md) | 602,893 | 663,393 | 60,501 | none  | 35 | 2 | 1,108 | - | 
 | [2023-01-01 to 2023-01-31](/polkadot/2052-kylin/2023-01-31.md) | 472,512 | 602,892 | 130,381 | none  | 106 | 3 | 1,108 | - | 
 | [2022-12-01 to 2022-12-31](/polkadot/2052-kylin/2022-12-31.md) | 335,848 | 472,511 | 136,664 | none  | 101 | 3 | 1,106 | - | 
 | [2022-11-01 to 2022-11-30](/polkadot/2052-kylin/2022-11-30.md) | 227,968 | 335,847 | 107,880 | none  | 110 | 3 | 1,105 | - | 
