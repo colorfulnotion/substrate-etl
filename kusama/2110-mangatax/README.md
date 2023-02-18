@@ -23,5 +23,9 @@ Status: Only partial index available: Onboarding
 
 ## # Blocks
 ```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.kusama.blocks2110` group by monthDT order by monthDT desc```
+SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.kusama.blocks2110` group by monthDT order by monthDT desc
+```
 
+
+
+Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/2110.json](https://cdn.polkaholic.io/substrate-etl/kusama/2110.json) | See [Definitions](/DEFINITIONS.md) for details
