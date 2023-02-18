@@ -6,7 +6,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Missing | # Addresses with Balances | Crawling Status |
 | ---------------- | ---------- | ---------| --------- | --------- | ------------------------- | --------------- |
 | [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2023-02-18 | 14,294,267 |   | 1,135,572 |  |
-| [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-02-18 | 3,235,229 |   | 512 |  |
+| [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-02-18 | 3,235,229 |   | 514 |  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-02-18 | 631,465 |   | 18 |  |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-02-18 | 2,969,800 |   | 167,843 |  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-02-18 | 2,885,687 |   | 4,080 |  |
@@ -18,12 +18,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-02-18 | 2,920,431 |   | 47,056 |  |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-02-18 | 1,708,468 |   | 4,757 |  |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-02-18 | 1,410,399 |   | 10 |  |
-| [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-02-18 | 2,192,528 |   | 16,045 |  |
+| [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-02-18 | 2,192,528 |   | 16,047 |  |
 | [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-02-18 | 2,088,776 |   | 691,062 |  |
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-02-18 | 1,765,052 |   | 3,670 |  |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-02-18 | 2,350,495 |   | 44,364 |  |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-02-18 | 2,180,036 |   | 11,131 |  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-02-18 | 1,975,365 |   | 23,218 |  |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-02-18 | 1,975,365 |   | 23,221 |  |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-02-18 | 1,930,914 |   | 3,043 |  |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-02-18 | 1,742,031 |   | 16,164 |  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-02-18 | 1,038,437 |   | 1 |  |
@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-02-18 | 664,050 |   | 1,108 | Only partial index available: Network endpoint unreliable |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-02-18 | 3,185,196 | 554 (0.02%) | 17,963 |  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-02-18 | 571,550 |   | 27 |  |
-| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-02-18 | 14,592 |   | 65 |  |
+| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-02-18 | 14,592 |   | 69 |  |
 
 ## Missing chains
 
