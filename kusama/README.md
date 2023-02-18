@@ -11,12 +11,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-02-18 | 1 | 207,273 | 207,273 |   | 4 |  |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-02-18 | 1 | 3,727,957 | 3,727,957 |   | 94,888 |  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-02-18 | 1 | 3,560,649 | 3,560,649 |   | 101,315 |  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-02-18 | 1 | 3,330,709 | 2,799,486 | 479,750 (14.40%) | 23,386 | Only partial index available: Old Decoding issues |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-02-18 | 1 | 3,330,950 | 2,799,737 | 479,740 (14.40%) | 23,386 | Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-02-18 | 1 | 3,408,108 | 3,199,597 | 604,118 (17.73%) | 636,637 | Only partial index available: Old Decoding issues |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-02-18 | 1 | 2,354,535 | 2,354,535 |   | 2,674 |  |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-02-18 | 1 | 2,044,946 | 2,044,946 |   | 12,939 |  |
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-02-18 | 1 | 3,646,176 | 3,646,176 |   | 585,457 |  |
-| [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-02-18 | 1 | 2,122,495 | 2,122,383 | 112 (0.01%) | 26 |  |
+| [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-02-18 | 1 | 2,125,046 | 2,122,497 | 2,549 (0.12%) | 26 |  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-02-18 | 1 | 2,506,616 | 2,506,616 |   | 3,098 |  |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-02-18 | 1 | 3,093,932 | 3,091,618 | 2,314 (0.07%) | 35,247 | Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-02-18 | 1 | 3,001,940 | 3,001,940 |   | 24,252 |  |
