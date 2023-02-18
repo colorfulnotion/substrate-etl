@@ -12,7 +12,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-02-18 | 1 | 2,885,687 | 2,885,687 |   | 4,080 |  |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-02-18 | 1 | 2,971,582 | 2,971,582 |   | 2,051,724 |  |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-02-18 | 1 | 2,966,184 | 2,966,184 |   | 507,282 |  |
-| [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-02-18 | 1 | 1,096,663 | 1,096,663 |   | 1,054 | Only partial index available: Onboarding |
+| [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-02-18 | 1 | 1,096,663 | 1,096,663 |   | 1,054 |  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-02-18 | 1 | 624,239 | 624,363 | 128 (0.02%) | 986 |  |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-02-18 | 1 | 1,762,549 | 1,762,549 |   | 9,153 |  |
 | [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-02-18 | 1 | 2,920,431 | 2,920,431 |   | 47,056 |  |
