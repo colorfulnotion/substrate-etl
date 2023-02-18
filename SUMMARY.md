@@ -7,3 +7,5 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | ---------------- | ---------------- | ---------------- | -------------------- | ------------------------- | ---------------- |
 | [polkadot](polkadot) | 2023-02-18 | 30 | 2 | 64,714,676 | 682 |
 | [kusama](kusama) | 2023-02-18 | 40 | 0 | 95,081,603 | 2,270,708 |
+
+Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details

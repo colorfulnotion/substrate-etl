@@ -43,8 +43,8 @@ module.exports = class Reporter {
             if (o[relayChain] == undefined) {
 		o[relayChain] = [];
 		o[relayChain].push(`# substrate-etl ${relayChain} Network-wide Summary (All-time)\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\n\r\n`);
-		o[relayChain].push(`| Chain            | Start Date | End Date | Start Block | End Block | # Blocks | # Missing | # Addresses with Balances | Crawling Status |`);
-		o[relayChain].push(`| ---------------- | ---------- | ---------| ----------- | --------- | -------- | --------- | ------------------------- | --------------- |`);
+		o[relayChain].push(`| Chain            | Start Date | End Date | End Block | # Missing | # Addresses with Balances | Crawling Status |`);
+		o[relayChain].push(`| ---------------- | ---------- | ---------| --------- | --------- | ------------------------- | --------------- |`);
             }
 	    let rc = polkaholic[relayChain]
             for ( const r of rc.chains ) {
@@ -60,7 +60,7 @@ module.exports = class Reporter {
 		    minimumFractionDigits: 2
 		}) + ")" : "";
 		let numAddresses = r.numAddresses ? r.numAddresses.toLocaleString('en-US') : "";
-		o[relayChain].push(`| ${desc} | ${startDT} | ${endDT} | ${startBN} | ${endBN} | ${numBlocks_total} | ${numBlocks_missing} ${percent_missing} | ${numAddresses} | ${r.crawlingStatus} |`)
+		o[relayChain].push(`| ${desc} | ${startDT} | ${endDT} | ${endBN} | ${numBlocks_missing} ${percent_missing} | ${numAddresses} | ${r.crawlingStatus} |`)
 		r.relayChain = relayChain;
 		chains[r.chainID] = r;
 	    }
@@ -78,8 +78,11 @@ module.exports = class Reporter {
 		    o[relayChain].push(`None`);
 		}
 	    }
+	    o[relayChain].push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
+
 	}
-    
+	summary.push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
+
         let fn = path.join(dir, `SUMMARY.md`);
         let f = fs.openSync(fn, 'w', 0o666);
         fs.writeSync(f, summary.join(NL) + NL);
@@ -126,7 +129,7 @@ module.exports = class Reporter {
         j.push(`| Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |`);
         j.push(`| ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |`);
         docs = [];
-        docs.push(`\r\n## # Blocks\r\n\`\`\`\r\nSELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM \`substrate-etl.${relayChain}.blocks${paraID}\` group by monthDT order by monthDT desc\`\`\`\r\n`);
+        docs.push(`\r\n## # Blocks\r\n\`\`\`\r\nSELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM \`substrate-etl.${relayChain}.blocks${paraID}\` group by monthDT order by monthDT desc\r\n\`\`\`\r\n\r\n`);
 	let broken = [];
 
         let prevStartBN = null;
@@ -138,7 +141,7 @@ module.exports = class Reporter {
             let startBN = r.startBN ? r.startBN.toLocaleString('en-US') : "";
             let endBN = r.endBN ? r.endBN.toLocaleString('en-US') : "";
             let numBlocks_total = r.numBlocks_total ? r.numBlocks_total.toLocaleString('en-US') : "";
-            let numBlocks_missing = r.numBlocks_missing ? r.numBlocks_missing.toLocaleString('en-US') : "none";
+            let numBlocks_missing = r.numBlocks_missing ? r.numBlocks_missing.toLocaleString('en-US') : "";
             let percent_missing = r.numBlocks_missing > 0 ? "(" + Number(r.numBlocks_missing / (r.endBN - r.startBN)).toLocaleString(undefined, {
                 style: 'percent',
                 minimumFractionDigits: 2
@@ -157,9 +160,11 @@ module.exports = class Reporter {
             let url = `/${relayChain}/${paraID}-${id}/${monthDT}.md`
             j.push(`| [${desc}](${url}) | ${startBN} | ${endBN} | ${numBlocks_total} | ${numBlocks_missing} ${percent_missing} | ${numSignedExtrinsics} | ${numAccountsActive} | ${numAddresses} | ${issues} | `)
         }
-
+	docs.push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
 	let dir = ".";
         j = j.concat(docs);
+
+
         let subdir = path.join(dir, relayChain, `${paraID}-${id}`);
         if (!fs.existsSync(subdir)) {
             fs.mkdirSync(subdir, {
@@ -203,7 +208,9 @@ module.exports = class Reporter {
                 docs[k].push(`### Blocks\r\n\`\`\`\r\nSELECT date(block_time) as logDT, MIN(number) startBN, MAX(number) endBN, COUNT(*) numBlocks FROM \`substrate-etl.${relayChain}.blocks${paraID}\`  where LAST_DAY(date(block_time)) = "${monthDT}" group by logDT order by logDT\r\n\`\`\`\r\n\r\n`);
                 docs[k].push(`### Signed Extrinsics\r\n\`\`\`\r\nSELECT date(block_time) as logDT, COUNT(*) numSignedExtrinsics FROM \`substrate-etl.${relayChain}.extrinsics${paraID}\`  where signed and LAST_DAY(date(block_time)) = "${monthDT}" group by logDT order by logDT\r\n\`\`\`\r\n\r\n`);
                 docs[k].push(`### Active Accounts\r\n\`\`\`\r\nSELECT date(block_time) as logDT, COUNT(distinct signer_pub_key) numAccountsActive FROM \`substrate-etl.${relayChain}.extrinsics${paraID}\` where signed and LAST_DAY(date(block_time)) = "${monthDT}" group by logDT order by logDT\r\n\`\`\`\r\n\r\n`);
-                docs[k].push(`### Addresses:\r\n\`\`\`\r\nSELECT date(ts) as logDT, COUNT(distinct address_pubkey) numAddress FROM \`substrate-etl.polkadot.balances${paraID}\` where LAST_DAY(date(ts)) = "${monthDT}" group by logDT\`\`\`\r\n`);
+                docs[k].push(`### Addresses:\r\n\`\`\`\r\nSELECT date(ts) as logDT, COUNT(distinct address_pubkey) numAddress FROM \`substrate-etl.polkadot.balances${paraID}\` where LAST_DAY(date(ts)) = "${monthDT}" group by logDT\r\n\`\`\`\r\n\r\n`);
+		docs[k].push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
+
             }
             let logDT = r.logDT ? r.logDT : "";
             let startBN = r.startBN ? r.startBN.toLocaleString('en-US') : "";
@@ -233,6 +240,7 @@ module.exports = class Reporter {
             j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} | ${numBlocks_missing} ${percent_missing} | ${numSignedExtrinsics} | ${numAccountsActive} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} |`)
             prevStartBN = r.startBN;
         }
+	
         for (const k of Object.keys(j)) {
             j[k] = j[k].concat(docs[k]);
             //console.log("writing", fn_chain[k]);
