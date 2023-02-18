@@ -13,7 +13,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-02-18 | 1 | 3,560,649 | 3,560,649 |   | 101,309 |  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-02-17 | 1 | 3,330,709 | 2,799,482 | 479,754 (14.40%) | 23,386 | Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-02-18 | 1 | 3,408,108 | 3,199,597 | 604,118 (17.73%) | 636,637 | Only partial index available: Old Decoding issues |
-| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-02-18 | 1 | 2,354,305 | 2,354,305 |   | 2,642 |  |
+| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-02-18 | 1 | 2,354,535 | 2,354,535 |   | 2,642 |  |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-02-18 | 1 | 2,044,946 | 2,044,946 |   | 12,939 |  |
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-02-18 | 1 | 3,646,176 | 3,646,176 |   | 585,457 |  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-02-18 | 1 | 2,122,495 | 2,105,611 | 16,884 (0.80%) | 26 |  |
@@ -41,7 +41,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-02-18 | 1 | 1,442,253 | 1,438,737 | 3,516 (0.24%) | 336 | Only partial index available: Archive node unavailable |
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-02-18 | 1 | 970,293 | 970,293 |   | 9,102 |  |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-02-18 | 1 | 1,090,439 | 1,090,439 |   | 744 |  |
-| [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-02-18 | 1 | 1,201,321 | 1,201,321 |   | 6,666 |  |
+| [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-02-18 | 1 | 1,201,356 | 1,201,356 |   | 6,666 |  |
 | [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-02-18 | 218,593 | 1,001,037 | 500,078 | 91,926 (9.18%) | 5,499 | Only partial index available: Archive node unavailable |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-02-18 | 1 | 727,537 | 727,537 |   | 890 |  |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-02-18 | 1 | 460,448 | 460,448 |   | 9 |  |

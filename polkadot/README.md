@@ -12,7 +12,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-02-18 | 1 | 2,885,687 | 2,885,687 |   | 4,078 |  |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-02-18 | 1 | 2,971,582 | 2,971,537 | 45 (0.00%) | 2,051,724 |  |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-02-18 | 1 | 2,966,184 | 2,966,184 |   | 507,317 |  |
-| [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-02-17 | 1 | 1,096,630 | 1,096,630 |   | 1,054 | Only partial index available: Onboarding |
+| [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-02-18 | 1 | 1,096,630 | 1,096,630 |   | 1,054 | Only partial index available: Onboarding |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-02-18 | 1 | 624,239 | 624,363 | 128 (0.02%) | 986 |  |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-02-18 | 1 | 1,762,549 | 1,762,549 |   | 9,153 |  |
 | [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-02-18 | 1 | 2,920,431 | 2,920,431 |   | 47,050 |  |
@@ -24,8 +24,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-02-18 | 1 | 2,350,495 | 2,350,495 |   | 44,357 |  |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-02-18 | 1 | 2,180,036 | 2,180,036 |   | 11,126 |  |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-02-18 | 1 | 1,975,365 | 1,975,365 |   | 23,218 |  |
-| [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-02-18 | 1 | 1,930,414 | 1,930,414 |   | 3,041 |  |
-| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-02-18 | 1 | 1,741,714 | 1,741,714 |   | 16,162 |  |
+| [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-02-18 | 1 | 1,930,914 | 1,930,914 |   | 3,041 |  |
+| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-02-18 | 1 | 1,742,031 | 1,742,031 |   | 16,162 |  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-02-18 | 1 | 1,038,437 | 1,038,437 |   | 1 |  |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-02-18 | 1 | 1,795,387 | 1,795,387 |   | 3,617 |  |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-02-18 | 1 | 929,741 | 929,741 |   | 22 |  |
