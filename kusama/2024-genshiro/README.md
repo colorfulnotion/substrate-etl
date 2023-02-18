@@ -9,6 +9,7 @@ _Source_: [genshiro.polkaholic.io](https://genshiro.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2023-02-16 to 2023-02-18](/kusama/2024-genshiro/2023-02-28.md) |  |  |  | none  |  |  | 26 | - | 
 | [2023-01-01 to 2023-01-10](/kusama/2024-genshiro/2023-01-31.md) | 2,057,920 | 2,122,495 | 51,042 | 13,534 (20.96%) | 4 |  | 25 | - | 
 | [2022-12-01 to 2022-12-31](/kusama/2024-genshiro/2022-12-31.md) | 1,858,070 | 2,057,919 | 196,500 | 3,350 (1.68%) | 35 | 1 | 25 | - | 
 | [2022-11-30 to 2022-11-30](/kusama/2024-genshiro/2022-11-30.md) | 1,852,351 | 1,858,069 | 5,719 | none  |  |  | 25 | - | 
