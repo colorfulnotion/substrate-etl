@@ -41,7 +41,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-02-18 | 1 | 1,442,253 | 1,438,737 | 3,516 (0.24%) | 336 | Only partial index available: Archive node unavailable |
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-02-18 | 1 | 970,293 | 970,293 |   | 9,102 |  |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-02-18 | 1 | 1,090,439 | 1,090,439 |   | 744 |  |
-| [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-02-18 | 1 | 1,201,356 | 1,201,356 |   | 6,666 |  |
+| [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-02-18 | 1 | 1,201,356 | 1,201,356 |   | 6,730 |  |
 | [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-02-18 | 218,593 | 1,001,037 | 500,078 | 91,926 (9.18%) | 5,499 | Only partial index available: Archive node unavailable |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-02-18 | 1 | 727,537 | 727,537 |   | 890 |  |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-02-18 | 1 | 460,448 | 460,448 |   | 9 |  |

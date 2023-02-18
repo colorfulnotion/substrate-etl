@@ -10,17 +10,17 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-02-18 | 1 | 631,465 | 631,465 |   | 18 |  |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-02-18 | 1 | 2,969,800 | 2,969,800 |   | 167,843 |  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-02-18 | 1 | 2,885,687 | 2,885,687 |   | 4,078 |  |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-02-18 | 1 | 2,971,582 | 2,971,537 | 45 (0.00%) | 2,051,724 |  |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-02-18 | 1 | 2,971,582 | 2,971,582 |   | 2,051,724 |  |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-02-18 | 1 | 2,966,184 | 2,966,184 |   | 507,317 |  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-02-18 | 1 | 1,096,630 | 1,096,630 |   | 1,054 | Only partial index available: Onboarding |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-02-18 | 1 | 624,239 | 624,363 | 128 (0.02%) | 986 |  |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-02-18 | 1 | 1,762,549 | 1,762,549 |   | 9,153 |  |
-| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-02-18 | 1 | 2,920,431 | 2,920,431 |   | 47,050 |  |
+| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-02-18 | 1 | 2,920,431 | 2,920,431 |   | 47,056 |  |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-02-18 | 1 | 1,708,468 | 1,708,468 |   | 4,757 |  |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-02-18 | 1 | 1,410,399 | 1,410,399 |   | 10 |  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-02-18 | 1 | 2,192,528 | 2,192,528 |   | 16,045 |  |
 | [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-02-18 | 1 | 2,088,776 | 2,088,776 |   | 690,637 |  |
-| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-02-17 | 1 | 1,765,052 | 1,765,052 |   | 3,665 |  |
+| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-02-18 | 1 | 1,765,052 | 1,765,052 |   | 3,670 |  |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-02-18 | 1 | 2,350,495 | 2,350,495 |   | 44,357 |  |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-02-18 | 1 | 2,180,036 | 2,180,036 |   | 11,126 |  |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-02-18 | 1 | 1,975,365 | 1,975,365 |   | 23,218 |  |
