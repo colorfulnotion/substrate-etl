@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-02-20 | 647,866 |   | 18 |  |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-02-20 | 2,986,300 |   | 167,843 |  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-02-20 | 2,902,119 |   | 4,084 |  |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-02-20 | 2,988,015 | 99 (0.00%) | 2,071,304 |  |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-02-20 | 2,988,015 | 99 (0.00%) | 2,091,502 |  |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-02-20 | 2,982,535 |   | 508,183 |  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-02-20 | 1,113,038 |   | 1,054 |  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-02-20 | 640,588 | 128 (0.02%) | 987 |  |
