@@ -9,7 +9,7 @@ _Source_: [subzero.polkaholic.io](https://subzero.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-19](/kusama/2236-subzero/2023-02-28.md) | 341,779 | 470,592 | 121,799 | 7,015 (5.45%) |  |  | 9 | - | 
+| [2023-02-01 to 2023-02-20](/kusama/2236-subzero/2023-02-28.md) | 341,779 | 474,773 | 132,995 |   |  |  | 9 | - | 
 | [2023-01-01 to 2023-01-31](/kusama/2236-subzero/2023-01-31.md) | 127,025 | 341,778 | 214,754 |   |  |  | 9 | - | 
 | [2022-12-13 to 2022-12-31](/kusama/2236-subzero/2022-12-31.md) | 1 | 127,024 | 127,024 |   |  |  | 9 | - | 
 
