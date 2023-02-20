@@ -28,7 +28,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-02-20 | 1,756,690 |   | 16,168 |  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-02-20 | 1,050,218 | 5,751 (0.55%) | 1 |  |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-02-20 | 1,808,880 |   | 3,618 |  |
-| [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-02-20 | 940,763 | 5,387 (0.57%) | 22 |  |
+| [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-02-20 | 941,213 | 5,387 (0.57%) | 22 |  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-02-20 | 222,348 | 7,039 (3.17%) | 200 |  |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-02-20 | 617,126 | 5,398 (0.87%) | 7 |  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-02-20 | 671,442 | 3,598 (0.54%) | 1,108 | Only partial index available: Network endpoint unreliable |
