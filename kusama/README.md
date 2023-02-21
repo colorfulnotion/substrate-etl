@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Missing | # Addresses with Balances | Crawling Status |
 | ---------------- | ---------- | ---------| --------- | --------- | ------------------------- | --------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-02-21 | 16,734,822 | 187 (0.00%) | 282,941 |  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-02-21 | 16,736,506 | 187 (0.00%) | 282,941 |  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-02-21 | 3,932,171 | 12 (0.00%) | 51,965 |  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-02-21 | 2,337,274 | 7,035 (0.30%) | 930 | Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-02-21 | 233,629 |   | 4 |  |
@@ -15,7 +15,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-02-21 | 3,434,134 | 207,798 (6.05%) | 637,680 | Only partial index available: Old Decoding issues |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-02-19 | 2,366,285 |   | 2,704 |  |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-02-21 | 2,071,102 |   | 12,943 |  |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-02-21 | 3,671,931 | 133 (0.00%) | 588,381 |  |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-02-21 | 3,672,534 | 133 (0.00%) | 588,381 |  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-02-21 | 2,406,177 |   | 26 |  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-02-21 | 2,533,068 |   | 3,104 |  |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-02-21 | 3,146,785 | 2,314 (0.07%) | 35,247 | Only partial index available: Archive node unavailable |
