@@ -200,8 +200,8 @@ module.exports = class Reporter {
                 desc += `\r\n\r\n`
                 j[k].push(desc);
                 j[k].push(`### Daily Summary for Month ending in ${monthDT}\r\n\r\n`);
-                j[k].push(`| Date | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out |`);
-                j[k].push(`| ---- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------- | ------------------------- | -------- | ----------- | ------------------ | ------------------- |`);
+                j[k].push(`| Date | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts | # Passive | # New | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out |`);
+                j[k].push(`| ---- | ----------- | --------- | -------- | --------------------------- | ----------------- | --------- | ----- | ------------------------- | -------- | ----------- | ------------------ | ------------------- |`);
 
                 docs[k].push(`\r\n## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:\r\n\r\n`);
 
@@ -218,13 +218,16 @@ module.exports = class Reporter {
             let issues = r.issues ? r.issues : "-";
             let valueTransfersUSD = r.valueTransfersUSD > 0 ? `(${currencyFormat(r.valueTransfersUSD)})` : ""
             let numBlocks = r.numBlocks ? r.numBlocks.toLocaleString('en-US') : "";
-            let numBlocks_missing = r.numBlocks_missing ? r.numBlocks_missing.toLocaleString('en-US') : "none";
+            let numBlocks_missing = r.numBlocks_missing ? r.numBlocks_missing.toLocaleString('en-US') : "";
             let percent_missing = r.numBlocks_missing > 0 ? "(" + Number(r.numBlocks_missing / (r.endBN - r.startBN)).toLocaleString(undefined, {
                 style: 'percent',
                 minimumFractionDigits: 2
             }) + ")" : "";
+	    let missing = numBlocks_missing > 0 ? `${numBlocks_missing} missing ${percent_missing}` : "";
             let numSignedExtrinsics = r.numSignedExtrinsics ? r.numSignedExtrinsics.toLocaleString('en-US') : "";
             let numAccountsActive = r.numAccountsActive ? r.numAccountsActive.toLocaleString('en-US') : "";
+            let numPassiveAccounts = r.numPassiveAccounts ? r.numPassiveAccounts.toLocaleString('en-US') : "";
+            let numNewAccounts = r.numNewAccounts ? r.numNewAccounts.toLocaleString('en-US') : "";
             let numAddresses = r.numAddresses ? r.numAddresses.toLocaleString('en-US') : ""
             let numEvents = r.numEvents ? r.numEvents.toLocaleString('en-US') : "";
             let numTransfers = r.numTransfers ? r.numTransfers.toLocaleString('en-US') : "";
@@ -237,7 +240,7 @@ module.exports = class Reporter {
                 broken.push(logDT);
                 numBlocks_missing = " **BROKEN**";
             }
-            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} | ${numBlocks_missing} ${percent_missing} | ${numSignedExtrinsics} | ${numAccountsActive} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} |`)
+            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} ${missing} | ${numSignedExtrinsics} | ${numAccountsActive} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} |`)
             prevStartBN = r.startBN;
         }
 	
