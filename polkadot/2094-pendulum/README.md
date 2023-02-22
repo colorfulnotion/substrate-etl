@@ -9,7 +9,7 @@ _Source_: [pendulum.polkaholic.io](https://pendulum.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-13 to 2023-02-22](/polkadot/2094-pendulum/2023-02-28.md) | 1 | 37,006 | 37,006 | 80 | 7 | 85 | -   |   
+| [2023-02-13 to 2023-02-22](/polkadot/2094-pendulum/2023-02-28.md) | 1 | 37,546 | 37,546 | 80 | 7 | 85 | -   |   
 
 ## # Blocks
 ```
