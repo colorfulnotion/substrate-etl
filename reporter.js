@@ -60,8 +60,8 @@ module.exports = class Reporter {
             if (o[relayChain] == undefined) {
 		o[relayChain] = [];
 		o[relayChain].push(`# substrate-etl ${relayChain} Network-wide Summary (All-time)\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\n\r\n`);
-		o[relayChain].push(`| Chain            | Start Date | End Date | End Block | # Missing | # Addresses with Balances | Crawling Status |`);
-		o[relayChain].push(`| ---------------- | ---------- | ---------| --------- | --------- | ------------------------- | --------------- |`);
+		o[relayChain].push(`| Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |`);
+		o[relayChain].push(`| ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |`);
             }
 	    let rc = polkaholic[relayChain]
             for ( const r of rc.chains ) {
@@ -77,7 +77,7 @@ module.exports = class Reporter {
 		    minimumFractionDigits: 2
 		}) + ")" : "";
 		let numAddresses = r.numAddresses ? r.numAddresses.toLocaleString('en-US') : "";
-		o[relayChain].push(`| ${desc} | ${startDT} | ${endDT} | ${endBN} | ${numBlocks_missing} ${percent_missing} | ${numAddresses} | ${r.crawlingStatus} |`)
+		o[relayChain].push(`| ${desc} | ${startDT} | ${endDT} | ${endBN} |  ${numAddresses} | ${numBlocks_missing} ${percent_missing} ${r.crawlingStatus} |`)
 		r.relayChain = relayChain;
 		chains[r.chainID] = r;
 	    }
@@ -100,7 +100,7 @@ module.exports = class Reporter {
 	}
 	summary.push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details\r\n\r\n`);
 
-	summary.push(`# Dotsama Daily Log (2023))\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\n\r\n`);
+	summary.push(`# Dotsama Daily Log (2023)\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\n\r\n`);
 	summary.push(`| Date            | # Addresses | # Active Accounts | # New Accounts | # Reaped Accounts |`);
 	summary.push(`| ---------------- | ----------- | ----------------- | -------------- | ----------------- |`);
 	for ( const l of dotsamalog ) {
