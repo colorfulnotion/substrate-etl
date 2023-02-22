@@ -11,7 +11,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
 
 
-# Dotsama Daily Log (2023))
+# Dotsama Daily Log (2023)
 
 Source: [Polkaholic.io](https://polkaholic.io)
 
