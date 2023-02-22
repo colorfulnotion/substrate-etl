@@ -13,7 +13,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-02-22 | 3,595,277 | 367 (0.01%) | 101,335 |  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-02-22 | 3,361,092 | 479,738 (14.27%) | 23,430 | Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-02-21 | 3,434,734 | 207,798 (6.05%) | 637,702 | Only partial index available: Old Decoding issues |
-| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-02-22 | 2,385,608 | 5,426 (0.23%) | 2,704 |  |
+| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-02-22 | 2,386,201 | 5,426 (0.23%) | 2,704 |  |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-02-22 | 2,076,288 |   | 12,944 |  |
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-02-22 | 3,677,386 |   | 588,507 |  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-02-22 | 2,411,269 |   | 26 |  |
