@@ -4,7 +4,7 @@ _Source_: [kylin.polkaholic.io](https://kylin.polkaholic.io)
 
 *Relay Chain*: polkadot
 *Para ID*: 2052
-Status: Only partial index available: Network endpoint unreliable
+
 
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
