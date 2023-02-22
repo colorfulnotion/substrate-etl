@@ -22,16 +22,33 @@ function currencyFormat(c, _maximumFractionDigits = 2) {
 
 
 module.exports = class Reporter {
-    async generateNetworksSummary() {
-	let dir = "."
-	let url = "https://cdn.polkaholic.io/substrate-etl/polkaholic.json";
+    async fetch_networklog(url) {
         let cmd = `curl --silent -H "Content-Type: application/json" --max-time 10 --connect-timeout 5 ${url}`
-        const {
+        let {
             stdout,
             stderr
         } = await exec(cmd, {
             maxBuffer: 1024 * 64000
         });
+	let networklog = JSON.parse(stdout);
+	let dotsamalog = networklog["dotsama"].daily;
+	return dotsamalog;
+    }
+    
+    async generateNetworksSummary() {
+	let dir = "."
+	let dotsamaurl = "https://cdn.polkaholic.io/substrate-etl/networks.json";
+	let dotsamalog = await this.fetch_networklog(dotsamaurl);
+	
+	let url = "https://cdn.polkaholic.io/substrate-etl/polkaholic.json";
+        let cmd = `curl --silent -H "Content-Type: application/json" --max-time 10 --connect-timeout 5 ${url}`
+        let {
+            stdout,
+            stderr
+        } = await exec(cmd, {
+            maxBuffer: 1024 * 64000
+        });
+
 	let polkaholic = JSON.parse(stdout);
 	let chains = {};
 	let o = {};
@@ -81,8 +98,20 @@ module.exports = class Reporter {
 	    o[relayChain].push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
 
 	}
-	summary.push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
+	summary.push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details\r\n\r\n`);
 
+	summary.push(`# Dotsama Daily Log (2023))\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\n\r\n`);
+	summary.push(`| Date            | # Addresses | # Active Accounts | # New Accounts | # Reaped Accounts |`);
+	summary.push(`| ---------------- | ----------- | ----------------- | -------------- | ----------------- |`);
+	for ( const l of dotsamalog ) {
+	    let numAddresses = l.numAddresses.toLocaleString('en-US');
+	    let numActiveAccounts = l.numActiveAccounts.toLocaleString('en-US');
+	    let numNewAccounts = l.numNewAccounts.toLocaleString('en-US');
+	    let numReapedAccounts = l.numReapedAccounts.toLocaleString('en-US');
+	    summary.push(`| ${l.logDT} | ${numAddresses} | ${numActiveAccounts} | ${numNewAccounts} | ${numReapedAccounts} |`);
+	}
+	summary.push(`\r\nReport source: [${dotsamaurl}](${dotsamaurl}) | See [Definitions](/DEFINITIONS.md) for details`);
+	
         let fn = path.join(dir, `SUMMARY.md`);
         let f = fs.openSync(fn, 'w', 0o666);
         fs.writeSync(f, summary.join(NL) + NL);
