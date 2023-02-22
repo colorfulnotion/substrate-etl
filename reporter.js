@@ -126,8 +126,8 @@ module.exports = class Reporter {
         if (chain.crawlingStatus) desc += `Status: ${chain.crawlingStatus}`
         desc += `\r\n\r\n`
         j.push(desc);
-        j.push(`| Month | Start Block | End Block | # Blocks | # Missing | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |`);
-        j.push(`| ----- | ----------- | --------- | -------- | --------- | --------------------------- | ----------------------- | ------------------------------- | ------ |`);
+        j.push(`| Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |`);
+        j.push(`| ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |`);
         docs = [];
         docs.push(`\r\n## # Blocks\r\n\`\`\`\r\nSELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM \`substrate-etl.${relayChain}.blocks${paraID}\` group by monthDT order by monthDT desc\r\n\`\`\`\r\n\r\n`);
 	let broken = [];
@@ -154,11 +154,11 @@ module.exports = class Reporter {
 	    
             prevStartBN = r.startBN;
             let numSignedExtrinsics = r.numSignedExtrinsics ? r.numSignedExtrinsics.toLocaleString('en-US') : ""
-            let numAccountsActive = r.numAccountsActive ? r.numAccountsActive.toLocaleString('en-US') : "";
+            let numActiveAccounts = r.numActiveAccounts ? r.numActiveAccounts.toLocaleString('en-US') : "";
             let numAddresses = r.numAddresses ? r.numAddresses.toLocaleString('en-US') : "";
             let issues = r.issues ? r.issues : "-";
             let url = `/${relayChain}/${paraID}-${id}/${monthDT}.md`
-            j.push(`| [${desc}](${url}) | ${startBN} | ${endBN} | ${numBlocks_total} | ${numBlocks_missing} ${percent_missing} | ${numSignedExtrinsics} | ${numAccountsActive} | ${numAddresses} | ${issues} | `)
+            j.push(`| [${desc}](${url}) | ${startBN} | ${endBN} | ${numBlocks_total} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numAddresses} | ${issues} ${numBlocks_missing} ${percent_missing} |   `)
         }
 	docs.push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
 	let dir = ".";
@@ -200,17 +200,21 @@ module.exports = class Reporter {
                 desc += `\r\n\r\n`
                 j[k].push(desc);
                 j[k].push(`### Daily Summary for Month ending in ${monthDT}\r\n\r\n`);
-                j[k].push(`| Date | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts | # Passive | # New | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out |`);
-                j[k].push(`| ---- | ----------- | --------- | -------- | --------------------------- | ----------------- | --------- | ----- | ------------------------- | -------- | ----------- | ------------------ | ------------------- |`);
+                j[k].push(`| Date | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts | # Passive | # New | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out | Issues | `);
+                j[k].push(`| ---- | ----------- | --------- | -------- | --------------------------- | ----------------- | --------- | ----- | ------------------------- | -------- | ----------- | ------------------ | ------------------- | ------ |`);
 
                 docs[k].push(`\r\n## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:\r\n\r\n`);
 
                 docs[k].push(`### Blocks\r\n\`\`\`\r\nSELECT date(block_time) as logDT, MIN(number) startBN, MAX(number) endBN, COUNT(*) numBlocks FROM \`substrate-etl.${relayChain}.blocks${paraID}\`  where LAST_DAY(date(block_time)) = "${monthDT}" group by logDT order by logDT\r\n\`\`\`\r\n\r\n`);
                 docs[k].push(`### Signed Extrinsics\r\n\`\`\`\r\nSELECT date(block_time) as logDT, COUNT(*) numSignedExtrinsics FROM \`substrate-etl.${relayChain}.extrinsics${paraID}\`  where signed and LAST_DAY(date(block_time)) = "${monthDT}" group by logDT order by logDT\r\n\`\`\`\r\n\r\n`);
-                docs[k].push(`### Active Accounts\r\n\`\`\`\r\nSELECT date(block_time) as logDT, COUNT(distinct signer_pub_key) numAccountsActive FROM \`substrate-etl.${relayChain}.extrinsics${paraID}\` where signed and LAST_DAY(date(block_time)) = "${monthDT}" group by logDT order by logDT\r\n\`\`\`\r\n\r\n`);
-                docs[k].push(`### Addresses:\r\n\`\`\`\r\nSELECT date(ts) as logDT, COUNT(distinct address_pubkey) numAddress FROM \`substrate-etl.polkadot.balances${paraID}\` where LAST_DAY(date(ts)) = "${monthDT}" group by logDT\r\n\`\`\`\r\n\r\n`);
+                docs[k].push(`### Active Accounts\r\n\`\`\`\r\nSELECT date(block_time) as logDT, COUNT(*) numActiveAccounts FROM \`substrate-etl.${relayChain}.accountsactive${paraID}\` where LAST_DAY(date(block_time)) = "${monthDT}" group by logDT order by logDT\r\n\`\`\`\r\n\r\n`);
+                docs[k].push(`### Passive Accounts\r\n\`\`\`\r\nSELECT date(block_time) as logDT, COUNT(*) numPassiveAccounts FROM \`substrate-etl.${relayChain}.accountspassive${paraID}\` where LAST_DAY(date(block_time)) = "${monthDT}" group by logDT order by logDT\r\n\`\`\`\r\n\r\n`);
+                docs[k].push(`### Addresses with Balances:\r\n\`\`\`\r\nSELECT date(ts) as logDT, COUNT(distinct address_pubkey) numAddress FROM \`substrate-etl.polkadot.balances${paraID}\` where LAST_DAY(date(ts)) = "${monthDT}" group by logDT\r\n\`\`\`\r\n\r\n`);
+                docs[k].push(`### Events:\r\n\`\`\`\r\nSELECT date(ts) as logDT, COUNT(*) numEvents FROM \`substrate-etl.${relayChain}.events${paraID}\` where LAST_DAY(date(ts)) = "${monthDT}" group by logDT\r\n\`\`\`\r\n\r\n`);
+                docs[k].push(`### Transfers:\r\n\`\`\`\r\nSELECT date(ts) as logDT, COUNT(*) numEvents FROM \`substrate-etl.${relayChain}.transfers${paraID}\` where LAST_DAY(date(ts)) = "${monthDT}" group by logDT\r\n\`\`\`\r\n\r\n`);
+                docs[k].push(`### XCM Transfers In:\r\n\`\`\`\r\nSELECT date(ts) as logDT, COUNT(*) numXCMTransfersIn FROM \`substrate-etl.${relayChain}.xcmtransfers\` where origination_para_id = ${paraID} and LAST_DAY(date(ts)) = "${monthDT}" group by logDT\r\n\`\`\`\r\n\r\n`);
+                docs[k].push(`### XCM Transfers Out:\r\n\`\`\`\r\nSELECT date(ts) as logDT, COUNT(*) numXCMTransfersOut FROM \`substrate-etl.${relayChain}.xcmtransfers\` where destination_para_id = ${paraID} and LAST_DAY(date(ts)) = "${monthDT}" group by logDT\r\n\`\`\`\r\n\r\n`);
 		docs[k].push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
-
             }
             let logDT = r.logDT ? r.logDT : "";
             let startBN = r.startBN ? r.startBN.toLocaleString('en-US') : "";
@@ -225,7 +229,7 @@ module.exports = class Reporter {
             }) + ")" : "";
 	    let missing = numBlocks_missing > 0 ? `${numBlocks_missing} missing ${percent_missing}` : "";
             let numSignedExtrinsics = r.numSignedExtrinsics ? r.numSignedExtrinsics.toLocaleString('en-US') : "";
-            let numAccountsActive = r.numAccountsActive ? r.numAccountsActive.toLocaleString('en-US') : "";
+            let numActiveAccounts = r.numActiveAccounts ? r.numActiveAccounts.toLocaleString('en-US') : "";
             let numPassiveAccounts = r.numPassiveAccounts ? r.numPassiveAccounts.toLocaleString('en-US') : "";
             let numNewAccounts = r.numNewAccounts ? r.numNewAccounts.toLocaleString('en-US') : "";
             let numAddresses = r.numAddresses ? r.numAddresses.toLocaleString('en-US') : ""
@@ -240,7 +244,7 @@ module.exports = class Reporter {
                 broken.push(logDT);
                 numBlocks_missing = " **BROKEN**";
             }
-            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} ${missing} | ${numSignedExtrinsics} | ${numAccountsActive} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} |`)
+            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} | ${missing} |`)
             prevStartBN = r.startBN;
         }
 	
