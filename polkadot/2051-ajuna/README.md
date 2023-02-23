@@ -14,6 +14,14 @@ _Source_: [ajuna.polkaholic.io](https://ajuna.polkaholic.io)
 | [2022-12-01 to 2022-12-31](/polkadot/2051-ajuna/2022-12-31.md) | 65,407 | 277,226 | 211,820 |  |  | 6 | -   |   
 | [2022-11-21 to 2022-11-30](/polkadot/2051-ajuna/2022-11-30.md) | 1 | 65,406 | 65,406 | 9 |  | 6 | -   |   
 
+## Ajuna Assets as of 2023-02-22
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [AJUN](/polkadot/assets/AJUN) | 7 | 500,000,000  |   |    |   |  |   `{"Token":"AJUN"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2051` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

@@ -12,6 +12,14 @@ _Source_: [bridgehub.polkaholic.io](https://bridgehub.polkaholic.io)
 | [2023-02-01 to 2023-02-23](/kusama/1002-bridgehub/2023-02-28.md) | 86,880 | 246,501 | 159,622 |  | 4 | 4 | -   |   
 | [2023-01-19 to 2023-01-31](/kusama/1002-bridgehub/2023-01-31.md) | 1 | 86,879 | 86,879 |  | 4 | 4 | -   |   
 
+## BridgeHub Assets as of 2023-02-22
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [KSM](/kusama/assets/KSM) | 4 |   |   |    |   |  |   `{"Token":"KSM"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks1002` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

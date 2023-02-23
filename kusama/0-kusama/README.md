@@ -50,6 +50,14 @@ _Source_: [kusama.polkaholic.io](https://kusama.polkaholic.io)
 | [2019-12-01 to 2019-12-31](/kusama/0-kusama/2019-12-31.md) | 32,218 | 467,567 | 435,350 | 92,835 |  |  | -   |   
 | [2019-11-28 to 2019-11-30](/kusama/0-kusama/2019-11-30.md) | 1 | 32,217 | 32,217 | 6,175 |  |  | -   |   
 
+## Kusama Assets as of 2023-02-22
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [KSM](/kusama/assets/KSM) | 284,868 | 12,968,461.39 $593,294,178.41 | 309,226.62 $14,146,809.58 | 7,699,542.53  $352,246,393.88 | 7,069,461.43 $323,420,811.88 | $45.75 |   `{"Token":"KSM"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks0` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
