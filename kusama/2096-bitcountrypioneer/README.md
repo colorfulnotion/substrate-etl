@@ -9,7 +9,7 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/kusama/2096-bitcountrypioneer/2023-02-28.md) | 2,444,069 | 2,598,834 | 154,766 | 9,017 | 148 | 24,856 | -   |   
+| [2023-02-01 to 2023-02-23](/kusama/2096-bitcountrypioneer/2023-02-28.md) | 2,444,069 | 2,601,903 | 157,835 | 9,077 | 148 | 24,856 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2096-bitcountrypioneer/2023-01-31.md) | 2,226,701 | 2,444,068 | 217,368 | 31,043 | 332 | 24,704 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2096-bitcountrypioneer/2022-12-31.md) | 2,019,162 | 2,226,700 | 207,539 | 9,952 |  | 24,181 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2096-bitcountrypioneer/2022-11-30.md) | 1,810,421 | 2,019,161 | 208,741 | 13,243 |  | 23,665 | -   |   
@@ -26,11 +26,40 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 | [2021-12-01 to 2021-12-31](/kusama/2096-bitcountrypioneer/2021-12-31.md) | 17,803 | 213,883 | 196,081 | 14 |  | 5 | -   |   
 | [2021-11-28 to 2021-11-30](/kusama/2096-bitcountrypioneer/2021-11-30.md) | 1 | 17,802 | 17,802 |  |  | 4 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.kusama.blocks2096` group by monthDT order by monthDT desc
-```
+## Bit.Country Pioneer Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [NEER](/kusama/assets/NEER) | 24,852 | 94,456,673.59 $20,644,225.47 | 5,543,239.63 $1,211,517.24 | 73,655,210.31  $16,097,907.23 |   | $0.22 |   `{"Token":"NEER"}` | 
+| [KUSD](/kusama/assets/KUSD) | 3 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.kusama.blocks2096` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.kusama.extrinsics2096` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.kusama.events2096` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.kusama.transfers2096` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.kusama.balances2096` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.kusama.accountsactive2096` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.kusama.accountspassive2096` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2096` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2096` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.kusama.assets` (filter on `2096`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.kusama.blocks2096` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/2096.json](https://cdn.polkaholic.io/substrate-etl/kusama/2096.json) | See [Definitions](/DEFINITIONS.md) for details

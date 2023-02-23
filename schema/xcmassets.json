@@ -1,0 +1,26 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "xcm_interior_key",
+    "type": "STRING",
+    "description": "XCM Interior Key (v2 style) -- can be mapped directly to xcmassets"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "symbol",
+    "type": "STRING",
+    "description": "Human readable string token (e.g. DOT, ETH, USDC, DAI, ...)"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "decimals",
+    "type": "INTEGER",
+    "description": "Decimals for asset"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "para_id",
+    "type": "INTEGER",
+    "description": "Para ID of the parachain representing this asset"
+  }
+]

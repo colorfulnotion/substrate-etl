@@ -9,7 +9,7 @@ _Source_: [kusama.polkaholic.io](https://kusama.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/kusama/0-kusama/2023-02-28.md) | 16,437,639 | 16,754,472 | 316,834 | 523,295 | 2,166 | 284,726 | -   |   
+| [2023-02-01 to 2023-02-23](/kusama/0-kusama/2023-02-28.md) | 16,437,639 | 16,759,430 | 321,792 | 531,424 | 2,166 | 284,868 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/0-kusama/2023-01-31.md) | 15,992,891 | 16,437,638 | 444,748 | 521,615 | 2,208 | 282,168 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/0-kusama/2022-12-31.md) | 15,560,701 | 15,992,890 | 432,190 | 283,941 | 2,504 | 280,798 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/0-kusama/2022-11-30.md) | 15,129,763 | 15,560,700 | 430,938 | 542,445 |  | 278,785 | -   |   
@@ -50,11 +50,39 @@ _Source_: [kusama.polkaholic.io](https://kusama.polkaholic.io)
 | [2019-12-01 to 2019-12-31](/kusama/0-kusama/2019-12-31.md) | 32,218 | 467,567 | 435,350 | 92,835 |  |  | -   |   
 | [2019-11-28 to 2019-11-30](/kusama/0-kusama/2019-11-30.md) | 1 | 32,217 | 32,217 | 6,175 |  |  | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.kusama.blocks0` group by monthDT order by monthDT desc
-```
+## Kusama Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [KSM](/kusama/assets/KSM) | 284,868 | 12,968,461.39 $593,294,178.41 | 309,226.62 $14,146,809.58 | 7,699,542.53  $352,246,393.88 | 7,069,461.43 $323,420,811.88 | $45.75 |   `{"Token":"KSM"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.kusama.blocks0` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.kusama.extrinsics0` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.kusama.events0` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.kusama.transfers0` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.kusama.balances0` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.kusama.accountsactive0` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.kusama.accountspassive0` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew0` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.kusama.accountsreaped0` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.kusama.assets` (filter on `0`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.kusama.blocks0` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/0.json](https://cdn.polkaholic.io/substrate-etl/kusama/0.json) | See [Definitions](/DEFINITIONS.md) for details

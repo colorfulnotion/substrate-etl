@@ -9,7 +9,7 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/polkadot/2034-hydradx/2023-02-28.md) | 1,868,702 | 2,008,242 | 139,541 | 10,223 | 126 | 23,292 | -   |   
+| [2023-02-01 to 2023-02-23](/polkadot/2034-hydradx/2023-02-28.md) | 1,868,702 | 2,010,983 | 142,282 | 10,333 | 126 | 23,299 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2034-hydradx/2023-01-31.md) | 1,672,353 | 1,868,701 | 196,349 | 33,155 | 222 | 23,205 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2034-hydradx/2022-12-31.md) | 1,483,335 | 1,672,352 | 189,018 | 1,135 |  | 22,542 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2034-hydradx/2022-11-30.md) | 1,326,016 | 1,483,334 | 157,319 | 1,154 |  | 22,421 | -   |   
@@ -22,11 +22,45 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2034-hydradx/2022-04-30.md) | 99,601 | 288,656 | 189,056 | 28 |  | 32 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2034-hydradx/2022-03-31.md) | 1 | 99,600 | 99,600 | 30 |  | 28 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.polkadot.blocks2034` group by monthDT order by monthDT desc
-```
+## HydraDX Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [DAI](/polkadot/assets/DAI) | 408 | 2,224,688.76 $2,224,688.76 |   |    |   | $1.00 |   `{"Token":"2"}` | 
+| [DOT](/polkadot/assets/DOT) | 1,455 | 56,980.9 $426,983.36 |   |    |   | $7.49 |   `{"Token":"5"}` | 
+| [HDX](/polkadot/assets/HDX) | 23,299 | 4,364,247,439.19  | 72,994.68  | 1,883,450,915.29   | 1,855,980,161.75  |  |   `{"Token":"HDX"}` | 
+| [LRNA](/polkadot/assets/LRNA) | 112 | 225,290.41  |   |    |   |  |   `{"Token":"1"}` | 
+| [WETH.ACA](/polkadot/assets/WETH.ACA) | 50 | 1,134.65  |   |    |   |  |   `{"Token":"4"}` | 
+| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 23 | 47.56  |   |    |   |  |   `{"Token":"3"}` | 
+| [APE](/polkadot/assets/APE) | 2 | 0.03  |   |    |   |  |   `{"Token":"6"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.polkadot.blocks2034` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.polkadot.extrinsics2034` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.polkadot.events2034` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.polkadot.transfers2034` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.polkadot.balances2034` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.polkadot.accountsactive2034` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.polkadot.accountspassive2034` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2034` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2034` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.polkadot.assets` (filter on `2034`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.polkadot.blocks2034` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkadot/2034.json](https://cdn.polkaholic.io/substrate-etl/polkadot/2034.json) | See [Definitions](/DEFINITIONS.md) for details

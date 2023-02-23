@@ -9,7 +9,7 @@ _Source_: [moonbeam.polkaholic.io](https://moonbeam.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-21](/polkadot/2004-moonbeam/2023-02-28.md) | 2,851,641 | 2,994,667 | 143,027 | 21,541 | 163 | 2,584,314 | -   |   
+| [2023-02-01 to 2023-02-23](/polkadot/2004-moonbeam/2023-02-28.md) | 2,851,641 | 3,010,222 | 157,743 | 23,837 | 149 | 2,677,839 | - 839 (0.53%) |   
 | [2023-01-01 to 2023-01-31](/polkadot/2004-moonbeam/2023-01-31.md) | 2,631,953 | 2,851,640 | 219,688 | 24,333 | 179 | 1,924,889 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2004-moonbeam/2022-12-31.md) | 2,412,526 | 2,631,952 | 219,427 | 31,089 |  | 1,576,832 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2004-moonbeam/2022-11-30.md) | 2,200,382 | 2,412,525 | 212,144 | 28,082 | 40 | 1,293,897 | -   |   
@@ -25,11 +25,31 @@ _Source_: [moonbeam.polkaholic.io](https://moonbeam.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/polkadot/2004-moonbeam/2022-01-31.md) | 97,535 | 314,788 | 217,254 | 28,983 |  | 141,321 | -   |   
 | [2021-12-18 to 2021-12-31](/polkadot/2004-moonbeam/2021-12-31.md) | 1 | 97,534 | 97,534 | 432 |  | 169 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.polkadot.blocks2004` group by monthDT order by monthDT desc
-```
+## substrate-etl Tables:
 
+* _Blocks_: `substrate-etl.polkadot.blocks2004` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.polkadot.extrinsics2004` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.polkadot.events2004` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.polkadot.transfers2004` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.polkadot.balances2004` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.polkadot.accountsactive2004` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.polkadot.accountspassive2004` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2004` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2004` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.polkadot.assets` (filter on `2004`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.polkadot.blocks2004` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkadot/2004.json](https://cdn.polkaholic.io/substrate-etl/polkadot/2004.json) | See [Definitions](/DEFINITIONS.md) for details

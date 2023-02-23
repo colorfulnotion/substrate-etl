@@ -31,36 +31,7 @@ Then, set up a Google Cloud Platform (GCP) account to access the project/dataset
 
 ### Quick Start
 
-You can access Substrate ETL data  in one of two ways:
-1. Using the `substrateetl` CLI
-
-1. Using the GCP BigQuery console
-
-The `substrateetl` CLI may be preferred in command line scripts whereas the GCP BigQuery console may be preferred for developing custom exploratory queries.
-
-#### Using the `substrateetl` CLI
-
-_Get blocks and extrinsics of paraid 2007_ ([Schema](#blocksjson), [Reference](#export)):
-
-```bash
-# ./substrateetl export \
- --start-date 2022-12-25 --end-date 2022-12-31 \
- --r kusama -p 2007 \
- --blocks-output blocks.json \
- --extrinsics-output extrinsics.json 
-```
-
-This exports blocks and extrinsics of kusama paraID 2007 (shiden) to files "blocks.json" and "extrinsics.json".
-
-_Get XCM transfers of polkadot_ ([Schema](#xcmtransfersjson), [Reference](#xcmtransfers)):
-
-```bash
-# ./substrateetl xcmtransfers  --r polkadot --start-date 2022-12-25 --end-date 2022-12-31  --xcmtransfers-output xcmtransfers.json
-```
-
-This exports XCM transfers of polkadot network from 2022-12-25 to 2022-12-31 to a file "xcmtransfers.json"
-
-*Using the GCP BigQuery console*
+You can access Substrate ETL data using the GCP BigQuery console.
 
 _Get blocks of paraid 2007_ ([Schema](#blocksjson)):
 ```bash
@@ -77,28 +48,47 @@ _Get XCM Transfers of Polkadot Network_ ([Schema](#xcmtransfersjson)):
 select * from `substrate-etl.polkadot.xcmtransfers` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
 ```
 
-## Table of Contents
 
-- [Substrate ETL](#substrate-etl)
-  - [Table of Contents](#table-of-contents)
-  - [Schema](#schema)
-    - [chains.json](#chainsjson)
-    - [blocks.json](#blocksjson)
-    - [events.json](#eventsjson)
-    - [extrinsics.json](#extrinsicsjson)
-    - [balances.json](#balancesjson)
-    - [transfers.json](#transfersjson)
-    - [logs.json](#logsjson)
-    - [xcmtransfers.json](#xcmtransfersjson)
-  - [Public Datasets in BigQuery](#public-datasets-in-bigquery)
-  - [Exporting the Blockchain](#exporting-the-blockchain)
-    - [Command Reference](#command-reference)
-      - [chains](#chains)
-      - [export](#export)
-      - [xcmtransfers](#xcmtransfers)
-    - [Running Tests](#running-tests)
+### Public Datasets in BigQuery
 
-## Schema
+Substrate data for each chain is held in 9 tables in one of 2 public
+datasets, with one dataset for each relay chain and all its
+parachains.  By convention, relaychain data is considered "paraid=0".
+
+Project: (Location: us-central1)
+* `substrate-etl`
+
+Datasets: 
+* `polkadot`
+* `kusama`
+
+Tables: (replace `{paraID}` with a specific para ID, e.g. `2000` for `acala`)
+
+* _Blocks_: `substrate-etl.${relayChain}.blocks${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.${relayChain}.extrinsics${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.${relayChain}.events${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.${relayChain}.transfers${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.${relayChain}.balances${paraID}` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.${relayChain}.accountsactive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.${relayChain}.accountspassive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.${relayChain}.accountsnew${paraID}` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.${relayChain}.accountsreaped${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.${relayChain}.assets` (relaychain-wide table: filter on `para_id` as needed) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.${relayChain}.xcmassets` (relaychain-wide table: filter on `para_id` as needed) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.${relayChain}.xcmtransfers` (relaychain-wide table: filter on `para_id` as needed, filter on `origination_para_id` or `destination_para_id` as needed; date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+Thus [polkadot](/polkadot/0-polkadot) relay chain blocks are held in `substrate-etl.polkadot.blocks0`, [acala](/polkadot/2000-polkadot) blocks are stored in `substrate-etl.polkadot.blocks2000`, and similarly for any chain / table name.  
+
+See [Definitions](/DEFINITIONS.md) for how the tables are constructed and tentative definitions.
+
+Every chain has a auto generated README with the chains tables explicitly enumerated, and includes sample queries.
+
+Notes:
+* System tables (`chains`, `assets`, `xcmassets`, `xcmtransfers`) are not specific to any parachain and apply to the whole relay chain.
+* All tables (except for `chains`, `assets` and `xcmassets`) are date-partitioned to support low cost, high speed scans.
+* If a parachain has a renewal, the first paraid assigned is used for subsequent renewals.
+
+Schemas for several of the most common source tables are listed below -- a full list of schemas can be found [here](/schema).
 
 ### chains.json
 
@@ -174,19 +164,6 @@ block_time              | bigint                | TIMESTAMP |
 block_number            | bigint                | INTEGER                  |
 block_hash              | hex_string            | STRING |
 
-### logs.json
-
-* [logs.json BigQuery schema](https://github.com/colorfulnotion/substrate-etl/tree/main/schema/logs.json)
-
-Field                   | Type                  | BigQuery Type                 |
-------------------------|-----------------------|-------------------------------|
-log_id                  | string                | STRING |
-hash                    | hex_string            | STRING |
-block_time              | bigint                | TIMESTAMP                  |
-block_number            | bigint                | INTEGER                  |
-block_hash              | hex_string            | STRING |
-log                     | JSON                  | JSON |
-
 ### transfers.json
 
 * [transfers.json BigQuery schema](https://github.com/colorfulnotion/substrate-etl/tree/main/schema/transfers.json)
@@ -237,17 +214,6 @@ frozen                  | float                 | FLOAT |
 frozen_usd              | float                 | FLOAT |
 
 
-### specversions.json
-
-* [specversions.json BigQuery Schema](https://github.com/colorfulnotion/substrate-etl/tree/main/schema/specversions.json)
-
-Field                   | Type                  | BigQuery Type         |
-------------------------|-----------------------|-----------------------|
-spec_version            | bigint                | INTEGER               |
-block_number            | bigint                | INTEGER |
-block_hash              | hex_string            | STRING |
-block_time              | bigint                | TIMESTAMP |
-spec                    | JSON                  | JSON  |
 
 ### xcmtransfers.json
 
@@ -304,156 +270,6 @@ See [this blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-t
 for a tutorial with representative queries covering the above.
 
 
-### Command Reference
-
-- [chains](#chains)
-- [export](#export)
-- [xcmtransfers](#xcmtransfer)
-
-All the commands accept `-h` parameter for help, e.g.:
-
-```bash
-# ./substrateetl --help
-Usage: substrateetl [options] [command]
-
-Substrate ETL CLI for Polkadot + Kusama Network Substrate chains (C) 2023 Colorful Notion, Inc.
-
-Options:
-  -V, --version                       output the version number
-  -h, --help                          display help for command
-
-Commands:
-  chains [options]                    Dump all chains of relaychain
-  export [options]                    Export chain data
-  xcmtransfers [options]              Export xcmtransfers data
-  help [command]                      display help for command
-```
-
-
-For all `output` parameters the default supported type is json, resulting in newline separated JSON data.  The format type is inferred from the output file name (.json).
-
-#### chains
-
-```bash
-# ./substrateetl chains --help
-Usage: substrateetl chains [options]
-
-Dump all chains of relaychain
-
-Options:
-  -r, --relay-chain <relaychain>  relay chain (polkadot or kusama) (default: "polkadot")
-  -h, --help                      display help for command
-```
-
-Example:
-```bash
-# ./substrateetl chains -r polkadot
-{"para_id":0,"id":"polkadot","chain_name":"Polkadot","ss58_prefix":0,"symbol":"DOT"}
-{"para_id":1000,"id":"statemint","chain_name":"Statemint","ss58_prefix":0,"symbol":"DOT"}
-{"para_id":2000,"id":"acala","chain_name":"Acala","ss58_prefix":10,"symbol":"ACA"}
-{"para_id":2002,"id":"clover","chain_name":"Clover","ss58_prefix":128,"symbol":"CLV"}
-{"para_id":2004,"id":"moonbeam","chain_name":"Moonbeam","ss58_prefix":1284,"symbol":"GLMR"}
-{"para_id":2006,"id":"astar","chain_name":"Astar","ss58_prefix":5,"symbol":"ASTR"}
-...
-{"para_id":2052,"id":"kylin","chain_name":"Kylin","ss58_prefix":42,"symbol":"KYL"}
-```
-
-#### export
-
-Exports block chain data for the relay chain or a specific paraid.
-
-```bash
-# ./substrateetl export --help
-Usage: substrateetl export [options]
-
-Export chain data
-
-Options:
-  -r, --relay-chain <relaychain>  relay chain (polkadot or kusama) (default: "polkadot")
-  -p, --para-id <paraid>          The paraid (if not supplied paraid=0 is the relaychain) (default: "0")
-  -s, --start-date <startdate>    Start date (default: "2022-12-31")
-  -e, --end-date <enddate>        End date (default: "2022-12-31")
-  --start-block <startblock>      Start block
-  --end-block <endblock>          End block
-  --blocks-output <output>        The output file for blocks. If not provided blocks data will not be exported.
-  --extrinsics-output <output>    The output file for extrinsics. If not provided extrinsics data will not be exported.
-  --events-output <output>        The output file for events. If not provided events data will not be exported.
-  --logs-output <output>          The output file for logs. If not provided logs data will not be exported.
-  --transfers-output <output>     The output file for logs. If not provided transfers data will not be exported.
-  --specversions-output <output>  The output file for logs. If not provided spec versions data will not be exported.
-  -h, --help                      display help for command
-```
-
-Example:
-```bash
-./substrateetl export \
-  -r polkadot -p 2012 \
-  --blocks-output blocks.json \
-  --extrinsics-output extrinsics.json \
-  --events-output events.json \
-  --logs-output logs.json \
-  --transfers-output transfers.json \
-  --specversions-output specversions.json
-```
-
-Omit `--blocks-output`, `--extrinsics-output`, `--events-output`, etc. options if you want to export particular sets of data.
-
-#### xcmtransfers
-
-Exports XCM transfers for a relay chain network for a date range.
-
-```
-# ./substrateetl xcmtransfers -h
-Usage: substrateetl xcmtransfers [options]
-
-Export xcmtransfers data
-
-Options:
-  -r, --relay-chain <relaychain>  relay chain (polkadot or kusama) (default: "polkadot")
-  -s, --start-date <startdate>    Start date (default: "2022-12-31")
-  -e, --end-date <enddate>        End date (default: "2022-12-31")
-  --xcmtransfers-output <output>  The output file for xcmtransfers. If not provided xcmtransfers data will not be exported. (default: "xcmtransfers.json")
-  -h, --help                      display help for command
-```
-
-Example:
-```bash
-# ./substrateetl xcmtransfers \
-  -r polkadot \
-  --start-date 2022-12-25 --end-date 2022-12-31 \
-  --xcmtransfers-output xcmtransfers.json 
-```
-
-
-### Public Datasets in BigQuery
-
-Substrate data for each chain is held in 7 tables in one of 2 public
-datasets, with one dataset for each relay chain and all its
-parachains.  By convention, relaychain data is considered "paraid=0".
-
-Project: (Location: us-central1)
-* `substrate-etl`
-
-Datasets: 
-* `polkadot`
-* `kusama`
-
-Tables: (replace `{paraid}` with a specific paraid, e.g. `2000` for `acala`)
-* `blocks{paraid}`
-* `extrinsics{paraid}`
-* `transfers{paraid}`
-* `events{paraid}`
-* `logs{paraid}`
-* `specversions{paraid}`
-* `xcmtransfers` (system)
-
-Thus polkadot relay chain blocks are held in `substrate-etl.polkadot.blocks0`, acala blocks are stored in `substrate-etl.polkadot.blocks2000`, and so on.  
-
-Notes:
-* System tables `chains` and `xcmtransfers` are not specific to any parachain and apply to the whole network.
-* All tables are date partitioned, to support low cost, high speed scans, with the exception of `chains` and `specversions{paraid}`
-* If a parachain has a renewal, the first paraid is used for subsequent renewals.
-
 ### Reporting / Missing data
 
 Generally the data is complete as can be, but the sole data source is the Polkaholic.io indexer.  
@@ -477,11 +293,10 @@ See the **Crawling Status** column for chains with systemic issues, and the **# 
 * All temporal BigQuery datasets are date-partitioned and split into multiple tables by {paraId} to enable low-cost low-latency BigQuery scans for specific date, parachain combinations. Timestamped data use BigQuery TIMESTAMP date types.
 * Addresses are provided in “public key” (signer_pub_key) and SS58 Address (signer_ss58) form to support multi-chain queries with wild card table selection eg`select * from polkadot.extrinsics* where signer_pub_key='<pubkey>' ` aggregates multi-chain transactional history for a given account. 
 * When assets are mentioned (transfers, xcmtransfers), we “decimalize” the output and include basic USD price valuation if possible.
-* EVM Transaction / Transfers support is under active development 
+* EVM Transaction / Transfers support is under active development and is planned for Q2. 
 
 ### Contributions
 
 Contributions are welcome.  Contributors will be invited to a
-dedicated Telegram group and are held to the [Polkadot communities'
-Code of Conduct](https://github.com/paritytech/polkadot/blob/master/CODE_OF_CONDUCT.md).
+dedicated Telegram group and are held to the [Polkadot communities' Code of Conduct](https://github.com/paritytech/polkadot/blob/master/CODE_OF_CONDUCT.md).
 

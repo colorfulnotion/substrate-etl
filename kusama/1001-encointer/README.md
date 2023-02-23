@@ -9,7 +9,7 @@ Status: Only partial index available: Old Decoding issues
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/kusama/1001-encointer/2023-02-28.md) | 2,190,832 | 2,346,534 | 155,252 | 24 | 2 | 950 | - 451 (0.29%) |   
+| [2023-02-01 to 2023-02-23](/kusama/1001-encointer/2023-02-28.md) | 2,190,832 | 2,349,545 | 158,261 | 26 | 2 | 950 | - 453 (0.29%) |   
 | [2023-01-01 to 2023-01-31](/kusama/1001-encointer/2023-01-31.md) | 1,972,773 | 2,190,831 | 217,517 | 2 | 1 | 900 | - 542 (0.25%) |   
 | [2022-12-01 to 2022-12-31](/kusama/1001-encointer/2022-12-31.md) | 1,791,307 | 1,972,772 | 180,844 | 5 |  | 863 | - 622 (0.34%) |   
 | [2022-11-01 to 2022-11-30](/kusama/1001-encointer/2022-11-30.md) | 1,580,907 | 1,791,306 | 209,719 | 73 |  | 825 | - 681 (0.32%) |   
@@ -24,11 +24,39 @@ Status: Only partial index available: Old Decoding issues
 | [2022-02-01 to 2022-02-28](/kusama/1001-encointer/2022-02-28.md) | 156,173 | 293,070 | 136,898 | 1 |  | 3 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/1001-encointer/2022-01-31.md) | 1 | 156,172 | 156,172 |  |  | 1 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.kusama.blocks1001` group by monthDT order by monthDT desc
-```
+## Encointer Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [KSM](/kusama/assets/KSM) | 950 | 12.72 $581.85 |   |    |   | $45.75 |   `{"Token":"KSM"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.kusama.blocks1001` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.kusama.extrinsics1001` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.kusama.events1001` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.kusama.transfers1001` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.kusama.balances1001` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.kusama.accountsactive1001` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.kusama.accountspassive1001` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew1001` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.kusama.accountsreaped1001` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.kusama.assets` (filter on `1001`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.kusama.blocks1001` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/1001.json](https://cdn.polkaholic.io/substrate-etl/kusama/1001.json) | See [Definitions](/DEFINITIONS.md) for details

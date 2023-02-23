@@ -9,7 +9,7 @@ _Source_: [polkadot.polkaholic.io](https://polkadot.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-22](/polkadot/0-polkadot/2023-02-28.md) | 14,049,653 | 14,366,172 | 316,520 | 226,003 | 5,171 | 1,069,191 | -   |   
+| [2023-02-01 to 2023-02-23](/polkadot/0-polkadot/2023-02-28.md) | 14,049,653 | 14,373,030 | 323,378 | 229,367 | 4,946 | 1,069,630 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/0-polkadot/2023-01-31.md) | 13,603,566 | 14,049,652 | 446,087 | 297,824 | 5,073 | 1,056,748 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/0-polkadot/2022-12-31.md) | 13,158,445 | 13,603,565 | 445,121 | 417,951 |  | 1,175,081 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/0-polkadot/2022-11-30.md) | 12,726,940 | 13,158,444 | 431,505 | 339,310 |  | 1,151,395 | -   |   
@@ -44,11 +44,39 @@ _Source_: [polkadot.polkaholic.io](https://polkadot.polkaholic.io)
 | [2020-06-01 to 2020-06-30](/polkadot/0-polkadot/2020-06-30.md) | 77,028 | 507,734 | 430,707 | 6,520 |  | 1,994 | -   |   
 | [2020-05-26 to 2020-05-31](/polkadot/0-polkadot/2020-05-31.md) | 1 | 77,027 | 77,027 | 615 |  | 505 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.polkadot.blocks0` group by monthDT order by monthDT desc
-```
+## Polkadot Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [DOT](/polkadot/assets/DOT) | 1,069,630 | 1,164,977,503.82 $8,729,696,735.90 | 121,167,559.32 $907,962,637.55 | 668,541,920.46  $5,009,683,192.80 | 662,310,695.93 $4,962,989,844.40 | $7.49 |   `{"Token":"DOT"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.polkadot.blocks0` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.polkadot.extrinsics0` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.polkadot.events0` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.polkadot.transfers0` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.polkadot.balances0` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.polkadot.accountsactive0` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.polkadot.accountspassive0` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew0` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped0` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.polkadot.assets` (filter on `0`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.polkadot.blocks0` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkadot/0.json](https://cdn.polkaholic.io/substrate-etl/polkadot/0.json) | See [Definitions](/DEFINITIONS.md) for details

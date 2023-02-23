@@ -9,7 +9,7 @@ _Source_: [altair.polkaholic.io](https://altair.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/kusama/2088-altair/2023-02-28.md) | 2,416,885 | 2,563,253 | 146,369 | 870 | 29 | 29,449 | -   |   
+| [2023-02-01 to 2023-02-23](/kusama/2088-altair/2023-02-28.md) | 2,416,885 | 2,566,073 | 149,189 | 878 | 29 | 29,451 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2088-altair/2023-01-31.md) | 2,219,295 | 2,416,884 | 197,590 | 1,270 | 35 | 29,408 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2088-altair/2022-12-31.md) | 2,020,464 | 2,219,294 | 198,831 | 1,544 |  | 29,354 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2088-altair/2022-11-30.md) | 1,834,463 | 2,020,463 | 186,001 | 1,213 |  | 29,264 | -   |   
@@ -28,11 +28,39 @@ _Source_: [altair.polkaholic.io](https://altair.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/kusama/2088-altair/2021-10-31.md) | 9,926 | 203,156 | 193,229 | 1,393 |  | 11,590 | - 2 (0.00%) |   
 | [2021-09-29 to 2021-09-30](/kusama/2088-altair/2021-09-30.md) | 1 | 9,925 | 9,925 | 7 |  | 10 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.kusama.blocks2088` group by monthDT order by monthDT desc
-```
+## Altair Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [AIR](/kusama/assets/AIR) | 29,451 | 476,513,030.05 $5,155,661.07 | 511,304.05 $5,532.08 | 79,025,624.27  $855,022.44 | 13,427,659 $145,281.36 | $0.01 |   `{"Token":"AIR"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.kusama.blocks2088` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.kusama.extrinsics2088` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.kusama.events2088` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.kusama.transfers2088` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.kusama.balances2088` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.kusama.accountsactive2088` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.kusama.accountspassive2088` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2088` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2088` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.kusama.assets` (filter on `2088`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.kusama.blocks2088` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/2088.json](https://cdn.polkaholic.io/substrate-etl/kusama/2088.json) | See [Definitions](/DEFINITIONS.md) for details

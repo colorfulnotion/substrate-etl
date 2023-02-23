@@ -9,7 +9,7 @@ _Source_: [equilibrium.polkaholic.io](https://equilibrium.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/polkadot/2011-equilibrium/2023-02-28.md) | 1,641,356 | 1,798,418 | 157,062 | 4,924 | 67 | 9,355 | - 1 (0.00%) |   
+| [2023-02-01 to 2023-02-23](/polkadot/2011-equilibrium/2023-02-28.md) | 1,641,356 | 1,801,407 | 160,051 | 5,253 | 67 | 9,375 | - 1 (0.00%) |   
 | [2023-01-01 to 2023-01-31](/polkadot/2011-equilibrium/2023-01-31.md) | 1,420,268 | 1,641,355 | 221,088 | 1,885 | 45 | 8,987 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2011-equilibrium/2022-12-31.md) | 1,200,017 | 1,420,267 | 220,251 | 1,501 |  |  | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2011-equilibrium/2022-11-30.md) | 1,052,777 | 1,200,016 | 147,240 | 1,040 |  | 7,491 | -   |   
@@ -22,11 +22,39 @@ _Source_: [equilibrium.polkaholic.io](https://equilibrium.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2011-equilibrium/2022-04-30.md) | 38,051 | 132,017 | 93,967 |  |  | 21 | -   |   
 | [2022-03-19 to 2022-03-31](/polkadot/2011-equilibrium/2022-03-31.md) | 1 | 38,050 | 38,050 |  |  | 21 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.polkadot.blocks2011` group by monthDT order by monthDT desc
-```
+## Equilibrium Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [EQ](/polkadot/assets/EQ) | 9,375 |   |   |    |   |  |   `{"Token":"EQ"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.polkadot.blocks2011` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.polkadot.extrinsics2011` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.polkadot.events2011` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.polkadot.transfers2011` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.polkadot.balances2011` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.polkadot.accountsactive2011` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.polkadot.accountspassive2011` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2011` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2011` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.polkadot.assets` (filter on `2011`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.polkadot.blocks2011` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkadot/2011.json](https://cdn.polkaholic.io/substrate-etl/polkadot/2011.json) | See [Definitions](/DEFINITIONS.md) for details

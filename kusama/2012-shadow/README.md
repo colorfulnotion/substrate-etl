@@ -9,7 +9,7 @@ _Source_: [shadow.polkaholic.io](https://shadow.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/kusama/2012-shadow/2023-02-28.md) | 2,234,526 | 2,390,021 | 150,070 | 465 | 9 | 3,200 | - 5,426 (3.49%) |   
+| [2023-02-01 to 2023-02-23](/kusama/2012-shadow/2023-02-28.md) | 2,234,526 | 2,392,987 | 153,036 | 465 | 9 | 3,202 | - 5,426 (3.42%) |   
 | [2023-01-01 to 2023-01-31](/kusama/2012-shadow/2023-01-31.md) | 2,016,763 | 2,234,525 | 217,763 | 201 | 7 | 1,728 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2012-shadow/2022-12-31.md) | 1,807,325 | 2,016,762 | 209,438 | 166 |  | 1,716 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2012-shadow/2022-11-30.md) | 1,602,760 | 1,807,324 | 204,565 | 158 |  | 1,695 | -   |   
@@ -24,11 +24,43 @@ _Source_: [shadow.polkaholic.io](https://shadow.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2012-shadow/2022-02-28.md) | 143,179 | 271,988 | 128,810 | 23 |  | 14 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/2012-shadow/2022-01-31.md) | 1 | 143,178 | 143,178 | 21 |  | 21 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.kusama.blocks2012` group by monthDT order by monthDT desc
-```
+## Crust Shadow Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [CSM](/kusama/assets/CSM) | 3,202 | 199,998,811.17 $3,057,377.04 | 1,168.93 $17.87 | 1,048,894.86  $16,034.43 | 412,959.96 $6,312.91 | $0.02 |   `{"Token":"CSM"}` | 
+| [KAR](/kusama/assets/KAR) | 5 | 15.05 $3.49 |   |    |   | $0.23 |   `{"Token":"10810581592933651521121702237638664357"}` | 
+| [SDN](/kusama/assets/SDN) | 11 | 3.61 $2.11 |   |    |   | $0.59 |   `{"Token":"16797826370226091782818345603793389938"}` | 
+| [KUSD](/kusama/assets/KUSD) | 5 | 1.51 $1.51 |   |    |   | $1.00 |   `{"Token":"214920334981412447805621250067209749032"}` | 
+| [MOVR](/kusama/assets/MOVR) | 4 | 0.1 $1.12 |   |    |   | $11.04 |   `{"Token":"232263652204149413431520870009560565298"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.kusama.blocks2012` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.kusama.extrinsics2012` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.kusama.events2012` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.kusama.transfers2012` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.kusama.balances2012` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.kusama.accountsactive2012` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.kusama.accountspassive2012` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2012` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2012` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.kusama.assets` (filter on `2012`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.kusama.blocks2012` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/2012.json](https://cdn.polkaholic.io/substrate-etl/kusama/2012.json) | See [Definitions](/DEFINITIONS.md) for details

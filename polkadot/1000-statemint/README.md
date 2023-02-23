@@ -9,7 +9,7 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/polkadot/1000-statemint/2023-02-28.md) | 3,114,475 | 3,271,177 | 156,703 | 602 | 18 | 568 | -   |   
+| [2023-02-01 to 2023-02-23](/polkadot/1000-statemint/2023-02-28.md) | 3,114,475 | 3,274,194 | 159,720 | 620 | 18 | 572 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/1000-statemint/2023-01-31.md) | 2,893,961 | 3,114,474 | 220,514 | 468 | 16 | 471 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/1000-statemint/2022-12-31.md) | 2,675,090 | 2,893,960 | 218,871 | 406 |  | 389 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/1000-statemint/2022-11-30.md) | 2,461,314 | 2,675,089 | 213,776 | 712 |  | 318 | -   |   
@@ -26,11 +26,50 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 | [2021-12-01 to 2021-12-31](/polkadot/1000-statemint/2021-12-31.md) | 184,519 | 389,635 | 205,117 |  |  |  | -   |   
 | [2021-11-05 to 2021-11-30](/polkadot/1000-statemint/2021-11-30.md) | 1 | 184,518 | 184,518 |  |  |  | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.polkadot.blocks1000` group by monthDT order by monthDT desc
-```
+## Statemint Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [USDT](/polkadot/assets/USDT) | 273 | 7,998,764.14 $8,002,462.54 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
+| [DOT](/polkadot/assets/DOT) | 572 | 3,326.92 $24,930.11 | 7,898.85 $59,189.58 |    |   | $7.49 |   `{"Token":"DOT"}` | 
+| [JOE](/polkadot/assets/JOE) | 4 | 1,000,000  |   |    |   |  |   `{"Token":"8"}` | 
+| [USDC](/polkadot/assets/USDC) | 4 | 250,020,000  |   |    |   |  |   `{"Token":"1337"}` | 
+| [VSC](/polkadot/assets/VSC) | 4 | 31,415,926.54  |   |    |   |  |   `{"Token":"868367"}` | 
+| [DANGER](/polkadot/assets/DANGER) | 2 | 666  |   |    |   |  |   `{"Token":"666"}` | 
+| [DOTMA](/polkadot/assets/DOTMA) | 2 | 101,000,000,000,000,000  |   |    |   |  |   `{"Token":"101"}` | 
+| [LPHP](/polkadot/assets/LPHP) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"6"}` | 
+| [TRQ](/polkadot/assets/TRQ) | 2 | 7,000,000  |   |    |   |  |   `{"Token":"77"}` | 
+| [BEAST](/polkadot/assets/BEAST) | 1 | 1,000  |   |    |   |  |   `{"Token":"10"}` | 
+| [CUBO](/polkadot/assets/CUBO) | 1 | 100,000,000  |   |    |   |  |   `{"Token":"862812"}` | 
+| [PLX](/polkadot/assets/PLX) | 1 | 1,000,000  |   |    |   |  |   `{"Token":"5"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.polkadot.blocks1000` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.polkadot.extrinsics1000` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.polkadot.events1000` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.polkadot.transfers1000` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.polkadot.balances1000` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.polkadot.accountsactive1000` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.polkadot.accountspassive1000` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew1000` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped1000` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.polkadot.assets` (filter on `1000`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.polkadot.blocks1000` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkadot/1000.json](https://cdn.polkaholic.io/substrate-etl/polkadot/1000.json) | See [Definitions](/DEFINITIONS.md) for details

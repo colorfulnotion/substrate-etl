@@ -9,7 +9,7 @@ _Source_: [nodle.polkaholic.io](https://nodle.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/polkadot/2026-nodle/2023-02-28.md) | 1,967,955 | 2,124,559 | 156,605 | 43,065 | 1,190 | 703,302 | -   |   
+| [2023-02-01 to 2023-02-23](/polkadot/2026-nodle/2023-02-28.md) | 1,967,955 | 2,127,619 | 159,665 | 43,773 | 1,190 | 704,508 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2026-nodle/2023-01-31.md) | 1,747,359 | 1,967,954 | 220,596 | 42,018 | 956 | 684,937 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2026-nodle/2022-12-31.md) | 1,527,413 | 1,747,358 | 219,946 | 26,649 |  | 662,613 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2026-nodle/2022-11-30.md) | 1,314,477 | 1,527,412 | 212,936 | 27,795 |  | 651,074 | -   |   
@@ -22,11 +22,39 @@ _Source_: [nodle.polkaholic.io](https://nodle.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2026-nodle/2022-04-30.md) | 84,991 | 212,126 | 127,136 |  |  | 9 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2026-nodle/2022-03-31.md) | 1 | 84,990 | 84,990 |  |  | 9 | -   |   
 
-## # Blocks
-```
-SELECT LAST_DAY( date(block_time)) as monthDT, Min(date(block_time)) startBN, max(date(block_time)) endBN, min(number) minBN, max(number) maxBN, count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing FROM `substrate-etl.polkadot.blocks2026` group by monthDT order by monthDT desc
-```
+## Nodle Assets as of 2023-02-22
 
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [NODL](/polkadot/assets/NODL) | 704,508 | 8,433,113,088.69  | 169,988.04  | 5,742,728,466.79   | 5,742,728,466.79  |  |   `{"Token":"NODL"}` | 
+
+## substrate-etl Tables:
+
+* _Blocks_: `substrate-etl.polkadot.blocks2026` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.polkadot.extrinsics2026` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.polkadot.events2026` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.polkadot.transfers2026` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.polkadot.balances2026` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.polkadot.accountsactive2026` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.polkadot.accountspassive2026` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2026` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2026` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.polkadot.assets` (filter on `2026`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+
+### # Blocks
+```bash
+SELECT LAST_DAY( date(block_time)) as monthDT,
+  Min(date(block_time)) startBN, max(date(block_time)) endBN, 
+ min(number) minBN, max(number) maxBN, 
+ count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
+FROM `substrate-etl.polkadot.blocks2026` 
+group by monthDT 
+order by monthDT desc
+```
 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkadot/2026.json](https://cdn.polkaholic.io/substrate-etl/polkadot/2026.json) | See [Definitions](/DEFINITIONS.md) for details

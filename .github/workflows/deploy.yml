@@ -9,7 +9,7 @@ on:
       - reporter.js
       - generateNetworksSummary
   schedule:
-    - cron: '30 * * * *'
+    - cron: '0 */2 * * *'
 
 jobs:
   build:
