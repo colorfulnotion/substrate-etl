@@ -24,6 +24,18 @@ _Source_: [shadow.polkaholic.io](https://shadow.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2012-shadow/2022-02-28.md) | 143,179 | 271,988 | 128,810 | 23 |  | 14 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/2012-shadow/2022-01-31.md) | 1 | 143,178 | 143,178 | 21 |  | 21 | -   |   
 
+## Crust Shadow Assets as of 2023-02-22
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [CSM](/kusama/assets/CSM) | 3,202 | 199,998,811.17 $3,057,377.04 | 1,168.93 $17.87 | 1,048,894.86  $16,034.43 | 412,959.96 $6,312.91 | $0.02 |   `{"Token":"CSM"}` | 
+| [KAR](/kusama/assets/KAR) | 5 | 15.05 $3.49 |   |    |   | $0.23 |   `{"Token":"10810581592933651521121702237638664357"}` | 
+| [SDN](/kusama/assets/SDN) | 11 | 3.61 $2.11 |   |    |   | $0.59 |   `{"Token":"16797826370226091782818345603793389938"}` | 
+| [KUSD](/kusama/assets/KUSD) | 5 | 1.51 $1.51 |   |    |   | $1.00 |   `{"Token":"214920334981412447805621250067209749032"}` | 
+| [MOVR](/kusama/assets/MOVR) | 4 | 0.1 $1.12 |   |    |   | $11.04 |   `{"Token":"232263652204149413431520870009560565298"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2012` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

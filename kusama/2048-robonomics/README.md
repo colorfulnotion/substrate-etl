@@ -9,7 +9,7 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/kusama/2048-robonomics/2023-02-28.md) | 2,385,571 | 2,545,488 | 159,918 | 30,390 | 34 | 3,142 | -   |   
+| [2023-02-01 to 2023-02-23](/kusama/2048-robonomics/2023-02-28.md) | 2,385,571 | 2,546,088 | 160,518 | 30,489 | 34 | 3,142 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2048-robonomics/2023-01-31.md) | 2,165,671 | 2,385,570 | 219,900 | 36,137 | 32 | 3,077 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2048-robonomics/2022-12-31.md) | 1,953,566 | 2,165,670 | 212,105 | 46,241 |  | 3,001 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2048-robonomics/2022-11-30.md) | 1,741,172 | 1,953,565 | 212,394 | 44,396 |  | 2,907 | -   |   
@@ -23,6 +23,15 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/2048-robonomics/2022-03-31.md) | 298,595 | 442,336 | 143,742 | 456,332 |  | 2,529 | -   |   
 | [2022-02-01 to 2022-02-28](/kusama/2048-robonomics/2022-02-28.md) | 158,459 | 298,594 | 140,136 | 599,259 |  | 2,452 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/2048-robonomics/2022-01-31.md) | 1 | 158,458 | 158,458 | 219,693 |  | 2,357 | -   |   
+
+## Robonomics Assets as of 2023-02-22
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [XRT](/kusama/assets/XRT) | 3,142 | 995,496.67 $8,161,954.53 | 199.04 $1,631.90 | 150,685.53  $1,235,452.13 |   | $8.20 |   `{"Token":"XRT"}` | 
+| [KSM](/kusama/assets/KSM) | 6 | 536.43 $24,541.14 |   |    |   | $45.75 |   `{"Token":"4294967295"}` | 
 
 ## substrate-etl Tables:
 

@@ -17,6 +17,14 @@ _Source_: [integritee-shell.polkaholic.io](https://integritee-shell.polkaholic.i
 | [2022-09-01 to 2022-09-30](/polkadot/2039-integritee-shell/2022-09-30.md) | 18,693 | 229,397 | 210,705 |  |  | 1 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2039-integritee-shell/2022-08-31.md) | 1 | 18,692 | 18,692 |  |  | 1 | -   |   
 
+## Integritee Shell Assets as of 2023-02-22
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [TEER](/polkadot/assets/TEER) | 1 | 10 $3.37 |   |    |   | $0.34 |   `{"Token":"TEER"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2039` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
