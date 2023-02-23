@@ -23,14 +23,6 @@ _Source_: [crab.polkaholic.io](https://crab.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/2105-crab/2022-03-31.md) | 26,711 | 127,900 | 101,190 | 2 |  | 8 | -   |   
 | [2022-02-20 to 2022-02-28](/kusama/2105-crab/2022-02-28.md) | 1 | 26,710 | 26,710 | 5 |  | 8 | -   |   
 
-## Darwinia Crab Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CRAB](/kusama/assets/CRAB) | 54 | 464,475.52 $463.18 |   | 612  $0.61 | 612 $0.61 | - |   `{"Token":"CRAB"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2105` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

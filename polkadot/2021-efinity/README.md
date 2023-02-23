@@ -22,14 +22,6 @@ _Source_: [efinity.polkaholic.io](https://efinity.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2021-efinity/2022-04-30.md) | 135,189 | 339,780 | 204,592 |  |  | 3 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2021-efinity/2022-03-31.md) | 1 | 135,188 | 135,188 |  |  | 3 | -   |   
 
-## Efinity Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [EFI](/polkadot/assets/EFI) | 16,119 | 250,207,963.12  | 11,136.65  | 165,622,500.13   | 165,622,418.8  |  |   `{"Token":"EFI"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2021` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

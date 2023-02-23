@@ -17,14 +17,6 @@ _Source_: [gm.polkaholic.io](https://gm.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/kusama/2123-gm/2022-09-30.md) | 85,830 | 254,948 | 169,119 | 27,794 |  | 9,025 | -   |   
 | [2022-08-15 to 2022-08-31](/kusama/2123-gm/2022-08-31.md) | 1 | 85,829 | 85,829 | 163 |  | 45 | -   |   
 
-## GM Parachain Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [FREN](/kusama/assets/FREN) | 9,105 | 692,446,919  | 37,750  | 98,868,650.86   | 98,868,650.86  |  |   `{"Token":"FREN"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2123` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

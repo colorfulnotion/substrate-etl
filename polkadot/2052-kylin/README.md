@@ -17,14 +17,6 @@ _Source_: [kylin.polkaholic.io](https://kylin.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/polkadot/2052-kylin/2022-09-30.md) | 9,549 | 116,720 | 107,172 | 220 |  | 1,067 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2052-kylin/2022-08-31.md) | 1 | 9,548 | 9,548 |  |  | 3 | -   |   
 
-## Kylin Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KYL](/polkadot/assets/KYL) | 1,108 | 1,000,000,001  |   | 22,576,952.91   |   |  |   `{"Token":"KYL"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2052` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

@@ -26,14 +26,6 @@ _Source_: [genshiro.polkaholic.io](https://genshiro.polkaholic.io)
 | [2021-12-01 to 2021-12-31](/kusama/2024-genshiro/2021-12-31.md) | 18,756 | 208,305 | 189,550 | 2 |  | 20 | -   |   
 | [2021-11-27 to 2021-11-30](/kusama/2024-genshiro/2021-11-30.md) | 1 | 18,755 | 18,755 |  |  | 20 | -   |   
 
-## Genshiro Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [GENS](/kusama/assets/GENS) | 27 |   |   |    |   |  |   `{"Token":"GENS"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2024` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

@@ -17,14 +17,6 @@ _Source_: [darwinia.polkaholic.io](https://darwinia.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/polkadot/2046-darwinia/2022-09-30.md) | 10,392 | 145,348 | 134,957 | 12 |  | 10 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2046-darwinia/2022-08-31.md) | 1 | 10,391 | 10,391 |  |  | 8 | -   |   
 
-## Darwinia Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [RING](/polkadot/assets/RING) | 22 | 200,000  |   |    |   |  |   `{"Token":"RING"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2046` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

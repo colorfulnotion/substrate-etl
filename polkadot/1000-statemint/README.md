@@ -26,25 +26,6 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 | [2021-12-01 to 2021-12-31](/polkadot/1000-statemint/2021-12-31.md) | 184,519 | 389,635 | 205,117 |  |  |  | -   |   
 | [2021-11-05 to 2021-11-30](/polkadot/1000-statemint/2021-11-30.md) | 1 | 184,518 | 184,518 |  |  |  | -   |   
 
-## Statemint Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [USDT](/polkadot/assets/USDT) | 273 | 7,998,764.14 $8,002,462.54 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
-| [DOT](/polkadot/assets/DOT) | 572 | 3,326.92 $24,930.11 | 7,898.85 $59,189.58 |    |   | $7.49 |   `{"Token":"DOT"}` | 
-| [JOE](/polkadot/assets/JOE) | 4 | 1,000,000  |   |    |   |  |   `{"Token":"8"}` | 
-| [USDC](/polkadot/assets/USDC) | 4 | 250,020,000  |   |    |   |  |   `{"Token":"1337"}` | 
-| [VSC](/polkadot/assets/VSC) | 4 | 31,415,926.54  |   |    |   |  |   `{"Token":"868367"}` | 
-| [DANGER](/polkadot/assets/DANGER) | 2 | 666  |   |    |   |  |   `{"Token":"666"}` | 
-| [DOTMA](/polkadot/assets/DOTMA) | 2 | 101,000,000,000,000,000  |   |    |   |  |   `{"Token":"101"}` | 
-| [LPHP](/polkadot/assets/LPHP) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"6"}` | 
-| [TRQ](/polkadot/assets/TRQ) | 2 | 7,000,000  |   |    |   |  |   `{"Token":"77"}` | 
-| [BEAST](/polkadot/assets/BEAST) | 1 | 1,000  |   |    |   |  |   `{"Token":"10"}` | 
-| [CUBO](/polkadot/assets/CUBO) | 1 | 100,000,000  |   |    |   |  |   `{"Token":"862812"}` | 
-| [PLX](/polkadot/assets/PLX) | 1 | 1,000,000  |   |    |   |  |   `{"Token":"5"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks1000` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
