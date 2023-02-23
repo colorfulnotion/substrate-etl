@@ -119,7 +119,7 @@ module.exports = class Reporter {
 	    let assets = rc.assets;
 	    if ( assets && assets.length > 0 ) {
 		let logDT = assets[0].logDT;
-		o[relayChain].push(`# Assets (as of ${logDT})\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\n\r\n`);
+		o[relayChain].push(`# Assets\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\nLast Updated: ${logDT}\r\n`);
 		o[relayChain].push(`| Symbol | # Holders | # Chains | Free | Reserved | Misc Frozen | Frozen | Recent Price |`);
 		o[relayChain].push(`| ------ | --------- | -------- | ---- | -------- | ----------- | ------ | ------------ |`);
 		for ( const l of assets ) {
