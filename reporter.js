@@ -134,7 +134,7 @@ module.exports = class Reporter {
 		    let frozen = l.frozen > 0 ? tokenCount(l.frozen) : 0;
 		    let frozenUSD = l.frozenUSD > 0 ? currencyFormat(l.frozenUSD) : "";
 		    let priceUSD = l.priceUSD > 0 ? currencyFormat(l.priceUSD) : "";
-		    o[relayChain].push(`| [${l.symbol}](/${rc.relayChain}/assets/${encodeURIComponent(l.symbol)}) | ${numHolders} | ${numChains} | ${free} ${freeUSD} | ${reserved} ${reservedUSD} | ${miscFrozen} ${miscFrozenUSD} | ${frozen} ${frozenUSD} | ${priceUSD} |`);
+		    o[relayChain].push(`| [${l.symbol}](/${rc.relayChain}/assets/${encodeURIComponent(encodeURIComponent(l.symbol))}) | ${numHolders} | ${numChains} | ${free} ${freeUSD} | ${reserved} ${reservedUSD} | ${miscFrozen} ${miscFrozenUSD} | ${frozen} ${frozenUSD} | ${priceUSD} |`);
 		    
 		    await this.asset_report_summary(relayChain, l.symbol, l.url);
 		}
