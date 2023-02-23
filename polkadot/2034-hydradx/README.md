@@ -9,7 +9,7 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/polkadot/2034-hydradx/2023-02-28.md) | 1,868,702 | 2,012,260 | 143,559 | 10,387 | 126 | 23,299 | -   |   
+| [2023-02-01 to 2023-02-23](/polkadot/2034-hydradx/2023-02-28.md) | 1,868,702 | 2,012,806 | 144,105 | 10,401 | 126 | 23,299 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2034-hydradx/2023-01-31.md) | 1,672,353 | 1,868,701 | 196,349 | 33,155 | 222 | 23,205 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2034-hydradx/2022-12-31.md) | 1,483,335 | 1,672,352 | 189,018 | 1,135 |  | 22,542 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2034-hydradx/2022-11-30.md) | 1,326,016 | 1,483,334 | 157,319 | 1,154 |  | 22,421 | -   |   
@@ -21,20 +21,6 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 | [2022-05-01 to 2022-05-31](/polkadot/2034-hydradx/2022-05-31.md) | 288,657 | 475,505 | 186,849 | 7 |  | 32 | -   |   
 | [2022-04-01 to 2022-04-30](/polkadot/2034-hydradx/2022-04-30.md) | 99,601 | 288,656 | 189,056 | 28 |  | 32 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2034-hydradx/2022-03-31.md) | 1 | 99,600 | 99,600 | 30 |  | 28 | -   |   
-
-## HydraDX Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DAI](/polkadot/assets/DAI) | 408 | 2,224,688.76 $2,224,688.76 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [DOT](/polkadot/assets/DOT) | 1,455 | 56,980.9 $426,983.36 |   |    |   | $7.49 |   `{"Token":"5"}` | 
-| [HDX](/polkadot/assets/HDX) | 23,299 | 4,364,247,439.19  | 72,994.68  | 1,883,450,915.29   | 1,855,980,161.75  |  |   `{"Token":"HDX"}` | 
-| [LRNA](/polkadot/assets/LRNA) | 112 | 225,290.41  |   |    |   |  |   `{"Token":"1"}` | 
-| [WETH.ACA](/polkadot/assets/WETH.ACA) | 50 | 1,134.65  |   |    |   |  |   `{"Token":"4"}` | 
-| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 23 | 47.56  |   |    |   |  |   `{"Token":"3"}` | 
-| [APE](/polkadot/assets/APE) | 2 | 0.03  |   |    |   |  |   `{"Token":"6"}` | 
 
 ## substrate-etl Tables:
 
