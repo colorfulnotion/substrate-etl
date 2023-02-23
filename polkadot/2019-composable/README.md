@@ -22,14 +22,6 @@ _Source_: [composable.polkaholic.io](https://composable.polkaholic.io)
 | [2022-04-12 to 2022-04-30](/polkadot/2019-composable/2022-04-30.md) | 36,000 | 129,604 | 93,605 |  |  | 6 | -   |   
 | [2022-03-12 to 2022-03-19](/polkadot/2019-composable/2022-03-31.md) | 1 | 35,999 | 35,999 |  |  | 6 | -   |   
 
-## Composable Finance Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [LAYR](/polkadot/assets/LAYR) | 10 | 99,999,999.3  |   |    |   |  |   `{"Token":"LAYR"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2019` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
