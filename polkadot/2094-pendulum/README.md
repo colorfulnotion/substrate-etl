@@ -9,7 +9,15 @@ _Source_: [pendulum.polkaholic.io](https://pendulum.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-13 to 2023-02-23](/polkadot/2094-pendulum/2023-02-28.md) | 1 | 45,383 | 45,383 | 84 | 6 | 85 | -   |   
+| [2023-02-13 to 2023-02-23](/polkadot/2094-pendulum/2023-02-28.md) | 1 | 45,983 | 45,983 | 84 | 6 | 85 | -   |   
+
+## Pendulum Assets as of 2023-02-22
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [PEN](/polkadot/assets/PEN) | 85 | 160,000,014.18  |   | 91,213,943.78   | 121,055  |  |   `{"Token":"PEN"}` | 
 
 ## substrate-etl Tables:
 

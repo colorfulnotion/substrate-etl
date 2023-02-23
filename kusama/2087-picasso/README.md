@@ -9,7 +9,7 @@ _Source_: [picasso.polkaholic.io](https://picasso.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-23](/kusama/2087-picasso/2023-02-28.md) | 1,684,783 | 1,845,167 | 160,385 | 3,429 | 46 | 2,640 | -   |   
+| [2023-02-01 to 2023-02-23](/kusama/2087-picasso/2023-02-28.md) | 1,684,783 | 1,845,780 | 160,998 | 3,433 | 46 | 2,640 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2087-picasso/2023-01-31.md) | 1,466,510 | 1,684,782 | 218,273 | 4,935 | 56 | 2,438 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2087-picasso/2022-12-31.md) | 1,263,478 | 1,466,509 | 203,032 | 4,585 |  | 1,950 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2087-picasso/2022-11-30.md) | 1,130,308 | 1,263,477 | 133,170 | 218 |  | 1,066 | -   |   
@@ -24,6 +24,14 @@ _Source_: [picasso.polkaholic.io](https://picasso.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2087-picasso/2022-02-28.md) | 40,395 | 94,797 | 54,403 |  |  | 8 | -   |   
 | [2022-01-01 to 2022-01-31](/kusama/2087-picasso/2022-01-31.md) | 10,005 | 40,394 | 30,390 | 13 |  | 8 | -   |   
 | [2021-12-28 to 2021-12-31](/kusama/2087-picasso/2021-12-31.md) | 1 | 10,004 | 10,004 | 1 |  | 6 | -   |   
+
+## Picasso Assets as of 2023-02-22
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [PICA](/kusama/assets/PICA) | 2,640 | 9,999,999,976.7  | 23.3  | 756,621,216   | 751,577,006  |  |   `{"Token":"PICA"}` | 
 
 ## substrate-etl Tables:
 
