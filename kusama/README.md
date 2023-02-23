@@ -75,26 +75,26 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [QTZ](/kusama/assets/QTZ) | 75,359 | 2 | 1,103,003,707.5 $863,089.50 | 0  | 735,013,808.86 $575,141.06 | 735,013,808.86 $575,141.06 | - |
 | [KBTC](/kusama/assets/KBTC) | 596 | 5 | 27.65 $800,523.56 | 0.2 $5,876.46 | 0  | 0  | $28,954.40 |
 | [LIT](/kusama/assets/LIT) | 13,935 | 3 | 492,677.44 $744,893.13 | 0.77 $1.16 | 336,179.71 $508,279.72 | 0  | $1.51 |
-| [KUSD/KSM](/kusama/assets/KUSD%2FKSM) | 210 | 1 | 775,020.56 $455,042.75 | 0  | 0  | 0  | $0.59 |
-| [KAR/KSM](/kusama/assets/KAR%2FKSM) | 286 | 1 | 794,966.97 $432,449.50 | 0  | 0  | 0  | $0.54 |
-| [KUSD/LKSM](/kusama/assets/KUSD%2FLKSM) | 43 | 1 | 654,022.58 $288,115.03 | 0  | 0  | 0  | $0.44 |
-| [KAR/LKSM](/kusama/assets/KAR%2FLKSM) | 105 | 1 | 509,708.16 $211,444.39 | 0  | 0  | 0  | $0.41 |
+| [KUSD/KSM](/kusama/assets/KUSD%252FKSM) | 210 | 1 | 775,020.56 $455,042.75 | 0  | 0  | 0  | $0.59 |
+| [KAR/KSM](/kusama/assets/KAR%252FKSM) | 286 | 1 | 794,966.97 $432,449.50 | 0  | 0  | 0  | $0.54 |
+| [KUSD/LKSM](/kusama/assets/KUSD%252FLKSM) | 43 | 1 | 654,022.58 $288,115.03 | 0  | 0  | 0  | $0.44 |
+| [KAR/LKSM](/kusama/assets/KAR%252FLKSM) | 105 | 1 | 509,708.16 $211,444.39 | 0  | 0  | 0  | $0.41 |
 | [ZLK](/kusama/assets/ZLK) | 20,379 | 2 | 3,671,513.55 $116,322.63 | 0  | 0  | 0  | $0.03 |
-| [KSM/LKSM](/kusama/assets/KSM%2FLKSM) | 681 | 1 | 22,926 $81,826.70 | 0  | 0  | 0  | $7.01 |
-| [KAR/KUSD](/kusama/assets/KAR%2FKUSD) | 52 | 1 | 154,027.31 $81,562.49 | 0  | 0  | 0  | $0.53 |
-| [LP-KSM/HKO](/kusama/assets/LP-KSM%2FHKO) | 80 | 1 | 18,974.11 $46,708.80 | 0  | 0  | 0  | $2.46 |
-| [cKSM-20/27](/kusama/assets/cKSM-20%2F27) | 100 | 1 | 1,100.3 $41,617.09 | 0  | 0  | 0  | $37.82 |
-| [KUSD/CSM](/kusama/assets/KUSD%2FCSM) | 12 | 1 | 24,746.16 $34,945.55 | 0  | 0  | 0  | $1.41 |
-| [KUSD/KBTC](/kusama/assets/KUSD%2FKBTC) | 23 | 1 | 31,638.53 $27,958.35 | 0  | 0  | 0  | $0.88 |
+| [KSM/LKSM](/kusama/assets/KSM%252FLKSM) | 681 | 1 | 22,926 $81,826.70 | 0  | 0  | 0  | $7.01 |
+| [KAR/KUSD](/kusama/assets/KAR%252FKUSD) | 52 | 1 | 154,027.31 $81,562.49 | 0  | 0  | 0  | $0.53 |
+| [LP-KSM/HKO](/kusama/assets/LP-KSM%252FHKO) | 80 | 1 | 18,974.11 $46,708.80 | 0  | 0  | 0  | $2.46 |
+| [cKSM-20/27](/kusama/assets/cKSM-20%252F27) | 100 | 1 | 1,100.3 $41,617.09 | 0  | 0  | 0  | $37.82 |
+| [KUSD/CSM](/kusama/assets/KUSD%252FCSM) | 12 | 1 | 24,746.16 $34,945.55 | 0  | 0  | 0  | $1.41 |
+| [KUSD/KBTC](/kusama/assets/KUSD%252FKBTC) | 23 | 1 | 31,638.53 $27,958.35 | 0  | 0  | 0  | $0.88 |
 | [SDN](/kusama/assets/SDN) | 103 | 5 | 38,241.87 $22,405.46 | 0  | 0  | 0  | $0.59 |
-| [KUSD/PHA](/kusama/assets/KUSD%2FPHA) | 11 | 1 | 19,562.84 $17,916.92 | 0  | 0  | 0  | $0.92 |
+| [KUSD/PHA](/kusama/assets/KUSD%252FPHA) | 11 | 1 | 19,562.84 $17,916.92 | 0  | 0  | 0  | $0.92 |
 | [KMA](/kusama/assets/KMA) | 128 | 3 | 7,149,539.73 $16,756.71 | 0  | 0  | 0  | $0.00234 |
-| [KUSD/RMRK](/kusama/assets/KUSD%2FRMRK) | 22 | 1 | 20,030.55 $11,024.81 | 0  | 0  | 0  | $0.55 |
-| [KUSD/AIR](/kusama/assets/KUSD%2FAIR) | 17 | 1 | 6,793.33 $7,084.48 | 0  | 0  | 0  | $1.04 |
-| [KUSD/KINT](/kusama/assets/KUSD%2FKINT) | 19 | 1 | 14,559.31 $4,644.65 | 0  | 0  | 0  | $0.32 |
-| [KSM/RMRK](/kusama/assets/KSM%2FRMRK) | 30 | 1 | 89.15 $4,146.48 | 0  | 0  | 0  | $46.51 |
-| [KAR/QTZ](/kusama/assets/KAR%2FQTZ) | 20 | 1 | 6,070.45 $787.30 | 0  | 0  | 0  | $0.13 |
-| [LP-KSM/cKSM-20/27](/kusama/assets/LP-KSM%2FcKSM-20%2F27) | 13 | 1 | 7.08 $600.01 | 0  | 0  | 0  | $84.80 |
+| [KUSD/RMRK](/kusama/assets/KUSD%252FRMRK) | 22 | 1 | 20,030.55 $11,024.81 | 0  | 0  | 0  | $0.55 |
+| [KUSD/AIR](/kusama/assets/KUSD%252FAIR) | 17 | 1 | 6,793.33 $7,084.48 | 0  | 0  | 0  | $1.04 |
+| [KUSD/KINT](/kusama/assets/KUSD%252FKINT) | 19 | 1 | 14,559.31 $4,644.65 | 0  | 0  | 0  | $0.32 |
+| [KSM/RMRK](/kusama/assets/KSM%252FRMRK) | 30 | 1 | 89.15 $4,146.48 | 0  | 0  | 0  | $46.51 |
+| [KAR/QTZ](/kusama/assets/KAR%252FQTZ) | 20 | 1 | 6,070.45 $787.30 | 0  | 0  | 0  | $0.13 |
+| [LP-KSM/cKSM-20/27](/kusama/assets/LP-KSM%252FcKSM-20%252F27) | 13 | 1 | 7.08 $600.01 | 0  | 0  | 0  | $84.80 |
 | [CRAB](/kusama/assets/CRAB) | 69 | 4 | 499,144.9 $471.50 | 0  | 612 $0.61 | 612 $0.61 | - |
 | [vsBOND-BNC-2001-13-20](/kusama/assets/vsBOND-BNC-2001-13-20) | 37,814 | 1 | 20,046.2  | 0  | 0  | 0  |  |
 | [VSKSM](/kusama/assets/VSKSM) | 36,876 | 2 | 57,352.5  | 6,290.58  | 0  | 0  |  |
@@ -119,52 +119,52 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [vBNC](/kusama/assets/vBNC) | 385 | 1 | 3,131,049.07  | 0  | 0  | 0  |  |
 | [DORA](/kusama/assets/DORA) | 372 | 1 | 50,000  | 0  | 103  | 0  |  |
 | [vsBOND-KSM-2088-15-22](/kusama/assets/vsBOND-KSM-2088-15-22) | 348 | 1 | 2,179.05  | 1,492.39  | 0  | 0  |  |
-| [TAI/taiKSM](/kusama/assets/TAI%2FtaiKSM) | 335 | 1 | 553,451.61  | 0  | 0  | 0  |  |
+| [TAI/taiKSM](/kusama/assets/TAI%252FtaiKSM) | 335 | 1 | 553,451.61  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2096-17-24](/kusama/assets/vsBOND-KSM-2096-17-24) | 334 | 1 | 2,449.92  | 2,409.07  | 0  | 0  |  |
 | [CHRWNA](/kusama/assets/CHRWNA) | 303 | 1 | 5,670  | 0  | 0  | 0  |  |
-| [cKSM-23/30](/kusama/assets/cKSM-23%2F30) | 283 | 1 | 9,865.37  | 0  | 0  | 0  |  |
+| [cKSM-23/30](/kusama/assets/cKSM-23%252F30) | 283 | 1 | 9,865.37  | 0  | 0  | 0  |  |
 | [3USD](/kusama/assets/3USD) | 161 | 1 | 1,077,335.58  | 0  | 0  | 0  |  |
 | [ARIS](/kusama/assets/ARIS) | 141 | 2 | 18,748,383.95  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2114-20-27](/kusama/assets/vsBOND-KSM-2114-20-27) | 103 | 1 | 1,619.56  | 0  | 0  | 0  |  |
 | [vMOVR](/kusama/assets/vMOVR) | 99 | 1 | 26,853.44  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2095-17-24](/kusama/assets/vsBOND-KSM-2095-17-24) | 96 | 1 | 99.4  | 161.38  | 0  | 0  |  |
 | [vsBOND-KSM-2125-23-30](/kusama/assets/vsBOND-KSM-2125-23-30) | 92 | 1 | 1,549.25  | 0  | 0  | 0  |  |
-| [KUSD/BNC](/kusama/assets/KUSD%2FBNC) | 85 | 1 | 348,235.82  | 0  | 0  | 0  |  |
+| [KUSD/BNC](/kusama/assets/KUSD%252FBNC) | 85 | 1 | 348,235.82  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2256-27-34](/kusama/assets/vsBOND-KSM-2256-27-34) | 84 | 1 | 3,510.11  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2085-15-22](/kusama/assets/vsBOND-KSM-2085-15-22) | 79 | 1 | 282.68  | 146.22  | 0  | 0  |  |
-| [LP-KSM/sKSM](/kusama/assets/LP-KSM%2FsKSM) | 78 | 1 | 2,968.03  | 0  | 0  | 0  |  |
+| [LP-KSM/sKSM](/kusama/assets/LP-KSM%252FsKSM) | 78 | 1 | 2,968.03  | 0  | 0  | 0  |  |
 | [SPOT](/kusama/assets/SPOT) | 70 | 1 | 1,000  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2100-18-25](/kusama/assets/vsBOND-KSM-2100-18-25) | 70 | 1 | 8,267.84  | 338.96  | 0  | 0  |  |
 | [vsBOND-KSM-2121-22-29](/kusama/assets/vsBOND-KSM-2121-22-29) | 58 | 1 | 470.15  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2101-18-25](/kusama/assets/vsBOND-KSM-2101-18-25) | 51 | 1 | 5,084.07  | 559.82  | 0  | 0  |  |
-| [LP-USDT/HKO](/kusama/assets/LP-USDT%2FHKO) | 49 | 1 | 130.59  | 0  | 0  | 0  |  |
+| [LP-USDT/HKO](/kusama/assets/LP-USDT%252FHKO) | 49 | 1 | 130.59  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2106-19-26](/kusama/assets/vsBOND-KSM-2106-19-26) | 49 | 1 | 109.19  | 79.68  | 0  | 0  |  |
 | [KAA](/kusama/assets/KAA) | 47 | 1 | 2,100  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2124-23-30](/kusama/assets/vsBOND-KSM-2124-23-30) | 46 | 1 | 396.73  | 0  | 0  | 0  |  |
 | [STRGZN](/kusama/assets/STRGZN) | 45 | 1 | 100,001  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2087-17-24](/kusama/assets/vsBOND-KSM-2087-17-24) | 45 | 1 | 161.72  | 61.42  | 0  | 0  |  |
 | [vsBOND-KSM-2129-24-31](/kusama/assets/vsBOND-KSM-2129-24-31) | 42 | 1 | 1,361.38  | 0  | 0  | 0  |  |
-| [cKSM-22/29](/kusama/assets/cKSM-22%2F29) | 40 | 1 | 1,048.18  | 0  | 0  | 0  |  |
-| [LP-KINT/HKO](/kusama/assets/LP-KINT%2FHKO) | 40 | 1 | 46,152.95  | 0  | 0  | 0  |  |
-| [LP-MOVR/HKO](/kusama/assets/LP-MOVR%2FHKO) | 40 | 1 | 19,341,853.14  | 0  | 0  | 0  |  |
+| [cKSM-22/29](/kusama/assets/cKSM-22%252F29) | 40 | 1 | 1,048.18  | 0  | 0  | 0  |  |
+| [LP-KINT/HKO](/kusama/assets/LP-KINT%252FHKO) | 40 | 1 | 46,152.95  | 0  | 0  | 0  |  |
+| [LP-MOVR/HKO](/kusama/assets/LP-MOVR%252FHKO) | 40 | 1 | 19,341,853.14  | 0  | 0  | 0  |  |
 | [GAV](/kusama/assets/GAV) | 36 | 1 | 10,000,000  | 0  | 0  | 0  |  |
-| [LP-KBTC/HKO](/kusama/assets/LP-KBTC%2FHKO) | 34 | 1 | 1.68  | 0  | 0  | 0  |  |
+| [LP-KBTC/HKO](/kusama/assets/LP-KBTC%252FHKO) | 34 | 1 | 1.68  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2011-19-26](/kusama/assets/vsBOND-KSM-2011-19-26) | 30 | 1 | 154.35  | 2.26  | 0  | 0  |  |
 | [vsBOND-KSM-2119-22-29](/kusama/assets/vsBOND-KSM-2119-22-29) | 30 | 1 | 206.12  | 0  | 0  | 0  |  |
-| [LP-KAR/HKO](/kusama/assets/LP-KAR%2FHKO) | 29 | 1 | 62,980.65  | 0  | 0  | 0  |  |
+| [LP-KAR/HKO](/kusama/assets/LP-KAR%252FHKO) | 29 | 1 | 62,980.65  | 0  | 0  | 0  |  |
 | [GENS](/kusama/assets/GENS) | 27 | 1 | 0  | 0  | 0  | 0  |  |
-| [LP-PHA/HKO](/kusama/assets/LP-PHA%2FHKO) | 27 | 1 | 47,608.29  | 0  | 0  | 0  |  |
+| [LP-PHA/HKO](/kusama/assets/LP-PHA%252FHKO) | 27 | 1 | 47,608.29  | 0  | 0  | 0  |  |
 | [NRNF](/kusama/assets/NRNF) | 21 | 1 | 1,000,000  | 0  | 0  | 0  |  |
 | [SIK](/kusama/assets/SIK) | 21 | 1 | 1,000,000  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2118-22-29](/kusama/assets/vsBOND-KSM-2118-22-29) | 16 | 1 | 2,009.47  | 0  | 0  | 0  |  |
 | [CHAOS](/kusama/assets/CHAOS) | 13 | 1 | 69,420  | 0  | 0  | 0  |  |
-| [cKSM-21/28](/kusama/assets/cKSM-21%2F28) | 13 | 1 | 424.51  | 0  | 0  | 0  |  |
-| [KUSD/QTZ](/kusama/assets/KUSD%2FQTZ) | 13 | 1 | 7,048.66  | 0  | 0  | 0  |  |
+| [cKSM-21/28](/kusama/assets/cKSM-21%252F28) | 13 | 1 | 424.51  | 0  | 0  | 0  |  |
+| [KUSD/QTZ](/kusama/assets/KUSD%252FQTZ) | 13 | 1 | 7,048.66  | 0  | 0  | 0  |  |
 | [bLd](/kusama/assets/bLd) | 12 | 1 | 7,590,882  | 0  | 0  | 0  |  |
 | [ACT](/kusama/assets/ACT) | 11 | 1 | 2,927  | 0  | 0  | 0  |  |
 | [BFKK](/kusama/assets/BFKK) | 9 | 1 | 26,995  | 0  | 0  | 0  |  |
 | [CUBO](/kusama/assets/CUBO) | 9 | 1 | 807.52  | 0  | 0  | 0  |  |
-| [KSM/ARIS](/kusama/assets/KSM%2FARIS) | 9 | 1 | 11.73  | 0  | 0  | 0  |  |
+| [KSM/ARIS](/kusama/assets/KSM%252FARIS) | 9 | 1 | 11.73  | 0  | 0  | 0  |  |
 | [MAR](/kusama/assets/MAR) | 9 | 1 | 100,000  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2090-15-22](/kusama/assets/vsBOND-KSM-2090-15-22) | 9 | 1 | 1.85  | 1.31  | 0  | 0  |  |
 | [vsBOND-KSM-2102-21-28](/kusama/assets/vsBOND-KSM-2102-21-28) | 9 | 1 | 216.08  | 0  | 0  | 0  |  |
@@ -180,7 +180,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Meow](/kusama/assets/Meow) | 5 | 1 | 1,000,000,000,000  | 0  | 0  | 0  |  |
 | [BAILEGO](/kusama/assets/BAILEGO) | 4 | 1 | 10,000  | 0  | 0  | 0  |  |
 | [FAN](/kusama/assets/FAN) | 4 | 1 | 6,942,000,694,270,427,000,000,000  | 0  | 0  | 0  |  |
-| [LP-LKSM/HKO](/kusama/assets/LP-LKSM%2FHKO) | 4 | 1 | 20.3  | 0  | 0  | 0  |  |
+| [LP-LKSM/HKO](/kusama/assets/LP-LKSM%252FHKO) | 4 | 1 | 20.3  | 0  | 0  | 0  |  |
 | [LT](/kusama/assets/LT) | 4 | 1 | 66.99  | 0  | 0  | 0  |  |
 | [USDCet](/kusama/assets/USDCet) | 4 | 1 | 0.57  | 0  | 0  | 0  |  |
 | [BEER](/kusama/assets/BEER) | 3 | 1 | 1,024  | 0  | 0  | 0  |  |
@@ -196,13 +196,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [XEN](/kusama/assets/XEN) | 3 | 1 | 1,000  | 0  | 0  | 0  |  |
 | [ADVERT](/kusama/assets/ADVERT) | 2 | 1 | 10,000  | 0  | 0  | 0  |  |
 | [Android](/kusama/assets/Android) | 2 | 1 | 100,100,000,000  | 0  | 0  | 0  |  |
-| [cKSM-15/22](/kusama/assets/cKSM-15%2F22) | 2 | 1 | 57,307  | 0  | 0  | 0  |  |
+| [cKSM-15/22](/kusama/assets/cKSM-15%252F22) | 2 | 1 | 57,307  | 0  | 0  | 0  |  |
 | [DREX](/kusama/assets/DREX) | 2 | 1 | 10,001  | 0  | 0  | 0  |  |
 | [ELEV](/kusama/assets/ELEV) | 2 | 1 | 1,000,000  | 0  | 0  | 0  |  |
 | [EUR](/kusama/assets/EUR) | 2 | 1 | 200  | 0  | 0  | 0  |  |
 | [INTRN](/kusama/assets/INTRN) | 2 | 1 | 0.05  | 0  | 0  | 0  |  |
 | [KOJO](/kusama/assets/KOJO) | 2 | 1 | 1,985  | 0  | 0  | 0  |  |
-| [L T](/kusama/assets/L%20T) | 2 | 1 | 10  | 0  | 0  | 0  |  |
+| [L T](/kusama/assets/L%2520T) | 2 | 1 | 10  | 0  | 0  | 0  |  |
 | [MGX](/kusama/assets/MGX) | 2 | 1 | 10  | 0  | 0  | 0  |  |
 | [MNCH](/kusama/assets/MNCH) | 2 | 1 | 1,027,000,000  | 0  | 0  | 0  |  |
 | [PLX](/kusama/assets/PLX) | 2 | 1 | 1,000,000  | 0  | 0  | 0  |  |
