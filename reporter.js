@@ -216,7 +216,7 @@ module.exports = class Reporter {
 		}
 		
 		let docs = [];
-		let subdir = path.join(dir, relayChain, `assets`, encodeURIComponent(encodeURIComponent(symbol)));
+		let subdir = path.join(dir, relayChain, `assets`, encodeURIComponent(symbol));
 		if (!fs.existsSync(subdir)) {
 		    fs.mkdirSync(subdir, {
 			recursive: true
