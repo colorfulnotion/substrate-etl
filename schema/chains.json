@@ -12,19 +12,19 @@
     "description": "String representation of the chain, in lowercase without spaces, suitable for subdomains"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "chain_name",
     "type": "STRING",
     "description": "String representation of the chain, in mixed case potentially with spaces, suitable for display"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "ss58_prefix",
     "type": "INTEGER",
     "description": "SS58 Prefix used for SS58 Encoded addresses"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "symbol",
     "type": "STRING",
     "description": "Primary native token of the chain"

@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "para_id",
+    "type": "INTEGER",
+    "description": "Para ID of the parachain representing this asset"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "asset",
+    "type": "STRING",
+    "description": "JSON String representation of the asset"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "currency_id",
+    "type": "STRING",
+    "description": "Currency ID / Asset ID of asset, if provided in assets, tokens or some other chain pallet"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "symbol",
+    "type": "STRING",
+    "description": "Human readable string token (e.g. DOT, ETH, USDC, DAI, ...)"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "decimals",
+    "type": "INTEGER",
+    "description": "Decimals for asset"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "xcm_interior_key",
+    "type": "STRING",
+    "description": "XCM Interior Key (v2 style) -- can be mapped directly to xcmassets"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "xc_contract_address",
+    "type": "STRING",
+    "description": "Precompiled xcContract Address of asset, if available (on EVM Chains only)"
+  }
+]
