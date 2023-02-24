@@ -9,7 +9,7 @@ _Source_: [darwinia.polkaholic.io](https://darwinia.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-24](/polkadot/2046-darwinia/2023-02-28.md) | 838,210 | 964,208 | 125,999 | 15 | 3 | 22 | -   |   
+| [2023-02-01 to 2023-02-24](/polkadot/2046-darwinia/2023-02-28.md) | 838,210 | 964,655 | 126,446 | 15 | 3 | 22 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2046-darwinia/2023-01-31.md) | 669,202 | 838,209 | 169,008 | 2 | 3 | 22 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2046-darwinia/2022-12-31.md) | 487,030 | 669,201 | 182,172 | 7 |  | 22 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2046-darwinia/2022-11-30.md) | 316,864 | 487,029 | 170,166 | 25 |  | 21 | -   |   
