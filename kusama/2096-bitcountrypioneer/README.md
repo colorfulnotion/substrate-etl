@@ -9,7 +9,7 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-24](/kusama/2096-bitcountrypioneer/2023-02-28.md) | 2,444,069 | 2,606,053 | 161,985 | 9,221 | 145 | 24,877 | -   |   
+| [2023-02-01 to 2023-02-24](/kusama/2096-bitcountrypioneer/2023-02-28.md) | 2,444,069 | 2,606,646 | 162,578 | 9,227 | 145 | 24,877 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2096-bitcountrypioneer/2023-01-31.md) | 2,226,701 | 2,444,068 | 217,368 | 31,043 | 332 | 24,704 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2096-bitcountrypioneer/2022-12-31.md) | 2,019,162 | 2,226,700 | 207,539 | 9,952 |  | 24,181 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2096-bitcountrypioneer/2022-11-30.md) | 1,810,421 | 2,019,161 | 208,741 | 13,243 |  | 23,665 | -   |   
@@ -25,15 +25,6 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 | [2022-01-01 to 2022-01-31](/kusama/2096-bitcountrypioneer/2022-01-31.md) | 213,884 | 406,314 | 192,431 | 6 |  | 6 | -   |   
 | [2021-12-01 to 2021-12-31](/kusama/2096-bitcountrypioneer/2021-12-31.md) | 17,803 | 213,883 | 196,081 | 14 |  | 5 | -   |   
 | [2021-11-28 to 2021-11-30](/kusama/2096-bitcountrypioneer/2021-11-30.md) | 1 | 17,802 | 17,802 |  |  | 4 | -   |   
-
-## Bit.Country Pioneer Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [NEER](/kusama/assets/NEER) | 24,852 | 94,456,673.59 $20,644,225.47 | 5,543,239.63 $1,211,517.24 | 73,655,210.31  $16,097,907.23 |   | $0.22 |   `{"Token":"NEER"}` | 
-| [KUSD](/kusama/assets/KUSD) | 3 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
 
 ## substrate-etl Tables:
 

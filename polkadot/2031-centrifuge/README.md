@@ -9,7 +9,7 @@ _Source_: [centrifuge.polkaholic.io](https://centrifuge.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-24](/polkadot/2031-centrifuge/2023-02-28.md) | 2,229,646 | 2,393,411 | 163,766 | 7,506 | 124 | 44,597 | -   |   
+| [2023-02-01 to 2023-02-24](/polkadot/2031-centrifuge/2023-02-28.md) | 2,229,646 | 2,394,007 | 164,362 | 7,524 | 124 | 44,597 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2031-centrifuge/2023-01-31.md) | 2,009,160 | 2,229,645 | 220,486 | 8,263 | 121 | 44,248 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2031-centrifuge/2022-12-31.md) | 1,789,038 | 2,009,159 | 220,122 | 5,453 |  | 43,855 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2031-centrifuge/2022-11-30.md) | 1,575,642 | 1,789,037 | 213,396 | 8,626 |  | 43,649 | -   |   
@@ -21,14 +21,6 @@ _Source_: [centrifuge.polkaholic.io](https://centrifuge.polkaholic.io)
 | [2022-05-01 to 2022-05-31](/polkadot/2031-centrifuge/2022-05-31.md) | 333,939 | 539,984 | 206,046 | 9,450 |  | 41,486 | -   |   
 | [2022-04-01 to 2022-04-30](/polkadot/2031-centrifuge/2022-04-30.md) | 132,981 | 333,938 | 200,958 | 15,603 |  | 41,078 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2031-centrifuge/2022-03-31.md) | 1 | 132,980 | 132,980 | 66 |  | 49 | -   |   
-
-## Centrifuge Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CFG](/polkadot/assets/CFG) | 44,572 | 492,111,209.98  | 161,541.69  | 71,891,478.59   | 13,128,705.21  |  |   `{"Token":"CFG"}` | 
 
 ## substrate-etl Tables:
 

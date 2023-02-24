@@ -9,7 +9,7 @@ _Source_: [pichiu.polkaholic.io](https://pichiu.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-24](/kusama/2102-pichiu/2023-02-28.md) | 1,295,607 | 1,378,235 | 82,628 | 25 | 2 | 1,149 | - 1 (0.00%) |   
+| [2023-02-01 to 2023-02-24](/kusama/2102-pichiu/2023-02-28.md) | 1,295,607 | 1,378,538 | 82,931 | 25 | 2 | 1,149 | - 1 (0.00%) |   
 | [2023-01-01 to 2023-01-31](/kusama/2102-pichiu/2023-01-31.md) | 1,165,361 | 1,295,606 | 130,246 | 90 | 3 | 1,148 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2102-pichiu/2022-12-31.md) | 956,906 | 1,165,360 | 208,455 | 58 |  | 1,124 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2102-pichiu/2022-11-30.md) | 747,379 | 956,905 | 209,527 | 75 |  | 1,123 | -   |   
@@ -18,14 +18,6 @@ _Source_: [pichiu.polkaholic.io](https://pichiu.polkaholic.io)
 | [2022-08-01 to 2022-08-31](/kusama/2102-pichiu/2022-08-31.md) | 154,154 | 334,460 | 180,307 | 113 |  | 654 | -   |   
 | [2022-07-01 to 2022-07-31](/kusama/2102-pichiu/2022-07-31.md) | 34,486 | 154,153 | 119,668 | 16 |  | 7 | -   |   
 | [2022-06-21 to 2022-06-30](/kusama/2102-pichiu/2022-06-30.md) | 1 | 34,485 | 34,485 | 7 |  | 5 | -   |   
-
-## Pichiu Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PCHU](/kusama/assets/PCHU) | 1,149 | 99,999,990  | 10  | 7,260,896.41   |   |  |   `{"Token":"PCHU"}` | 
 
 ## substrate-etl Tables:
 

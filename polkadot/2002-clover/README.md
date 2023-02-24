@@ -9,7 +9,7 @@ _Source_: [clover.polkaholic.io](https://clover.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-24](/polkadot/2002-clover/2023-02-28.md) | 2,764,805 | 2,928,851 | 164,047 | 5 | 4 | 4,119 | -   |   
+| [2023-02-01 to 2023-02-24](/polkadot/2002-clover/2023-02-28.md) | 2,764,805 | 2,929,447 | 164,643 | 5 | 4 | 4,119 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2002-clover/2023-01-31.md) | 2,544,050 | 2,764,804 | 220,755 | 7 | 5 | 4,063 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2002-clover/2022-12-31.md) | 2,323,983 | 2,544,049 | 220,067 | 23 | 6 | 3,984 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2002-clover/2022-11-30.md) | 2,110,681 | 2,323,982 | 213,302 | 41 |  | 3,868 | -   |   
@@ -24,16 +24,6 @@ _Source_: [clover.polkaholic.io](https://clover.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/polkadot/2002-clover/2022-02-28.md) | 301,022 | 482,984 | 181,963 | 57 | 1 | 49 | -   |   
 | [2022-01-01 to 2022-01-31](/polkadot/2002-clover/2022-01-31.md) | 93,137 | 301,021 | 207,885 | 35 | 1 | 21 | -   |   
 | [2021-12-18 to 2021-12-31](/polkadot/2002-clover/2021-12-31.md) | 1 | 93,136 | 93,136 |  | 1 | 7 | -   |   
-
-## Clover Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CLV](/polkadot/assets/CLV) | 4,119 | 5,157,905.04 $1,931,580.78 | 90.36 $33.84 | 606,070  $226,966.79 | 605,900 $226,903.13 | $0.37 |   `{"Token":"CLV"}` | 
-| [ASTR](/polkadot/assets/ASTR) | 2 | 2.3 $0.24 |   |    |   | $0.10 |   `{"Token":"12"}` | 
-| [PARA](/polkadot/assets/PARA) | 2 | 14 $0.18 |   |    |   | $0.01 |   `{"Token":"11"}` | 
 
 ## substrate-etl Tables:
 

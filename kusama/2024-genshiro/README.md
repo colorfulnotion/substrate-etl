@@ -9,7 +9,7 @@ _Source_: [genshiro.polkaholic.io](https://genshiro.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-24](/kusama/2024-genshiro/2023-02-28.md) | 2,266,382 | 2,421,646 | 155,265 | 19 | 3 | 28 | -   |   
+| [2023-02-01 to 2023-02-24](/kusama/2024-genshiro/2023-02-28.md) | 2,266,382 | 2,422,536 | 156,155 | 19 | 3 | 28 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2024-genshiro/2023-01-31.md) | 2,057,920 | 2,266,381 | 208,462 | 12 | 3 | 25 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2024-genshiro/2022-12-31.md) | 1,858,070 | 2,057,919 | 199,850 | 35 | 4 | 25 | -   |   
 | [2022-11-30 to 2022-11-30](/kusama/2024-genshiro/2022-11-30.md) | 1,852,351 | 1,858,069 | 5,719 |  | 3 | 25 | -   |   
@@ -25,14 +25,6 @@ _Source_: [genshiro.polkaholic.io](https://genshiro.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/kusama/2024-genshiro/2022-01-31.md) | 208,306 | 407,115 | 198,810 |  |  | 20 | -   |   
 | [2021-12-01 to 2021-12-31](/kusama/2024-genshiro/2021-12-31.md) | 18,756 | 208,305 | 189,550 | 2 |  | 20 | -   |   
 | [2021-11-27 to 2021-11-30](/kusama/2024-genshiro/2021-11-30.md) | 1 | 18,755 | 18,755 |  |  | 20 | -   |   
-
-## Genshiro Assets as of 2023-02-22
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [GENS](/kusama/assets/GENS) | 27 |   |   |    |   |  |   `{"Token":"GENS"}` | 
 
 ## substrate-etl Tables:
 
