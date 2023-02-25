@@ -191,7 +191,15 @@ module.exports = class Reporter {
             });
 	    let assetdata = JSON.parse(stdout);
 	    // compile chains using asset
-            let desc = `# ${symbol} substrate-etl Summary\r\n\r\n_Source_: [polkaholic.io](https://polkaholic.io)\r\n\r\n*Relay Chain*: ${relayChain}\r\n\r\n`;
+            let desc = `# ${symbol} substrate-etl Summary\r\n\r\n_Source_: [polkaholic.io](https://polkaholic.io)\r\n\r\n*Relay Chain*: ${relayChain}\r\n*Report Date*: ${assetdata.logDT}\r\n`;
+	    console.log(assetdata);
+	    if ( assetdata.xcmInteriorKeys && assetdata.xcmInteriorKeys.length > 0 ) {
+		desc += "*XCM Interior Keys*:\r\n";
+		for ( const xik of assetdata.xcmInteriorKeys) {
+		    desc += `* \`${xik}\`\r\n`;
+		}
+		desc += "\r\n";
+	    }
 	    let j = [];
             j.push(desc);
             j.push(`| Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |`);
@@ -223,7 +231,7 @@ module.exports = class Reporter {
 		    });
 		}
 
-		j.push(`## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:
+		j.push(`\r\n## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:
 \`\`\`bash
 select para_id, count(distinct address_pubkey) numHolders, 
  sum(free) as free, sum(free_usd) free_usd,
@@ -246,6 +254,7 @@ select para_id, count(distinct address_pubkey) numHolders,
 	    }
 	} catch (err) {
 	    console.log("asset_report_summary ERROR fetching", url);
+	    console.log(err);
 	}
     }
     
@@ -288,7 +297,7 @@ select para_id, count(distinct address_pubkey) numHolders,
 	docs.push(`* _Balances_: \`substrate-etl.${relayChain}.balances${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/balances.json)`)
 	docs.push(`* _Active Accounts_: \`substrate-etl.${relayChain}.accountsactive${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsactive.json)`)
 	docs.push(`* _Passive Accounts_: \`substrate-etl.${relayChain}.accountspassive${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountspassive.json)`)
-	docs.push(`* _New Accounts_: \`substrate-etl.${relayChain}.accountsnew${paraID}\` (date-partitioned by \`ts\`)  - [Schema](/schema/accountsnew.json)`)
+	docs.push(`* _New Accounts_: \`substrate-etl.${relayChain}.accountsnew${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsnew.json)`)
 	docs.push(`* _Reaped Accounts_: \`substrate-etl.${relayChain}.accountsreaped${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsreaped.json)`)
 	docs.push(`* _Assets_: \`substrate-etl.${relayChain}.assets\` (filter on \`${paraID}\`) - [Schema](/schema/assets.json)`)
 	docs.push(`* _XCM Assets_: \`substrate-etl.${relayChain}.xcmassets\` (filter on \`para_id\`) - [Schema](/schema/xcmassets.json)`)

@@ -16,10 +16,10 @@ The Polkaholic Indexing process results in BigQuery tables representing:
 3. balances (e.g. `substrate-etl.kusama.balances0`) - derived from each chains native balances (`system.accounts`) and non-native (assets or tokens or some other pallet) at the end of the day
 4. new accounts (e.g. `substrate-etl.kusama.accountsnew0`) and reaped accounts (`substrate-etl.kusama.accountsreaped0`) -- derived from daily differences in the `balances` tables
 
-Generally the indexing process results in a load at the conclusion of
+All data is based on UTC -- where the indexing process results in a load at the conclusion of
 each UTC day (starting at 4pm PT, completed by 7pm).  In practice,
 some data is filled in and a secondary load is done within 24-72 hours
-with automated Github Actions to generate reports.
+with automated Github Actions to generate summary reports.
 
 Both `polkadot` and `kusama` datasets is held in a public BigQuery `substrate-etl` project accessible through Google Cloud Platform and further contains:
 
