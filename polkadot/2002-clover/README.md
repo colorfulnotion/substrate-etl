@@ -25,6 +25,16 @@ _Source_: [clover.polkaholic.io](https://clover.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/polkadot/2002-clover/2022-01-31.md) | 93,137 | 301,021 | 207,885 | 35 | 1 | 21 | -   |   
 | [2021-12-18 to 2021-12-31](/polkadot/2002-clover/2021-12-31.md) | 1 | 93,136 | 93,136 |  | 1 | 7 | -   |   
 
+## Clover Assets as of 2023-02-23
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [CLV](/polkadot/assets/CLV) | 4,119 | 5,157,904.9 $1,931,580.73 | 90.36 $33.84 | 606,070  $226,966.79 | 605,900 $226,903.13 | $0.37 |   `{"Token":"CLV"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 2 | 2.3 $0.24 |   |    |   | $0.10 |   `{"Token":"12"}` | 
+| [PARA](/polkadot/assets/PARA) | 2 | 14 $0.18 |   |    |   | $0.01 |   `{"Token":"11"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2002` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

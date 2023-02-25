@@ -9,9 +9,17 @@ _Source_: [subzero.polkaholic.io](https://subzero.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2236-subzero/2023-02-28.md) | 341,779 | 509,230 | 167,452 |  | 3 | 9 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/2236-subzero/2023-02-28.md) | 341,779 | 509,720 | 167,942 |  | 3 | 9 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2236-subzero/2023-01-31.md) | 127,025 | 341,778 | 214,754 |  | 3 | 9 | -   |   
 | [2022-12-13 to 2022-12-31](/kusama/2236-subzero/2022-12-31.md) | 1 | 127,024 | 127,024 |  |  | 9 | -   |   
+
+## subzero Assets as of 2023-02-23
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [ZERO](/kusama/assets/ZERO) | 9 | 10,000,000.01  |   |    |   |  |   `{"Token":"ZERO"}` | 
 
 ## substrate-etl Tables:
 

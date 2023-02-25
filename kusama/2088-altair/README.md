@@ -28,6 +28,14 @@ _Source_: [altair.polkaholic.io](https://altair.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/kusama/2088-altair/2021-10-31.md) | 9,926 | 203,156 | 193,229 | 1,393 |  | 11,590 | - 2 (0.00%) |   
 | [2021-09-29 to 2021-09-30](/kusama/2088-altair/2021-09-30.md) | 1 | 9,925 | 9,925 | 7 |  | 10 | -   |   
 
+## Altair Assets as of 2023-02-23
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [AIR](/kusama/assets/AIR) | 29,452 | 476,512,530.04 $5,155,655.66 | 511,804.05 $5,537.49 | 79,024,664.05  $855,012.05 | 13,427,659 $145,281.36 | $0.01 |   `{"Token":"AIR"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2088` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

@@ -7,8 +7,9 @@ _Source_: [polkaholic.io](https://polkaholic.io)
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 7,625 | 11,237,964.05 $11,237,964.05 |   |    | 3,734,615.59 $3,734,615.59 | $1.00 | `{"Token":"AUSD"}` |
-| [Astar](/polkadot/2006-astar) | 296 | 112,904.59 $112,904.59 |   |    |   | $1.00 | `{"Token":"18446744073709551617"}` |
+| [Acala](/polkadot/2000-acala) | 7,630 | 11,239,731.86 $11,239,731.86 |   |    | 3,734,615.59 $3,734,615.59 | $1.00 | `{"Token":"AUSD"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 614 | 1,889,698.61 $1,566,684.87 |   |    |   | $0.83 | `{"Token":"110021739665376159354538090254163045594"}` |
+| [Astar](/polkadot/2006-astar) | 295 | 111,378.67 $111,378.67 |   |    |   | $1.00 | `{"Token":"18446744073709551617"}` |
 | [Parallel](/polkadot/2012-parallel) | 5 | 7.3 $7.30 |   |    |   | $1.00 | `{"Token":"104"}` |
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -19,7 +20,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "AUSD" and date(ts) = "2023-02-22"
+ where symbol = "AUSD" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```

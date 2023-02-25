@@ -7,7 +7,7 @@ _Source_: [polkaholic.io](https://polkaholic.io)
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Karura](/kusama/2000-karura) | 19 | 14,559.31 $4,644.65 |   |    |   | $0.32 | `[{"Token":"KUSD"},{"Token":"KINT"}]` |
+| [Karura](/kusama/2000-karura) | 19 | 14,559.31 $4,639.25 |   |    |   | $0.32 | `[{"Token":"KUSD"},{"Token":"KINT"}]` |
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
 ```bash
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "KUSD/KINT" and date(ts) = "2023-02-22"
+ where symbol = "KUSD/KINT" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```

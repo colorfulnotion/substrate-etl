@@ -7,7 +7,7 @@ _Source_: [polkaholic.io](https://polkaholic.io)
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 2,769 | 19,097,909.43  |   |    |   |  | `{"Token":"LDOT"}` |
+| [Acala](/polkadot/2000-acala) | 2,782 | 19,078,859.19  |   |    |   |  | `{"Token":"LDOT"}` |
 | [Parallel](/polkadot/2012-parallel) | 80 | 9,257.45  |   |    |   |  | `{"Token":"110"}` |
 | [Astar](/polkadot/2006-astar) | 17 | 885.7  |   |    |   |  | `{"Token":"18446744073709551618"}` |
 ## Substrate-etl Queries:
@@ -19,7 +19,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LDOT" and date(ts) = "2023-02-22"
+ where symbol = "LDOT" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```

@@ -19,6 +19,14 @@ _Source_: [kabocha.polkaholic.io](https://kabocha.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/kusama/2113-kabocha/2022-07-31.md) | 17,503 | 197,048 | 179,546 | 3 |  | 7 | -   |   
 | [2022-06-27 to 2022-06-30](/kusama/2113-kabocha/2022-06-30.md) | 1 | 17,502 | 17,502 | 1 |  | 6 | -   |   
 
+## Kabocha Assets as of 2023-02-23
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [KAB](/kusama/assets/KAB) | 13,224 | 23,881,728.33  | 45,152,013.3  | 37,998.33   |   |  |   `{"Token":"KAB"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2113` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

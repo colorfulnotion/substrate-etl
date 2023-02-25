@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "vsBOND-DOT-2032-7-14" and date(ts) = "2023-02-22"
+ where symbol = "vsBOND-DOT-2032-7-14" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```

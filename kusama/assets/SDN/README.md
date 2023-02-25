@@ -7,7 +7,8 @@ _Source_: [polkaholic.io](https://polkaholic.io)
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Moonriver](/kusama/2023-moonriver) | 46 | 30,468.5 $17,851.13 |   |    |   | $0.59 | `{"Token":"16797826370226091782818345603793389938"}` |
+| [Shiden](/kusama/2007-shiden) | 638,166 | 77,327,931.39 $45,305,520.47 | 963,888.2 $564,730.70 | 18,380,895.33  $10,769,149.19 | 15,856,052.32 $9,289,873.53 | $0.59 | `{"Token":"SDN"}` |
+| [Moonriver](/kusama/2023-moonriver) | 46 | 31,065.3 $18,200.79 |   |    |   | $0.59 | `{"Token":"16797826370226091782818345603793389938"}` |
 | [Karura](/kusama/2000-karura) | 40 | 7,739.17 $4,534.29 |   |    |   | $0.59 | `{"ForeignAsset":"18"}` |
 | [Khala](/kusama/2004-khala) | 9 | 29.99 $17.57 |   |    |   | $0.59 | `{"Token":"12"}` |
 | [Crust Shadow](/kusama/2012-shadow) | 11 | 3.61 $2.11 |   |    |   | $0.59 | `{"Token":"16797826370226091782818345603793389938"}` |
@@ -21,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "SDN" and date(ts) = "2023-02-22"
+ where symbol = "SDN" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```

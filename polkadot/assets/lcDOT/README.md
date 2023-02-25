@@ -7,8 +7,8 @@ _Source_: [polkaholic.io](https://polkaholic.io)
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 54,139 | 24,116,159.75  |   |    |   |  | `{"LiquidCrowdloan":"13"}` |
-| [Parallel](/polkadot/2012-parallel) | 164 | 1,398,763.99  |   |    |   |  | `{"Token":"106"}` |
+| [Acala](/polkadot/2000-acala) | 54,125 | 24,116,159.75  |   |    |   |  | `{"LiquidCrowdloan":"13"}` |
+| [Parallel](/polkadot/2012-parallel) | 164 | 1,399,209.23  |   |    |   |  | `{"Token":"106"}` |
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
 ```bash
@@ -18,7 +18,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "lcDOT" and date(ts) = "2023-02-22"
+ where symbol = "lcDOT" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```

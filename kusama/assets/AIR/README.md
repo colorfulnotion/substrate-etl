@@ -7,8 +7,8 @@ _Source_: [polkaholic.io](https://polkaholic.io)
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Altair](/kusama/2088-altair) | 29,451 | 476,513,030.05 $5,155,661.07 | 511,304.05 $5,532.08 | 79,025,624.27  $855,022.44 | 13,427,659 $145,281.36 | $0.01 | `{"Token":"AIR"}` |
-| [Karura](/kusama/2000-karura) | 282 | 3,386,765.28 $36,643.31 |   |    |   | $0.01 | `{"ForeignAsset":"12"}` |
+| [Altair](/kusama/2088-altair) | 29,452 | 476,512,530.04 $5,155,655.66 | 511,804.05 $5,537.49 | 79,024,664.05  $855,012.05 | 13,427,659 $145,281.36 | $0.01 | `{"Token":"AIR"}` |
+| [Karura](/kusama/2000-karura) | 281 | 3,376,765.28 $36,535.11 |   |    |   | $0.01 | `{"ForeignAsset":"12"}` |
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
 ```bash
@@ -18,7 +18,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "AIR" and date(ts) = "2023-02-22"
+ where symbol = "AIR" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```

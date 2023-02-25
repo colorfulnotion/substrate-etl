@@ -7,7 +7,7 @@ _Source_: [polkaholic.io](https://polkaholic.io)
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Unique](/polkadot/2037-unique) | 16,210 | 1,041,977,881.88  | 2  | 857,910,415.1   | 857,910,415.1  |  | `{"Token":"UNQ"}` |
+| [Unique](/polkadot/2037-unique) | 16,211 | 1,041,977,881.83  | 2  | 857,904,330.26   | 857,904,330.26  |  | `{"Token":"UNQ"}` |
 | [Acala](/polkadot/2000-acala) | 2 | 4.9  |   |    |   |  | `{"ForeignAsset":"10"}` |
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -18,7 +18,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "UNQ" and date(ts) = "2023-02-22"
+ where symbol = "UNQ" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```

@@ -7,7 +7,8 @@ _Source_: [polkaholic.io](https://polkaholic.io)
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel](/polkadot/2012-parallel) | 47,197 | 9,999,999,715.41 $125,048,010.31 | 195.77 $2.45 | 7,580,009,381.53  $94,786,511.83 | 7,579,992,958.67 $94,786,306.47 | $0.01 | `{"Token":"PARA"}` |
+| [Parallel](/polkadot/2012-parallel) | 47,212 | 9,999,999,709.1 $125,048,010.24 | 201.95 $2.53 | 7,579,273,857.56  $94,777,314.25 | 7,579,257,434.7 $94,777,108.88 | $0.01 | `{"Token":"PARA"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 79 | 29,430.46 $368.02 |   |    |   | $0.01 | `{"Token":"32615670524745285411807346420584982855"}` |
 | [Acala](/polkadot/2000-acala) | 15 | 1,412.76 $17.67 |   |    |   | $0.01 | `{"ForeignAsset":"1"}` |
 | [Phala](/polkadot/2035-phala) | 5 | 55.56 $0.69 |   |    |   | $0.01 | `{"Token":"2"}` |
 | [Clover](/polkadot/2002-clover) | 2 | 14 $0.18 |   |    |   | $0.01 | `{"Token":"11"}` |
@@ -20,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "PARA" and date(ts) = "2023-02-22"
+ where symbol = "PARA" and date(ts) = "2023-02-23"
  group by para_id
  order by free_usd desc
 ```
