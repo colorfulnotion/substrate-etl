@@ -1,9 +1,8 @@
-# vsBOND-KSM-2088-15-22 substrate-etl Summary
+# vsBOND-KSM-2088-15-22 on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: kusama
-*Report Date*: 2023-02-24
+
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |

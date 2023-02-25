@@ -1,9 +1,8 @@
-# DAI substrate-etl Summary
+# DAI on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: polkadot
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2000},{"generalKey":"0x0254a37a01cd75b616d63e0ab665bffdb0143c52ae"}]~polkadot`
 

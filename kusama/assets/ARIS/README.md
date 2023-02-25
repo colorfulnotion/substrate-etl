@@ -1,9 +1,8 @@
-# ARIS substrate-etl Summary
+# ARIS on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: kusama
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":1000},{"palletInstance":50},{"generalIndex":16}]~kusama`
 

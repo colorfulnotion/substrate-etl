@@ -1,9 +1,8 @@
-# APE substrate-etl Summary
+# APE on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: polkadot
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2000},{"generalKey":"0x02f4c723e61709d90f89939c1852f516e373d418a8"}]~polkadot`
 

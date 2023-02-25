@@ -1,9 +1,8 @@
-# BSX substrate-etl Summary
+# BSX on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: kusama
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2090},{"generalIndex":0}]~kusama`
 * `[{"parachain":2090},{"generalKey":"0x00000000"}]~kusama`

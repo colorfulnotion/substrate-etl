@@ -1,9 +1,8 @@
-# HKO substrate-etl Summary
+# HKO on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: kusama
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2085},{"generalKey":"0x484b4f"}]~kusama`
 

@@ -1,9 +1,8 @@
-# USDC substrate-etl Summary
+# USDC on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: polkadot
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2000},{"generalKey":"0x0207df96d1341a7d16ba1ad431e2c847d978bc2bce"}]~polkadot`
 

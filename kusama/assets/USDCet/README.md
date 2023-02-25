@@ -1,9 +1,8 @@
-# USDCet substrate-etl Summary
+# USDCet on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: kusama
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2000},{"generalKey":"0x021f3a10587a20114ea25ba1b388ee2dd4a337ce27"}]~kusama`
 

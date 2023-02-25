@@ -1,9 +1,8 @@
-# MGX substrate-etl Summary
+# MGX on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: kusama
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2110},{"generalKey":"0x00000000"}]~kusama`
 

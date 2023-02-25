@@ -1,9 +1,8 @@
-# WBTC.ACA substrate-etl Summary
+# WBTC.ACA on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: polkadot
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2000},{"generalKey":"0x02c80084af223c8b598536178d9361dc55bfda6818"}]~polkadot`
 

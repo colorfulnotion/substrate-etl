@@ -1,9 +1,8 @@
-# BNC substrate-etl Summary
+# BNC on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: polkadot
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2030},{"generalKey":"0x0001"}]~polkadot`
 * `[{"parachain":2030},{"generalKey":"0x0104"}]~polkadot`

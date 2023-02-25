@@ -1,9 +1,8 @@
-# cDOT-6/13 substrate-etl Summary
+# cDOT-6/13 on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: polkadot
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":2012},{"palletInstance":6},{"generalIndex":200060013}]~polkadot`
 

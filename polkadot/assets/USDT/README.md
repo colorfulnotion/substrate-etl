@@ -1,9 +1,8 @@
-# USDT substrate-etl Summary
+# USDT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io)
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
-*Relay Chain*: polkadot
-*Report Date*: 2023-02-24
+
 *XCM Interior Keys*:
 * `[{"parachain":1000},{"palletInstance":50},{"generalIndex":1984}]~polkadot`
 * `[{"parachain":1000},{"palletInstance":50},{"generalKey":"0x31393834"}]~polkadot`
