@@ -3,11 +3,12 @@
 _Source_: [polkaholic.io](https://polkaholic.io)
 
 *Relay Chain*: polkadot
-
+*Report Date*: 2023-02-24
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel](/polkadot/2012-parallel) | 171 | 42,951.1 $318,211.90 |   |    |   | $7.41 | `{"Token":"6002"}` |
+| [Parallel](/polkadot/2012-parallel) | 170 | 42,950.78 $307,456.95 |   |    |   | $7.16 | `{"Token":"6002"}` |
+
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
 ```bash
@@ -17,7 +18,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LP-DOT/PARA" and date(ts) = "2023-02-23"
+ where symbol = "LP-DOT/PARA" and date(ts) = "2023-02-24"
  group by para_id
  order by free_usd desc
 ```

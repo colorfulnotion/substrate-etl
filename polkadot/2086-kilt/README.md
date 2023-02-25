@@ -9,7 +9,7 @@ _Source_: [kilt.polkaholic.io](https://kilt.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2086-kilt/2023-02-28.md) | 3,064,119 | 3,235,736 | 171,579 | 3,711 | 108 | 18,061 | - 39 (0.02%) |   
+| [2023-02-01 to 2023-02-25](/polkadot/2086-kilt/2023-02-28.md) | 3,064,119 | 3,236,335 | 172,178 | 3,725 | 108 | 18,061 | - 39 (0.02%) |   
 | [2023-01-01 to 2023-01-31](/polkadot/2086-kilt/2023-01-31.md) | 2,843,795 | 3,064,118 | 220,324 | 5,941 | 129 | 17,920 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2086-kilt/2022-12-31.md) | 2,626,142 | 2,843,794 | 217,653 | 4,597 |  | 17,633 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2086-kilt/2022-11-30.md) | 2,418,359 | 2,626,141 | 207,783 | 4,746 |  | 17,353 | -   |   
@@ -28,13 +28,13 @@ _Source_: [kilt.polkaholic.io](https://kilt.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/polkadot/2086-kilt/2021-10-31.md) | 130,782 | 331,942 | 200,846 | 513 |  | 320 | [object Object] 315 (0.16%) |   
 | [2021-09-08 to 2021-09-30](/polkadot/2086-kilt/2021-09-30.md) | 1 | 130,781 | 130,542 | 106 |  |  | [object Object] 239 (0.18%) |   
 
-## KILT Spiritnet Assets as of 2023-02-23
+## KILT Spiritnet Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KILT](/polkadot/assets/KILT) | 18,057 | 157,542,070.57  | 27,350.41  | 1,000,000,117,003,011.8   | 74,594,014.56  |  |   `{"Token":"KILT"}` | 
+| [KILT](/polkadot/assets/KILT) | 18,061 | 157,547,764.71  | 27,352.9  | 1,000,000,117,011,474.2   | 74,602,504.56  |  |   `{"Token":"KILT"}` | 
 
 ## substrate-etl Tables:
 
@@ -45,7 +45,7 @@ _Source_: [kilt.polkaholic.io](https://kilt.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2086` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2086` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2086` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2086` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2086` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2086` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2086`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

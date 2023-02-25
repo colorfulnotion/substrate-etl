@@ -9,7 +9,7 @@ _Source_: [efinity.polkaholic.io](https://efinity.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2021-efinity/2023-02-28.md) | 2,089,532 | 2,235,196 | 145,665 | 11,210 | 38 | 16,128 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2021-efinity/2023-02-28.md) | 2,089,532 | 2,235,633 | 146,102 | 11,213 | 38 | 16,128 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2021-efinity/2023-01-31.md) | 1,895,402 | 2,089,531 | 194,130 | 3,132 | 31 | 15,989 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2021-efinity/2022-12-31.md) | 1,689,841 | 1,895,401 | 205,561 | 9,933 |  | 15,846 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2021-efinity/2022-11-30.md) | 1,489,730 | 1,689,840 | 200,111 | 1,325 |  | 15,760 | -   |   
@@ -22,13 +22,13 @@ _Source_: [efinity.polkaholic.io](https://efinity.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2021-efinity/2022-04-30.md) | 135,189 | 339,780 | 204,592 |  |  | 3 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2021-efinity/2022-03-31.md) | 1 | 135,188 | 135,188 |  |  | 3 | -   |   
 
-## Efinity Assets as of 2023-02-23
+## Efinity Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [EFI](/polkadot/assets/EFI) | 16,125 | 250,207,963.12 $22,853,995.35 | 11,136.65 $1,017.22 | 165,610,436.42  $15,126,857.26 | 165,610,355.09 $15,126,849.83 | $0.09 |   `{"Token":"EFI"}` | 
+| [EFI](/polkadot/assets/EFI) | 16,128 | 250,207,951.66  | 11,148.1  | 165,599,617.95   | 165,599,536.62  |  |   `{"Token":"EFI"}` | 
 
 ## substrate-etl Tables:
 
@@ -39,7 +39,7 @@ _Source_: [efinity.polkaholic.io](https://efinity.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2021` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2021` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2021` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2021` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2021` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2021` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2021`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

@@ -9,7 +9,7 @@ _Source_: [litentry.polkaholic.io](https://litentry.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2013-litentry/2023-02-28.md) | 1,587,337 | 1,759,012 | 171,676 | 4,070 | 88 | 4,767 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2013-litentry/2023-02-28.md) | 1,587,337 | 1,759,636 | 172,300 | 4,081 | 88 | 4,767 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2013-litentry/2023-01-31.md) | 1,365,864 | 1,587,336 | 221,473 | 4,495 | 82 | 4,751 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2013-litentry/2022-12-31.md) | 1,144,608 | 1,365,863 | 221,256 | 3,865 |  | 4,741 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2013-litentry/2022-11-30.md) | 930,803 | 1,144,607 | 213,805 | 2,549 |  | 4,720 | -   |   
@@ -19,13 +19,13 @@ _Source_: [litentry.polkaholic.io](https://litentry.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2013-litentry/2022-07-31.md) | 151,698 | 329,619 | 177,922 | 318 |  | 4,671 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2013-litentry/2022-06-30.md) | 1 | 151,697 | 151,697 | 2 |  | 16 | -   |   
 
-## Litentry Assets as of 2023-02-23
+## Litentry Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [LIT](/polkadot/assets/LIT) | 4,765 | 10,275,121.8  | 1,870,537.56  | 8,813,551.79   |   |  |   `{"Token":"LIT"}` | 
+| [LIT](/polkadot/assets/LIT) | 4,767 | 10,276,008.15  | 1,875,855.56  | 8,811,253.86   |   |  |   `{"Token":"LIT"}` | 
 
 ## substrate-etl Tables:
 
@@ -36,7 +36,7 @@ _Source_: [litentry.polkaholic.io](https://litentry.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2013` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2013` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2013` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2013` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2013` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2013` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2013`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

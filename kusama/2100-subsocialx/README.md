@@ -9,7 +9,7 @@ Status: Only partial index available: Onboarding
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2100-subsocialx/2023-02-28.md) | 2,115,150 | 2,284,771 | 169,622 | 2,011 | 49 | 34,328 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/2100-subsocialx/2023-02-28.md) | 2,115,150 | 2,285,367 | 170,218 | 2,014 | 49 | 34,328 | -   |   
 | [2023-01-04 to 2023-01-31](/kusama/2100-subsocialx/2023-01-31.md) | 1,918,848 | 2,115,149 | 153,838 | 1,726 | 47 | 34,238 | - 42,464 (21.63%) |   
 | [2022-12-06 to 2022-12-13](/kusama/2100-subsocialx/2022-12-31.md) | 1,723,890 | 1,774,259 | 48,469 | 475 |  |  | -  **BROKEN** (3.77%) |   
 | [2022-11-01 to 2022-11-12](/kusama/2100-subsocialx/2022-11-30.md) | 1,507,933 | 1,591,419 | 82,025 | 1,568 |  |  | -  **BROKEN** (1.75%) |   
@@ -33,7 +33,7 @@ Status: Only partial index available: Onboarding
 * _Balances_: `substrate-etl.kusama.balances2100` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2100` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2100` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2100` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2100` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2100` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2100`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

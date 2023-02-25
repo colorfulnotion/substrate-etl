@@ -9,7 +9,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2121-imbue/2023-02-28.md) | 1,379,486 | 1,508,806 | 129,224 | 29 |  | 336 | - 97 (0.08%) |   
+| [2023-02-01 to 2023-02-25](/kusama/2121-imbue/2023-02-28.md) | 1,379,486 | 1,509,410 | 129,828 | 29 |  | 336 | - 97 (0.07%) |   
 | [2023-01-01 to 2023-01-31](/kusama/2121-imbue/2023-01-31.md) | 1,205,104 | 1,379,485 | 172,363 | 45 | 4 | 330 | - 2,019 (1.16%) |   
 | [2022-12-01 to 2022-12-31](/kusama/2121-imbue/2022-12-31.md) | 993,760 | 1,205,103 | 209,925 | 12 |  | 323 | - 1,419 (0.67%) |   
 | [2022-11-01 to 2022-11-30](/kusama/2121-imbue/2022-11-30.md) | 782,277 | 993,759 | 211,483 | 152 |  | 321 | -   |   
@@ -28,7 +28,7 @@ Status: Only partial index available: Archive node unavailable
 * _Balances_: `substrate-etl.kusama.balances2121` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2121` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2121` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2121` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2121` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2121` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2121`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

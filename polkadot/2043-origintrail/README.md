@@ -9,7 +9,7 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2043-origintrail/2023-02-28.md) | 1,683,135 | 1,841,999 | 158,865 | 198 | 13 | 3,641 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2043-origintrail/2023-02-28.md) | 1,683,135 | 1,842,550 | 159,416 | 198 | 13 | 3,641 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2043-origintrail/2023-01-31.md) | 1,469,695 | 1,683,134 | 213,440 | 474 | 14 | 3,606 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2043-origintrail/2022-12-31.md) | 1,249,065 | 1,469,694 | 220,630 | 591 |  | 3,523 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2043-origintrail/2022-11-30.md) | 1,034,707 | 1,249,064 | 214,358 | 350 |  | 3,222 | -   |   
@@ -19,13 +19,13 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2043-origintrail/2022-07-31.md) | 176,609 | 388,054 | 211,446 | 330,210 |  | 2,833 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2043-origintrail/2022-06-30.md) | 1 | 176,608 | 176,608 | 1,124,329 |  | 11 | -   |   
 
-## Origin Trail Assets as of 2023-02-23
+## Origin Trail Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [OTP](/polkadot/assets/OTP) | 3,640 | 500,053,200.41  | 166  | 22,331,356.74   |   |  |   `{"Token":"OTP"}` | 
+| [OTP](/polkadot/assets/OTP) | 3,641 | 500,053,200.38  | 166  | 22,331,352.47   |   |  |   `{"Token":"OTP"}` | 
 | [TRAC](/polkadot/assets/TRAC) | 211 | 84,040,684.43  |   |    |   |  |   `{"Token":"1"}` | 
 
 ## substrate-etl Tables:
@@ -37,7 +37,7 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2043` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2043` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2043` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2043` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2043` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2043` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2043`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

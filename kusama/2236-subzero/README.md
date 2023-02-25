@@ -13,7 +13,7 @@ _Source_: [subzero.polkaholic.io](https://subzero.polkaholic.io)
 | [2023-01-01 to 2023-01-31](/kusama/2236-subzero/2023-01-31.md) | 127,025 | 341,778 | 214,754 |  | 3 | 9 | -   |   
 | [2022-12-13 to 2022-12-31](/kusama/2236-subzero/2022-12-31.md) | 1 | 127,024 | 127,024 |  |  | 9 | -   |   
 
-## subzero Assets as of 2023-02-23
+## subzero Assets as of 2023-02-24
 
 
 
@@ -30,7 +30,7 @@ _Source_: [subzero.polkaholic.io](https://subzero.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2236` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2236` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2236` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2236` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2236` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2236` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2236`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

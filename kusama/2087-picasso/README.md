@@ -9,7 +9,7 @@ _Source_: [picasso.polkaholic.io](https://picasso.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2087-picasso/2023-02-28.md) | 1,684,783 | 1,855,245 | 170,463 | 3,580 | 47 | 2,651 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/2087-picasso/2023-02-28.md) | 1,684,783 | 1,855,842 | 171,060 | 3,580 | 47 | 2,651 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2087-picasso/2023-01-31.md) | 1,466,510 | 1,684,782 | 218,273 | 4,935 | 56 | 2,438 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2087-picasso/2022-12-31.md) | 1,263,478 | 1,466,509 | 203,032 | 4,585 |  | 1,950 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2087-picasso/2022-11-30.md) | 1,130,308 | 1,263,477 | 133,170 | 218 |  | 1,066 | -   |   
@@ -25,13 +25,13 @@ _Source_: [picasso.polkaholic.io](https://picasso.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/kusama/2087-picasso/2022-01-31.md) | 10,005 | 40,394 | 30,390 | 13 |  | 8 | -   |   
 | [2021-12-28 to 2021-12-31](/kusama/2087-picasso/2021-12-31.md) | 1 | 10,004 | 10,004 | 1 |  | 6 | -   |   
 
-## Picasso Assets as of 2023-02-23
+## Picasso Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PICA](/kusama/assets/PICA) | 2,643 | 9,999,999,976.7  | 23.3  | 756,621,216   | 751,577,006  |  |   `{"Token":"PICA"}` | 
+| [PICA](/kusama/assets/PICA) | 2,651 | 9,999,999,976.7  | 23.3  | 756,631,216   | 751,577,006  |  |   `{"Token":"PICA"}` | 
 
 ## substrate-etl Tables:
 
@@ -42,7 +42,7 @@ _Source_: [picasso.polkaholic.io](https://picasso.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2087` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2087` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2087` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2087` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2087` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2087` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2087`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

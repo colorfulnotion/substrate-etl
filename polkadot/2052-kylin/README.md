@@ -9,7 +9,7 @@ _Source_: [kylin.polkaholic.io](https://kylin.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2052-kylin/2023-02-28.md) | 602,893 | 689,700 | 86,808 | 66 | 3 | 1,108 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2052-kylin/2023-02-28.md) | 602,893 | 690,002 | 87,110 | 66 | 3 | 1,108 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2052-kylin/2023-01-31.md) | 472,512 | 602,892 | 130,381 | 106 | 4 | 1,108 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2052-kylin/2022-12-31.md) | 335,848 | 472,511 | 136,664 | 101 |  | 1,106 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2052-kylin/2022-11-30.md) | 227,968 | 335,847 | 107,880 | 110 |  | 1,105 | -   |   
@@ -17,13 +17,13 @@ _Source_: [kylin.polkaholic.io](https://kylin.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/polkadot/2052-kylin/2022-09-30.md) | 9,549 | 116,720 | 107,172 | 220 |  | 1,067 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2052-kylin/2022-08-31.md) | 1 | 9,548 | 9,548 |  |  | 3 | -   |   
 
-## Kylin Assets as of 2023-02-23
+## Kylin Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KYL](/polkadot/assets/KYL) | 1,108 | 1,000,000,001  |   | 22,576,663.87   |   |  |   `{"Token":"KYL"}` | 
+| [KYL](/polkadot/assets/KYL) | 1,108 | 1,000,000,001  |   | 22,576,513.84   |   |  |   `{"Token":"KYL"}` | 
 
 ## substrate-etl Tables:
 
@@ -34,7 +34,7 @@ _Source_: [kylin.polkaholic.io](https://kylin.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2052` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2052` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2052` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2052` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2052` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2052` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2052`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

@@ -9,7 +9,7 @@ Status: Only partial index available: Old Decoding issues
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/1001-encointer/2023-02-28.md) | 2,190,832 | 2,361,449 | 170,123 | 26 | 2 | 957 | - 495 (0.29%) |   
+| [2023-02-01 to 2023-02-25](/kusama/1001-encointer/2023-02-28.md) | 2,190,832 | 2,362,043 | 170,717 | 26 | 2 | 957 | - 495 (0.29%) |   
 | [2023-01-01 to 2023-01-31](/kusama/1001-encointer/2023-01-31.md) | 1,972,773 | 2,190,831 | 217,517 | 2 | 1 | 900 | - 542 (0.25%) |   
 | [2022-12-01 to 2022-12-31](/kusama/1001-encointer/2022-12-31.md) | 1,791,307 | 1,972,772 | 180,844 | 5 |  | 863 | - 622 (0.34%) |   
 | [2022-11-01 to 2022-11-30](/kusama/1001-encointer/2022-11-30.md) | 1,580,907 | 1,791,306 | 209,719 | 73 |  | 825 | - 681 (0.32%) |   
@@ -24,13 +24,13 @@ Status: Only partial index available: Old Decoding issues
 | [2022-02-01 to 2022-02-28](/kusama/1001-encointer/2022-02-28.md) | 156,173 | 293,070 | 136,898 | 1 |  | 3 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/1001-encointer/2022-01-31.md) | 1 | 156,172 | 156,172 |  |  | 1 | -   |   
 
-## Encointer Assets as of 2023-02-23
+## Encointer Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 953 | 12.72 $581.85 |   |    |   | $45.75 |   `{"Token":"KSM"}` | 
+| [KSM](/kusama/assets/KSM) | 957 | 12.72 $581.85 |   |    |   | $45.75 |   `{"Token":"KSM"}` | 
 
 ## substrate-etl Tables:
 
@@ -41,7 +41,7 @@ Status: Only partial index available: Old Decoding issues
 * _Balances_: `substrate-etl.kusama.balances1001` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive1001` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive1001` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew1001` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew1001` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped1001` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `1001`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

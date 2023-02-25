@@ -3,13 +3,18 @@
 _Source_: [polkaholic.io](https://polkaholic.io)
 
 *Relay Chain*: kusama
+*Report Date*: 2023-02-24
+*XCM Interior Keys*:
+* `[{"parachain":2090},{"generalIndex":0}]~kusama`
+* `[{"parachain":2090},{"generalKey":"0x00000000"}]~kusama`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Basilisk](/kusama/2090-basilisk) | 18,353 | 49,499,913,562 $7,473,607.88 | 60,812.33 $9.18 | 23,189,848,610.24  $3,501,255.31 | 23,150,216,231.5 $3,495,271.53 | - | `{"Token":"BSX"}` |
+| [Basilisk](/kusama/2090-basilisk) | 18,354 | 49,499,915,489 $7,473,608.17 | 58,885.33 $8.89 | 23,184,049,057.9  $3,500,379.68 | 23,150,319,679.15 $3,495,287.15 | - | `{"Token":"BSX"}` |
 | [Karura](/kusama/2000-karura) | 116 | 5,891,771.39 $889.55 |   |    |   | - | `{"ForeignAsset":"11"}` |
 | [Khala](/kusama/2004-khala) | 6 | 6,770.26 $1.02 |   |    |   | - | `{"Token":"9"}` |
+
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
 ```bash
@@ -19,7 +24,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "BSX" and date(ts) = "2023-02-23"
+ where symbol = "BSX" and date(ts) = "2023-02-24"
  group by para_id
  order by free_usd desc
 ```

@@ -22,18 +22,18 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2034-hydradx/2022-04-30.md) | 99,601 | 288,656 | 189,056 | 28 |  | 32 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2034-hydradx/2022-03-31.md) | 1 | 99,600 | 99,600 | 30 |  | 28 | -   |   
 
-## HydraDX Assets as of 2023-02-23
+## HydraDX Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DAI](/polkadot/assets/DAI) | 405 | 2,222,459.03 $2,222,459.03 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [DOT](/polkadot/assets/DOT) | 1,459 | 57,530.46 $431,101.41 |   |    |   | $7.49 |   `{"Token":"5"}` | 
-| [HDX](/polkadot/assets/HDX) | 23,303 | 4,364,295,051.81  | 73,196.07  | 1,882,306,697.27   | 1,855,595,612.54  |  |   `{"Token":"HDX"}` | 
-| [LRNA](/polkadot/assets/LRNA) | 112 | 225,446.09  |   |    |   |  |   `{"Token":"1"}` | 
-| [WETH.ACA](/polkadot/assets/WETH.ACA) | 50 | 1,132.58  |   |    |   |  |   `{"Token":"4"}` | 
-| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 22 | 47.75  |   |    |   |  |   `{"Token":"3"}` | 
+| [DAI](/polkadot/assets/DAI) | 408 | 2,210,331.62 $2,210,331.62 |   |    |   | $1.00 |   `{"Token":"2"}` | 
+| [DOT](/polkadot/assets/DOT) | 1,466 | 57,837.56 $433,402.65 |   |    |   | $7.49 |   `{"Token":"5"}` | 
+| [HDX](/polkadot/assets/HDX) | 23,309 | 4,364,353,633.52  | 71,991.18  | 1,879,383,875.05   | 1,852,846,827.96  |  |   `{"Token":"HDX"}` | 
+| [LRNA](/polkadot/assets/LRNA) | 114 | 225,442.36  |   |    |   |  |   `{"Token":"1"}` | 
+| [WETH.ACA](/polkadot/assets/WETH.ACA) | 49 | 1,133.58  |   |    |   |  |   `{"Token":"4"}` | 
+| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 22 | 47.9  |   |    |   |  |   `{"Token":"3"}` | 
 | [APE](/polkadot/assets/APE) | 2 | 0.03  |   |    |   |  |   `{"Token":"6"}` | 
 
 ## substrate-etl Tables:
@@ -45,7 +45,7 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2034` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2034` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2034` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2034` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2034` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2034` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2034`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

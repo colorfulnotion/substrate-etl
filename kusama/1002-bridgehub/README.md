@@ -9,10 +9,10 @@ _Source_: [bridgehub.polkaholic.io](https://bridgehub.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/1002-bridgehub/2023-02-28.md) | 86,880 | 257,758 | 170,879 |  | 4 | 4 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/1002-bridgehub/2023-02-28.md) | 86,880 | 258,356 | 171,477 |  | 4 | 4 | -   |   
 | [2023-01-19 to 2023-01-31](/kusama/1002-bridgehub/2023-01-31.md) | 1 | 86,879 | 86,879 |  | 4 | 4 | -   |   
 
-## BridgeHub Assets as of 2023-02-23
+## BridgeHub Assets as of 2023-02-24
 
 
 
@@ -29,7 +29,7 @@ _Source_: [bridgehub.polkaholic.io](https://bridgehub.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances1002` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive1002` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive1002` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew1002` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew1002` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped1002` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `1002`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

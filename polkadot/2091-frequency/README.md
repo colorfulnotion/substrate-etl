@@ -9,12 +9,12 @@ _Source_: [frequency.polkaholic.io](https://frequency.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2091-frequency/2023-02-28.md) | 450,021 | 622,122 | 172,102 | 45 | 7 | 28 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2091-frequency/2023-02-28.md) | 450,021 | 622,737 | 172,717 | 45 | 7 | 28 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2091-frequency/2023-01-31.md) | 233,132 | 450,020 | 216,889 | 15 | 6 | 27 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2091-frequency/2022-12-31.md) | 11,895 | 233,131 | 221,237 |  |  | 27 | -   |   
 | [2022-11-29 to 2022-11-30](/polkadot/2091-frequency/2022-11-30.md) | 1 | 11,894 | 11,894 |  |  | 27 | -   |   
 
-## Frequency Assets as of 2023-02-23
+## Frequency Assets as of 2023-02-24
 
 
 
@@ -31,7 +31,7 @@ _Source_: [frequency.polkaholic.io](https://frequency.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2091` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2091` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2091` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2091` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2091` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2091` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2091`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

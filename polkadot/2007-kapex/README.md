@@ -9,14 +9,14 @@ _Source_: [kapex.polkaholic.io](https://kapex.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2007-kapex/2023-02-28.md) | 975,590 | 1,147,325 | 171,736 | 8 | 2 | 1,054 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2007-kapex/2023-02-28.md) | 975,590 | 1,147,926 | 172,337 | 8 | 2 | 1,054 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2007-kapex/2023-01-31.md) | 755,417 | 975,589 | 220,173 | 54 | 3 | 1,052 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2007-kapex/2022-12-31.md) | 536,184 | 755,416 | 219,233 |  |  | 3 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2007-kapex/2022-11-30.md) | 322,459 | 536,183 | 213,725 |  |  | 3 | -   |   
 | [2022-10-01 to 2022-10-31](/polkadot/2007-kapex/2022-10-31.md) | 101,902 | 322,458 | 220,557 |  |  | 3 | -   |   
 | [2022-09-16 to 2022-09-30](/polkadot/2007-kapex/2022-09-30.md) | 1 | 101,901 | 101,901 |  |  | 3 | -   |   
 
-## Kapex Assets as of 2023-02-23
+## Kapex Assets as of 2023-02-24
 
 
 
@@ -33,7 +33,7 @@ _Source_: [kapex.polkaholic.io](https://kapex.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2007` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2007` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2007` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2007` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2007` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2007` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2007`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

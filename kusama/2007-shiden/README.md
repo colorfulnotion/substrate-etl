@@ -9,7 +9,7 @@ Status: Only partial index available: Old Decoding issues
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2007-shiden/2023-02-28.md) | 3,287,877 | 3,458,232 | 170,356 | 18,577 | 195 | 638,197 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/2007-shiden/2023-02-28.md) | 3,287,877 | 3,458,833 | 170,957 | 18,635 | 195 | 638,197 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2007-shiden/2023-01-31.md) | 3,069,580 | 3,287,876 | 218,297 | 17,113 | 185 | 637,257 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2007-shiden/2022-12-31.md) | 2,859,394 | 3,069,579 | 210,186 | 15,726 | 43 | 636,067 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2007-shiden/2022-11-30.md) | 2,649,806 | 2,859,393 | 209,588 | 12,267 | 59 | 635,192 | -   |   
@@ -30,13 +30,13 @@ Status: Only partial index available: Old Decoding issues
 | [2021-08-01 to 2021-08-31](/kusama/2007-shiden/2021-08-31.md) | 114,737 | 255,428 | 59,805 | 11,505 |  | 15,856 | - 80,887 (57.49%) |   
 | [2021-07-06 to 2021-07-31](/kusama/2007-shiden/2021-07-31.md) | 1 | 114,736 | 2 |  |  | 12,144 | - 114,734 (100.00%) |   
 
-## Shiden Assets as of 2023-02-23
+## Shiden Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [SDN](/kusama/assets/SDN) | 638,166 | 77,327,931.39 $45,305,520.47 | 963,888.2 $564,730.70 | 18,380,895.33  $10,769,149.19 | 15,856,052.32 $9,289,873.53 | $0.59 |   `{"Token":"SDN"}` | 
+| [SDN](/kusama/assets/SDN) | 638,197 | 77,346,811.48 $45,316,582.10 | 963,888.2 $564,730.70 | 18,385,704.32  $10,771,966.72 | 15,861,899.5 $9,293,299.32 | $0.59 |   `{"Token":"SDN"}` | 
 | [KSM](/kusama/assets/KSM) | 66 | 63.49 $2,904.76 |   |    |   | $45.75 |   `{"Token":"340282366920938463463374607431768211455"}` | 
 | [MOVR](/kusama/assets/MOVR) | 25 | 6.67 $73.64 |   |    |   | $11.04 |   `{"Token":"18446744073709551620"}` | 
 | [CSM](/kusama/assets/CSM) | 12 | 1,133.87 $17.33 |   |    |   | $0.02 |   `{"Token":"18446744073709551624"}` | 
@@ -64,7 +64,7 @@ Status: Only partial index available: Old Decoding issues
 * _Balances_: `substrate-etl.kusama.balances2007` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2007` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2007` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2007` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2007` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2007` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2007`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

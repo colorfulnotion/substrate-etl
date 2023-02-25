@@ -9,7 +9,7 @@ _Source_: [basilisk.polkaholic.io](https://basilisk.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2090-basilisk/2023-02-28.md) | 2,667,019 | 2,832,870 | 165,852 | 7,894 | 124 | 18,354 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/2090-basilisk/2023-02-28.md) | 2,667,019 | 2,833,455 | 166,437 | 7,912 | 124 | 18,354 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2090-basilisk/2023-01-31.md) | 2,454,267 | 2,667,018 | 212,752 | 5,468 | 70 | 16,990 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2090-basilisk/2022-12-31.md) | 2,251,661 | 2,454,266 | 202,606 | 3,132 |  | 16,888 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2090-basilisk/2022-11-30.md) | 2,100,643 | 2,251,660 | 151,018 | 2,684 |  | 16,833 | -   |   
@@ -28,17 +28,17 @@ _Source_: [basilisk.polkaholic.io](https://basilisk.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/kusama/2090-basilisk/2021-10-31.md) | 51,706 | 222,678 | 170,972 |  |  | 7 | - 1 (0.00%) |   
 | [2021-09-22 to 2021-09-30](/kusama/2090-basilisk/2021-09-30.md) | 1 | 51,705 | 51,705 |  |  | 7 | -   |   
 
-## Basilisk Assets as of 2023-02-23
+## Basilisk Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BSX](/kusama/assets/BSX) | 18,353 | 49,499,913,562 $7,473,607.88 | 60,812.33 $9.18 | 23,189,848,610.24  $3,501,255.31 | 23,150,216,231.5 $3,495,271.53 | - |   `{"Token":"BSX"}` | 
-| [KSM](/kusama/assets/KSM) | 1,872 | 4,050.52 $185,307.47 | 1.44 $65.88 |    |   | $45.75 |   `{"Token":"1"}` | 
-| [USDT](/kusama/assets/USDT) | 33 | 20,878.25 $20,887.91 |   |    |   | $1.00 |   `{"Token":"14"}` | 
-| [KUSD](/kusama/assets/KUSD) | 187 | 6,235.57 $6,235.57 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [TNKR](/kusama/assets/TNKR) | 1,629 | 791,046.48  |   |    |   |  |   `{"Token":"6"}` | 
+| [BSX](/kusama/assets/BSX) | 18,354 | 49,499,915,489 $7,473,608.17 | 58,885.33 $8.89 | 23,184,049,057.9  $3,500,379.68 | 23,150,319,679.15 $3,495,287.15 | - |   `{"Token":"BSX"}` | 
+| [KSM](/kusama/assets/KSM) | 1,880 | 4,144.59 $189,611.08 | 1.44 $65.88 |    |   | $45.75 |   `{"Token":"1"}` | 
+| [USDT](/kusama/assets/USDT) | 36 | 20,878.25 $20,887.91 |   |    |   | $1.00 |   `{"Token":"14"}` | 
+| [KUSD](/kusama/assets/KUSD) | 186 | 6,232.98 $6,232.98 |   |    |   | $1.00 |   `{"Token":"2"}` | 
+| [TNKR](/kusama/assets/TNKR) | 1,633 | 794,248.8  |   |    |   |  |   `{"Token":"6"}` | 
 | [USDCet](/kusama/assets/USDCet) | 4 | 0.57  |   |    |   |  |   `{"Token":"9"}` | 
 
 ## substrate-etl Tables:
@@ -50,7 +50,7 @@ _Source_: [basilisk.polkaholic.io](https://basilisk.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2090` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2090` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2090` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2090` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2090` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2090` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2090`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

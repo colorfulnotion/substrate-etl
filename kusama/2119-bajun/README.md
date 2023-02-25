@@ -9,7 +9,7 @@ _Source_: [bajun.polkaholic.io](https://bajun.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2119-bajun/2023-02-28.md) | 1,397,502 | 1,568,116 | 170,615 | 183,974 | 212 | 5,807 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/2119-bajun/2023-02-28.md) | 1,397,502 | 1,568,719 | 171,218 | 184,107 | 212 | 5,807 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2119-bajun/2023-01-31.md) | 1,179,201 | 1,397,501 | 218,301 | 1,505 | 24 | 4,244 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2119-bajun/2022-12-31.md) | 969,372 | 1,179,200 | 209,829 | 1,710 |  | 3,686 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2119-bajun/2022-11-30.md) | 772,506 | 969,371 | 196,866 | 55 |  | 3,291 | -   |   
@@ -19,13 +19,13 @@ _Source_: [bajun.polkaholic.io](https://bajun.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/kusama/2119-bajun/2022-07-31.md) | 658 | 180,291 | 179,634 |  |  | 4 | -   |   
 | [2022-06-30 to 2022-06-30](/kusama/2119-bajun/2022-06-30.md) | 1 | 657 | 657 |  |  | 4 | -   |   
 
-## Bajun Network Assets as of 2023-02-23
+## Bajun Network Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BAJU](/kusama/assets/BAJU) | 5,806 | 49,758,245.91  | 5,420.4  | 6,726,101.04   | 6,726,101.04  |  |   `{"Token":"BAJU"}` | 
+| [BAJU](/kusama/assets/BAJU) | 5,807 | 49,757,746.13  | 5,420.53  | 6,675,566.25   | 6,675,566.25  |  |   `{"Token":"BAJU"}` | 
 
 ## substrate-etl Tables:
 
@@ -36,7 +36,7 @@ _Source_: [bajun.polkaholic.io](https://bajun.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2119` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2119` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2119` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2119` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2119` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2119` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2119`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

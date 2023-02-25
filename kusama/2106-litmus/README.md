@@ -9,7 +9,7 @@ _Source_: [litmus.polkaholic.io](https://litmus.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2106-litmus/2023-02-28.md) | 1,890,699 | 2,060,776 | 170,078 | 127 | 7 | 13,913 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/2106-litmus/2023-02-28.md) | 1,890,699 | 2,061,382 | 170,684 | 127 | 7 | 13,913 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2106-litmus/2023-01-31.md) | 1,673,284 | 1,890,698 | 217,415 | 133 | 6 | 13,906 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2106-litmus/2022-12-31.md) | 1,463,117 | 1,673,283 | 210,167 | 206 |  | 13,905 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2106-litmus/2022-11-30.md) | 1,255,236 | 1,463,116 | 207,881 | 244 |  | 13,906 | -   |   
@@ -23,13 +23,13 @@ _Source_: [litmus.polkaholic.io](https://litmus.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/2106-litmus/2022-03-31.md) | 32,417 | 154,228 | 121,812 | 94 |  | 3,821 | -   |   
 | [2022-02-20 to 2022-02-28](/kusama/2106-litmus/2022-02-28.md) | 1 | 32,416 | 32,416 | 2 |  | 16 | -   |   
 
-## Litmus Assets as of 2023-02-23
+## Litmus Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [LIT](/kusama/assets/LIT) | 13,912 | 491,793.9 $743,557.28 | 0.77 $1.16 | 336,094.71  $508,151.21 |   | $1.51 |   `{"Token":"LIT"}` | 
+| [LIT](/kusama/assets/LIT) | 13,913 | 491,749.9 $743,490.76 | 0.77 $1.16 | 336,094.71  $508,151.21 |   | $1.51 |   `{"Token":"LIT"}` | 
 
 ## substrate-etl Tables:
 
@@ -40,7 +40,7 @@ _Source_: [litmus.polkaholic.io](https://litmus.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2106` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2106` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2106` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2106` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2106` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2106` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2106`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

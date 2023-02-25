@@ -9,7 +9,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-08 to 2023-02-25](/kusama/2129-snow/2023-02-28.md) | 937,108 | 1,051,132 | 114,025 | 320 |  |  | -   |   
+| [2023-02-08 to 2023-02-25](/kusama/2129-snow/2023-02-28.md) | 937,108 | 1,051,737 | 114,630 | 320 |  |  | -   |   
 | [2023-01-01 to 2023-01-30](/kusama/2129-snow/2023-01-31.md) | 666,173 | 872,871 | 191,618 | 339 | 4 | 5,580 | -  **BROKEN** (7.30%) |   
 | [2022-12-01 to 2022-12-13](/kusama/2129-snow/2022-12-31.md) | 456,754 | 539,967 | 83,214 | 274 | 7 | 5,293 | -  **BROKEN**  |   
 | [2022-11-01 to 2022-11-30](/kusama/2129-snow/2022-11-30.md) | 254,577 | 456,753 | 125,549 | 2,039 |  |  | - 76,628 (37.90%) |   
@@ -24,7 +24,7 @@ Status: Only partial index available: Archive node unavailable
 * _Balances_: `substrate-etl.kusama.balances2129` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2129` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2129` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2129` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2129` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2129` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2129`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

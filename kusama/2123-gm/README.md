@@ -17,13 +17,13 @@ _Source_: [gm.polkaholic.io](https://gm.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/kusama/2123-gm/2022-09-30.md) | 85,830 | 254,948 | 169,119 | 27,794 |  | 9,025 | -   |   
 | [2022-08-15 to 2022-08-31](/kusama/2123-gm/2022-08-31.md) | 1 | 85,829 | 85,829 | 163 |  | 45 | -   |   
 
-## GM Parachain Assets as of 2023-02-23
+## GM Parachain Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [FREN](/kusama/assets/FREN) | 9,105 | 692,446,809  | 37,750  | 98,868,650.86   | 98,868,650.86  |  |   `{"Token":"FREN"}` | 
+| [FREN](/kusama/assets/FREN) | 9,105 | 692,446,589  | 37,750  | 98,868,650.86   | 98,868,650.86  |  |   `{"Token":"FREN"}` | 
 
 ## substrate-etl Tables:
 
@@ -34,7 +34,7 @@ _Source_: [gm.polkaholic.io](https://gm.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2123` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2123` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2123` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2123` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2123` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2123` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2123`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

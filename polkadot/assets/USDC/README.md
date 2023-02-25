@@ -3,11 +3,15 @@
 _Source_: [polkaholic.io](https://polkaholic.io)
 
 *Relay Chain*: polkadot
+*Report Date*: 2023-02-24
+*XCM Interior Keys*:
+* `[{"parachain":2000},{"generalKey":"0x0207df96d1341a7d16ba1ad431e2c847d978bc2bce"}]~polkadot`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Statemint](/polkadot/1000-statemint) | 4 | 250,020,000  |   |    |   |  | `{"Token":"1337"}` |
+
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
 ```bash
@@ -17,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "USDC" and date(ts) = "2023-02-23"
+ where symbol = "USDC" and date(ts) = "2023-02-24"
  group by para_id
  order by free_usd desc
 ```

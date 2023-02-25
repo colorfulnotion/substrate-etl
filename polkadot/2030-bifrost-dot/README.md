@@ -19,23 +19,23 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2030-bifrost-dot/2022-07-31.md) | 175,695 | 380,233 | 204,539 | 10 |  | 6 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2030-bifrost-dot/2022-06-30.md) | 1 | 175,694 | 175,694 |  |  | 6 | -   |   
 
-## Bifrost-Polkadot Assets as of 2023-02-23
+## Bifrost-Polkadot Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DOT](/polkadot/assets/DOT) | 452 | 121,806.62 $912,751.42 |   |    |   | $7.49 |   `{"Token2":"0"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 186 | 401,277.16 $201,088.21 |   |    |   | $0.50 |   `{"Token2":"1"}` | 
+| [DOT](/polkadot/assets/DOT) | 448 | 121,373.3 $909,504.35 |   |    |   | $7.49 |   `{"Token2":"0"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 188 | 405,331.43 $203,119.89 |   |    |   | $0.50 |   `{"Token2":"1"}` | 
 | [ASTR](/polkadot/assets/ASTR) | 13 | 169.25 $17.69 |   |    |   | $0.10 |   `{"Token2":"3"}` | 
-| [BNC](/polkadot/assets/BNC) | 3,802 | 14,600,925.08  | 65,399,074.46  | 4,143,927.9   |   |  |   `{"Token":"BNC"}` | 
+| [BNC](/polkadot/assets/BNC) | 3,805 | 14,600,925.08  | 65,399,074.46  | 4,143,911.98   |   |  |   `{"Token":"BNC"}` | 
 | [vsDOT](/polkadot/assets/vsDOT) | 1,405 | 2,284,753.78  |   |    |   |  |   `{"VSToken2":"0"}` | 
 | [vsBOND-DOT-2006-6-13](/polkadot/assets/vsBOND-DOT-2006-6-13) | 361 | 364,292.66  |   |    |   |  |   `{"VSBond2":["0","2,006","6","13"]}` | 
 | [vsBOND-DOT-2004-6-13](/polkadot/assets/vsBOND-DOT-2004-6-13) | 284 | 70,814.63  |   |    |   |  |   `{"VSBond2":["0","2,004","6","13"]}` | 
 | [vsBOND-DOT-2030-8-15](/polkadot/assets/vsBOND-DOT-2030-8-15) | 274 | 338,909.67  |   |    |   |  |   `{"VSBond2":["0","2,030","8","15"]}` | 
 | [vsBOND-DOT-2019-7-14](/polkadot/assets/vsBOND-DOT-2019-7-14) | 182 | 218,535.87  |   |    |   |  |   `{"VSBond2":["0","2,019","7","14"]}` | 
-| [vGLMR](/polkadot/assets/vGLMR) | 167 | 995,133.89  |   |    |   |  |   `{"VToken2":"1"}` | 
-| [vDOT](/polkadot/assets/vDOT) | 153 | 289,082.24  |   |    |   |  |   `{"VToken2":"0"}` | 
+| [vGLMR](/polkadot/assets/vGLMR) | 167 | 994,838.14  |   |    |   |  |   `{"VToken2":"1"}` | 
+| [vDOT](/polkadot/assets/vDOT) | 152 | 288,927.85  |   |    |   |  |   `{"VToken2":"0"}` | 
 | [vsBOND-DOT-2032-7-14](/polkadot/assets/vsBOND-DOT-2032-7-14) | 144 | 160,862.57  |   |    |   |  |   `{"VSBond2":["0","2,032","7","14"]}` | 
 | [vsBOND-DOT-2000-6-13](/polkadot/assets/vsBOND-DOT-2000-6-13) | 109 | 10,115.25  |   |    |   |  |   `{"VSBond2":["0","2,000","6","13"]}` | 
 | [vsBOND-DOT-2037-8-15](/polkadot/assets/vsBOND-DOT-2037-8-15) | 108 | 59,833.01  |   |    |   |  |   `{"VSBond2":["0","2,037","8","15"]}` | 
@@ -71,7 +71,7 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2030` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2030` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2030` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2030` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2030` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2030` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2030`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

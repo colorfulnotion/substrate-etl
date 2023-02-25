@@ -44,14 +44,6 @@ _Source_: [polkadot.polkaholic.io](https://polkadot.polkaholic.io)
 | [2020-06-01 to 2020-06-30](/polkadot/0-polkadot/2020-06-30.md) | 77,028 | 507,734 | 430,707 | 6,520 |  | 1,994 | -   |   
 | [2020-05-26 to 2020-05-31](/polkadot/0-polkadot/2020-05-31.md) | 1 | 77,027 | 77,027 | 615 |  | 505 | -   |   
 
-## Polkadot Assets as of 2023-02-23
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DOT](/polkadot/assets/DOT) | 1,070,137 | 1,165,347,673.95 $8,732,470,585.99 | 121,168,682.24 $907,971,052.11 | 668,753,737.26  $5,011,270,430.67 | 662,522,498.71 $4,964,576,977.22 | $7.49 |   `{"Token":"DOT"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks0` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
@@ -61,7 +53,7 @@ _Source_: [polkadot.polkaholic.io](https://polkadot.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances0` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive0` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive0` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew0` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew0` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped0` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `0`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

@@ -9,16 +9,16 @@ _Source_: [bitgreen.polkaholic.io](https://bitgreen.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2048-bitgreen/2023-02-28.md) | 91,749 | 257,710 | 165,962 | 93 | 9 | 778 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2048-bitgreen/2023-02-28.md) | 91,749 | 258,308 | 166,560 | 93 | 9 | 778 | -   |   
 | [2023-01-17 to 2023-01-31](/polkadot/2048-bitgreen/2023-01-31.md) | 1 | 91,748 | 91,748 | 6 | 2 | 179 | -   |   
 
-## Bitgreen Assets as of 2023-02-23
+## Bitgreen Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BBB](/polkadot/assets/BBB) | 534 | 1,000,021,598.9  | 37.2  |    |   |  |   `{"Token":"BBB"}` | 
+| [BBB](/polkadot/assets/BBB) | 778 | 1,000,022,287.6  | 37.2  |    |   |  |   `{"Token":"BBB"}` | 
 
 ## substrate-etl Tables:
 
@@ -29,7 +29,7 @@ _Source_: [bitgreen.polkaholic.io](https://bitgreen.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2048` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2048` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2048` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2048` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2048` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2048` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2048`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

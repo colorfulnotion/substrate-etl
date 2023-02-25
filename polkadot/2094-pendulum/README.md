@@ -9,9 +9,9 @@ _Source_: [pendulum.polkaholic.io](https://pendulum.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-13 to 2023-02-25](/polkadot/2094-pendulum/2023-02-28.md) | 1 | 55,047 | 55,047 | 84 | 7 | 85 | -   |   
+| [2023-02-13 to 2023-02-25](/polkadot/2094-pendulum/2023-02-28.md) | 1 | 55,647 | 55,647 | 84 | 7 | 85 | -   |   
 
-## Pendulum Assets as of 2023-02-23
+## Pendulum Assets as of 2023-02-24
 
 
 
@@ -28,7 +28,7 @@ _Source_: [pendulum.polkaholic.io](https://pendulum.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2094` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2094` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2094` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2094` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2094` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2094` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2094`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

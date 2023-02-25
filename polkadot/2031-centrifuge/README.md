@@ -9,7 +9,7 @@ _Source_: [centrifuge.polkaholic.io](https://centrifuge.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2031-centrifuge/2023-02-28.md) | 2,229,646 | 2,401,094 | 171,449 | 7,845 | 135 | 44,609 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2031-centrifuge/2023-02-28.md) | 2,229,646 | 2,401,713 | 172,068 | 7,866 | 135 | 44,609 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2031-centrifuge/2023-01-31.md) | 2,009,160 | 2,229,645 | 220,486 | 8,263 | 121 | 44,248 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2031-centrifuge/2022-12-31.md) | 1,789,038 | 2,009,159 | 220,122 | 5,453 |  | 43,855 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2031-centrifuge/2022-11-30.md) | 1,575,642 | 1,789,037 | 213,396 | 8,626 |  | 43,649 | -   |   
@@ -22,13 +22,13 @@ _Source_: [centrifuge.polkaholic.io](https://centrifuge.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2031-centrifuge/2022-04-30.md) | 132,981 | 333,938 | 200,958 | 15,603 |  | 41,078 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2031-centrifuge/2022-03-31.md) | 1 | 132,980 | 132,980 | 66 |  | 49 | -   |   
 
-## Centrifuge Assets as of 2023-02-23
+## Centrifuge Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CFG](/polkadot/assets/CFG) | 44,597 | 492,123,395.27  | 161,542.44  | 71,801,946.66   | 13,128,705.21  |  |   `{"Token":"CFG"}` | 
+| [CFG](/polkadot/assets/CFG) | 44,609 | 492,126,176.35  | 161,543.79  | 71,777,540.2   | 13,128,705.21  |  |   `{"Token":"CFG"}` | 
 
 ## substrate-etl Tables:
 
@@ -39,7 +39,7 @@ _Source_: [centrifuge.polkaholic.io](https://centrifuge.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2031` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2031` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2031` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2031` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2031` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2031` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2031`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

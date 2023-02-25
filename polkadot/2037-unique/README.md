@@ -9,7 +9,7 @@ _Source_: [unique.polkaholic.io](https://unique.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2037-unique/2023-02-28.md) | 1,620,319 | 1,792,707 | 172,389 | 1,480 | 21 | 16,215 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2037-unique/2023-02-28.md) | 1,620,319 | 1,793,307 | 172,989 | 1,482 | 21 | 16,215 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2037-unique/2023-01-31.md) | 1,398,225 | 1,620,318 | 222,094 | 1,900 | 23 | 16,134 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2037-unique/2022-12-31.md) | 1,177,231 | 1,398,224 | 220,994 | 1,490 |  | 15,991 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2037-unique/2022-11-30.md) | 964,016 | 1,177,230 | 213,215 | 1,338 |  | 15,788 | -   |   
@@ -19,13 +19,13 @@ _Source_: [unique.polkaholic.io](https://unique.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2037-unique/2022-07-31.md) | 132,219 | 334,626 | 202,408 | 26,645 |  | 11,250 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2037-unique/2022-06-30.md) | 1 | 132,218 | 132,218 | 4 |  | 4 | -   |   
 
-## Unique Assets as of 2023-02-23
+## Unique Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [UNQ](/polkadot/assets/UNQ) | 16,211 | 1,041,977,881.83  | 2  | 857,904,330.26   | 857,904,330.26  |  |   `{"Token":"UNQ"}` | 
+| [UNQ](/polkadot/assets/UNQ) | 16,215 | 1,041,977,865.47  | 2  | 857,855,558.03   | 857,855,558.03  |  |   `{"Token":"UNQ"}` | 
 
 ## substrate-etl Tables:
 
@@ -36,7 +36,7 @@ _Source_: [unique.polkaholic.io](https://unique.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2037` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2037` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2037` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2037` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2037` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2037` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2037`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

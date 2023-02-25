@@ -9,7 +9,7 @@ _Source_: [composable.polkaholic.io](https://composable.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/polkadot/2019-composable/2023-02-28.md) | 1,289,521 | 1,460,963 | 171,443 | 3 | 3 | 10 | -   |   
+| [2023-02-01 to 2023-02-25](/polkadot/2019-composable/2023-02-28.md) | 1,289,521 | 1,461,557 | 172,037 | 3 | 3 | 10 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2019-composable/2023-01-31.md) | 1,143,924 | 1,289,520 | 145,597 | 8 | 5 | 10 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2019-composable/2022-12-31.md) | 1,028,926 | 1,143,923 | 114,998 |  |  | 7 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2019-composable/2022-11-30.md) | 917,036 | 1,028,925 | 111,890 |  |  | 7 | -   |   
@@ -22,7 +22,7 @@ _Source_: [composable.polkaholic.io](https://composable.polkaholic.io)
 | [2022-04-12 to 2022-04-30](/polkadot/2019-composable/2022-04-30.md) | 36,000 | 129,604 | 93,605 |  |  | 6 | -   |   
 | [2022-03-12 to 2022-03-19](/polkadot/2019-composable/2022-03-31.md) | 1 | 35,999 | 35,999 |  |  | 6 | -   |   
 
-## Composable Finance Assets as of 2023-02-23
+## Composable Finance Assets as of 2023-02-24
 
 
 
@@ -39,7 +39,7 @@ _Source_: [composable.polkaholic.io](https://composable.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2019` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2019` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2019` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2019` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2019` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2019` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2019`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

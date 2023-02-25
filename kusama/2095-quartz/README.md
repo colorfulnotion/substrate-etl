@@ -26,13 +26,13 @@ _Source_: [quartz.polkaholic.io](https://quartz.polkaholic.io)
 | [2021-12-01 to 2021-12-31](/kusama/2095-quartz/2021-12-31.md) | 19,222 | 223,874 | 204,653 | 20,054 |  | 9,211 | -   |   
 | [2021-11-27 to 2021-11-30](/kusama/2095-quartz/2021-11-30.md) | 1 | 19,221 | 19,221 |  |  | 4 | -   |   
 
-## Quartz Assets as of 2023-02-23
+## Quartz Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [QTZ](/kusama/assets/QTZ) | 83,262 | 1,097,033,014.84 $858,417.52 |   | 731,789,319.84  $572,617.93 | 731,789,319.84 $572,617.93 | - |   `{"Token":"QTZ"}` | 
+| [QTZ](/kusama/assets/QTZ) | 83,267 | 1,097,033,003.01 $858,417.51 |   | 731,821,809.15  $572,643.35 | 731,821,809.15 $572,643.35 | - |   `{"Token":"QTZ"}` | 
 
 ## substrate-etl Tables:
 
@@ -43,7 +43,7 @@ _Source_: [quartz.polkaholic.io](https://quartz.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2095` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2095` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2095` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2095` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2095` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2095` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2095`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

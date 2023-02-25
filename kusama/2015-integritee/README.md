@@ -9,7 +9,7 @@ _Source_: [integritee.polkaholic.io](https://integritee.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2015-integritee/2023-02-28.md) | 1,925,180 | 2,095,090 | 169,911 | 968 | 24 | 12,967 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/2015-integritee/2023-02-28.md) | 1,925,180 | 2,095,688 | 170,509 | 969 | 24 | 12,967 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2015-integritee/2023-01-31.md) | 1,707,931 | 1,925,179 | 217,249 | 1,450 | 23 | 12,922 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2015-integritee/2022-12-31.md) | 1,499,268 | 1,707,930 | 208,663 | 1,017 |  | 12,871 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2015-integritee/2022-11-30.md) | 1,290,448 | 1,499,267 | 208,820 | 1,420 |  | 12,839 | -   |   
@@ -22,13 +22,13 @@ _Source_: [integritee.polkaholic.io](https://integritee.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/kusama/2015-integritee/2022-04-30.md) | 36,169 | 151,996 | 115,828 | 1,584 |  | 11,233 | -   |   
 | [2022-03-21 to 2022-03-31](/kusama/2015-integritee/2022-03-31.md) | 1 | 36,168 | 36,168 |  |  | 1 | -   |   
 
-## Integritee Assets as of 2023-02-23
+## Integritee Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [TEER](/kusama/assets/TEER) | 12,967 | 9,997,760.45 $4,633,989.14 | 89.35 $41.42 | 1,613,032.55  $747,644.97 |   | $0.46 |   `{"Token":"TEER"}` | 
+| [TEER](/kusama/assets/TEER) | 12,967 | 9,997,760.45 $4,633,989.14 | 89.35 $41.42 | 1,612,808.25  $747,541.01 |   | $0.46 |   `{"Token":"TEER"}` | 
 
 ## substrate-etl Tables:
 
@@ -39,7 +39,7 @@ _Source_: [integritee.polkaholic.io](https://integritee.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2015` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2015` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2015` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2015` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2015` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2015` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2015`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

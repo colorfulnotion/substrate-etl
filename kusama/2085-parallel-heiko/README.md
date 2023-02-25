@@ -9,7 +9,7 @@ _Source_: [parallel-heiko.polkaholic.io](https://parallel-heiko.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2085-parallel-heiko/2023-02-28.md) | 2,886,511 | 3,055,673 | 167,989 | 107,883 | 92 | 24,300 | - 1,174 (0.69%) |   
+| [2023-02-01 to 2023-02-25](/kusama/2085-parallel-heiko/2023-02-28.md) | 2,886,511 | 3,056,270 | 168,586 | 108,393 | 92 | 24,300 | - 1,174 (0.69%) |   
 | [2023-01-01 to 2023-01-31](/kusama/2085-parallel-heiko/2023-01-31.md) | 2,670,416 | 2,886,510 | 216,095 | 133,798 | 125 | 24,230 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2085-parallel-heiko/2022-12-31.md) | 2,460,859 | 2,670,415 | 209,557 | 122,059 |  | 24,126 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2085-parallel-heiko/2022-11-30.md) | 2,250,574 | 2,460,858 | 210,285 | 145,455 |  | 23,740 | -   |   
@@ -27,39 +27,39 @@ _Source_: [parallel-heiko.polkaholic.io](https://parallel-heiko.polkaholic.io)
 | [2021-11-01 to 2021-11-30](/kusama/2085-parallel-heiko/2021-11-30.md) | 144,846 | 301,530 | 156,685 | 258,147 |  | 10,718 | -   |   
 | [2021-10-06 to 2021-10-31](/kusama/2085-parallel-heiko/2021-10-31.md) | 1 | 144,845 | 144,845 | 36,267 |  | 16 | -   |   
 
-## Parallel Heiko Assets as of 2023-02-23
+## Parallel Heiko Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 3,606 | 18,565.59 $849,357.30 |   |    |   | $45.75 |   `{"Token":"100"}` | 
-| [USDT](/kusama/assets/USDT) | 122 | 71,904.96 $71,938.21 |   |    |   | $1.00 |   `{"Token":"102"}` | 
-| [LP-KSM/HKO](/kusama/assets/LP-KSM%252FHKO) | 81 | 18,974.11 $46,493.45 |   |    |   | $2.45 |   `{"Token":"5002"}` | 
-| [cKSM-20/27](/kusama/assets/cKSM-20%252F27) | 100 | 1,100.3 $40,408.52 |   |    |   | $36.73 |   `{"Token":"100200027"}` | 
-| [MOVR](/kusama/assets/MOVR) | 145 | 1,210.6 $13,369.94 |   |    |   | $11.04 |   `{"Token":"113"}` | 
-| [KINT](/kusama/assets/KINT) | 88 | 10,530.79 $10,355.59 |   |    |   | $0.98 |   `{"Token":"119"}` | 
-| [KAR](/kusama/assets/KAR) | 142 | 40,123.48 $9,296.93 |   |    |   | $0.23 |   `{"Token":"107"}` | 
-| [KBTC](/kusama/assets/KBTC) | 71 | 0.22 $6,481.80 |   |    |   | $28,954.38 |   `{"Token":"121"}` | 
-| [PHA](/kusama/assets/PHA) | 146 | 22,149.1 $4,199.10 |   |    |   | $0.19 |   `{"Token":"115"}` | 
-| [LP-KSM/cKSM-20/27](/kusama/assets/LP-KSM%252FcKSM-20%252F27) | 13 | 7.08 $591.58 |   |    |   | $83.61 |   `{"Token":"5004"}` | 
+| [KSM](/kusama/assets/KSM) | 3,604 | 17,875.53 $817,787.88 |   |    |   | $45.75 |   `{"Token":"100"}` | 
+| [USDT](/kusama/assets/USDT) | 124 | 71,490.27 $71,523.32 |   |    |   | $1.00 |   `{"Token":"102"}` | 
+| [LP-KSM/HKO](/kusama/assets/LP-KSM%252FHKO) | 81 | 18,974.11 $42,769.82 |   |    |   | $2.25 |   `{"Token":"5002"}` | 
+| [cKSM-20/27](/kusama/assets/cKSM-20%252F27) | 100 | 1,100.3 $36,696.11 |   |    |   | $33.35 |   `{"Token":"100200027"}` | 
+| [MOVR](/kusama/assets/MOVR) | 146 | 1,175.3 $12,980.00 |   |    |   | $11.04 |   `{"Token":"113"}` | 
+| [KINT](/kusama/assets/KINT) | 87 | 10,298.49 $10,127.15 |   |    |   | $0.98 |   `{"Token":"119"}` | 
+| [KAR](/kusama/assets/KAR) | 144 | 39,434.27 $9,137.23 |   |    |   | $0.23 |   `{"Token":"107"}` | 
+| [KBTC](/kusama/assets/KBTC) | 71 | 0.22 $6,249.66 |   |    |   | $28,954.38 |   `{"Token":"121"}` | 
+| [PHA](/kusama/assets/PHA) | 146 | 21,392.48 $4,055.66 |   |    |   | $0.19 |   `{"Token":"115"}` | 
 | [LKSM](/kusama/assets/LKSM) | 27 | 30.73 $176.84 |   |    |   | $5.75 |   `{"Token":"109"}` | 
 | [KUSD](/kusama/assets/KUSD) | 13 | 23.68 $23.68 |   |    |   | $1.00 |   `{"Token":"103"}` | 
-| [HKO](/kusama/assets/HKO) | 24,298 | 999,999,835.29  | 143.79  | 634,972,802.36   | 633,896,840.4  |  |   `{"Token":"HKO"}` | 
-| [sKSM](/kusama/assets/sKSM) | 1,560 | 17,078.07  |   |    |   |  |   `{"Token":"1000"}` | 
+| [HKO](/kusama/assets/HKO) | 24,300 | 999,999,835.29  | 143.79  | 634,971,755.45   | 633,895,793.49  |  |   `{"Token":"HKO"}` | 
+| [sKSM](/kusama/assets/sKSM) | 1,561 | 17,008.69  |   |    |   |  |   `{"Token":"1000"}` | 
 | [cKSM-23/30](/kusama/assets/cKSM-23%252F30) | 284 | 9,870.44  |   |    |   |  |   `{"Token":"100230030"}` | 
-| [LP-KSM/sKSM](/kusama/assets/LP-KSM%252FsKSM) | 77 | 2,958.02  |   |    |   |  |   `{"Token":"5003"}` | 
+| [LP-KSM/sKSM](/kusama/assets/LP-KSM%252FsKSM) | 76 | 2,958.02  |   |    |   |  |   `{"Token":"5003"}` | 
 | [LP-USDT/HKO](/kusama/assets/LP-USDT%252FHKO) | 49 | 130.59  |   |    |   |  |   `{"Token":"5007"}` | 
 | [cKSM-22/29](/kusama/assets/cKSM-22%252F29) | 40 | 1,048.18  |   |    |   |  |   `{"Token":"100220029"}` | 
 | [LP-MOVR/HKO](/kusama/assets/LP-MOVR%252FHKO) | 39 | 19,065,163.84  |   |    |   |  |   `{"Token":"5005"}` | 
-| [LP-KINT/HKO](/kusama/assets/LP-KINT%252FHKO) | 38 | 45,665.61  |   |    |   |  |   `{"Token":"5010"}` | 
+| [LP-KINT/HKO](/kusama/assets/LP-KINT%252FHKO) | 38 | 45,725.98  |   |    |   |  |   `{"Token":"5010"}` | 
 | [LP-KBTC/HKO](/kusama/assets/LP-KBTC%252FHKO) | 34 | 1.68  |   |    |   |  |   `{"Token":"5011"}` | 
 | [LP-KAR/HKO](/kusama/assets/LP-KAR%252FHKO) | 27 | 62,437.12  |   |    |   |  |   `{"Token":"5008"}` | 
 | [LP-PHA/HKO](/kusama/assets/LP-PHA%252FHKO) | 27 | 47,608.29  |   |    |   |  |   `{"Token":"5006"}` | 
 | [cKSM-21/28](/kusama/assets/cKSM-21%252F28) | 13 | 424.51  |   |    |   |  |   `{"Token":"100210028"}` | 
+| [LP-KSM/cKSM-20/27](/kusama/assets/LP-KSM%252FcKSM-20%252F27) | 13 | 7.08  |   |    |   |  |   `{"Token":"5004"}` | 
 | [LP-LKSM/HKO](/kusama/assets/LP-LKSM%252FHKO) | 4 | 20.3  |   |    |   |  |   `{"Token":"5009"}` | 
 | [cKSM-15/22](/kusama/assets/cKSM-15%252F22) | 2 | 57,307  |   |    |   |  |   `{"Token":"100150022"}` | 
-| [KSM_U](/kusama/assets/KSM_U) | 1 | 289.19  |   |    |   |  |   `{"Token":"4294957295"}` | 
+| [KSM_U](/kusama/assets/KSM_U) | 1 | 460.63  |   |    |   |  |   `{"Token":"4294957295"}` | 
 
 ## substrate-etl Tables:
 
@@ -70,7 +70,7 @@ _Source_: [parallel-heiko.polkaholic.io](https://parallel-heiko.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2085` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2085` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2085` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2085` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2085` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2085` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2085`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

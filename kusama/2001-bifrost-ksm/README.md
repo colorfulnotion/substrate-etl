@@ -9,7 +9,7 @@ _Source_: [bifrost-ksm.polkaholic.io](https://bifrost-ksm.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2001-bifrost-ksm/2023-02-28.md) | 3,444,040 | 3,613,836 | 169,788 | 38,657 | 211 | 101,449 | - 9 (0.01%) |   
+| [2023-02-01 to 2023-02-25](/kusama/2001-bifrost-ksm/2023-02-28.md) | 3,444,040 | 3,614,431 | 170,392 | 38,715 | 211 | 101,449 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2001-bifrost-ksm/2023-01-31.md) | 3,225,421 | 3,444,039 | 218,619 | 43,582 | 199 | 101,184 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2001-bifrost-ksm/2022-12-31.md) | 3,014,958 | 3,225,420 | 210,463 | 30,796 |  | 100,939 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2001-bifrost-ksm/2022-11-30.md) | 2,804,503 | 3,014,957 | 210,455 | 23,381 |  | 100,775 | -   |   
@@ -30,33 +30,33 @@ _Source_: [bifrost-ksm.polkaholic.io](https://bifrost-ksm.polkaholic.io)
 | [2021-08-01 to 2021-08-31](/kusama/2001-bifrost-ksm/2021-08-31.md) | 74,124 | 274,581 | 200,458 | 1,139 |  | 55,215 | -   |   
 | [2021-07-20 to 2021-07-31](/kusama/2001-bifrost-ksm/2021-07-31.md) | 1 | 74,123 | 74,123 | 27 |  | 51,949 | -   |   
 
-## Bifrost-Kusama Assets as of 2023-02-23
+## Bifrost-Kusama Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BNC](/kusama/assets/BNC) | 101,447 | 41,797,898.86 $17,384,334.23 | 38,965,834.47 $16,206,438.81 | 23,664,499.96  $9,842,398.49 | 7,790,316.65 $3,240,102.31 | $0.42 |   `{"Token":"BNC"}` | 
-| [KSM](/kusama/assets/KSM) | 3,106 | 92,997.46 $4,254,541.09 | 0.1 $4.57 |    |   | $45.75 |   `{"Token":"KSM"}` | 
-| [ZLK](/kusama/assets/ZLK) | 20,377 | 3,609,413.8 $114,355.15 |   |    |   | $0.03 |   `{"Token":"ZLK"}` | 
-| [MOVR](/kusama/assets/MOVR) | 454 | 5,013.96 $55,374.33 |   |    |   | $11.04 |   `{"Token":"MOVR"}` | 
-| [KBTC](/kusama/assets/KBTC) | 16 | 1.81 $52,436.88 |   |    |   | $28,954.38 |   `{"Token2":"2"}` | 
-| [USDT](/kusama/assets/USDT) | 103 | 46,981.09 $47,002.82 |   |    |   | $1.00 |   `{"Token2":"0"}` | 
+| [BNC](/kusama/assets/BNC) | 101,449 | 41,797,898.86 $17,384,334.23 | 38,965,834.47 $16,206,438.81 | 23,496,627.53  $9,772,577.99 | 7,790,471.72 $3,240,166.80 | $0.42 |   `{"Token":"BNC"}` | 
+| [KSM](/kusama/assets/KSM) | 3,103 | 92,923.26 $4,251,146.44 | 0.1 $4.57 |    |   | $45.75 |   `{"Token":"KSM"}` | 
+| [ZLK](/kusama/assets/ZLK) | 20,380 | 3,609,413.8 $114,355.15 |   |    |   | $0.03 |   `{"Token":"ZLK"}` | 
+| [MOVR](/kusama/assets/MOVR) | 455 | 6,079.32 $67,140.16 |   |    |   | $11.04 |   `{"Token":"MOVR"}` | 
+| [USDT](/kusama/assets/USDT) | 99 | 53,158.24 $53,182.82 |   |    |   | $1.00 |   `{"Token2":"0"}` | 
+| [KBTC](/kusama/assets/KBTC) | 16 | 1.79 $51,866.08 |   |    |   | $28,954.38 |   `{"Token2":"2"}` | 
 | [RMRK](/kusama/assets/RMRK) | 143 | 9,123.11 $24,795.60 |   |    |   | $2.72 |   `{"Token":"RMRK"}` | 
 | [PHA](/kusama/assets/PHA) | 400 | 54,287.09 $10,291.94 |   |    |   | $0.19 |   `{"Token":"PHA"}` | 
-| [KAR](/kusama/assets/KAR) | 403 | 44,417.23 $10,291.82 |   |    |   | $0.23 |   `{"Token":"KAR"}` | 
-| [KINT](/kusama/assets/KINT) | 35 | 2,537.8 $2,495.58 |   |    |   | $0.98 |   `{"Token2":"1"}` | 
+| [KAR](/kusama/assets/KAR) | 403 | 44,415.43 $10,291.41 |   |    |   | $0.23 |   `{"Token":"KAR"}` | 
+| [KINT](/kusama/assets/KINT) | 36 | 2,535.56 $2,493.37 |   |    |   | $0.98 |   `{"Token2":"1"}` | 
 | [SDN](/kusama/assets/SDN) | 3 | 0.6 $0.35 |   |    |   | $0.59 |   `{"Token2":"3"}` | 
-| [vsBOND-BNC-2001-13-20](/kusama/assets/vsBOND-BNC-2001-13-20) | 37,814 | 20,046.2  |   |    |   |  |   `{"VSBond":["BNC","2,001","13","20"]}` | 
-| [VSKSM](/kusama/assets/VSKSM) | 36,779 | 57,303.46  | 6,228.49  |    |   |  |   `{"VSToken":"KSM"}` | 
-| [KUSD](/kusama/assets/KUSD) | 1,609 | 75,322.6  |   |    |   |  |   `{"Stable":"KUSD"}` | 
-| [vKSM](/kusama/assets/vKSM) | 762 | 226,140.14  |   |    |   |  |   `{"VToken":"KSM"}` | 
+| [vsBOND-BNC-2001-13-20](/kusama/assets/vsBOND-BNC-2001-13-20) | 37,809 | 20,046.2  |   |    |   |  |   `{"VSBond":["BNC","2,001","13","20"]}` | 
+| [VSKSM](/kusama/assets/VSKSM) | 36,773 | 54,208.55  | 6,228.49  |    |   |  |   `{"VSToken":"KSM"}` | 
+| [KUSD](/kusama/assets/KUSD) | 1,609 | 74,660.32  |   |    |   |  |   `{"Stable":"KUSD"}` | 
+| [vKSM](/kusama/assets/vKSM) | 762 | 226,140.02  |   |    |   |  |   `{"VToken":"KSM"}` | 
 | [vsBOND-KSM-2092-15-22](/kusama/assets/vsBOND-KSM-2092-15-22) | 399 | 972.3  | 979.47  |    |   |  |   `{"VSBond":["KSM","2,092","15","22"]}` | 
-| [vBNC](/kusama/assets/vBNC) | 391 | 3,183,248.48  |   |    |   |  |   `{"VToken":"BNC"}` | 
+| [vBNC](/kusama/assets/vBNC) | 393 | 3,183,215.07  |   |    |   |  |   `{"VToken":"BNC"}` | 
 | [vsBOND-KSM-2088-15-22](/kusama/assets/vsBOND-KSM-2088-15-22) | 347 | 2,181.05  | 1,490.39  |    |   |  |   `{"VSBond":["KSM","2,088","15","22"]}` | 
 | [vsBOND-KSM-2096-17-24](/kusama/assets/vsBOND-KSM-2096-17-24) | 334 | 2,449.92  | 2,409.07  |    |   |  |   `{"VSBond":["KSM","2,096","17","24"]}` | 
 | [vsBOND-KSM-2114-20-27](/kusama/assets/vsBOND-KSM-2114-20-27) | 103 | 1,619.56  |   |    |   |  |   `{"VSBond":["KSM","2,114","20","27"]}` | 
-| [vMOVR](/kusama/assets/vMOVR) | 99 | 25,838.75  |   |    |   |  |   `{"VToken":"MOVR"}` | 
+| [vMOVR](/kusama/assets/vMOVR) | 100 | 28,786.78  |   |    |   |  |   `{"VToken":"MOVR"}` | 
 | [vsBOND-KSM-2095-17-24](/kusama/assets/vsBOND-KSM-2095-17-24) | 96 | 99.4  | 161.38  |    |   |  |   `{"VSBond":["KSM","2,095","17","24"]}` | 
 | [vsBOND-KSM-2125-23-30](/kusama/assets/vsBOND-KSM-2125-23-30) | 92 | 1,549.25  |   |    |   |  |   `{"VSBond":["KSM","2,125","23","30"]}` | 
 | [vsBOND-KSM-2256-27-34](/kusama/assets/vsBOND-KSM-2256-27-34) | 84 | 3,510.11  |   |    |   |  |   `{"VSBond":["KSM","2,256","27","34"]}` | 
@@ -87,7 +87,7 @@ _Source_: [bifrost-ksm.polkaholic.io](https://bifrost-ksm.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2001` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2001` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2001` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2001` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2001` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2001` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2001`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

@@ -26,7 +26,7 @@ _Source_: [genshiro.polkaholic.io](https://genshiro.polkaholic.io)
 | [2021-12-01 to 2021-12-31](/kusama/2024-genshiro/2021-12-31.md) | 18,756 | 208,305 | 189,550 | 2 |  | 20 | -   |   
 | [2021-11-27 to 2021-11-30](/kusama/2024-genshiro/2021-11-30.md) | 1 | 18,755 | 18,755 |  |  | 20 | -   |   
 
-## Genshiro Assets as of 2023-02-23
+## Genshiro Assets as of 2023-02-24
 
 
 
@@ -43,7 +43,7 @@ _Source_: [genshiro.polkaholic.io](https://genshiro.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2024` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2024` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2024` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2024` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2024` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2024` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2024`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

@@ -3,15 +3,19 @@
 _Source_: [polkaholic.io](https://polkaholic.io)
 
 *Relay Chain*: polkadot
+*Report Date*: 2023-02-24
+*XCM Interior Keys*:
+* `[{"parachain":2032},{"generalKey":"0x0002"}]~polkadot`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Interlay](/polkadot/2032-interlay) | 11,308 | 999,998,647 $36,752,730.86 | 1,319.12 $48.48 |    | 70,441,651.64 $2,588,926.57 | $0.04 | `{"Token":"INTR"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 360 | 2,629,106.2 $96,626.96 |   |    |   | $0.04 | `{"Token":"101170542313601871197860408087030232491"}` |
-| [Acala](/polkadot/2000-acala) | 403 | 1,228,584.01 $45,153.88 |   |    |   | $0.04 | `{"ForeignAsset":"4"}` |
-| [Parallel](/polkadot/2012-parallel) | 218 | 260,490.23 $9,573.74 |   |    |   | $0.04 | `{"Token":"120"}` |
-| [Astar](/polkadot/2006-astar) | 67 | 176,546.29 $6,488.57 |   |    |   | $0.04 | `{"Token":"18446744073709551621"}` |
+| [Interlay](/polkadot/2032-interlay) | 11,310 | 999,998,641.69 $36,752,730.66 | 1,324.43 $48.68 |    | 70,486,141.67 $2,590,561.70 | $0.04 | `{"Token":"INTR"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 363 | 2,654,259.79 $97,551.43 |   |    |   | $0.04 | `{"Token":"101170542313601871197860408087030232491"}` |
+| [Acala](/polkadot/2000-acala) | 403 | 1,207,448.64 $44,377.09 |   |    |   | $0.04 | `{"ForeignAsset":"4"}` |
+| [Parallel](/polkadot/2012-parallel) | 219 | 260,496.28 $9,573.96 |   |    |   | $0.04 | `{"Token":"120"}` |
+| [Astar](/polkadot/2006-astar) | 68 | 176,806.29 $6,498.12 |   |    |   | $0.04 | `{"Token":"18446744073709551621"}` |
+
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
 ```bash
@@ -21,7 +25,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "INTR" and date(ts) = "2023-02-23"
+ where symbol = "INTR" and date(ts) = "2023-02-24"
  group by para_id
  order by free_usd desc
 ```

@@ -9,7 +9,7 @@ _Source_: [moonriver.polkaholic.io](https://moonriver.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/2023-moonriver/2023-02-28.md) | 3,526,185 | 3,696,177 | 169,835 | 2,617 | 63 | 590,097 | - 158 (0.09%) |   
+| [2023-02-01 to 2023-02-25](/kusama/2023-moonriver/2023-02-28.md) | 3,526,185 | 3,696,787 | 170,445 | 2,621 | 63 | 590,097 | - 158 (0.09%) |   
 | [2023-01-01 to 2023-01-31](/kusama/2023-moonriver/2023-01-31.md) | 3,309,107 | 3,526,184 | 217,078 | 2,955 | 58 | 586,948 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2023-moonriver/2022-12-31.md) | 3,100,104 | 3,309,106 | 209,003 | 2,950 |  | 583,988 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2023-moonriver/2022-11-30.md) | 2,893,806 | 3,100,103 | 206,298 | 3,074 |  | 580,205 | -   |   
@@ -31,22 +31,22 @@ _Source_: [moonriver.polkaholic.io](https://moonriver.polkaholic.io)
 | [2021-07-01 to 2021-07-31](/kusama/2023-moonriver/2021-07-31.md) | 10,200 | 226,356 | 216,157 | 475,672 |  | 120 | -   |   
 | [2021-06-29 to 2021-06-30](/kusama/2023-moonriver/2021-06-30.md) | 1 | 10,199 | 10,199 | 7 |  | 61 | -   |   
 
-## Moonriver Assets as of 2023-02-23
+## Moonriver Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [MOVR](/kusama/assets/MOVR) | 585,021 | 10,659,503.25 $117,723,810.00 | 23,990.86 $264,955.68 | 2,213,940.84  $24,450,815.85 | 2,110,808.51 $23,311,819.86 | $11.04 |   `{"Token":"MOVR"}` | 
-| [RMRK](/kusama/assets/RMRK) | 3,266 | 4,626,159.75 $12,573,385.80 |   |    |   | $2.72 |   `{"Token":"182365888117048807484804376330534607370"}` | 
-| [KSM](/kusama/assets/KSM) | 1,394 | 98,315.43 $4,497,832.91 |   |    |   | $45.75 |   `{"Token":"42259045809535163221576417993425387648"}` | 
-| [XRT](/kusama/assets/XRT) | 43 | 96,692.6 $792,770.71 |   |    |   | $8.20 |   `{"Token":"108036400430056508975016746969135344601"}` | 
-| [KBTC](/kusama/assets/KBTC) | 81 | 5.41 $156,719.52 |   |    |   | $28,954.38 |   `{"Token":"328179947973504579459046439826496046832"}` | 
-| [KUSD](/kusama/assets/KUSD) | 70 | 100,083.23 $100,083.23 |   |    |   | $1.00 |   `{"Token":"214920334981412447805621250067209749032"}` | 
-| [SDN](/kusama/assets/SDN) | 46 | 31,065.3 $18,200.79 |   |    |   | $0.59 |   `{"Token":"16797826370226091782818345603793389938"}` | 
-| [KMA](/kusama/assets/KMA) | 115 | 7,518,876.32 $17,622.34 |   |    |   | $0.00234 |   `{"Token":"213357169630950964874127107356898319277"}` | 
-| [KINT](/kusama/assets/KINT) | 234 | 17,021.45 $16,738.26 |   |    |   | $0.98 |   `{"Token":"175400718394635817552109270754364440562"}` | 
-| [KAR](/kusama/assets/KAR) | 194 | 11,132.8 $2,579.56 |   |    |   | $0.23 |   `{"Token":"10810581592933651521121702237638664357"}` | 
+| [MOVR](/kusama/assets/MOVR) | 585,125 | 10,660,814.32 $117,738,289.57 | 23,990.86 $264,955.68 | 2,216,834.97  $24,482,778.67 | 2,113,612.07 $23,342,782.54 | $11.04 |   `{"Token":"MOVR"}` | 
+| [RMRK](/kusama/assets/RMRK) | 3,262 | 4,625,957.31 $12,572,835.59 |   |    |   | $2.72 |   `{"Token":"182365888117048807484804376330534607370"}` | 
+| [KSM](/kusama/assets/KSM) | 1,394 | 98,504.14 $4,506,466.12 |   |    |   | $45.75 |   `{"Token":"42259045809535163221576417993425387648"}` | 
+| [XRT](/kusama/assets/XRT) | 43 | 96,856.03 $794,110.62 |   |    |   | $8.20 |   `{"Token":"108036400430056508975016746969135344601"}` | 
+| [KBTC](/kusama/assets/KBTC) | 79 | 5.35 $155,025.29 |   |    |   | $28,954.38 |   `{"Token":"328179947973504579459046439826496046832"}` | 
+| [KUSD](/kusama/assets/KUSD) | 70 | 58,708.75 $58,708.75 |   |    |   | $1.00 |   `{"Token":"214920334981412447805621250067209749032"}` | 
+| [SDN](/kusama/assets/SDN) | 46 | 32,535.98 $19,062.45 |   |    |   | $0.59 |   `{"Token":"16797826370226091782818345603793389938"}` | 
+| [KMA](/kusama/assets/KMA) | 111 | 7,475,748.31 $17,521.26 |   |    |   | $0.00234 |   `{"Token":"213357169630950964874127107356898319277"}` | 
+| [KINT](/kusama/assets/KINT) | 232 | 16,930.3 $16,648.63 |   |    |   | $0.98 |   `{"Token":"175400718394635817552109270754364440562"}` | 
+| [KAR](/kusama/assets/KAR) | 194 | 11,132.22 $2,579.42 |   |    |   | $0.23 |   `{"Token":"10810581592933651521121702237638664357"}` | 
 | [LIT](/kusama/assets/LIT) | 23 | 878.54 $1,328.30 |   |    |   | $1.51 |   `{"Token":"65216491554813189869575508812319036608"}` | 
 | [CSM](/kusama/assets/CSM) | 12 | 83,848.86 $1,281.80 |   |    |   | $0.02 |   `{"Token":"108457044225666871745333730479173774551"}` | 
 | [PHA](/kusama/assets/PHA) | 46 | 4,039.51 $765.82 |   |    |   | $0.19 |   `{"Token":"189307976387032586987344677431204943363"}` | 
@@ -65,7 +65,7 @@ _Source_: [moonriver.polkaholic.io](https://moonriver.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2023` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2023` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2023` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2023` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2023` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2023` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2023`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

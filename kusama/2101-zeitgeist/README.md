@@ -24,13 +24,13 @@ _Source_: [zeitgeist.polkaholic.io](https://zeitgeist.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2101-zeitgeist/2022-02-28.md) | 128,085 | 236,744 | 108,660 | 5 |  | 5 | -   |   
 | [2022-01-13 to 2022-01-31](/kusama/2101-zeitgeist/2022-01-31.md) | 1 | 128,084 | 128,084 | 3 |  |  | -   |   
 
-## Zeitgeist Assets as of 2023-02-23
+## Zeitgeist Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ZTG](/kusama/assets/ZTG) | 15,517 | 102,475,640.78  | 15,359.72  | 36,332,372.94   | 17,681,228.04  |  |   `{"Token":"ZTG"}` | 
+| [ZTG](/kusama/assets/ZTG) | 15,534 | 102,487,591.71  | 15,959.72  | 36,271,667.17   | 17,621,774.46  |  |   `{"Token":"ZTG"}` | 
 
 ## substrate-etl Tables:
 
@@ -41,7 +41,7 @@ _Source_: [zeitgeist.polkaholic.io](https://zeitgeist.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances2101` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive2101` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive2101` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew2101` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew2101` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped2101` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2101`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

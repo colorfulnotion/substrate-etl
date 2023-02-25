@@ -22,13 +22,13 @@ _Source_: [nodle.polkaholic.io](https://nodle.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2026-nodle/2022-04-30.md) | 84,991 | 212,126 | 127,136 |  |  | 9 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2026-nodle/2022-03-31.md) | 1 | 84,990 | 84,990 |  |  | 9 | -   |   
 
-## Nodle Assets as of 2023-02-23
+## Nodle Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [NODL](/polkadot/assets/NODL) | 705,662 | 8,433,261,183.92  | 175,204.8  | 5,740,106,756.33   | 5,740,106,756.33  |  |   `{"Token":"NODL"}` | 
+| [NODL](/polkadot/assets/NODL) | 706,759 | 8,433,409,548.07  | 180,152.64  | 5,739,897,528.93   | 5,739,897,528.93  |  |   `{"Token":"NODL"}` | 
 
 ## substrate-etl Tables:
 
@@ -39,7 +39,7 @@ _Source_: [nodle.polkaholic.io](https://nodle.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2026` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2026` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2026` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2026` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2026` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2026` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2026`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

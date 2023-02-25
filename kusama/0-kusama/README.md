@@ -9,7 +9,7 @@ _Source_: [kusama.polkaholic.io](https://kusama.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-25](/kusama/0-kusama/2023-02-28.md) | 16,437,639 | 16,784,186 | 346,548 | 575,375 | 2,173 | 284,956 | -   |   
+| [2023-02-01 to 2023-02-25](/kusama/0-kusama/2023-02-28.md) | 16,437,639 | 16,785,416 | 347,778 | 577,327 | 2,173 | 284,956 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/0-kusama/2023-01-31.md) | 15,992,891 | 16,437,638 | 444,748 | 521,615 | 2,208 | 282,168 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/0-kusama/2022-12-31.md) | 15,560,701 | 15,992,890 | 432,190 | 283,941 | 2,504 | 280,798 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/0-kusama/2022-11-30.md) | 15,129,763 | 15,560,700 | 430,938 | 542,445 |  | 278,785 | -   |   
@@ -50,13 +50,13 @@ _Source_: [kusama.polkaholic.io](https://kusama.polkaholic.io)
 | [2019-12-01 to 2019-12-31](/kusama/0-kusama/2019-12-31.md) | 32,218 | 467,567 | 435,350 | 92,835 |  |  | -   |   
 | [2019-11-28 to 2019-11-30](/kusama/0-kusama/2019-11-30.md) | 1 | 32,217 | 32,217 | 6,175 |  |  | -   |   
 
-## Kusama Assets as of 2023-02-23
+## Kusama Assets as of 2023-02-24
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 284,900 | 12,975,432.83 $593,613,114.76 | 305,621.35 $13,981,871.92 | 7,701,893.43  $352,353,945.35 | 7,070,994.15 $323,490,932.10 | $45.75 |   `{"Token":"KSM"}` | 
+| [KSM](/kusama/assets/KSM) | 284,956 | 12,979,797.51 $593,812,794.80 | 305,578.54 $13,979,913.62 | 7,703,730.01  $352,437,966.85 | 7,072,844.22 $323,575,571.30 | $45.75 |   `{"Token":"KSM"}` | 
 
 ## substrate-etl Tables:
 
@@ -67,7 +67,7 @@ _Source_: [kusama.polkaholic.io](https://kusama.polkaholic.io)
 * _Balances_: `substrate-etl.kusama.balances0` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.kusama.accountsactive0` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.kusama.accountspassive0` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew0` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.kusama.accountsnew0` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.kusama.accountsreaped0` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `0`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)

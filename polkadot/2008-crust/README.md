@@ -15,7 +15,7 @@ _Source_: [crust.polkaholic.io](https://crust.polkaholic.io)
 | [2022-11-21 to 2022-11-30](/polkadot/2008-crust/2022-11-30.md) | 1 | 67,182 | 67,182 |  |  | 9 | -   |   
 | [2022-10-26 to 2022-10-26](/polkadot/2008-crust/2022-10-31.md) | 288,820 | 289,071 | 252 |  |  |  | -   |   
 
-## Crust Assets as of 2023-02-23
+## Crust Assets as of 2023-02-24
 
 
 
@@ -32,7 +32,7 @@ _Source_: [crust.polkaholic.io](https://crust.polkaholic.io)
 * _Balances_: `substrate-etl.polkadot.balances2008` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
 * _Active Accounts_: `substrate-etl.polkadot.accountsactive2008` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
 * _Passive Accounts_: `substrate-etl.polkadot.accountspassive2008` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew2008` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _New Accounts_: `substrate-etl.polkadot.accountsnew2008` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
 * _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped2008` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2008`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
