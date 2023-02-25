@@ -16,6 +16,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 13 | 23.68 $23.68 |   |    |   | $1.00 | `{"Token":"103"}` |
 | [Shiden](/kusama/2007-shiden) | 20 | 16.98 $16.98 |   |    |   | $1.00 | `{"Token":"18446744073709551616"}` |
 | [Turing](/kusama/2114-turing) | 4 | 11.16 $11.16 |   |    |   | $1.00 | `{"Token":"2"}` |
+| [Crust Shadow](/kusama/2012-shadow) | 5 | 1.51 $1.51 |   |    |   | $1.00 | `{"Token":"214920334981412447805621250067209749032"}` |
 | [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 3 | 0.1 $0.10 |   |    |   | $1.00 | `{"Stable":"0"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 1,609 | 74,660.32  |   |    |   |  | `{"Stable":"KUSD"}` |
 

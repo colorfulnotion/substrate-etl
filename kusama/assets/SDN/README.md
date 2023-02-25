@@ -13,6 +13,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 | [Moonriver](/kusama/2023-moonriver) | 46 | 32,535.98 $19,062.45 |   |    |   | $0.59 | `{"Token":"16797826370226091782818345603793389938"}` |
 | [Karura](/kusama/2000-karura) | 40 | 7,739.17 $4,534.29 |   |    |   | $0.59 | `{"ForeignAsset":"18"}` |
 | [Khala](/kusama/2004-khala) | 9 | 29.99 $17.57 |   |    |   | $0.59 | `{"Token":"12"}` |
+| [Crust Shadow](/kusama/2012-shadow) | 11 | 3.61 $2.11 |   |    |   | $0.59 | `{"Token":"16797826370226091782818345603793389938"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 3 | 0.6 $0.35 |   |    |   | $0.59 | `{"Token2":"3"}` |
 
 ## Substrate-etl Queries:

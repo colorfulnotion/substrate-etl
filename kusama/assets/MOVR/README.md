@@ -15,6 +15,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 | [Karura](/kusama/2000-karura) | 114 | 619.73 $6,844.29 |   |    |   | $11.04 | `{"ForeignAsset":"3"}` |
 | [Shiden](/kusama/2007-shiden) | 25 | 6.67 $73.64 |   |    |   | $11.04 | `{"Token":"18446744073709551620"}` |
 | [Khala](/kusama/2004-khala) | 11 | 0.44 $4.82 |   |    |   | $11.04 | `{"Token":"6"}` |
+| [Crust Shadow](/kusama/2012-shadow) | 4 | 0.1 $1.12 |   |    |   | $11.04 | `{"Token":"232263652204149413431520870009560565298"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

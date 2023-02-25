@@ -21,6 +21,31 @@ Status: Only partial index available: Onboarding
 | [2022-05-01 to 2022-05-31](/kusama/2110-mangatax/2022-05-31.md) | 61,315 | 199,152 | 75,861 | 35 |  | 12 | - 61,977 (44.96%) |   
 | [2022-04-12 to 2022-04-30](/kusama/2110-mangatax/2022-04-30.md) | 1 | 61,314 | 60,863 | 12 |  | 8 | - 451 (0.74%) |   
 
+## Mangatax Assets as of 2023-02-24
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [KSM](/kusama/assets/KSM) | 860 | 13,264.06 $606,817.57 |   |    |   | $45.75 |   `{"Token":"4"}` | 
+| [BNC](/kusama/assets/BNC) | 148 | 77,840.61 $32,375.01 |   |    |   | $0.42 |   `{"Token":"14"}` | 
+| [MGX](/kusama/assets/MGX) | 1,761 |   |   |    |   |  |   `{"Token":"MGX"}` | 
+| [TUR](/kusama/assets/TUR) | 538 | 5,489,368.39  |   |    |   |  |   `{"Token":"7"}` | 
+| [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 430 | 2,437,664.5  | 106,842,704.9  |    | 1,724,749.58  |  |   `{"Token":"5"}` | 
+| [TKN0x00000000-TKN0x00000007](/kusama/assets/TKN0x00000000-TKN0x00000007) | 322 | 125,245.5  | 44,083,572.13  |    | 112,379.03  |  |   `{"Token":"8"}` | 
+| [IMBU](/kusama/assets/IMBU) | 158 | 1,047,949.97  |   |    |   |  |   `{"Token":"11"}` | 
+| [TKN0x00000000-TKN0x0000000B](/kusama/assets/TKN0x00000000-TKN0x0000000B) | 140 | 61.9  | 17,627,720.62  |    |   |  |   `{"Token":"12"}` | 
+| [TKN0x00000000-TKN0x0000000E](/kusama/assets/TKN0x00000000-TKN0x0000000E) | 113 | 1,829.24  | 7,056,891.94  |    |   |  |   `{"Token":"17"}` | 
+| [VSKSM](/kusama/assets/VSKSM) | 51 | 840.53  |   |    |   |  |   `{"Token":"16"}` | 
+| [TKN0x00000010-TKN0x00000004](/kusama/assets/TKN0x00000010-TKN0x00000004) | 35 |   | -  |    |   |  |   `{"Token":"19"}` | 
+| [vKSM](/kusama/assets/vKSM) | 32 | 1,410  |   |    |   |  |   `{"Token":"15"}` | 
+| [TKN0x00000000-TKN0x00000002](/kusama/assets/TKN0x00000000-TKN0x00000002) | 22 | 11,245  | 15,755  |    |   |  |   `{"Token":"3"}` | 
+| [TKN0x00000004-TKN0x00000007](/kusama/assets/TKN0x00000004-TKN0x00000007) | 9 | -  |   |    |   |  |   `{"Token":"9"}` | 
+| [TKN0x0000000B-TKN0x00000004](/kusama/assets/TKN0x0000000B-TKN0x00000004) | 5 | -  |   |    |   |  |   `{"Token":"13"}` | 
+| [TKN0x00000004-TKN0x0000000E](/kusama/assets/TKN0x00000004-TKN0x0000000E) | 2 | -  |   |    |   |  |   `{"Token":"20"}` | 
+| [TKN0x00000005-TKN0x00000000](/kusama/assets/TKN0x00000005-TKN0x00000000) | 2 | 2.5  |   |    |   |  |   `{"Token":"10"}` | 
+| [TKN0x00000010-TKN0x00000000](/kusama/assets/TKN0x00000010-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"18"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2110` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

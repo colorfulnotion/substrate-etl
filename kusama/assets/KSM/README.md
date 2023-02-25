@@ -14,8 +14,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 3,103 | 92,923.26 $4,251,146.44 | 0.1 $4.57 |    |   | $45.75 | `{"Token":"KSM"}` |
 | [Karura](/kusama/2000-karura) | 8,112 | 61,403.79 $2,809,162.25 |   |    |   | $45.75 | `{"Token":"KSM"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 3,604 | 17,875.53 $817,787.88 |   |    |   | $45.75 | `{"Token":"100"}` |
+| [Mangatax](/kusama/2110-mangatax) | 860 | 13,264.06 $606,817.57 |   |    |   | $45.75 | `{"Token":"4"}` |
 | [Basilisk](/kusama/2090-basilisk) | 1,880 | 4,144.59 $189,611.08 | 1.44 $65.88 |    |   | $45.75 | `{"Token":"1"}` |
-| [Statemine](/kusama/1000-statemine) | 49,321 | 3,412.98 $156,140.36 | 984.43 $45,036.91 |    |   | $45.75 | `{"Token":"KSM"}` |
 | [Kintsugi](/kusama/2092-kintsugi) | 211 | 1,273.75 $58,272.67 | 30,312.69 $1,386,775.27 |    |   | $45.75 | `{"Token":"KSM"}` |
 | [Robonomics](/kusama/2048-robonomics) | 6 | 536.43 $24,541.14 |   |    |   | $45.75 | `{"Token":"4294967295"}` |
 | [Shiden](/kusama/2007-shiden) | 66 | 63.49 $2,904.76 |   |    |   | $45.75 | `{"Token":"340282366920938463463374607431768211455"}` |
@@ -25,6 +25,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 | [Dora Factory](/kusama/2115-dorafactory) | 3 | 0.29 $13.27 |   |    |   | $45.75 | `{"Token":"KSM"}` |
 | [Khala](/kusama/2004-khala) | 2 | 0.23 $10.74 |   |    |   | $45.75 | `{"Token":"0"}` |
 | [BridgeHub](/kusama/1002-bridgehub) | 4 |   |   |    |   |  | `{"Token":"KSM"}` |
+| [Statemine](/kusama/1000-statemine) | 1 | 85,000,000  |   |    |   |  | `{"Token":"1234"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
