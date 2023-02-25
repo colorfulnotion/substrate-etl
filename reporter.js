@@ -191,7 +191,7 @@ module.exports = class Reporter {
             });
 	    let assetdata = JSON.parse(stdout);
 	    // compile chains using asset
-            let desc = `# ${symbol} substrate-etl Summary\r\n\r\n_Source_: [polkaholic.io](https://polkaholic.io)\r\n\r\n*Relay Chain*: ${relayChain}\r\n*Report Date*: ${assetdata.logDT}\r\n`;
+            let desc = `# ${symbol} on ${relayChain} substrate-etl Summary\r\n\r\n_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: ${assetdata.logDT}\r\n\r\n\r\n`;
 	    console.log(assetdata);
 	    if ( assetdata.xcmInteriorKeys && assetdata.xcmInteriorKeys.length > 0 ) {
 		desc += "*XCM Interior Keys*:\r\n";
