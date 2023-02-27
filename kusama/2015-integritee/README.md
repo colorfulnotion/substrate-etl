@@ -22,14 +22,6 @@ _Source_: [integritee.polkaholic.io](https://integritee.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/kusama/2015-integritee/2022-04-30.md) | 36,169 | 151,996 | 115,828 | 1,584 |  | 11,233 | -   |   
 | [2022-03-21 to 2022-03-31](/kusama/2015-integritee/2022-03-31.md) | 1 | 36,168 | 36,168 |  |  | 1 | -   |   
 
-## Integritee Assets as of 2023-02-24
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [TEER](/kusama/assets/TEER) | 12,967 | 9,997,760.45 $4,633,989.14 | 89.35 $41.42 | 1,612,808.25  $747,541.01 |   | $0.46 |   `{"Token":"TEER"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2015` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

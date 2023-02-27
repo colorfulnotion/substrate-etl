@@ -9,7 +9,7 @@ _Source_: [interlay.polkaholic.io](https://interlay.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-27](/polkadot/2032-interlay/2023-02-28.md) | 2,071,448 | 2,241,753 | 170,306 | 38,287 | 147 | 11,328 | -   |   
+| [2023-02-01 to 2023-02-27](/polkadot/2032-interlay/2023-02-28.md) | 2,071,448 | 2,242,453 | 171,006 | 38,453 | 147 | 11,328 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2032-interlay/2023-01-31.md) | 1,876,892 | 2,071,447 | 194,556 | 43,634 | 155 | 11,058 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2032-interlay/2022-12-31.md) | 1,679,375 | 1,876,891 | 197,517 | 46,349 |  | 10,820 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2032-interlay/2022-11-30.md) | 1,487,751 | 1,679,374 | 191,624 | 41,201 |  | 10,632 | -   |   
@@ -21,17 +21,6 @@ _Source_: [interlay.polkaholic.io](https://interlay.polkaholic.io)
 | [2022-05-01 to 2022-05-31](/polkadot/2032-interlay/2022-05-31.md) | 255,599 | 469,772 | 214,174 |  |  | 42 | -   |   
 | [2022-04-01 to 2022-04-30](/polkadot/2032-interlay/2022-04-30.md) | 77,428 | 255,598 | 178,171 | 21 |  | 42 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2032-interlay/2022-03-31.md) | 1 | 77,427 | 77,427 | 39 |  | 32 | -   |   
-
-## Interlay Assets as of 2023-02-24
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [INTR](/polkadot/assets/INTR) | 11,310 | 999,998,641.69 $36,752,730.66 | 1,324.43 $48.68 |    | 70,486,141.67 $2,590,561.70 | $0.04 |   `{"Token":"INTR"}` | 
-| [IBTC](/polkadot/assets/IBTC) | 363 | 83.32 $1,486,612.24 | 0.02 $277.96 |    |   | $17,841.21 |   `{"Token":"IBTC"}` | 
-| [DOT](/polkadot/assets/DOT) | 159 | 41,511.11 $311,061.29 | 630,348.51 $4,723,482.90 |    |   | $7.49 |   `{"Token":"DOT"}` | 
-| [USDT](/polkadot/assets/USDT) | 16 | 4.37 $4.37 | 13,984.1 $13,990.57 |    |   | $1.00 |   `{"ForeignAsset":"2"}` | 
 
 ## substrate-etl Tables:
 

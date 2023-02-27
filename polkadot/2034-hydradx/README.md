@@ -22,20 +22,6 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2034-hydradx/2022-04-30.md) | 99,601 | 288,656 | 189,056 | 28 |  | 32 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2034-hydradx/2022-03-31.md) | 1 | 99,600 | 99,600 | 30 |  | 28 | -   |   
 
-## HydraDX Assets as of 2023-02-24
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DAI](/polkadot/assets/DAI) | 408 | 2,210,331.62 $2,210,331.62 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [DOT](/polkadot/assets/DOT) | 1,466 | 57,837.56 $433,402.65 |   |    |   | $7.49 |   `{"Token":"5"}` | 
-| [HDX](/polkadot/assets/HDX) | 23,309 | 4,364,353,633.52  | 71,991.18  | 1,879,383,875.05   | 1,852,846,827.96  |  |   `{"Token":"HDX"}` | 
-| [LRNA](/polkadot/assets/LRNA) | 114 | 225,442.36  |   |    |   |  |   `{"Token":"1"}` | 
-| [WETH.ACA](/polkadot/assets/WETH.ACA) | 49 | 1,133.58  |   |    |   |  |   `{"Token":"4"}` | 
-| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 22 | 47.9  |   |    |   |  |   `{"Token":"3"}` | 
-| [APE](/polkadot/assets/APE) | 2 | 0.03  |   |    |   |  |   `{"Token":"6"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2034` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
