@@ -16,7 +16,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 | [Moonriver](/kusama/2023-moonriver) | 29 | 753.83 $753.83 |   |    |   | $1.00 | `{"Token":"311091173110107856861649819128533077277"}` |
 | [Shiden](/kusama/2007-shiden) | 7 | 7.78 $7.78 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
 | [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.56 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
-| [Statemine](/kusama/1000-statemine) | 2 | 10,000,000  |   |    |   |  | `{"Token":"19840"}` |
+| [Statemine](/kusama/1000-statemine) | 1 | 69,000,000,000  |   |    |   |  | `{"Token":"11"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
