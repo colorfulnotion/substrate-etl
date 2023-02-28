@@ -10,8 +10,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-02-28 | 2,383,327 |  937 | 5,518 (0.23%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-02-28 | 280,003 |  4 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-02-28 | 3,798,681 |  94,978 | 1,186 (0.03%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-02-28 | 3,635,043 |  101,361 | 13 (0.00%)  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-02-28 | 3,397,767 |  23,489 | 479,738 (14.12%) Only partial index available: Old Decoding issues |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-02-28 | 3,637,122 |  101,361 | 13 (0.00%)  |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-02-28 | 3,400,201 |  23,489 | 479,738 (14.11%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-02-28 | 3,479,669 |  637,813 | 208,526 (5.99%) Only partial index available: Old Decoding issues |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-02-28 | 2,425,053 |  2,870 | 813 (0.03%)  |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-02-28 | 2,115,682 |  12,949 | 27 (0.00%)  |
@@ -31,11 +31,11 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-02-28 | 1,392,899 |  1,148 |    |
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-02-28 | 1,690,274 |  53 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-02-28 | 2,081,378 |  13,907 |    |
-| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-02-28 | 1,823,013 |  1,706 | 1,097,605 (60.21%) Only partial index available: Onboarding |
+| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-02-28 | 1,823,013 |  1,706 | 1,094,646 (60.05%) Only partial index available: Onboarding |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-02-28 | 1,333,615 |  13,236 |    |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-02-28 | 2,057,782 |  7,570 |    |
-| [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-02-28 | 1,523,524 |  373 |    |
-| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-02-28 | 1,537,030 |  3,213 | 2,804 (0.18%) Only partial index available: Archive node unavailable |
+| [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-02-28 | 1,525,652 |  373 |    |
+| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-02-28 | 1,538,288 |  3,213 | 2,804 (0.18%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
 | [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-02-28 | 1,589,732 |  5,272 |    |
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-02-28 | 1,530,918 |  336 | 3,535 (0.23%) Only partial index available: Archive node unavailable |
@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-02-28 | 1,265,577 |  7,109 |    |
 | [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-02-28 | 1,072,262 |  5,499 | 92,381 (8.62%) Only partial index available: Archive node unavailable |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-02-28 | 798,605 |  890 |    |
-| [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-02-28 | 530,719 |  9 |    |
+| [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-02-28 | 532,955 |  9 |    |
 
 Missing chains
 
