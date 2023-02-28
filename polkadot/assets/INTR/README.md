@@ -10,6 +10,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Interlay](/polkadot/2032-interlay) | 11,340 | 999,998,649.35 $30,015,580.18 | 1,316.77 $39.52 |    | 70,664,262.3 $2,121,031.70 | $0.03 | `{"Token":"INTR"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 358 | 2,647,369.71 $79,462.45 |   |    |   | $0.03 | `{"Token":"101170542313601871197860408087030232491"}` |
+| [Acala](/polkadot/2000-acala) | 408 | 1,221,196.93 $36,654.98 |   |    |   | $0.03 | `{"ForeignAsset":"4"}` |
 | [Parallel](/polkadot/2012-parallel) | 222 | 274,894.91 $8,251.14 |   |    |   | $0.03 | `{"Token":"120"}` |
 | [Astar](/polkadot/2006-astar) | 69 | 197,642.25 $5,932.35 |   |    |   | $0.03 | `{"Token":"18446744073709551621"}` |
 

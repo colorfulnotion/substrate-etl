@@ -9,6 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
+| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 151 | 291,806.21  |   |    |   |  | `{"VToken2":"0"}` |
 | [Astar](/polkadot/2006-astar) | 7 | 0.79  |   |    |   |  | `{"Token":"18446744073709551624"}` |
 
 ## Substrate-etl Queries:

@@ -9,7 +9,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
+| [Moonbeam](/polkadot/2004-moonbeam) | 6 | 136.82  |   |    |   |  | `{"Token":"187224307232923873519830480073807488153"}` |
 | [Astar](/polkadot/2006-astar) | 3 | 2.9  |   |    |   |  | `{"Token":"18446744073709551629"}` |
+| [Acala](/polkadot/2000-acala) | 2 | 5  |   |    |   |  | `{"ForeignAsset":"8"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

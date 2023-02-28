@@ -10,7 +10,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Interlay](/polkadot/2032-interlay) | 365 | 83.08 $1,482,204.70 | 0.02 $277.96 |    |   | $17,841.21 | `{"Token":"IBTC"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 95 | 20.33 $362,766.06 |   |    |   | $17,841.21 | `{"Token":"120637696315203257380661607956669368914"}` |
 | [Astar](/polkadot/2006-astar) | 30 | 1.35 $24,148.89 |   |    |   | $17,841.21 | `{"Token":"18446744073709551620"}` |
+| [Acala](/polkadot/2000-acala) | 83 | 1.13 $20,168.86 |   |    |   | $17,841.21 | `{"ForeignAsset":"3"}` |
 | [Parallel](/polkadot/2012-parallel) | 114 | 0.15 $2,599.45 |   |    |   | $17,841.21 | `{"Token":"122"}` |
 
 ## Substrate-etl Queries:

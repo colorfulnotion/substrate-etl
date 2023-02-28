@@ -9,6 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
+| [Acala](/polkadot/2000-acala) | 54,091 | 24,116,159.75  |   |    |   |  | `{"LiquidCrowdloan":"13"}` |
 | [Parallel](/polkadot/2012-parallel) | 166 | 1,374,092.07  |   |    |   |  | `{"Token":"106"}` |
 
 ## Substrate-etl Queries:
