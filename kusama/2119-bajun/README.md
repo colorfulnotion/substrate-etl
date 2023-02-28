@@ -19,13 +19,13 @@ _Source_: [bajun.polkaholic.io](https://bajun.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/kusama/2119-bajun/2022-07-31.md) | 658 | 180,291 | 179,634 |  |  | 4 | -   |   
 | [2022-06-30 to 2022-06-30](/kusama/2119-bajun/2022-06-30.md) | 1 | 657 | 657 |  |  | 4 | -   |   
 
-## Bajun Network Assets as of 2023-02-26
+## Bajun Network Assets as of 2023-02-27
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BAJU](/kusama/assets/BAJU) | 5,814 | 49,756,693.04  | 5,481.44  | 6,674,982.57   | 6,674,982.57  |  |   `{"Token":"BAJU"}` | 
+| [BAJU](/kusama/assets/BAJU) | 5,819 | 49,756,371.3  | 5,481.44  | 6,671,065.17   | 6,671,065.17  |  |   `{"Token":"BAJU"}` | 
 
 ## substrate-etl Tables:
 

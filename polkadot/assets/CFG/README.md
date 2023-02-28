@@ -1,12 +1,12 @@
 # CFG on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Centrifuge](/polkadot/2031-centrifuge) | 44,638 | 492,131,734.52  | 161,545.54  | 71,740,070.74   | 13,128,705.21  |  | `{"Token":"CFG"}` |
+| [Centrifuge](/polkadot/2031-centrifuge) | 44,652 | 492,138,318.83  | 161,545.54  | 71,693,643.81   | 13,128,705.21  |  | `{"Token":"CFG"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "CFG" and date(ts) = "2023-02-26"
+ where symbol = "CFG" and date(ts) = "2023-02-27"
  group by para_id
  order by free_usd desc
 ```

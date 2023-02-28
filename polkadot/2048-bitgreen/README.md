@@ -12,13 +12,13 @@ _Source_: [bitgreen.polkaholic.io](https://bitgreen.polkaholic.io)
 | [2023-02-01 to 2023-02-28](/polkadot/2048-bitgreen/2023-02-28.md) | 91,749 | 278,978 | 187,230 | 97 | 10 | 781 | -   |   
 | [2023-01-17 to 2023-01-31](/polkadot/2048-bitgreen/2023-01-31.md) | 1 | 91,748 | 91,748 | 6 | 2 | 179 | -   |   
 
-## Bitgreen Assets as of 2023-02-26
+## Bitgreen Assets as of 2023-02-27
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BBB](/polkadot/assets/BBB) | 779 | 1,000,023,700  | 37.2  |    |   |  |   `{"Token":"BBB"}` | 
+| [BBB](/polkadot/assets/BBB) | 781 | 1,000,024,408  | 37.2  |    |   |  |   `{"Token":"BBB"}` | 
 
 ## substrate-etl Tables:
 

@@ -1,6 +1,6 @@
 # USDT on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 
 *XCM Interior Keys*:
@@ -9,14 +9,14 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Statemine](/kusama/1000-statemine) | 437 | 3,499,755.74 $3,501,373.92 |   |    |   | $1.00 | `{"Token":"1984"}` |
-| [Karura](/kusama/2000-karura) | 167 | 201,932.43 $202,025.79 |   |    |   | $1.00 | `{"ForeignAsset":"7"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 121 | 71,140.19 $71,173.08 |   |    |   | $1.00 | `{"Token":"102"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 100 | 55,488.75 $55,514.41 |   |    |   | $1.00 | `{"Token2":"0"}` |
-| [Basilisk](/kusama/2090-basilisk) | 37 | 21,021.25 $21,030.97 |   |    |   | $1.00 | `{"Token":"14"}` |
+| [Karura](/kusama/2000-karura) | 167 | 202,934.83 $202,993.49 |   |    |   | $1.00 | `{"ForeignAsset":"7"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 99 | 55,974.51 $55,990.69 |   |    |   | $1.00 | `{"Token2":"0"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 120 | 38,764.16 $38,775.37 |   |    |   | $1.00 | `{"Token":"102"}` |
+| [Basilisk](/kusama/2090-basilisk) | 38 | 21,366.05 $21,372.23 |   |    |   | $1.00 | `{"Token":"14"}` |
 | [Moonriver](/kusama/2023-moonriver) | 29 | 753.83 $753.83 |   |    |   | $1.00 | `{"Token":"311091173110107856861649819128533077277"}` |
 | [Shiden](/kusama/2007-shiden) | 7 | 7.78 $7.78 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
-| [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.57 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.56 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
+| [Statemine](/kusama/1000-statemine) | 1 | 69,000,000,000  |   |    |   |  | `{"Token":"11"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -27,7 +27,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "USDT" and date(ts) = "2023-02-26"
+ where symbol = "USDT" and date(ts) = "2023-02-27"
  group by para_id
  order by free_usd desc
 ```

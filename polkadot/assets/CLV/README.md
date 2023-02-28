@@ -1,6 +1,6 @@
 # CLV on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 
 *XCM Interior Keys*:
@@ -9,9 +9,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Clover](/polkadot/2002-clover) | 4,122 | 5,157,904.31 $1,931,578.43 | 90.36 $33.84 | 606,070  $226,966.55 | 605,900 $226,902.89 | $0.37 | `{"Token":"CLV"}` |
-| [Astar](/polkadot/2006-astar) | 8 | 23 $8.61 |   |    |   | $0.37 | `{"Token":"18446744073709551625"}` |
-| [Parallel](/polkadot/2012-parallel) | 2 | 4 $1.50 |   |    |   | $0.37 | `{"Token":"130"}` |
+| [Clover](/polkadot/2002-clover) | 4,124 | 5,157,904.13 $1,742,097.34 | 90.36 $30.52 | 606,070  $204,701.93 | 605,900 $204,644.51 | $0.34 | `{"Token":"CLV"}` |
+| [Astar](/polkadot/2006-astar) | 8 | 23 $7.77 |   |    |   | $0.34 | `{"Token":"18446744073709551625"}` |
+| [Parallel](/polkadot/2012-parallel) | 2 | 4 $1.35 |   |    |   | $0.34 | `{"Token":"130"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "CLV" and date(ts) = "2023-02-26"
+ where symbol = "CLV" and date(ts) = "2023-02-27"
  group by para_id
  order by free_usd desc
 ```

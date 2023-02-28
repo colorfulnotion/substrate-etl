@@ -22,13 +22,13 @@ _Source_: [equilibrium.polkaholic.io](https://equilibrium.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2011-equilibrium/2022-04-30.md) | 38,051 | 132,017 | 93,967 |  |  | 21 | -   |   
 | [2022-03-19 to 2022-03-31](/polkadot/2011-equilibrium/2022-03-31.md) | 1 | 38,050 | 38,050 |  |  | 21 | -   |   
 
-## Equilibrium Assets as of 2023-02-26
+## Equilibrium Assets as of 2023-02-27
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [EQ](/polkadot/assets/EQ) | 9,419 |   |   |    |   |  |   `{"Token":"EQ"}` | 
+| [EQ](/polkadot/assets/EQ) | 9,334 |   |   |    |   |  |   `{"Token":"EQ"}` | 
 
 ## substrate-etl Tables:
 

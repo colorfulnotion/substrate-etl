@@ -26,13 +26,13 @@ _Source_: [quartz.polkaholic.io](https://quartz.polkaholic.io)
 | [2021-12-01 to 2021-12-31](/kusama/2095-quartz/2021-12-31.md) | 19,222 | 223,874 | 204,653 | 20,054 |  | 9,211 | -   |   
 | [2021-11-27 to 2021-11-30](/kusama/2095-quartz/2021-11-30.md) | 1 | 19,221 | 19,221 |  |  | 4 | -   |   
 
-## Quartz Assets as of 2023-02-26
+## Quartz Assets as of 2023-02-27
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [QTZ](/kusama/assets/QTZ) | 83,271 | 1,097,033,001.56 $858,417.50 |   | 731,928,472.69  $572,726.81 | 731,928,472.69 $572,726.81 | - |   `{"Token":"QTZ"}` | 
+| [QTZ](/kusama/assets/QTZ) | 83,279 | 1,097,032,998.78 $1,450,955.32 |   | 730,530,818.58  $966,213.03 | 730,530,818.58 $966,213.03 | $0.00132 |   `{"Token":"QTZ"}` | 
 
 ## substrate-etl Tables:
 

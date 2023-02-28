@@ -14,13 +14,13 @@ _Source_: [frequency.polkaholic.io](https://frequency.polkaholic.io)
 | [2022-12-01 to 2022-12-31](/polkadot/2091-frequency/2022-12-31.md) | 11,895 | 233,131 | 221,237 |  |  | 27 | -   |   
 | [2022-11-29 to 2022-11-30](/polkadot/2091-frequency/2022-11-30.md) | 1 | 11,894 | 11,894 |  |  | 27 | -   |   
 
-## Frequency Assets as of 2023-02-26
+## Frequency Assets as of 2023-02-27
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [FRQCY](/polkadot/assets/FRQCY) | 28 | 999,999,999.24  |   | 42   |   |  |   `{"Token":"FRQCY"}` | 
+| [FRQCY](/polkadot/assets/FRQCY) | 28 | 999,999,999.16  |   | 471.86   |   |  |   `{"Token":"FRQCY"}` | 
 
 ## substrate-etl Tables:
 

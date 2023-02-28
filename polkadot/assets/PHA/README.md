@@ -1,6 +1,6 @@
 # PHA on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 
 *XCM Interior Keys*:
@@ -9,11 +9,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Phala](/polkadot/2035-phala) | 3,121 | 541,799,866.8 $102,716,359.27 | 133.15 $25.24 | 11,328,574.94  $2,147,711.81 |   | $0.19 | `{"Token":"PHA"}` |
-| [Astar](/polkadot/2006-astar) | 43 | 954,145.49 $180,890.32 |   |    |   | $0.19 | `{"Token":"18446744073709551622"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 114 | 389,375.36 $73,819.18 |   |    |   | $0.19 | `{"Token":"132685552157663328694213725410064821485"}` |
-| [Parallel](/polkadot/2012-parallel) | 340 | 51,691.93 $9,799.94 |   |    |   | $0.19 | `{"Token":"115"}` |
-| [Acala](/polkadot/2000-acala) | 2 | 11 $2.09 |   |    |   | $0.19 | `{"ForeignAsset":"9"}` |
+| [Phala](/polkadot/2035-phala) | 3,123 | 541,799,866.8 $91,869,705.62 | 133.15 $22.58 | 11,328,379.88  $1,920,884.42 |   | $0.17 | `{"Token":"PHA"}` |
+| [Astar](/polkadot/2006-astar) | 43 | 966,791.34 $163,932.92 |   |    |   | $0.17 | `{"Token":"18446744073709551622"}` |
+| [Parallel](/polkadot/2012-parallel) | 340 | 51,625.07 $8,753.75 |   |    |   | $0.17 | `{"Token":"115"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -24,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "PHA" and date(ts) = "2023-02-26"
+ where symbol = "PHA" and date(ts) = "2023-02-27"
  group by para_id
  order by free_usd desc
 ```

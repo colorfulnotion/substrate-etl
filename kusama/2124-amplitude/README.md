@@ -9,7 +9,7 @@ _Source_: [amplitude.polkaholic.io](https://amplitude.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-28](/kusama/2124-amplitude/2023-02-28.md) | 972,507 | 1,160,002 | 187,496 | 978 | 30 | 923 | -   |   
+| [2023-02-01 to 2023-02-28](/kusama/2124-amplitude/2023-02-28.md) | 972,507 | 1,162,002 | 189,496 | 983 | 28 | 923 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2124-amplitude/2023-01-31.md) | 757,812 | 972,506 | 214,695 | 788 | 25 | 727 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2124-amplitude/2022-12-31.md) | 561,962 | 757,811 | 195,850 | 1,082 |  | 727 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2124-amplitude/2022-11-30.md) | 379,402 | 561,961 | 182,560 | 587 |  | 709 | -   |   
@@ -17,14 +17,14 @@ _Source_: [amplitude.polkaholic.io](https://amplitude.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/kusama/2124-amplitude/2022-09-30.md) | 27,839 | 197,200 | 169,362 | 76 |  | 673 | -   |   
 | [2022-08-11 to 2022-08-31](/kusama/2124-amplitude/2022-08-31.md) | 1 | 27,838 | 27,838 |  |  | 14 | -   |   
 
-## Amplitude Assets as of 2023-02-26
+## Amplitude Assets as of 2023-02-27
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 1 | 1 $45.60 |   |    |   | $45.75 |   `{"XCM":"KSM"}` | 
-| [AMPE](/kusama/assets/AMPE) | 923 | 164,032,062.72  | 20  | 142,984,755.31   | 3,984,375.92  |  |   `{"Token":"AMPE"}` | 
+| [KSM](/kusama/assets/KSM) | 1 | 1 $38.77 |   |    |   | $38.90 |   `{"XCM":"KSM"}` | 
+| [AMPE](/kusama/assets/AMPE) | 923 | 164,032,430.63  | 20  | 142,986,346.85   | 3,990,967.46  |  |   `{"Token":"AMPE"}` | 
 
 ## substrate-etl Tables:
 

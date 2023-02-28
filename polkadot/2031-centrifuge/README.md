@@ -22,13 +22,13 @@ _Source_: [centrifuge.polkaholic.io](https://centrifuge.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2031-centrifuge/2022-04-30.md) | 132,981 | 333,938 | 200,958 | 15,603 |  | 41,078 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2031-centrifuge/2022-03-31.md) | 1 | 132,980 | 132,980 | 66 |  | 49 | -   |   
 
-## Centrifuge Assets as of 2023-02-26
+## Centrifuge Assets as of 2023-02-27
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CFG](/polkadot/assets/CFG) | 44,638 | 492,131,734.52  | 161,545.54  | 71,740,070.74   | 13,128,705.21  |  |   `{"Token":"CFG"}` | 
+| [CFG](/polkadot/assets/CFG) | 44,652 | 492,138,318.83  | 161,545.54  | 71,693,643.81   | 13,128,705.21  |  |   `{"Token":"CFG"}` | 
 
 ## substrate-etl Tables:
 
