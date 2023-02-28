@@ -17,17 +17,9 @@ Network Summary: (All-time, Monthly, Daily)
 
 Chain data is appended daily.  Included in each summary are sample queries.  See also this [XCM Transfers blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9).  
 
-Install Substrate ETL:
-
-```
-git clone git@github.com:colorfulnotion/substrate-etl.git
-npm install 
-```
-Then, set up a Google Cloud Platform (GCP) account to access the project/datasets/tables
-
 ### Quick Start
 
-You can access Substrate ETL data using the GCP BigQuery console.
+You can access Substrate ETL data using the [Google Cloud BigQuery](https://cloud.google.com/bigquery) console.
 
 _Get blocks of paraid 2007_ ([Schema](#blocksjson)):
 ```bash
@@ -270,26 +262,38 @@ for a tutorial with representative queries covering the above.
 
 Generally the data is complete as can be, but the sole data source is the Polkaholic.io indexer.  
 
-From this single source the primary causes of missing data stem from:
-* Chains that do not provide a public node.  Most of the time, there are new with very little actual activity.  
-* Chains that have a public node, but these nodes are not _archive_ nodes
-* Chains that are being onboarded.
-* Some blocks fail decoding due to chain halting, missing APIs with type.
+From this single source, the primary causes of missing data stem from:
+* Chains that do not provide a public RPC node.  Most of the time, these chains are new with very little actual activity.  
+* Chains that have a public RPC node, but no RPC Endpoint is an _archive_ nodes
+* Chains that are being onboarded 
+* Some blocks fail decoding due to chain halting, or are missing an up-to-date node.js API package for type definitions.
 
 A daily/hourly github actions process summarizes the state of the index for:
 * [polkadot](/polkadot)
 * [kusama](/kusama)
-and for every single chain that is being indexed.
 
-See the **Crawling Status** column for chains with systemic issues, and the **# Missing** column for blocks that are missing
-
+and for every single chain that is being indexed.  See the report **Issues** column for chains with systemic issues or blocks that are missing.  Generally the last 24 hrs have blocks that are missing that are filled in by the end of the day.
 
 ### Design choices:
 
 * All temporal BigQuery datasets are date-partitioned and split into multiple tables by {paraId} to enable low-cost low-latency BigQuery scans for specific date, parachain combinations. Timestamped data use BigQuery TIMESTAMP date types.
 * Addresses are provided in “public key” (signer_pub_key) and SS58 Address (signer_ss58) form to support multi-chain queries with wild card table selection eg`select * from polkadot.extrinsics* where signer_pub_key='<pubkey>' ` aggregates multi-chain transactional history for a given account. 
-* When assets are mentioned (transfers, xcmtransfers), we “decimalize” the output and include basic USD price valuation if possible.
-* EVM Transaction / Transfers support is under active development and is planned for Q2. 
+* When assets are mentioned (transfers, xcmtransfers), we “decimalize” the output and include basic USD price valuation if possible.  Many assets are not valued with USD values in this way.
+
+### Roadmap
+
+Summer/Fall 2023
+* Full XCMv3 Multilocation support
+* EVM Chain Support: Transaction / Transfers, Contracts, Tokens
+* GKE systematization, Reliability Improvements
+* New functionality based on community feedback
+
+Fall/Winter 2023
+* Bridgehub integration 
+* Reporting on Comparison to other ecosystems also modelled in BigQuery
+* New functionality based on community feedback
+
+Your feedback is important -- please submit an issue.
 
 ### Contributions
 
