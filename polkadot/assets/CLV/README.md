@@ -1,6 +1,6 @@
 # CLV on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Clover](/polkadot/2002-clover) | 4,121 | 5,157,904.67 $1,931,580.64 | 90.36 $33.84 | 606,070  $226,966.79 | 605,900 $226,903.13 | $0.37 | `{"Token":"CLV"}` |
+| [Clover](/polkadot/2002-clover) | 4,122 | 5,157,904.31 $1,931,578.43 | 90.36 $33.84 | 606,070  $226,966.55 | 605,900 $226,902.89 | $0.37 | `{"Token":"CLV"}` |
 | [Astar](/polkadot/2006-astar) | 8 | 23 $8.61 |   |    |   | $0.37 | `{"Token":"18446744073709551625"}` |
 | [Parallel](/polkadot/2012-parallel) | 2 | 4 $1.50 |   |    |   | $0.37 | `{"Token":"130"}` |
 
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "CLV" and date(ts) = "2023-02-24"
+ where symbol = "CLV" and date(ts) = "2023-02-26"
  group by para_id
  order by free_usd desc
 ```

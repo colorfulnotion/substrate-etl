@@ -9,7 +9,7 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-27](/polkadot/2043-origintrail/2023-02-28.md) | 1,683,135 | 1,860,939 | 177,805 | 221 | 14 | 3,646 | -   |   
+| [2023-02-01 to 2023-02-28](/polkadot/2043-origintrail/2023-02-28.md) | 1,683,135 | 1,860,970 | 177,836 | 221 | 14 | 3,646 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2043-origintrail/2023-01-31.md) | 1,469,695 | 1,683,134 | 213,440 | 474 | 14 | 3,606 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2043-origintrail/2022-12-31.md) | 1,249,065 | 1,469,694 | 220,630 | 591 |  | 3,523 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2043-origintrail/2022-11-30.md) | 1,034,707 | 1,249,064 | 214,358 | 350 |  | 3,222 | -   |   
@@ -18,6 +18,15 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 | [2022-08-01 to 2022-08-31](/polkadot/2043-origintrail/2022-08-31.md) | 388,055 | 602,981 | 214,927 | 659 |  | 2,945 | -   |   
 | [2022-07-01 to 2022-07-31](/polkadot/2043-origintrail/2022-07-31.md) | 176,609 | 388,054 | 211,446 | 330,210 |  | 2,833 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2043-origintrail/2022-06-30.md) | 1 | 176,608 | 176,608 | 1,124,329 |  | 11 | -   |   
+
+## Origin Trail Assets as of 2023-02-26
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [OTP](/polkadot/assets/OTP) | 3,646 | 500,053,155.01  | 166  | 22,331,223.8   |   |  |   `{"Token":"OTP"}` | 
+| [TRAC](/polkadot/assets/TRAC) | 210 | 84,040,684.43  |   |    |   |  |   `{"Token":"1"}` | 
 
 ## substrate-etl Tables:
 

@@ -1,6 +1,6 @@
 # PHA on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
 
 
 *XCM Interior Keys*:
@@ -9,10 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Phala](/polkadot/2035-phala) | 3,117 | 541,799,866.8 $102,716,359.27 | 133.15 $25.24 | 11,330,333.44  $2,148,045.19 |   | $0.19 | `{"Token":"PHA"}` |
-| [Astar](/polkadot/2006-astar) | 36 | 940,769.8 $178,354.51 |   |    |   | $0.19 | `{"Token":"18446744073709551622"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 116 | 377,567.7 $71,580.64 |   |    |   | $0.19 | `{"Token":"132685552157663328694213725410064821485"}` |
-| [Parallel](/polkadot/2012-parallel) | 339 | 51,483.35 $9,760.40 |   |    |   | $0.19 | `{"Token":"115"}` |
+| [Phala](/polkadot/2035-phala) | 3,121 | 541,799,866.8 $102,716,359.27 | 133.15 $25.24 | 11,328,574.94  $2,147,711.81 |   | $0.19 | `{"Token":"PHA"}` |
+| [Astar](/polkadot/2006-astar) | 43 | 954,145.49 $180,890.32 |   |    |   | $0.19 | `{"Token":"18446744073709551622"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 114 | 389,375.36 $73,819.18 |   |    |   | $0.19 | `{"Token":"132685552157663328694213725410064821485"}` |
+| [Parallel](/polkadot/2012-parallel) | 340 | 51,691.93 $9,799.94 |   |    |   | $0.19 | `{"Token":"115"}` |
 | [Acala](/polkadot/2000-acala) | 2 | 11 $2.09 |   |    |   | $0.19 | `{"ForeignAsset":"9"}` |
 
 ## Substrate-etl Queries:
@@ -24,7 +24,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "PHA" and date(ts) = "2023-02-24"
+ where symbol = "PHA" and date(ts) = "2023-02-26"
  group by para_id
  order by free_usd desc
 ```

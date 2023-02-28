@@ -1,12 +1,12 @@
 # vsBOND-KSM-2092-15-22 on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 399 | 972.3  | 979.47  |    |   |  | `{"VSBond":["KSM","2,092","15","22"]}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 397 | 982.6  | 969.17  |    |   |  | `{"VSBond":["KSM","2,092","15","22"]}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "vsBOND-KSM-2092-15-22" and date(ts) = "2023-02-24"
+ where symbol = "vsBOND-KSM-2092-15-22" and date(ts) = "2023-02-26"
  group by para_id
  order by free_usd desc
 ```

@@ -1,6 +1,6 @@
 # CSM on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
 
 
 *XCM Interior Keys*:
@@ -11,7 +11,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Crust Shadow](/kusama/2012-shadow) | 3,204 | 199,998,811.13 $3,057,377.04 | 1,168.93 $17.87 | 1,048,894.86  $16,034.43 | 412,959.96 $6,312.91 | $0.02 | `{"Token":"CSM"}` |
 | [Karura](/kusama/2000-karura) | 171 | 7,642,960.74 $116,837.76 |   |    |   | $0.02 | `{"ForeignAsset":"5"}` |
-| [Moonriver](/kusama/2023-moonriver) | 12 | 83,848.86 $1,281.80 |   |    |   | $0.02 | `{"Token":"108457044225666871745333730479173774551"}` |
+| [Moonriver](/kusama/2023-moonriver) | 13 | 83,848.86 $1,281.80 |   |    |   | $0.02 | `{"Token":"108457044225666871745333730479173774551"}` |
 | [Shiden](/kusama/2007-shiden) | 12 | 1,133.87 $17.33 |   |    |   | $0.02 | `{"Token":"18446744073709551624"}` |
 
 ## Substrate-etl Queries:
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "CSM" and date(ts) = "2023-02-24"
+ where symbol = "CSM" and date(ts) = "2023-02-26"
  group by para_id
  order by free_usd desc
 ```

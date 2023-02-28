@@ -1,6 +1,6 @@
 # PHA on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-26
 
 
 *XCM Interior Keys*:
@@ -9,10 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-24
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Khala](/kusama/2004-khala) | 23,677 | 691,786,858.25 $131,151,430.30 | 13,085.11 $2,480.72 | 1,828,524.09  $346,658.15 | 1,406.9 $266.72 | $0.19 | `{"Token":"PHA"}` |
-| [Karura](/kusama/2000-karura) | 292 | 177,236.03 $33,601.04 |   |    |   | $0.19 | `{"Token":"PHA"}` |
+| [Khala](/kusama/2004-khala) | 23,727 | 691,785,199.75 $131,151,115.88 | 14,743.61 $2,795.15 | 1,821,061.97  $345,243.45 | 1,406.9 $266.72 | $0.19 | `{"Token":"PHA"}` |
+| [Karura](/kusama/2000-karura) | 293 | 176,118.67 $33,389.21 |   |    |   | $0.19 | `{"Token":"PHA"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 400 | 54,287.09 $10,291.94 |   |    |   | $0.19 | `{"Token":"PHA"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 146 | 21,392.48 $4,055.66 |   |    |   | $0.19 | `{"Token":"115"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 146 | 21,431.51 $4,063.06 |   |    |   | $0.19 | `{"Token":"115"}` |
 | [Moonriver](/kusama/2023-moonriver) | 46 | 4,039.51 $765.82 |   |    |   | $0.19 | `{"Token":"189307976387032586987344677431204943363"}` |
 | [Shiden](/kusama/2007-shiden) | 15 | 53.6 $10.16 |   |    |   | $0.19 | `{"Token":"18446744073709551623"}` |
 | [Turing](/kusama/2114-turing) | 2 | 0.76 $0.14 |   |    |   | $0.19 | `{"Token":"7"}` |
@@ -26,7 +26,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "PHA" and date(ts) = "2023-02-24"
+ where symbol = "PHA" and date(ts) = "2023-02-26"
  group by para_id
  order by free_usd desc
 ```
