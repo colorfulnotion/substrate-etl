@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-02-28 | 703,586 |  1,108 |    |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-02-28 | 3,263,417 |  17,998 | 554 (0.02%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-02-28 | 649,377 |  27 |    |
-| [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-02-28 | 17,637 |  7 | 216 (1.22%) Only partial index available: Archive node unavailable |
+| [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-02-28 | 17,637 |  7 |   Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-02-28 | 82,547 |  80 |    |
 
 Missing chains
@@ -43,6 +43,7 @@ Missing chains
 * *Polkadex* Para ID 2040; No Public Websocket Endpoint available: Not indexing yet.
 * *Aventus* Para ID 2056; No Public Websocket Endpoint available: Not indexing yet.
 * *TBD* Para ID 2058; 
+* *null* Para ID 2092; 
 # Assets
 
 Source: [Polkaholic.io](https://polkaholic.io)
