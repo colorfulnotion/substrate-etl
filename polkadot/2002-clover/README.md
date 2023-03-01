@@ -49,6 +49,7 @@ _Source_: [clover.polkaholic.io](https://clover.polkaholic.io)
 * _Assets_: `substrate-etl.polkadot.assets` (filter on `2002`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
 * _XCM Transfers_: `substrate-etl.polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Messages_: `substrate-etl.polkadot.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
 
 ### # Blocks
 ```bash
@@ -62,4 +63,4 @@ order by monthDT desc
 ```
 
 
-Report source: [https://cdn.polkaholic.io/substrate-etl/polkadot/2002.json](https://cdn.polkaholic.io/substrate-etl/polkadot/2002.json) | See [Definitions](/DEFINITIONS.md) for details
+Report source: [https://cdn.polkaholic.io/substrate-etl/polkadot/2002.json](https://cdn.polkaholic.io/substrate-etl/polkadot/2002.json) | See [Definitions](/DEFINITIONS.md) for details | [Submit Issue](https://github.com/colorfulnotion/substrate-etl/issues)

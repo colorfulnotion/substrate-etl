@@ -48,6 +48,7 @@ _Source_: [genshiro.polkaholic.io](https://genshiro.polkaholic.io)
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2024`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
 * _XCM Transfers_: `substrate-etl.kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Messages_: `substrate-etl.kusama.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
 
 ### # Blocks
 ```bash
@@ -61,4 +62,4 @@ order by monthDT desc
 ```
 
 
-Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/2024.json](https://cdn.polkaholic.io/substrate-etl/kusama/2024.json) | See [Definitions](/DEFINITIONS.md) for details
+Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/2024.json](https://cdn.polkaholic.io/substrate-etl/kusama/2024.json) | See [Definitions](/DEFINITIONS.md) for details | [Submit Issue](https://github.com/colorfulnotion/substrate-etl/issues)

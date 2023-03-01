@@ -9,17 +9,17 @@ Status: Only partial index available: Onboarding
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-28](/kusama/2110-mangatax/2023-02-28.md) | 1,640,995 | 1,828,507 | 166,994 | 4,295 | 31 | 1,774 | - 20,519 (10.94%) |   
-| [2023-01-01 to 2023-01-31](/kusama/2110-mangatax/2023-01-31.md) | 1,436,133 | 1,640,994 | 181,423 | 11,668 | 43 | 1,651 | - 23,439 (11.44%) |   
-| [2022-12-01 to 2022-12-31](/kusama/2110-mangatax/2022-12-31.md) | 1,240,087 | 1,436,132 | 172,501 | 6,498 |  | 1,476 | - 23,545 (12.01%) |   
-| [2022-11-01 to 2022-11-30](/kusama/2110-mangatax/2022-11-30.md) | 1,042,543 | 1,240,086 | 178,499 | 6,025 |  | 1,449 | - 19,045 (9.64%) |   
-| [2022-10-01 to 2022-10-31](/kusama/2110-mangatax/2022-10-31.md) | 830,803 | 1,042,542 | 167,972 | 5,128 |  | 1,395 | - 43,768 (20.67%) |   
-| [2022-09-01 to 2022-09-30](/kusama/2110-mangatax/2022-09-30.md) | 636,727 | 830,802 | 146,706 | 5,836 |  | 1,339 | - 47,370 (24.41%) |   
-| [2022-08-01 to 2022-08-31](/kusama/2110-mangatax/2022-08-31.md) | 473,310 | 636,726 | 150,224 | 3,263 |  | 1,262 | - 13,193 (8.07%) |   
-| [2022-07-01 to 2022-07-31](/kusama/2110-mangatax/2022-07-31.md) | 326,257 | 473,309 | 142,267 | 1,862 |  | 1,180 | - 4,786 (3.25%) |   
-| [2022-06-01 to 2022-06-30](/kusama/2110-mangatax/2022-06-30.md) | 199,153 | 326,256 | 127,009 | 4,169 |  | 1,158 | - 95 (0.07%) |   
-| [2022-05-01 to 2022-05-31](/kusama/2110-mangatax/2022-05-31.md) | 61,315 | 199,152 | 123,149 | 42 |  | 12 | - 14,689 (10.66%) |   
-| [2022-04-12 to 2022-04-30](/kusama/2110-mangatax/2022-04-30.md) | 1 | 61,314 | 60,125 | 10 |  | 8 | - 1,189 (1.94%) |   
+| [2023-02-01 to 2023-02-28](/kusama/2110-mangatax/2023-02-28.md) | 1,640,995 | 1,828,507 | 187,351 | 4,852 | 29 | 1,774 | - 162 (0.09%) |   
+| [2023-01-01 to 2023-01-31](/kusama/2110-mangatax/2023-01-31.md) | 1,436,133 | 1,640,994 | 204,862 | 13,115 | 43 | 1,651 | -   |   
+| [2022-12-01 to 2022-12-31](/kusama/2110-mangatax/2022-12-31.md) | 1,240,087 | 1,436,132 | 196,046 | 7,277 |  | 1,476 | -   |   
+| [2022-11-01 to 2022-11-30](/kusama/2110-mangatax/2022-11-30.md) | 1,042,543 | 1,240,086 | 197,544 | 6,722 |  | 1,449 | -   |   
+| [2022-10-01 to 2022-10-31](/kusama/2110-mangatax/2022-10-31.md) | 830,803 | 1,042,542 | 211,740 | 6,556 |  | 1,395 | -   |   
+| [2022-09-01 to 2022-09-30](/kusama/2110-mangatax/2022-09-30.md) | 636,727 | 830,802 | 194,076 | 7,696 |  | 1,339 | -   |   
+| [2022-08-01 to 2022-08-31](/kusama/2110-mangatax/2022-08-31.md) | 473,310 | 636,726 | 163,417 | 3,417 |  | 1,262 | -   |   
+| [2022-07-01 to 2022-07-31](/kusama/2110-mangatax/2022-07-31.md) | 326,257 | 473,309 | 147,053 | 1,940 |  | 1,180 | -   |   
+| [2022-06-01 to 2022-06-30](/kusama/2110-mangatax/2022-06-30.md) | 199,153 | 326,256 | 127,104 | 4,273 |  | 1,158 | -   |   
+| [2022-05-01 to 2022-05-31](/kusama/2110-mangatax/2022-05-31.md) | 61,315 | 199,152 | 137,838 | 52 |  | 12 | -   |   
+| [2022-04-12 to 2022-04-30](/kusama/2110-mangatax/2022-04-30.md) | 1 | 61,314 | 61,313 | 10 |  | 8 | - 1 (0.00%) |   
 
 ## Mangatax Assets as of 2023-02-27
 
@@ -60,6 +60,7 @@ Status: Only partial index available: Onboarding
 * _Assets_: `substrate-etl.kusama.assets` (filter on `2110`) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
 * _XCM Transfers_: `substrate-etl.kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Messages_: `substrate-etl.kusama.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
 
 ### # Blocks
 ```bash
@@ -73,4 +74,4 @@ order by monthDT desc
 ```
 
 
-Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/2110.json](https://cdn.polkaholic.io/substrate-etl/kusama/2110.json) | See [Definitions](/DEFINITIONS.md) for details
+Report source: [https://cdn.polkaholic.io/substrate-etl/kusama/2110.json](https://cdn.polkaholic.io/substrate-etl/kusama/2110.json) | See [Definitions](/DEFINITIONS.md) for details | [Submit Issue](https://github.com/colorfulnotion/substrate-etl/issues)
