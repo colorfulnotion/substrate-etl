@@ -302,6 +302,7 @@ select para_id, count(distinct address_pubkey) numHolders,
 	docs.push(`* _Assets_: \`substrate-etl.${relayChain}.assets\` (filter on \`${paraID}\`) - [Schema](/schema/assets.json)`)
 	docs.push(`* _XCM Assets_: \`substrate-etl.${relayChain}.xcmassets\` (filter on \`para_id\`) - [Schema](/schema/xcmassets.json)`)
 	docs.push(`* _XCM Transfers_: \`substrate-etl.${relayChain}.xcmtransfers\` (filter on \`origination_para_id\` or \`destination_para_id\`, date-partitioned by \`origination_ts\`) - [Schema](/schema/xcmtransfers.json)`)
+	docs.push(`* _XCM Messages_: \`substrate-etl.${relayChain}.xcm\` (filter on \`origination_para_id\` or \`destination_para_id\`, date-partitioned by \`origination_ts\`) - [Schema](/schema/xcm.json)`)
 
         docs.push(`\r\n### # Blocks
 \`\`\`bash
@@ -370,11 +371,9 @@ order by monthDT desc
 		    j.push(`| [${symbol}](${url}) | ${numHolders} | ${free} ${freeUSD} | ${reserved} ${reservedUSD} | ${miscFrozen}  ${miscFrozenUSD} | ${frozen} ${frozenUSD} | ${priceUSD} |   \`${asset}\` | `)
 		}
             }
-
 	}
 
-	    
-	docs.push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
+	docs.push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details | [Submit Issue](https://github.com/colorfulnotion/substrate-etl/issues)`);
         j = j.concat(docs);
 
 
@@ -388,8 +387,6 @@ order by monthDT desc
         console.log("writing", fn_chain);
         let f = fs.openSync(fn_chain, 'w', 0o666);
         fs.writeSync(f, j.join(NL) + NL);
-
-   
 
 	// compile daily summmary
         prevStartBN = null;
@@ -413,8 +410,8 @@ order by monthDT desc
                 desc += `\r\n\r\n`
                 j[k].push(desc);
                 j[k].push(`### Daily Summary for Month ending in ${monthDT}\r\n\r\n`);
-                j[k].push(`| Date | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts | # Passive | # New | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out | Issues | `);
-                j[k].push(`| ---- | ----------- | --------- | -------- | --------------------------- | ----------------- | --------- | ----- | ------------------------- | -------- | ----------- | ------------------ | ------------------- | ------ |`);
+                j[k].push(`| Date | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts | # Passive | # New | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out | # XCM In | # XCM Out | Issues | `);
+                j[k].push(`| ---- | ----------- | --------- | -------- | --------------------------- | ----------------- | --------- | ----- | ------------------------- | -------- | ----------- | ------------------ | ------------------- | -------- | --------- | ------ |`);
 
                 docs[k].push(`\r\n## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:
 
@@ -500,6 +497,15 @@ SELECT date(block_time) as logDT,
 ### XCM Transfers In:
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
+ COUNT(*) numXCMTransfersOut 
+ FROM \`substrate-etl.${relayChain}.xcmtransfers\` 
+ where destination_para_id = ${paraID} and LAST_DAY(date(origination_ts)) = "${monthDT}" 
+ group by logDT order by logDT
+\`\`\`
+
+### XCM Transfers Out:
+\`\`\`bash
+SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMTransfersIn 
  FROM \`substrate-etl.${relayChain}.xcmtransfers\` 
  where origination_para_id = ${paraID} and LAST_DAY(date(origination_ts)) = "${monthDT}" 
@@ -507,13 +513,23 @@ SELECT date(origination_ts) as logDT,
 order by logDT
 \`\`\`
 
-### XCM Transfers Out:
+### XCM Messages Out:
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
- COUNT(*) numXCMTransfersOut 
- FROM \`substrate-etl.${relayChain}.xcmtransfers\` 
+ COUNT(*) numXCMMessagesOut 
+ FROM \`substrate-etl.${relayChain}.xcm\` 
  where destination_para_id = ${paraID} and LAST_DAY(date(origination_ts)) = "${monthDT}" 
  group by logDT order by logDT
+\`\`\`
+
+### XCM Messages Out:
+\`\`\`bash
+SELECT date(origination_ts) as logDT, 
+ COUNT(*) numXCMMessagesIn 
+ FROM \`substrate-etl.${relayChain}.xcm\` 
+ where origination_para_id = ${paraID} and LAST_DAY(date(origination_ts)) = "${monthDT}" 
+ group by logDT 
+order by logDT
 \`\`\`
 `);
 		docs[k].push(`\r\nReport source: [${url}](${url}) | See [Definitions](/DEFINITIONS.md) for details`);
@@ -541,12 +557,14 @@ SELECT date(origination_ts) as logDT,
             let numXCMTransfersOut = r.numXCMTransfersOut ? r.numXCMTransfersOut.toLocaleString('en-US') : "";
             let valXCMTransferIncomingUSD = r.valXCMTransferIncomingUSD > 0 ? `(${currencyFormat(r.valXCMTransferIncomingUSD)})` : ""
             let valXCMTransferOutgoingUSD = r.valXCMTransferOutgoingUSD > 0 ? `(${currencyFormat(r.valXCMTransferOutgoingUSD)})` : ""
+            let numXCMMessagesIn = r.numXCMMessagesIn ? r.numXCMMessagesIn.toLocaleString('en-US') : "";
+            let numXCMMessagesOut = r.numXCMMessagesOut ? r.numXCMMessagesOut.toLocaleString('en-US') : "";
 
             if (prevStartBN && (prevStartBN != (r.endBN + 1)) && (r.endBN < prevStartBN)) {
                 broken.push(logDT);
                 numBlocks_missing = " **BROKEN**";
             }
-            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} | ${missing} |`)
+            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} | ${numXCMMessagesIn} | ${numXCMMessagesOut} | ${missing} |`)
             prevStartBN = r.startBN;
         }
 	
