@@ -4,12 +4,12 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 
 *Relay Chain*: kusama
 *Para ID*: 2110
-Status: Only partial index available: Onboarding
+
 
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-28](/kusama/2110-mangatax/2023-02-28.md) | 1,640,995 | 1,828,507 | 187,351 | 4,852 | 29 | 1,774 | - 162 (0.09%) |   
+| [2023-02-01 to 2023-02-28](/kusama/2110-mangatax/2023-02-28.md) | 1,640,995 | 1,828,507 | 187,513 | 4,855 | 45 | 1,774 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2110-mangatax/2023-01-31.md) | 1,436,133 | 1,640,994 | 204,862 | 13,115 | 43 | 1,651 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2110-mangatax/2022-12-31.md) | 1,240,087 | 1,436,132 | 196,046 | 7,277 |  | 1,476 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2110-mangatax/2022-11-30.md) | 1,042,543 | 1,240,086 | 197,544 | 6,722 |  | 1,449 | -   |   
