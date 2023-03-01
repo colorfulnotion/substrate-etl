@@ -31,7 +31,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-02-28 | 1,395,988 |  1,148 |    |
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-02-28 | 1,692,086 |  53 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-02-28 | 2,088,085 |  13,907 |    |
-| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-02-28 | 1,828,507 |  1,710 | 957,151 (52.35%) Only partial index available: Onboarding |
+| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-02-28 | 1,828,507 |  1,717 | 211,638 (11.57%) Only partial index available: Onboarding |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-02-28 | 1,338,345 |  13,236 |    |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-02-28 | 2,062,530 |  7,571 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-02-28 | 1,529,416 |  373 |    |
