@@ -63,7 +63,8 @@ Tables: (replace `{paraID}` with a specific para ID, e.g. `2000` for `acala`)
 * _Reaped Accounts_: `substrate-etl.${relayChain}.accountsreaped${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
 * _Assets_: `substrate-etl.${relayChain}.assets` (relaychain-wide table: filter on `para_id` as needed) - [Schema](/schema/assets.json)
 * _XCM Assets_: `substrate-etl.${relayChain}.xcmassets` (relaychain-wide table: filter on `para_id` as needed) - [Schema](/schema/xcmassets.json)
-* _XCM Transfers_: `substrate-etl.${relayChain}.xcmtransfers` (relaychain-wide table: filter on `para_id` as needed, filter on `origination_para_id` or `destination_para_id` as needed; date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Transfers_: `substrate-etl.${relayChain}.xcmtransfers` (relaychain-wide table: filter on `origination_para_id` or `destination_para_id` as needed; date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Messages_: `substrate-etl.${relayChain}.xcm` (relaychain-wide table: filter on  `origination_para_id` or `destination_para_id` as needed; date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
 
 Thus [polkadot](/polkadot/0-polkadot) relay chain blocks are held in `substrate-etl.polkadot.blocks0`, [acala](/polkadot/2000-polkadot) blocks are stored in `substrate-etl.polkadot.blocks2000`, and similarly for any chain / table name.  
 
@@ -72,7 +73,7 @@ See [Definitions](/DEFINITIONS.md) for how the tables are constructed and tentat
 Every chain has a auto generated README with the chains tables explicitly enumerated, and includes sample queries.
 
 Notes:
-* System tables (`chains`, `assets`, `xcmassets`, `xcmtransfers`) are not specific to any parachain and apply to the whole relay chain.
+* System tables (`chains`, `assets`, `xcmassets`, `xcmtransfers`, `xcm`) are not specific to any parachain and apply to the whole relay chain.
 * All tables (except for `chains`, `assets` and `xcmassets`) are date-partitioned to support low cost, high speed scans.
 * If a parachain has a renewal, the first paraid assigned is used for subsequent renewals.
 
@@ -278,7 +279,7 @@ and for every single chain that is being indexed.  See the report **Issues** col
 
 * All temporal BigQuery datasets are date-partitioned and split into multiple tables by {paraId} to enable low-cost low-latency BigQuery scans for specific date, parachain combinations. Timestamped data use BigQuery TIMESTAMP date types.
 * Addresses are provided in “public key” (signer_pub_key) and SS58 Address (signer_ss58) form to support multi-chain queries with wild card table selection eg`select * from polkadot.extrinsics* where signer_pub_key='<pubkey>' ` aggregates multi-chain transactional history for a given account. 
-* When assets are mentioned (transfers, xcmtransfers), we “decimalize” the output and include basic USD price valuation if possible.  Many assets are not valued with USD values in this way.
+* When assets are mentioned (transfers, xcmtransfers), we "decimalize" the output and include basic USD price valuation if possible.  Many assets are not valued with USD values in this way.
 
 ### Roadmap
 
@@ -293,7 +294,7 @@ Fall/Winter 2023
 * Reporting on Comparison to other ecosystems also modelled in BigQuery
 * New functionality based on community feedback
 
-Your feedback is important -- please submit an issue.
+Your feedback is important -- please [submit an issue](https://github.com/colorfulnotion/substrate-etl/issues).
 
 ### Contributions
 

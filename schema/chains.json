@@ -28,5 +28,23 @@
     "name": "symbol",
     "type": "STRING",
     "description": "Primary native token of the chain"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_evm",
+    "type": "BOOLEAN",
+    "description": "true if the chain supports EVM Contracts, otherwise false"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_wasm",
+    "type": "BOOLEAN",
+    "description": "true if the chain supports WASM Contracts, otherwise false"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "icon_url",
+    "type": "STRING",
+    "description": "Icon URL"
   }
 ]
