@@ -9,7 +9,7 @@ _Source_: [kilt.polkaholic.io](https://kilt.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-28](/polkadot/2086-kilt/2023-02-28.md) | 3,064,119 | 3,263,417 | 199,299 | 4,257 | 109 | 18,081 | -   |   
+| [2023-02-01 to 2023-02-28](/polkadot/2086-kilt/2023-02-28.md) | 3,064,119 | 3,263,417 | 199,299 | 4,257 | 112 | 18,081 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2086-kilt/2023-01-31.md) | 2,843,795 | 3,064,118 | 220,324 | 5,941 | 129 | 17,920 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2086-kilt/2022-12-31.md) | 2,626,142 | 2,843,794 | 217,653 | 4,597 |  | 17,633 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2086-kilt/2022-11-30.md) | 2,418,359 | 2,626,141 | 207,783 | 4,746 |  | 17,353 | -   |   
@@ -28,13 +28,13 @@ _Source_: [kilt.polkaholic.io](https://kilt.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/polkadot/2086-kilt/2021-10-31.md) | 130,782 | 331,942 | 200,846 | 513 |  | 320 | [object Object] 315 (0.16%) |   
 | [2021-09-08 to 2021-09-30](/polkadot/2086-kilt/2021-09-30.md) | 1 | 130,781 | 130,542 | 106 |  |  | [object Object] 239 (0.18%) |   
 
-## KILT Spiritnet Assets as of 2023-02-27
+## KILT Spiritnet Assets as of 2023-02-28
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KILT](/polkadot/assets/KILT) | 18,079 | 157,569,270.49  | 27,367.73  | 1,000,000,117,049,491.9   | 74,640,667.56  |  |   `{"Token":"KILT"}` | 
+| [KILT](/polkadot/assets/KILT) | 18,081 | 157,575,741.04  | 27,370.22  | 1,000,000,117,054,418.4   | 74,645,675.56  |  |   `{"Token":"KILT"}` | 
 
 ## substrate-etl Tables:
 

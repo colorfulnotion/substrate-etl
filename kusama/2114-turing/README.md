@@ -9,7 +9,7 @@ _Source_: [turing.polkaholic.io](https://turing.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-28](/kusama/2114-turing/2023-02-28.md) | 1,865,173 | 2,062,530 | 197,358 | 1,832 | 67 | 7,584 | -   |   
+| [2023-02-01 to 2023-02-28](/kusama/2114-turing/2023-02-28.md) | 1,865,173 | 2,062,530 | 197,358 | 1,832 | 70 | 7,584 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2114-turing/2023-01-31.md) | 1,648,489 | 1,865,172 | 216,684 | 11,432 | 230 | 7,476 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2114-turing/2022-12-31.md) | 1,440,187 | 1,648,488 | 208,302 | 3,717 |  | 1,716 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2114-turing/2022-11-30.md) | 1,239,418 | 1,440,186 | 200,769 | 1,747 |  | 1,694 | -   |   
@@ -21,18 +21,18 @@ _Source_: [turing.polkaholic.io](https://turing.polkaholic.io)
 | [2022-05-01 to 2022-05-31](/kusama/2114-turing/2022-05-31.md) | 103,439 | 277,931 | 174,493 | 1,564 |  | 1,435 | -   |   
 | [2022-04-03 to 2022-04-30](/kusama/2114-turing/2022-04-30.md) | 1 | 103,438 | 103,438 | 27 |  | 20 | -   |   
 
-## Turing Assets as of 2023-02-27
+## Turing Assets as of 2023-02-28
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 5 | 5.36 $208.78 |   |    |   | $38.96 |   `{"Token":"1"}` | 
-| [LKSM](/kusama/assets/LKSM) | 3 | 2.7 $12.28 |   |    |   | $4.55 |   `{"Token":"4"}` | 
+| [KSM](/kusama/assets/KSM) | 5 | 5.36 $194.51 |   |    |   | $36.30 |   `{"Token":"1"}` | 
+| [LKSM](/kusama/assets/LKSM) | 3 | 2.7 $11.40 |   |    |   | $4.22 |   `{"Token":"4"}` | 
 | [KUSD](/kusama/assets/KUSD) | 4 | 11.16 $11.16 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [KAR](/kusama/assets/KAR) | 6 | 30.17 $6.39 |   |    |   | $0.21 |   `{"Token":"3"}` | 
+| [KAR](/kusama/assets/KAR) | 6 | 30.17 $6.26 |   |    |   | $0.21 |   `{"Token":"3"}` | 
 | [PHA](/kusama/assets/PHA) | 2 | 0.76 $0.13 |   |    |   | $0.17 |   `{"Token":"7"}` | 
-| [TUR](/kusama/assets/TUR) | 7,584 | 413,474,879.33  | 454.67  | 32,672,944.75   | 32,669,492.75  |  |   `{"Token":"TUR"}` | 
+| [TUR](/kusama/assets/TUR) | 7,584 | 413,601,369.16  | 454.67  | 32,698,746.04   | 32,695,294.04  |  |   `{"Token":"TUR"}` | 
 | [HKO](/kusama/assets/HKO) | 4 | 2.12  |   |    |   |  |   `{"Token":"5"}` | 
 
 ## substrate-etl Tables:

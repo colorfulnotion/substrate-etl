@@ -12,7 +12,7 @@ _Source_: [bridgehub.polkaholic.io](https://bridgehub.polkaholic.io)
 | [2023-02-01 to 2023-02-28](/kusama/1002-bridgehub/2023-02-28.md) | 86,880 | 285,128 | 198,249 |  | 4 | 4 | -   |   
 | [2023-01-19 to 2023-01-31](/kusama/1002-bridgehub/2023-01-31.md) | 1 | 86,879 | 86,879 |  | 4 | 4 | -   |   
 
-## BridgeHub Assets as of 2023-02-27
+## BridgeHub Assets as of 2023-02-28
 
 
 

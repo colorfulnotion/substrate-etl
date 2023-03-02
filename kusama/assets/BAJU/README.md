@@ -1,12 +1,12 @@
 # BAJU on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bajun Network](/kusama/2119-bajun) | 5,819 | 49,756,371.3  | 5,481.44  | 6,671,065.17   | 6,671,065.17  |  | `{"Token":"BAJU"}` |
+| [Bajun Network](/kusama/2119-bajun) | 5,830 | 49,755,622.35  | 5,521.95  | 6,670,419.69   | 6,670,419.69  |  | `{"Token":"BAJU"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "BAJU" and date(ts) = "2023-02-27"
+ where symbol = "BAJU" and date(ts) = "2023-02-28"
  group by para_id
  order by free_usd desc
 ```

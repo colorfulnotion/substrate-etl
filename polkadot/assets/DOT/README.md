@@ -1,6 +1,6 @@
 # DOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
 
 
 *XCM Interior Keys*:
@@ -9,16 +9,16 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Polkadot](/polkadot/0-polkadot) | 1,072,095 | 1,166,746,736.56 $7,689,058,816.49 | 121,174,486.47 $798,560,411.01 | 680,818,920.22  $4,486,712,117.48 | 674,598,511.56 $4,445,718,569.77 | $6.59 | `{"Token":"DOT"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 7,520 | 2,060,463.69 $13,578,805.05 |   |    |   | $6.59 | `{"Token":"42259045809535163221576417993425387648"}` |
-| [Acala](/polkadot/2000-acala) | 10,193 | 1,549,140.09 $10,209,095.84 |   |    |   | $6.59 | `{"Token":"DOT"}` |
-| [Parallel](/polkadot/2012-parallel) | 8,803 | 849,652.73 $5,599,355.58 |   |    |   | $6.59 | `{"Token":"101"}` |
-| [Astar](/polkadot/2006-astar) | 1,447 | 153,578.77 $1,012,110.11 |   |    |   | $6.59 | `{"Token":"340282366920938463463374607431768211455"}` |
-| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 454 | 124,407.96 $819,869.54 |   |    |   | $6.59 | `{"Token2":"0"}` |
-| [HydraDX](/polkadot/2034-hydradx) | 1,483 | 108,555.32 $714,573.58 |   |    |   | $6.58 | `{"Token":"5"}` |
-| [Interlay](/polkadot/2032-interlay) | 159 | 41,596.57 $274,128.48 | 630,385.87 $4,154,349.78 |    |   | $6.59 | `{"Token":"DOT"}` |
-| [Statemint](/polkadot/1000-statemint) | 597 | 3,346.38 $22,027.82 | 7,898.85 $51,994.75 |    |   | $6.58 | `{"Token":"DOT"}` |
-| [Collectives](/polkadot/1001-collectives) | 19 | 34.25 $225.70 | 0.4 $2.65 |    |   | $6.59 | `{"Token":"DOT"}` |
+| [Polkadot](/polkadot/0-polkadot) | 1,072,618 | 1,166,872,470.3 $7,424,284,470.50 | 121,412,924.55 $772,495,806.67 | 681,989,134.22  $4,339,189,986.14 | 675,773,207.89 $4,299,640,843.90 | $6.36 | `{"Token":"DOT"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 7,537 | 2,041,987.97 $12,992,250.60 |   |    |   | $6.36 | `{"Token":"42259045809535163221576417993425387648"}` |
+| [Acala](/polkadot/2000-acala) | 10,178 | 1,546,567.9 $9,840,115.61 |   |    |   | $6.36 | `{"Token":"DOT"}` |
+| [Parallel](/polkadot/2012-parallel) | 8,816 | 851,449.39 $5,417,389.34 |   |    |   | $6.36 | `{"Token":"101"}` |
+| [Astar](/polkadot/2006-astar) | 1,450 | 151,862.22 $966,230.94 |   |    |   | $6.36 | `{"Token":"340282366920938463463374607431768211455"}` |
+| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 457 | 123,734.64 $787,267.86 |   |    |   | $6.36 | `{"Token2":"0"}` |
+| [HydraDX](/polkadot/2034-hydradx) | 1,487 | 109,861.74 $697,363.10 |   |    |   | $6.35 | `{"Token":"5"}` |
+| [Interlay](/polkadot/2032-interlay) | 159 | 41,596.57 $264,660.29 | 630,379.87 $4,010,823.47 |    |   | $6.36 | `{"Token":"DOT"}` |
+| [Statemint](/polkadot/1000-statemint) | 601 | 3,350.18 $21,315.71 | 7,899.05 $50,258.08 |    |   | $6.36 | `{"Token":"DOT"}` |
+| [Collectives](/polkadot/1001-collectives) | 20 | 34.25 $217.40 | 0.4 $2.55 |    |   | $6.35 | `{"Token":"DOT"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -29,7 +29,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "DOT" and date(ts) = "2023-02-27"
+ where symbol = "DOT" and date(ts) = "2023-02-28"
  group by para_id
  order by free_usd desc
 ```

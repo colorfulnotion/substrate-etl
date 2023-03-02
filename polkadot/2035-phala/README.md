@@ -9,7 +9,7 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-02-01 to 2023-02-28](/polkadot/2035-phala/2023-02-28.md) | 1,809,602 | 2,009,120 | 199,519 | 924 | 25 | 3,128 | -   |   
+| [2023-02-01 to 2023-02-28](/polkadot/2035-phala/2023-02-28.md) | 1,809,602 | 2,009,120 | 199,519 | 924 | 26 | 3,128 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2035-phala/2023-01-31.md) | 1,587,962 | 1,809,601 | 221,640 | 616 | 20 | 3,021 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2035-phala/2022-12-31.md) | 1,367,180 | 1,587,961 | 220,782 | 502 |  | 2,979 | -   |   
 | [2022-11-01 to 2022-11-30](/polkadot/2035-phala/2022-11-30.md) | 1,153,086 | 1,367,179 | 214,094 | 812 |  | 2,925 | -   |   
@@ -21,16 +21,16 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 | [2022-05-31 to 2022-05-31](/polkadot/2035-phala/2022-05-31.md) | 90,052 | 92,104 | 2,053 |  |  | 5 | -   |   
 | [2022-04-01 to 2022-04-15](/polkadot/2035-phala/2022-04-30.md) | 1 | 90,051 | 90,051 |  |  | 5 | -   |   
 
-## Phala Assets as of 2023-02-27
+## Phala Assets as of 2023-02-28
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PHA](/polkadot/assets/PHA) | 3,123 | 541,799,866.8 $91,869,705.62 | 133.15 $22.58 | 11,328,379.88  $1,920,884.42 |   | $0.17 |   `{"Token":"PHA"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 11 | 36.57 $16.32 |   |    |   | $0.45 |   `{"Token":"1"}` | 
-| [ASTR](/polkadot/assets/ASTR) | 11 | 105.33 $8.42 |   |    |   | $0.08 |   `{"Token":"6"}` | 
-| [PARA](/polkadot/assets/PARA) | 5 | 55.56 $0.73 |   |    |   | $0.01 |   `{"Token":"2"}` | 
+| [PHA](/polkadot/assets/PHA) | 3,128 | 541,799,866.8 $90,482,290.02 | 133.15 $22.24 | 11,328,234.61  $1,891,850.98 |   | $0.17 |   `{"Token":"PHA"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 11 | 36.56 $15.55 |   |    |   | $0.43 |   `{"Token":"1"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 11 | 105.33 $8.07 |   |    |   | $0.08 |   `{"Token":"6"}` | 
+| [PARA](/polkadot/assets/PARA) | 5 | 55.56 $0.66 |   |    |   | $0.01 |   `{"Token":"2"}` | 
 | [EQ](/polkadot/assets/EQ) | 2 | 807.76  |   |    |   |  |   `{"Token":"9"}` | 
 
 ## substrate-etl Tables:

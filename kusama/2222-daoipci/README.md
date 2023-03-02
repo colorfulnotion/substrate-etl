@@ -15,7 +15,7 @@ _Source_: [daoipci.polkaholic.io](https://daoipci.polkaholic.io)
 | [2022-11-01 to 2022-11-30](/kusama/2222-daoipci/2022-11-30.md) | 153,070 | 365,649 | 212,580 | 82 |  | 890 | -   |   
 | [2022-10-10 to 2022-10-31](/kusama/2222-daoipci/2022-10-31.md) | 1 | 153,069 | 153,069 | 18 |  | 885 | -   |   
 
-## DAO IPCI Assets as of 2023-02-27
+## DAO IPCI Assets as of 2023-02-28
 
 
 

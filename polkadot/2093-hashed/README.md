@@ -11,6 +11,14 @@ Status: Only partial index available: Archive node unavailable
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
 | [2023-02-28 to 2023-02-28](/polkadot/2093-hashed/2023-02-28.md) | 15,878 | 17,637 | 1,760 |  |  | 7 | -   |   
 
+## Hashed Network Assets as of 2023-02-28
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [HASH](/polkadot/assets/HASH) | 7 | 1,000,000,000  | -  |    |   |  |   `{"Token":"HASH"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2093` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

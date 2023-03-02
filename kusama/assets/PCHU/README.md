@@ -1,6 +1,6 @@
 # PCHU on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-27
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Pichiu](/kusama/2102-pichiu) | 1,150 | 99,999,990  | 10  | 7,211,776.95   |   |  | `{"Token":"PCHU"}` |
+| [Pichiu](/kusama/2102-pichiu) | 1,149 | 99,999,990  | 10  | 7,211,776.95   |   |  | `{"Token":"PCHU"}` |
 | [Karura](/kusama/2000-karura) | 14 | 22,212.1  |   |    |   |  | `{"ForeignAsset":"17"}` |
 
 ## Substrate-etl Queries:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "PCHU" and date(ts) = "2023-02-27"
+ where symbol = "PCHU" and date(ts) = "2023-02-28"
  group by para_id
  order by free_usd desc
 ```
