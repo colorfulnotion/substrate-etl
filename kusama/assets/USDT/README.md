@@ -1,6 +1,6 @@
 # USDT on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-02
 
 
 *XCM Interior Keys*:
@@ -9,13 +9,13 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Karura](/kusama/2000-karura) | 168 | 203,588.56 $203,760.17 |   |    |   | $1.00 | `{"ForeignAsset":"7"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 101 | 54,087.81 $54,133.41 |   |    |   | $1.00 | `{"Token2":"0"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 119 | 39,447.82 $39,481.07 |   |    |   | $1.00 | `{"Token":"102"}` |
-| [Basilisk](/kusama/2090-basilisk) | 39 | 21,648.09 $21,666.34 |   |    |   | $1.00 | `{"Token":"14"}` |
+| [Karura](/kusama/2000-karura) | 166 | 203,503.58 $203,505.07 |   |    |   | $1.00 | `{"ForeignAsset":"7"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 101 | 54,227.23 $54,227.63 |   |    |   | $1.00 | `{"Token2":"0"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 120 | 38,963.84 $38,964.12 |   |    |   | $1.00 | `{"Token":"102"}` |
+| [Basilisk](/kusama/2090-basilisk) | 40 | 21,648.09 $21,648.25 |   |    |   | $1.00 | `{"Token":"14"}` |
 | [Moonriver](/kusama/2023-moonriver) | 30 | 706.43 $706.43 |   |    |   | $1.00 | `{"Token":"311091173110107856861649819128533077277"}` |
-| [Shiden](/kusama/2007-shiden) | 7 | 7.78 $7.79 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
-| [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.57 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
+| [Shiden](/kusama/2007-shiden) | 7 | 7.78 $7.78 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.56 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
 | [Statemine](/kusama/1000-statemine) | 1 | 69,000,000,000  |   |    |   |  | `{"Token":"11"}` |
 
 ## Substrate-etl Queries:
@@ -27,7 +27,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "USDT" and date(ts) = "2023-03-01"
+ where symbol = "USDT" and date(ts) = "2023-03-02"
  group by para_id
  order by free_usd desc
 ```

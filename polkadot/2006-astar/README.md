@@ -25,22 +25,22 @@ _Source_: [astar.polkaholic.io](https://astar.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/polkadot/2006-astar/2022-01-31.md) | 96,275 | 317,127 | 220,853 | 143,823 |  | 55,485 | -   |   
 | [2021-12-18 to 2021-12-31](/polkadot/2006-astar/2021-12-31.md) | 1 | 96,274 | 96,274 | 71 |  | 29 | -   |   
 
-## Astar Assets as of 2023-03-01
+## Astar Assets as of 2023-03-02
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [USDT](/polkadot/assets/USDT) | 397 | 1,460,514.16 $1,461,745.33 |   |    |   | $1.00 |   `{"Token":"4294969280"}` | 
-| [DOT](/polkadot/assets/DOT) | 1,454 | 144,963.76 $941,751.64 |   |    |   | $6.50 |   `{"Token":"340282366920938463463374607431768211455"}` | 
-| [PHA](/polkadot/assets/PHA) | 41 | 1,027,124.71 $180,565.03 |   |    |   | $0.18 |   `{"Token":"18446744073709551622"}` | 
-| [AUSD](/polkadot/assets/AUSD) | 299 | 106,330.55 $106,330.55 |   |    |   | $1.00 |   `{"Token":"18446744073709551617"}` | 
-| [ACA](/polkadot/assets/ACA) | 327 | 188,908.33 $27,933.77 |   |    |   | $0.15 |   `{"Token":"18446744073709551616"}` | 
-| [IBTC](/polkadot/assets/IBTC) | 29 | 1.11 $19,742.88 |   |    |   | $17,841.21 |   `{"Token":"18446744073709551620"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 248 | 24,625.76 $10,595.83 |   |    |   | $0.43 |   `{"Token":"18446744073709551619"}` | 
-| [INTR](/polkadot/assets/INTR) | 69 | 196,336.31 $6,687.17 |   |    |   | $0.03 |   `{"Token":"18446744073709551621"}` | 
+| [USDT](/polkadot/assets/USDT) | 396 | 1,457,509.16 $1,457,519.82 |   |    |   | $1.00 |   `{"Token":"4294969280"}` | 
+| [DOT](/polkadot/assets/DOT) | 1,455 | 144,747.36 $914,738.16 |   |    |   | $6.32 |   `{"Token":"340282366920938463463374607431768211455"}` | 
+| [PHA](/polkadot/assets/PHA) | 41 | 1,011,208.46 $180,299.67 |   |    |   | $0.18 |   `{"Token":"18446744073709551622"}` | 
+| [AUSD](/polkadot/assets/AUSD) | 300 | 106,330.35 $106,330.35 |   |    |   | $1.00 |   `{"Token":"18446744073709551617"}` | 
+| [ACA](/polkadot/assets/ACA) | 327 | 185,052.98 $26,548.09 |   |    |   | $0.14 |   `{"Token":"18446744073709551616"}` | 
+| [IBTC](/polkadot/assets/IBTC) | 29 | 1.1 $19,644.95 |   |    |   | $17,841.21 |   `{"Token":"18446744073709551620"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 248 | 24,764.9 $10,793.49 |   |    |   | $0.44 |   `{"Token":"18446744073709551619"}` | 
+| [INTR](/polkadot/assets/INTR) | 70 | 176,143.04 $6,033.08 |   |    |   | $0.03 |   `{"Token":"18446744073709551621"}` | 
 | [CLV](/polkadot/assets/CLV) | 8 | 23 $7.77 |   |    |   | $0.34 |   `{"Token":"18446744073709551625"}` | 
-| [BNC](/polkadot/assets/BNC) | 103 | 243,451.99  |   |    |   |  |   `{"Token":"18446744073709551623"}` | 
+| [BNC](/polkadot/assets/BNC) | 105 | 247,668.77  |   |    |   |  |   `{"Token":"18446744073709551623"}` | 
 | [LDOT](/polkadot/assets/LDOT) | 17 | 886.22  |   |    |   |  |   `{"Token":"18446744073709551618"}` | 
 | [MDOT](/polkadot/assets/MDOT) | 13 | 10,100,000  |   |    |   |  |   `{"Token":"1335"}` | 
 | [vDOT](/polkadot/assets/vDOT) | 7 | 0.79  |   |    |   |  |   `{"Token":"18446744073709551624"}` | 
@@ -48,7 +48,7 @@ _Source_: [astar.polkaholic.io](https://astar.polkaholic.io)
 | [TOK](/polkadot/assets/TOK) | 4 | 1,000,000  |   |    |   |  |   `{"Token":"1334"}` | 
 | [EQD](/polkadot/assets/EQD) | 3 | 2.9  |   |    |   |  |   `{"Token":"18446744073709551629"}` | 
 | [MMC](/polkadot/assets/MMC) | 3 | 1,000  |   |    |   |  |   `{"Token":"1330"}` | 
-| [sDOT](/polkadot/assets/sDOT) | 3 | 243.15  |   |    |   |  |   `{"Token":"1332"}` | 
+| [sDOT](/polkadot/assets/sDOT) | 3 | 243.16  |   |    |   |  |   `{"Token":"1332"}` | 
 | [CHAI](/polkadot/assets/CHAI) | 2 | 2,000  |   |    |   |  |   `{"Token":"1327"}` | 
 | [aASTR](/polkadot/assets/aASTR) | 1 | 100.01  |   |    |   |  |   `{"Token":"1326"}` | 
 | [ALGM](/polkadot/assets/ALGM) | 1 | 1  |   |    |   |  |   `{"Token":"1328"}` | 

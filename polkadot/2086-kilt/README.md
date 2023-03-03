@@ -28,13 +28,13 @@ _Source_: [kilt.polkaholic.io](https://kilt.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/polkadot/2086-kilt/2021-10-31.md) | 130,782 | 331,942 | 200,846 | 513 |  | 320 | [object Object] 315 (0.16%) |   
 | [2021-09-08 to 2021-09-30](/polkadot/2086-kilt/2021-09-30.md) | 1 | 130,781 | 130,542 | 106 |  |  | [object Object] 239 (0.18%) |   
 
-## KILT Spiritnet Assets as of 2023-03-01
+## KILT Spiritnet Assets as of 2023-03-02
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KILT](/polkadot/assets/KILT) | 18,084 | 157,595,676.61  | 27,375.2  | 1,000,000,117,163,123.6   | 74,754,469.56  |  |   `{"Token":"KILT"}` | 
+| [KILT](/polkadot/assets/KILT) | 18,100 | 157,601,617.91  | 27,811.47  | 1,000,000,117,187,002.1   | 74,778,519.56  |  |   `{"Token":"KILT"}` | 
 
 ## substrate-etl Tables:
 

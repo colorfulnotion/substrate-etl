@@ -23,7 +23,7 @@ _Source_: [crab.polkaholic.io](https://crab.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/2105-crab/2022-03-31.md) | 26,711 | 127,900 | 101,190 | 2 |  | 8 | -   |   
 | [2022-02-20 to 2022-02-28](/kusama/2105-crab/2022-02-28.md) | 1 | 26,710 | 26,710 | 5 |  | 8 | -   |   
 
-## Darwinia Crab Assets as of 2023-03-01
+## Darwinia Crab Assets as of 2023-03-02
 
 
 

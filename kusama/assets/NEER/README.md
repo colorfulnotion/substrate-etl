@@ -1,6 +1,6 @@
 # NEER on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-02
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,875 | 94,475,269.15 $21,829,733.72 | 5,524,643.79 $1,276,540.45 | 73,644,966.34  $17,016,622.65 |   | $0.23 | `{"Token":"NEER"}` |
+| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,877 | 94,475,457.15 $21,804,890.53 | 5,524,455.79 $1,275,041.77 | 73,643,464.1  $16,996,876.46 |   | $0.23 | `{"Token":"NEER"}` |
 | [Karura](/kusama/2000-karura) | 13 | 11.29 $2.61 |   |    |   | $0.23 | `{"ForeignAsset":"9"}` |
 
 ## Substrate-etl Queries:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "NEER" and date(ts) = "2023-03-01"
+ where symbol = "NEER" and date(ts) = "2023-03-02"
  group by para_id
  order by free_usd desc
 ```
