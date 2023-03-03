@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-02-28 | 16,840,003 |  283,522 | 12 (0.00%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-02-28 | 16,840,003 |  283,522 |    |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-02-28 | 3,978,454 |  51,965 | 12 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-02-28 | 2,388,649 |  938 | 5,531 (0.23%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-02-28 | 285,128 |  4 |    |

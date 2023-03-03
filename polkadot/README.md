@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2023-02-28 | 14,452,425 |  1,135,572 |    |
+| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2023-02-28 | 14,452,425 |  1,135,572 | 12 (0.00%)  |
 | [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-02-28 | 3,313,603 |  540 |    |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-02-28 | 709,672 |  19 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-02-28 | 3,048,188 |  167,843 |    |

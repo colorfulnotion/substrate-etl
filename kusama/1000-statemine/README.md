@@ -40,7 +40,6 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
 | [RMRK](/kusama/assets/RMRK) | 6,143 | 9,999,611.77 $24,738,156.17 |   |    |   | $2.47 |   `{"Token":"8"}` | 
-| [USDt](/kusama/assets/USDt) | 440 | 3,499,755.74 $3,501,844.64 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
 | [GRB](/kusama/assets/GRB) | 816 | 2,043,401  |   |    |   |  |   `{"Token":"677"}` | 
 | [BILL](/kusama/assets/BILL) | 664 | 1,000,000  |   |    |   |  |   `{"Token":"223"}` | 
 | [CHRWNA](/kusama/assets/CHRWNA) | 303 | 5,670  |   |    |   |  |   `{"Token":"567"}` | 
@@ -126,6 +125,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [TOT](/kusama/assets/TOT) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"9"}` | 
 | [TTT](/kusama/assets/TTT) | 1 | 20,141  |   |    |   |  |   `{"Token":"43"}` | 
 | [USDC](/kusama/assets/USDC) | 1 | 6,942,000,000  |   |    |   |  |   `{"Token":"10"}` | 
+| [USDt](/kusama/assets/USDt) | 1 | 69,000,000,000  |   |    |   |  |   `{"Token":"11"}` | 
 | [VCOP](/kusama/assets/VCOP) | 1 | 260,000  |   |    |   |  |   `{"Token":"863012"}` | 
 | [VHM](/kusama/assets/VHM) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"6789"}` | 
 | [WAVE](/kusama/assets/WAVE) | 1 | 1,010,000,000  |   |    |   |  |   `{"Token":"2021"}` | 
