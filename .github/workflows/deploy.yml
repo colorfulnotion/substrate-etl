@@ -42,6 +42,16 @@ jobs:
           git commit -m "[Auto] Substrate-etl Summary (${{ env.CURRENT_TIMESTAMP }})" || echo "No changes to commit"
       - name: Push changes to substrate-etl
         run: git push origin $BRANCH_NAME
+      - name: send Notification to telegram
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            ${{ github.actor }} created commit:
+            Commit message: ${{ github.event.commits[0].message }}
+            Repository: ${{ github.repository }}
+            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
         env:
           BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
 #        with: 
