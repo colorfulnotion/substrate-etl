@@ -31,7 +31,6 @@ _Source_: [astar.polkaholic.io](https://astar.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ASTR](/polkadot/assets/ASTR) | 515,634 | 7,637,457,865.74 $585,275,525.31 | 153,630,412.03 $11,773,043.03 | 4,074,163,752.44  $312,212,305.76 | 3,259,456,827 $249,779,486.86 | $0.08 |   `{"Token":"ASTR"}` | 
 | [USDT](/polkadot/assets/USDT) | 398 | 1,459,499.16 $1,460,370.29 |   |    |   | $1.00 |   `{"Token":"4294969280"}` | 
 | [DOT](/polkadot/assets/DOT) | 1,450 | 151,862.22 $966,230.94 |   |    |   | $6.36 |   `{"Token":"340282366920938463463374607431768211455"}` | 
 | [PHA](/polkadot/assets/PHA) | 43 | 967,836.81 $161,631.81 |   |    |   | $0.17 |   `{"Token":"18446744073709551622"}` | 
@@ -53,6 +52,7 @@ _Source_: [astar.polkaholic.io](https://astar.polkaholic.io)
 | [CHAI](/polkadot/assets/CHAI) | 2 | 2,000  |   |    |   |  |   `{"Token":"1327"}` | 
 | [aASTR](/polkadot/assets/aASTR) | 1 | 100.01  |   |    |   |  |   `{"Token":"1326"}` | 
 | [ALGM](/polkadot/assets/ALGM) | 1 | 1  |   |    |   |  |   `{"Token":"1328"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 1 | 74,000,000  |   |    |   |  |   `{"Token":"1333"}` | 
 | [PPC](/polkadot/assets/PPC) | 1 | 10,000  |   |    |   |  |   `{"Token":"1329"}` | 
 
 ## substrate-etl Tables:
