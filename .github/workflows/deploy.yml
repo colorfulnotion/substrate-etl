@@ -44,20 +44,6 @@ jobs:
         run: git push origin $BRANCH_NAME
         env:
           BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
-#      - uses: appleboy/telegram-action@master
-      - name: send telegram message on push
-          uses: appleboy/telegram-action@master
-          env:
-            GITHUB_CONTEXT: ${{ toJSON(github) }}
-          with:
-            to: ${{ secrets.TELEGRAM_TO }}
-            token: ${{ secrets.TELEGRAM_TOKEN }}
-            format: markdown
-            message: |
-              Application: Message from subtrate-etl
-              Branch: *${{ github.ref }}*
-              Repository: *${{ github.repository }}*
-              Owner: *${{ github.repository_owner }}*
 #        with: 
 #          to: ${{ secrets.TELEGRAM_TO }}
 #          token: ${{ secrets.TELEGRAM_TOKEN }}
