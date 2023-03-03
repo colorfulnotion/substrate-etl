@@ -27,39 +27,39 @@ _Source_: [parallel-heiko.polkaholic.io](https://parallel-heiko.polkaholic.io)
 | [2021-11-01 to 2021-11-30](/kusama/2085-parallel-heiko/2021-11-30.md) | 144,846 | 301,530 | 156,685 | 258,147 |  | 10,718 | -   |   
 | [2021-10-06 to 2021-10-31](/kusama/2085-parallel-heiko/2021-10-31.md) | 1 | 144,845 | 144,845 | 36,267 |  | 16 | -   |   
 
-## Parallel Heiko Assets as of 2023-02-28
+## Parallel Heiko Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 3,592 | 19,224.37 $697,862.15 |   |    |   | $36.30 |   `{"Token":"100"}` | 
-| [USDT](/kusama/assets/USDT) | 120 | 39,011.76 $39,035.04 |   |    |   | $1.00 |   `{"Token":"102"}` | 
-| [LP-KSM/HKO](/kusama/assets/LP-KSM%252FHKO) | 80 | 18,542.79 $38,621.16 |   |    |   | $2.08 |   `{"Token":"5002"}` | 
-| [cKSM-20/27](/kusama/assets/cKSM-20%252F27) | 100 | 1,100.3 $35,052.04 |   |    |   | $31.86 |   `{"Token":"100200027"}` | 
-| [MOVR](/kusama/assets/MOVR) | 144 | 1,231.77 $11,989.30 |   |    |   | $9.73 |   `{"Token":"113"}` | 
-| [KINT](/kusama/assets/KINT) | 89 | 10,762.76 $8,754.31 |   |    |   | $0.81 |   `{"Token":"119"}` | 
-| [KAR](/kusama/assets/KAR) | 144 | 40,256.25 $8,357.77 |   |    |   | $0.21 |   `{"Token":"107"}` | 
-| [KBTC](/kusama/assets/KBTC) | 71 | 0.21 $5,334.32 |   |    |   | $25,440.26 |   `{"Token":"121"}` | 
-| [PHA](/kusama/assets/PHA) | 146 | 21,471.72 $3,585.85 |   |    |   | $0.17 |   `{"Token":"115"}` | 
-| [LP-KSM/cKSM-20/27](/kusama/assets/LP-KSM%252FcKSM-20%252F27) | 12 | 7.08 $490.24 |   |    |   | $69.29 |   `{"Token":"5004"}` | 
-| [LKSM](/kusama/assets/LKSM) | 28 | 112.85 $476.46 |   |    |   | $4.22 |   `{"Token":"109"}` | 
+| [KSM](/kusama/assets/KSM) | 3,588 | 19,210.55 $729,169.79 |   |    |   | $37.96 |   `{"Token":"100"}` | 
+| [LP-KSM/HKO](/kusama/assets/LP-KSM%252FHKO) | 80 | 18,561.69 $40,106.79 |   |    |   | $2.16 |   `{"Token":"5002"}` | 
+| [USDT](/kusama/assets/USDT) | 119 | 39,447.82 $39,481.07 |   |    |   | $1.00 |   `{"Token":"102"}` | 
+| [cKSM-20/27](/kusama/assets/cKSM-20%252F27) | 100 | 1,100.3 $37,084.73 |   |    |   | $33.70 |   `{"Token":"100200027"}` | 
+| [MOVR](/kusama/assets/MOVR) | 144 | 1,227.61 $12,308.19 |   |    |   | $10.03 |   `{"Token":"113"}` | 
+| [KAR](/kusama/assets/KAR) | 144 | 40,256.25 $8,539.69 |   |    |   | $0.21 |   `{"Token":"107"}` | 
+| [KINT](/kusama/assets/KINT) | 86 | 10,261.9 $8,366.60 |   |    |   | $0.82 |   `{"Token":"119"}` | 
+| [KBTC](/kusama/assets/KBTC) | 69 | 0.15 $4,152.10 |   |    |   | $26,841.62 |   `{"Token":"121"}` | 
+| [PHA](/kusama/assets/PHA) | 146 | 20,503.35 $3,604.42 |   |    |   | $0.18 |   `{"Token":"115"}` | 
+| [LP-KSM/cKSM-20/27](/kusama/assets/LP-KSM%252FcKSM-20%252F27) | 12 | 7.08 $515.63 |   |    |   | $72.87 |   `{"Token":"5004"}` | 
+| [LKSM](/kusama/assets/LKSM) | 28 | 112.85 $499.31 |   |    |   | $4.42 |   `{"Token":"109"}` | 
 | [KUSD](/kusama/assets/KUSD) | 13 | 23.68 $23.68 |   |    |   | $1.00 |   `{"Token":"103"}` | 
-| [HKO](/kusama/assets/HKO) | 24,308 | 999,999,835.29  | 143.79  | 634,684,977.85   | 633,589,015.89  |  |   `{"Token":"HKO"}` | 
-| [sKSM](/kusama/assets/sKSM) | 1,566 | 16,529.75  |   |    |   |  |   `{"Token":"1000"}` | 
+| [HKO](/kusama/assets/HKO) | 24,308 | 999,999,835.29  | 143.79  | 634,684,614.7   | 633,588,652.74  |  |   `{"Token":"HKO"}` | 
+| [sKSM](/kusama/assets/sKSM) | 1,567 | 16,522.75  |   |    |   |  |   `{"Token":"1000"}` | 
 | [cKSM-23/30](/kusama/assets/cKSM-23%252F30) | 285 | 9,877.44  |   |    |   |  |   `{"Token":"100230030"}` | 
 | [LP-KSM/sKSM](/kusama/assets/LP-KSM%252FsKSM) | 73 | 2,937.44  |   |    |   |  |   `{"Token":"5003"}` | 
-| [LP-USDT/HKO](/kusama/assets/LP-USDT%252FHKO) | 47 | 102.62  |   |    |   |  |   `{"Token":"5007"}` | 
+| [LP-USDT/HKO](/kusama/assets/LP-USDT%252FHKO) | 46 | 102.37  |   |    |   |  |   `{"Token":"5007"}` | 
 | [cKSM-22/29](/kusama/assets/cKSM-22%252F29) | 40 | 1,048.18  |   |    |   |  |   `{"Token":"100220029"}` | 
-| [LP-MOVR/HKO](/kusama/assets/LP-MOVR%252FHKO) | 38 | 19,065,163.83  |   |    |   |  |   `{"Token":"5005"}` | 
-| [LP-KINT/HKO](/kusama/assets/LP-KINT%252FHKO) | 36 | 38,030.24  |   |    |   |  |   `{"Token":"5010"}` | 
-| [LP-KBTC/HKO](/kusama/assets/LP-KBTC%252FHKO) | 32 | 1.48  |   |    |   |  |   `{"Token":"5011"}` | 
-| [LP-KAR/HKO](/kusama/assets/LP-KAR%252FHKO) | 27 | 62,437.12  |   |    |   |  |   `{"Token":"5008"}` | 
-| [LP-PHA/HKO](/kusama/assets/LP-PHA%252FHKO) | 27 | 46,860.83  |   |    |   |  |   `{"Token":"5006"}` | 
+| [LP-MOVR/HKO](/kusama/assets/LP-MOVR%252FHKO) | 37 | 19,065,163.83  |   |    |   |  |   `{"Token":"5005"}` | 
+| [LP-KINT/HKO](/kusama/assets/LP-KINT%252FHKO) | 34 | 36,397.5  |   |    |   |  |   `{"Token":"5010"}` | 
+| [LP-KBTC/HKO](/kusama/assets/LP-KBTC%252FHKO) | 30 | 1.05  |   |    |   |  |   `{"Token":"5011"}` | 
+| [LP-KAR/HKO](/kusama/assets/LP-KAR%252FHKO) | 26 | 58,494.85  |   |    |   |  |   `{"Token":"5008"}` | 
+| [LP-PHA/HKO](/kusama/assets/LP-PHA%252FHKO) | 26 | 45,464.49  |   |    |   |  |   `{"Token":"5006"}` | 
 | [cKSM-21/28](/kusama/assets/cKSM-21%252F28) | 13 | 424.51  |   |    |   |  |   `{"Token":"100210028"}` | 
 | [LP-LKSM/HKO](/kusama/assets/LP-LKSM%252FHKO) | 5 | 813.13  |   |    |   |  |   `{"Token":"5009"}` | 
 | [cKSM-15/22](/kusama/assets/cKSM-15%252F22) | 2 | 57,307  |   |    |   |  |   `{"Token":"100150022"}` | 
-| [KSM_U](/kusama/assets/KSM_U) | 1 | 649  |   |    |   |  |   `{"Token":"4294957295"}` | 
+| [KSM_U](/kusama/assets/KSM_U) | 1 | 584.77  |   |    |   |  |   `{"Token":"4294957295"}` | 
 
 ## substrate-etl Tables:
 

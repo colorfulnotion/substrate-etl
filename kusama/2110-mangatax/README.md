@@ -21,30 +21,36 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 | [2022-05-01 to 2022-05-31](/kusama/2110-mangatax/2022-05-31.md) | 61,315 | 199,152 | 137,838 | 52 |  | 12 | -   |   
 | [2022-04-12 to 2022-04-30](/kusama/2110-mangatax/2022-04-30.md) | 1 | 61,314 | 61,313 | 10 |  | 8 | - 1 (0.00%) |   
 
-## Mangatax Assets as of 2023-02-28
+## Mangatax Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 871 | 13,756.39 $499,369.45 |   |    |   | $36.30 |   `{"Token":"4"}` | 
-| [BNC](/kusama/assets/BNC) | 152 | 77,194.21 $28,944.79 |   |    |   | $0.37 |   `{"Token":"14"}` | 
-| [MGX](/kusama/assets/MGX) | 1,774 |   |   |    |   |  |   `{"Token":"MGX"}` | 
-| [TUR](/kusama/assets/TUR) | 545 | 5,401,257.83  |   |    |   |  |   `{"Token":"7"}` | 
-| [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 433 | 2,437,664.5  | 109,471,910.17  |    | 1,724,749.58  |  |   `{"Token":"5"}` | 
+| [KSM](/kusama/assets/KSM) | 873 | 13,763.97 $522,435.53 |   |    |   | $37.96 |   `{"Token":"4"}` | 
+| [BNC](/kusama/assets/BNC) | 154 | 76,885.92 $29,108.12 |   |    |   | $0.38 |   `{"Token":"14"}` | 
+| [ZLK](/kusama/assets/ZLK) | 47 | 126,606.92 $3,635.10 |   |    |   | $0.03 |   `{"Token":"26"}` | 
+| [MGX](/kusama/assets/MGX) | 1,776 |   |   |    |   |  |   `{"Token":"MGX"}` | 
+| [TUR](/kusama/assets/TUR) | 546 | 5,328,660.26  |   |    |   |  |   `{"Token":"7"}` | 
+| [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 434 | 2,437,664.5  | 110,175,179.91  |    | 1,724,749.58  |  |   `{"Token":"5"}` | 
 | [TKN0x00000000-TKN0x00000007](/kusama/assets/TKN0x00000000-TKN0x00000007) | 324 | 125,245.5  | 44,117,051.7  |    | 112,379.03  |  |   `{"Token":"8"}` | 
 | [IMBU](/kusama/assets/IMBU) | 158 | 1,062,949.97  |   |    |   |  |   `{"Token":"11"}` | 
-| [TKN0x00000000-TKN0x0000000B](/kusama/assets/TKN0x00000000-TKN0x0000000B) | 140 | 61.9  | 17,647,191.5  |    |   |  |   `{"Token":"12"}` | 
-| [TKN0x00000000-TKN0x0000000E](/kusama/assets/TKN0x00000000-TKN0x0000000E) | 114 | 1,829.24  | 7,200,767.98  |    |   |  |   `{"Token":"17"}` | 
+| [TKN0x00000000-TKN0x0000000B](/kusama/assets/TKN0x00000000-TKN0x0000000B) | 140 | 61.9  | 17,647,280.43  |    |   |  |   `{"Token":"12"}` | 
+| [TKN0x00000000-TKN0x0000000E](/kusama/assets/TKN0x00000000-TKN0x0000000E) | 115 | 1,829.24  | 7,201,560.44  |    |   |  |   `{"Token":"17"}` | 
 | [VSKSM](/kusama/assets/VSKSM) | 52 | 840.96  |   |    |   |  |   `{"Token":"16"}` | 
 | [TKN0x00000010-TKN0x00000004](/kusama/assets/TKN0x00000010-TKN0x00000004) | 35 |   | -  |    |   |  |   `{"Token":"19"}` | 
+| [TKN0x0000001A-TKN0x00000000](/kusama/assets/TKN0x0000001A-TKN0x00000000) | 33 | 23.37  | 1,618,840.12  |    |   |  |   `{"Token":"27"}` | 
 | [vKSM](/kusama/assets/vKSM) | 32 | 1,410  |   |    |   |  |   `{"Token":"15"}` | 
-| [TKN0x00000000-TKN0x00000002](/kusama/assets/TKN0x00000000-TKN0x00000002) | 26 | 11,254  | 15,746  |    |   |  |   `{"Token":"3"}` | 
+| [TKN0x00000000-TKN0x00000002](/kusama/assets/TKN0x00000000-TKN0x00000002) | 26 | 11,733  | 15,267  |    |   |  |   `{"Token":"3"}` | 
+| [TKN0x0000000F-TKN0x00000004](/kusama/assets/TKN0x0000000F-TKN0x00000004) | 21 |   | 0.002  |    |   |  |   `{"Token":"21"}` | 
 | [TKN0x00000004-TKN0x00000007](/kusama/assets/TKN0x00000004-TKN0x00000007) | 9 | -  |   |    |   |  |   `{"Token":"9"}` | 
 | [TKN0x0000000B-TKN0x00000004](/kusama/assets/TKN0x0000000B-TKN0x00000004) | 5 | -  |   |    |   |  |   `{"Token":"13"}` | 
 | [TKN0x00000004-TKN0x0000000E](/kusama/assets/TKN0x00000004-TKN0x0000000E) | 2 | -  |   |    |   |  |   `{"Token":"20"}` | 
+| [TKN0x00000004-TKN0x0000001A](/kusama/assets/TKN0x00000004-TKN0x0000001A) | 2 | 1,462.43  |   |    |   |  |   `{"Token":"28"}` | 
 | [TKN0x00000005-TKN0x00000000](/kusama/assets/TKN0x00000005-TKN0x00000000) | 2 | 2.5  |   |    |   |  |   `{"Token":"10"}` | 
+| [TKN0x0000000F-TKN0x00000000](/kusama/assets/TKN0x0000000F-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"24"}` | 
 | [TKN0x00000010-TKN0x00000000](/kusama/assets/TKN0x00000010-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"18"}` | 
+| [TKN0x00000010-TKN0x0000000F](/kusama/assets/TKN0x00000010-TKN0x0000000F) | 1 |   |   |    |   |  |   `{"Token":"22"}` | 
 
 ## substrate-etl Tables:
 

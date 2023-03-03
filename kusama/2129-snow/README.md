@@ -15,14 +15,6 @@ Status: Only partial index available: Archive node unavailable
 | [2022-11-01 to 2022-11-30](/kusama/2129-snow/2022-11-30.md) | 254,577 | 456,753 | 125,549 | 2,039 | 24 |  | - 76,628 (37.90%) |   
 | [2022-10-26 to 2022-10-31](/kusama/2129-snow/2022-10-31.md) | 218,593 | 254,576 | 35,767 | 5,804 |  |  | - 217 (0.60%) |   
 
-## Snow Assets as of 2023-02-28
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ICZ](/kusama/assets/ICZ) | 5,830 | 2,663,127,275.01  | 4,169.86  | 50   | 50  |  |   `{"Token":"ICZ"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2129` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

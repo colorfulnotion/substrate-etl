@@ -22,16 +22,16 @@ _Source_: [interlay.polkaholic.io](https://interlay.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2032-interlay/2022-04-30.md) | 77,428 | 255,598 | 178,171 | 21 |  | 42 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2032-interlay/2022-03-31.md) | 1 | 77,427 | 77,427 | 39 |  | 32 | -   |   
 
-## Interlay Assets as of 2023-02-28
+## Interlay Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [INTR](/polkadot/assets/INTR) | 11,345 | 999,998,649.35 $27,663,782.10 | 1,316.77 $36.43 |    | 70,712,204.5 $1,956,169.66 | $0.03 |   `{"Token":"INTR"}` | 
-| [IBTC](/polkadot/assets/IBTC) | 367 | 83.23 $1,484,927.41 | 0.02 $277.96 |    |   | $17,841.21 |   `{"Token":"IBTC"}` | 
-| [DOT](/polkadot/assets/DOT) | 159 | 41,596.57 $264,660.29 | 630,379.87 $4,010,823.47 |    |   | $6.36 |   `{"Token":"DOT"}` | 
-| [USDT](/polkadot/assets/USDT) | 19 | 5.5 $5.50 | 44,127.57 $44,153.90 |    |   | $1.00 |   `{"ForeignAsset":"2"}` | 
+| [INTR](/polkadot/assets/INTR) | 11,349 | 999,998,649.35 $34,059,715.07 | 1,316.77 $44.85 |    | 70,727,122.76 $2,408,948.90 | $0.03 |   `{"Token":"INTR"}` | 
+| [IBTC](/polkadot/assets/IBTC) | 367 | 82.91 $1,479,210.97 | 0.03 $486.13 |    |   | $17,841.21 |   `{"Token":"IBTC"}` | 
+| [DOT](/polkadot/assets/DOT) | 160 | 41,597.58 $270,237.09 | 630,829.87 $4,098,162.56 |    |   | $6.50 |   `{"Token":"DOT"}` | 
+| [USDT](/polkadot/assets/USDT) | 19 | 5.5 $5.50 | 44,127.57 $44,164.76 |    |   | $1.00 |   `{"ForeignAsset":"2"}` | 
 
 ## substrate-etl Tables:
 

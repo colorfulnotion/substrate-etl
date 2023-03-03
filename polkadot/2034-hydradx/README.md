@@ -22,18 +22,18 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2034-hydradx/2022-04-30.md) | 99,601 | 288,656 | 189,056 | 28 |  | 32 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2034-hydradx/2022-03-31.md) | 1 | 99,600 | 99,600 | 30 |  | 28 | -   |   
 
-## HydraDX Assets as of 2023-02-28
+## HydraDX Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DAI](/polkadot/assets/DAI) | 419 | 2,194,387.3 $2,194,387.30 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [DOT](/polkadot/assets/DOT) | 1,487 | 109,861.74 $697,363.10 |   |    |   | $6.35 |   `{"Token":"5"}` | 
-| [HDX](/polkadot/assets/HDX) | 23,325 | 4,364,555,874.53  | 70,569.04  | 1,889,721,653.6   | 1,851,320,873.27  |  |   `{"Token":"HDX"}` | 
-| [LRNA](/polkadot/assets/LRNA) | 116 | 239,236.62  |   |    |   |  |   `{"Token":"1"}` | 
-| [WETH.ACA](/polkadot/assets/WETH.ACA) | 52 | 1,126.63  |   |    |   |  |   `{"Token":"4"}` | 
-| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 23 | 47.91  |   |    |   |  |   `{"Token":"3"}` | 
+| [DAI](/polkadot/assets/DAI) | 422 | 2,215,494.44 $2,215,494.44 |   |    |   | $1.00 |   `{"Token":"2"}` | 
+| [DOT](/polkadot/assets/DOT) | 1,500 | 109,004.3 $708,142.33 |   |    |   | $6.50 |   `{"Token":"5"}` | 
+| [HDX](/polkadot/assets/HDX) | 23,333 | 4,364,612,752.34  | 71,068.05  | 1,902,104,129.15   | 1,851,305,671.29  |  |   `{"Token":"HDX"}` | 
+| [LRNA](/polkadot/assets/LRNA) | 116 | 238,920.21  |   |    |   |  |   `{"Token":"1"}` | 
+| [WETH.ACA](/polkadot/assets/WETH.ACA) | 51 | 1,124.59  |   |    |   |  |   `{"Token":"4"}` | 
+| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 22 | 47.91  |   |    |   |  |   `{"Token":"3"}` | 
 | [APE](/polkadot/assets/APE) | 2 | 0.03  |   |    |   |  |   `{"Token":"6"}` | 
 
 ## substrate-etl Tables:

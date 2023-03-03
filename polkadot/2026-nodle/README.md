@@ -22,13 +22,13 @@ _Source_: [nodle.polkaholic.io](https://nodle.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2026-nodle/2022-04-30.md) | 84,991 | 212,126 | 127,136 |  |  | 9 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2026-nodle/2022-03-31.md) | 1 | 84,990 | 84,990 |  |  | 9 | -   |   
 
-## Nodle Assets as of 2023-02-28
+## Nodle Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [NODL](/polkadot/assets/NODL) | 711,279 | 8,433,998,344.49  | 204,604.2  | 5,774,032,756.48   | 5,774,032,756.48  |  |   `{"Token":"NODL"}` | 
+| [NODL](/polkadot/assets/NODL) | 712,106 | 8,434,147,237.96  | 209,022.72  | 5,773,568,011.67   | 5,773,568,011.67  |  |   `{"Token":"NODL"}` | 
 
 ## substrate-etl Tables:
 

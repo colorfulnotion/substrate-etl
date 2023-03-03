@@ -24,13 +24,13 @@ _Source_: [zeitgeist.polkaholic.io](https://zeitgeist.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2101-zeitgeist/2022-02-28.md) | 128,085 | 236,744 | 108,660 | 5 |  | 5 | -   |   
 | [2022-01-13 to 2022-01-31](/kusama/2101-zeitgeist/2022-01-31.md) | 1 | 128,084 | 128,084 | 3 |  |  | -   |   
 
-## Zeitgeist Assets as of 2023-02-28
+## Zeitgeist Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ZTG](/kusama/assets/ZTG) | 15,550 | 102,538,935.62  | 17,884.72  | 36,414,179.14   | 17,795,252.2  |  |   `{"Token":"ZTG"}` | 
+| [ZTG](/kusama/assets/ZTG) | 15,565 | 102,553,436.4  | 17,084.72  | 36,462,453.73   | 17,844,150.89  |  |   `{"Token":"ZTG"}` | 
 
 ## substrate-etl Tables:
 

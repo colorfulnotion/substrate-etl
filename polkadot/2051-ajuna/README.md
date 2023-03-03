@@ -14,7 +14,7 @@ _Source_: [ajuna.polkaholic.io](https://ajuna.polkaholic.io)
 | [2022-12-01 to 2022-12-31](/polkadot/2051-ajuna/2022-12-31.md) | 65,407 | 277,226 | 211,820 |  |  | 6 | -   |   
 | [2022-11-21 to 2022-11-30](/polkadot/2051-ajuna/2022-11-30.md) | 1 | 65,406 | 65,406 | 9 |  | 6 | -   |   
 
-## Ajuna Assets as of 2023-02-28
+## Ajuna Assets as of 2023-03-01
 
 
 

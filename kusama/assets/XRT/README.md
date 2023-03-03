@@ -1,6 +1,6 @@
 # XRT on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
 
 
 *XCM Interior Keys*:
@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Robonomics](/kusama/2048-robonomics) | 3,149 | 994,838.89 $6,334,716.46 | 199.04 $1,267.40 | 149,551.06  $952,278.38 |   | $6.37 | `{"Token":"XRT"}` |
-| [Moonriver](/kusama/2023-moonriver) | 43 | 97,292.93 $619,520.54 |   |    |   | $6.37 | `{"Token":"108036400430056508975016746969135344601"}` |
+| [Robonomics](/kusama/2048-robonomics) | 3,150 | 994,850.24 $6,227,511.07 | 199.04 $1,245.94 | 149,529.52  $936,017.02 |   | $6.26 | `{"Token":"XRT"}` |
+| [Moonriver](/kusama/2023-moonriver) | 43 | 97,484.17 $610,226.25 |   |    |   | $6.26 | `{"Token":"108036400430056508975016746969135344601"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "XRT" and date(ts) = "2023-02-28"
+ where symbol = "XRT" and date(ts) = "2023-03-01"
  group by para_id
  order by free_usd desc
 ```

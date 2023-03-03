@@ -1,6 +1,6 @@
 # vDOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 154 | 292,536.33  |   |    |   |  | `{"VToken2":"0"}` |
+| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 157 | 294,645.4  |   |    |   |  | `{"VToken2":"0"}` |
 | [Astar](/polkadot/2006-astar) | 7 | 0.79  |   |    |   |  | `{"Token":"18446744073709551624"}` |
 
 ## Substrate-etl Queries:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "vDOT" and date(ts) = "2023-02-28"
+ where symbol = "vDOT" and date(ts) = "2023-03-01"
  group by para_id
  order by free_usd desc
 ```

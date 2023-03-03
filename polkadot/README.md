@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2023-02-28 | 14,452,425 |  1,135,572 | 2 (0.00%)  |
+| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2023-02-28 | 14,452,425 |  1,135,572 |    |
 | [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-02-28 | 3,313,603 |  540 |    |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-02-28 | 709,672 |  19 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-02-28 | 3,048,188 |  167,843 |    |
@@ -47,93 +47,93 @@ Missing chains
 # Assets
 
 Source: [Polkaholic.io](https://polkaholic.io)
-Last Updated: 2023-02-28T00:00:00.000Z
+Last Updated: 2023-03-01T00:00:00.000Z
 
 | Symbol | # Holders | # Chains | Free | Reserved | Misc Frozen | Frozen | Recent Price |
 | ------ | --------- | -------- | ---- | -------- | ----------- | ------ | ------------ |
-| [DOT](/polkadot/assets/DOT) | 1,084,609 | 10 | 1,171,742,915.16 $7,455,271,281.33 | 122,051,203.87 $776,556,890.77 | 681,989,134.22 $4,339,189,986.14 | 675,773,207.89 $4,299,640,843.90 | $6.36 |
-| [ASTR](/polkadot/assets/ASTR) | 515,729 | 6 | 7,711,607,928.84 $585,287,024.98 | 153,630,412.03 $11,773,043.03 | 4,074,163,752.44 $312,212,305.76 | 3,259,456,827 $249,779,486.86 | $0.08 |
-| [GLMR](/polkadot/assets/GLMR) | 2,807,571 | 6 | 1,056,274,821.75 $449,309,141.45 | 1,908,821.12 $811,972.10 | 277,912,490.33 $118,215,531.37 | 275,744,417.89 $117,293,254.09 | $0.43 |
-| [ACA](/polkadot/assets/ACA) | 158,857 | 4 | 1,001,296,497.17 $130,638,805.26 | 30,894.35 $4,030.78 | 544,321,052.14 $71,017,378.10 | 544,188,276.26 $71,000,054.88 | $0.13 |
-| [PARA](/polkadot/assets/PARA) | 47,332 | 5 | 10,000,030,793.53 $119,113,361.20 | 217.58 $2.59 | 7,574,903,342.45 $90,226,941.95 | 7,574,886,919.59 $90,226,746.33 | $0.01 |
-| [PHA](/polkadot/assets/PHA) | 3,452 | 5 | 543,248,235.59 $90,724,172.18 | 133.15 $22.24 | 11,328,234.61 $1,891,850.98 | 0  | $0.17 |
-| [INTR](/polkadot/assets/INTR) | 11,991 | 5 | 1,004,388,979.63 $27,785,235.41 | 1,316.77 $36.43 | 0  | 70,712,204.5 $1,956,169.66 | $0.03 |
-| [EFI](/polkadot/assets/EFI) | 16,138 | 1 | 249,755,716.63 $22,812,687.16 | 11,189.42 $1,022.04 | 165,540,212.65 $15,120,443.02 | 165,540,131.32 $15,120,435.59 | $0.09 |
-| [AUSD](/polkadot/assets/AUSD) | 8,492 | 4 | 13,085,762.56 $12,618,603.97 | 0  | 0  | 3,734,615.59 $3,734,615.59 | $0.98 |
-| [USDT](/polkadot/assets/USDT) | 1,331 | 5 | 11,156,730.81 $11,162,431.94 | 44,127.57 $44,153.90 | 0  | 0  | $1.00 |
-| [DAI](/polkadot/assets/DAI) | 419 | 1 | 2,194,387.3 $2,194,387.30 | 0  | 0  | 0  | $1.00 |
-| [IBTC](/polkadot/assets/IBTC) | 619 | 5 | 106.3 $1,896,450.07 | 0.02 $277.96 | 0  | 0  | $17,841.20 |
-| [CLV](/polkadot/assets/CLV) | 4,127 | 3 | 5,157,931 $1,742,106.42 | 90.36 $30.52 | 606,070 $204,701.93 | 605,900 $204,644.51 | $0.34 |
-| [ACA/AUSD](/polkadot/assets/ACA%252FAUSD) | 2,451 | 1 | 1,152,500.37 $620,914.68 | 0  | 0  | 0  | $0.54 |
-| [LP-DOT/PARA](/polkadot/assets/LP-DOT%252FPARA) | 171 | 1 | 42,950.59 $284,394.02 | 0  | 0  | 0  | $6.62 |
-| [AUSD/IBTC](/polkadot/assets/AUSD%252FIBTC) | 12 | 1 | 10,555 $10,465.01 | 0  | 0  | 0  | $0.99 |
-| [AUSD/INTR](/polkadot/assets/AUSD%252FINTR) | 37 | 1 | 12,902.08 $7,734.84 | 0  | 0  | 0  | $0.60 |
-| [NODL](/polkadot/assets/NODL) | 711,279 | 1 | 8,433,998,344.49  | 204,604.2  | 5,774,032,756.48  | 5,774,032,756.48  |  |
-| [lcDOT](/polkadot/assets/lcDOT) | 54,217 | 2 | 25,491,432.51  | 0  | 0  | 0  |  |
-| [CFG](/polkadot/assets/CFG) | 44,659 | 1 | 492,138,789.34  | 161,545.19  | 71,671,569.83  | 13,128,705.21  |  |
-| [SUB](/polkadot/assets/SUB) | 34,341 | 1 | 999,944,949.01  | 46,283.56  | 117,407,322.33  | 0  |  |
-| [cDOT-6/13](/polkadot/assets/cDOT-6%252F13) | 24,974 | 1 | 19,194,045.06  | 0  | 0  | 0  |  |
-| [HDX](/polkadot/assets/HDX) | 23,325 | 1 | 4,364,555,874.53  | 70,569.04  | 1,889,721,653.6  | 1,851,320,873.27  |  |
-| [KILT](/polkadot/assets/KILT) | 18,081 | 1 | 157,575,741.04  | 27,370.22  | 1,000,000,117,054,418.4  | 74,645,675.56  |  |
-| [UNQ](/polkadot/assets/UNQ) | 16,274 | 2 | 1,041,977,870.37  | 2  | 857,151,318.53  | 857,151,318.53  |  |
-| [cDOT-7/14](/polkadot/assets/cDOT-7%252F14) | 11,335 | 1 | 8,635,892.16  | 0  | 0  | 0  |  |
-| [EQ](/polkadot/assets/EQ) | 9,344 | 4 | 77,571.76  | 0  | 0  | 0  |  |
-| [sDOT](/polkadot/assets/sDOT) | 4,786 | 2 | 940,272.39  | 0  | 0  | 0  |  |
-| [LIT](/polkadot/assets/LIT) | 4,767 | 1 | 9,713,231.49  | 1,821,719.7  | 8,787,511.58  | 0  |  |
-| [BNC](/polkadot/assets/BNC) | 3,920 | 3 | 14,846,133.74  | 65,399,074.46  | 4,143,192.7  | 0  |  |
-| [OTP](/polkadot/assets/OTP) | 3,649 | 1 | 500,053,155  | 166  | 22,331,128.98  | 0  |  |
-| [LDOT](/polkadot/assets/LDOT) | 2,902 | 3 | 19,137,949.8  | 0  | 0  | 0  |  |
-| [cDOT-8/15](/polkadot/assets/cDOT-8%252F15) | 2,459 | 1 | 1,343,732.31  | 0  | 0  | 0  |  |
+| [DOT](/polkadot/assets/DOT) | 1,085,138 | 10 | 1,172,042,403.24 $7,614,129,459.16 | 122,073,323.48 $793,044,761.78 | 682,646,497.6 $4,434,787,336.32 | 676,429,867.79 $4,394,401,234.25 | $6.50 |
+| [ASTR](/polkadot/assets/ASTR) | 516,027 | 6 | 7,714,267,856.83 $616,697,918.10 | 153,630,412.03 $12,400,554.15 | 4,072,712,480.62 $328,736,289.73 | 3,258,089,484.55 $262,982,534.09 | $0.08 |
+| [GLMR](/polkadot/assets/GLMR) | 2,849,234 | 6 | 1,056,378,720.8 $454,532,685.91 | 1,908,914.36 $821,356.92 | 278,587,365.7 $119,869,002.56 | 276,467,355.17 $118,956,816.38 | $0.43 |
+| [ACA](/polkadot/assets/ACA) | 158,897 | 4 | 1,001,324,132.92 $148,065,250.79 | 30,886.38 $4,567.15 | 544,245,538.64 $80,477,289.54 | 544,112,741.88 $80,457,652.96 | $0.15 |
+| [PARA](/polkadot/assets/PARA) | 47,342 | 5 | 10,000,030,793.43 $127,393,710.05 | 217.58 $2.77 | 7,574,515,583.53 $96,494,267.13 | 7,574,492,985.74 $96,493,979.25 | $0.01 |
+| [PHA](/polkadot/assets/PHA) | 3,457 | 5 | 543,228,388.52 $95,497,700.69 | 133.15 $23.41 | 11,322,158.59 $1,990,396.92 | 0  | $0.18 |
+| [INTR](/polkadot/assets/INTR) | 12,004 | 5 | 1,004,286,432.2 $34,205,755.93 | 1,316.77 $44.85 | 0  | 70,727,122.76 $2,408,948.90 | $0.03 |
+| [AUSD](/polkadot/assets/AUSD) | 8,491 | 4 | 13,049,334.18 $12,647,454.09 | 0  | 0  | 3,734,615.59 $3,734,615.59 | $0.98 |
+| [USDT](/polkadot/assets/USDT) | 1,343 | 5 | 11,166,811.61 $11,174,865.80 | 44,127.57 $44,164.76 | 0  | 0  | $1.00 |
+| [DAI](/polkadot/assets/DAI) | 422 | 1 | 2,215,494.44 $2,215,494.44 | 0  | 0  | 0  | $1.00 |
+| [IBTC](/polkadot/assets/IBTC) | 620 | 5 | 105.96 $1,890,525.58 | 0.03 $486.13 | 0  | 0  | $17,841.20 |
+| [CLV](/polkadot/assets/CLV) | 4,128 | 3 | 5,157,930.83 $1,742,106.36 | 90.36 $30.52 | 606,070 $204,701.93 | 605,900 $204,644.51 | $0.34 |
+| [ACA/AUSD](/polkadot/assets/ACA%252FAUSD) | 2,460 | 1 | 1,153,931.74 $655,731.17 | 0  | 0  | 0  | $0.57 |
+| [LP-DOT/PARA](/polkadot/assets/LP-DOT%252FPARA) | 170 | 1 | 42,950.16 $291,900.56 | 0  | 0  | 0  | $6.80 |
+| [AUSD/IBTC](/polkadot/assets/AUSD%252FIBTC) | 12 | 1 | 10,555 $10,283.32 | 0  | 0  | 0  | $0.97 |
+| [AUSD/INTR](/polkadot/assets/AUSD%252FINTR) | 37 | 1 | 12,902.08 $8,360.36 | 0  | 0  | 0  | $0.65 |
+| [NODL](/polkadot/assets/NODL) | 712,106 | 1 | 8,434,147,237.96  | 209,022.72  | 5,773,568,011.67  | 5,773,568,011.67  |  |
+| [lcDOT](/polkadot/assets/lcDOT) | 54,209 | 2 | 25,492,254.05  | 0  | 0  | 0  |  |
+| [CFG](/polkadot/assets/CFG) | 44,663 | 1 | 492,145,153.77  | 161,545.54  | 71,665,695.53  | 13,128,705.21  |  |
+| [SUB](/polkadot/assets/SUB) | 34,345 | 1 | 999,944,940.39  | 46,283.56  | 117,386,324.36  | 0  |  |
+| [cDOT-6/13](/polkadot/assets/cDOT-6%252F13) | 24,971 | 1 | 19,194,045.06  | 0  | 0  | 0  |  |
+| [UNQ](/polkadot/assets/UNQ) | 24,293 | 2 | 1,041,977,869.85  | 2  | 857,105,557.46  | 857,105,557.46  |  |
+| [HDX](/polkadot/assets/HDX) | 23,333 | 1 | 4,364,612,752.34  | 71,068.05  | 1,902,104,129.15  | 1,851,305,671.29  |  |
+| [KILT](/polkadot/assets/KILT) | 18,084 | 1 | 157,595,676.61  | 27,375.2  | 1,000,000,117,163,123.6  | 74,754,469.56  |  |
+| [EFI](/polkadot/assets/EFI) | 16,142 | 1 | 249,755,716.32  | 11,189.74  | 165,535,222.14  | 165,535,140.81  |  |
+| [cDOT-7/14](/polkadot/assets/cDOT-7%252F14) | 11,332 | 1 | 8,635,892.16  | 0  | 0  | 0  |  |
+| [EQ](/polkadot/assets/EQ) | 9,375 | 4 | 5,470,165.41  | 0  | 0  | 0  |  |
+| [sDOT](/polkadot/assets/sDOT) | 4,789 | 2 | 939,903.38  | 0  | 0  | 0  |  |
+| [LIT](/polkadot/assets/LIT) | 4,767 | 1 | 9,691,646.69  | 1,838,575  | 8,782,270.47  | 0  |  |
+| [BNC](/polkadot/assets/BNC) | 3,929 | 3 | 14,844,945.53  | 65,399,074.46  | 4,143,137.5  | 0  |  |
+| [OTP](/polkadot/assets/OTP) | 3,651 | 1 | 500,053,154.99  | 166  | 22,330,952.21  | 0  |  |
+| [LDOT](/polkadot/assets/LDOT) | 2,901 | 3 | 19,210,212.1  | 0  | 0  | 0  |  |
+| [cDOT-8/15](/polkadot/assets/cDOT-8%252F15) | 2,461 | 1 | 1,343,732.31  | 0  | 0  | 0  |  |
 | [vsDOT](/polkadot/assets/vsDOT) | 1,403 | 1 | 2,284,753.78  | 0  | 0  | 0  |  |
-| [KYL](/polkadot/assets/KYL) | 1,108 | 1 | 999,999,998.94  | 2.06  | 22,202,941.06  | 0  |  |
+| [KYL](/polkadot/assets/KYL) | 1,108 | 1 | 999,999,998.94  | 2.06  | 22,202,026.85  | 0  |  |
 | [KPX](/polkadot/assets/KPX) | 1,054 | 1 | 2,581,818  | 0  | 0  | 0  |  |
 | [CRU](/polkadot/assets/CRU) | 992 | 1 | 46,119.46  | 91.71  | 2,125.7  | 2,000  |  |
-| [BBB](/polkadot/assets/BBB) | 782 | 1 | 1,000,025,086  | 36.2  | 0  | 0  |  |
-| [LP-DOT/sDOT](/polkadot/assets/LP-DOT%252FsDOT) | 488 | 1 | 1,627.59  | 0  | 0  | 0  |  |
-| [DOT/lcDOT](/polkadot/assets/DOT%252FlcDOT) | 472 | 1 | 242,454.08  | 0  | 0  | 0  |  |
-| [AUSD/lcDOT](/polkadot/assets/AUSD%252FlcDOT) | 384 | 1 | 1,719,653.47  | 0  | 0  | 0  |  |
+| [BBB](/polkadot/assets/BBB) | 783 | 1 | 1,000,025,790.4  | 36.2  | 0  | 0  |  |
+| [LP-DOT/sDOT](/polkadot/assets/LP-DOT%252FsDOT) | 489 | 1 | 1,628.2  | 0  | 0  | 0  |  |
+| [DOT/lcDOT](/polkadot/assets/DOT%252FlcDOT) | 471 | 1 | 242,297.7  | 0  | 0  | 0  |  |
+| [AUSD/lcDOT](/polkadot/assets/AUSD%252FlcDOT) | 384 | 1 | 1,717,563.08  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2006-6-13](/polkadot/assets/vsBOND-DOT-2006-6-13) | 361 | 1 | 364,292.66  | 0  | 0  | 0  |  |
-| [tDOT](/polkadot/assets/tDOT) | 306 | 1 | 171,045.56  | 0  | 0  | 0  |  |
-| [LP-PARA/cDOT-6/13](/polkadot/assets/LP-PARA%252FcDOT-6%252F13) | 290 | 1 | 130,947.51  | 0  | 0  | 0  |  |
+| [tDOT](/polkadot/assets/tDOT) | 308 | 1 | 177,897.16  | 0  | 0  | 0  |  |
+| [LP-PARA/cDOT-6/13](/polkadot/assets/LP-PARA%252FcDOT-6%252F13) | 289 | 1 | 130,940.33  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2004-6-13](/polkadot/assets/vsBOND-DOT-2004-6-13) | 284 | 1 | 70,814.63  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2030-8-15](/polkadot/assets/vsBOND-DOT-2030-8-15) | 274 | 1 | 338,909.67  | 0  | 0  | 0  |  |
 | [TRAC](/polkadot/assets/TRAC) | 217 | 1 | 84,040,684.43  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2019-7-14](/polkadot/assets/vsBOND-DOT-2019-7-14) | 182 | 1 | 218,535.87  | 0  | 0  | 0  |  |
-| [vGLMR](/polkadot/assets/vGLMR) | 168 | 1 | 1,012,389.77  | 0  | 0  | 0  |  |
+| [vGLMR](/polkadot/assets/vGLMR) | 169 | 1 | 1,017,021.63  | 0  | 0  | 0  |  |
 | [cDOT-10/17](/polkadot/assets/cDOT-10%252F17) | 166 | 1 | 14,500.93  | 0  | 0  | 0  |  |
-| [vDOT](/polkadot/assets/vDOT) | 158 | 2 | 292,537.12  | 0  | 0  | 0  |  |
+| [vDOT](/polkadot/assets/vDOT) | 161 | 2 | 294,646.19  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2032-7-14](/polkadot/assets/vsBOND-DOT-2032-7-14) | 144 | 1 | 160,862.57  | 0  | 0  | 0  |  |
-| [LRNA](/polkadot/assets/LRNA) | 116 | 1 | 239,236.62  | 0  | 0  | 0  |  |
-| [LP-USDT/PARA](/polkadot/assets/LP-USDT%252FPARA) | 110 | 1 | 89.6  | 0  | 0  | 0  |  |
+| [LRNA](/polkadot/assets/LRNA) | 116 | 1 | 238,920.21  | 0  | 0  | 0  |  |
+| [LP-USDT/PARA](/polkadot/assets/LP-USDT%252FPARA) | 110 | 1 | 88.31  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2000-6-13](/polkadot/assets/vsBOND-DOT-2000-6-13) | 109 | 1 | 10,115.25  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2037-8-15](/polkadot/assets/vsBOND-DOT-2037-8-15) | 108 | 1 | 59,833.01  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2031-7-14](/polkadot/assets/vsBOND-DOT-2031-7-14) | 107 | 1 | 5,479.93  | 0  | 0  | 0  |  |
-| [LP-DOT/cDOT-6/13](/polkadot/assets/LP-DOT%252FcDOT-6%252F13) | 103 | 1 | 315.25  | 0  | 0  | 0  |  |
+| [LP-DOT/cDOT-6/13](/polkadot/assets/LP-DOT%252FcDOT-6%252F13) | 103 | 1 | 315.52  | 0  | 0  | 0  |  |
 | [LP-GLMR/PARA](/polkadot/assets/LP-GLMR%252FPARA) | 101 | 1 | 250,079,803.83  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2021-7-14](/polkadot/assets/vsBOND-DOT-2021-7-14) | 94 | 1 | 714,811.69  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2040-8-15](/polkadot/assets/vsBOND-DOT-2040-8-15) | 92 | 1 | 55,831.78  | 0  | 0  | 0  |  |
-| [PEN](/polkadot/assets/PEN) | 85 | 1 | 160,000,075.25  | 0  | 91,151,709.78  | 130,055  |  |
+| [PEN](/polkadot/assets/PEN) | 85 | 1 | 160,000,104.65  | 0.5  | 91,151,709.78  | 130,055  |  |
 | [LP-DOT/cDOT-7/14](/polkadot/assets/LP-DOT%252FcDOT-7%252F14) | 84 | 1 | 75.2  | 0  | 0  | 0  |  |
 | [LP-ACA/PARA](/polkadot/assets/LP-ACA%252FPARA) | 80 | 1 | 589,167.46  | 0  | 0  | 0  |  |
-| [LP-INTR/PARA](/polkadot/assets/LP-INTR%252FPARA) | 78 | 1 | 24,472  | 0  | 0  | 0  |  |
+| [LP-INTR/PARA](/polkadot/assets/LP-INTR%252FPARA) | 75 | 1 | 21,934.16  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2026-7-14](/polkadot/assets/vsBOND-DOT-2026-7-14) | 72 | 1 | 13,498.61  | 0  | 0  | 0  |  |
 | [cDOT-9/16](/polkadot/assets/cDOT-9%252F16) | 59 | 1 | 3,904.77  | 0  | 0  | 0  |  |
 | [LP-PHA/PARA](/polkadot/assets/LP-PHA%252FPARA) | 57 | 1 | 80,766.77  | 0  | 0  | 0  |  |
-| [AUSD/LDOT](/polkadot/assets/AUSD%252FLDOT) | 55 | 1 | 145,016.29  | 0  | 0  | 0  |  |
+| [AUSD/LDOT](/polkadot/assets/AUSD%252FLDOT) | 56 | 1 | 144,843.13  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2013-8-15](/polkadot/assets/vsBOND-DOT-2013-8-15) | 55 | 1 | 2,082.58  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2039-9-16](/polkadot/assets/vsBOND-DOT-2039-9-16) | 55 | 1 | 12,972.34  | 0  | 0  | 0  |  |
-| [WETH.ACA](/polkadot/assets/WETH.ACA) | 52 | 1 | 1,126.63  | 0  | 0  | 0  |  |
-| [LP-IBTC/PARA](/polkadot/assets/LP-IBTC%252FPARA) | 46 | 1 | 1.38  | 0  | 0  | 0  |  |
+| [WETH.ACA](/polkadot/assets/WETH.ACA) | 51 | 1 | 1,124.59  | 0  | 0  | 0  |  |
+| [LP-IBTC/PARA](/polkadot/assets/LP-IBTC%252FPARA) | 45 | 1 | 1.26  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2043-8-15](/polkadot/assets/vsBOND-DOT-2043-8-15) | 44 | 1 | 3,322.9  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2015-6-13](/polkadot/assets/vsBOND-DOT-2015-6-13) | 38 | 1 | 898.07  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2034-7-14](/polkadot/assets/vsBOND-DOT-2034-7-14) | 35 | 1 | 153,197.35  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2013-6-13](/polkadot/assets/vsBOND-DOT-2013-6-13) | 31 | 1 | 2,091.87  | 0  | 0  | 0  |  |
 | [FRQCY](/polkadot/assets/FRQCY) | 28 | 1 | 999,999,999.15  | 0  | 471.86  | 0  |  |
 | [vsBOND-DOT-2021-6-13](/polkadot/assets/vsBOND-DOT-2021-6-13) | 28 | 1 | 1,234.93  | 0  | 0  | 0  |  |
-| [RING](/polkadot/assets/RING) | 27 | 2 | 200,830.69  | 0  | 0  | 0  |  |
+| [RING](/polkadot/assets/RING) | 27 | 2 | 200,831.17  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2013-7-14](/polkadot/assets/vsBOND-DOT-2013-7-14) | 25 | 1 | 1,290.52  | 0  | 0  | 0  |  |
-| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 23 | 1 | 47.91  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2090-10-17](/polkadot/assets/vsBOND-DOT-2090-10-17) | 22 | 1 | 90,281.11  | 0  | 0  | 0  |  |
+| [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 22 | 1 | 47.91  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2027-8-15](/polkadot/assets/vsBOND-DOT-2027-8-15) | 21 | 1 | 508.83  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2036-7-14](/polkadot/assets/vsBOND-DOT-2036-7-14) | 21 | 1 | 2,202.69  | 0  | 0  | 0  |  |
 | [LP-PARA/cDOT-8/15](/polkadot/assets/LP-PARA%252FcDOT-8%252F15) | 19 | 1 | 497.24  | 0  | 0  | 0  |  |
@@ -147,7 +147,6 @@ Last Updated: 2023-02-28T00:00:00.000Z
 | [LAYR](/polkadot/assets/LAYR) | 10 | 1 | 99,999,999.18  | 0  | 0  | 0  |  |
 | [AJUN](/polkadot/assets/AJUN) | 9 | 1 | 500,000,000  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2051-10-17](/polkadot/assets/vsBOND-DOT-2051-10-17) | 8 | 1 | 216.26  | 0  | 0  | 0  |  |
-| [HASH](/polkadot/assets/HASH) | 7 | 1 | 1,000,000,000  | -  | 0  | 0  |  |
 | [vsBOND-DOT-2027-7-14](/polkadot/assets/vsBOND-DOT-2027-7-14) | 6 | 1 | 175  | 0  | 0  | 0  |  |
 | [vsBOND-DOT-2008-7-14](/polkadot/assets/vsBOND-DOT-2008-7-14) | 5 | 1 | 158  | 0  | 0  | 0  |  |
 | [JOE](/polkadot/assets/JOE) | 4 | 1 | 1,000,000  | 0  | 0  | 0  |  |

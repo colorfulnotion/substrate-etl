@@ -1,12 +1,12 @@
 # LP-USDT/HKO on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 47 | 102.62  |   |    |   |  | `{"Token":"5007"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 46 | 102.37  |   |    |   |  | `{"Token":"5007"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LP-USDT/HKO" and date(ts) = "2023-02-28"
+ where symbol = "LP-USDT/HKO" and date(ts) = "2023-03-01"
  group by para_id
  order by free_usd desc
 ```

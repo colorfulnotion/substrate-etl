@@ -1,6 +1,6 @@
 # RMRK on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
 
 
 *XCM Interior Keys*:
@@ -9,10 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Statemine](/kusama/1000-statemine) | 6,143 | 9,999,611.77 $24,738,156.17 |   |    |   | $2.47 | `{"Token":"8"}` |
-| [Moonriver](/kusama/2023-moonriver) | 3,265 | 4,625,902.99 $11,444,075.36 |   |    |   | $2.47 | `{"Token":"182365888117048807484804376330534607370"}` |
-| [Karura](/kusama/2000-karura) | 895 | 139,549.85 $345,234.00 |   |    |   | $2.47 | `{"ForeignAsset":"0"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 143 | 9,123.11 $22,569.78 |   |    |   | $2.47 | `{"Token":"RMRK"}` |
+| [Statemine](/kusama/1000-statemine) | 6,143 | 9,999,611.77 $24,746,348.45 |   |    |   | $2.47 | `{"Token":"8"}` |
+| [Moonriver](/kusama/2023-moonriver) | 3,271 | 4,626,537.45 $11,449,435.30 |   |    |   | $2.47 | `{"Token":"182365888117048807484804376330534607370"}` |
+| [Karura](/kusama/2000-karura) | 894 | 139,491.39 $345,203.66 |   |    |   | $2.47 | `{"ForeignAsset":"0"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 143 | 9,123.11 $22,577.25 |   |    |   | $2.47 | `{"Token":"RMRK"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "RMRK" and date(ts) = "2023-02-28"
+ where symbol = "RMRK" and date(ts) = "2023-03-01"
  group by para_id
  order by free_usd desc
 ```

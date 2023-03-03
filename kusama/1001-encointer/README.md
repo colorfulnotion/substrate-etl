@@ -24,13 +24,13 @@ Status: Only partial index available: Old Decoding issues
 | [2022-02-01 to 2022-02-28](/kusama/1001-encointer/2022-02-28.md) | 156,173 | 293,070 | 136,898 | 1 |  | 3 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/1001-encointer/2022-01-31.md) | 1 | 156,172 | 156,172 |  |  | 1 | -   |   
 
-## Encointer Assets as of 2023-02-28
+## Encointer Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 964 | 12.72 $458.21 |   |    |   | $36.03 |   `{"Token":"KSM"}` | 
+| [KSM](/kusama/assets/KSM) | 965 | 12.72 $482.75 |   |    |   | $37.96 |   `{"Token":"KSM"}` | 
 
 ## substrate-etl Tables:
 

@@ -25,34 +25,34 @@ _Source_: [astar.polkaholic.io](https://astar.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/polkadot/2006-astar/2022-01-31.md) | 96,275 | 317,127 | 220,853 | 143,823 |  | 55,485 | -   |   
 | [2021-12-18 to 2021-12-31](/polkadot/2006-astar/2021-12-31.md) | 1 | 96,274 | 96,274 | 71 |  | 29 | -   |   
 
-## Astar Assets as of 2023-02-28
+## Astar Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ASTR](/polkadot/assets/ASTR) | 515,634 | 7,637,457,865.74 $585,275,525.31 | 153,630,412.03 $11,773,043.03 | 4,074,163,752.44  $312,212,305.76 | 3,259,456,827 $249,779,486.86 | $0.08 |   `{"Token":"ASTR"}` | 
-| [USDT](/polkadot/assets/USDT) | 398 | 1,459,499.16 $1,460,370.29 |   |    |   | $1.00 |   `{"Token":"4294969280"}` | 
-| [DOT](/polkadot/assets/DOT) | 1,450 | 151,862.22 $966,230.94 |   |    |   | $6.36 |   `{"Token":"340282366920938463463374607431768211455"}` | 
-| [PHA](/polkadot/assets/PHA) | 43 | 967,836.81 $161,631.81 |   |    |   | $0.17 |   `{"Token":"18446744073709551622"}` | 
-| [AUSD](/polkadot/assets/AUSD) | 299 | 107,105.68 $107,105.68 |   |    |   | $1.00 |   `{"Token":"18446744073709551617"}` | 
-| [ACA](/polkadot/assets/ACA) | 326 | 189,198.13 $24,684.61 |   |    |   | $0.13 |   `{"Token":"18446744073709551616"}` | 
-| [IBTC](/polkadot/assets/IBTC) | 29 | 1.35 $23,996.50 |   |    |   | $17,841.21 |   `{"Token":"18446744073709551620"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 246 | 24,378.12 $10,370.23 |   |    |   | $0.43 |   `{"Token":"18446744073709551619"}` | 
-| [INTR](/polkadot/assets/INTR) | 68 | 198,323.31 $5,486.38 |   |    |   | $0.03 |   `{"Token":"18446744073709551621"}` | 
+| [USDT](/polkadot/assets/USDT) | 397 | 1,460,514.16 $1,461,745.33 |   |    |   | $1.00 |   `{"Token":"4294969280"}` | 
+| [DOT](/polkadot/assets/DOT) | 1,454 | 144,963.76 $941,751.64 |   |    |   | $6.50 |   `{"Token":"340282366920938463463374607431768211455"}` | 
+| [PHA](/polkadot/assets/PHA) | 41 | 1,027,124.71 $180,565.03 |   |    |   | $0.18 |   `{"Token":"18446744073709551622"}` | 
+| [AUSD](/polkadot/assets/AUSD) | 299 | 106,330.55 $106,330.55 |   |    |   | $1.00 |   `{"Token":"18446744073709551617"}` | 
+| [ACA](/polkadot/assets/ACA) | 327 | 188,908.33 $27,933.77 |   |    |   | $0.15 |   `{"Token":"18446744073709551616"}` | 
+| [IBTC](/polkadot/assets/IBTC) | 29 | 1.11 $19,742.88 |   |    |   | $17,841.21 |   `{"Token":"18446744073709551620"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 248 | 24,625.76 $10,595.83 |   |    |   | $0.43 |   `{"Token":"18446744073709551619"}` | 
+| [INTR](/polkadot/assets/INTR) | 69 | 196,336.31 $6,687.17 |   |    |   | $0.03 |   `{"Token":"18446744073709551621"}` | 
 | [CLV](/polkadot/assets/CLV) | 8 | 23 $7.77 |   |    |   | $0.34 |   `{"Token":"18446744073709551625"}` | 
-| [BNC](/polkadot/assets/BNC) | 103 | 244,651.31  |   |    |   |  |   `{"Token":"18446744073709551623"}` | 
-| [LDOT](/polkadot/assets/LDOT) | 17 | 885.7  |   |    |   |  |   `{"Token":"18446744073709551618"}` | 
+| [BNC](/polkadot/assets/BNC) | 103 | 243,451.99  |   |    |   |  |   `{"Token":"18446744073709551623"}` | 
+| [LDOT](/polkadot/assets/LDOT) | 17 | 886.22  |   |    |   |  |   `{"Token":"18446744073709551618"}` | 
 | [MDOT](/polkadot/assets/MDOT) | 13 | 10,100,000  |   |    |   |  |   `{"Token":"1335"}` | 
 | [vDOT](/polkadot/assets/vDOT) | 7 | 0.79  |   |    |   |  |   `{"Token":"18446744073709551624"}` | 
 | [EQ](/polkadot/assets/EQ) | 4 | 754.88  |   |    |   |  |   `{"Token":"18446744073709551628"}` | 
 | [TOK](/polkadot/assets/TOK) | 4 | 1,000,000  |   |    |   |  |   `{"Token":"1334"}` | 
 | [EQD](/polkadot/assets/EQD) | 3 | 2.9  |   |    |   |  |   `{"Token":"18446744073709551629"}` | 
 | [MMC](/polkadot/assets/MMC) | 3 | 1,000  |   |    |   |  |   `{"Token":"1330"}` | 
-| [sDOT](/polkadot/assets/sDOT) | 3 | 243.16  |   |    |   |  |   `{"Token":"1332"}` | 
+| [sDOT](/polkadot/assets/sDOT) | 3 | 243.15  |   |    |   |  |   `{"Token":"1332"}` | 
 | [CHAI](/polkadot/assets/CHAI) | 2 | 2,000  |   |    |   |  |   `{"Token":"1327"}` | 
 | [aASTR](/polkadot/assets/aASTR) | 1 | 100.01  |   |    |   |  |   `{"Token":"1326"}` | 
 | [ALGM](/polkadot/assets/ALGM) | 1 | 1  |   |    |   |  |   `{"Token":"1328"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 1 | 74,000,000  |   |    |   |  |   `{"Token":"1333"}` | 
 | [PPC](/polkadot/assets/PPC) | 1 | 10,000  |   |    |   |  |   `{"Token":"1329"}` | 
 
 ## substrate-etl Tables:

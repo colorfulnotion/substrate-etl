@@ -24,14 +24,14 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2048-robonomics/2022-02-28.md) | 158,459 | 298,594 | 140,136 | 599,259 |  | 2,452 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/2048-robonomics/2022-01-31.md) | 1 | 158,458 | 158,458 | 219,693 |  | 2,357 | -   |   
 
-## Robonomics Assets as of 2023-02-28
+## Robonomics Assets as of 2023-03-01
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [XRT](/kusama/assets/XRT) | 3,149 | 994,838.89 $6,334,716.46 | 199.04 $1,267.40 | 149,551.06  $952,278.38 |   | $6.37 |   `{"Token":"XRT"}` | 
-| [KSM](/kusama/assets/KSM) | 6 | 536.43 $19,472.90 |   |    |   | $36.30 |   `{"Token":"4294967295"}` | 
+| [XRT](/kusama/assets/XRT) | 3,150 | 994,850.24 $6,227,511.07 | 199.04 $1,245.94 | 149,529.52  $936,017.02 |   | $6.26 |   `{"Token":"XRT"}` | 
+| [KSM](/kusama/assets/KSM) | 6 | 536.43 $20,361.14 |   |    |   | $37.96 |   `{"Token":"4294967295"}` | 
 
 ## substrate-etl Tables:
 

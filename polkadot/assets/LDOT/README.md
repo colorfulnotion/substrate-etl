@@ -1,6 +1,6 @@
 # LDOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-01
 
 
 *XCM Interior Keys*:
@@ -9,9 +9,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-02-28
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 2,825 | 19,127,771.91  |   |    |   |  | `{"Token":"LDOT"}` |
-| [Parallel](/polkadot/2012-parallel) | 82 | 9,292.2  |   |    |   |  | `{"Token":"110"}` |
-| [Astar](/polkadot/2006-astar) | 17 | 885.7  |   |    |   |  | `{"Token":"18446744073709551618"}` |
+| [Acala](/polkadot/2000-acala) | 2,824 | 19,200,074.86  |   |    |   |  | `{"Token":"LDOT"}` |
+| [Parallel](/polkadot/2012-parallel) | 82 | 9,251.02  |   |    |   |  | `{"Token":"110"}` |
+| [Astar](/polkadot/2006-astar) | 17 | 886.22  |   |    |   |  | `{"Token":"18446744073709551618"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LDOT" and date(ts) = "2023-02-28"
+ where symbol = "LDOT" and date(ts) = "2023-03-01"
  group by para_id
  order by free_usd desc
 ```
