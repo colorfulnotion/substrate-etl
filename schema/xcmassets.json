@@ -1,9 +1,21 @@
 [
   {
     "mode": "REQUIRED",
-    "name": "xcm_interior_key",
+    "name": "xcm_interior_key", 
     "type": "STRING",
-    "description": "XCM Interior Key (v2 style) -- can be mapped directly to xcmassets"
+    "description": "XCM Interior Key Canonicalized [flattened xcmV1Multilocation from polkadot.js v1 with network field added]"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "xcm_v1_multilocation_byte", 
+    "type": "STRING",
+    "description": "Polkadot.js v1 decodable bytes for XCM"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "xcm_v1_multilocation", 
+    "type": "STRING",
+    "description": "Encodable JSON [polkadot.js v1 API]"
   },
   {
     "mode": "REQUIRED",
@@ -21,6 +33,43 @@
     "mode": "REQUIRED",
     "name": "para_id",
     "type": "INTEGER",
-    "description": "Para ID of the parachain representing this asset"
+    "description": "Native Para ID for XCM asset"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "chain_name",
+    "type": "STRING",
+    "description": "Human readable chain name"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "interior_type",
+    "type": "STRING",
+    "description": "Number of arguments in XCM V1 Multilocation"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "source",
+    "type": "STRING",
+    "description": "Para ID sources array"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "xc_contract_address", 
+    "type": "STRING",
+    "description": "For EVM Chains, precompiled Contract Address (if available)"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "xc_currency_id", 
+    "type": "STRING",
+    "description": "Local indexes, used to specify Foreign Asset in each chain"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "confidence", 
+    "type": "INTEGER",
+    "description": "Count of non-native parachains that have published the same multilocation"
   }
 ]
+

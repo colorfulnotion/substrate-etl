@@ -6,10 +6,22 @@
     "description": "Para ID of the parachain representing this asset"
   },
   {
+    "mode": "NULLABLE",
+    "name": "chain_name",
+    "type": "STRING",
+    "description": "Human readable chain name"
+  },
+  {
     "mode": "REQUIRED",
     "name": "asset",
     "type": "STRING",
     "description": "JSON String representation of the asset"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING",
+    "description": "Simple name of asset, if provided"
   },
   {
     "mode": "NULLABLE",
