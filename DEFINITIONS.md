@@ -263,7 +263,12 @@ The process of matching XCM Transfers between an origination chain and a destina
 
 ## Account Metrics (EVM Chains)
 
-EVM Parachains (Moonbeam/Moonriver, Astar/Shiden, Clover, Snow) will be modelled separately in Q2 2023.
+Preliminary tables for Parachains with EVM activity (Moonbeam/Moonriver, Astar/Shiden, Clover, Snow) are available for preview, with analogous definitions for EVM Active Accounts and EVM Passive Accounts 
+
+* `substrate-etl.{relayChain}.evmtxs{paraID}` - all transactions
+* `substrate-etl.{relayChain}.evmtransfers{paraID}` - all transfers 
+* `substrate-etl.{relayChain}.accountsevmactive{paraID}` - holds accounts which originated an signed EVM transaction in `evmtxs`
+* `substrate-etl.{relayChain}.accountsevmpassive{paraID}` - holds accounts which are not active but are either a from_address or to_address in `evmtransfers`
 
 ## Dotsama Network Metrics
 

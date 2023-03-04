@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "from_address",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ts",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "transaction_count",
+    "type": "INTEGER"
+  }
+]
