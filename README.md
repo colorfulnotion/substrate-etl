@@ -1,7 +1,7 @@
 
 # Substrate ETL
 
-***Status: As of February 2023, this is under active development, but we welcome feedback.***
+***Status: As of March 2023, this is under active development, but we welcome feedback.***
 
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,
@@ -16,6 +16,33 @@ Network Summary: (All-time, Monthly, Daily)
 * [All Networks (Polkadot+Kusama)](SUMMARY.md)
 
 Chain data is appended daily.  Included in each summary are sample queries.  See also this [XCM Transfers blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9).  
+
+### Roadmap
+
+Spring 2023
+* [x] Initial table designs {blocks, extrinsics, events, trasnfers, balances, xcmTransfers}
+* [x] Daily/hourly dump via Github workflow
+* [x] Hourly summary report for all reachable parachains
+* [x] On-chain activity metrics: {active, passive, reaped, new} users, {numSignedExtrinsics, numTransfers, numXCMTransfers} modeled in bigQuery
+* [ ] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
+
+Summer/Fall 2023
+* [ ] XCM Message table design (after XCMv3 release)
+* [ ] Full XCMv3 Multilocation support
+* [ ] Dotsama metrics - user activities, xcm activities across the whole ecosystem, also in bigQuery
+* [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
+* [ ] EVM Chain Support: Transaction / Transfers, Contracts, Tokens / UniswapV2
+* [ ] GKE systematization, Reliability Improvements
+* [ ] New functionality based on community feedback
+
+Fall/Winter 2023
+
+* [ ] Bridgehub integration
+* [ ] Basic Wasm contract support (psp22, events, bytecode)
+* [ ] Reporting on Comparison to other ecosystems also modelled in BigQuery
+* [ ] Solochain, testnet integration based on community feedback
+* [ ] New functionality based on community feedback
+
 
 ### Quick Start
 
@@ -46,7 +73,7 @@ parachains.  By convention, relaychain data is considered "paraid=0".
 Project: (Location: us-central1)
 * `substrate-etl`
 
-Datasets: 
+Datasets:
 * `polkadot`
 * `kusama`
 
@@ -113,8 +140,8 @@ number              | bigint          | INTEGER |
 state_root          | hex_string      | STRING |
 extrinsics_root     | hex_string      | STRING |
 block_time          | bigint          | TIMESTAMP   |
-author_ss58         | string          | STRING | 
-author_pub_key         | string          | STRING | 
+author_ss58         | string          | STRING |
+author_pub_key         | string          | STRING |
 spec_version        | bigint          | INTEGER |
 relay_block_number  | bigint          | INTEGER |
 relay_state_root    | hex_string      | STRING |
@@ -154,7 +181,7 @@ event_id                | string                | STRING  |
 section                 | string                | STRING  |
 method                  | string                | STRING  |
 data                    | JSON                  | JSON    |
-extrinsic_id            | string                | STRING  | 
+extrinsic_id            | string                | STRING  |
 extrinsic_hash          | hex_string            | STRING  |
 block_time              | bigint                | TIMESTAMP |
 block_number            | bigint                | INTEGER                  |
@@ -170,20 +197,20 @@ event_id                | string                | STRING |
 section                 | string                | STRING |
 method                  | string                | STRING |
 data                    | JSON                  | JSON |
-extrinsic_id            | string                | STRING | 
-extrinsic_hash          | hex_string            | STRING | 
+extrinsic_id            | string                | STRING |
+extrinsic_hash          | hex_string            | STRING |
 block_time              | bigint                | TIMESTAMP |
-block_number            | bigint                | INTEGER | 
+block_number            | bigint                | INTEGER |
 block_hash              | hex_string            | STRING |
 from_ss58               | string                | STRING |
 to_ss58                 | string                | STRING |
-from_pub_key            | string                | STRING | 
+from_pub_key            | string                | STRING |
 to_pub_key              | string                | STRING |
 asset                   | string                | STRING |
 price_usd               | float                | FLOAT64 |
 amount_usd              | float                | FLOAT64 |
 symbol                  | string                | STRING  |
-decimals                | int8                  | INTEGER | 
+decimals                | int8                  | INTEGER |
 amount                  | float                 | FLOAT64 |
 raw_amount              | bigint                | INTEGER |
 
@@ -273,7 +300,7 @@ Generally the data is complete as can be, but the sole data source is the Polkah
 From this single source, the primary causes of missing data stem from:
 * Chains that do not provide a public RPC node.  Most of the time, these chains are new with very little actual activity.  
 * Chains that have a public RPC node, but no RPC Endpoint is an _archive_ nodes
-* Chains that are being onboarded 
+* Chains that are being onboarded
 * Some blocks fail decoding due to chain halting, or are missing an up-to-date node.js API package for type definitions.
 
 A daily/hourly github actions process summarizes the state of the index for:
@@ -285,21 +312,9 @@ and for every single chain that is being indexed.  See the report **Issues** col
 ### Design choices:
 
 * All temporal BigQuery datasets are date-partitioned and split into multiple tables by {paraId} to enable low-cost low-latency BigQuery scans for specific date, parachain combinations. Timestamped data use BigQuery TIMESTAMP date types.
-* Addresses are provided in “public key” (signer_pub_key) and SS58 Address (signer_ss58) form to support multi-chain queries with wild card table selection eg`select * from polkadot.extrinsics* where signer_pub_key='<pubkey>' ` aggregates multi-chain transactional history for a given account. 
+* Addresses are provided in “public key” (signer_pub_key) and SS58 Address (signer_ss58) form to support multi-chain queries with wild card table selection eg`select * from polkadot.extrinsics* where signer_pub_key='<pubkey>' ` aggregates multi-chain transactional history for a given account.
 * When assets are mentioned (transfers, xcmtransfers), we "decimalize" the output and include basic USD price valuation if possible.  Many assets are not valued with USD values in this way.
 
-### Roadmap
-
-Spring/Summer 2023
-* Full XCMv3 Multilocation support
-* EVM Chain Support: Transaction / Transfers, Contracts, Tokens
-* GKE systematization, Reliability Improvements
-* New functionality based on community feedback
-
-Fall/Winter 2023-2024
-* Bridgehub integration 
-* Reporting on Comparison to other ecosystems also modelled in BigQuery
-* New functionality based on community feedback
 
 Your feedback is important -- please [submit an issue](https://github.com/colorfulnotion/substrate-etl/issues).
 
@@ -307,4 +322,3 @@ Your feedback is important -- please [submit an issue](https://github.com/colorf
 
 Contributions are welcome.  Contributors will be invited to a
 dedicated Telegram group and are held to the [Polkadot communities' Code of Conduct](https://github.com/paritytech/polkadot/blob/master/CODE_OF_CONDUCT.md).
-
