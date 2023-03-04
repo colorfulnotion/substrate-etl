@@ -4,7 +4,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-02
 
 
 *XCM Interior Keys*:
-* `[{"network":"polkadot"},{"parachain":2000},{"generalKey":"0x0000"}]`
+* `[{"parachain":2000},{"generalKey":"0x0000"}]~polkadot`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |

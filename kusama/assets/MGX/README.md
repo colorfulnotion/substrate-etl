@@ -4,12 +4,12 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-02
 
 
 *XCM Interior Keys*:
-* `[{"network":"kusama"},{"parachain":2110},{"generalKey":"0x00000000"}]`
+* `[{"parachain":2110},{"generalKey":"0x00000000"}]~kusama`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Mangatax](/kusama/2110-mangatax) | 1,778 |   |   |    |   |  | `{"Token":"MGX"}` |
+| [Mangatax](/kusama/2110-mangatax) | 1,649 | 1,366,453,048.42  | 17,311.98  |    | 299,656,784.66  |  | `{"Token":"0"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 2 | 10  |   |    |   |  | `{"Token2":"4"}` |
 
 ## Substrate-etl Queries:
