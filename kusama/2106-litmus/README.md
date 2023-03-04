@@ -23,13 +23,13 @@ _Source_: [litmus.polkaholic.io](https://litmus.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/2106-litmus/2022-03-31.md) | 32,417 | 154,228 | 121,812 | 94 |  | 3,821 | -   |   
 | [2022-02-20 to 2022-02-28](/kusama/2106-litmus/2022-02-28.md) | 1 | 32,416 | 32,416 | 2 |  | 16 | -   |   
 
-## Litmus Assets as of 2023-03-02
+## Litmus Assets as of 2023-03-03
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [LIT](/kusama/assets/LIT) | 13,912 | 491,749.69 $580,450.60 | 0.77 $0.91 | 336,056.41  $396,673.65 |   | $1.18 |   `{"Token":"LIT"}` | 
+| [LIT](/kusama/assets/LIT) | 13,912 | 491,749.69 $547,316.68 | 0.77 $0.86 | 336,056.41  $374,030.29 |   | $1.11 |   `{"Token":"LIT"}` | 
 
 ## substrate-etl Tables:
 

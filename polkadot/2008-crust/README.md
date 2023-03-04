@@ -15,7 +15,7 @@ _Source_: [crust.polkaholic.io](https://crust.polkaholic.io)
 | [2022-11-21 to 2022-11-30](/polkadot/2008-crust/2022-11-30.md) | 1 | 67,182 | 67,182 |  |  | 9 | -   |   
 | [2022-10-26 to 2022-10-26](/polkadot/2008-crust/2022-10-31.md) | 288,820 | 289,071 | 252 |  |  |  | -   |   
 
-## Crust Assets as of 2023-03-02
+## Crust Assets as of 2023-03-03
 
 
 

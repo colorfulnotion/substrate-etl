@@ -1,12 +1,12 @@
 # KAR/QTZ on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-02
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Karura](/kusama/2000-karura) | 19 | 5,934.11 $935.20 |   |    |   | $0.16 | `[{"Token":"KAR"},{"ForeignAsset":"2"}]` |
+| [Karura](/kusama/2000-karura) | 20 | 5,934.11 $884.64 |   |    |   | $0.15 | `[{"Token":"KAR"},{"ForeignAsset":"2"}]` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "KAR/QTZ" and date(ts) = "2023-03-02"
+ where symbol = "KAR/QTZ" and date(ts) = "2023-03-03"
  group by para_id
  order by free_usd desc
 ```

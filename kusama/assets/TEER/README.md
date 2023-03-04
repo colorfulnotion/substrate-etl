@@ -1,6 +1,6 @@
 # TEER on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-02
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 *XCM Interior Keys*:
@@ -9,9 +9,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-02
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Integritee](/kusama/2015-integritee) | 12,974 | 9,997,760.42 $4,075,756.59 | 89.35 $36.43 | 1,609,404  $656,100.84 |   | $0.41 | `{"Token":"TEER"}` |
-| [Moonriver](/kusama/2023-moonriver) | 21 | 846.27 $345.00 |   |    |   | $0.41 | `{"Token":"105075627293246237499203909093923548958"}` |
-| [Karura](/kusama/2000-karura) | 4 | 7.16 $2.92 |   |    |   | $0.41 | `{"ForeignAsset":"8"}` |
+| [Integritee](/kusama/2015-integritee) | 12,975 | 9,997,760.42 $3,999,410.14 | 89.35 $35.74 | 1,608,905.25  $643,611.34 |   | $0.40 | `{"Token":"TEER"}` |
+| [Moonriver](/kusama/2023-moonriver) | 21 | 846.27 $338.53 |   |    |   | $0.40 | `{"Token":"105075627293246237499203909093923548958"}` |
+| [Karura](/kusama/2000-karura) | 4 | 7.16 $2.86 |   |    |   | $0.40 | `{"ForeignAsset":"8"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "TEER" and date(ts) = "2023-03-02"
+ where symbol = "TEER" and date(ts) = "2023-03-03"
  group by para_id
  order by free_usd desc
 ```

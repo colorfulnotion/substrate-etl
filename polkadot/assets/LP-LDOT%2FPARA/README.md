@@ -1,6 +1,6 @@
 # LP-LDOT/PARA on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-02
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LP-LDOT/PARA" and date(ts) = "2023-03-02"
+ where symbol = "LP-LDOT/PARA" and date(ts) = "2023-03-03"
  group by para_id
  order by free_usd desc
 ```

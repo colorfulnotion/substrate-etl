@@ -30,46 +30,46 @@ _Source_: [bifrost-ksm.polkaholic.io](https://bifrost-ksm.polkaholic.io)
 | [2021-08-01 to 2021-08-31](/kusama/2001-bifrost-ksm/2021-08-31.md) | 74,124 | 274,581 | 200,458 | 1,139 |  | 55,215 | -   |   
 | [2021-07-20 to 2021-07-31](/kusama/2001-bifrost-ksm/2021-07-31.md) | 1 | 74,123 | 74,123 | 27 |  | 51,949 | -   |   
 
-## Bifrost-Kusama Assets as of 2023-03-02
+## Bifrost-Kusama Assets as of 2023-03-03
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BNC](/kusama/assets/BNC) | 101,478 | 41,797,890.1 $15,093,236.15 | 38,965,843.23 $14,070,582.81 | 23,573,306.52  $8,512,331.16 | 7,868,815.27 $2,841,432.59 | $0.36 |   `{"Token":"BNC"}` | 
-| [KSM](/kusama/assets/KSM) | 3,100 | 92,114.23 $3,354,999.39 | 0.1 $3.64 |    |   | $36.42 |   `{"Token":"KSM"}` | 
-| [ZLK](/kusama/assets/ZLK) | 20,388 | 3,609,413.8 $112,088.07 |   |    |   | $0.03 |   `{"Token":"ZLK"}` | 
-| [MOVR](/kusama/assets/MOVR) | 457 | 5,875.9 $57,431.85 |   |    |   | $9.77 |   `{"Token":"MOVR"}` | 
-| [USDT](/kusama/assets/USDT) | 101 | 54,227.23 $54,227.63 |   |    |   | $1.00 |   `{"Token2":"0"}` | 
-| [KBTC](/kusama/assets/KBTC) | 16 | 1.83 $48,888.51 |   |    |   | $26,763.27 |   `{"Token2":"2"}` | 
-| [RMRK](/kusama/assets/RMRK) | 143 | 9,123.11 $21,842.33 |   |    |   | $2.39 |   `{"Token":"RMRK"}` | 
-| [PHA](/kusama/assets/PHA) | 399 | 54,285.44 $9,679.16 |   |    |   | $0.18 |   `{"Token":"PHA"}` | 
-| [KAR](/kusama/assets/KAR) | 404 | 44,617.75 $9,006.78 |   |    |   | $0.20 |   `{"Token":"KAR"}` | 
-| [KINT](/kusama/assets/KINT) | 36 | 2,348.68 $1,926.17 |   |    |   | $0.82 |   `{"Token2":"1"}` | 
-| [SDN](/kusama/assets/SDN) | 3 | 0.6 $0.27 |   |    |   | $0.44 |   `{"Token2":"3"}` | 
+| [BNC](/kusama/assets/BNC) | 101,487 | 41,797,890.1 $14,415,571.96 | 38,965,843.23 $13,438,834.25 | 23,576,318.71  $8,131,178.83 | 7,871,892.95 $2,714,917.88 | $0.34 |   `{"Token":"BNC"}` | 
+| [KSM](/kusama/assets/KSM) | 3,099 | 92,204.72 $3,141,819.18 | 105.1 $3,581.22 |    |   | $34.07 |   `{"Token":"KSM"}` | 
+| [ZLK](/kusama/assets/ZLK) | 20,389 | 3,609,413.8 $108,111.75 |   |    |   | $0.03 |   `{"Token":"ZLK"}` | 
+| [USDT](/kusama/assets/USDT) | 98 | 53,698.64 $53,768.68 |   |    |   | $1.00 |   `{"Token2":"0"}` | 
+| [MOVR](/kusama/assets/MOVR) | 457 | 5,874.94 $53,573.55 |   |    |   | $9.12 |   `{"Token":"MOVR"}` | 
+| [KBTC](/kusama/assets/KBTC) | 17 | 1.81 $47,934.80 |   |    |   | $26,443.47 |   `{"Token2":"2"}` | 
+| [RMRK](/kusama/assets/RMRK) | 143 | 9,273.87 $22,321.38 |   |    |   | $2.41 |   `{"Token":"RMRK"}` | 
+| [PHA](/kusama/assets/PHA) | 399 | 54,285.44 $9,064.23 |   |    |   | $0.17 |   `{"Token":"PHA"}` | 
+| [KAR](/kusama/assets/KAR) | 404 | 44,617.75 $8,505.13 |   |    |   | $0.19 |   `{"Token":"KAR"}` | 
+| [KINT](/kusama/assets/KINT) | 38 | 2,342.15 $1,851.84 |   |    |   | $0.79 |   `{"Token2":"1"}` | 
+| [SDN](/kusama/assets/SDN) | 3 | 0.6 $0.24 |   |    |   | $0.40 |   `{"Token2":"3"}` | 
 | [vsBOND-BNC-2001-13-20](/kusama/assets/vsBOND-BNC-2001-13-20) | 37,806 | 20,046.2  |   |    |   |  |   `{"VSBond":["BNC","2,001","13","20"]}` | 
-| [VSKSM](/kusama/assets/VSKSM) | 36,763 | 56,161.64  | 6,212.89  |    |   |  |   `{"VSToken":"KSM"}` | 
-| [KUSD](/kusama/assets/KUSD) | 1,609 | 75,516.1  |   |    |   |  |   `{"Stable":"KUSD"}` | 
-| [vKSM](/kusama/assets/vKSM) | 767 | 226,933.37  |   |    |   |  |   `{"VToken":"KSM"}` | 
-| [vBNC](/kusama/assets/vBNC) | 408 | 3,240,612.54  |   |    |   |  |   `{"VToken":"BNC"}` | 
+| [VSKSM](/kusama/assets/VSKSM) | 36,760 | 56,104.23  | 6,212.89  |    |   |  |   `{"VSToken":"KSM"}` | 
+| [KUSD](/kusama/assets/KUSD) | 1,608 | 73,922.77  |   |    |   |  |   `{"Stable":"KUSD"}` | 
+| [vKSM](/kusama/assets/vKSM) | 761 | 227,088.8  |   |    |   |  |   `{"VToken":"KSM"}` | 
+| [vBNC](/kusama/assets/vBNC) | 407 | 3,245,840.37  |   |    |   |  |   `{"VToken":"BNC"}` | 
 | [vsBOND-KSM-2092-15-22](/kusama/assets/vsBOND-KSM-2092-15-22) | 397 | 982.6  | 969.17  |    |   |  |   `{"VSBond":["KSM","2,092","15","22"]}` | 
 | [vsBOND-KSM-2088-15-22](/kusama/assets/vsBOND-KSM-2088-15-22) | 345 | 2,181.35  | 1,490.09  |    |   |  |   `{"VSBond":["KSM","2,088","15","22"]}` | 
 | [vsBOND-KSM-2096-17-24](/kusama/assets/vsBOND-KSM-2096-17-24) | 333 | 2,449.92  | 2,409.07  |    |   |  |   `{"VSBond":["KSM","2,096","17","24"]}` | 
-| [vMOVR](/kusama/assets/vMOVR) | 107 | 30,067.18  |   |    |   |  |   `{"VToken":"MOVR"}` | 
+| [vMOVR](/kusama/assets/vMOVR) | 106 | 30,458.45  |   |    |   |  |   `{"VToken":"MOVR"}` | 
 | [vsBOND-KSM-2114-20-27](/kusama/assets/vsBOND-KSM-2114-20-27) | 103 | 1,619.56  |   |    |   |  |   `{"VSBond":["KSM","2,114","20","27"]}` | 
 | [vsBOND-KSM-2095-17-24](/kusama/assets/vsBOND-KSM-2095-17-24) | 96 | 99.4  | 161.38  |    |   |  |   `{"VSBond":["KSM","2,095","17","24"]}` | 
 | [vsBOND-KSM-2125-23-30](/kusama/assets/vsBOND-KSM-2125-23-30) | 92 | 1,549.25  |   |    |   |  |   `{"VSBond":["KSM","2,125","23","30"]}` | 
 | [vsBOND-KSM-2256-27-34](/kusama/assets/vsBOND-KSM-2256-27-34) | 84 | 3,510.11  |   |    |   |  |   `{"VSBond":["KSM","2,256","27","34"]}` | 
 | [vsBOND-KSM-2085-15-22](/kusama/assets/vsBOND-KSM-2085-15-22) | 78 | 287.68  | 141.22  |    |   |  |   `{"VSBond":["KSM","2,085","15","22"]}` | 
-| [vsBOND-KSM-2100-18-25](/kusama/assets/vsBOND-KSM-2100-18-25) | 70 | 8,267.84  | 338.96  |    |   |  |   `{"VSBond":["KSM","2,100","18","25"]}` | 
+| [vsBOND-KSM-2100-18-25](/kusama/assets/vsBOND-KSM-2100-18-25) | 69 | 8,262.84  | 338.96  |    |   |  |   `{"VSBond":["KSM","2,100","18","25"]}` | 
 | [vsBOND-KSM-2121-22-29](/kusama/assets/vsBOND-KSM-2121-22-29) | 58 | 470.15  |   |    |   |  |   `{"VSBond":["KSM","2,121","22","29"]}` | 
 | [vsBOND-KSM-2101-18-25](/kusama/assets/vsBOND-KSM-2101-18-25) | 50 | 5,082.97  | 559.82  |    |   |  |   `{"VSBond":["KSM","2,101","18","25"]}` | 
 | [vsBOND-KSM-2106-19-26](/kusama/assets/vsBOND-KSM-2106-19-26) | 48 | 99.19  | 79.68  |    |   |  |   `{"VSBond":["KSM","2,106","19","26"]}` | 
 | [vsBOND-KSM-2124-23-30](/kusama/assets/vsBOND-KSM-2124-23-30) | 46 | 396.73  |   |    |   |  |   `{"VSBond":["KSM","2,124","23","30"]}` | 
 | [vsBOND-KSM-2087-17-24](/kusama/assets/vsBOND-KSM-2087-17-24) | 45 | 161.72  | 61.42  |    |   |  |   `{"VSBond":["KSM","2,087","17","24"]}` | 
 | [vsBOND-KSM-2129-24-31](/kusama/assets/vsBOND-KSM-2129-24-31) | 42 | 1,361.38  |   |    |   |  |   `{"VSBond":["KSM","2,129","24","31"]}` | 
-| [vsBOND-KSM-2011-19-26](/kusama/assets/vsBOND-KSM-2011-19-26) | 30 | 153.35  | 2.26  |    |   |  |   `{"VSBond":["KSM","2,011","19","26"]}` | 
 | [vsBOND-KSM-2119-22-29](/kusama/assets/vsBOND-KSM-2119-22-29) | 30 | 206.12  |   |    |   |  |   `{"VSBond":["KSM","2,119","22","29"]}` | 
+| [vsBOND-KSM-2011-19-26](/kusama/assets/vsBOND-KSM-2011-19-26) | 29 | 150.85  | 2.26  |    |   |  |   `{"VSBond":["KSM","2,011","19","26"]}` | 
 | [vsBOND-KSM-2118-22-29](/kusama/assets/vsBOND-KSM-2118-22-29) | 16 | 2,009.47  |   |    |   |  |   `{"VSBond":["KSM","2,118","22","29"]}` | 
 | [vsBOND-KSM-2090-15-22](/kusama/assets/vsBOND-KSM-2090-15-22) | 9 | 1.85  | 1.31  |    |   |  |   `{"VSBond":["KSM","2,090","15","22"]}` | 
 | [vsBOND-KSM-2102-21-28](/kusama/assets/vsBOND-KSM-2102-21-28) | 9 | 216.08  |   |    |   |  |   `{"VSBond":["KSM","2,102","21","28"]}` | 

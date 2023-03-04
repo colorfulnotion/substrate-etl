@@ -19,23 +19,23 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2030-bifrost-dot/2022-07-31.md) | 175,695 | 380,233 | 204,539 | 10 |  | 6 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2030-bifrost-dot/2022-06-30.md) | 1 | 175,694 | 175,694 |  |  | 6 | -   |   
 
-## Bifrost-Polkadot Assets as of 2023-03-02
+## Bifrost-Polkadot Assets as of 2023-03-03
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DOT](/polkadot/assets/DOT) | 459 | 124,440.61 $786,408.64 |   |    |   | $6.32 |   `{"Token2":"0"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 193 | 428,684.7 $186,837.15 |   |    |   | $0.44 |   `{"Token2":"1"}` | 
-| [ASTR](/polkadot/assets/ASTR) | 12 | 168.75 $12.96 |   |    |   | $0.08 |   `{"Token2":"3"}` | 
-| [BNC](/polkadot/assets/BNC) | 3,842 | 14,600,925.08  | 65,399,074.46  | 4,143,087.6   |   |  |   `{"Token":"BNC"}` | 
-| [vsDOT](/polkadot/assets/vsDOT) | 1,403 | 2,284,753.78  |   |    |   |  |   `{"VSToken2":"0"}` | 
+| [DOT](/polkadot/assets/DOT) | 460 | 123,158 $743,025.08 |   |    |   | $6.03 |   `{"Token2":"0"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 196 | 410,609.95 $168,544.20 |   |    |   | $0.41 |   `{"Token2":"1"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 12 | 168.75 $11.78 |   |    |   | $0.07 |   `{"Token2":"3"}` | 
+| [BNC](/polkadot/assets/BNC) | 3,848 | 14,600,925.08  | 65,399,074.46  | 4,143,042.57   |   |  |   `{"Token":"BNC"}` | 
+| [vsDOT](/polkadot/assets/vsDOT) | 1,401 | 2,284,753.78  |   |    |   |  |   `{"VSToken2":"0"}` | 
 | [vsBOND-DOT-2006-6-13](/polkadot/assets/vsBOND-DOT-2006-6-13) | 361 | 364,292.66  |   |    |   |  |   `{"VSBond2":["0","2,006","6","13"]}` | 
 | [vsBOND-DOT-2004-6-13](/polkadot/assets/vsBOND-DOT-2004-6-13) | 284 | 70,814.63  |   |    |   |  |   `{"VSBond2":["0","2,004","6","13"]}` | 
 | [vsBOND-DOT-2030-8-15](/polkadot/assets/vsBOND-DOT-2030-8-15) | 274 | 338,909.67  |   |    |   |  |   `{"VSBond2":["0","2,030","8","15"]}` | 
 | [vsBOND-DOT-2019-7-14](/polkadot/assets/vsBOND-DOT-2019-7-14) | 182 | 218,535.87  |   |    |   |  |   `{"VSBond2":["0","2,019","7","14"]}` | 
-| [vGLMR](/polkadot/assets/vGLMR) | 171 | 1,027,713.3  |   |    |   |  |   `{"VToken2":"1"}` | 
-| [vDOT](/polkadot/assets/vDOT) | 155 | 298,646.82  |   |    |   |  |   `{"VToken2":"0"}` | 
+| [vGLMR](/polkadot/assets/vGLMR) | 171 | 1,112,195.72  |   |    |   |  |   `{"VToken2":"1"}` | 
+| [vDOT](/polkadot/assets/vDOT) | 154 | 301,047.84  |   |    |   |  |   `{"VToken2":"0"}` | 
 | [vsBOND-DOT-2032-7-14](/polkadot/assets/vsBOND-DOT-2032-7-14) | 144 | 160,862.57  |   |    |   |  |   `{"VSBond2":["0","2,032","7","14"]}` | 
 | [vsBOND-DOT-2000-6-13](/polkadot/assets/vsBOND-DOT-2000-6-13) | 109 | 10,115.25  |   |    |   |  |   `{"VSBond2":["0","2,000","6","13"]}` | 
 | [vsBOND-DOT-2037-8-15](/polkadot/assets/vsBOND-DOT-2037-8-15) | 108 | 59,833.01  |   |    |   |  |   `{"VSBond2":["0","2,037","8","15"]}` | 

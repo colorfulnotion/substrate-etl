@@ -16,13 +16,13 @@ _Source_: [kapex.polkaholic.io](https://kapex.polkaholic.io)
 | [2022-10-01 to 2022-10-31](/polkadot/2007-kapex/2022-10-31.md) | 101,902 | 322,458 | 220,557 |  |  | 3 | -   |   
 | [2022-09-16 to 2022-09-30](/polkadot/2007-kapex/2022-09-30.md) | 1 | 101,901 | 101,901 |  |  | 3 | -   |   
 
-## Kapex Assets as of 2023-03-02
+## Kapex Assets as of 2023-03-03
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KPX](/polkadot/assets/KPX) | 1,054 | 2,581,818  |   |    |   |  |   `{"Token":"KPX"}` | 
+| [KPX](/polkadot/assets/KPX) | 1,055 | 2,581,818  |   |    |   |  |   `{"Token":"KPX"}` | 
 
 ## substrate-etl Tables:
 
