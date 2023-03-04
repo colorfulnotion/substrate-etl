@@ -49,7 +49,7 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 | [TKN0x00000004-TKN0x0000001A](/kusama/assets/TKN0x00000004-TKN0x0000001A) | 2 | 1,462.43  |   |    |   |  |   `{"Token":"28"}` | 
 | [TKN0x00000005-TKN0x00000000](/kusama/assets/TKN0x00000005-TKN0x00000000) | 2 | 2.5  |   |    |   |  |   `{"Token":"10"}` | 
 | [TKN0x0000000F-TKN0x00000000](/kusama/assets/TKN0x0000000F-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"24"}` | 
-| [TKN0x00000010-TKN0x00000000](/kusama/assets/TKN0x00000010-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"25"}` | 
+| [TKN0x00000010-TKN0x00000000](/kusama/assets/TKN0x00000010-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"18"}` | 
 | [TKN0x00000010-TKN0x0000000F](/kusama/assets/TKN0x00000010-TKN0x0000000F) | 1 |   |   |    |   |  |   `{"Token":"22"}` | 
 
 ## substrate-etl Tables:
