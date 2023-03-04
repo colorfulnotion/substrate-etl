@@ -79,6 +79,13 @@ Notes:
 
 Schemas for several of the most common source tables are listed below -- a full list of schemas can be found [here](/schema).
 
+Substrate has preliminary EVM support:
+
+* _EVM Transactions_: `substrate-etl.${relayChain}.evmtxs{paraID}` (date-partitioned by `block_time`) - [Schema](/schema/evmtxs.json)
+* _EVM Transfers_: `substrate-etl.${relayChain}.evmtransfers${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/evmtransfers.json)
+* _Active Accounts_: `substrate-etl.${relayChain}.accountsevmactive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsevmactive.json)
+* _Passive Accounts_: `substrate-etl.${relayChain}.accountsevmpassive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsevmpassive.json)
+
 ### chains.json
 
 See:
@@ -283,13 +290,13 @@ and for every single chain that is being indexed.  See the report **Issues** col
 
 ### Roadmap
 
-Summer/Fall 2023
+Spring/Summer 2023
 * Full XCMv3 Multilocation support
 * EVM Chain Support: Transaction / Transfers, Contracts, Tokens
 * GKE systematization, Reliability Improvements
 * New functionality based on community feedback
 
-Fall/Winter 2023
+Fall/Winter 2023-2024
 * Bridgehub integration 
 * Reporting on Comparison to other ecosystems also modelled in BigQuery
 * New functionality based on community feedback

@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "para_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "relay_chain",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "address",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ts",
+    "type": "TIMESTAMP"
+  }
+]

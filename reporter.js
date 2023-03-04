@@ -284,7 +284,8 @@ select para_id, count(distinct address_pubkey) numHolders,
         let desc = `# ${chain.chainName} substrate-etl Summary (Monthly)\r\n\r\n_Source_: [${id}.polkaholic.io](https://${id}.polkaholic.io)\r\n\r\n*Relay Chain*: ${relayChain}\r\n*Para ID*: ${paraID}\r\n`;
         if (chain.crawlingStatus) desc += `Status: ${chain.crawlingStatus}`
         desc += `\r\n\r\n`
-        j.push(desc);
+
+	j.push(desc);
         j.push(`| Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |`);
         j.push(`| ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |`);
         docs = [];
@@ -316,7 +317,10 @@ order by monthDT desc
 \`\`\`
 `);
 	let broken = [];
-
+	let chainInfo = chaindata.chain;
+	let isEVM = chainInfo.isEVM;
+	let isWASM = chainInfo.isWASM;
+	
 	let prevStartBN = null;
         for (const r of chaindata.monthly) {
             let monthDT = r.monthDT ? r.monthDT : "";
@@ -410,12 +414,72 @@ order by monthDT desc
                 desc += `\r\n\r\n`
                 j[k].push(desc);
                 j[k].push(`### Daily Summary for Month ending in ${monthDT}\r\n\r\n`);
-                j[k].push(`| Date | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts | # Passive | # New | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out | # XCM In | # XCM Out | Issues | `);
-                j[k].push(`| ---- | ----------- | --------- | -------- | --------------------------- | ----------------- | --------- | ----- | ------------------------- | -------- | ----------- | ------------------ | ------------------- | -------- | --------- | ------ |`);
+		let evmcola = isEVM ? "| # EVM Txs | # EVM Transfers | # Active EVM Accounts | # Passive EVM Accounts " : "";
+		let evmcolb = isEVM ? "| --------- | --------------- | --------------------- | ---------------------- " : "";
+                j[k].push(`| Date | Start Block | End Block | # Blocks ${evmcola} | # Signed Extrinsics (total) | # Active Accounts | # Passive | # New | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out | # XCM In | # XCM Out | Issues | `);
+                j[k].push(`| ---- | ----------- | --------- | -------- ${evmcolb} | --------------------------- | ----------------- | --------- | ----- | ------------------------- | -------- | ----------- | ------------------ | ------------------- | -------- | --------- | ------ |`);
+		
+                docs[k].push(`\r\n## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:`);
+		
+		if ( isEVM ) {
+		    docs[k].push(`\r\n
+### EVM Transactions 
 
-                docs[k].push(`\r\n## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/evmtxs.json)
+\`\`\`bash
+SELECT date(block_time) as logDT, 
+ COUNT(*) numEVMTransactions
+ FROM \`substrate-etl.${relayChain}.evmtxs${paraID}\`  
+ where LAST_DAY(date(block_time)) = "${monthDT}" 
+ group by logDT 
+ order by logDT
+\`\`\`
 
-### Blocks
+### EVM Transfers 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/evmtransfers.json)
+
+\`\`\`bash
+SELECT date(block_time) as logDT, 
+COUNT(*) numEVMTransfers
+FROM \`substrate-etl.${relayChain}.evmtransfers${paraID}\`  
+where signed and LAST_DAY(date(block_time)) = "${monthDT}" 
+group by logDT 
+order by logDT
+\`\`\`
+
+### Active EVM Accounts 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/accountsevmactive.json)
+
+\`\`\`bash
+SELECT date(ts) as logDT, 
+ COUNT(*) numActiveEVMAccounts 
+ FROM \`substrate-etl.${relayChain}.accountsactive${paraID}\` 
+ where LAST_DAY(date(ts)) = "${monthDT}" 
+ group by logDT 
+ order by logDT
+\`\`\`
+
+### Passive EVM Accounts 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/accountsevmpassive.json)
+
+\`\`\`bash
+SELECT date(ts) as logDT, 
+ COUNT(*) numPassiveEVMAccounts 
+ FROM \`substrate-etl.${relayChain}.accountspassive${paraID}\` 
+ where LAST_DAY(date(ts)) = "${monthDT}" 
+ group by logDT 
+ order by logDT
+\`\`\`
+`)
+		}
+		docs[k].push(`\r\n
+### Blocks 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/blocks.json)
+
 \`\`\`bash
 SELECT date(block_time) as logDT, MIN(number) startBN, MAX(number) endBN, COUNT(*) numBlocks 
  FROM \`substrate-etl.${relayChain}.blocks${paraID}\`  
@@ -424,7 +488,10 @@ SELECT date(block_time) as logDT, MIN(number) startBN, MAX(number) endBN, COUNT(
  order by logDT
 \`\`\`
 
-### Signed Extrinsics
+### Signed Extrinsics 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/extrinsics.json)
+
 \`\`\`bash
 SELECT date(block_time) as logDT, 
 COUNT(*) numSignedExtrinsics 
@@ -434,7 +501,10 @@ group by logDT
 order by logDT
 \`\`\`
 
-### Active Accounts
+### Active Accounts 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/accountsactive.json)
+
 \`\`\`bash
 SELECT date(ts) as logDT, 
  COUNT(*) numActiveAccounts 
@@ -444,7 +514,10 @@ SELECT date(ts) as logDT,
  order by logDT
 \`\`\`
 
-### Passive Accounts
+### Passive Accounts 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/accountspassive.json)
+
 \`\`\`bash
 SELECT date(ts) as logDT, 
  COUNT(*) numPassiveAccounts 
@@ -454,7 +527,10 @@ SELECT date(ts) as logDT,
  order by logDT
 \`\`\`
 
-### New Accounts
+### New Accounts 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/accountsnew.json)
+
 \`\`\`bash
 SELECT date(ts) as logDT, 
  COUNT(*) numNewAccounts 
@@ -464,7 +540,10 @@ SELECT date(ts) as logDT,
  order by logDT
 \`\`\`
 
-### Addresses with Balances
+### Addresses with Balances 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/balances.json)
+
 \`\`\`bash
 SELECT date(ts) as logDT,
  COUNT(distinct address_pubkey) numAddress 
@@ -474,7 +553,10 @@ SELECT date(ts) as logDT,
  order by logDT
 \`\`\`
 
-### Events
+### Events 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/events.json)
+
 \`\`\`bash
 SELECT date(block_time) as logDT, 
  COUNT(*) numEvents 
@@ -485,6 +567,9 @@ SELECT date(block_time) as logDT,
 \`\`\`
 
 ### Transfers:
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/transfers.json)
+
 \`\`\`bash
 SELECT date(block_time) as logDT, 
  COUNT(*) numEvents 
@@ -494,7 +579,10 @@ SELECT date(block_time) as logDT,
  order by logDT
 \`\`\`
 
-### XCM Transfers In:
+### XCM Transfers In: 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/xcmtransfers.json)
+
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMTransfersOut 
@@ -503,7 +591,10 @@ SELECT date(origination_ts) as logDT,
  group by logDT order by logDT
 \`\`\`
 
-### XCM Transfers Out:
+### XCM Transfers Out: 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/xcmtransfers.json)
+
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMTransfersIn 
@@ -513,7 +604,10 @@ SELECT date(origination_ts) as logDT,
 order by logDT
 \`\`\`
 
-### XCM Messages Out:
+### XCM Messages In: 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/xcm.json)
+
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMMessagesOut 
@@ -522,7 +616,10 @@ SELECT date(origination_ts) as logDT,
  group by logDT order by logDT
 \`\`\`
 
-### XCM Messages Out:
+### XCM Messages Out: 
+
+[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/xcm.json)
+
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMMessagesIn 
@@ -564,7 +661,16 @@ order by logDT
                 broken.push(logDT);
                 numBlocks_missing = " **BROKEN**";
             }
-            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} | ${numXCMMessagesIn} | ${numXCMMessagesOut} | ${missing} |`)
+	    let evmcols = ""
+	    if ( isEVM ) {
+		let numEVMTransactions = r.numTransactionsEVM ? r.numTransactionsEVM.toLocaleString('en-US') : "";
+		let numEVMTransfers = r.numEVMTransfers ? r.numEVMTransfers.toLocaleString('en-US') : "";
+		let numActiveAccountsEVM = r.numActiveAccountsEVM ? r.numActiveAccountsEVM.toLocaleString('en-US') : "";
+		let numPassiveAccountsEVM = r.numPassiveAccountsEVM ? r.numPassiveAccountsEVM.toLocaleString('en-US') : "";
+		evmcols = `| ${numEVMTransactions} | ${numEVMTransfers} | ${numActiveAccountsEVM} | ${numPassiveAccountsEVM} `
+	    }
+	    
+            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} ${evmcols} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} | ${numXCMMessagesIn} | ${numXCMMessagesOut} | ${missing} |`)
             prevStartBN = r.startBN;
         }
 	
