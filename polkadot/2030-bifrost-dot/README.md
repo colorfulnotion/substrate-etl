@@ -9,7 +9,6 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-05](/polkadot/2030-bifrost-dot/2023-03-31.md) | 1,842,354 | 1,872,372 | 29,920 | 1,347 | 70 | 3,853 | - 99 (0.33%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2030-bifrost-dot/2023-02-28.md) | 1,645,275 | 1,842,353 | 197,079 | 11,360 | 104 | 3,829 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2030-bifrost-dot/2023-01-31.md) | 1,426,953 | 1,645,274 | 218,322 | 9,277 | 77 | 3,575 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2030-bifrost-dot/2022-12-31.md) | 1,212,434 | 1,426,952 | 214,519 | 9,329 |  | 3,412 | -   |   
@@ -18,7 +17,7 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/polkadot/2030-bifrost-dot/2022-09-30.md) | 593,248 | 799,903 | 206,656 | 3,397 |  | 2,805 | -   |   
 | [2022-08-01 to 2022-08-31](/polkadot/2030-bifrost-dot/2022-08-31.md) | 380,234 | 593,247 | 213,014 | 161 |  | 1,333 | -   |   
 | [2022-07-01 to 2022-07-31](/polkadot/2030-bifrost-dot/2022-07-31.md) | 175,695 | 380,233 | 204,539 | 10 |  | 6 | -   |   
-| [2022-06-04 to 2022-06-30](/polkadot/2030-bifrost-dot/2022-06-30.md) | 1 | 175,694 | 175,694 |  |  | 6 | -   |   
+| [2022-06-04 to 2022-06-30](/polkadot/2030-bifrost-dot/2022-06-30.md) | 1 | 175,694 | 175,694 |  | 4 | 6 | -   |   
 
 ## Bifrost-Polkadot Assets as of 2023-03-03
 
