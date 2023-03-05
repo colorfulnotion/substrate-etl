@@ -9,7 +9,6 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-05](/polkadot/2030-bifrost-dot/2023-03-31.md) | 1,842,354 | 1,876,281 | 33,829 | 1,531 | 70 | 3,853 | - 99 (0.29%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2030-bifrost-dot/2023-02-28.md) | 1,645,275 | 1,842,353 | 197,079 | 11,360 | 104 | 3,829 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2030-bifrost-dot/2023-01-31.md) | 1,426,953 | 1,645,274 | 218,322 | 9,277 | 77 | 3,575 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2030-bifrost-dot/2022-12-31.md) | 1,212,434 | 1,426,952 | 214,519 | 9,329 | 67 | 3,412 | -   |   
