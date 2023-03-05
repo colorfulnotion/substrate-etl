@@ -4,7 +4,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 *XCM Interior Keys*:
-* `here~kusama`
+* `[{"network":"kusama"},"here"]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
@@ -24,6 +24,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 | [Amplitude](/kusama/2124-amplitude) | 1 | 1 $33.97 |   |    |   | $34.07 | `{"XCM":"KSM"}` |
 | [Dora Factory](/kusama/2115-dorafactory) | 3 | 0.29 $9.88 |   |    |   | $34.07 | `{"Token":"KSM"}` |
 | [Khala](/kusama/2004-khala) | 2 | 0.23 $7.97 |   |    |   | $33.95 | `{"Token":"0"}` |
+| [Calamari](/kusama/2084-calamari) | 4 | 0.05 $1.85 |   |    |   | $34.07 | `{"Token":"12"}` |
 | [BridgeHub](/kusama/1002-bridgehub) | 4 |   |   |    |   | $36.93 | `{"Token":"KSM"}` |
 | [Statemine](/kusama/1000-statemine) | 1 | 85,000,000  |   |    |   |  | `{"Token":"1234"}` |
 

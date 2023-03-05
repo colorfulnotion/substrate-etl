@@ -4,13 +4,14 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 *XCM Interior Keys*:
-* `[{"parachain":2000},{"generalKey":"0x0083"}]~kusama`
+* `[{"network":"kusama"},{"parachain":2000},{"generalKey":"0x0083"}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Karura](/kusama/2000-karura) | 4,952 | 1,584,856.97 $6,323,765.59 |   |    |   | $3.99 | `{"Token":"LKSM"}` |
 | [Kintsugi](/kusama/2092-kintsugi) | 30 | 27,167.23 $107,893.24 | 33,881.87 $134,560.05 |    |   | $3.97 | `{"ForeignAsset":"2"}` |
+| [Calamari](/kusama/2084-calamari) | 5 | 621.12 $2,478.34 |   |    |   | $3.99 | `{"Token":"10"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 29 | 113.63 $453.38 |   |    |   | $3.99 | `{"Token":"109"}` |
 | [Turing](/kusama/2114-turing) | 3 | 2.7 $10.72 |   |    |   | $3.97 | `{"Token":"4"}` |
 | [Shiden](/kusama/2007-shiden) | 3 | 2.2 $8.77 |   |    |   | $3.99 | `{"Token":"18446744073709551619"}` |

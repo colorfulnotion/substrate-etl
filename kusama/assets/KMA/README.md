@@ -4,11 +4,12 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 *XCM Interior Keys*:
-* `{"parachain":2084}~kusama`
+* `[{"network":"kusama"},{"parachain":2084}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
+| [Calamari](/kusama/2084-calamari) | 35,648 | 10,115,164,435.95 $20,590,240.20 | 16.35 $0.03 | 1,883,482,860.74  $3,833,982.61 | 1,004,898,463.27 $2,045,552.58 | $0.00204 | `{"Token":"KMA"}` |
 | [Moonriver](/kusama/2023-moonriver) | 117 | 7,059,392.71 $14,369.97 |   |    |   | $0.00204 | `{"Token":"213357169630950964874127107356898319277"}` |
 | [Karura](/kusama/2000-karura) | 9 | 42,746.23 $87.01 |   |    |   | $0.00204 | `{"ForeignAsset":"10"}` |
 | [Khala](/kusama/2004-khala) | 5 | 391.4 $0.80 |   |    |   | $0.00204 | `{"Token":"8"}` |

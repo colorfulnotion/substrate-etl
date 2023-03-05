@@ -4,7 +4,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 *XCM Interior Keys*:
-* `{"parachain":2004}~kusama`
+* `[{"network":"kusama"},{"parachain":2004}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
@@ -15,6 +15,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 145 | 20,446.59 $3,414.04 |   |    |   | $0.17 | `{"Token":"115"}` |
 | [Moonriver](/kusama/2023-moonriver) | 48 | 4,434.39 $740.43 |   |    |   | $0.17 | `{"Token":"189307976387032586987344677431204943363"}` |
 | [Shiden](/kusama/2007-shiden) | 15 | 53.6 $8.95 |   |    |   | $0.17 | `{"Token":"18446744073709551623"}` |
+| [Calamari](/kusama/2084-calamari) | 3 | 8.43 $1.41 |   |    |   | $0.17 | `{"Token":"13"}` |
 | [Turing](/kusama/2114-turing) | 2 | 0.76 $0.13 |   |    |   | $0.17 | `{"Token":"7"}` |
 
 ## Substrate-etl Queries:

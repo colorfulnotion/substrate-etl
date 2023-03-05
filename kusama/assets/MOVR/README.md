@@ -4,7 +4,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 *XCM Interior Keys*:
-* `[{"parachain":2023},{"palletInstance":10}]~kusama`
+* `[{"network":"kusama"},{"parachain":2023},{"palletInstance":10}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
@@ -14,6 +14,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 146 | 1,243.2 $11,336.72 |   |    |   | $9.12 | `{"Token":"113"}` |
 | [Karura](/kusama/2000-karura) | 114 | 619.73 $5,651.30 |   |    |   | $9.12 | `{"ForeignAsset":"3"}` |
 | [Shiden](/kusama/2007-shiden) | 25 | 6.67 $60.80 |   |    |   | $9.12 | `{"Token":"18446744073709551620"}` |
+| [Calamari](/kusama/2084-calamari) | 2 | 0.77 $6.99 |   |    |   | $9.12 | `{"Token":"11"}` |
 | [Khala](/kusama/2004-khala) | 11 | 0.44 $3.99 |   |    |   | $9.13 | `{"Token":"6"}` |
 | [Crust Shadow](/kusama/2012-shadow) | 4 | 0.1 $0.92 |   |    |   | $9.12 | `{"Token":"232263652204149413431520870009560565298"}` |
 

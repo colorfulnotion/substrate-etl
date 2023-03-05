@@ -4,7 +4,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 *XCM Interior Keys*:
-* `[{"parachain":2000},{"generalKey":"0x0080"}]~kusama`
+* `[{"network":"kusama"},{"parachain":2000},{"generalKey":"0x0080"}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
@@ -17,6 +17,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 | [Shiden](/kusama/2007-shiden) | 23 | 43.93 $8.37 |   |    |   | $0.19 | `{"Token":"18446744073709551618"}` |
 | [Turing](/kusama/2114-turing) | 6 | 30.17 $5.72 |   |    |   | $0.19 | `{"Token":"3"}` |
 | [Crust Shadow](/kusama/2012-shadow) | 5 | 15.05 $2.87 |   |    |   | $0.19 | `{"Token":"10810581592933651521121702237638664357"}` |
+| [Calamari](/kusama/2084-calamari) | 5 | 4 $0.76 |   |    |   | $0.19 | `{"Token":"8"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

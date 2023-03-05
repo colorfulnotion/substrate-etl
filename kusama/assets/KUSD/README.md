@@ -4,7 +4,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 
 *XCM Interior Keys*:
-* `[{"parachain":2000},{"generalKey":"0x0081"}]~kusama`
+* `[{"network":"kusama"},{"parachain":2000},{"generalKey":"0x0081"}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
@@ -16,6 +16,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 13 | 23.68 $23.68 |   |    |   | $1.00 | `{"Token":"103"}` |
 | [Shiden](/kusama/2007-shiden) | 21 | 16.99 $16.99 |   |    |   | $1.00 | `{"Token":"18446744073709551616"}` |
 | [Turing](/kusama/2114-turing) | 4 | 11.16 $11.16 |   |    |   | $1.00 | `{"Token":"2"}` |
+| [Calamari](/kusama/2084-calamari) | 4 | 3.4 $3.40 |   |    |   | $1.00 | `{"Token":"9"}` |
 | [Crust Shadow](/kusama/2012-shadow) | 5 | 1.51 $1.51 |   |    |   | $1.00 | `{"Token":"214920334981412447805621250067209749032"}` |
 | [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 3 | 0.1 $0.10 |   |    |   | $1.00 | `{"Stable":"0"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 1,608 | 73,922.77  |   |    |   |  | `{"Stable":"KUSD"}` |
