@@ -30,7 +30,7 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 | [KSM](/kusama/assets/KSM) | 875 | 13,782.58 $469,845.50 |   |    |   | $34.09 |   `{"Token":"4"}` | 
 | [BNC](/kusama/assets/BNC) | 156 | 75,049.07 $27,033.71 |   |    |   | $0.36 |   `{"Token":"14"}` | 
 | [ZLK](/kusama/assets/ZLK) | 49 | 134,830.46 $3,856.35 |   |    |   | $0.03 |   `{"Token":"26"}` | 
-| [MGX](/kusama/assets/MGX) | 1,649 | 1,369,669,231.78  | 17,611.98  |    | 299,656,784.66  |  |   `{"Token":"0"}` | 
+| [MGX](/kusama/assets/MGX) | 1,779 |   |   |    |   |  |   `{"Token":"MGX"}` | 
 | [TUR](/kusama/assets/TUR) | 546 | 5,359,880.6  |   |    |   |  |   `{"Token":"7"}` | 
 | [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 435 | 2,437,664.5  | 110,310,196.55  |    | 1,724,749.58  |  |   `{"Token":"5"}` | 
 | [TKN0x00000000-TKN0x00000007](/kusama/assets/TKN0x00000000-TKN0x00000007) | 324 | 125,245.5  | 44,213,793.8  |    | 112,379.03  |  |   `{"Token":"8"}` | 
