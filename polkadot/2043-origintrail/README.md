@@ -19,14 +19,14 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2043-origintrail/2022-07-31.md) | 176,609 | 388,054 | 211,446 | 330,210 | 8 | 2,833 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2043-origintrail/2022-06-30.md) | 1 | 176,608 | 176,608 | 1,124,329 | 5 | 11 | -   |   
 
-## Origin Trail Assets as of 2023-03-03
+## Origin Trail Assets as of 2023-03-04
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [OTP](/polkadot/assets/OTP) | 3,654 | 500,053,154.98  | 166  | 22,330,613.38   |   |  |   `{"Token":"OTP"}` | 
-| [TRAC](/polkadot/assets/TRAC) | 218 | 84,040,684.43  |   |    |   |  |   `{"Token":"1"}` | 
+| [OTP](/polkadot/assets/OTP) | 3,654 | 500,053,154.96  | 166  | 22,330,609.01   |   |  |   `{"Token":"OTP"}` | 
+| [TRAC](/polkadot/assets/TRAC) | 217 | 84,040,684.43  |   |    |   |  |   `{"Token":"1"}` | 
 
 ## substrate-etl Tables:
 

@@ -1,6 +1,6 @@
 # ASTR on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
 
 
 *XCM Interior Keys*:
@@ -9,11 +9,11 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Moonbeam](/polkadot/2004-moonbeam) | 124 | 1,160,833.44 $80,601.69 |   |    |   | $0.07 | `{"Token":"224077081838586484055667086558292981199"}` |
-| [Acala](/polkadot/2000-acala) | 102 | 44,292.58 $3,075.43 |   |    |   | $0.07 | `{"ForeignAsset":"2"}` |
-| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 12 | 168.75 $11.78 |   |    |   | $0.07 | `{"Token2":"3"}` |
-| [Phala](/polkadot/2035-phala) | 11 | 105.33 $7.31 |   |    |   | $0.07 | `{"Token":"6"}` |
-| [Clover](/polkadot/2002-clover) | 2 | 2.3 $0.16 |   |    |   | $0.07 | `{"Token":"12"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 127 | 1,203,693.35 $80,399.08 |   |    |   | $0.07 | `{"Token":"224077081838586484055667086558292981199"}` |
+| [Acala](/polkadot/2000-acala) | 102 | 44,292.58 $2,958.46 |   |    |   | $0.07 | `{"ForeignAsset":"2"}` |
+| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 12 | 168.75 $11.27 |   |    |   | $0.07 | `{"Token2":"3"}` |
+| [Phala](/polkadot/2035-phala) | 11 | 105.33 $7.04 |   |    |   | $0.07 | `{"Token":"6"}` |
+| [Clover](/polkadot/2002-clover) | 2 | 2.3 $0.15 |   |    |   | $0.07 | `{"Token":"12"}` |
 | [Astar](/polkadot/2006-astar) | 1 | 74,000,000  |   |    |   |  | `{"Token":"1333"}` |
 
 ## Substrate-etl Queries:
@@ -25,7 +25,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "ASTR" and date(ts) = "2023-03-03"
+ where symbol = "ASTR" and date(ts) = "2023-03-04"
  group by para_id
  order by free_usd desc
 ```

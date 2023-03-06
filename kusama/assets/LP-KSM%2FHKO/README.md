@@ -1,12 +1,12 @@
 # LP-KSM/HKO on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 80 | 18,561.69 $36,955.67 |   |    |   | $1.99 | `{"Token":"5002"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 80 | 18,561.69 $37,210.12 |   |    |   | $2.00 | `{"Token":"5002"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LP-KSM/HKO" and date(ts) = "2023-03-03"
+ where symbol = "LP-KSM/HKO" and date(ts) = "2023-03-04"
  group by para_id
  order by free_usd desc
 ```

@@ -1,6 +1,6 @@
 # SDN on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
 
 
 *XCM Interior Keys*:
@@ -9,11 +9,11 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Shiden](/kusama/2007-shiden) | 638,319 | 77,446,175.68 $31,209,750.33 | 995,883.1 $401,327.28 | 18,395,445.49  $7,413,113.12 | 15,873,503.91 $6,396,805.13 | $0.40 | `{"Token":"SDN"}` |
-| [Moonriver](/kusama/2023-moonriver) | 45 | 32,970.6 $13,286.70 |   |    |   | $0.40 | `{"Token":"16797826370226091782818345603793389938"}` |
-| [Karura](/kusama/2000-karura) | 39 | 7,553.17 $3,043.83 |   |    |   | $0.40 | `{"ForeignAsset":"18"}` |
-| [Khala](/kusama/2004-khala) | 9 | 29.99 $12.09 |   |    |   | $0.40 | `{"Token":"12"}` |
-| [Crust Shadow](/kusama/2012-shadow) | 11 | 3.61 $1.45 |   |    |   | $0.40 | `{"Token":"16797826370226091782818345603793389938"}` |
+| [Shiden](/kusama/2007-shiden) | 638,328 | 77,464,989.7 $30,817,674.06 | 995,883.1 $396,189.31 | 18,390,825.68  $7,316,369.29 | 15,875,885.63 $6,315,857.92 | $0.40 | `{"Token":"SDN"}` |
+| [Moonriver](/kusama/2023-moonriver) | 45 | 33,466.6 $13,313.92 |   |    |   | $0.40 | `{"Token":"16797826370226091782818345603793389938"}` |
+| [Karura](/kusama/2000-karura) | 39 | 7,553.17 $3,004.86 |   |    |   | $0.40 | `{"ForeignAsset":"18"}` |
+| [Khala](/kusama/2004-khala) | 9 | 29.99 $11.93 |   |    |   | $0.40 | `{"Token":"12"}` |
+| [Crust Shadow](/kusama/2012-shadow) | 11 | 3.61 $1.43 |   |    |   | $0.40 | `{"Token":"16797826370226091782818345603793389938"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 3 | 0.6 $0.24 |   |    |   | $0.40 | `{"Token2":"3"}` |
 
 ## Substrate-etl Queries:
@@ -25,7 +25,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "SDN" and date(ts) = "2023-03-03"
+ where symbol = "SDN" and date(ts) = "2023-03-04"
  group by para_id
  order by free_usd desc
 ```

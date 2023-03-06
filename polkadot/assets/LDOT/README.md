@@ -1,6 +1,6 @@
 # LDOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
 
 
 *XCM Interior Keys*:
@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 2,836 | 19,207,125.99  |   |    |   |  | `{"Token":"LDOT"}` |
-| [Parallel](/polkadot/2012-parallel) | 82 | 9,251.02  |   |    |   |  | `{"Token":"110"}` |
+| [Acala](/polkadot/2000-acala) | 2,843 | 19,203,920.65  |   |    |   |  | `{"Token":"LDOT"}` |
+| [Parallel](/polkadot/2012-parallel) | 83 | 9,359.81  |   |    |   |  | `{"Token":"110"}` |
 | [Astar](/polkadot/2006-astar) | 17 | 886.22  |   |    |   |  | `{"Token":"18446744073709551618"}` |
 
 ## Substrate-etl Queries:
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LDOT" and date(ts) = "2023-03-03"
+ where symbol = "LDOT" and date(ts) = "2023-03-04"
  group by para_id
  order by free_usd desc
 ```

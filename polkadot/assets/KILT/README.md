@@ -1,12 +1,12 @@
 # KILT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [KILT Spiritnet](/polkadot/2086-kilt) | 18,136 | 157,607,275.37  | 27,835.18  | 1,000,000,117,173,804   | 74,765,337.56  |  | `{"Token":"KILT"}` |
+| [KILT Spiritnet](/polkadot/2086-kilt) | 18,137 | 157,613,623.85  | 27,835.66  | 1,000,000,117,184,152   | 74,775,761.56  |  | `{"Token":"KILT"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "KILT" and date(ts) = "2023-03-03"
+ where symbol = "KILT" and date(ts) = "2023-03-04"
  group by para_id
  order by free_usd desc
 ```

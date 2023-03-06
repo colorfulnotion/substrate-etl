@@ -19,13 +19,13 @@ _Source_: [unique.polkaholic.io](https://unique.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2037-unique/2022-07-31.md) | 132,219 | 334,626 | 202,408 | 26,645 | 95 | 11,250 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2037-unique/2022-06-30.md) | 1 | 132,218 | 132,218 | 4 |  | 4 | -   |   
 
-## Unique Assets as of 2023-03-03
+## Unique Assets as of 2023-03-04
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [UNQ](/polkadot/assets/UNQ) | 32,303 | 1,041,977,864.95  | 2  | 856,913,313.1   | 856,913,313.1  |  |   `{"Token":"UNQ"}` | 
+| [UNQ](/polkadot/assets/UNQ) | 32,307 | 1,041,977,864.95  | 2  | 856,882,259.56   | 856,882,259.56  |  |   `{"Token":"UNQ"}` | 
 
 ## substrate-etl Tables:
 

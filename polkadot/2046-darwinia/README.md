@@ -17,7 +17,7 @@ _Source_: [darwinia.polkaholic.io](https://darwinia.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/polkadot/2046-darwinia/2022-09-30.md) | 10,392 | 145,348 | 134,957 | 12 | 4 | 10 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2046-darwinia/2022-08-31.md) | 1 | 10,391 | 10,391 |  | 4 | 8 | -   |   
 
-## Darwinia Assets as of 2023-03-03
+## Darwinia Assets as of 2023-03-04
 
 
 

@@ -25,13 +25,13 @@ _Source_: [picasso.polkaholic.io](https://picasso.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/kusama/2087-picasso/2022-01-31.md) | 10,005 | 40,394 | 30,390 | 13 | 3 | 8 | -   |   
 | [2021-12-28 to 2021-12-31](/kusama/2087-picasso/2021-12-31.md) | 1 | 10,004 | 10,004 | 1 | 4 | 6 | -   |   
 
-## Picasso Assets as of 2023-03-03
+## Picasso Assets as of 2023-03-04
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PICA](/kusama/assets/PICA) | 2,686 | 9,999,999,966.7  | 33.3  | 756,631,216   | 751,577,006  |  |   `{"Token":"PICA"}` | 
+| [PICA](/kusama/assets/PICA) | 2,707 | 9,999,999,932  | 68  | 756,631,216   | 751,577,006  |  |   `{"Token":"PICA"}` | 
 
 ## substrate-etl Tables:
 

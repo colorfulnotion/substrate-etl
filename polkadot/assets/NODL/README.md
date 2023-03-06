@@ -1,12 +1,12 @@
 # NODL on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-03
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Nodle](/polkadot/2026-nodle) | 714,046 | 8,434,446,589.46  | 216,295.2  | 5,770,118,924.79   | 5,770,118,924.79  |  | `{"Token":"NODL"}` |
+| [Nodle](/polkadot/2026-nodle) | 714,985 | 8,434,596,320.18  | 219,876.48  | 5,770,062,106.58   | 5,770,062,106.58  |  | `{"Token":"NODL"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "NODL" and date(ts) = "2023-03-03"
+ where symbol = "NODL" and date(ts) = "2023-03-04"
  group by para_id
  order by free_usd desc
 ```

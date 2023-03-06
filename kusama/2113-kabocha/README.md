@@ -19,7 +19,7 @@ _Source_: [kabocha.polkaholic.io](https://kabocha.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/kusama/2113-kabocha/2022-07-31.md) | 17,503 | 197,048 | 179,546 | 3 | 2 | 7 | -   |   
 | [2022-06-27 to 2022-06-30](/kusama/2113-kabocha/2022-06-30.md) | 1 | 17,502 | 17,502 | 1 | 2 | 6 | -   |   
 
-## Kabocha Assets as of 2023-03-03
+## Kabocha Assets as of 2023-03-04
 
 
 

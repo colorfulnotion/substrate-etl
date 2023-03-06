@@ -23,7 +23,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/1000-statemine/2022-03-31.md) | 1,771,429 | 1,906,931 | 135,503 | 6,497 | 130 | 20,900 | -   |   
 | [2022-02-01 to 2022-02-28](/kusama/1000-statemine/2022-02-28.md) | 1,640,988 | 1,771,428 | 130,441 | 3,560 | 48 | 20,895 | -   |   
 | [2022-01-01 to 2022-01-31](/kusama/1000-statemine/2022-01-31.md) | 1,444,785 | 1,640,987 | 196,203 | 7,322 | 83 | 18,855 | -   |   
-| [2021-12-01 to 2021-12-31](/kusama/1000-statemine/2021-12-31.md) | 1,248,708 | 1,444,784 | 196,077 | 7,623 | 68 | 17,426 | -   |   
+| [2021-12-01 to 2021-12-31](/kusama/1000-statemine/2021-12-31.md) | 1,248,708 | 1,444,784 | 196,077 | 7,623 | 69 | 17,426 | -   |   
 | [2021-11-01 to 2021-11-30](/kusama/1000-statemine/2021-11-30.md) | 1,072,793 | 1,248,707 | 175,915 | 5,475 |  | 15,154 | -   |   
 | [2021-10-01 to 2021-10-31](/kusama/1000-statemine/2021-10-31.md) | 868,216 | 1,072,792 | 204,577 | 5,060 |  | 13,639 | -   |   
 | [2021-09-01 to 2021-09-30](/kusama/1000-statemine/2021-09-30.md) | 656,943 | 868,215 | 211,273 | 16,472 |  | 12,360 | -   |   
@@ -33,14 +33,14 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [2021-05-25 to 2021-05-31](/kusama/1000-statemine/2021-05-31.md) | 1 | 47,606 | 47,606 |  |  |  | -   |   
 | [2020-01-01 to 2020-01-01](/kusama/1000-statemine/2020-01-31.md) | 1 | 66,686 | 66,680 |  |  |  | - 6 (0.01%) |   
 
-## Statemine Assets as of 2023-03-03
+## Statemine Assets as of 2023-03-04
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [RMRK](/kusama/assets/RMRK) | 6,149 | 9,999,611.77 $24,068,174.42 |   |    |   | $2.41 |   `{"Token":"8"}` | 
-| [KSM](/kusama/assets/KSM) | 49,887 | 3,363.89 $114,622.33 | 1,035.2 $35,273.74 |    |   | $34.07 |   `{"Token":"KSM"}` | 
+| [RMRK](/kusama/assets/RMRK) | 6,153 | 9,999,611.77 $23,056,993.85 |   |    |   | $2.31 |   `{"Token":"8"}` | 
+| [USDT](/kusama/assets/USDT) | 442 | 3,499,755.74 $3,501,122.91 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
 | [GRB](/kusama/assets/GRB) | 816 | 2,043,401  |   |    |   |  |   `{"Token":"677"}` | 
 | [BILL](/kusama/assets/BILL) | 664 | 1,000,000  |   |    |   |  |   `{"Token":"223"}` | 
 | [CHRWNA](/kusama/assets/CHRWNA) | 303 | 5,670  |   |    |   |  |   `{"Token":"567"}` | 
@@ -64,7 +64,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [HOLIC](/kusama/assets/HOLIC) | 5 | 61,182,033.34  |   |    |   |  |   `{"Token":"1107"}` | 
 | [Meow](/kusama/assets/Meow) | 5 | 1,000,000,000,000  |   |    |   |  |   `{"Token":"3"}` | 
 | [BAILEGO](/kusama/assets/BAILEGO) | 4 | 10,000  |   |    |   |  |   `{"Token":"88888"}` | 
-| [FAN](/kusama/assets/FAN) | 4 | 6,942,000,694,270,425,000,000,000  |   |    |   |  |   `{"Token":"46"}` | 
+| [FAN](/kusama/assets/FAN) | 4 | 6,942,000,694,270,427,000,000,000  |   |    |   |  |   `{"Token":"46"}` | 
 | [BEER](/kusama/assets/BEER) | 3 | 1,024  |   |    |   |  |   `{"Token":"5"}` | 
 | [CRIB](/kusama/assets/CRIB) | 3 | 5,000  |   |    |   |  |   `{"Token":"45"}` | 
 | [DRX](/kusama/assets/DRX) | 3 | 1,000  |   |    |   |  |   `{"Token":"102"}` | 
@@ -108,6 +108,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [ki](/kusama/assets/ki) | 1 | 1,000,000,000  |   |    |   |  |   `{"Token":"31"}` | 
 | [KODA](/kusama/assets/KODA) | 1 | 10,000  |   |    |   |  |   `{"Token":"383"}` | 
 | [KPOTS](/kusama/assets/KPOTS) | 1 | 8,099,991,100  |   |    |   |  |   `{"Token":"9000"}` | 
+| [KSM](/kusama/assets/KSM) | 1 | 85,000,000  |   |    |   |  |   `{"Token":"1234"}` | 
 | [LN](/kusama/assets/LN) | 1 | 13  |   |    |   |  |   `{"Token":"13"}` | 
 | [LUCKY](/kusama/assets/LUCKY) | 1 | 35  |   |    |   |  |   `{"Token":"35"}` | 
 | [LUL](/kusama/assets/LUL) | 1 | 1  |   |    |   |  |   `{"Token":"95834"}` | 
@@ -125,7 +126,6 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [TOT](/kusama/assets/TOT) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"9"}` | 
 | [TTT](/kusama/assets/TTT) | 1 | 20,141  |   |    |   |  |   `{"Token":"43"}` | 
 | [USDC](/kusama/assets/USDC) | 1 | 6,942,000,000  |   |    |   |  |   `{"Token":"10"}` | 
-| [USDt](/kusama/assets/USDt) | 1 | 69,000,000,000  |   |    |   |  |   `{"Token":"11"}` | 
 | [VCOP](/kusama/assets/VCOP) | 1 | 280,000  |   |    |   |  |   `{"Token":"863012"}` | 
 | [VHM](/kusama/assets/VHM) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"6789"}` | 
 | [WAVE](/kusama/assets/WAVE) | 1 | 1,010,000,000  |   |    |   |  |   `{"Token":"2021"}` | 

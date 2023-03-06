@@ -26,15 +26,15 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 | [2021-12-01 to 2021-12-31](/polkadot/1000-statemint/2021-12-31.md) | 184,519 | 389,635 | 205,117 |  | 2 |  | -   |   
 | [2021-11-05 to 2021-11-30](/polkadot/1000-statemint/2021-11-30.md) | 1 | 184,518 | 184,518 |  |  |  | -   |   
 
-## Statemint Assets as of 2023-03-03
+## Statemint Assets as of 2023-03-04
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [USDT](/polkadot/assets/USDT) | 297 | 7,998,764.14 $8,009,196.97 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
-| [DOT](/polkadot/assets/DOT) | 611 | 3,356.78 $20,253.62 | 7,909.55 $47,723.43 |    |   | $6.03 |   `{"Token":"DOT"}` | 
-| [JOE](/polkadot/assets/JOE) | 4 | 1,000,000  |   |    |   |  |   `{"Token":"8"}` | 
+| [USDT](/polkadot/assets/USDT) | 298 | 7,998,764.14 $7,968,919.93 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
+| [JOE](/polkadot/assets/JOE) | 4 | 1,000,000 $2,390,000.00 |   |    |   | $2.39 |   `{"Token":"8"}` | 
+| [DOT](/polkadot/assets/DOT) | 612 | 3,357.83 $19,479.68 | 7,909.55 $45,885.37 |    |   | $5.80 |   `{"Token":"DOT"}` | 
 | [USDC](/polkadot/assets/USDC) | 4 | 250,020,000  |   |    |   |  |   `{"Token":"1337"}` | 
 | [VSC](/polkadot/assets/VSC) | 4 | 31,415,926.54  |   |    |   |  |   `{"Token":"868367"}` | 
 | [DANGER](/polkadot/assets/DANGER) | 2 | 666  |   |    |   |  |   `{"Token":"666"}` | 

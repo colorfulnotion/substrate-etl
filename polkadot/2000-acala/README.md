@@ -23,32 +23,32 @@ _Source_: [acala.polkaholic.io](https://acala.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/polkadot/2000-acala/2022-03-31.md) | 496,216 | 711,106 | 214,891 | 247,355 | 2,334 | 152,186 | -   |   
 | [2022-02-01 to 2022-02-28](/polkadot/2000-acala/2022-02-28.md) | 313,202 | 496,215 | 183,014 | 205,279 | 1,956 | 147,203 | -   |   
 | [2022-01-01 to 2022-01-31](/polkadot/2000-acala/2022-01-31.md) | 93,438 | 313,201 | 219,764 | 163,912 | 324 | 135,234 | -   |   
-| [2021-12-18 to 2021-12-31](/polkadot/2000-acala/2021-12-31.md) | 1 | 93,437 | 93,437 | 1,413 | 21 | 111,685 | -   |   
+| [2021-12-18 to 2021-12-31](/polkadot/2000-acala/2021-12-31.md) | 1 | 93,437 | 93,437 | 1,413 | 28 | 111,685 | -   |   
 
-## Acala Assets as of 2023-03-03
+## Acala Assets as of 2023-03-04
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ACA](/polkadot/assets/ACA) | 158,079 | 999,971,111.44 $126,167,674.81 | 28,886.57 $3,644.66 | 494,423,166.7  $62,382,023.44 | 494,290,163.38 $62,365,242.24 | $0.13 |   `{"Token":"ACA"}` | 
-| [AUSD](/polkadot/assets/AUSD) | 7,617 | 11,229,566.16 $11,229,566.16 |   |    | 3,734,615.59 $3,734,615.59 | $1.00 |   `{"Token":"AUSD"}` | 
-| [DOT](/polkadot/assets/DOT) | 10,195 | 1,540,839.39 $9,296,882.79 |   |    |   | $6.03 |   `{"Token":"DOT"}` | 
-| [ACA/AUSD](/polkadot/assets/ACA%252FAUSD) | 2,474 | 1,141,686.67 $604,434.08 |   |    |   | $0.53 |   `[{"Token":"ACA"},{"Token":"AUSD"}]` | 
-| [INTR](/polkadot/assets/INTR) | 407 | 1,206,328.11 $40,420.09 |   |    |   | $0.03 |   `{"ForeignAsset":"4"}` | 
+| [ACA](/polkadot/assets/ACA) | 158,076 | 999,970,103.32 $120,285,078.71 | 29,894.69 $3,595.99 | 494,406,832.83  $59,471,542.80 | 494,273,593.17 $59,455,515.58 | $0.12 |   `{"Token":"ACA"}` | 
+| [DOT](/polkadot/assets/DOT) | 10,209 | 2,897,494.75 $17,043,676.24 |   |    |   | $5.88 |   `{"Token":"DOT"}` | 
+| [AUSD](/polkadot/assets/AUSD) | 7,621 | 11,231,848.1 $11,231,848.10 |   |    | 3,734,615.59 $3,734,615.59 | $1.00 |   `{"Token":"AUSD"}` | 
+| [ACA/AUSD](/polkadot/assets/ACA%252FAUSD) | 2,476 | 1,141,203.55 $590,357.02 |   |    |   | $0.52 |   `[{"Token":"ACA"},{"Token":"AUSD"}]` | 
+| [INTR](/polkadot/assets/INTR) | 407 | 1,205,170.96 $38,849.00 |   |    |   | $0.03 |   `{"ForeignAsset":"4"}` | 
 | [IBTC](/polkadot/assets/IBTC) | 86 | 1.15 $20,491.06 |   |    |   | $17,841.21 |   `{"ForeignAsset":"3"}` | 
 | [AUSD/IBTC](/polkadot/assets/AUSD%252FIBTC) | 12 | 10,555 $10,211.33 |   |    |   | $0.97 |   `[{"Token":"AUSD"},{"ForeignAsset":"3"}]` | 
-| [GLMR](/polkadot/assets/GLMR) | 586 | 23,486.67 $9,623.31 |   |    |   | $0.41 |   `{"ForeignAsset":"0"}` | 
-| [AUSD/INTR](/polkadot/assets/AUSD%252FINTR) | 37 | 12,780.18 $8,312.65 |   |    |   | $0.65 |   `[{"Token":"AUSD"},{"ForeignAsset":"4"}]` | 
-| [ASTR](/polkadot/assets/ASTR) | 102 | 44,292.58 $3,075.43 |   |    |   | $0.07 |   `{"ForeignAsset":"2"}` | 
-| [PARA](/polkadot/assets/PARA) | 15 | 1,412.76 $16.05 |   |    |   | $0.01 |   `{"ForeignAsset":"1"}` | 
-| [PHA](/polkadot/assets/PHA) | 2 | 11 $1.84 |   |    |   | $0.17 |   `{"ForeignAsset":"9"}` | 
-| [lcDOT](/polkadot/assets/lcDOT) | 54,068 | 24,116,159.75  |   |    |   |  |   `{"LiquidCrowdloan":"13"}` | 
-| [LDOT](/polkadot/assets/LDOT) | 2,836 | 19,207,125.99  |   |    |   |  |   `{"Token":"LDOT"}` | 
-| [DOT/lcDOT](/polkadot/assets/DOT%252FlcDOT) | 472 | 242,086.67  |   |    |   |  |   `[{"Token":"DOT"},{"LiquidCrowdloan":"13"}]` | 
-| [AUSD/lcDOT](/polkadot/assets/AUSD%252FlcDOT) | 388 | 1,660,055.77  |   |    |   |  |   `[{"Token":"AUSD"},{"LiquidCrowdloan":"13"}]` | 
-| [tDOT](/polkadot/assets/tDOT) | 312 | 178,612.44  |   |    |   |  |   `{"StableAssetPoolToken":"0"}` | 
-| [AUSD/LDOT](/polkadot/assets/AUSD%252FLDOT) | 57 | 144,900.14  |   |    |   |  |   `[{"Token":"AUSD"},{"Token":"LDOT"}]` | 
+| [GLMR](/polkadot/assets/GLMR) | 584 | 20,720.29 $8,361.46 |   |    |   | $0.40 |   `{"ForeignAsset":"0"}` | 
+| [AUSD/INTR](/polkadot/assets/AUSD%252FINTR) | 37 | 12,780.18 $8,214.02 |   |    |   | $0.64 |   `[{"Token":"AUSD"},{"ForeignAsset":"4"}]` | 
+| [ASTR](/polkadot/assets/ASTR) | 102 | 44,292.58 $2,958.46 |   |    |   | $0.07 |   `{"ForeignAsset":"2"}` | 
+| [PARA](/polkadot/assets/PARA) | 15 | 1,412.76 $16.45 |   |    |   | $0.01 |   `{"ForeignAsset":"1"}` | 
+| [PHA](/polkadot/assets/PHA) | 2 | 11 $1.89 |   |    |   | $0.17 |   `{"ForeignAsset":"9"}` | 
+| [lcDOT](/polkadot/assets/lcDOT) | 54,064 | 24,116,159.75  |   |    |   |  |   `{"LiquidCrowdloan":"13"}` | 
+| [LDOT](/polkadot/assets/LDOT) | 2,843 | 19,203,920.65  |   |    |   |  |   `{"Token":"LDOT"}` | 
+| [DOT/lcDOT](/polkadot/assets/DOT%252FlcDOT) | 474 | 242,010.88  |   |    |   |  |   `[{"Token":"DOT"},{"LiquidCrowdloan":"13"}]` | 
+| [AUSD/lcDOT](/polkadot/assets/AUSD%252FlcDOT) | 391 | 1,659,667.41  |   |    |   |  |   `[{"Token":"AUSD"},{"LiquidCrowdloan":"13"}]` | 
+| [tDOT](/polkadot/assets/tDOT) | 316 | 178,692.66  |   |    |   |  |   `{"StableAssetPoolToken":"0"}` | 
+| [AUSD/LDOT](/polkadot/assets/AUSD%252FLDOT) | 56 | 144,585.27  |   |    |   |  |   `[{"Token":"AUSD"},{"Token":"LDOT"}]` | 
 | [EQD](/polkadot/assets/EQD) | 2 | 5  |   |    |   |  |   `{"ForeignAsset":"8"}` | 
 | [UNQ](/polkadot/assets/UNQ) | 2 | 4.9  |   |    |   |  |   `{"ForeignAsset":"10"}` | 
 | [TAP](/polkadot/assets/TAP) | 1 | 200,000,000  |   |    |   |  |   `{"Token":"TAP"}` | 
