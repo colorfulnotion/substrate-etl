@@ -19,6 +19,14 @@ Status: Only partial index available: Archive node unavailable
 | [2022-07-01 to 2022-07-31](/kusama/2121-imbue/2022-07-31.md) | 23,330 | 191,884 | 168,555 |  | 2 | 4 | -   |   
 | [2022-06-27 to 2022-06-30](/kusama/2121-imbue/2022-06-30.md) | 1 | 23,329 | 23,329 |  | 2 | 4 | -   |   
 
+## Imbue Network Assets as of 2023-03-05
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [IMBU](/kusama/assets/IMBU) | 339 | 199,999,983.76  | 15.63  | 4,158,814.92   |   |  |   `{"Token":"IMBU"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2121` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

@@ -1,15 +1,15 @@
 # HDX on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 
 *XCM Interior Keys*:
-* `[{"network":"polkadot"},{"parachain":2034},{"generalIndex":0}]`
+* `[{"parachain":2034},{"generalIndex":0}]~polkadot`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [HydraDX](/polkadot/2034-hydradx) | 23,342 | 4,364,762,161.43  | 74,663.81  | 1,896,209,471.19   | 1,849,707,325.91  |  | `{"Token":"HDX"}` |
+| [HydraDX](/polkadot/2034-hydradx) | 22,348 | 4,260,113,661.03  | 71,717.13  | 1,864,915,331.44   | 1,812,740,644.65  |  | `{"Token":"HDX"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -20,7 +20,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "HDX" and date(ts) = "2023-03-04"
+ where symbol = "HDX" and date(ts) = "2023-03-05"
  group by para_id
  order by free_usd desc
 ```

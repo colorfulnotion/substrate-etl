@@ -26,14 +26,14 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 | [2021-12-01 to 2021-12-31](/kusama/2096-bitcountrypioneer/2021-12-31.md) | 17,803 | 213,883 | 196,081 | 14 |  | 5 | -   |   
 | [2021-11-28 to 2021-11-30](/kusama/2096-bitcountrypioneer/2021-11-30.md) | 1 | 17,802 | 17,802 |  |  | 4 | -   |   
 
-## Bit.Country Pioneer Assets as of 2023-03-04
+## Bit.Country Pioneer Assets as of 2023-03-05
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [NEER](/kusama/assets/NEER) | 24,876 | 125,562,809.42 $28,081,815.00 | 7,602,726.27 $1,700,331.12 | 95,221,754.66  $21,296,112.36 |   | $0.22 |   `{"Token":"NEER"}` | 
-| [KUSD](/kusama/assets/KUSD) | 3 | 0.2 $0.20 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
+| [NEER](/kusama/assets/NEER) | 23,878 | 93,712,372.33 $20,230,130.51 | 5,459,328.49 $1,178,530.92 | 73,473,514.98  $15,861,073.20 |   | $0.22 |   `{"Token":"NEER"}` | 
+| [KUSD](/kusama/assets/KUSD) | 3 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
 
 ## substrate-etl Tables:
 

@@ -17,7 +17,7 @@ _Source_: [kylin.polkaholic.io](https://kylin.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/polkadot/2052-kylin/2022-09-30.md) | 9,549 | 116,720 | 107,172 | 220 | 4 | 1,067 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2052-kylin/2022-08-31.md) | 1 | 9,548 | 9,548 |  | 1 | 3 | -   |   
 
-## Kylin Assets as of 2023-03-04
+## Kylin Assets as of 2023-03-05
 
 
 

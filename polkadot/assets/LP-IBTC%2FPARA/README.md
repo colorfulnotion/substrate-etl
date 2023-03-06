@@ -1,12 +1,12 @@
 # LP-IBTC/PARA on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel](/polkadot/2012-parallel) | 43 | 1.21  |   |    |   |  | `{"Token":"6017"}` |
+| [Parallel](/polkadot/2012-parallel) | 42 | 1.14  |   |    |   |  | `{"Token":"6017"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LP-IBTC/PARA" and date(ts) = "2023-03-04"
+ where symbol = "LP-IBTC/PARA" and date(ts) = "2023-03-05"
  group by para_id
  order by free_usd desc
 ```

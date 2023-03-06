@@ -1,6 +1,6 @@
 # KINT on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 
 *XCM Interior Keys*:
@@ -9,11 +9,11 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Kintsugi](/kusama/2092-kintsugi) | 16,140 | 9,999,315.55 $7,684,839.28 | 433.26 $332.98 |    | 2,496,215.73 $1,918,432.97 | $0.77 | `{"Token":"KINT"}` |
-| [Moonriver](/kusama/2023-moonriver) | 229 | 16,330.92 $12,550.91 |   |    |   | $0.77 | `{"Token":"175400718394635817552109270754364440562"}` |
-| [Karura](/kusama/2000-karura) | 370 | 13,785.25 $10,594.47 |   |    |   | $0.77 | `{"Token":"KINT"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 85 | 10,132.26 $7,787.01 |   |    |   | $0.77 | `{"Token":"119"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 42 | 2,334.75 $1,794.34 |   |    |   | $0.77 | `{"Token2":"1"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 16,140 | 9,999,315.55 $7,707,643.85 | 433.26 $333.96 |    | 2,496,810.89 $1,924,584.63 | $0.77 | `{"Token":"KINT"}` |
+| [Moonriver](/kusama/2023-moonriver) | 229 | 16,421.42 $12,657.91 |   |    |   | $0.77 | `{"Token":"175400718394635817552109270754364440562"}` |
+| [Karura](/kusama/2000-karura) | 370 | 13,825.49 $10,656.92 |   |    |   | $0.77 | `{"Token":"KINT"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 84 | 10,273.39 $7,918.90 |   |    |   | $0.77 | `{"Token":"119"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 42 | 2,332.56 $1,797.98 |   |    |   | $0.77 | `{"Token2":"1"}` |
 | [Shiden](/kusama/2007-shiden) | 3 | 0.6 $0.46 |   |    |   | $0.77 | `{"Token":"18446744073709551622"}` |
 
 ## Substrate-etl Queries:
@@ -25,7 +25,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "KINT" and date(ts) = "2023-03-04"
+ where symbol = "KINT" and date(ts) = "2023-03-05"
  group by para_id
  order by free_usd desc
 ```

@@ -19,6 +19,14 @@ Status: Only partial index available: Archive node unavailable
 | [2022-07-01 to 2022-07-31](/kusama/2116-tanganika/2022-07-31.md) | 22,739 | 201,234 | 178,496 | 114 | 10 | 2,473 | -   |   
 | [2022-06-27 to 2022-06-30](/kusama/2116-tanganika/2022-06-30.md) | 1 | 22,738 | 22,738 | 22 | 8 | 2,470 | -   |   
 
+## Tanganika Assets as of 2023-03-05
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [DHX](/kusama/assets/DHX) | 3,616 | 32,190,845.69  | 146.59  | 76,193.11   | 76,188.11  |  |   `{"Token":"DHX"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2116` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

@@ -19,13 +19,13 @@ _Source_: [litentry.polkaholic.io](https://litentry.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2013-litentry/2022-07-31.md) | 151,698 | 329,619 | 177,922 | 318 | 10 | 4,671 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2013-litentry/2022-06-30.md) | 1 | 151,697 | 151,697 | 2 | 3 | 16 | -   |   
 
-## Litentry Assets as of 2023-03-04
+## Litentry Assets as of 2023-03-05
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [LIT](/polkadot/assets/LIT) | 4,769 | 9,690,362.79  | 1,955,810.14  | 8,771,995.61   |   |  |   `{"Token":"LIT"}` | 
+| [LIT](/polkadot/assets/LIT) | 4,769 | 9,689,624.43  | 1,959,518  | 8,769,424.01   |   |  |   `{"Token":"LIT"}` | 
 
 ## substrate-etl Tables:
 

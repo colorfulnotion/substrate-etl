@@ -17,14 +17,14 @@ _Source_: [amplitude.polkaholic.io](https://amplitude.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/kusama/2124-amplitude/2022-09-30.md) | 27,839 | 197,200 | 169,362 | 76 | 9 | 674 | -   |   
 | [2022-08-11 to 2022-08-31](/kusama/2124-amplitude/2022-08-31.md) | 1 | 27,838 | 27,838 |  | 2 | 14 | -   |   
 
-## Amplitude Assets as of 2023-03-04
+## Amplitude Assets as of 2023-03-05
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 1 | 1 $33.98 |   |    |   | $34.09 |   `{"XCM":"KSM"}` | 
-| [AMPE](/kusama/assets/AMPE) | 931 | 164,035,495.39  | 102  | 142,949,993.8   | 4,420,078.19  |  |   `{"Token":"AMPE"}` | 
+| [KSM](/kusama/assets/KSM) | 1 | 1 $34.36 |   |    |   | $34.47 |   `{"XCM":"KSM"}` | 
+| [AMPE](/kusama/assets/AMPE) | 931 | 164,035,980.05  | 102  | 142,949,014.14   | 4,419,869.99  |  |   `{"Token":"AMPE"}` | 
 
 ## substrate-etl Tables:
 

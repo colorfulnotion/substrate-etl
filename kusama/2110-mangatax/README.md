@@ -21,26 +21,26 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 | [2022-05-01 to 2022-05-31](/kusama/2110-mangatax/2022-05-31.md) | 61,315 | 199,152 | 137,838 | 52 | 4 | 12 | -   |   
 | [2022-04-12 to 2022-04-30](/kusama/2110-mangatax/2022-04-30.md) | 1 | 61,314 | 61,313 | 10 | 3 | 8 | - 1 (0.00%) |   
 
-## Mangatax Assets as of 2023-03-04
+## Mangatax Assets as of 2023-03-05
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 875 | 13,782.58 $469,845.50 |   |    |   | $34.09 |   `{"Token":"4"}` | 
-| [BNC](/kusama/assets/BNC) | 156 | 75,049.07 $27,033.71 |   |    |   | $0.36 |   `{"Token":"14"}` | 
-| [ZLK](/kusama/assets/ZLK) | 49 | 134,830.46 $3,856.35 |   |    |   | $0.03 |   `{"Token":"26"}` | 
+| [KSM](/kusama/assets/KSM) | 876 | 13,713.41 $472,712.34 |   |    |   | $34.47 |   `{"Token":"4"}` | 
+| [BNC](/kusama/assets/BNC) | 156 | 78,057.77 $26,311.12 |   |    |   | $0.34 |   `{"Token":"14"}` | 
+| [ZLK](/kusama/assets/ZLK) | 49 | 105,097.46 $2,925.79 |   |    |   | $0.03 |   `{"Token":"26"}` | 
 | [MGX](/kusama/assets/MGX) | 1,779 |   |   |    |   |  |   `{"Token":"MGX"}` | 
-| [TUR](/kusama/assets/TUR) | 546 | 5,359,880.6  |   |    |   |  |   `{"Token":"7"}` | 
-| [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 435 | 2,437,664.5  | 110,310,196.55  |    | 1,724,749.58  |  |   `{"Token":"5"}` | 
+| [TUR](/kusama/assets/TUR) | 546 | 5,383,819.5  |   |    |   |  |   `{"Token":"7"}` | 
+| [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 435 | 2,437,664.5  | 110,727,529.47  |    | 1,724,749.58  |  |   `{"Token":"5"}` | 
 | [TKN0x00000000-TKN0x00000007](/kusama/assets/TKN0x00000000-TKN0x00000007) | 324 | 125,245.5  | 44,213,793.8  |    | 112,379.03  |  |   `{"Token":"8"}` | 
-| [IMBU](/kusama/assets/IMBU) | 158 | 1,062,949.97  |   |    |   |  |   `{"Token":"11"}` | 
-| [TKN0x00000000-TKN0x0000000B](/kusama/assets/TKN0x00000000-TKN0x0000000B) | 140 | 61.9  | 17,650,188.52  |    |   |  |   `{"Token":"12"}` | 
-| [TKN0x00000000-TKN0x0000000E](/kusama/assets/TKN0x00000000-TKN0x0000000E) | 116 | 1,829.24  | 7,236,516.53  |    |   |  |   `{"Token":"17"}` | 
+| [IMBU](/kusama/assets/IMBU) | 159 | 1,062,949.97  |   |    |   |  |   `{"Token":"11"}` | 
+| [TKN0x00000000-TKN0x0000000B](/kusama/assets/TKN0x00000000-TKN0x0000000B) | 140 | 61.9  | 17,652,190.68  |    |   |  |   `{"Token":"12"}` | 
+| [TKN0x00000000-TKN0x0000000E](/kusama/assets/TKN0x00000000-TKN0x0000000E) | 116 | 1,829.24  | 7,244,530.61  |    |   |  |   `{"Token":"17"}` | 
 | [VSKSM](/kusama/assets/VSKSM) | 52 | 827.64  |   |    |   |  |   `{"Token":"16"}` | 
 | [TKN0x00000010-TKN0x00000004](/kusama/assets/TKN0x00000010-TKN0x00000004) | 35 |   | -  |    |   |  |   `{"Token":"19"}` | 
-| [TKN0x0000001A-TKN0x00000000](/kusama/assets/TKN0x0000001A-TKN0x00000000) | 34 | 23.37  | 1,730,423.55  |    |   |  |   `{"Token":"27"}` | 
-| [vKSM](/kusama/assets/vKSM) | 33 | 1,409.11  |   |    |   |  |   `{"Token":"15"}` | 
+| [TKN0x0000001A-TKN0x00000000](/kusama/assets/TKN0x0000001A-TKN0x00000000) | 34 | 23.37  | 1,314,330.67  |    |   |  |   `{"Token":"27"}` | 
+| [vKSM](/kusama/assets/vKSM) | 33 | 1,407.31  |   |    |   |  |   `{"Token":"15"}` | 
 | [TKN0x00000000-TKN0x00000002](/kusama/assets/TKN0x00000000-TKN0x00000002) | 26 | 11,734  | 15,266  |    |   |  |   `{"Token":"3"}` | 
 | [TKN0x0000000F-TKN0x00000004](/kusama/assets/TKN0x0000000F-TKN0x00000004) | 21 |   | 0.002  |    |   |  |   `{"Token":"21"}` | 
 | [TKN0x00000004-TKN0x00000007](/kusama/assets/TKN0x00000004-TKN0x00000007) | 9 | -  |   |    |   |  |   `{"Token":"9"}` | 

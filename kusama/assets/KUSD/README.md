@@ -1,6 +1,6 @@
 # KUSD on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 
 *XCM Interior Keys*:
@@ -9,17 +9,17 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-04
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Karura](/kusama/2000-karura) | 3,409 | 3,592,524.65 $3,592,524.65 |   |    |   | $1.00 | `{"Token":"KUSD"}` |
-| [Moonriver](/kusama/2023-moonriver) | 70 | 58,094.04 $58,094.04 |   |    |   | $1.00 | `{"Token":"214920334981412447805621250067209749032"}` |
-| [Basilisk](/kusama/2090-basilisk) | 189 | 6,125.52 $6,125.52 |   |    |   | $1.00 | `{"Token":"2"}` |
+| [Karura](/kusama/2000-karura) | 3,410 | 3,587,309.69 $3,587,309.69 |   |    |   | $1.00 | `{"Token":"KUSD"}` |
+| [Moonriver](/kusama/2023-moonriver) | 70 | 57,938.7 $57,938.70 |   |    |   | $1.00 | `{"Token":"214920334981412447805621250067209749032"}` |
+| [Basilisk](/kusama/2090-basilisk) | 188 | 6,075.02 $6,075.02 |   |    |   | $1.00 | `{"Token":"2"}` |
 | [Khala](/kusama/2004-khala) | 8 | 207.91 $207.91 |   |    |   | $1.00 | `{"Token":"4"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 13 | 23.68 $23.68 |   |    |   | $1.00 | `{"Token":"103"}` |
 | [Shiden](/kusama/2007-shiden) | 21 | 16.99 $16.99 |   |    |   | $1.00 | `{"Token":"18446744073709551616"}` |
 | [Turing](/kusama/2114-turing) | 4 | 11.16 $11.16 |   |    |   | $1.00 | `{"Token":"2"}` |
 | [Calamari](/kusama/2084-calamari) | 4 | 3.4 $3.40 |   |    |   | $1.00 | `{"Token":"9"}` |
 | [Crust Shadow](/kusama/2012-shadow) | 5 | 1.51 $1.51 |   |    |   | $1.00 | `{"Token":"214920334981412447805621250067209749032"}` |
-| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 3 | 0.2 $0.20 |   |    |   | $1.00 | `{"Stable":"0"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 1,608 | 73,820.67  |   |    |   |  | `{"Stable":"KUSD"}` |
+| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 3 | 0.1 $0.10 |   |    |   | $1.00 | `{"Stable":"0"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 1,608 | 74,191.46  |   |    |   |  | `{"Stable":"KUSD"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -30,7 +30,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "KUSD" and date(ts) = "2023-03-04"
+ where symbol = "KUSD" and date(ts) = "2023-03-05"
  group by para_id
  order by free_usd desc
 ```
