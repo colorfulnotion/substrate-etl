@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Nodle](/polkadot/2026-nodle) | 147,422 | 578,375,540.54  | 51,714.39  | 309,335,934.44   | 309,335,934.44  |  | `{"Token":"NODL"}` |
+| [Nodle](/polkadot/2026-nodle) | 716,422 | 8,434,746,103.93  | 223,404.72  | 5,770,058,700.58   | 5,770,058,700.58  |  | `{"Token":"NODL"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

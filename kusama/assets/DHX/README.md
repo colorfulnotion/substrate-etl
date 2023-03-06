@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Tanganika](/kusama/2116-tanganika) | 3,616 | 32,190,845.69  | 146.59  | 76,193.11   | 76,188.11  |  | `{"Token":"DHX"}` |
+| [Tanganika](/kusama/2116-tanganika) | 3,623 | 32,192,982.84  | 146.59  | 76,473.61   | 76,468.61  |  | `{"Token":"DHX"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Shiden](/kusama/2007-shiden) | 3 | 759,000,000,000,000,000,000,000,000  |   |    |   |  | `{"Token":"313"}` |
+| [Shiden](/kusama/2007-shiden) | 3 | 759,000,000,000,000,100,000,000,000  |   |    |   |  | `{"Token":"313"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

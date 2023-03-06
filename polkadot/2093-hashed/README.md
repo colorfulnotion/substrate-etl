@@ -9,7 +9,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-06](/polkadot/2093-hashed/2023-03-31.md) | 17,638 | 58,590 | 40,953 | 550 |  | 544 | -   |   
+| [2023-03-01 to 2023-03-06](/polkadot/2093-hashed/2023-03-31.md) | 17,638 | 59,216 | 41,579 | 550 |  | 544 | -   |   
 | [2023-02-28 to 2023-02-28](/polkadot/2093-hashed/2023-02-28.md) | 15,878 | 17,637 | 1,760 |  |  | 7 | -   |   
 
 ## Hashed Network Assets as of 2023-03-05
@@ -18,7 +18,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [HASH](/polkadot/assets/HASH) | 544 | 1,000,000,000  | -  | 32,263,066.26   |   |  |   `{"Token":"HASH"}` | 
+| [HASH](/polkadot/assets/HASH) | 544 | 1,000,000,000  | -  | 32,262,746.78   |   |  |   `{"Token":"HASH"}` | 
 
 ## substrate-etl Tables:
 

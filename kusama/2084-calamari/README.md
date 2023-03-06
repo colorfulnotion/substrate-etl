@@ -9,7 +9,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-06](/kusama/2084-calamari/2023-03-31.md) | 3,196,860 | 3,236,439 | 39,570 | 1,501 | 29 | 35,664 | - 10 (0.03%) |   
+| [2023-03-01 to 2023-03-06](/kusama/2084-calamari/2023-03-31.md) | 3,196,860 | 3,237,048 | 40,179 | 1,520 | 29 | 35,664 | - 10 (0.02%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2084-calamari/2023-02-28.md) | 3,003,783 | 3,196,859 | 193,077 | 9,207 | 131 | 35,632 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2084-calamari/2023-01-31.md) | 2,788,075 | 3,003,782 | 215,305 | 9,136 | 186 | 35,178 | - 403 (0.19%) |   
 | [2022-12-01 to 2022-12-31](/kusama/2084-calamari/2022-12-31.md) | 2,580,305 | 2,788,074 | 207,770 | 6,992 | 140 | 35,663 | -   |   
@@ -35,11 +35,11 @@ Status: Only partial index available: Archive node unavailable
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KMA](/kusama/assets/KMA) | 35,659 | 10,116,597,051.18 $21,646,855.24 | 16.35 $0.03 | 1,886,916,378.44  $4,037,504.46 | 1,008,768,398.16 $2,158,498.89 | $0.00214 |   `{"Token":"KMA"}` | 
-| [LKSM](/kusama/assets/LKSM) | 5 | 621.12 $2,521.75 |   |    |   | $4.06 |   `{"Token":"10"}` | 
-| [MOVR](/kusama/assets/MOVR) | 2 | 0.77 $7.10 |   |    |   | $9.27 |   `{"Token":"11"}` | 
+| [KMA](/kusama/assets/KMA) | 35,664 | 10,117,211,088.78 $21,600,260.12 | 16.35 $0.03 | 1,887,163,969.07  $4,029,097.77 | 1,009,250,543.99 $2,154,751.35 | $0.00214 |   `{"Token":"KMA"}` | 
+| [LKSM](/kusama/assets/LKSM) | 5 | 621.12 $2,486.55 |   |    |   | $4.00 |   `{"Token":"10"}` | 
+| [MOVR](/kusama/assets/MOVR) | 2 | 0.77 $7.07 |   |    |   | $9.22 |   `{"Token":"11"}` | 
 | [KUSD](/kusama/assets/KUSD) | 4 | 3.4 $3.40 |   |    |   | $1.00 |   `{"Token":"9"}` | 
-| [KSM](/kusama/assets/KSM) | 4 | 0.05 $1.90 |   |    |   | $34.99 |   `{"Token":"12"}` | 
+| [KSM](/kusama/assets/KSM) | 4 | 0.05 $1.87 |   |    |   | $34.47 |   `{"Token":"12"}` | 
 | [PHA](/kusama/assets/PHA) | 3 | 8.43 $1.46 |   |    |   | $0.17 |   `{"Token":"13"}` | 
 | [KAR](/kusama/assets/KAR) | 5 | 4 $0.77 |   |    |   | $0.19 |   `{"Token":"8"}` | 
 

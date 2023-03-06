@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Hashed Network](/polkadot/2093-hashed) | 544 | 1,000,000,000  | -  | 32,263,066.26   |   |  | `{"Token":"HASH"}` |
+| [Hashed Network](/polkadot/2093-hashed) | 544 | 1,000,000,000  | -  | 32,262,746.78   |   |  | `{"Token":"HASH"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

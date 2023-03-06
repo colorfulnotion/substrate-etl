@@ -24,7 +24,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | [Amplitude](/kusama/2124-amplitude) | 1 | 1 $34.36 |   |    |   | $34.47 | `{"XCM":"KSM"}` |
 | [Dora Factory](/kusama/2115-dorafactory) | 3 | 0.29 $10.00 |   |    |   | $34.47 | `{"Token":"KSM"}` |
 | [Khala](/kusama/2004-khala) | 2 | 0.23 $8.09 |   |    |   | $34.47 | `{"Token":"0"}` |
-| [Calamari](/kusama/2084-calamari) | 4 | 0.05 $1.90 |   |    |   | $34.99 | `{"Token":"12"}` |
+| [Calamari](/kusama/2084-calamari) | 4 | 0.05 $1.87 |   |    |   | $34.47 | `{"Token":"12"}` |
 | [BridgeHub](/kusama/1002-bridgehub) | 4 |   |   |    |   |  | `{"Token":"KSM"}` |
 | [Statemine](/kusama/1000-statemine) | 1 | 85,000,000  |   |    |   |  | `{"Token":"1234"}` |
 
