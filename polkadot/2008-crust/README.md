@@ -9,7 +9,6 @@ _Source_: [crust.polkaholic.io](https://crust.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-06](/polkadot/2008-crust/2023-03-31.md) | 701,814 | 737,789 | 35,976 | 1 | 4 | 993 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2008-crust/2023-02-28.md) | 504,230 | 701,813 | 197,584 | 25 | 4 | 992 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2008-crust/2023-01-31.md) | 285,366 | 504,229 | 218,864 |  | 4 | 974 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2008-crust/2022-12-31.md) | 67,183 | 285,365 | 218,183 |  |  | 9 | -   |   

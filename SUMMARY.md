@@ -80,5 +80,6 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | 2023-01-03 | 3,877,584 | 11,264 | 5,155 | 492 |
 | 2023-01-02 | 3,872,921 | 11,556 | 6,815 | 441 |
 | 2023-01-01 | 3,866,547 | 10,013 | 15,175 | 407 |
+| 2022-11-30 | 3,660,984 | 12,472 | 3,403,064 | 5,661 |
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/networks.json](https://cdn.polkaholic.io/substrate-etl/networks.json) | See [Definitions](/DEFINITIONS.md) for details
