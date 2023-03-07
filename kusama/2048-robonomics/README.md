@@ -31,7 +31,7 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [XRT](/kusama/assets/XRT) | 3,156 | 994,894.76 $5,540,988.56 | 199.04 $1,108.54 | 144,367.16  $804,041.60 |   | $5.57 |   `{"Token":"XRT"}` | 
+| [XRT](/kusama/assets/XRT) | 2,942 | 994,894.76 $5,540,988.56 | 199.04 $1,108.54 | 144,367.16  $804,041.60 |   | $5.57 |   `{"Token":"XRT"}` | 
 | [KSM](/kusama/assets/KSM) | 6 | 536.43 $18,491.19 |   |    |   | $34.47 |   `{"Token":"4294967295"}` | 
 
 ## substrate-etl Tables:

@@ -30,7 +30,7 @@ _Source_: [crab.polkaholic.io](https://crab.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CRAB](/kusama/assets/CRAB) | 54 | 464,475.52 $463.18 |   | 612  $0.61 | 612 $0.61 | - |   `{"Token":"CRAB"}` | 
+| [CRAB](/kusama/assets/CRAB) | 52 | 464,475.52 $463.18 |   | 612  $0.61 | 612 $0.61 | - |   `{"Token":"CRAB"}` | 
 
 ## substrate-etl Tables:
 

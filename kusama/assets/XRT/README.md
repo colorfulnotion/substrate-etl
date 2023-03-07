@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Robonomics](/kusama/2048-robonomics) | 3,156 | 994,894.76 $5,540,988.56 | 199.04 $1,108.54 | 144,367.16  $804,041.60 |   | $5.57 | `{"Token":"XRT"}` |
+| [Robonomics](/kusama/2048-robonomics) | 2,942 | 994,894.76 $5,540,988.56 | 199.04 $1,108.54 | 144,367.16  $804,041.60 |   | $5.57 | `{"Token":"XRT"}` |
 | [Moonriver](/kusama/2023-moonriver) | 43 | 98,060.59 $546,140.76 |   |    |   | $5.57 | `{"Token":"108036400430056508975016746969135344601"}` |
 
 ## Substrate-etl Queries:

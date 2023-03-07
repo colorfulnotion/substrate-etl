@@ -32,7 +32,7 @@ _Source_: [parallel.polkaholic.io](https://parallel.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PARA](/polkadot/assets/PARA) | 47,291 | 9,999,999,692.21 $115,404,502.68 | 217.58 $2.51 | 7,564,605,823.93  $87,298,959.99 | 7,564,583,180.47 $87,298,698.68 | $0.01 |   `{"Token":"PARA"}` | 
+| [PARA](/polkadot/assets/PARA) | 46,757 | 9,999,999,692.21 $115,404,502.68 | 217.58 $2.51 | 7,564,605,823.93  $87,298,959.99 | 7,564,583,180.47 $87,298,698.68 | $0.01 |   `{"Token":"PARA"}` | 
 | [DOT](/polkadot/assets/DOT) | 8,864 | 1,349,910.91 $8,044,658.77 |   |    |   | $5.96 |   `{"Token":"101"}` | 
 | [LP-DOT/PARA](/polkadot/assets/LP-DOT%252FPARA) | 169 | 43,027.04 $267,360.65 |   |    |   | $6.21 |   `{"Token":"6002"}` | 
 | [ACA](/polkadot/assets/ACA) | 454 | 1,041,060.53 $125,939.74 |   |    |   | $0.12 |   `{"Token":"108"}` | 
