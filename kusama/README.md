@@ -18,7 +18,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-02-28 | 3,723,309 |  588,916 |    |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-02-28 | 2,455,355 |  26 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-02-28 | 2,584,799 |  3,116 |    |
-| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-02-28 | 3,196,859 |  35,405 | 2,314 (0.07%) Only partial index available: Archive node unavailable |
+| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-02-28 | 3,196,859 |  35,408 | 2,314 (0.07%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-02-28 | 3,083,240 |  24,271 |    |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-02-28 | 1,882,627 |  2,576 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-02-28 | 2,602,591 |  29,434 | 2 (0.00%)  |
