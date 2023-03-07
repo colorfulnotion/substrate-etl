@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Quartz](/kusama/2095-quartz) | 91,335 | 1,097,032,963.78 $1,092,663.03 |   | 732,027,702.48  $729,111.74 | 732,027,702.48 $729,111.74 | - | `{"Token":"QTZ"}` |
+| [Quartz](/kusama/2095-quartz) | 80,071 | 1,097,032,963.78 $1,092,663.03 |   | 732,027,702.48  $729,111.74 | 732,027,702.48 $729,111.74 | - | `{"Token":"QTZ"}` |
 | [Karura](/kusama/2000-karura) | 308 | 11,315,281.19 $11,270.21 |   |    |   | - | `{"ForeignAsset":"2"}` |
 
 ## Substrate-etl Queries:

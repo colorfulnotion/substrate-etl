@@ -21,7 +21,7 @@ _Source_: [collectives.polkaholic.io](https://collectives.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DOT](/polkadot/assets/DOT) | 20 | 34.25 $204.10 | 0.4 $2.39 |    |   | $5.96 |   `{"Token":"DOT"}` | 
+| [DOT](/polkadot/assets/DOT) | 11 | 34.25 $204.10 | 0.4 $2.39 |    |   | $5.96 |   `{"Token":"DOT"}` | 
 
 ## substrate-etl Tables:
 

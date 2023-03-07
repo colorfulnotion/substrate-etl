@@ -9,7 +9,7 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/polkadot/2035-phala/2023-03-31.md) | 2,009,121 | 2,053,212 | 44,092 | 263 | 21 | 3,141 | -   |   
+| [2023-03-01 to 2023-03-07](/polkadot/2035-phala/2023-03-31.md) | 2,009,121 | 2,054,018 | 44,898 | 265 | 21 | 3,144 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2035-phala/2023-02-28.md) | 1,809,602 | 2,009,120 | 199,519 | 924 | 26 | 3,128 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2035-phala/2023-01-31.md) | 1,587,962 | 1,809,601 | 221,640 | 616 | 20 | 3,021 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2035-phala/2022-12-31.md) | 1,367,180 | 1,587,961 | 220,782 | 502 | 18 | 2,979 | -   |   
@@ -28,7 +28,7 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PHA](/polkadot/assets/PHA) | 3,141 | 541,799,866.72 $93,843,054.61 | 133.15 $23.06 | 11,320,335.23  $1,960,751.38 |   | $0.17 |   `{"Token":"PHA"}` | 
+| [PHA](/polkadot/assets/PHA) | 3,129 | 541,799,866.72 $93,843,054.61 | 133.15 $23.06 | 11,320,335.23  $1,960,751.38 |   | $0.17 |   `{"Token":"PHA"}` | 
 | [GLMR](/polkadot/assets/GLMR) | 11 | 36.53 $14.79 |   |    |   | $0.40 |   `{"Token":"1"}` | 
 | [ASTR](/polkadot/assets/ASTR) | 11 | 105.33 $7.02 |   |    |   | $0.07 |   `{"Token":"6"}` | 
 | [PARA](/polkadot/assets/PARA) | 5 | 55.56 $0.64 |   |    |   | $0.01 |   `{"Token":"2"}` | 

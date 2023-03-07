@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Turing](/kusama/2114-turing) | 7,585 | 425,391,170.95  | 494.74  | 32,937,174.06   | 32,934,522.06  |  | `{"Token":"TUR"}` |
-| [Mangatax](/kusama/2110-mangatax) | 546 | 5,383,819.5  |   |    |   |  | `{"Token":"7"}` |
+| [Turing](/kusama/2114-turing) | 7,582 | 425,391,170.95  | 494.74  | 32,937,174.06   | 32,934,522.06  |  | `{"Token":"TUR"}` |
+| [Mangatax](/kusama/2110-mangatax) | 251 | 5,383,819.5  |   |    |   |  | `{"Token":"7"}` |
 | [Karura](/kusama/2000-karura) | 2 | 52.51  |   |    |   |  | `{"ForeignAsset":"16"}` |
 | [Khala](/kusama/2004-khala) | 2 | 1.06  |   |    |   |  | `{"Token":"10"}` |
 

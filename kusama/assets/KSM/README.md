@@ -14,12 +14,12 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | [Moonriver](/kusama/2023-moonriver) | 1,391 | 94,576.96 $3,260,145.37 |   |    |   | $34.47 | `{"Token":"42259045809535163221576417993425387648"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 3,119 | 92,320.73 $3,182,371.22 | 321.64 $11,087.26 |    |   | $34.47 | `{"Token":"KSM"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 3,583 | 18,877.56 $650,725.06 |   |    |   | $34.47 | `{"Token":"100"}` |
-| [Mangatax](/kusama/2110-mangatax) | 876 | 13,713.41 $472,712.34 |   |    |   | $34.47 | `{"Token":"4"}` |
+| [Mangatax](/kusama/2110-mangatax) | 384 | 13,713.41 $472,712.34 |   |    |   | $34.47 | `{"Token":"4"}` |
 | [Basilisk](/kusama/2090-basilisk) | 1,915 | 4,169.85 $143,737.99 | 1.44 $49.64 |    |   | $34.47 | `{"Token":"1"}` |
-| [Kintsugi](/kusama/2092-kintsugi) | 211 | 1,271.44 $43,827.50 | 20,104.66 $693,024.16 |    |   | $34.47 | `{"Token":"KSM"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 181 | 1,271.44 $43,827.50 | 20,104.66 $693,024.16 |    |   | $34.47 | `{"Token":"KSM"}` |
 | [Robonomics](/kusama/2048-robonomics) | 6 | 536.43 $18,491.19 |   |    |   | $34.47 | `{"Token":"4294967295"}` |
 | [Shiden](/kusama/2007-shiden) | 66 | 63.49 $2,188.67 |   |    |   | $34.47 | `{"Token":"340282366920938463463374607431768211455"}` |
-| [Encointer](/kusama/1001-encointer) | 972 | 12.72 $438.41 |   |    |   | $34.47 | `{"Token":"KSM"}` |
+| [Encointer](/kusama/1001-encointer) | 65 | 12.72 $438.41 |   |    |   | $34.47 | `{"Token":"KSM"}` |
 | [Turing](/kusama/2114-turing) | 5 | 5.36 $184.71 |   |    |   | $34.47 | `{"Token":"1"}` |
 | [Amplitude](/kusama/2124-amplitude) | 1 | 1 $34.36 |   |    |   | $34.47 | `{"XCM":"KSM"}` |
 | [Dora Factory](/kusama/2115-dorafactory) | 3 | 0.29 $10.00 |   |    |   | $34.47 | `{"Token":"KSM"}` |

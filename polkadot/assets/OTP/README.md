@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Origin Trail](/polkadot/2043-origintrail) | 3,654 | 500,053,154.94  | 166  | 22,330,399.51   |   |  | `{"Token":"OTP"}` |
+| [Origin Trail](/polkadot/2043-origintrail) | 3,510 | 500,053,154.94  | 166  | 22,330,399.51   |   |  | `{"Token":"OTP"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

@@ -31,7 +31,7 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
 | [DAI](/polkadot/assets/DAI) | 428 | 2,383,900.46 $2,383,900.46 |   |    |   | $1.00 |   `{"Token":"2"}` | 
 | [DOT](/polkadot/assets/DOT) | 1,525 | 110,826.1 $660,457.03 |   |    |   | $5.96 |   `{"Token":"5"}` | 
-| [HDX](/polkadot/assets/HDX) | 23,348 | 4,365,013,696.81  | 74,663.81  | 1,912,713,419.63   | 1,849,702,843.32  |  |   `{"Token":"HDX"}` | 
+| [HDX](/polkadot/assets/HDX) | 23,081 | 4,365,013,696.81  | 74,663.81  | 1,912,713,419.63   | 1,849,702,843.32  |  |   `{"Token":"HDX"}` | 
 | [LRNA](/polkadot/assets/LRNA) | 116 | 265,887.66  |   |    |   |  |   `{"Token":"1"}` | 
 | [WETH.ACA](/polkadot/assets/WETH.ACA) | 51 | 1,378.09  |   |    |   |  |   `{"Token":"4"}` | 
 | [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 23 | 48.23  |   |    |   |  |   `{"Token":"3"}` | 

@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Zeitgeist](/kusama/2101-zeitgeist) | 15,578 | 102,605,973.05  | 17,084.72  | 36,613,313.72   | 18,054,080.52  |  | `{"Token":"ZTG"}` |
+| [Zeitgeist](/kusama/2101-zeitgeist) | 15,541 | 102,605,973.05  | 17,084.72  | 36,613,313.72   | 18,054,080.52  |  | `{"Token":"ZTG"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

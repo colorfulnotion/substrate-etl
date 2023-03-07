@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Darwinia](/polkadot/2046-darwinia) | 22 | 200,000  |   |    |   |  | `{"Token":"RING"}` |
+| [Darwinia](/polkadot/2046-darwinia) | 19 | 200,000  |   |    |   |  | `{"Token":"RING"}` |
 | [Moonbeam](/polkadot/2004-moonbeam) | 5 | 841.33  |   |    |   |  | `{"Token":"125699734534028342599692732320197985871"}` |
 
 ## Substrate-etl Queries:

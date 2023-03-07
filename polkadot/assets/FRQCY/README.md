@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Frequency](/polkadot/2091-frequency) | 28 | 999,999,999.15  |   | 471.86   |   |  | `{"Token":"FRQCY"}` |
+| [Frequency](/polkadot/2091-frequency) | 22 | 999,999,999.15  |   | 471.86   |   |  | `{"Token":"FRQCY"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

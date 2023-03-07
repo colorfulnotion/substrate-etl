@@ -9,7 +9,7 @@ _Source_: [parallel-heiko.polkaholic.io](https://parallel-heiko.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2085-parallel-heiko/2023-03-31.md) | 3,083,241 | 3,127,122 | 42,705 | 23,561 | 42 | 24,313 | - 1,177 (2.68%) |   
+| [2023-03-01 to 2023-03-07](/kusama/2085-parallel-heiko/2023-03-31.md) | 3,083,241 | 3,127,744 | 43,327 | 23,786 | 42 | 24,314 | - 1,177 (2.64%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2085-parallel-heiko/2023-02-28.md) | 2,886,511 | 3,083,240 | 196,730 | 123,154 | 94 | 24,308 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2085-parallel-heiko/2023-01-31.md) | 2,670,416 | 2,886,510 | 216,095 | 133,798 | 125 | 24,230 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2085-parallel-heiko/2022-12-31.md) | 2,460,859 | 2,670,415 | 209,557 | 122,059 | 141 | 24,126 | -   |   
@@ -46,7 +46,7 @@ _Source_: [parallel-heiko.polkaholic.io](https://parallel-heiko.polkaholic.io)
 | [LP-KSM/cKSM-20/27](/kusama/assets/LP-KSM%252FcKSM-20%252F27) | 12 | 7.08 $496.15 |   |    |   | $70.12 |   `{"Token":"5004"}` | 
 | [LKSM](/kusama/assets/LKSM) | 28 | 113.6 $454.77 |   |    |   | $4.00 |   `{"Token":"109"}` | 
 | [KUSD](/kusama/assets/KUSD) | 13 | 23.68 $23.68 |   |    |   | $1.00 |   `{"Token":"103"}` | 
-| [HKO](/kusama/assets/HKO) | 24,313 | 999,999,835.29  | 143.79  | 634,681,592.38   | 633,584,726.06  |  |   `{"Token":"HKO"}` | 
+| [HKO](/kusama/assets/HKO) | 24,032 | 999,999,835.29  | 143.79  | 634,681,592.38   | 633,584,726.06  |  |   `{"Token":"HKO"}` | 
 | [sKSM](/kusama/assets/sKSM) | 1,575 | 14,237.56  |   |    |   |  |   `{"Token":"1000"}` | 
 | [cKSM-23/30](/kusama/assets/cKSM-23%252F30) | 285 | 9,877.44  |   |    |   |  |   `{"Token":"100230030"}` | 
 | [LP-KSM/sKSM](/kusama/assets/LP-KSM%252FsKSM) | 69 | 2,918.48  |   |    |   |  |   `{"Token":"5003"}` | 

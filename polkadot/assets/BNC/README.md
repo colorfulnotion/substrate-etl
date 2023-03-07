@@ -10,7 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 3,863 | 14,600,925.08  | 65,399,074.46  | 4,142,960.74   |   |  | `{"Token":"BNC"}` |
+| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 3,718 | 14,600,925.08  | 65,399,074.46  | 4,142,960.74   |   |  | `{"Token":"BNC"}` |
 | [Astar](/polkadot/2006-astar) | 106 | 241,781.3  |   |    |   |  | `{"Token":"18446744073709551623"}` |
 | [Moonbeam](/polkadot/2004-moonbeam) | 19 | 592.42  |   |    |   |  | `{"Token":"165823357460190568952172802245839421906"}` |
 

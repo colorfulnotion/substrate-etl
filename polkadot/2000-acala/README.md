@@ -32,7 +32,7 @@ _Source_: [acala.polkaholic.io](https://acala.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ACA](/polkadot/assets/ACA) | 158,102 | 999,969,103.26 $120,968,803.81 | 30,894.74 $3,737.42 | 494,349,184  $59,802,677.16 | 494,219,157.27 $59,786,947.49 | $0.12 |   `{"Token":"ACA"}` | 
+| [ACA](/polkadot/assets/ACA) | 156,560 | 999,969,103.26 $120,968,803.81 | 30,894.74 $3,737.42 | 494,349,184  $59,802,677.16 | 494,219,157.27 $59,786,947.49 | $0.12 |   `{"Token":"ACA"}` | 
 | [AUSD](/polkadot/assets/AUSD) | 7,613 | 11,231,994.54 $11,231,994.54 |   |    | 3,734,615.59 $3,734,615.59 | $1.00 |   `{"Token":"AUSD"}` | 
 | [DOT](/polkadot/assets/DOT) | 10,204 | 1,544,084.17 $9,201,814.85 |   |    |   | $5.96 |   `{"Token":"DOT"}` | 
 | [ACA/AUSD](/polkadot/assets/ACA%252FAUSD) | 2,480 | 1,111,076.74 $574,511.44 |   |    |   | $0.52 |   `[{"Token":"ACA"},{"Token":"AUSD"}]` | 

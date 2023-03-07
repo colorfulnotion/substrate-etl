@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Imbue Network](/kusama/2121-imbue) | 340 | 199,999,983.76  | 15.63  | 4,158,814.92   |   |  | `{"Token":"IMBU"}` |
-| [Mangatax](/kusama/2110-mangatax) | 159 | 1,062,949.97  |   |    |   |  | `{"Token":"11"}` |
+| [Imbue Network](/kusama/2121-imbue) | 333 | 199,999,983.76  | 15.63  | 4,158,814.92   |   |  | `{"Token":"IMBU"}` |
+| [Mangatax](/kusama/2110-mangatax) | 39 | 1,062,949.97  |   |    |   |  | `{"Token":"11"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

@@ -20,7 +20,7 @@ Status: Endpoint not reachable
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ZERO](/kusama/assets/ZERO) | 9 | 10,000,000.01  |   |    |   |  |   `{"Token":"ZERO"}` | 
+| [ZERO](/kusama/assets/ZERO) | 6 | 10,000,000.01  |   |    |   |  |   `{"Token":"ZERO"}` | 
 
 ## substrate-etl Tables:
 

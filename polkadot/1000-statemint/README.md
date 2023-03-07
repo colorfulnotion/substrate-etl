@@ -9,7 +9,7 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/polkadot/1000-statemint/2023-03-31.md) | 3,313,604 | 3,357,938 | 44,112 | 135 | 15 | 615 | - 223 (0.50%) |   
+| [2023-03-01 to 2023-03-07](/polkadot/1000-statemint/2023-03-31.md) | 3,313,604 | 3,357,938 | 44,112 | 135 | 15 | 618 | - 223 (0.50%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/1000-statemint/2023-02-28.md) | 3,114,475 | 3,313,603 | 199,129 | 790 | 21 | 601 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/1000-statemint/2023-01-31.md) | 2,893,961 | 3,114,474 | 220,514 | 468 | 16 | 471 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/1000-statemint/2022-12-31.md) | 2,675,090 | 2,893,960 | 218,871 | 406 | 13 | 389 | -   |   
@@ -33,8 +33,8 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [USDT](/polkadot/assets/USDT) | 299 | 7,998,764.14 $8,007,702.31 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
-| [DOT](/polkadot/assets/DOT) | 615 | 3,379.2 $20,138.03 | 7,909.55 $47,136.16 |    |   | $5.96 |   `{"Token":"DOT"}` | 
+| [USDT](/polkadot/assets/USDT) | 297 | 7,998,764.14 $8,007,702.31 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
+| [DOT](/polkadot/assets/DOT) | 573 | 3,379.2 $20,138.03 | 7,909.55 $47,136.16 |    |   | $5.96 |   `{"Token":"DOT"}` | 
 | [JOE](/polkadot/assets/JOE) | 4 | 1,000,000  |   |    |   |  |   `{"Token":"8"}` | 
 | [USDC](/polkadot/assets/USDC) | 4 | 250,020,000  |   |    |   |  |   `{"Token":"1337"}` | 
 | [VSC](/polkadot/assets/VSC) | 4 | 31,415,926.54  |   |    |   |  |   `{"Token":"868367"}` | 

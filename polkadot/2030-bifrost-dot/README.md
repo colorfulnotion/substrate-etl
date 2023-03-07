@@ -29,7 +29,7 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 | [DOT](/polkadot/assets/DOT) | 465 | 124,324.74 $740,900.81 |   |    |   | $5.96 |   `{"Token2":"0"}` | 
 | [GLMR](/polkadot/assets/GLMR) | 196 | 414,172.97 $167,649.34 |   |    |   | $0.40 |   `{"Token2":"1"}` | 
 | [ASTR](/polkadot/assets/ASTR) | 12 | 168.75 $11.25 |   |    |   | $0.07 |   `{"Token2":"3"}` | 
-| [BNC](/polkadot/assets/BNC) | 3,863 | 14,600,925.08  | 65,399,074.46  | 4,142,960.74   |   |  |   `{"Token":"BNC"}` | 
+| [BNC](/polkadot/assets/BNC) | 3,718 | 14,600,925.08  | 65,399,074.46  | 4,142,960.74   |   |  |   `{"Token":"BNC"}` | 
 | [vsDOT](/polkadot/assets/vsDOT) | 1,402 | 2,284,753.78  |   |    |   |  |   `{"VSToken2":"0"}` | 
 | [vsBOND-DOT-2006-6-13](/polkadot/assets/vsBOND-DOT-2006-6-13) | 361 | 364,292.66  |   |    |   |  |   `{"VSBond2":["0","2,006","6","13"]}` | 
 | [vsBOND-DOT-2004-6-13](/polkadot/assets/vsBOND-DOT-2004-6-13) | 284 | 70,814.63  |   |    |   |  |   `{"VSBond2":["0","2,004","6","13"]}` | 

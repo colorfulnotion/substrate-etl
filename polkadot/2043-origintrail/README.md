@@ -26,7 +26,7 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [OTP](/polkadot/assets/OTP) | 3,654 | 500,053,154.94  | 166  | 22,330,399.51   |   |  |   `{"Token":"OTP"}` | 
+| [OTP](/polkadot/assets/OTP) | 3,510 | 500,053,154.94  | 166  | 22,330,399.51   |   |  |   `{"Token":"OTP"}` | 
 | [TRAC](/polkadot/assets/TRAC) | 217 | 84,040,684.43  |   |    |   |  |   `{"Token":"1"}` | 
 
 ## substrate-etl Tables:

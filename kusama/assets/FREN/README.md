@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [GM Parachain](/kusama/2123-gm) | 9,108 | 692,439,899  | 37,750  | 97,100,514.45   | 97,100,514.45  |  | `{"Token":"FREN"}` |
+| [GM Parachain](/kusama/2123-gm) | 1,343 | 692,439,899  | 37,750  | 97,100,514.45   | 97,100,514.45  |  | `{"Token":"FREN"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

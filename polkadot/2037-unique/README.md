@@ -26,7 +26,7 @@ _Source_: [unique.polkaholic.io](https://unique.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [UNQ](/polkadot/assets/UNQ) | 32,312 | 1,041,977,864.95  | 2  | 856,867,565.59   | 856,867,565.59  |  |   `{"Token":"UNQ"}` | 
+| [UNQ](/polkadot/assets/UNQ) | 23,860 | 1,041,977,864.95  | 2  | 856,867,565.59   | 856,867,565.59  |  |   `{"Token":"UNQ"}` | 
 
 ## substrate-etl Tables:
 

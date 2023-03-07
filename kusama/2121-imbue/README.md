@@ -26,7 +26,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [IMBU](/kusama/assets/IMBU) | 340 | 199,999,983.76  | 15.63  | 4,158,814.92   |   |  |   `{"Token":"IMBU"}` | 
+| [IMBU](/kusama/assets/IMBU) | 333 | 199,999,983.76  | 15.63  | 4,158,814.92   |   |  |   `{"Token":"IMBU"}` | 
 
 ## substrate-etl Tables:
 

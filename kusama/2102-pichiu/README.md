@@ -26,7 +26,7 @@ _Source_: [pichiu.polkaholic.io](https://pichiu.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PCHU](/kusama/assets/PCHU) | 1,149 | 99,999,989.99  | 10  | 7,211,434.38   |   |  |   `{"Token":"PCHU"}` | 
+| [PCHU](/kusama/assets/PCHU) | 1,144 | 99,999,989.99  | 10  | 7,211,434.38   |   |  |   `{"Token":"PCHU"}` | 
 
 ## substrate-etl Tables:
 

@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Kintsugi](/kusama/2092-kintsugi) | 16,141 | 9,999,315.55 $7,707,643.85 | 433.26 $333.96 |    | 2,496,810.89 $1,924,584.63 | $0.77 | `{"Token":"KINT"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 15,765 | 9,999,315.55 $7,707,643.85 | 433.26 $333.96 |    | 2,496,810.89 $1,924,584.63 | $0.77 | `{"Token":"KINT"}` |
 | [Karura](/kusama/2000-karura) | 370 | 27,650.97 $21,313.84 |   |    |   | $0.77 | `{"Token":"KINT"}` |
 | [Moonriver](/kusama/2023-moonriver) | 229 | 16,421.42 $12,657.91 |   |    |   | $0.77 | `{"Token":"175400718394635817552109270754364440562"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 84 | 10,273.39 $7,918.90 |   |    |   | $0.77 | `{"Token":"119"}` |

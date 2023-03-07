@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [HydraDX](/polkadot/2034-hydradx) | 23,348 | 4,365,013,696.81  | 74,663.81  | 1,912,713,419.63   | 1,849,702,843.32  |  | `{"Token":"HDX"}` |
+| [HydraDX](/polkadot/2034-hydradx) | 23,081 | 4,365,013,696.81  | 74,663.81  | 1,912,713,419.63   | 1,849,702,843.32  |  | `{"Token":"HDX"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

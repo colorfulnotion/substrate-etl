@@ -34,11 +34,11 @@ _Source_: [kintsugi.polkaholic.io](https://kintsugi.polkaholic.io)
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KINT](/kusama/assets/KINT) | 16,141 | 9,999,315.55 $7,707,643.85 | 433.26 $333.96 |    | 2,496,810.89 $1,924,584.63 | $0.77 |   `{"Token":"KINT"}` | 
-| [KBTC](/kusama/assets/KBTC) | 361 | 17.24 $445,043.19 | 0.1 $2,472.52 |    |   | $25,807.76 |   `{"Token":"KBTC"}` | 
-| [LKSM](/kusama/assets/LKSM) | 30 | 27,167.36 $108,760.05 | 33,885.87 $135,656.47 |    |   | $4.00 |   `{"ForeignAsset":"2"}` | 
-| [KSM](/kusama/assets/KSM) | 211 | 1,271.44 $43,827.50 | 20,104.66 $693,024.16 |    |   | $34.47 |   `{"Token":"KSM"}` | 
-| [USDT](/kusama/assets/USDT) | 4 | 5.56 $5.57 |   |    |   | $1.00 |   `{"ForeignAsset":"3"}` | 
+| [KINT](/kusama/assets/KINT) | 15,765 | 9,999,315.55 $7,707,643.85 | 433.26 $333.96 |    | 2,496,810.89 $1,924,584.63 | $0.77 |   `{"Token":"KINT"}` | 
+| [KBTC](/kusama/assets/KBTC) | 153 | 17.24 $445,043.19 | 0.1 $2,472.52 |    |   | $25,807.76 |   `{"Token":"KBTC"}` | 
+| [LKSM](/kusama/assets/LKSM) | 26 | 27,167.36 $108,760.05 | 33,885.87 $135,656.47 |    |   | $4.00 |   `{"ForeignAsset":"2"}` | 
+| [KSM](/kusama/assets/KSM) | 181 | 1,271.44 $43,827.50 | 20,104.66 $693,024.16 |    |   | $34.47 |   `{"Token":"KSM"}` | 
+| [USDT](/kusama/assets/USDT) | 3 | 5.56 $5.57 |   |    |   | $1.00 |   `{"ForeignAsset":"3"}` | 
 
 ## substrate-etl Tables:
 

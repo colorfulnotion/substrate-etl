@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [subzero](/kusama/2236-subzero) | 9 | 10,000,000.01  |   |    |   |  | `{"Token":"ZERO"}` |
+| [subzero](/kusama/2236-subzero) | 6 | 10,000,000.01  |   |    |   |  | `{"Token":"ZERO"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

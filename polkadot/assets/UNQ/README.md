@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Unique](/polkadot/2037-unique) | 32,312 | 1,041,977,864.95  | 2  | 856,867,565.59   | 856,867,565.59  |  | `{"Token":"UNQ"}` |
+| [Unique](/polkadot/2037-unique) | 23,860 | 1,041,977,864.95  | 2  | 856,867,565.59   | 856,867,565.59  |  | `{"Token":"UNQ"}` |
 | [Acala](/polkadot/2000-acala) | 2 | 4.9  |   |    |   |  | `{"ForeignAsset":"10"}` |
 
 ## Substrate-etl Queries:

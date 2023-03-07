@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Centrifuge](/polkadot/2031-centrifuge) | 44,707 | 492,145,111.09  | 161,545.19  | 71,588,515.3   | 13,128,705.21  |  | `{"Token":"CFG"}` |
+| [Centrifuge](/polkadot/2031-centrifuge) | 44,692 | 492,145,111.09  | 161,545.19  | 71,588,515.3   | 13,128,705.21  |  | `{"Token":"CFG"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

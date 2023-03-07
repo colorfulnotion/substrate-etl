@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Crust](/polkadot/2008-crust) | 993 | 46,119.46  | 91.71  | 2,125.7   | 2,000  |  | `{"Token":"CRU"}` |
+| [Crust](/polkadot/2008-crust) | 991 | 46,119.46  | 91.71  | 2,125.7   | 2,000  |  | `{"Token":"CRU"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

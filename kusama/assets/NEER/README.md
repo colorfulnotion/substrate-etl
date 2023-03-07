@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,878 | 94,468,895.33 $20,393,444.69 | 5,531,017.49 $1,194,006.76 | 73,641,437.53  $15,897,323.43 |   | $0.22 | `{"Token":"NEER"}` |
+| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,725 | 94,468,895.33 $20,393,444.69 | 5,531,017.49 $1,194,006.76 | 73,641,437.53  $15,897,323.43 |   | $0.22 | `{"Token":"NEER"}` |
 | [Karura](/kusama/2000-karura) | 13 | 22.58 $4.88 |   |    |   | $0.22 | `{"ForeignAsset":"9"}` |
 
 ## Substrate-etl Queries:

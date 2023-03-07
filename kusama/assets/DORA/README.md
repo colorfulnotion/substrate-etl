@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Dora Factory](/kusama/2115-dorafactory) | 372 | 50,000  |   | 103   |   |  | `{"Token":"DORA"}` |
+| [Dora Factory](/kusama/2115-dorafactory) | 368 | 50,000  |   | 103   |   |  | `{"Token":"DORA"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

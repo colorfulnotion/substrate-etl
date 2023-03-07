@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Efinity](/polkadot/2021-efinity) | 16,157 | 249,755,706.05  | 11,200  | 165,371,256.16   | 165,371,174.83  |  | `{"Token":"EFI"}` |
+| [Efinity](/polkadot/2021-efinity) | 16,156 | 249,755,706.05  | 11,200  | 165,371,256.16   | 165,371,174.83  |  | `{"Token":"EFI"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

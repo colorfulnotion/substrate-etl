@@ -15,7 +15,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | [Basilisk](/kusama/2090-basilisk) | 43 | 20,888.78 $20,912.13 |   |    |   | $1.00 | `{"Token":"14"}` |
 | [Moonriver](/kusama/2023-moonriver) | 30 | 706.43 $706.43 |   |    |   | $1.00 | `{"Token":"311091173110107856861649819128533077277"}` |
 | [Shiden](/kusama/2007-shiden) | 7 | 7.78 $7.79 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
-| [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.57 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 3 | 5.56 $5.57 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
 | [Statemine](/kusama/1000-statemine) | 1 | 69,000,000,000  |   |    |   |  | `{"Token":"11"}` |
 
 ## Substrate-etl Queries:

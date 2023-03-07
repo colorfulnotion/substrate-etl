@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Composable Finance](/polkadot/2019-composable) | 10 | 99,999,999.18  |   |    |   |  | `{"Token":"LAYR"}` |
+| [Composable Finance](/polkadot/2019-composable) | 5 | 99,999,999.18  |   |    |   |  | `{"Token":"LAYR"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

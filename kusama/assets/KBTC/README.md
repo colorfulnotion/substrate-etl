@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Kintsugi](/kusama/2092-kintsugi) | 361 | 17.24 $445,043.19 | 0.1 $2,472.52 |    |   | $25,807.76 | `{"Token":"KBTC"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 153 | 17.24 $445,043.19 | 0.1 $2,472.52 |    |   | $25,807.76 | `{"Token":"KBTC"}` |
 | [Karura](/kusama/2000-karura) | 134 | 5.33 $137,608.07 |   |    |   | $25,807.76 | `{"Token":"KBTC"}` |
 | [Moonriver](/kusama/2023-moonriver) | 78 | 5.31 $137,111.16 |   |    |   | $25,807.76 | `{"Token":"328179947973504579459046439826496046832"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 18 | 1.85 $47,706.09 |   |    |   | $25,807.76 | `{"Token2":"2"}` |

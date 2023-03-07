@@ -11,7 +11,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 20,390 | 3,609,413.8 $100,481.83 |   |    |   | $0.03 | `{"Token":"ZLK"}` |
 | [Khala](/kusama/2004-khala) | 6 | 196,957.02 $5,483.05 |   |    |   | $0.03 | `{"Token":"3"}` |
-| [Mangatax](/kusama/2110-mangatax) | 49 | 105,097.46 $2,925.79 |   |    |   | $0.03 | `{"Token":"26"}` |
+| [Mangatax](/kusama/2110-mangatax) | 19 | 105,097.46 $2,925.79 |   |    |   | $0.03 | `{"Token":"26"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

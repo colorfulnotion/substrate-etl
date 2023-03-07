@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Picasso](/kusama/2087-picasso) | 2,710 | 9,999,999,916  | 84  | 756,777,948.83   | 751,577,006  |  | `{"Token":"PICA"}` |
+| [Picasso](/kusama/2087-picasso) | 2,686 | 9,999,999,916  | 84  | 756,777,948.83   | 751,577,006  |  | `{"Token":"PICA"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
