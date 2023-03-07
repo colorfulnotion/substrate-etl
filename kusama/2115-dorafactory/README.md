@@ -9,7 +9,7 @@ _Source_: [dorafactory.polkaholic.io](https://dorafactory.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2115-dorafactory/2023-03-31.md) | 1,529,417 | 1,565,919 | 36,503 | 1 | 2 | 372 | -   |   
+| [2023-03-01 to 2023-03-07](/kusama/2115-dorafactory/2023-03-31.md) | 1,529,417 | 1,566,443 | 37,027 | 1 | 2 | 372 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2115-dorafactory/2023-02-28.md) | 1,364,746 | 1,529,416 | 164,671 | 15 | 3 | 372 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2115-dorafactory/2023-01-31.md) | 1,183,033 | 1,364,745 | 181,713 | 14 | 3 | 372 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2115-dorafactory/2022-12-31.md) | 1,006,303 | 1,183,032 | 176,730 | 10 | 3 | 373 | -   |   
