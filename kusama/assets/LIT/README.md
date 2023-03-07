@@ -11,7 +11,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Litmus](/kusama/2106-litmus) | 13,912 | 491,749.69 $536,652.79 | 0.77 $0.84 | 336,038.63  $366,723.30 |   | $1.09 | `{"Token":"LIT"}` |
 | [Moonriver](/kusama/2023-moonriver) | 23 | 898.99 $981.08 |   |    |   | $1.09 | `{"Token":"65216491554813189869575508812319036608"}` |
-| [Karura](/kusama/2000-karura) | 2 | 1 $1.09 |   |    |   | $1.09 | `{"ForeignAsset":"20"}` |
+| [Karura](/kusama/2000-karura) | 2 | 2 $2.18 |   |    |   | $1.09 | `{"ForeignAsset":"20"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

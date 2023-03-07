@@ -10,7 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Altair](/kusama/2088-altair) | 29,459 | 476,513,029.03 $4,546,140.63 | 511,305.05 $4,878.07 | 79,007,880.37  $753,769.39 | 13,528,465.49 $129,067.42 | $0.00954 | `{"Token":"AIR"}` |
-| [Karura](/kusama/2000-karura) | 280 | 3,360,889.84 $32,064.34 |   |    |   | $0.00954 | `{"ForeignAsset":"12"}` |
+| [Karura](/kusama/2000-karura) | 280 | 6,721,779.68 $64,128.69 |   |    |   | $0.00954 | `{"ForeignAsset":"12"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

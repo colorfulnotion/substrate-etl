@@ -10,8 +10,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Basilisk](/kusama/2090-basilisk) | 18,383 | 49,499,914,989 $5,346,017.53 | 59,385.33 $6.41 | 23,218,023,801.91  $2,507,559.10 | 23,124,046,017.65 $2,497,409.45 | - | `{"Token":"BSX"}` |
-| [Karura](/kusama/2000-karura) | 115 | 5,486,871.49 $600.40 |   |    |   | - | `{"ForeignAsset":"11"}` |
+| [Basilisk](/kusama/2090-basilisk) | 18,383 | 49,499,914,989 $5,416,563.35 | 59,385.33 $6.50 | 23,218,023,801.91  $2,540,648.74 | 23,124,046,017.65 $2,530,365.16 | - | `{"Token":"BSX"}` |
+| [Karura](/kusama/2000-karura) | 115 | 10,973,742.97 $1,200.81 |   |    |   | - | `{"ForeignAsset":"11"}` |
 | [Khala](/kusama/2004-khala) | 6 | 6,770.26 $0.74 |   |    |   | - | `{"Token":"9"}` |
 
 ## Substrate-etl Queries:

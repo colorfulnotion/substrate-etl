@@ -11,7 +11,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Darwinia Crab](/kusama/2105-crab) | 54 | 464,475.52 $463.18 |   | 612  $0.61 | 612 $0.61 | - | `{"Token":"CRAB"}` |
 | [Moonriver](/kusama/2023-moonriver) | 12 | 28,221.46 $28.14 |   |    |   | - | `{"Token":"173481220575862801646329923366065693029"}` |
-| [Karura](/kusama/2000-karura) | 10 | 6,430.92 $6.41 |   |    |   | - | `{"ForeignAsset":"13"}` |
+| [Karura](/kusama/2000-karura) | 10 | 12,861.84 $12.83 |   |    |   | - | `{"ForeignAsset":"13"}` |
 | [Khala](/kusama/2004-khala) | 4 | 17 $0.02 |   |    |   | - | `{"Token":"11"}` |
 
 ## Substrate-etl Queries:

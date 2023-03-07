@@ -11,7 +11,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Statemine](/kusama/1000-statemine) | 6,156 | 9,999,611.77 $23,146,333.47 |   |    |   | $2.31 | `{"Token":"8"}` |
 | [Moonriver](/kusama/2023-moonriver) | 3,269 | 4,627,107.98 $10,710,474.24 |   |    |   | $2.31 | `{"Token":"182365888117048807484804376330534607370"}` |
-| [Karura](/kusama/2000-karura) | 898 | 141,051.72 $326,495.69 |   |    |   | $2.31 | `{"ForeignAsset":"0"}` |
+| [Karura](/kusama/2000-karura) | 898 | 282,103.44 $652,991.38 |   |    |   | $2.31 | `{"ForeignAsset":"0"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 143 | 9,273.87 $21,466.44 |   |    |   | $2.31 | `{"Token":"RMRK"}` |
 
 ## Substrate-etl Queries:

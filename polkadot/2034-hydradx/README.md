@@ -9,7 +9,7 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-06](/polkadot/2034-hydradx/2023-03-31.md) | 2,047,177 | 2,085,152 | 37,976 | 1,748 | 90 | 23,348 | -   |   
+| [2023-03-01 to 2023-03-06](/polkadot/2034-hydradx/2023-03-31.md) | 2,047,177 | 2,085,852 | 38,676 | 1,759 | 90 | 23,348 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2034-hydradx/2023-02-28.md) | 1,868,702 | 2,047,176 | 178,475 | 11,712 | 128 | 23,325 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2034-hydradx/2023-01-31.md) | 1,672,353 | 1,868,701 | 196,349 | 33,155 | 222 | 23,205 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2034-hydradx/2022-12-31.md) | 1,483,335 | 1,672,352 | 189,018 | 1,135 | 44 | 22,542 | -   |   
@@ -31,7 +31,7 @@ _Source_: [hydradx.polkaholic.io](https://hydradx.polkaholic.io)
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
 | [DAI](/polkadot/assets/DAI) | 428 | 2,383,900.46 $2,383,900.46 |   |    |   | $1.00 |   `{"Token":"2"}` | 
 | [DOT](/polkadot/assets/DOT) | 1,525 | 110,826.1 $660,457.03 |   |    |   | $5.96 |   `{"Token":"5"}` | 
-| [HDX](/polkadot/assets/HDX) | 22,348 | 4,260,113,661.03  | 71,717.13  | 1,864,915,331.44   | 1,812,740,644.65  |  |   `{"Token":"HDX"}` | 
+| [HDX](/polkadot/assets/HDX) | 23,348 | 4,365,013,696.81  | 74,663.81  | 1,912,713,419.63   | 1,849,702,843.32  |  |   `{"Token":"HDX"}` | 
 | [LRNA](/polkadot/assets/LRNA) | 116 | 265,887.66  |   |    |   |  |   `{"Token":"1"}` | 
 | [WETH.ACA](/polkadot/assets/WETH.ACA) | 51 | 1,378.09  |   |    |   |  |   `{"Token":"4"}` | 
 | [WBTC.ACA](/polkadot/assets/WBTC.ACA) | 23 | 48.23  |   |    |   |  |   `{"Token":"3"}` | 

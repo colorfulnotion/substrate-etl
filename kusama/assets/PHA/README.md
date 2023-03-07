@@ -10,7 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Khala](/kusama/2004-khala) | 23,834 | 691,785,176.49 $119,821,428.69 | 14,766.85 $2,557.71 | 1,820,703.76  $315,357.04 | 1,406.9 $243.68 | $0.17 | `{"Token":"PHA"}` |
-| [Karura](/kusama/2000-karura) | 290 | 178,195.69 $30,864.58 |   |    |   | $0.17 | `{"Token":"PHA"}` |
+| [Karura](/kusama/2000-karura) | 290 | 356,391.38 $61,729.17 |   |    |   | $0.17 | `{"Token":"PHA"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 399 | 54,285.44 $9,402.57 |   |    |   | $0.17 | `{"Token":"PHA"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 144 | 19,929.22 $3,451.86 |   |    |   | $0.17 | `{"Token":"115"}` |
 | [Moonriver](/kusama/2023-moonriver) | 48 | 4,434.39 $768.06 |   |    |   | $0.17 | `{"Token":"189307976387032586987344677431204943363"}` |

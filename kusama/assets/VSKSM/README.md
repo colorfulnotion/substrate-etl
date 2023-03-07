@@ -10,7 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 36,761 | 56,105.23  | 6,211.89  |    |   |  | `{"VSToken":"KSM"}` |
-| [Karura](/kusama/2000-karura) | 130 | 165.91  |   |    |   |  | `{"Token":"VSKSM"}` |
+| [Karura](/kusama/2000-karura) | 130 | 331.83  |   |    |   |  | `{"Token":"VSKSM"}` |
 | [Mangatax](/kusama/2110-mangatax) | 52 | 827.64  |   |    |   |  | `{"Token":"16"}` |
 
 ## Substrate-etl Queries:

@@ -11,8 +11,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Moonriver](/kusama/2023-moonriver) | 585,975 | 10,572,537.9 $97,509,532.74 | 124,684.08 $1,149,949.66 | 2,225,784.74  $20,528,205.44 | 2,121,519.52 $19,566,577.05 | $9.22 | `{"Token":"MOVR"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 455 | 5,871.97 $54,156.68 |   |    |   | $9.22 | `{"Token":"MOVR"}` |
+| [Karura](/kusama/2000-karura) | 114 | 1,239.46 $11,431.38 |   |    |   | $9.22 | `{"ForeignAsset":"3"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 146 | 1,223.54 $11,284.62 |   |    |   | $9.22 | `{"Token":"113"}` |
-| [Karura](/kusama/2000-karura) | 114 | 619.73 $5,715.69 |   |    |   | $9.22 | `{"ForeignAsset":"3"}` |
 | [Shiden](/kusama/2007-shiden) | 25 | 6.67 $61.50 |   |    |   | $9.22 | `{"Token":"18446744073709551620"}` |
 | [Calamari](/kusama/2084-calamari) | 2 | 0.77 $7.07 |   |    |   | $9.22 | `{"Token":"11"}` |
 | [Khala](/kusama/2004-khala) | 11 | 0.44 $4.03 |   |    |   | $9.22 | `{"Token":"6"}` |

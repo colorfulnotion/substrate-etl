@@ -10,7 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Pichiu](/kusama/2102-pichiu) | 1,149 | 99,999,989.99  | 10  | 7,211,434.38   |   |  | `{"Token":"PCHU"}` |
-| [Karura](/kusama/2000-karura) | 14 | 22,212.1  |   |    |   |  | `{"ForeignAsset":"17"}` |
+| [Karura](/kusama/2000-karura) | 14 | 44,424.2  |   |    |   |  | `{"ForeignAsset":"17"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

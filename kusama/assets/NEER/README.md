@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 23,878 | 93,712,372.33 $20,230,130.51 | 5,459,328.49 $1,178,530.92 | 73,473,514.98  $15,861,073.20 |   | $0.22 | `{"Token":"NEER"}` |
-| [Karura](/kusama/2000-karura) | 13 | 11.29 $2.44 |   |    |   | $0.22 | `{"ForeignAsset":"9"}` |
+| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,878 | 94,468,895.33 $20,393,444.69 | 5,531,017.49 $1,194,006.76 | 73,641,437.53  $15,897,323.43 |   | $0.22 | `{"Token":"NEER"}` |
+| [Karura](/kusama/2000-karura) | 13 | 22.58 $4.88 |   |    |   | $0.22 | `{"ForeignAsset":"9"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

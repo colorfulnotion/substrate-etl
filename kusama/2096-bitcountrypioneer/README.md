@@ -33,7 +33,7 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [NEER](/kusama/assets/NEER) | 23,878 | 93,712,372.33 $20,230,130.51 | 5,459,328.49 $1,178,530.92 | 73,473,514.98  $15,861,073.20 |   | $0.22 |   `{"Token":"NEER"}` | 
+| [NEER](/kusama/assets/NEER) | 24,878 | 94,468,895.33 $20,393,444.69 | 5,531,017.49 $1,194,006.76 | 73,641,437.53  $15,897,323.43 |   | $0.22 |   `{"Token":"NEER"}` | 
 | [KUSD](/kusama/assets/KUSD) | 3 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
 
 ## substrate-etl Tables:

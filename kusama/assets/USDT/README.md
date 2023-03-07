@@ -9,10 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Karura](/kusama/2000-karura) | 165 | 206,101.34 $206,331.64 |   |    |   | $1.00 | `{"ForeignAsset":"7"}` |
+| [Karura](/kusama/2000-karura) | 165 | 412,202.67 $412,663.28 |   |    |   | $1.00 | `{"ForeignAsset":"7"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 97 | 47,639.67 $47,692.91 |   |    |   | $1.00 | `{"Token2":"0"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 119 | 40,022.57 $40,067.29 |   |    |   | $1.00 | `{"Token":"102"}` |
-| [Basilisk](/kusama/2090-basilisk) | 43 | 20,888.78 $20,892.72 |   |    |   | $1.00 | `{"Token":"14"}` |
+| [Basilisk](/kusama/2090-basilisk) | 43 | 20,888.78 $20,912.13 |   |    |   | $1.00 | `{"Token":"14"}` |
 | [Moonriver](/kusama/2023-moonriver) | 30 | 706.43 $706.43 |   |    |   | $1.00 | `{"Token":"311091173110107856861649819128533077277"}` |
 | [Shiden](/kusama/2007-shiden) | 7 | 7.78 $7.79 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
 | [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.57 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
