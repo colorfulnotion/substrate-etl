@@ -44,6 +44,7 @@ Missing chains
 * *Aventus* Para ID 2056; No Public Websocket Endpoint available: Not indexing yet.
 * *Watr Network* Para ID 2058; Onboarding
 * *TBD2* Para ID 2092; 
+* *null* Para ID 3333; 
 # Assets
 
 Source: [Polkaholic.io](https://polkaholic.io)
