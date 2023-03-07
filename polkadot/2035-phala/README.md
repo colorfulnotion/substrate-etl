@@ -9,7 +9,6 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/polkadot/2035-phala/2023-03-31.md) | 2,009,121 | 2,056,788 | 47,668 | 288 | 24 | 3,144 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2035-phala/2023-02-28.md) | 1,809,602 | 2,009,120 | 199,519 | 924 | 26 | 3,128 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2035-phala/2023-01-31.md) | 1,587,962 | 1,809,601 | 221,640 | 616 | 20 | 3,021 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2035-phala/2022-12-31.md) | 1,367,180 | 1,587,961 | 220,782 | 502 | 18 | 2,979 | -   |   
@@ -22,15 +21,15 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 | [2022-05-31 to 2022-05-31](/polkadot/2035-phala/2022-05-31.md) | 90,052 | 92,104 | 2,053 |  | 3 | 5 | -   |   
 | [2022-04-01 to 2022-04-15](/polkadot/2035-phala/2022-04-30.md) | 1 | 90,051 | 90,051 |  | 3 | 5 | -   |   
 
-## Phala Assets as of 2023-03-05
+## Phala Assets as of 2023-03-06
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PHA](/polkadot/assets/PHA) | 3,129 | 541,799,866.72 $93,843,054.61 | 133.15 $23.06 | 11,320,335.23  $1,960,751.38 |   | $0.17 |   `{"Token":"PHA"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 11 | 36.53 $14.79 |   |    |   | $0.40 |   `{"Token":"1"}` | 
-| [ASTR](/polkadot/assets/ASTR) | 11 | 105.33 $7.02 |   |    |   | $0.07 |   `{"Token":"6"}` | 
+| [PHA](/polkadot/assets/PHA) | 3,132 | 541,799,866.71 $90,603,840.81 | 133.15 $22.27 | 11,319,164.03  $1,892,875.58 |   | $0.17 |   `{"Token":"PHA"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 11 | 36.53 $14.67 |   |    |   | $0.40 |   `{"Token":"1"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 11 | 105.33 $7.15 |   |    |   | $0.07 |   `{"Token":"6"}` | 
 | [PARA](/polkadot/assets/PARA) | 5 | 55.56 $0.64 |   |    |   | $0.01 |   `{"Token":"2"}` | 
 | [EQ](/polkadot/assets/EQ) | 2 | 807.76  |   |    |   |  |   `{"Token":"9"}` | 
 

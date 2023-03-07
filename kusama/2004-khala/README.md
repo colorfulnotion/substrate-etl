@@ -9,7 +9,6 @@ Status: Only partial index available: Old Decoding issues
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2004-khala/2023-03-31.md) | 3,404,470 | 3,449,801 | 45,332 | 939,021 | 1,212 | 23,852 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2004-khala/2023-02-28.md) | 3,224,780 | 3,404,469 | 179,690 | 3,821,812 | 1,415 | 23,764 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2004-khala/2023-01-31.md) | 3,021,555 | 3,224,779 | 203,225 | 4,363,410 | 1,415 | 23,240 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2004-khala/2022-12-31.md) | 2,822,145 | 3,021,554 | 199,410 | 3,092,577 | 1,544 | 22,893 | -   |   
@@ -31,24 +30,24 @@ Status: Only partial index available: Old Decoding issues
 | [2021-08-01 to 2021-08-31](/kusama/2004-khala/2021-08-31.md) | 102,052 | 303,772 | 201,670 | 266 | 12 | 3,198 | - 51 (0.03%) |   
 | [2021-07-13 to 2021-07-31](/kusama/2004-khala/2021-07-31.md) | 1 | 102,051 | 102,051 | 530 |  | 3,172 | -   |   
 
-## Khala Assets as of 2023-03-05
+## Khala Assets as of 2023-03-06
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PHA](/kusama/assets/PHA) | 20,672 | 691,785,176.49 $119,821,428.69 | 14,766.85 $2,557.71 | 1,820,703.76  $315,357.04 | 1,406.9 $243.68 | $0.17 |   `{"Token":"PHA"}` | 
-| [ZLK](/kusama/assets/ZLK) | 6 | 196,957.02 $5,483.05 |   |    |   | $0.03 |   `{"Token":"3"}` | 
+| [PHA](/kusama/assets/PHA) | 20,683 | 691,785,176.49 $115,685,510.20 | 14,766.85 $2,469.42 | 1,820,404.79  $304,421.75 | 1,406.9 $235.27 | $0.17 |   `{"Token":"PHA"}` | 
+| [ZLK](/kusama/assets/ZLK) | 6 | 212,462.32 $6,371.50 |   |    |   | $0.03 |   `{"Token":"3"}` | 
 | [KUSD](/kusama/assets/KUSD) | 8 | 207.91 $207.91 |   |    |   | $1.00 |   `{"Token":"4"}` | 
-| [KAR](/kusama/assets/KAR) | 19 | 141.19 $27.25 |   |    |   | $0.19 |   `{"Token":"1"}` | 
-| [SDN](/kusama/assets/SDN) | 9 | 29.99 $12.09 |   |    |   | $0.40 |   `{"Token":"12"}` | 
-| [BNC](/kusama/assets/BNC) | 10 | 25.92 $8.74 |   |    |   | $0.34 |   `{"Token":"2"}` | 
-| [KSM](/kusama/assets/KSM) | 2 | 0.23 $8.09 |   |    |   | $34.47 |   `{"Token":"0"}` | 
-| [MOVR](/kusama/assets/MOVR) | 11 | 0.44 $4.03 |   |    |   | $9.22 |   `{"Token":"6"}` | 
-| [KMA](/kusama/assets/KMA) | 5 | 391.4 $0.84 |   |    |   | $0.00214 |   `{"Token":"8"}` | 
+| [KAR](/kusama/assets/KAR) | 19 | 141.19 $27.26 |   |    |   | $0.19 |   `{"Token":"1"}` | 
+| [SDN](/kusama/assets/SDN) | 9 | 29.99 $12.38 |   |    |   | $0.41 |   `{"Token":"12"}` | 
+| [BNC](/kusama/assets/BNC) | 10 | 25.92 $8.20 |   |    |   | $0.32 |   `{"Token":"2"}` | 
+| [KSM](/kusama/assets/KSM) | 2 | 0.23 $8.15 |   |    |   | $34.71 |   `{"Token":"0"}` | 
+| [MOVR](/kusama/assets/MOVR) | 11 | 0.44 $3.95 |   |    |   | $9.05 |   `{"Token":"6"}` | 
+| [KMA](/kusama/assets/KMA) | 5 | 391.4 $0.80 |   |    |   | $0.00204 |   `{"Token":"8"}` | 
 | [BSX](/kusama/assets/BSX) | 6 | 6,770.26 $0.74 |   |    |   | - |   `{"Token":"9"}` | 
 | [CRAB](/kusama/assets/CRAB) | 4 | 17 $0.02 |   |    |   | - |   `{"Token":"11"}` | 
-| [wPHA](/kusama/assets/wPHA) | 3,404 | 248,234,303.44  |   |    |   |  |   `{"Token":"10000"}` | 
+| [wPHA](/kusama/assets/wPHA) | 3,401 | 248,302,372.9  |   |    |   |  |   `{"Token":"10000"}` | 
 | [HKO](/kusama/assets/HKO) | 8 | 21.38  |   |    |   |  |   `{"Token":"7"}` | 
 | [TUR](/kusama/assets/TUR) | 2 | 1.06  |   |    |   |  |   `{"Token":"10"}` | 
 

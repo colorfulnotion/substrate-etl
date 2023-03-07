@@ -9,7 +9,6 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2116-tanganika/2023-03-31.md) | 1,542,640 | 1,589,482 | 46,843 | 267 |  | 3,623 | -   |   
 | [2023-02-08 to 2023-02-28](/kusama/2116-tanganika/2023-02-28.md) | 1,401,932 | 1,542,639 | 140,707 | 1,922 |  |  | - 1 (0.00%) |   
 | [2023-01-23 to 2023-01-24](/kusama/2116-tanganika/2023-01-31.md) | 1,283,096 | 1,296,404 | 13,309 | 149 |  |  | -  **BROKEN**  |   
 | [2022-12-01 to 2022-12-13](/kusama/2116-tanganika/2022-12-31.md) | 935,791 | 1,009,889 | 74,036 | 1,090 | 34 | 3,213 | -  **BROKEN** (0.09%) |   
@@ -19,14 +18,6 @@ Status: Only partial index available: Archive node unavailable
 | [2022-08-01 to 2022-08-31](/kusama/2116-tanganika/2022-08-31.md) | 201,235 | 363,895 | 162,661 | 1,024 | 24 | 2,617 | -   |   
 | [2022-07-01 to 2022-07-31](/kusama/2116-tanganika/2022-07-31.md) | 22,739 | 201,234 | 178,496 | 114 | 10 | 2,473 | -   |   
 | [2022-06-27 to 2022-06-30](/kusama/2116-tanganika/2022-06-30.md) | 1 | 22,738 | 22,738 | 22 | 8 | 2,470 | -   |   
-
-## Tanganika Assets as of 2023-03-05
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DHX](/kusama/assets/DHX) | 3,623 | 32,192,982.84  | 146.59  | 76,473.61   | 76,468.61  |  |   `{"Token":"DHX"}` | 
 
 ## substrate-etl Tables:
 

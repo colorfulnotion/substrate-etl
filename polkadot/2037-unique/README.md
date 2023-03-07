@@ -9,7 +9,6 @@ _Source_: [unique.polkaholic.io](https://unique.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/polkadot/2037-unique/2023-03-31.md) | 1,820,307 | 1,868,303 | 47,997 | 204,798 | 3,454 | 32,312 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2037-unique/2023-02-28.md) | 1,620,319 | 1,820,306 | 199,988 | 1,653 | 22 | 16,273 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2037-unique/2023-01-31.md) | 1,398,225 | 1,620,318 | 222,094 | 1,900 | 23 | 16,134 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2037-unique/2022-12-31.md) | 1,177,231 | 1,398,224 | 220,994 | 1,490 | 19 | 15,991 | -   |   
@@ -20,13 +19,13 @@ _Source_: [unique.polkaholic.io](https://unique.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2037-unique/2022-07-31.md) | 132,219 | 334,626 | 202,408 | 26,645 | 95 | 11,250 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2037-unique/2022-06-30.md) | 1 | 132,218 | 132,218 | 4 |  | 4 | -   |   
 
-## Unique Assets as of 2023-03-05
+## Unique Assets as of 2023-03-06
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [UNQ](/polkadot/assets/UNQ) | 23,860 | 1,041,977,864.95  | 2  | 856,867,565.59   | 856,867,565.59  |  |   `{"Token":"UNQ"}` | 
+| [UNQ](/polkadot/assets/UNQ) | 23,864 | 1,041,977,864.95  | 2  | 856,865,958.26   | 856,865,958.26  |  |   `{"Token":"UNQ"}` | 
 
 ## substrate-etl Tables:
 

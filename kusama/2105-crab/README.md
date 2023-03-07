@@ -9,7 +9,6 @@ _Source_: [crab.polkaholic.io](https://crab.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2105-crab/2023-03-31.md) | 1,692,087 | 1,720,623 | 28,537 | 33 | 2 | 54 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2105-crab/2023-02-28.md) | 1,626,478 | 1,692,086 | 65,609 | 192 | 2 | 54 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2105-crab/2023-01-31.md) | 1,485,472 | 1,626,477 | 141,006 | 200 | 3 | 52 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2105-crab/2022-12-31.md) | 1,301,385 | 1,485,471 | 184,087 | 138 | 4 | 52 | -   |   
@@ -24,7 +23,7 @@ _Source_: [crab.polkaholic.io](https://crab.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/2105-crab/2022-03-31.md) | 26,711 | 127,900 | 101,190 | 2 | 6 | 8 | -   |   
 | [2022-02-20 to 2022-02-28](/kusama/2105-crab/2022-02-28.md) | 1 | 26,710 | 26,710 | 5 | 6 | 8 | -   |   
 
-## Darwinia Crab Assets as of 2023-03-05
+## Darwinia Crab Assets as of 2023-03-06
 
 
 

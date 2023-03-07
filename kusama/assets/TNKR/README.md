@@ -1,16 +1,16 @@
 # TNKR on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 
 *XCM Interior Keys*:
-* `[{"network":"kusama"},{"parachain":2125},{"generalIndex":0}]`
+* `[{"parachain":2125},{"generalIndex":0}]~kusama`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [InvArch Tinkernet](/kusama/2125-tinkernet) | 7,761 | 11,684,930.69  | 15,065  | 2,012,450.89   | 2,012,450.89  |  | `{"Token":"TNKR"}` |
-| [Basilisk](/kusama/2090-basilisk) | 1,643 | 807,677.58  |   |    |   |  | `{"Token":"6"}` |
+| [InvArch Tinkernet](/kusama/2125-tinkernet) | 7,762 | 11,684,930.68  | 15,065  | 2,012,215.69   | 2,012,215.69  |  | `{"Token":"TNKR"}` |
+| [Basilisk](/kusama/2090-basilisk) | 1,647 | 805,967.35  |   |    |   |  | `{"Token":"6"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "TNKR" and date(ts) = "2023-03-05"
+ where symbol = "TNKR" and date(ts) = "2023-03-06"
  group by para_id
  order by free_usd desc
 ```

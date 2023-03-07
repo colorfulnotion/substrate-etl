@@ -1,17 +1,17 @@
 # BSX on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 
 *XCM Interior Keys*:
-* `[{"network":"kusama"},{"parachain":2090},{"generalIndex":0}]`
-* `[{"network":"kusama"},{"parachain":2090},{"generalKey":"0x00000000"}]`
+* `[{"parachain":2090},{"generalIndex":0}]~kusama`
+* `[{"parachain":2090},{"generalKey":"0x00000000"}]~kusama`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Basilisk](/kusama/2090-basilisk) | 16,932 | 49,499,914,989 $5,416,563.35 | 59,385.33 $6.50 | 23,218,023,801.91  $2,540,648.74 | 23,124,046,017.65 $2,530,365.16 | - | `{"Token":"BSX"}` |
-| [Karura](/kusama/2000-karura) | 115 | 10,973,742.97 $1,200.81 |   |    |   | - | `{"ForeignAsset":"11"}` |
+| [Basilisk](/kusama/2090-basilisk) | 16,935 | 49,499,914,989 $5,442,903.73 | 59,385.33 $6.53 | 23,216,813,794.54  $2,552,870.69 | 23,122,944,520.88 $2,542,549.03 | - | `{"Token":"BSX"}` |
+| [Karura](/kusama/2000-karura) | 115 | 5,486,871.49 $603.32 |   |    |   | - | `{"ForeignAsset":"11"}` |
 | [Khala](/kusama/2004-khala) | 6 | 6,770.26 $0.74 |   |    |   | - | `{"Token":"9"}` |
 
 ## Substrate-etl Queries:
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "BSX" and date(ts) = "2023-03-05"
+ where symbol = "BSX" and date(ts) = "2023-03-06"
  group by para_id
  order by free_usd desc
 ```

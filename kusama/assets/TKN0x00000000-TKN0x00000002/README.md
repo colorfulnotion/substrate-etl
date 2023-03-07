@@ -1,12 +1,12 @@
 # TKN0x00000000-TKN0x00000002 on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Mangatax](/kusama/2110-mangatax) | 20 | 11,734  | 15,266  |    |   |  | `{"Token":"3"}` |
+| [Mangatax](/kusama/2110-mangatax) | 26 | 11,734  | 15,266  |    |   |  | `{"Token":"3"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "TKN0x00000000-TKN0x00000002" and date(ts) = "2023-03-05"
+ where symbol = "TKN0x00000000-TKN0x00000002" and date(ts) = "2023-03-06"
  group by para_id
  order by free_usd desc
 ```

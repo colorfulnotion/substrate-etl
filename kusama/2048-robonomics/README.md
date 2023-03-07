@@ -9,7 +9,6 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2048-robonomics/2023-03-31.md) | 2,584,800 | 2,631,879 | 47,080 | 10,683 | 20 | 3,156 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2048-robonomics/2023-02-28.md) | 2,385,571 | 2,584,799 | 199,229 | 37,998 | 35 | 3,149 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2048-robonomics/2023-01-31.md) | 2,165,671 | 2,385,570 | 219,900 | 36,137 | 32 | 3,077 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2048-robonomics/2022-12-31.md) | 1,953,566 | 2,165,670 | 212,105 | 46,241 | 34 | 3,001 | -   |   
@@ -25,14 +24,14 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2048-robonomics/2022-02-28.md) | 158,459 | 298,594 | 140,136 | 599,259 | 40 | 2,452 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/2048-robonomics/2022-01-31.md) | 1 | 158,458 | 158,458 | 219,693 | 30 | 2,357 | -   |   
 
-## Robonomics Assets as of 2023-03-05
+## Robonomics Assets as of 2023-03-06
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [XRT](/kusama/assets/XRT) | 2,942 | 994,894.76 $5,540,988.56 | 199.04 $1,108.54 | 144,367.16  $804,041.60 |   | $5.57 |   `{"Token":"XRT"}` | 
-| [KSM](/kusama/assets/KSM) | 6 | 536.43 $18,491.19 |   |    |   | $34.47 |   `{"Token":"4294967295"}` | 
+| [XRT](/kusama/assets/XRT) | 2,946 | 994,184.34 $5,441,078.05 | 200.28 $1,096.11 | 144,335.37  $789,934.00 |   | $5.47 |   `{"Token":"XRT"}` | 
+| [KSM](/kusama/assets/KSM) | 6 | 536.43 $18,619.75 |   |    |   | $34.71 |   `{"Token":"4294967295"}` | 
 
 ## substrate-etl Tables:
 

@@ -9,7 +9,6 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2096-bitcountrypioneer/2023-03-31.md) | 2,640,698 | 2,686,934 | 46,237 | 1,495 | 73 | 24,880 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2096-bitcountrypioneer/2023-02-28.md) | 2,444,069 | 2,640,697 | 196,629 | 10,443 | 148 | 24,880 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2096-bitcountrypioneer/2023-01-31.md) | 2,226,701 | 2,444,068 | 217,368 | 31,043 | 332 | 24,704 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2096-bitcountrypioneer/2022-12-31.md) | 2,019,162 | 2,226,700 | 207,539 | 9,952 | 136 | 24,181 | -   |   
@@ -27,14 +26,14 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 | [2021-12-01 to 2021-12-31](/kusama/2096-bitcountrypioneer/2021-12-31.md) | 17,803 | 213,883 | 196,081 | 14 |  | 5 | -   |   
 | [2021-11-28 to 2021-11-30](/kusama/2096-bitcountrypioneer/2021-11-30.md) | 1 | 17,802 | 17,802 |  |  | 4 | -   |   
 
-## Bit.Country Pioneer Assets as of 2023-03-05
+## Bit.Country Pioneer Assets as of 2023-03-06
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [NEER](/kusama/assets/NEER) | 24,725 | 94,468,895.33 $20,393,444.69 | 5,531,017.49 $1,194,006.76 | 73,641,437.53  $15,897,323.43 |   | $0.22 |   `{"Token":"NEER"}` | 
-| [KUSD](/kusama/assets/KUSD) | 2 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
+| [NEER](/kusama/assets/NEER) | 24,730 | 94,474,848.53 $19,427,270.56 | 5,525,064.29 $1,136,142.80 | 73,640,972.12  $15,143,110.70 |   | $0.21 |   `{"Token":"NEER"}` | 
+| [KUSD](/kusama/assets/KUSD) | 3 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
 
 ## substrate-etl Tables:
 

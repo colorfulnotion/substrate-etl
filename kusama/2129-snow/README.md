@@ -9,20 +9,19 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2129-snow/2023-03-31.md) | 1,078,183 | 1,125,497 | 47,315 | 119 |  | 5,870 | -   |   
 | [2023-02-08 to 2023-02-28](/kusama/2129-snow/2023-02-28.md) | 937,108 | 1,078,182 | 141,075 | 392 | 13 | 5,830 | -   |   
 | [2023-01-01 to 2023-01-30](/kusama/2129-snow/2023-01-31.md) | 666,173 | 872,871 | 191,618 | 339 | 9 | 5,580 | -  **BROKEN** (7.30%) |   
 | [2022-12-01 to 2022-12-13](/kusama/2129-snow/2022-12-31.md) | 456,754 | 539,967 | 83,214 | 274 | 12 | 5,293 | -  **BROKEN**  |   
 | [2022-11-01 to 2022-11-30](/kusama/2129-snow/2022-11-30.md) | 254,577 | 456,753 | 125,549 | 2,039 | 24 |  | - 76,628 (37.90%) |   
 | [2022-10-26 to 2022-10-31](/kusama/2129-snow/2022-10-31.md) | 218,593 | 254,576 | 35,767 | 5,804 |  |  | - 217 (0.60%) |   
 
-## Snow Assets as of 2023-03-05
+## Snow Assets as of 2023-03-06
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ICZ](/kusama/assets/ICZ) | 5,821 | 2,663,537,171.11  | 4,172.85  | 50   | 50  |  |   `{"Token":"ICZ"}` | 
+| [ICZ](/kusama/assets/ICZ) | 5,823 | 2,663,573,953.11  | 4,170.85  | 50   | 50  |  |   `{"Token":"ICZ"}` | 
 
 ## substrate-etl Tables:
 

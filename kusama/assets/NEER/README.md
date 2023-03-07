@@ -1,16 +1,16 @@
 # NEER on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 
 *XCM Interior Keys*:
-* `[{"network":"kusama"},{"parachain":2096},{"generalKey":"0x000000000000000000"}]`
+* `[{"parachain":2096},{"generalKey":"0x000000000000000000"}]~kusama`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,725 | 94,468,895.33 $20,393,444.69 | 5,531,017.49 $1,194,006.76 | 73,641,437.53  $15,897,323.43 |   | $0.22 | `{"Token":"NEER"}` |
-| [Karura](/kusama/2000-karura) | 13 | 22.58 $4.88 |   |    |   | $0.22 | `{"ForeignAsset":"9"}` |
+| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,730 | 94,474,848.53 $19,427,270.56 | 5,525,064.29 $1,136,142.80 | 73,640,972.12  $15,143,110.70 |   | $0.21 | `{"Token":"NEER"}` |
+| [Karura](/kusama/2000-karura) | 13 | 11.29 $2.32 |   |    |   | $0.21 | `{"ForeignAsset":"9"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "NEER" and date(ts) = "2023-03-05"
+ where symbol = "NEER" and date(ts) = "2023-03-06"
  group by para_id
  order by free_usd desc
 ```

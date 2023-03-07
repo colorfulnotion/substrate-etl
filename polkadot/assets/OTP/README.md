@@ -1,12 +1,12 @@
 # OTP on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Origin Trail](/polkadot/2043-origintrail) | 3,510 | 500,053,154.94  | 166  | 22,330,399.51   |   |  | `{"Token":"OTP"}` |
+| [Origin Trail](/polkadot/2043-origintrail) | 3,511 | 500,053,154.93  | 166  | 22,305,204.25   |   |  | `{"Token":"OTP"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "OTP" and date(ts) = "2023-03-05"
+ where symbol = "OTP" and date(ts) = "2023-03-06"
  group by para_id
  order by free_usd desc
 ```

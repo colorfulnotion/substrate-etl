@@ -9,7 +9,6 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/kusama/2084-calamari/2023-03-31.md) | 3,196,860 | 3,241,769 | 44,900 | 1,653 | 25 | 35,666 | - 10 (0.02%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2084-calamari/2023-02-28.md) | 3,003,783 | 3,196,859 | 193,077 | 9,207 | 131 | 35,668 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2084-calamari/2023-01-31.md) | 2,788,075 | 3,003,782 | 215,305 | 9,136 | 186 | 35,178 | - 403 (0.19%) |   
 | [2022-12-01 to 2022-12-31](/kusama/2084-calamari/2022-12-31.md) | 2,580,305 | 2,788,074 | 207,770 | 6,992 | 140 | 35,663 | -   |   
@@ -29,18 +28,18 @@ Status: Only partial index available: Archive node unavailable
 | [2021-10-01 to 2021-10-31](/kusama/2084-calamari/2021-10-31.md) | 98,021 | 295,586 | 197,566 | 7 |  | 13 | -   |   
 | [2021-09-16 to 2021-09-30](/kusama/2084-calamari/2021-09-30.md) | 1 | 98,020 | 98,020 |  |  | 9 | -   |   
 
-## Calamari Assets as of 2023-03-05
+## Calamari Assets as of 2023-03-06
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KMA](/kusama/assets/KMA) | 35,663 | 10,117,211,088.78 $21,600,260.12 | 16.35 $0.03 | 1,887,163,969.07  $4,029,097.77 | 1,009,250,543.99 $2,154,751.35 | $0.00214 |   `{"Token":"KMA"}` | 
-| [LKSM](/kusama/assets/LKSM) | 5 | 621.12 $2,486.55 |   |    |   | $4.00 |   `{"Token":"10"}` | 
-| [MOVR](/kusama/assets/MOVR) | 2 | 0.77 $7.07 |   |    |   | $9.22 |   `{"Token":"11"}` | 
+| [KMA](/kusama/assets/KMA) | 35,665 | 10,117,620,477.45 $20,645,563.82 | 16.35 $0.03 | 1,888,616,753.57  $3,853,826.88 | 1,010,703,328.49 $2,062,396.01 | $0.00204 |   `{"Token":"KMA"}` | 
+| [LKSM](/kusama/assets/LKSM) | 5 | 621.12 $2,518.29 |   |    |   | $4.05 |   `{"Token":"10"}` | 
+| [MOVR](/kusama/assets/MOVR) | 2 | 0.77 $6.93 |   |    |   | $9.05 |   `{"Token":"11"}` | 
 | [KUSD](/kusama/assets/KUSD) | 4 | 3.4 $3.40 |   |    |   | $1.00 |   `{"Token":"9"}` | 
-| [KSM](/kusama/assets/KSM) | 4 | 0.05 $1.87 |   |    |   | $34.47 |   `{"Token":"12"}` | 
-| [PHA](/kusama/assets/PHA) | 3 | 8.43 $1.46 |   |    |   | $0.17 |   `{"Token":"13"}` | 
+| [KSM](/kusama/assets/KSM) | 4 | 0.05 $1.89 |   |    |   | $34.71 |   `{"Token":"12"}` | 
+| [PHA](/kusama/assets/PHA) | 3 | 8.43 $1.41 |   |    |   | $0.17 |   `{"Token":"13"}` | 
 | [KAR](/kusama/assets/KAR) | 5 | 4 $0.77 |   |    |   | $0.19 |   `{"Token":"8"}` | 
 
 ## substrate-etl Tables:

@@ -9,7 +9,6 @@ _Source_: [kylin.polkaholic.io](https://kylin.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-07](/polkadot/2052-kylin/2023-03-31.md) | 703,587 | 727,798 | 24,206 | 20 | 3 | 1,108 | - 6 (0.02%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2052-kylin/2023-02-28.md) | 602,893 | 703,586 | 100,694 | 88 | 4 | 1,108 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2052-kylin/2023-01-31.md) | 472,512 | 602,892 | 130,381 | 106 | 4 | 1,108 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2052-kylin/2022-12-31.md) | 335,848 | 472,511 | 136,664 | 101 | 4 | 1,106 | -   |   
@@ -18,13 +17,13 @@ _Source_: [kylin.polkaholic.io](https://kylin.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/polkadot/2052-kylin/2022-09-30.md) | 9,549 | 116,720 | 107,172 | 220 | 4 | 1,067 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2052-kylin/2022-08-31.md) | 1 | 9,548 | 9,548 |  | 1 | 3 | -   |   
 
-## Kylin Assets as of 2023-03-05
+## Kylin Assets as of 2023-03-06
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KYL](/polkadot/assets/KYL) | 1,106 | 999,999,998.94  | 2.06  | 22,201,365.38   |   |  |   `{"Token":"KYL"}` | 
+| [KYL](/polkadot/assets/KYL) | 1,106 | 999,999,998.94  | 2.06  | 22,201,124.6   |   |  |   `{"Token":"KYL"}` | 
 
 ## substrate-etl Tables:
 

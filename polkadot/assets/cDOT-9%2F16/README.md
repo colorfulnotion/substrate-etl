@@ -1,10 +1,10 @@
 # cDOT-9/16 on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-05
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 
 *XCM Interior Keys*:
-* `[{"network":"polkadot"},{"parachain":2012},{"palletInstance":6},{"generalIndex":200090016}]`
+* `[{"parachain":2012},{"palletInstance":6},{"generalIndex":200090016}]~polkadot`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
@@ -20,7 +20,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "cDOT-9/16" and date(ts) = "2023-03-05"
+ where symbol = "cDOT-9/16" and date(ts) = "2023-03-06"
  group by para_id
  order by free_usd desc
 ```
