@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Snow](/kusama/2129-snow) | 5,823 | 2,663,573,953.11  | 4,170.85  | 50   | 50  |  | `{"Token":"ICZ"}` |
+| [Snow](/kusama/2129-snow) | 5,824 | 2,663,625,807.09  | 4,176.86  | 50   | 50  |  | `{"Token":"ICZ"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
