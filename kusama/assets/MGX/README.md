@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Mangatax](/kusama/2110-mangatax) | 1,652 | 1,372,227,823.53  | 17,661.98  |    | 299,656,784.66  |  | `{"Token":"0"}` |
+| [Mangatax](/kusama/2110-mangatax) | 1,652 | 2,744,455,647.06  | 35,323.96  |    | 599,313,569.31  |  | `{"Token":"0"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 2 | 10  |   |    |   |  | `{"Token2":"4"}` |
 
 ## Substrate-etl Queries:

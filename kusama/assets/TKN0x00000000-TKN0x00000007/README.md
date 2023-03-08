@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Mangatax](/kusama/2110-mangatax) | 324 | 125,245.5  | 44,223,208.9  |    | 112,379.03  |  | `{"Token":"8"}` |
+| [Mangatax](/kusama/2110-mangatax) | 324 | 250,490.99  | 88,446,417.79  |    | 224,758.06  |  | `{"Token":"8"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
