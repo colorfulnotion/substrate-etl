@@ -8,7 +8,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-02-28 | 16,840,003 |  283,522 |    |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-02-28 | 3,978,454 |  51,964 | 12 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-02-28 | 2,388,649 |  65 | 5,531 (0.23%) Only partial index available: Old Decoding issues |
-| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-02-28 | 285,128 |  4 |    |
+| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-02-28 | 285,128 |   |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-02-28 | 3,805,756 |  94,986 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-02-28 | 3,641,249 |  100,977 |    |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-02-28 | 3,404,469 |  23,499 | 479,738 (14.09%) Only partial index available: Old Decoding issues |
@@ -31,7 +31,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-02-28 | 1,395,988 |  1,143 |    |
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-02-28 | 1,692,086 |  51 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-02-28 | 2,088,085 |  13,907 |    |
-| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-02-28 | 1,828,507 |  1,596 | 1 (0.00%)  |
+| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-02-28 | 1,828,507 |  1,632 | 1 (0.00%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-02-28 | 1,338,345 |  13,227 |    |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-02-28 | 2,062,530 |  7,571 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-02-28 | 1,529,416 |  370 |    |
@@ -50,6 +50,7 @@ Missing chains
 
 
 * *TBD* Para ID 2258; 
+* *null* Para ID 2262; 
 # Assets
 
 Source: [Polkaholic.io](https://polkaholic.io)
