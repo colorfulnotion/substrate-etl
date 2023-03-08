@@ -42,7 +42,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-02-28 | 1,012,127 |  1,340 |    |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-02-28 | 1,166,959 |  797 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-02-28 | 1,270,127 |  7,132 |    |
-| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-02-28 | 1,078,182 |  5,781 | 91,926 (8.53%) Only partial index available: Archive node unavailable |
+| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-02-28 | 1,078,182 |  5,830 | 91,926 (8.53%) Only partial index available: Archive node unavailable |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-02-28 | 805,698 |  890 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-02-28 | 537,210 |  6 |   Endpoint not reachable |
 
