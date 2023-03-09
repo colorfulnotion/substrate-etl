@@ -4,12 +4,12 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 
 *XCM Interior Keys*:
-* `[{"parachain":2000},{"generalKey":"0x0000"}]~polkadot`
+* `[{"network":"polkadot"},{"parachain":2000},{"generalKey":"0x0000"}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 17,950 | 121,825,243.92 $14,548,203.69 | 3,023.81 $361.10 | 77,688,139.95  $9,277,411.21 | 77,677,863.54 $9,276,184.02 | $0.12 | `{"Token":"ACA"}` |
+| [Acala](/polkadot/2000-acala) | 156,598 | 999,969,103.24 $119,414,940.00 | 30,894.76 $3,689.41 | 494,246,797.18  $59,022,275.23 | 494,116,759.82 $59,006,746.34 | $0.12 | `{"Token":"ACA"}` |
 | [Parallel](/polkadot/2012-parallel) | 456 | 1,042,795.79 $124,529.24 |   |    |   | $0.12 | `{"Token":"108"}` |
 | [Astar](/polkadot/2006-astar) | 326 | 187,776.71 $22,424.04 |   |    |   | $0.12 | `{"Token":"18446744073709551616"}` |
 | [Moonbeam](/polkadot/2004-moonbeam) | 606 | 134,599.93 $16,073.74 |   |    |   | $0.12 | `{"Token":"224821240862170613278369189818311486111"}` |
