@@ -9,6 +9,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2023-03-01 to 2023-03-09](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,037,280 | 58,816 | 476 | 37 | 49,974 | - 10 (0.02%) |   
 | [2023-02-01 to 2023-02-28](/kusama/1000-statemine/2023-02-28.md) | 3,796,175 | 3,978,454 | 182,280 | 2,293 | 46 | 49,353 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/1000-statemine/2023-01-31.md) | 3,578,790 | 3,796,174 | 217,385 | 2,227 | 43 | 49,101 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/1000-statemine/2022-12-31.md) | 3,370,335 | 3,578,789 | 208,455 | 4,541 | 68 | 49,060 | -   |   
@@ -40,6 +41,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
 | [RMRK](/kusama/assets/RMRK) | 6,159 | 9,999,611.77 $23,587,993.87 |   |    |   | $2.36 |   `{"Token":"8"}` | 
+| [KSM](/kusama/assets/KSM) | 49,054 | 3,365.53 $116,819.22 | 1,045.58 $36,292.66 |    |   | $34.71 |   `{"Token":"KSM"}` | 
 | [GRB](/kusama/assets/GRB) | 816 | 2,043,401  |   |    |   |  |   `{"Token":"677"}` | 
 | [BILL](/kusama/assets/BILL) | 686 | 1,000,000  |   |    |   |  |   `{"Token":"223"}` | 
 | [CHRWNA](/kusama/assets/CHRWNA) | 303 | 5,670  |   |    |   |  |   `{"Token":"567"}` | 
@@ -108,7 +110,6 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [ki](/kusama/assets/ki) | 1 | 1,000,000,000  |   |    |   |  |   `{"Token":"31"}` | 
 | [KODA](/kusama/assets/KODA) | 1 | 10,000  |   |    |   |  |   `{"Token":"383"}` | 
 | [KPOTS](/kusama/assets/KPOTS) | 1 | 8,099,991,100  |   |    |   |  |   `{"Token":"9000"}` | 
-| [KSM](/kusama/assets/KSM) | 1 | 85,000,000  |   |    |   |  |   `{"Token":"1234"}` | 
 | [LN](/kusama/assets/LN) | 1 | 13  |   |    |   |  |   `{"Token":"13"}` | 
 | [LUCKY](/kusama/assets/LUCKY) | 1 | 35  |   |    |   |  |   `{"Token":"35"}` | 
 | [LUL](/kusama/assets/LUL) | 1 | 1  |   |    |   |  |   `{"Token":"95834"}` | 
