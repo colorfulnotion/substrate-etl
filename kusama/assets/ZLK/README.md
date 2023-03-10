@@ -1,6 +1,6 @@
 # ZLK on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
 
 
 *XCM Interior Keys*:
@@ -9,9 +9,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 20,396 | 3,609,413.8 $108,242.14 |   |    |   | $0.03 | `{"Token":"ZLK"}` |
-| [Khala](/kusama/2004-khala) | 6 | 212,462.32 $6,371.50 |   |    |   | $0.03 | `{"Token":"3"}` |
-| [Mangatax](/kusama/2110-mangatax) | 49 | 105,097.46 $3,151.75 |   |    |   | $0.03 | `{"Token":"26"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 20,405 | 3,709,413.8 $105,628.75 |   |    |   | $0.03 | `{"Token":"ZLK"}` |
+| [Khala](/kusama/2004-khala) | 6 | 230,175.49 $6,554.45 |   |    |   | $0.03 | `{"Token":"3"}` |
+| [Mangatax](/kusama/2110-mangatax) | 51 | 86,825.17 $2,472.42 |   |    |   | $0.03 | `{"Token":"26"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "ZLK" and date(ts) = "2023-03-06"
+ where symbol = "ZLK" and date(ts) = "2023-03-08"
  group by para_id
  order by free_usd desc
 ```

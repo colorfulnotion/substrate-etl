@@ -21,13 +21,13 @@ _Source_: [dorafactory.polkaholic.io](https://dorafactory.polkaholic.io)
 | [2022-06-01 to 2022-06-30](/kusama/2115-dorafactory/2022-06-30.md) | 1,626 | 166,139 | 164,514 | 23 | 4 | 367 | -   |   
 | [2022-05-31 to 2022-05-31](/kusama/2115-dorafactory/2022-05-31.md) | 1 | 1,625 | 1,625 |  | 3 | 1 | -   |   
 
-## Dora Factory Assets as of 2023-03-06
+## Dora Factory Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 3 | 0.29 $10.07 |   |    |   | $34.71 |   `{"Token":"KSM"}` | 
+| [KSM](/kusama/assets/KSM) | 3 | 0.29 $9.18 |   |    |   | $31.65 |   `{"Token":"KSM"}` | 
 | [DORA](/kusama/assets/DORA) | 368 | 50,000  |   | 103   |   |  |   `{"Token":"DORA"}` | 
 
 ## substrate-etl Tables:

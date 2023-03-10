@@ -18,13 +18,13 @@ _Source_: [tinkernet.polkaholic.io](https://tinkernet.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/kusama/2125-tinkernet/2022-09-30.md) | 135,276 | 299,894 | 164,619 | 272 | 8 | 1,206 | -   |   
 | [2022-08-08 to 2022-08-31](/kusama/2125-tinkernet/2022-08-31.md) | 1 | 135,275 | 135,275 | 391 | 11 | 1,189 | -   |   
 
-## InvArch Tinkernet Assets as of 2023-03-06
+## InvArch Tinkernet Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [TNKR](/kusama/assets/TNKR) | 7,762 | 11,684,930.68  | 15,065  | 2,012,215.69   | 2,012,215.69  |  |   `{"Token":"TNKR"}` | 
+| [TNKR](/kusama/assets/TNKR) | 7,764 | 11,684,930.63  | 15,065  | 2,007,090.51   | 2,007,090.51  |  |   `{"Token":"TNKR"}` | 
 
 ## substrate-etl Tables:
 

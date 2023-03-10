@@ -1,6 +1,6 @@
 # BSX on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
 
 
 *XCM Interior Keys*:
@@ -10,9 +10,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Basilisk](/kusama/2090-basilisk) | 16,935 | 49,499,914,989 $5,442,903.73 | 59,385.33 $6.53 | 23,216,813,794.54  $2,552,870.69 | 23,122,944,520.88 $2,542,549.03 | - | `{"Token":"BSX"}` |
-| [Karura](/kusama/2000-karura) | 115 | 5,486,871.49 $603.32 |   |    |   | - | `{"ForeignAsset":"11"}` |
-| [Khala](/kusama/2004-khala) | 6 | 6,770.26 $0.74 |   |    |   | - | `{"Token":"9"}` |
+| [Basilisk](/kusama/2090-basilisk) | 16,935 | 49,499,914,992.96 $5,071,799.74 | 59,381.37 $6.08 | 23,078,752,780.24  $2,364,666.94 | 22,984,918,506.57 $2,355,052.61 | - | `{"Token":"BSX"}` |
+| [Karura](/kusama/2000-karura) | 115 | 5,284,960.87 $541.50 |   |    |   | - | `{"ForeignAsset":"11"}` |
+| [Khala](/kusama/2004-khala) | 6 | 6,770.26 $0.69 |   |    |   | - | `{"Token":"9"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "BSX" and date(ts) = "2023-03-06"
+ where symbol = "BSX" and date(ts) = "2023-03-08"
  group by para_id
  order by free_usd desc
 ```

@@ -9,7 +9,7 @@ _Source_: [litmus.polkaholic.io](https://litmus.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-10](/kusama/2106-litmus/2023-03-31.md) | 2,088,086 | 2,155,101 | 67,016 | 16 | 4 | 13,913 | -   |   
+| [2023-03-01 to 2023-03-10](/kusama/2106-litmus/2023-03-31.md) | 2,088,086 | 2,155,691 | 67,606 | 16 | 4 | 13,913 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2106-litmus/2023-02-28.md) | 1,890,699 | 2,088,085 | 197,387 | 141 | 7 | 13,914 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2106-litmus/2023-01-31.md) | 1,673,284 | 1,890,698 | 217,415 | 133 | 6 | 13,906 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2106-litmus/2022-12-31.md) | 1,463,117 | 1,673,283 | 210,167 | 203 | 8 | 13,905 | -   |   
@@ -24,13 +24,13 @@ _Source_: [litmus.polkaholic.io](https://litmus.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/2106-litmus/2022-03-31.md) | 32,417 | 154,228 | 121,812 | 81 | 4 | 3,821 | -   |   
 | [2022-02-20 to 2022-02-28](/kusama/2106-litmus/2022-02-28.md) | 1 | 32,416 | 32,416 |  | 3 | 16 | -   |   
 
-## Litmus Assets as of 2023-03-06
+## Litmus Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [LIT](/kusama/assets/LIT) | 13,912 | 491,749.69 $538,546.12 | 0.77 $0.84 | 336,038.63  $368,017.11 |   | $1.10 |   `{"Token":"LIT"}` | 
+| [LIT](/kusama/assets/LIT) | 13,913 | 492,114.3 $478,387.82 | 0.77 $0.75 | 336,038.63  $326,665.55 |   | $0.97 |   `{"Token":"LIT"}` | 
 
 ## substrate-etl Tables:
 

@@ -1,6 +1,6 @@
 # AUSD on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
 
 
 *XCM Interior Keys*:
@@ -9,9 +9,9 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 7,610 | 10,454,740.98 $10,454,740.98 |   |    | 3,734,615.59 $3,734,615.59 | $1.00 | `{"Token":"AUSD"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 609 | 1,588,315.13 $1,248,894.14 |   |    |   | $0.79 | `{"Token":"110021739665376159354538090254163045594"}` |
-| [Astar](/polkadot/2006-astar) | 301 | 102,959.02 $102,959.02 |   |    |   | $1.00 | `{"Token":"18446744073709551617"}` |
+| [Acala](/polkadot/2000-acala) | 7,611 | 10,446,197.14 $10,446,197.14 |   |    | 3,734,615.59 $3,734,615.59 | $1.00 | `{"Token":"AUSD"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 610 | 1,541,152.19 $1,133,332.97 |   |    |   | $0.74 | `{"Token":"110021739665376159354538090254163045594"}` |
+| [Astar](/polkadot/2006-astar) | 301 | 101,911.74 $101,911.74 |   |    |   | $1.00 | `{"Token":"18446744073709551617"}` |
 | [Parallel](/polkadot/2012-parallel) | 5 | 7.3 $7.30 |   |    |   | $1.00 | `{"Token":"104"}` |
 
 ## Substrate-etl Queries:
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "AUSD" and date(ts) = "2023-03-06"
+ where symbol = "AUSD" and date(ts) = "2023-03-08"
  group by para_id
  order by free_usd desc
 ```

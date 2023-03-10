@@ -1,6 +1,6 @@
 # QTZ on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
 
 
 *XCM Interior Keys*:
@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Quartz](/kusama/2095-quartz) | 80,072 | 1,097,032,960.55 $1,300,439.69 |   | 731,972,306.88  $867,691.19 | 731,972,306.88 $867,691.19 | $0.00119 | `{"Token":"QTZ"}` |
-| [Karura](/kusama/2000-karura) | 306 | 5,520,776.22 $6,544.41 |   |    |   | $0.00119 | `{"ForeignAsset":"2"}` |
+| [Quartz](/kusama/2095-quartz) | 80,076 | 1,097,032,958.6 $1,807,601.08 |   | 732,091,329.34  $1,206,280.14 | 732,091,329.34 $1,206,280.14 | $0.00165 | `{"Token":"QTZ"}` |
+| [Karura](/kusama/2000-karura) | 308 | 5,422,803.83 $8,935.25 |   |    |   | $0.00165 | `{"ForeignAsset":"2"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "QTZ" and date(ts) = "2023-03-06"
+ where symbol = "QTZ" and date(ts) = "2023-03-08"
  group by para_id
  order by free_usd desc
 ```

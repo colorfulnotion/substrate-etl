@@ -1,6 +1,6 @@
 # PARA on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
 
 
 *XCM Interior Keys*:
@@ -9,10 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel](/polkadot/2012-parallel) | 46,764 | 9,999,999,692.21 $115,341,534.00 | 217.58 $2.51 | 7,563,788,262.55  $87,241,896.79 | 7,563,765,619.08 $87,241,635.62 | $0.01 | `{"Token":"PARA"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 78 | 29,417 $339.30 |   |    |   | $0.01 | `{"Token":"32615670524745285411807346420584982855"}` |
-| [Acala](/polkadot/2000-acala) | 15 | 1,412.76 $16.29 |   |    |   | $0.01 | `{"ForeignAsset":"1"}` |
-| [Phala](/polkadot/2035-phala) | 5 | 55.56 $0.64 |   |    |   | $0.01 | `{"Token":"2"}` |
+| [Parallel](/polkadot/2012-parallel) | 46,777 | 9,999,999,692.21 $112,960,432.30 | 217.58 $2.46 | 50,607,560,261,840.87  $571,665,206,078.31 | 50,607,560,239,192.2 $571,665,205,822.47 | $0.01 | `{"Token":"PARA"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 80 | 30,924.25 $349.32 |   |    |   | $0.01 | `{"Token":"32615670524745285411807346420584982855"}` |
+| [Acala](/polkadot/2000-acala) | 15 | 1,412.76 $15.96 |   |    |   | $0.01 | `{"ForeignAsset":"1"}` |
+| [Phala](/polkadot/2035-phala) | 5 | 55.56 $0.63 |   |    |   | $0.01 | `{"Token":"2"}` |
 | [Clover](/polkadot/2002-clover) | 2 | 14 $0.16 |   |    |   | $0.01 | `{"Token":"11"}` |
 
 ## Substrate-etl Queries:
@@ -24,7 +24,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "PARA" and date(ts) = "2023-03-06"
+ where symbol = "PARA" and date(ts) = "2023-03-08"
  group by para_id
  order by free_usd desc
 ```

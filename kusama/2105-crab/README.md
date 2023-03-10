@@ -9,7 +9,7 @@ _Source_: [crab.polkaholic.io](https://crab.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-10](/kusama/2105-crab/2023-03-31.md) | 1 | 1,721,973 | 40,401 | 109 | 5 | 4,955 | - 1,681,572 (97.65%) |   
+| [2023-03-01 to 2023-03-10](/kusama/2105-crab/2023-03-31.md) | 1 | 1,721,973 | 40,858 | 109 | 5 | 4,955 | - 1,681,115 (97.63%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2105-crab/2023-02-28.md) | 1,626,478 | 1,692,086 | 65,609 | 192 | 2 | 52 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2105-crab/2023-01-31.md) | 1,485,472 | 1,626,477 | 141,006 | 200 | 3 | 50 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2105-crab/2022-12-31.md) | 1,301,385 | 1,485,471 | 184,087 | 138 | 4 | 50 | -   |   
@@ -24,13 +24,13 @@ _Source_: [crab.polkaholic.io](https://crab.polkaholic.io)
 | [2022-03-01 to 2022-03-31](/kusama/2105-crab/2022-03-31.md) | 26,711 | 127,900 | 101,190 | 2 | 6 | 2 | -   |   
 | [2022-02-20 to 2022-02-28](/kusama/2105-crab/2022-02-28.md) | 1 | 26,710 | 26,710 | 5 | 6 | 2 | -   |   
 
-## Darwinia Crab Assets as of 2023-03-06
+## Darwinia Crab Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CRAB](/kusama/assets/CRAB) | 52 | 464,475.52 $463.18 |   | 612  $0.61 | 612 $0.61 | - |   `{"Token":"CRAB"}` | 
+| [CRAB](/kusama/assets/CRAB) | 4,937 | 1,265,532,305.43 $1,261,998.28 | 0.1 - |    |   | - |   `{"Token":"CRAB"}` | 
 
 ## substrate-etl Tables:
 

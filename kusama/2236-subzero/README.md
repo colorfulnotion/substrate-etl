@@ -9,18 +9,10 @@ Status: Endpoint not reachable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-10](/kusama/2236-subzero/2023-03-31.md) | 537,211 | 601,142 | 63,932 |  |  | 6 | -   |   
+| [2023-03-01 to 2023-03-10](/kusama/2236-subzero/2023-03-31.md) | 537,211 | 601,343 | 64,133 |  |  | 6 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2236-subzero/2023-02-28.md) | 341,779 | 537,210 | 195,432 |  | 3 | 6 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2236-subzero/2023-01-31.md) | 127,025 | 341,778 | 214,754 |  | 3 | 6 | -   |   
 | [2022-12-13 to 2022-12-31](/kusama/2236-subzero/2022-12-31.md) | 1 | 127,024 | 127,024 |  | 3 | 6 | -   |   
-
-## subzero Assets as of 2023-03-06
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ZERO](/kusama/assets/ZERO) | 6 | 10,000,000.01  |   |    |   |  |   `{"Token":"ZERO"}` | 
 
 ## substrate-etl Tables:
 

@@ -9,7 +9,7 @@ _Source_: [kintsugi.polkaholic.io](https://kintsugi.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-10](/kusama/2092-kintsugi/2023-03-31.md) | 2,535,833 | 2,599,046 | 63,214 | 10,700 | 62 | 16,142 | -   |   
+| [2023-03-01 to 2023-03-10](/kusama/2092-kintsugi/2023-03-31.md) | 2,535,833 | 2,599,437 | 63,605 | 10,832 | 62 | 16,142 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2092-kintsugi/2023-02-28.md) | 2,350,264 | 2,535,832 | 185,569 | 32,849 | 83 | 15,790 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2092-kintsugi/2023-01-31.md) | 2,142,757 | 2,350,263 | 207,507 | 36,993 | 80 | 15,725 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2092-kintsugi/2022-12-31.md) | 1,981,372 | 2,142,756 | 161,385 | 40,567 | 73 | 15,634 | -   |   
@@ -28,17 +28,17 @@ _Source_: [kintsugi.polkaholic.io](https://kintsugi.polkaholic.io)
 | [2021-11-01 to 2021-11-30](/kusama/2092-kintsugi/2021-11-30.md) | 27,097 | 60,447 | 33,351 | 9 | 3 | 7 | -   |   
 | [2021-10-13 to 2021-10-31](/kusama/2092-kintsugi/2021-10-31.md) | 1 | 27,096 | 27,088 | 4 |  | 2 | - 8 (0.03%) |   
 
-## Kintsugi Assets as of 2023-03-06
+## Kintsugi Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KINT](/kusama/assets/KINT) | 16,116 | 9,999,315.7 $7,662,635.02 | 433.12 $331.91 |    | 2,497,269.29 $1,913,697.27 | $0.77 |   `{"Token":"KINT"}` | 
-| [KBTC](/kusama/assets/KBTC) | 361 | 17.23 $457,789.99 | 0.08 $2,023.88 |    |   | $26,562.45 |   `{"Token":"KBTC"}` | 
-| [LKSM](/kusama/assets/LKSM) | 30 | 27,167.36 $110,148.11 | 33,885.87 $137,387.79 |    |   | $4.05 |   `{"ForeignAsset":"2"}` | 
-| [KSM](/kusama/assets/KSM) | 211 | 1,271.44 $44,132.23 | 20,099.05 $697,647.70 |    |   | $34.71 |   `{"Token":"KSM"}` | 
-| [USDT](/kusama/assets/USDT) | 4 | 5.56 $5.57 |   |    |   | $1.00 |   `{"ForeignAsset":"3"}` | 
+| [KINT](/kusama/assets/KINT) | 16,119 | 9,999,315.41 $7,110,064.31 | 433.41 $308.18 |    | 2,497,496.16 $1,775,857.41 | $0.71 |   `{"Token":"KINT"}` | 
+| [KBTC](/kusama/assets/KBTC) | 363 | 16.81 $416,787.55 | 0.17 $4,102.27 |    |   | $24,799.81 |   `{"Token":"KBTC"}` | 
+| [LKSM](/kusama/assets/LKSM) | 30 | 27,052.25 $100,225.55 | 33,885.87 $125,543.33 |    |   | $3.70 |   `{"ForeignAsset":"2"}` | 
+| [KSM](/kusama/assets/KSM) | 211 | 1,271.44 $40,246.03 | 20,099.05 $636,214.18 |    |   | $31.65 |   `{"Token":"KSM"}` | 
+| [USDT](/kusama/assets/USDT) | 4 | 5.56 $5.58 |   |    |   | $1.00 |   `{"ForeignAsset":"3"}` | 
 
 ## substrate-etl Tables:
 

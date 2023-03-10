@@ -9,7 +9,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-10](/kusama/2121-imbue/2023-03-31.md) | 1,536,075 | 1,602,540 | 66,466 | 2 |  | 333 | -   |   
+| [2023-03-01 to 2023-03-10](/kusama/2121-imbue/2023-03-31.md) | 1,536,075 | 1,603,566 | 67,492 | 2 |  | 333 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2121-imbue/2023-02-28.md) | 1,379,486 | 1,536,074 | 156,589 | 34 |  | 336 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2121-imbue/2023-01-31.md) | 1,205,104 | 1,379,485 | 172,363 | 45 | 4 | 330 | - 2,019 (1.16%) |   
 | [2022-12-01 to 2022-12-31](/kusama/2121-imbue/2022-12-31.md) | 993,760 | 1,205,103 | 209,925 | 12 | 3 | 323 | - 1,419 (0.67%) |   
@@ -19,14 +19,6 @@ Status: Only partial index available: Archive node unavailable
 | [2022-08-01 to 2022-08-31](/kusama/2121-imbue/2022-08-31.md) | 191,885 | 366,396 | 174,512 |  | 2 | 4 | -   |   
 | [2022-07-01 to 2022-07-31](/kusama/2121-imbue/2022-07-31.md) | 23,330 | 191,884 | 168,555 |  | 2 | 4 | -   |   
 | [2022-06-27 to 2022-06-30](/kusama/2121-imbue/2022-06-30.md) | 1 | 23,329 | 23,329 |  | 2 | 4 | -   |   
-
-## Imbue Network Assets as of 2023-03-06
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [IMBU](/kusama/assets/IMBU) | 333 | 199,999,983.76  | 15.63  | 4,158,814.92   |   |  |   `{"Token":"IMBU"}` | 
 
 ## substrate-etl Tables:
 

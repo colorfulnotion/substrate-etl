@@ -9,20 +9,20 @@ _Source_: [daoipci.polkaholic.io](https://daoipci.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-10](/kusama/2222-daoipci/2023-03-31.md) | 805,699 | 872,915 | 66,860 | 10 |  | 891 | - 357 (0.53%) |   
+| [2023-03-01 to 2023-03-10](/kusama/2222-daoipci/2023-03-31.md) | 805,699 | 873,486 | 67,431 | 10 |  | 891 | - 357 (0.53%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2222-daoipci/2023-02-28.md) | 606,518 | 805,698 | 199,181 | 58 | 1 | 890 | -   |   
 | [2023-01-09 to 2023-01-31](/kusama/2222-daoipci/2023-01-31.md) | 447,086 | 606,517 | 159,432 | 2 |  | 890 | -   |   
 | [2022-12-01 to 2022-12-13](/kusama/2222-daoipci/2022-12-31.md) | 365,650 | 447,085 | 81,436 | 10 |  | 890 | -   |   
 | [2022-11-01 to 2022-11-30](/kusama/2222-daoipci/2022-11-30.md) | 153,070 | 365,649 | 212,580 | 82 | 1 | 890 | -   |   
 | [2022-10-10 to 2022-10-31](/kusama/2222-daoipci/2022-10-31.md) | 1 | 153,069 | 153,069 | 18 | 1 | 885 | -   |   
 
-## DAO IPCI Assets as of 2023-03-06
+## DAO IPCI Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [MITO](/kusama/assets/MITO) | 891 | 9,969,348.12  | 1,070.95  | 1   |   |  |   `{"Token":"MITO"}` | 
+| [MITO](/kusama/assets/MITO) | 891 | 9,955,071.89  | 1,070.95  | 1   |   |  |   `{"Token":"MITO"}` | 
 
 ## substrate-etl Tables:
 

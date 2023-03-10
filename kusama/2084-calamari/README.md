@@ -29,20 +29,6 @@ Status: Only partial index available: Archive node unavailable
 | [2021-10-01 to 2021-10-31](/kusama/2084-calamari/2021-10-31.md) | 98,021 | 295,586 | 197,566 | 7 |  | 13 | -   |   
 | [2021-09-16 to 2021-09-30](/kusama/2084-calamari/2021-09-30.md) | 1 | 98,020 | 98,020 |  |  | 9 | -   |   
 
-## Calamari Assets as of 2023-03-06
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KMA](/kusama/assets/KMA) | 35,665 | 10,117,620,477.45 $20,645,563.82 | 16.35 $0.03 | 1,888,616,753.57  $3,853,826.88 | 1,010,703,328.49 $2,062,396.01 | $0.00204 |   `{"Token":"KMA"}` | 
-| [LKSM](/kusama/assets/LKSM) | 5 | 621.12 $2,518.29 |   |    |   | $4.05 |   `{"Token":"10"}` | 
-| [MOVR](/kusama/assets/MOVR) | 2 | 0.77 $6.93 |   |    |   | $9.05 |   `{"Token":"11"}` | 
-| [KUSD](/kusama/assets/KUSD) | 4 | 3.4 $3.40 |   |    |   | $1.00 |   `{"Token":"9"}` | 
-| [KSM](/kusama/assets/KSM) | 4 | 0.05 $1.89 |   |    |   | $34.71 |   `{"Token":"12"}` | 
-| [PHA](/kusama/assets/PHA) | 3 | 8.43 $1.41 |   |    |   | $0.17 |   `{"Token":"13"}` | 
-| [KAR](/kusama/assets/KAR) | 5 | 4 $0.77 |   |    |   | $0.19 |   `{"Token":"8"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2084` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

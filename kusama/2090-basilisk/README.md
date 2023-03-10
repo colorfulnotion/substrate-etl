@@ -29,19 +29,19 @@ _Source_: [basilisk.polkaholic.io](https://basilisk.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/kusama/2090-basilisk/2021-10-31.md) | 51,706 | 222,678 | 170,972 |  |  | 7 | - 1 (0.00%) |   
 | [2021-09-22 to 2021-09-30](/kusama/2090-basilisk/2021-09-30.md) | 1 | 51,705 | 51,705 |  |  | 7 | -   |   
 
-## Basilisk Assets as of 2023-03-06
+## Basilisk Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BSX](/kusama/assets/BSX) | 16,935 | 49,499,914,989 $5,442,903.73 | 59,385.33 $6.53 | 23,216,813,794.54  $2,552,870.69 | 23,122,944,520.88 $2,542,549.03 | - |   `{"Token":"BSX"}` | 
-| [KSM](/kusama/assets/KSM) | 1,920 | 4,219.58 $146,463.78 | 1.44 $49.98 |    |   | $34.71 |   `{"Token":"1"}` | 
-| [USDT](/kusama/assets/USDT) | 43 | 21,082.64 $21,094.01 |   |    |   | $1.00 |   `{"Token":"14"}` | 
-| [KUSD](/kusama/assets/KUSD) | 187 | 6,121.32 $6,121.32 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [TNKR](/kusama/assets/TNKR) | 1,647 | 805,967.35  |   |    |   |  |   `{"Token":"6"}` | 
+| [BSX](/kusama/assets/BSX) | 16,935 | 49,499,914,992.96 $5,071,799.74 | 59,381.37 $6.08 | 23,078,752,780.24  $2,364,666.94 | 22,984,918,506.57 $2,355,052.61 | - |   `{"Token":"BSX"}` | 
+| [KSM](/kusama/assets/KSM) | 1,933 | 4,840.95 $153,235.23 | 1.44 $45.58 |    |   | $31.65 |   `{"Token":"1"}` | 
+| [USDT](/kusama/assets/USDT) | 40 | 20,584.87 $20,659.92 |   |    |   | $1.00 |   `{"Token":"14"}` | 
+| [KUSD](/kusama/assets/KUSD) | 188 | 6,072.74 $6,072.74 |   |    |   | $1.00 |   `{"Token":"2"}` | 
+| [TNKR](/kusama/assets/TNKR) | 1,652 | 826,576.71  |   |    |   |  |   `{"Token":"6"}` | 
+| [XRT](/kusama/assets/XRT) | 14 | 4,524.65  |   |    |   |  |   `{"Token":"16"}` | 
 | [USDCet](/kusama/assets/USDCet) | 4 | 0.57  |   |    |   |  |   `{"Token":"9"}` | 
-| [XRT](/kusama/assets/XRT) | 4 | 112  |   |    |   |  |   `{"Token":"16"}` | 
 
 ## substrate-etl Tables:
 

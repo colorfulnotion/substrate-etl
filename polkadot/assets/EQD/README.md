@@ -1,6 +1,6 @@
 # EQD on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Moonbeam](/polkadot/2004-moonbeam) | 10 | 341.92  |   |    |   |  | `{"Token":"187224307232923873519830480073807488153"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 11 | 345.65  |   |    |   |  | `{"Token":"187224307232923873519830480073807488153"}` |
 | [Astar](/polkadot/2006-astar) | 3 | 2.9  |   |    |   |  | `{"Token":"18446744073709551629"}` |
 | [Acala](/polkadot/2000-acala) | 2 | 5  |   |    |   |  | `{"ForeignAsset":"8"}` |
 
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "EQD" and date(ts) = "2023-03-06"
+ where symbol = "EQD" and date(ts) = "2023-03-08"
  group by para_id
  order by free_usd desc
 ```

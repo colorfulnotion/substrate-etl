@@ -22,16 +22,16 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 | [2022-05-31 to 2022-05-31](/polkadot/2035-phala/2022-05-31.md) | 90,052 | 92,104 | 2,053 |  | 3 | 5 | -   |   
 | [2022-04-01 to 2022-04-15](/polkadot/2035-phala/2022-04-30.md) | 1 | 90,051 | 90,051 |  | 3 | 5 | -   |   
 
-## Phala Assets as of 2023-03-06
+## Phala Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PHA](/polkadot/assets/PHA) | 3,132 | 541,799,866.71 $90,603,840.81 | 133.15 $22.27 | 11,319,164.03  $1,892,875.58 |   | $0.17 |   `{"Token":"PHA"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 11 | 36.53 $14.67 |   |    |   | $0.40 |   `{"Token":"1"}` | 
-| [ASTR](/polkadot/assets/ASTR) | 11 | 105.33 $7.15 |   |    |   | $0.07 |   `{"Token":"6"}` | 
-| [PARA](/polkadot/assets/PARA) | 5 | 55.56 $0.64 |   |    |   | $0.01 |   `{"Token":"2"}` | 
+| [PHA](/polkadot/assets/PHA) | 3,135 | 541,799,866.69 $81,776,574.00 | 133.15 $20.10 | 11,317,542.38  $1,708,213.49 |   | $0.15 |   `{"Token":"PHA"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 11 | 36.53 $14.02 |   |    |   | $0.38 |   `{"Token":"1"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 11 | 105.33 $6.39 |   |    |   | $0.06 |   `{"Token":"6"}` | 
+| [PARA](/polkadot/assets/PARA) | 5 | 55.56 $0.63 |   |    |   | $0.01 |   `{"Token":"2"}` | 
 | [EQ](/polkadot/assets/EQ) | 2 | 807.76  |   |    |   |  |   `{"Token":"9"}` | 
 
 ## substrate-etl Tables:

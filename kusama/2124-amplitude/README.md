@@ -9,7 +9,7 @@ _Source_: [amplitude.polkaholic.io](https://amplitude.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-10](/kusama/2124-amplitude/2023-03-31.md) | 1,166,960 | 1,232,533 | 65,056 | 549 | 33 | 940 | - 518 (0.79%) |   
+| [2023-03-01 to 2023-03-10](/kusama/2124-amplitude/2023-03-31.md) | 1,166,960 | 1,232,765 | 65,288 | 549 | 33 | 940 | - 518 (0.79%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2124-amplitude/2023-02-28.md) | 972,507 | 1,166,959 | 194,453 | 1,016 | 30 | 923 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2124-amplitude/2023-01-31.md) | 757,812 | 972,506 | 214,695 | 788 | 25 | 727 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2124-amplitude/2022-12-31.md) | 561,962 | 757,811 | 195,850 | 1,082 | 25 | 727 | -   |   
@@ -18,14 +18,14 @@ _Source_: [amplitude.polkaholic.io](https://amplitude.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/kusama/2124-amplitude/2022-09-30.md) | 27,839 | 197,200 | 169,362 | 76 | 9 | 674 | -   |   
 | [2022-08-11 to 2022-08-31](/kusama/2124-amplitude/2022-08-31.md) | 1 | 27,838 | 27,838 |  | 2 | 6 | -   |   
 
-## Amplitude Assets as of 2023-03-06
+## Amplitude Assets as of 2023-03-08
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 1 | 1 $34.60 |   |    |   | $34.71 |   `{"XCM":"KSM"}` | 
-| [AMPE](/kusama/assets/AMPE) | 931 | 164,036,248.45  | 112  | 142,949,112.9   | 4,420,869.52  |  |   `{"Token":"AMPE"}` | 
+| [KSM](/kusama/assets/KSM) | 1 | 1 $31.55 |   |    |   | $31.65 |   `{"XCM":"KSM"}` | 
+| [AMPE](/kusama/assets/AMPE) | 937 | 164,037,315.77  | 122  | 143,937,274.73   | 7,074,101.41  |  |   `{"Token":"AMPE"}` | 
 
 ## substrate-etl Tables:
 

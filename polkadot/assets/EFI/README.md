@@ -1,12 +1,12 @@
 # EFI on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-06
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Efinity](/polkadot/2021-efinity) | 16,162 | 249,755,705.61  | 11,200.44  | 165,241,398   | 165,241,316.67  |  | `{"Token":"EFI"}` |
+| [Efinity](/polkadot/2021-efinity) | 16,166 | 249,755,736.95  | 11,169.11  | 161,629,920.71   | 161,629,839.38  |  | `{"Token":"EFI"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "EFI" and date(ts) = "2023-03-06"
+ where symbol = "EFI" and date(ts) = "2023-03-08"
  group by para_id
  order by free_usd desc
 ```
