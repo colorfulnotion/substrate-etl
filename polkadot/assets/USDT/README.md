@@ -1,20 +1,20 @@
 # USDT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-10
 
 
 *XCM Interior Keys*:
-* `[{"network":"polkadot"},{"parachain":1000},{"palletInstance":50},{"generalIndex":1984}]`
-* `[{"network":"polkadot"},{"parachain":1000},{"palletInstance":50},{"generalKey":"0x31393834"}]`
+* `[{"parachain":1000},{"palletInstance":50},{"generalIndex":1984}]~polkadot`
+* `[{"parachain":1000},{"palletInstance":50},{"generalKey":"0x31393834"}]~polkadot`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Statemint](/polkadot/1000-statemint) | 304 | 7,998,764.14 $7,999,666.13 |   |    |   | $1.00 | `{"Token":"1984"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 464 | 1,910,230.26 $1,910,230.26 |   |    |   | $1.00 | `{"Token":"311091173110107856861649819128533077277"}` |
-| [Astar](/polkadot/2006-astar) | 402 | 1,432,599.35 $1,432,760.90 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
-| [Parallel](/polkadot/2012-parallel) | 287 | 93,752.5 $93,763.07 |   |    |   | $1.00 | `{"Token":"102"}` |
-| [Interlay](/polkadot/2032-interlay) | 20 | 16.53 $16.53 | 49,896.18 $49,901.81 |    |   | $1.00 | `{"ForeignAsset":"2"}` |
+| [Statemint](/polkadot/1000-statemint) | 299 | 7,998,764.14 $8,005,679.08 |   |    |   | $1.00 | `{"Token":"1984"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 507 | 1,899,189.14 $1,899,189.14 |   |    |   | $1.00 | `{"Token":"311091173110107856861649819128533077277"}` |
+| [Astar](/polkadot/2006-astar) | 394 | 1,419,707.65 $1,420,934.99 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
+| [Parallel](/polkadot/2012-parallel) | 288 | 114,455.49 $114,554.44 |   |    |   | $1.00 | `{"Token":"102"}` |
+| [Interlay](/polkadot/2032-interlay) | 21 | 106.53 $106.62 | 91,096.18 $91,174.93 |    |   | $1.00 | `{"ForeignAsset":"2"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -25,7 +25,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "USDT" and date(ts) = "2023-03-09"
+ where symbol = "USDT" and date(ts) = "2023-03-10"
  group by para_id
  order by free_usd desc
 ```

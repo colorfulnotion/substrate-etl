@@ -1,15 +1,15 @@
 # vBNC on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-10
 
 
 *XCM Interior Keys*:
-* `[{"network":"kusama"},{"parachain":2001},{"generalKey":"0x0101"}]`
+* `[{"parachain":2001},{"generalKey":"0x0101"}]~kusama`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 417 | 3,300,134.02  |   |    |   |  | `{"VToken":"BNC"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 423 | 3,992,777.37  |   |    |   |  | `{"VToken":"BNC"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -20,7 +20,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "vBNC" and date(ts) = "2023-03-09"
+ where symbol = "vBNC" and date(ts) = "2023-03-10"
  group by para_id
  order by free_usd desc
 ```

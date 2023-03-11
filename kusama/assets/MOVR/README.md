@@ -1,21 +1,21 @@
 # MOVR on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-10
 
 
 *XCM Interior Keys*:
-* `[{"network":"kusama"},{"parachain":2023},{"palletInstance":10}]`
+* `[{"parachain":2023},{"palletInstance":10}]~kusama`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Moonriver](/kusama/2023-moonriver) | 245,857 | 10,578,134.11 $81,808,942.81 | 124,646.7 $963,989.95 | 2,278,337.02  $17,620,153.11 | 2,171,531.42 $16,794,142.36 | $7.73 | `{"Token":"MOVR"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 456 | 5,820.13 $45,011.60 |   |    |   | $7.73 | `{"Token":"MOVR"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 148 | 1,325.9 $10,254.18 |   |    |   | $7.73 | `{"Token":"113"}` |
-| [Karura](/kusama/2000-karura) | 114 | 619.73 $4,792.84 |   |    |   | $7.73 | `{"ForeignAsset":"3"}` |
-| [Shiden](/kusama/2007-shiden) | 24 | 6.67 $51.57 |   |    |   | $7.73 | `{"Token":"18446744073709551620"}` |
-| [Khala](/kusama/2004-khala) | 11 | 0.44 $3.38 |   |    |   | $7.73 | `{"Token":"6"}` |
-| [Crust Shadow](/kusama/2012-shadow) | 4 | 0.1 $0.78 |   |    |   | $7.73 | `{"Token":"232263652204149413431520870009560565298"}` |
+| [Moonriver](/kusama/2023-moonriver) | 245,935 | 10,579,308.33 $82,201,958.25 | 124,646.7 $968,513.51 | 2,269,140.81  $17,631,381.21 | 2,162,325.44 $16,801,418.36 | $7.77 | `{"Token":"MOVR"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 457 | 5,825.9 $45,267.66 |   |    |   | $7.77 | `{"Token":"MOVR"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 148 | 1,362.65 $10,587.88 |   |    |   | $7.77 | `{"Token":"113"}` |
+| [Karura](/kusama/2000-karura) | 114 | 619.73 $4,815.33 |   |    |   | $7.77 | `{"ForeignAsset":"3"}` |
+| [Shiden](/kusama/2007-shiden) | 24 | 6.67 $51.81 |   |    |   | $7.77 | `{"Token":"18446744073709551620"}` |
+| [Khala](/kusama/2004-khala) | 11 | 0.44 $3.39 |   |    |   | $7.77 | `{"Token":"6"}` |
+| [Crust Shadow](/kusama/2012-shadow) | 4 | 0.1 $0.79 |   |    |   | $7.77 | `{"Token":"232263652204149413431520870009560565298"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -26,7 +26,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "MOVR" and date(ts) = "2023-03-09"
+ where symbol = "MOVR" and date(ts) = "2023-03-10"
  group by para_id
  order by free_usd desc
 ```

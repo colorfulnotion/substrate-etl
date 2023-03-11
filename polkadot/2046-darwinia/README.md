@@ -9,7 +9,7 @@ _Source_: [darwinia.polkaholic.io](https://darwinia.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-11](/polkadot/2046-darwinia/2023-03-31.md) | 988,937 | 1,043,177 | 54,041 | 25 | 4 | 21 | - 200 (0.37%) |   
+| [2023-03-01 to 2023-03-11](/polkadot/2046-darwinia/2023-03-31.md) | 988,937 | 1,043,663 | 54,527 | 25 | 4 | 21 | - 200 (0.37%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2046-darwinia/2023-02-28.md) | 838,210 | 988,936 | 150,727 | 16 | 4 | 19 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2046-darwinia/2023-01-31.md) | 669,202 | 838,209 | 169,008 | 2 | 3 | 19 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2046-darwinia/2022-12-31.md) | 487,030 | 669,201 | 182,172 | 7 | 4 | 19 | -   |   
@@ -18,7 +18,7 @@ _Source_: [darwinia.polkaholic.io](https://darwinia.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/polkadot/2046-darwinia/2022-09-30.md) | 10,392 | 145,348 | 134,957 | 12 | 4 | 8 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2046-darwinia/2022-08-31.md) | 1 | 10,391 | 10,391 |  | 4 | 2 | -   |   
 
-## Darwinia Assets as of 2023-03-09
+## Darwinia Assets as of 2023-03-10
 
 
 

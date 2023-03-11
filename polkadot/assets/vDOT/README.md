@@ -1,15 +1,15 @@
 # vDOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-10
 
 
 *XCM Interior Keys*:
-* `[{"network":"polkadot"},{"parachain":2030},{"generalKey":"0x0900"}]`
+* `[{"parachain":2030},{"generalKey":"0x0900"}]~polkadot`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 157 | 302,068.92  |   |    |   |  | `{"VToken2":"0"}` |
+| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 161 | 287,496.33  |   |    |   |  | `{"VToken2":"0"}` |
 | [Astar](/polkadot/2006-astar) | 7 | 0.79  |   |    |   |  | `{"Token":"18446744073709551624"}` |
 
 ## Substrate-etl Queries:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "vDOT" and date(ts) = "2023-03-09"
+ where symbol = "vDOT" and date(ts) = "2023-03-10"
  group by para_id
  order by free_usd desc
 ```

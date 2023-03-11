@@ -17,7 +17,7 @@ _Source_: [kapex.polkaholic.io](https://kapex.polkaholic.io)
 | [2022-10-01 to 2022-10-31](/polkadot/2007-kapex/2022-10-31.md) | 101,902 | 322,458 | 220,557 |  | 2 | 3 | -   |   
 | [2022-09-16 to 2022-09-30](/polkadot/2007-kapex/2022-09-30.md) | 1 | 101,901 | 101,901 |  | 2 | 3 | -   |   
 
-## Kapex Assets as of 2023-03-09
+## Kapex Assets as of 2023-03-10
 
 
 
