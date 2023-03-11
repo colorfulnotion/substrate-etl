@@ -9,7 +9,7 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-11](/kusama/2110-mangatax/2023-03-31.md) | 1,828,508 | 1,895,899 | 66,872 | 1,761 | 44 | 1,788 | - 520 (0.77%) |   
+| [2023-03-01 to 2023-03-11](/kusama/2110-mangatax/2023-03-31.md) | 1,828,508 | 1,896,417 | 67,390 | 1,763 | 44 | 1,788 | - 520 (0.77%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2110-mangatax/2023-02-28.md) | 1,640,995 | 1,828,507 | 187,513 | 4,855 | 52 | 1,774 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2110-mangatax/2023-01-31.md) | 1,436,133 | 1,640,994 | 204,862 | 13,115 | 57 | 1,651 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2110-mangatax/2022-12-31.md) | 1,240,087 | 1,436,132 | 196,046 | 7,277 | 45 | 1,476 | -   |   
@@ -50,7 +50,7 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 | [TKN0x00000004-TKN0x0000001A](/kusama/assets/TKN0x00000004-TKN0x0000001A) | 2 | 1,462.43  |   |    |   |  |   `{"Token":"28"}` | 
 | [TKN0x00000005-TKN0x00000000](/kusama/assets/TKN0x00000005-TKN0x00000000) | 2 | 2.5  |   |    |   |  |   `{"Token":"10"}` | 
 | [TKN0x0000000F-TKN0x00000000](/kusama/assets/TKN0x0000000F-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"24"}` | 
-| [TKN0x00000010-TKN0x00000000](/kusama/assets/TKN0x00000010-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"18"}` | 
+| [TKN0x00000010-TKN0x00000000](/kusama/assets/TKN0x00000010-TKN0x00000000) | 1 |   |   |    |   |  |   `{"Token":"25"}` | 
 | [TKN0x00000010-TKN0x0000000F](/kusama/assets/TKN0x00000010-TKN0x0000000F) | 1 |   |   |    |   |  |   `{"Token":"22"}` | 
 
 ## substrate-etl Tables:
