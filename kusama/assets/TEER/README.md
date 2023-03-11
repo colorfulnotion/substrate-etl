@@ -4,7 +4,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-10
 
 
 *XCM Interior Keys*:
-* `[{"parachain":2015},{"generalKey":"0x54454552"}]~kusama`
+* `[{"network":"kusama"},{"parachain":2015},{"generalKey":"0x54454552"}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
