@@ -5,8 +5,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Network          | Indexed up until | # Chains Indexed | # Chains Not Indexed | # Blocks Across Network   | # Blocks Missing |
 | ---------------- | ---------------- | ---------------- | -------------------- | ------------------------- | ---------------- |
-| [polkadot](polkadot) | 2023-03-11 | 32 | 4 | 69,205,449 | 29,514 |
-| [kusama](kusama) | 2023-03-11 | 40 | 2 | 102,074,240 | 2,533,219 |
+| [polkadot](polkadot) | 2023-03-11 | 32 | 4 | 69,229,534 | 29,495 |
+| [kusama](kusama) | 2023-03-11 | 40 | 2 | 102,098,885 | 2,532,407 |
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
 
@@ -181,6 +181,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | 2022-10-01 | 2,531,831 | 15,458 | 8,202 | 4,709 |
 | 2022-09-30 | 2,528,338 | 19,198 | 1,161,083 | 17,347 |
 | 2022-09-29 | 2,538,731 | 19,592 | 934,608 | 6,483 |
+| 2022-09-28 | 2,536,090 | 18,343 | 8,506 | 5,239 |
+| 2022-09-27 | 2,532,823 | 19,897 | 933,947 | 4,885 |
+| 2022-09-26 | 2,528,504 | 17,526 | 7,191 | 3,945 |
+| 2022-09-25 | 2,525,258 | 10,337 | 1,067,514 | 33 |
 | 2022-08-31 | 2,365,131 | 25,163 | 1,139,911 | 9,215 |
 | 2022-07-31 | 2,209,071 | 19,065 | 1,110,925 | 3,546 |
 | 2022-06-30 | 2,100,936 | 18,073 | 1,393,946 | 184 |
@@ -191,5 +195,11 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | 2022-01-10 | 12,091 | 11,661 | 33 | 5 |
 | 2022-01-07 | 12,028 | 12,888 | 35 | 109,317 |
 | 2021-12-31 | 873,725 | 10,974 | 762,256 | 0 |
+| 2021-12-22 | 18,987 | 15,872 | 5,284 | 0 |
+| 2021-12-21 | 13,703 | 14,150 | 0 | 2 |
+| 2021-12-20 | 13,705 | 13,990 | 10 | 803,986 |
+| 2021-12-19 | 13,693 | 12,187 | 0 | 802,305 |
+| 2021-12-18 | 815,998 | 14,319 | 16,183 | 784 |
+| 2021-12-17 | 800,599 | 11,965 | 800,599 | 0 |
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/networks.json](https://cdn.polkaholic.io/substrate-etl/networks.json) | See [Definitions](/DEFINITIONS.md) for details
