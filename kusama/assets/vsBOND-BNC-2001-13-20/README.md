@@ -1,12 +1,12 @@
 # vsBOND-BNC-2001-13-20 on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 37,806 | 20,046.2  |   |    |   |  | `{"VSBond":["BNC","2,001","13","20"]}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 37,805 | 20,046.2  |   |    |   |  | `{"VSBond":["BNC","2,001","13","20"]}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "vsBOND-BNC-2001-13-20" and date(ts) = "2023-03-08"
+ where symbol = "vsBOND-BNC-2001-13-20" and date(ts) = "2023-03-09"
  group by para_id
  order by free_usd desc
 ```

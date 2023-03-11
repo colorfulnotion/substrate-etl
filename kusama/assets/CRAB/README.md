@@ -1,16 +1,16 @@
 # CRAB on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
 
 
 *XCM Interior Keys*:
-* `[{"parachain":2105},{"palletInstance":5}]~kusama`
+* `[{"network":"kusama"},{"parachain":2105},{"palletInstance":5}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Darwinia Crab](/kusama/2105-crab) | 4,937 | 1,265,532,305.43 $1,261,998.28 | 0.1 - |    |   | - | `{"Token":"CRAB"}` |
-| [Moonriver](/kusama/2023-moonriver) | 12 | 28,221.46 $28.14 |   |    |   | - | `{"Token":"173481220575862801646329923366065693029"}` |
+| [Darwinia Crab](/kusama/2105-crab) | 4,955 | 1,271,810,217.9 $1,268,258.66 | 31,980.71 $31.89 | 1,100,501.48  $1,097.43 | 1,100,501.48 $1,097.43 | - | `{"Token":"CRAB"}` |
+| [Moonriver](/kusama/2023-moonriver) | 12 | 28,211.46 $28.13 |   |    |   | - | `{"Token":"173481220575862801646329923366065693029"}` |
 | [Karura](/kusama/2000-karura) | 10 | 6,430.92 $6.41 |   |    |   | - | `{"ForeignAsset":"13"}` |
 | [Khala](/kusama/2004-khala) | 4 | 17 $0.02 |   |    |   | - | `{"Token":"11"}` |
 
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "CRAB" and date(ts) = "2023-03-08"
+ where symbol = "CRAB" and date(ts) = "2023-03-09"
  group by para_id
  order by free_usd desc
 ```

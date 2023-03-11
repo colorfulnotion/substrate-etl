@@ -1,6 +1,6 @@
 # GLMR on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
 
 
 *XCM Interior Keys*:
@@ -9,12 +9,12 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Moonbeam](/polkadot/2004-moonbeam) | 1,063,426 | 1,056,752,144.78 $405,452,732.05 | 1,906,693.01 $731,556.49 | 283,550,639.14  $108,792,191.13 | 281,671,527.63 $108,071,217.06 | $0.38 | `{"Token":"GLMR"}` |
-| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 198 | 401,602.1 $154,085.96 |   |    |   | $0.38 | `{"Token2":"1"}` |
-| [Parallel](/polkadot/2012-parallel) | 621 | 131,636.29 $50,505.97 |   |    |   | $0.38 | `{"Token":"114"}` |
-| [Astar](/polkadot/2006-astar) | 258 | 23,896.33 $9,168.50 |   |    |   | $0.38 | `{"Token":"18446744073709551619"}` |
-| [Acala](/polkadot/2000-acala) | 580 | 20,357.67 $7,810.79 |   |    |   | $0.38 | `{"ForeignAsset":"0"}` |
-| [Phala](/polkadot/2035-phala) | 11 | 36.53 $14.02 |   |    |   | $0.38 | `{"Token":"1"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 1,064,014 | 1,056,891,872.05 $389,131,648.58 | 1,906,523.01 $701,953.02 | 283,052,343  $104,215,604.05 | 281,145,592.67 $103,513,567.34 | $0.37 | `{"Token":"GLMR"}` |
+| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 197 | 401,729.35 $147,910.69 |   |    |   | $0.37 | `{"Token2":"1"}` |
+| [Parallel](/polkadot/2012-parallel) | 627 | 120,901.31 $44,514.04 |   |    |   | $0.37 | `{"Token":"114"}` |
+| [Astar](/polkadot/2006-astar) | 259 | 23,344.32 $8,595.03 |   |    |   | $0.37 | `{"Token":"18446744073709551619"}` |
+| [Acala](/polkadot/2000-acala) | 579 | 20,228.27 $7,447.75 |   |    |   | $0.37 | `{"ForeignAsset":"0"}` |
+| [Phala](/polkadot/2035-phala) | 11 | 36.52 $13.45 |   |    |   | $0.37 | `{"Token":"1"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -25,7 +25,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "GLMR" and date(ts) = "2023-03-08"
+ where symbol = "GLMR" and date(ts) = "2023-03-09"
  group by para_id
  order by free_usd desc
 ```

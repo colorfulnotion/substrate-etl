@@ -1,22 +1,21 @@
 # USDT on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-08
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
 
 
 *XCM Interior Keys*:
-* `[{"parachain":1000},{"palletInstance":50},{"generalIndex":1984}]~kusama`
+* `[{"network":"kusama"},{"parachain":1000},{"palletInstance":50},{"generalIndex":1984}]`
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Karura](/kusama/2000-karura) | 167 | 201,885.15 $202,621.24 |   |    |   | $1.00 | `{"ForeignAsset":"7"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 100 | 44,828.59 $44,992.04 |   |    |   | $1.00 | `{"Token2":"0"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 119 | 38,978.7 $39,120.82 |   |    |   | $1.00 | `{"Token":"102"}` |
-| [Basilisk](/kusama/2090-basilisk) | 40 | 20,584.87 $20,659.92 |   |    |   | $1.00 | `{"Token":"14"}` |
+| [Karura](/kusama/2000-karura) | 168 | 250,270.33 $250,298.55 |   |    |   | $1.00 | `{"ForeignAsset":"7"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 99 | 38,108.03 $38,112.33 |   |    |   | $1.00 | `{"Token2":"0"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 118 | 37,325.31 $37,329.52 |   |    |   | $1.00 | `{"Token":"102"}` |
+| [Basilisk](/kusama/2090-basilisk) | 41 | 19,917.47 $19,919.71 |   |    |   | $1.00 | `{"Token":"14"}` |
 | [Moonriver](/kusama/2023-moonriver) | 30 | 706.43 $706.43 |   |    |   | $1.00 | `{"Token":"311091173110107856861649819128533077277"}` |
-| [Shiden](/kusama/2007-shiden) | 7 | 7.78 $7.81 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
-| [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.58 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
-| [Statemine](/kusama/1000-statemine) | 2 | 10,000,000  |   |    |   |  | `{"Token":"19840"}` |
+| [Shiden](/kusama/2007-shiden) | 7 | 7.78 $7.78 |   |    |   | $1.00 | `{"Token":"4294969280"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 4 | 5.56 $5.56 |   |    |   | $1.00 | `{"ForeignAsset":"3"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -27,7 +26,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "USDT" and date(ts) = "2023-03-08"
+ where symbol = "USDT" and date(ts) = "2023-03-09"
  group by para_id
  order by free_usd desc
 ```

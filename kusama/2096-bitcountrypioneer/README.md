@@ -9,6 +9,7 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2023-03-01 to 2023-03-10](/kusama/2096-bitcountrypioneer/2023-03-31.md) | 2,640,698 | 2,708,921 | 68,223 | 2,074 | 84 | 24,759 | - 1 (0.00%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2096-bitcountrypioneer/2023-02-28.md) | 2,444,069 | 2,640,697 | 196,629 | 10,443 | 148 | 24,728 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2096-bitcountrypioneer/2023-01-31.md) | 2,226,701 | 2,444,068 | 217,368 | 31,043 | 332 | 24,569 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2096-bitcountrypioneer/2022-12-31.md) | 2,019,162 | 2,226,700 | 207,539 | 9,952 | 136 | 24,095 | -   |   
@@ -26,13 +27,13 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 | [2021-12-01 to 2021-12-31](/kusama/2096-bitcountrypioneer/2021-12-31.md) | 17,803 | 213,883 | 196,081 | 14 |  | 5 | -   |   
 | [2021-11-28 to 2021-11-30](/kusama/2096-bitcountrypioneer/2021-11-30.md) | 1 | 17,802 | 17,802 |  |  | 4 | -   |   
 
-## Bit.Country Pioneer Assets as of 2023-03-08
+## Bit.Country Pioneer Assets as of 2023-03-09
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [NEER](/kusama/assets/NEER) | 24,751 | 94,484,892.35 $20,162,094.00 | 5,515,020.29 $1,176,848.01 | 73,640,001.61  $15,714,010.97 |   | $0.21 |   `{"Token":"NEER"}` | 
+| [NEER](/kusama/assets/NEER) | 24,759 | 94,482,959.91 $18,953,447.67 | 5,516,952.29 $1,106,710.32 | 73,639,790.57  $14,772,271.30 |   | $0.20 |   `{"Token":"NEER"}` | 
 | [KUSD](/kusama/assets/KUSD) | 3 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
 
 ## substrate-etl Tables:
