@@ -9,12 +9,12 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-09
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Astar](/polkadot/2006-astar) | 494,296 | 7,663,109,006.46 $432,155,469.14 | 144,031,412.03 $8,122,546.92 | 4,086,081,314.83  $230,431,589.33 | 3,274,688,224.08 $184,673,665.03 | $0.06 | `{"Token":"ASTR"}` |
 | [Moonbeam](/polkadot/2004-moonbeam) | 152 | 1,423,893.66 $80,299.45 |   |    |   | $0.06 | `{"Token":"224077081838586484055667086558292981199"}` |
 | [Acala](/polkadot/2000-acala) | 102 | 44,272.59 $2,496.72 |   |    |   | $0.06 | `{"ForeignAsset":"2"}` |
 | [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 12 | 140.75 $7.94 |   |    |   | $0.06 | `{"Token2":"3"}` |
 | [Phala](/polkadot/2035-phala) | 11 | 105.33 $5.94 |   |    |   | $0.06 | `{"Token":"6"}` |
 | [Clover](/polkadot/2002-clover) | 2 | 2.3 $0.13 |   |    |   | $0.06 | `{"Token":"12"}` |
+| [Astar](/polkadot/2006-astar) | 1 | 74,000,000  |   |    |   |  | `{"Token":"1333"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
