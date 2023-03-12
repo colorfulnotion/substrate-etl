@@ -9,7 +9,7 @@ _Source_: [zeitgeist.polkaholic.io](https://zeitgeist.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-12](/kusama/2101-zeitgeist/2023-03-31.md) | 2,420,160 | 2,497,291 | 75,754 | 1,401 | 59 | 15,562 | - 1,378 (1.79%) |   
+| [2023-03-01 to 2023-03-12](/kusama/2101-zeitgeist/2023-03-31.md) | 2,420,160 | 2,497,959 | 76,422 | 1,402 | 59 | 15,562 | - 1,378 (1.77%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2101-zeitgeist/2023-02-28.md) | 2,224,848 | 2,420,159 | 195,312 | 3,035 | 61 | 15,516 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2101-zeitgeist/2023-01-31.md) | 2,007,845 | 2,224,847 | 217,003 | 3,103 | 54 | 15,366 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2101-zeitgeist/2022-12-31.md) | 1,806,290 | 2,007,844 | 201,555 | 4,113 | 61 | 15,180 | -   |   
@@ -25,13 +25,13 @@ _Source_: [zeitgeist.polkaholic.io](https://zeitgeist.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2101-zeitgeist/2022-02-28.md) | 128,085 | 236,744 | 108,660 | 5 |  | 5 | -   |   
 | [2022-01-13 to 2022-01-31](/kusama/2101-zeitgeist/2022-01-31.md) | 1 | 128,084 | 128,084 | 3 |  |  | -   |   
 
-## Zeitgeist Assets as of 2023-03-10
+## Zeitgeist Assets as of 2023-03-11
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [ZTG](/kusama/assets/ZTG) | 15,558 | 102,672,225.87  | 17,112.12  | 36,689,746.16   | 18,190,021.38  |  |   `{"Token":"ZTG"}` | 
+| [ZTG](/kusama/assets/ZTG) | 15,562 | 102,685,744.36  | 17,312.12  | 36,707,019.13   | 18,213,516.03  |  |   `{"Token":"ZTG"}` | 
 
 ## substrate-etl Tables:
 

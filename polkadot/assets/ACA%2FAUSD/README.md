@@ -1,12 +1,12 @@
 # ACA/AUSD on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-10
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 2,506 | 1,103,474.17 $504,393.79 |   |    |   | $0.46 | `[{"Token":"ACA"},{"Token":"AUSD"}]` |
+| [Acala](/polkadot/2000-acala) | 2,512 | 1,102,365.48 $489,933.43 |   |    |   | $0.44 | `[{"Token":"ACA"},{"Token":"AUSD"}]` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "ACA/AUSD" and date(ts) = "2023-03-10"
+ where symbol = "ACA/AUSD" and date(ts) = "2023-03-11"
  group by para_id
  order by free_usd desc
 ```

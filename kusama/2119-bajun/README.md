@@ -9,7 +9,7 @@ _Source_: [bajun.polkaholic.io](https://bajun.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-12](/kusama/2119-bajun/2023-03-31.md) | 1,595,381 | 1,673,238 | 77,150 | 7,934 | 104 | 5,849 | - 708 (0.91%) |   
+| [2023-03-01 to 2023-03-12](/kusama/2119-bajun/2023-03-31.md) | 1,595,381 | 1,673,968 | 77,880 | 7,955 | 104 | 5,849 | - 708 (0.90%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2119-bajun/2023-02-28.md) | 1,397,502 | 1,595,380 | 197,879 | 190,118 | 213 | 5,830 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2119-bajun/2023-01-31.md) | 1,179,201 | 1,397,501 | 218,301 | 1,505 | 24 | 4,244 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2119-bajun/2022-12-31.md) | 969,372 | 1,179,200 | 209,829 | 1,710 | 41 | 3,686 | -   |   
@@ -20,13 +20,13 @@ _Source_: [bajun.polkaholic.io](https://bajun.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/kusama/2119-bajun/2022-07-31.md) | 658 | 180,291 | 179,634 |  | 3 | 4 | -   |   
 | [2022-06-30 to 2022-06-30](/kusama/2119-bajun/2022-06-30.md) | 1 | 657 | 657 |  | 2 | 4 | -   |   
 
-## Bajun Network Assets as of 2023-03-10
+## Bajun Network Assets as of 2023-03-11
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BAJU](/kusama/assets/BAJU) | 5,848 | 49,752,350.17  | 5,664.02  | 6,591,617.71   | 6,591,617.71  |  |   `{"Token":"BAJU"}` | 
+| [BAJU](/kusama/assets/BAJU) | 5,849 | 49,752,222.51  | 5,643.77  | 6,586,225.58   | 6,586,225.58  |  |   `{"Token":"BAJU"}` | 
 
 ## substrate-etl Tables:
 

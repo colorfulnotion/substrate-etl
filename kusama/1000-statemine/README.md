@@ -9,7 +9,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-12](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,050,788 | 71,965 | 758 | 38 | 50,018 | - 369 (0.51%) |   
+| [2023-03-01 to 2023-03-12](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,051,948 | 72,826 | 769 | 35 | 50,018 | - 668 (0.91%) |   
 | [2023-02-01 to 2023-02-28](/kusama/1000-statemine/2023-02-28.md) | 3,796,175 | 3,978,454 | 182,280 | 2,293 | 46 | 49,353 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/1000-statemine/2023-01-31.md) | 3,578,790 | 3,796,174 | 217,385 | 2,227 | 43 | 49,101 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/1000-statemine/2022-12-31.md) | 3,370,335 | 3,578,789 | 208,455 | 4,541 | 68 | 49,060 | -   |   
@@ -26,21 +26,23 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/kusama/1000-statemine/2022-01-31.md) | 1,444,785 | 1,640,987 | 196,203 | 7,322 | 83 | 18,854 | -   |   
 | [2021-12-01 to 2021-12-31](/kusama/1000-statemine/2021-12-31.md) | 1,248,708 | 1,444,784 | 196,077 | 7,623 | 70 | 17,426 | -   |   
 | [2021-11-01 to 2021-11-30](/kusama/1000-statemine/2021-11-30.md) | 1,072,793 | 1,248,707 | 175,915 | 5,475 | 65 | 15,154 | -   |   
-| [2021-10-01 to 2021-10-31](/kusama/1000-statemine/2021-10-31.md) | 868,216 | 1,072,792 | 204,577 | 5,060 | 81 | 13,639 | -   |   
+| [2021-10-01 to 2021-10-31](/kusama/1000-statemine/2021-10-31.md) | 868,216 | 1,072,792 | 204,577 | 5,060 | 78 | 13,639 | -   |   
 | [2021-09-01 to 2021-09-30](/kusama/1000-statemine/2021-09-30.md) | 656,943 | 868,215 | 211,273 | 16,472 | 399 | 12,360 | -   |   
-| [2021-08-01 to 2021-08-31](/kusama/1000-statemine/2021-08-31.md) | 442,400 | 656,942 | 214,543 | 243 | 12 | 10,226 | -   |   
-| [2021-07-01 to 2021-07-31](/kusama/1000-statemine/2021-07-31.md) | 233,379 | 442,399 | 209,021 | 488 | 7 | 10,169 | -   |   
+| [2021-08-01 to 2021-08-31](/kusama/1000-statemine/2021-08-31.md) | 442,400 | 656,942 | 214,543 | 243 | 11 | 10,226 | -   |   
+| [2021-07-01 to 2021-07-31](/kusama/1000-statemine/2021-07-31.md) | 233,379 | 442,399 | 209,021 | 488 | 6 | 10,169 | -   |   
 | [2021-06-01 to 2021-06-30](/kusama/1000-statemine/2021-06-30.md) | 47,607 | 233,378 | 185,766 | 93 |  | 80 | - 6 (0.00%) |   
 | [2021-05-25 to 2021-05-31](/kusama/1000-statemine/2021-05-31.md) | 1 | 47,606 | 47,606 |  |  |  | -   |   
 | [2020-01-01 to 2020-01-01](/kusama/1000-statemine/2020-01-31.md) | 1 | 66,686 | 66,680 |  |  |  | - 6 (0.01%) |   
 
-## Statemine Assets as of 2023-03-10
+## Statemine Assets as of 2023-03-11
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [RMRK](/kusama/assets/RMRK) | 6,176 | 9,999,611.77 $20,981,826.76 |   |    |   | $2.10 |   `{"Token":"8"}` | 
+| [RMRK](/kusama/assets/RMRK) | 6,182 | 9,999,611.77 $20,417,360.84 |   |    |   | $2.04 |   `{"Token":"8"}` | 
+| [USDt](/kusama/assets/USDt) | 449 | 3,499,755.74 $3,501,630.86 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
+| [KSM](/kusama/assets/KSM) | 49,134 | 3,389.95 $101,197.60 | 1,076.07 $32,123.05 |    |   | $29.85 |   `{"Token":"KSM"}` | 
 | [GRB](/kusama/assets/GRB) | 816 | 2,043,401  |   |    |   |  |   `{"Token":"677"}` | 
 | [BILL](/kusama/assets/BILL) | 686 | 1,000,000  |   |    |   |  |   `{"Token":"223"}` | 
 | [CHRWNA](/kusama/assets/CHRWNA) | 303 | 5,670  |   |    |   |  |   `{"Token":"567"}` | 
@@ -65,7 +67,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [Meow](/kusama/assets/Meow) | 5 | 1,000,000,000,000  |   |    |   |  |   `{"Token":"3"}` | 
 | [TMJ](/kusama/assets/TMJ) | 5 | 10,000  |   |    |   |  |   `{"Token":"91"}` | 
 | [BAILEGO](/kusama/assets/BAILEGO) | 4 | 10,000  |   |    |   |  |   `{"Token":"88888"}` | 
-| [FAN](/kusama/assets/FAN) | 4 | 6,942,000,694,270,425,000,000,000  |   |    |   |  |   `{"Token":"46"}` | 
+| [FAN](/kusama/assets/FAN) | 4 | 6,942,000,694,270,427,000,000,000  |   |    |   |  |   `{"Token":"46"}` | 
 | [BEER](/kusama/assets/BEER) | 3 | 1,024  |   |    |   |  |   `{"Token":"5"}` | 
 | [CRIB](/kusama/assets/CRIB) | 3 | 5,000  |   |    |   |  |   `{"Token":"45"}` | 
 | [DRX](/kusama/assets/DRX) | 3 | 1,000  |   |    |   |  |   `{"Token":"102"}` | 
@@ -87,7 +89,6 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [MNCH](/kusama/assets/MNCH) | 2 | 1,027,000,000  |   |    |   |  |   `{"Token":"37"}` | 
 | [PLX](/kusama/assets/PLX) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"34"}` | 
 | [PWS](/kusama/assets/PWS) | 2 | 1,000,000,000  |   |    |   |  |   `{"Token":"300"}` | 
-| [USDT](/kusama/assets/USDT) | 2 | 10,000,000  |   |    |   |  |   `{"Token":"19840"}` | 
 | [XEXR](/kusama/assets/XEXR) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"87"}` | 
 | [ADVNCE](/kusama/assets/ADVNCE) | 1 | 69,420,000,021,000,995,000  |   |    |   |  |   `{"Token":"44"}` | 
 | [BABE](/kusama/assets/BABE) | 1 | 1,000,000,000,000,000,000  |   |    |   |  |   `{"Token":"25"}` | 
@@ -110,7 +111,6 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [ki](/kusama/assets/ki) | 1 | 1,000,000,000  |   |    |   |  |   `{"Token":"31"}` | 
 | [KODA](/kusama/assets/KODA) | 1 | 10,000  |   |    |   |  |   `{"Token":"383"}` | 
 | [KPOTS](/kusama/assets/KPOTS) | 1 | 8,099,991,100  |   |    |   |  |   `{"Token":"9000"}` | 
-| [KSM](/kusama/assets/KSM) | 1 | 85,000,000  |   |    |   |  |   `{"Token":"1234"}` | 
 | [LN](/kusama/assets/LN) | 1 | 13  |   |    |   |  |   `{"Token":"13"}` | 
 | [LUCKY](/kusama/assets/LUCKY) | 1 | 35  |   |    |   |  |   `{"Token":"35"}` | 
 | [LUL](/kusama/assets/LUL) | 1 | 1  |   |    |   |  |   `{"Token":"95834"}` | 

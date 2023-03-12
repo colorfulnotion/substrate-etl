@@ -9,7 +9,7 @@ _Source_: [efinity.polkaholic.io](https://efinity.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-12](/polkadot/2021-efinity/2023-03-31.md) | 2,255,258 | 2,311,329 | 56,072 | 1,518 | 27 | 16,179 | -   |   
+| [2023-03-01 to 2023-03-12](/polkadot/2021-efinity/2023-03-31.md) | 2,255,258 | 2,311,434 | 56,177 | 1,527 | 27 | 16,179 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2021-efinity/2023-02-28.md) | 2,089,532 | 2,255,257 | 165,726 | 11,509 | 38 | 16,137 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2021-efinity/2023-01-31.md) | 1,895,402 | 2,089,531 | 194,130 | 3,132 | 31 | 15,988 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2021-efinity/2022-12-31.md) | 1,689,841 | 1,895,401 | 205,561 | 9,933 | 24 | 15,845 | -   |   
@@ -23,13 +23,13 @@ _Source_: [efinity.polkaholic.io](https://efinity.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/polkadot/2021-efinity/2022-04-30.md) | 135,189 | 339,780 | 204,592 |  |  | 3 | -   |   
 | [2022-03-12 to 2022-03-31](/polkadot/2021-efinity/2022-03-31.md) | 1 | 135,188 | 135,188 |  |  | 3 | -   |   
 
-## Efinity Assets as of 2023-03-10
+## Efinity Assets as of 2023-03-11
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [EFI](/polkadot/assets/EFI) | 16,175 | 249,755,679.99  | 11,226.06  | 161,622,911.57   | 161,622,830.24  |  |   `{"Token":"EFI"}` | 
+| [EFI](/polkadot/assets/EFI) | 16,179 | 249,755,676.73  | 11,229.32  | 161,619,752.93   | 161,619,671.6  |  |   `{"Token":"EFI"}` | 
 
 ## substrate-etl Tables:
 

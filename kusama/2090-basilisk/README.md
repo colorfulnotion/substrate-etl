@@ -29,18 +29,18 @@ _Source_: [basilisk.polkaholic.io](https://basilisk.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/kusama/2090-basilisk/2021-10-31.md) | 51,706 | 222,678 | 170,972 |  | 5 | 7 | - 1 (0.00%) |   
 | [2021-09-22 to 2021-09-30](/kusama/2090-basilisk/2021-09-30.md) | 1 | 51,705 | 51,705 |  | 8 | 7 | -   |   
 
-## Basilisk Assets as of 2023-03-10
+## Basilisk Assets as of 2023-03-11
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BSX](/kusama/assets/BSX) | 16,941 | 49,499,614,984.26 $5,255,389.40 | 359,382.57 $38.16 | 23,073,876,260.07  $2,449,760.56 | 22,983,131,447.23 $2,440,126.16 | - |   `{"Token":"BSX"}` | 
-| [KSM](/kusama/assets/KSM) | 1,934 | 5,206.08 $166,708.88 | 1.44 $46.11 |    |   | $32.02 |   `{"Token":"1"}` | 
-| [USDT](/kusama/assets/USDT) | 41 | 20,110.58 $20,127.96 |   |    |   | $1.00 |   `{"Token":"14"}` | 
-| [KUSD](/kusama/assets/KUSD) | 189 | 6,073.7 $6,073.70 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [TNKR](/kusama/assets/TNKR) | 1,653 | 1,000,233.05  |   |    |   |  |   `{"Token":"6"}` | 
-| [XRT](/kusama/assets/XRT) | 19 | 7,767.44  |   |    |   |  |   `{"Token":"16"}` | 
+| [BSX](/kusama/assets/BSX) | 16,942 | 49,499,614,984.26 $4,885,190.90 | 359,382.57 $35.47 | 23,070,332,699.91  $2,276,845.57 | 22,979,587,887.07 $2,267,889.83 | - |   `{"Token":"BSX"}` | 
+| [KSM](/kusama/assets/KSM) | 1,936 | 5,266.59 $157,219.51 | 1.44 $42.99 |    |   | $29.85 |   `{"Token":"1"}` | 
+| [USDT](/kusama/assets/USDT) | 41 | 19,957.8 $19,968.49 |   |    |   | $1.00 |   `{"Token":"14"}` | 
+| [KUSD](/kusama/assets/KUSD) | 187 | 5,962.59 $5,962.59 |   |    |   | $1.00 |   `{"Token":"2"}` | 
+| [TNKR](/kusama/assets/TNKR) | 1,654 | 989,817.91  |   |    |   |  |   `{"Token":"6"}` | 
+| [XRT](/kusama/assets/XRT) | 20 | 7,807.45  |   |    |   |  |   `{"Token":"16"}` | 
 | [USDCet](/kusama/assets/USDCet) | 4 | 0.57  |   |    |   |  |   `{"Token":"9"}` | 
 
 ## substrate-etl Tables:

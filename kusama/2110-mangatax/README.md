@@ -22,26 +22,26 @@ _Source_: [mangatax.polkaholic.io](https://mangatax.polkaholic.io)
 | [2022-05-01 to 2022-05-31](/kusama/2110-mangatax/2022-05-31.md) | 61,315 | 199,152 | 137,838 | 52 | 4 | 11 | -   |   
 | [2022-04-12 to 2022-04-30](/kusama/2110-mangatax/2022-04-30.md) | 1 | 61,314 | 61,313 | 10 | 3 | 8 | - 1 (0.00%) |   
 
-## Mangatax Assets as of 2023-03-10
+## Mangatax Assets as of 2023-03-11
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 882 | 13,704.25 $438,836.82 |   |    |   | $32.02 |   `{"Token":"4"}` | 
-| [BNC](/kusama/assets/BNC) | 159 | 96,698.59 $20,687.62 |   |    |   | $0.21 |   `{"Token":"14"}` | 
-| [ZLK](/kusama/assets/ZLK) | 54 | 85,647.15 $2,209.14 |   |    |   | $0.03 |   `{"Token":"26"}` | 
-| [MGX](/kusama/assets/MGX) | 1,659 | 1,379,616,690.35  | 28,461.98  |    | 299,656,784.66  |  |   `{"Token":"0"}` | 
-| [TUR](/kusama/assets/TUR) | 546 | 5,423,589.09  |   |    |   |  |   `{"Token":"7"}` | 
-| [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 442 | 2,437,664.5  | 111,455,368.67  |    | 1,724,749.58  |  |   `{"Token":"5"}` | 
-| [TKN0x00000000-TKN0x00000007](/kusama/assets/TKN0x00000000-TKN0x00000007) | 324 | 125,245.5  | 44,216,396.79  |    | 112,379.03  |  |   `{"Token":"8"}` | 
-| [IMBU](/kusama/assets/IMBU) | 159 | 1,062,949.97  |   |    |   |  |   `{"Token":"11"}` | 
-| [TKN0x00000000-TKN0x0000000B](/kusama/assets/TKN0x00000000-TKN0x0000000B) | 140 | 61.9  | 17,683,702.23  |    |   |  |   `{"Token":"12"}` | 
-| [TKN0x00000000-TKN0x0000000E](/kusama/assets/TKN0x00000000-TKN0x0000000E) | 118 | 1,829.24  | 7,375,752.31  |    |   |  |   `{"Token":"17"}` | 
-| [VSKSM](/kusama/assets/VSKSM) | 55 | 875.47  |   |    |   |  |   `{"Token":"16"}` | 
+| [KSM](/kusama/assets/KSM) | 882 | 13,721.88 $409,628.95 |   |    |   | $29.85 |   `{"Token":"4"}` | 
+| [BNC](/kusama/assets/BNC) | 159 | 92,016.07 $20,898.12 |   |    |   | $0.23 |   `{"Token":"14"}` | 
+| [ZLK](/kusama/assets/ZLK) | 55 | 85,747.15 $2,172.27 |   |    |   | $0.03 |   `{"Token":"26"}` | 
+| [MGX](/kusama/assets/MGX) | 1,660 | 1,380,851,464.04  | 29,861.98  |    | 299,656,784.66  |  |   `{"Token":"0"}` | 
+| [TUR](/kusama/assets/TUR) | 547 | 5,452,235.65  |   |    |   |  |   `{"Token":"7"}` | 
+| [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 442 | 2,437,664.5  | 111,866,141.74  |    | 1,724,749.58  |  |   `{"Token":"5"}` | 
+| [TKN0x00000000-TKN0x00000007](/kusama/assets/TKN0x00000000-TKN0x00000007) | 324 | 125,245.5  | 44,218,969.47  |    | 112,379.03  |  |   `{"Token":"8"}` | 
+| [IMBU](/kusama/assets/IMBU) | 159 | 1,066,261.16  |   |    |   |  |   `{"Token":"11"}` | 
+| [TKN0x00000000-TKN0x0000000B](/kusama/assets/TKN0x00000000-TKN0x0000000B) | 140 | 61.9  | 17,684,125.61  |    |   |  |   `{"Token":"12"}` | 
+| [TKN0x00000000-TKN0x0000000E](/kusama/assets/TKN0x00000000-TKN0x0000000E) | 118 | 1,829.24  | 7,388,439.22  |    |   |  |   `{"Token":"17"}` | 
+| [VSKSM](/kusama/assets/VSKSM) | 55 | 852.17  |   |    |   |  |   `{"Token":"16"}` | 
 | [TKN0x00000010-TKN0x00000004](/kusama/assets/TKN0x00000010-TKN0x00000004) | 38 |   | -  |    |   |  |   `{"Token":"19"}` | 
-| [TKN0x0000001A-TKN0x00000000](/kusama/assets/TKN0x0000001A-TKN0x00000000) | 37 | 23.37  | 1,102,715.64  |    |   |  |   `{"Token":"27"}` | 
-| [vKSM](/kusama/assets/vKSM) | 34 | 1,409.83  |   |    |   |  |   `{"Token":"15"}` | 
+| [TKN0x0000001A-TKN0x00000000](/kusama/assets/TKN0x0000001A-TKN0x00000000) | 38 | 23.37  | 1,110,008.34  |    |   |  |   `{"Token":"27"}` | 
+| [vKSM](/kusama/assets/vKSM) | 34 | 1,408.94  |   |    |   |  |   `{"Token":"15"}` | 
 | [TKN0x00000000-TKN0x00000002](/kusama/assets/TKN0x00000000-TKN0x00000002) | 26 | 11,730  | 15,270  |    |   |  |   `{"Token":"3"}` | 
 | [TKN0x0000000F-TKN0x00000004](/kusama/assets/TKN0x0000000F-TKN0x00000004) | 22 |   | 0.002  |    |   |  |   `{"Token":"21"}` | 
 | [TKN0x00000004-TKN0x00000007](/kusama/assets/TKN0x00000004-TKN0x00000007) | 9 | -  |   |    |   |  |   `{"Token":"9"}` | 

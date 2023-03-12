@@ -1,12 +1,12 @@
 # MITO on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-10
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [DAO IPCI](/kusama/2222-daoipci) | 891 | 9,955,071.89  | 1,070.95  | 1   |   |  | `{"Token":"MITO"}` |
+| [DAO IPCI](/kusama/2222-daoipci) | 891 | 9,955,071.9  | 1,070.95  | 1   |   |  | `{"Token":"MITO"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "MITO" and date(ts) = "2023-03-10"
+ where symbol = "MITO" and date(ts) = "2023-03-11"
  group by para_id
  order by free_usd desc
 ```

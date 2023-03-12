@@ -20,13 +20,13 @@ _Source_: [pichiu.polkaholic.io](https://pichiu.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/kusama/2102-pichiu/2022-07-31.md) | 34,486 | 154,153 | 119,668 | 16 | 1 | 5 | -   |   
 | [2022-06-21 to 2022-06-30](/kusama/2102-pichiu/2022-06-30.md) | 1 | 34,485 | 34,485 | 7 | 1 | 3 | -   |   
 
-## Pichiu Assets as of 2023-03-10
+## Pichiu Assets as of 2023-03-11
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PCHU](/kusama/assets/PCHU) | 1,144 | 99,999,989.99  | 10  | 7,208,588.02   |   |  |   `{"Token":"PCHU"}` | 
+| [PCHU](/kusama/assets/PCHU) | 1,144 | 99,999,989.99  | 10  | 7,208,567.73   |   |  |   `{"Token":"PCHU"}` | 
 
 ## substrate-etl Tables:
 
