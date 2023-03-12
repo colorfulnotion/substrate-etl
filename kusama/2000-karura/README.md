@@ -9,7 +9,7 @@ _Source_: [karura.polkaholic.io](https://karura.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-11](/kusama/2000-karura/2023-03-31.md) | 3,805,757 | 3,882,184 | 75,230 | 16,113 | 124 | 95,266 | - 1,198 (1.57%) |   
+| [2023-03-01 to 2023-03-11](/kusama/2000-karura/2023-03-31.md) | 3,805,757 | 3,883,418 | 76,464 | 16,318 | 124 | 95,281 | - 1,198 (1.54%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2000-karura/2023-02-28.md) | 3,607,765 | 3,805,756 | 197,992 | 49,482 | 179 | 95,190 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2000-karura/2023-01-31.md) | 3,389,850 | 3,607,764 | 217,915 | 51,356 | 174 | 94,704 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2000-karura/2022-12-31.md) | 3,179,458 | 3,389,849 | 210,392 | 40,476 | 161 | 94,197 | -   |   
@@ -25,7 +25,7 @@ _Source_: [karura.polkaholic.io](https://karura.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2000-karura/2022-02-28.md) | 1,438,238 | 1,573,194 | 134,957 | 64,507 | 362 | 78,235 | -   |   
 | [2022-01-01 to 2022-01-31](/kusama/2000-karura/2022-01-31.md) | 1,223,751 | 1,438,237 | 214,487 | 69,908 | 356 | 77,495 | -   |   
 | [2021-12-01 to 2021-12-31](/kusama/2000-karura/2021-12-31.md) | 1,025,217 | 1,223,750 | 198,534 | 66,143 | 340 | 69,235 | -   |   
-| [2021-11-01 to 2021-11-30](/kusama/2000-karura/2021-11-30.md) | 857,478 | 1,025,216 | 167,739 | 81,005 | 360 | 68,244 | -   |   
+| [2021-11-01 to 2021-11-30](/kusama/2000-karura/2021-11-30.md) | 857,478 | 1,025,216 | 167,739 | 81,005 | 378 | 68,244 | -   |   
 | [2021-10-01 to 2021-10-31](/kusama/2000-karura/2021-10-31.md) | 657,328 | 857,477 | 200,150 | 94,656 |  | 67,187 | -   |   
 | [2021-09-01 to 2021-09-30](/kusama/2000-karura/2021-09-30.md) | 448,090 | 657,327 | 209,238 | 110,591 |  | 65,409 | -   |   
 | [2021-08-01 to 2021-08-31](/kusama/2000-karura/2021-08-31.md) | 242,391 | 448,089 | 205,699 | 122,340 |  | 63,306 | -   |   
@@ -52,7 +52,6 @@ _Source_: [karura.polkaholic.io](https://karura.polkaholic.io)
 | [CSM](/kusama/assets/CSM) | 169 | 7,755,404.45 $76,428.48 |   |    |   | $0.00985 |   `{"ForeignAsset":"5"}` | 
 | [KAR/KUSD](/kusama/assets/KAR%252FKUSD) | 53 | 151,585.23 $71,688.05 |   |    |   | $0.47 |   `[{"Token":"KAR"},{"Token":"KUSD"}]` | 
 | [KBTC](/kusama/assets/KBTC) | 133 | 2.7 $63,860.69 |   |    |   | $23,612.10 |   `{"Token":"KBTC"}` | 
-| [KSM/LKSM](/kusama/assets/KSM%252FLKSM) | 87 | 1,502.41 $54,725.27 |   |    |   | $36.42 |   `[{"Token":"KSM"},{"Token":"LKSM"}]` | 
 | [KUSD/BNC](/kusama/assets/KUSD%252FBNC) | 84 | 346,409.98 $52,980.96 |   |    |   | $0.15 |   `[{"Token":"KUSD"},{"Token":"BNC"}]` | 
 | [KUSD/CSM](/kusama/assets/KUSD%252FCSM) | 12 | 24,746.16 $28,625.25 |   |    |   | $1.16 |   `[{"Token":"KUSD"},{"ForeignAsset":"5"}]` | 
 | [AIR](/kusama/assets/AIR) | 278 | 3,352,137.72 $26,352.62 |   |    |   | $0.00786 |   `{"ForeignAsset":"12"}` | 
@@ -76,6 +75,7 @@ _Source_: [karura.polkaholic.io](https://karura.polkaholic.io)
 | [NEER](/kusama/assets/NEER) | 13 | 11.29 $2.08 |   |    |   | $0.18 |   `{"ForeignAsset":"9"}` | 
 | [LIT](/kusama/assets/LIT) | 2 | 1 $0.90 |   |    |   | $0.90 |   `{"ForeignAsset":"20"}` | 
 | [TAI](/kusama/assets/TAI) | 10,237 | 10,000,000  |   |    |   |  |   `{"Token":"TAI"}` | 
+| [KSM/LKSM](/kusama/assets/KSM%252FLKSM) | 602 | 21,554.4  |   |    |   |  |   `{"StableAssetPoolToken":"0"}` | 
 | [TAI/taiKSM](/kusama/assets/TAI%252FtaiKSM) | 333 | 553,797.3  |   |    |   |  |   `[{"Token":"TAI"},{"StableAssetPoolToken":"0"}]` | 
 | [3USD](/kusama/assets/3USD) | 164 | 1,129,285.19  |   |    |   |  |   `{"StableAssetPoolToken":"1"}` | 
 | [VSKSM](/kusama/assets/VSKSM) | 130 | 165.91  |   |    |   |  |   `{"Token":"VSKSM"}` | 
