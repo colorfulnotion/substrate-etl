@@ -9,7 +9,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-12](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,055,329 | 76,204 | 812 | 35 | 50,018 | - 671 (0.87%) |   
+| [2023-03-01 to 2023-03-12](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,055,818 | 76,705 | 818 | 35 | 50,018 | - 659 (0.85%) |   
 | [2023-02-01 to 2023-02-28](/kusama/1000-statemine/2023-02-28.md) | 3,796,175 | 3,978,454 | 182,280 | 2,293 | 46 | 49,353 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/1000-statemine/2023-01-31.md) | 3,578,790 | 3,796,174 | 217,385 | 2,227 | 43 | 49,101 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/1000-statemine/2022-12-31.md) | 3,370,335 | 3,578,789 | 208,455 | 4,541 | 68 | 49,060 | -   |   
@@ -25,7 +25,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/1000-statemine/2022-02-28.md) | 1,640,988 | 1,771,428 | 130,441 | 3,560 | 48 | 20,894 | -   |   
 | [2022-01-01 to 2022-01-31](/kusama/1000-statemine/2022-01-31.md) | 1,444,785 | 1,640,987 | 196,203 | 7,322 | 83 | 18,854 | -   |   
 | [2021-12-01 to 2021-12-31](/kusama/1000-statemine/2021-12-31.md) | 1,248,708 | 1,444,784 | 196,077 | 7,623 | 70 | 17,425 | -   |   
-| [2021-11-01 to 2021-11-30](/kusama/1000-statemine/2021-11-30.md) | 1,072,793 | 1,248,707 | 175,915 | 5,475 | 72 | 15,154 | -   |   
+| [2021-11-01 to 2021-11-30](/kusama/1000-statemine/2021-11-30.md) | 1,072,793 | 1,248,707 | 175,915 | 5,475 | 72 | 15,153 | -   |   
 | [2021-10-01 to 2021-10-31](/kusama/1000-statemine/2021-10-31.md) | 868,216 | 1,072,792 | 204,577 | 5,060 | 76 | 13,639 | -   |   
 | [2021-09-01 to 2021-09-30](/kusama/1000-statemine/2021-09-30.md) | 656,943 | 868,215 | 211,273 | 16,472 | 399 | 12,360 | -   |   
 | [2021-08-01 to 2021-08-31](/kusama/1000-statemine/2021-08-31.md) | 442,400 | 656,942 | 214,543 | 243 | 10 | 10,226 | -   |   
@@ -87,7 +87,6 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [MNCH](/kusama/assets/MNCH) | 2 | 1,027,000,000  |   |    |   |  |   `{"Token":"37"}` | 
 | [PLX](/kusama/assets/PLX) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"34"}` | 
 | [PWS](/kusama/assets/PWS) | 2 | 1,000,000,000  |   |    |   |  |   `{"Token":"300"}` | 
-| [USDt](/kusama/assets/USDt) | 2 | 10,000,000  |   |    |   |  |   `{"Token":"19840"}` | 
 | [XEXR](/kusama/assets/XEXR) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"87"}` | 
 | [ADVNCE](/kusama/assets/ADVNCE) | 1 | 69,420,000,021,000,995,000  |   |    |   |  |   `{"Token":"44"}` | 
 | [BABE](/kusama/assets/BABE) | 1 | 1,000,000,000,000,000,000  |   |    |   |  |   `{"Token":"25"}` | 
@@ -129,6 +128,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [TOT](/kusama/assets/TOT) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"9"}` | 
 | [TTT](/kusama/assets/TTT) | 1 | 20,141  |   |    |   |  |   `{"Token":"43"}` | 
 | [USDC](/kusama/assets/USDC) | 1 | 6,942,000,000  |   |    |   |  |   `{"Token":"10"}` | 
+| [USDt](/kusama/assets/USDt) | 1 | 69,000,000,000  |   |    |   |  |   `{"Token":"11"}` | 
 | [VCOP](/kusama/assets/VCOP) | 1 | 280,000  |   |    |   |  |   `{"Token":"863012"}` | 
 | [VHM](/kusama/assets/VHM) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"6789"}` | 
 | [WAVE](/kusama/assets/WAVE) | 1 | 1,010,000,000  |   |    |   |  |   `{"Token":"2021"}` | 
