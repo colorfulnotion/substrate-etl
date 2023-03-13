@@ -9,7 +9,7 @@ Status: Onboarding
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-04 to 2023-03-11](/polkadot/2058-watr/2023-03-31.md) | 88,318 | 121,970 | 17,854 |  |  |  | - 15,799 (46.95%) |   
+| [2023-03-04 to 2023-03-11](/polkadot/2058-watr/2023-03-31.md) | 88,318 | 122,685 | 18,569 |  |  |  | - 15,799 (45.97%) |   
 
 ## substrate-etl Tables:
 
