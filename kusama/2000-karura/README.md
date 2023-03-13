@@ -53,6 +53,7 @@ _Source_: [karura.polkaholic.io](https://karura.polkaholic.io)
 | [KAR/KUSD](/kusama/assets/KAR%252FKUSD) | 53 | 151,449.19 $69,939.04 |   |    |   | $0.46 |   `[{"Token":"KAR"},{"Token":"KUSD"}]` | 
 | [KBTC](/kusama/assets/KBTC) | 133 | 2.69 $59,400.90 |   |    |   | $22,091.32 |   `{"Token":"KBTC"}` | 
 | [KUSD/BNC](/kusama/assets/KUSD%252FBNC) | 84 | 346,409.98 $54,780.89 |   |    |   | $0.16 |   `[{"Token":"KUSD"},{"Token":"BNC"}]` | 
+| [KSM/LKSM](/kusama/assets/KSM%252FLKSM) | 87 | 1,502.41 $50,110.01 |   |    |   | $33.35 |   `[{"Token":"KSM"},{"Token":"LKSM"}]` | 
 | [KUSD/CSM](/kusama/assets/KUSD%252FCSM) | 12 | 24,746.16 $28,740.88 |   |    |   | $1.16 |   `[{"Token":"KUSD"},{"ForeignAsset":"5"}]` | 
 | [AIR](/kusama/assets/AIR) | 278 | 3,352,137.72 $26,869.83 |   |    |   | $0.00802 |   `{"ForeignAsset":"12"}` | 
 | [PHA](/kusama/assets/PHA) | 289 | 179,459.49 $24,301.64 |   |    |   | $0.14 |   `{"Token":"PHA"}` | 
@@ -75,7 +76,6 @@ _Source_: [karura.polkaholic.io](https://karura.polkaholic.io)
 | [NEER](/kusama/assets/NEER) | 13 | 11.29 $1.96 |   |    |   | $0.17 |   `{"ForeignAsset":"9"}` | 
 | [LIT](/kusama/assets/LIT) | 2 | 1 $0.84 |   |    |   | $0.84 |   `{"ForeignAsset":"20"}` | 
 | [TAI](/kusama/assets/TAI) | 10,238 | 10,000,000  |   |    |   |  |   `{"Token":"TAI"}` | 
-| [KSM/LKSM](/kusama/assets/KSM%252FLKSM) | 604 | 21,555.54  |   |    |   |  |   `{"StableAssetPoolToken":"0"}` | 
 | [TAI/taiKSM](/kusama/assets/TAI%252FtaiKSM) | 333 | 554,474.01  |   |    |   |  |   `[{"Token":"TAI"},{"StableAssetPoolToken":"0"}]` | 
 | [3USD](/kusama/assets/3USD) | 164 | 1,129,354.61  |   |    |   |  |   `{"StableAssetPoolToken":"1"}` | 
 | [VSKSM](/kusama/assets/VSKSM) | 130 | 165.91  |   |    |   |  |   `{"Token":"VSKSM"}` | 
