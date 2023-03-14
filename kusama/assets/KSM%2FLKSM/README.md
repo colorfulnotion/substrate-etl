@@ -6,7 +6,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Karura](/kusama/2000-karura) | 604 | 21,573.94  |   |    |   |  | `{"StableAssetPoolToken":"0"}` |
+| [Karura](/kusama/2000-karura) | 87 | 1,513.04 $58,128.44 |   |    |   | $38.42 | `[{"Token":"KSM"},{"Token":"LKSM"}]` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
