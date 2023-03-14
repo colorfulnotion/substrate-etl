@@ -11,6 +11,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Acala](/polkadot/2000-acala) | 2,888 | 19,125,709.44  |   |    |   |  | `{"Token":"LDOT"}` |
 | [Parallel](/polkadot/2012-parallel) | 83 | 9,380.17  |   |    |   |  | `{"Token":"110"}` |
+| [Astar](/polkadot/2006-astar) | 17 | 886.22  |   |    |   |  | `{"Token":"18446744073709551618"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

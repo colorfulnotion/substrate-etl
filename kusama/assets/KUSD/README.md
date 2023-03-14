@@ -10,9 +10,11 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Karura](/kusama/2000-karura) | 3,403 | 3,568,114.75 $3,568,114.75 |   |    |   | $1.00 | `{"Token":"KUSD"}` |
+| [Moonriver](/kusama/2023-moonriver) | 70 | 58,763.52 $58,763.52 |   |    |   | $1.00 | `{"Token":"214920334981412447805621250067209749032"}` |
 | [Basilisk](/kusama/2090-basilisk) | 187 | 6,007.77 $6,007.77 |   |    |   | $1.00 | `{"Token":"2"}` |
 | [Khala](/kusama/2004-khala) | 8 | 207.91 $207.91 |   |    |   | $1.00 | `{"Token":"4"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 13 | 23.68 $23.68 |   |    |   | $1.00 | `{"Token":"103"}` |
+| [Shiden](/kusama/2007-shiden) | 21 | 16.99 $16.99 |   |    |   | $1.00 | `{"Token":"18446744073709551616"}` |
 | [Turing](/kusama/2114-turing) | 4 | 11.16 $11.16 |   |    |   | $1.00 | `{"Token":"2"}` |
 | [Crust Shadow](/kusama/2012-shadow) | 5 | 1.51 $1.51 |   |    |   | $1.00 | `{"Token":"214920334981412447805621250067209749032"}` |
 | [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 3 | 0.1 $0.10 |   |    |   | $1.00 | `{"Stable":"0"}` |

@@ -9,18 +9,21 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
+| [Kusama](/kusama/0-kusama) | 286,316 | 13,078,688.23 $438,434,634.39 | 264,992.78 $8,883,307.60 | 7,971,472.48  $267,226,312.06 | 7,635,872.33 $255,976,045.59 | $33.52 | `{"Token":"KSM"}` |
+| [Moonriver](/kusama/2023-moonriver) | 1,395 | 95,063.31 $3,186,791.15 |   |    |   | $33.52 | `{"Token":"42259045809535163221576417993425387648"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 3,110 | 92,130.87 $3,088,487.60 | 0.1 $3.35 |    |   | $33.52 | `{"Token":"KSM"}` |
 | [Karura](/kusama/2000-karura) | 8,129 | 60,873.87 $2,040,664.29 |   |    |   | $33.52 | `{"Token":"KSM"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 3,569 | 18,587.04 $623,090.09 |   |    |   | $33.52 | `{"Token":"100"}` |
 | [Mangatax](/kusama/2110-mangatax) | 888 | 13,751.42 $460,986.42 |   |    |   | $33.52 | `{"Token":"4"}` |
 | [Basilisk](/kusama/2090-basilisk) | 1,942 | 5,301.93 $177,735.82 | 1.44 $48.27 |    |   | $33.52 | `{"Token":"1"}` |
+| [Statemine](/kusama/1000-statemine) | 49,153 | 3,391.05 $113,677.67 | 1,076.2 $36,077.21 |    |   | $33.52 | `{"Token":"KSM"}` |
 | [Kintsugi](/kusama/2092-kintsugi) | 213 | 1,266.88 $42,467.89 | 20,114.31 $674,264.22 |    |   | $33.52 | `{"Token":"KSM"}` |
 | [Robonomics](/kusama/2048-robonomics) | 6 | 536.43 $17,982.66 |   |    |   | $33.52 | `{"Token":"4294967295"}` |
+| [Shiden](/kusama/2007-shiden) | 67 | 64.69 $2,168.71 |   |    |   | $33.52 | `{"Token":"340282366920938463463374607431768211455"}` |
 | [Encointer](/kusama/1001-encointer) | 65 | 12.72 $426.35 |   |    |   | $33.52 | `{"Token":"KSM"}` |
 | [Turing](/kusama/2114-turing) | 5 | 5.36 $179.63 |   |    |   | $33.52 | `{"Token":"1"}` |
 | [Dora Factory](/kusama/2115-dorafactory) | 3 | 0.29 $9.72 |   |    |   | $33.52 | `{"Token":"KSM"}` |
 | [Khala](/kusama/2004-khala) | 2 | 0.23 $7.87 |   |    |   | $33.52 | `{"Token":"0"}` |
-| [Statemine](/kusama/1000-statemine) | 1 | 85,000,000  |   |    |   |  | `{"Token":"1234"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

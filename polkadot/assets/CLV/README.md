@@ -10,6 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Clover](/polkadot/2002-clover) | 2,191 | 5,157,900.84 $1,742,096.48 | 90.36 $30.52 | 606,070  $204,701.96 | 605,900 $204,644.54 | $0.34 | `{"Token":"CLV"}` |
+| [Astar](/polkadot/2006-astar) | 8 | 23 $7.77 |   |    |   | $0.34 | `{"Token":"18446744073709551625"}` |
 | [Parallel](/polkadot/2012-parallel) | 2 | 4 $1.35 |   |    |   | $0.34 | `{"Token":"130"}` |
 
 ## Substrate-etl Queries:

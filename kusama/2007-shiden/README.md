@@ -31,6 +31,31 @@ Status: Only partial index available: Old Decoding issues
 | [2021-08-01 to 2021-08-31](/kusama/2007-shiden/2021-08-31.md) | 114,737 | 255,428 | 59,805 | 11,505 | 207 | 15,856 | - 80,887 (57.49%) |   
 | [2021-07-06 to 2021-07-31](/kusama/2007-shiden/2021-07-31.md) | 1 | 114,736 | 2 |  |  | 12,144 | - 114,734 (100.00%) |   
 
+## Shiden Assets as of 2023-03-13
+
+
+
+| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
+| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
+| [SDN](/kusama/assets/SDN) | 633,532 | 77,817,164.81 $32,640,199.08 | 803,983.1 $336,828.24 | 18,360,591.6  $7,694,006.59 | 15,857,627.1 $6,645,839.99 | $0.42 |   `{"Token":"SDN"}` | 
+| [KSM](/kusama/assets/KSM) | 67 | 64.69 $2,168.71 |   |    |   | $33.52 |   `{"Token":"340282366920938463463374607431768211455"}` | 
+| [MOVR](/kusama/assets/MOVR) | 24 | 6.67 $56.67 |   |    |   | $8.50 |   `{"Token":"18446744073709551620"}` | 
+| [KUSD](/kusama/assets/KUSD) | 21 | 16.99 $16.99 |   |    |   | $1.00 |   `{"Token":"18446744073709551616"}` | 
+| [CSM](/kusama/assets/CSM) | 12 | 1,133.87 $12.24 |   |    |   | $0.01 |   `{"Token":"18446744073709551624"}` | 
+| [LKSM](/kusama/assets/LKSM) | 3 | 2.2 $8.61 |   |    |   | $3.92 |   `{"Token":"18446744073709551619"}` | 
+| [PHA](/kusama/assets/PHA) | 15 | 53.6 $8.34 |   |    |   | $0.16 |   `{"Token":"18446744073709551623"}` | 
+| [KAR](/kusama/assets/KAR) | 23 | 43.93 $7.94 |   |    |   | $0.18 |   `{"Token":"18446744073709551618"}` | 
+| [USDT](/kusama/assets/USDT) | 7 | 7.78 $7.81 |   |    |   | $1.00 |   `{"Token":"4294969280"}` | 
+| [KBTC](/kusama/assets/KBTC) | 2 | - $1.62 |   |    |   | $27,012.74 |   `{"Token":"18446744073709551621"}` | 
+| [KINT](/kusama/assets/KINT) | 3 | 0.6 $0.43 |   |    |   | $0.71 |   `{"Token":"18446744073709551622"}` | 
+| [BNC](/kusama/assets/BNC) | 4 | 0.1 $0.03 |   |    |   | $0.28 |   `{"Token":"18446744073709551627"}` | 
+| [BAR](/kusama/assets/BAR) | 5 | 314.16  |   |    |   |  |   `{"Token":"314"}` | 
+| [vKSM](/kusama/assets/vKSM) | 4 | 0.01  |   |    |   |  |   `{"Token":"18446744073709551628"}` | 
+| [SDG](/kusama/assets/SDG) | 3 | 759,000,000,000,000,100,000,000,000  |   |    |   |  |   `{"Token":"313"}` | 
+| [CHAI](/kusama/assets/CHAI) | 2 | 2,000  |   |    |   |  |   `{"Token":"315"}` | 
+| [SYG](/kusama/assets/SYG) | 1 | 1,000,000,000  |   |    |   |  |   `{"Token":"311"}` | 
+| [XCT](/kusama/assets/XCT) | 1 | 1  |   |    |   |  |   `{"Token":"312"}` | 
+
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2007` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

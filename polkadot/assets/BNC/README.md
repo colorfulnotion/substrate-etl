@@ -11,6 +11,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 3,788 | 14,600,918.66  | 65,399,080.64  | 4,142,086.89   |   |  | `{"Token":"BNC"}` |
+| [Astar](/polkadot/2006-astar) | 110 | 255,724.22  |   |    |   |  | `{"Token":"18446744073709551623"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 19 | 592.62  |   |    |   |  | `{"Token":"165823357460190568952172802245839421906"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

@@ -13,6 +13,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | [Karura](/kusama/2000-karura) | 290 | 179,554.3 $27,927.06 |   |    |   | $0.16 | `{"Token":"PHA"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 398 | 54,574.29 $8,488.24 |   |    |   | $0.16 | `{"Token":"PHA"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 145 | 21,858.6 $3,399.79 |   |    |   | $0.16 | `{"Token":"115"}` |
+| [Moonriver](/kusama/2023-moonriver) | 47 | 4,417.88 $687.14 |   |    |   | $0.16 | `{"Token":"189307976387032586987344677431204943363"}` |
+| [Shiden](/kusama/2007-shiden) | 15 | 53.6 $8.34 |   |    |   | $0.16 | `{"Token":"18446744073709551623"}` |
 | [Turing](/kusama/2114-turing) | 2 | 0.76 $0.12 |   |    |   | $0.16 | `{"Token":"7"}` |
 
 ## Substrate-etl Queries:

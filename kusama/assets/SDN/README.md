@@ -9,6 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
+| [Shiden](/kusama/2007-shiden) | 633,532 | 77,817,164.81 $32,640,199.08 | 803,983.1 $336,828.24 | 18,360,591.6  $7,694,006.59 | 15,857,627.1 $6,645,839.99 | $0.42 | `{"Token":"SDN"}` |
+| [Moonriver](/kusama/2023-moonriver) | 47 | 33,599 $14,141.85 |   |    |   | $0.42 | `{"Token":"16797826370226091782818345603793389938"}` |
 | [Karura](/kusama/2000-karura) | 39 | 7,553.17 $3,179.14 |   |    |   | $0.42 | `{"ForeignAsset":"18"}` |
 | [Khala](/kusama/2004-khala) | 9 | 29.99 $12.62 |   |    |   | $0.42 | `{"Token":"12"}` |
 | [Crust Shadow](/kusama/2012-shadow) | 11 | 3.61 $1.52 |   |    |   | $0.42 | `{"Token":"16797826370226091782818345603793389938"}` |

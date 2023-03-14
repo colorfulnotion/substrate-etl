@@ -9,6 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
+| [Moonbeam](/polkadot/2004-moonbeam) | 12 | 490.75  |   |    |   |  | `{"Token":"187224307232923873519830480073807488153"}` |
+| [Astar](/polkadot/2006-astar) | 7 | 27.4  |   |    |   |  | `{"Token":"18446744073709551629"}` |
 | [Acala](/polkadot/2000-acala) | 2 | 5  |   |    |   |  | `{"ForeignAsset":"8"}` |
 
 ## Substrate-etl Queries:

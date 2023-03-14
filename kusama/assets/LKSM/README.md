@@ -13,6 +13,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | [Kintsugi](/kusama/2092-kintsugi) | 32 | 27,070.13 $105,467.58 | 33,927.39 $132,184.06 |    |   | $3.90 | `{"ForeignAsset":"2"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 29 | 117.44 $460.00 |   |    |   | $3.92 | `{"Token":"109"}` |
 | [Turing](/kusama/2114-turing) | 3 | 2.7 $10.57 |   |    |   | $3.92 | `{"Token":"4"}` |
+| [Shiden](/kusama/2007-shiden) | 3 | 2.2 $8.61 |   |    |   | $3.92 | `{"Token":"18446744073709551619"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

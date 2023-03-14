@@ -5,46 +5,46 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-03-14 | 17,028,010 |  285,714 | 335 (0.00%)  |
-| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-03-14 | 4,064,774 |  51,964 | 952 (0.02%)  |
-| [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-03-14 | 2,480,391 |  65 | 5,921 (0.24%) Only partial index available: Old Decoding issues |
-| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-03-14 | 377,566 |   | 906 (0.24%)  |
-| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-03-14 | 3,898,276 |  95,235 | 1,198 (0.03%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-03-14 | 3,729,678 |  101,129 | 615 (0.02%)  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-03-14 | 3,491,228 |  23,893 | 479,742 (13.74%) Only partial index available: Old Decoding issues |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-03-14 | 17,028,379 |  285,714 | 335 (0.00%)  |
+| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-03-14 | 4,065,405 |  51,964 | 953 (0.02%)  |
+| [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-03-14 | 2,480,985 |  65 | 5,921 (0.24%) Only partial index available: Old Decoding issues |
+| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-03-14 | 378,085 |   | 906 (0.24%)  |
+| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-03-14 | 3,898,835 |  95,235 | 1,198 (0.03%)  |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-03-14 | 3,730,453 |  101,129 | 630 (0.02%)  |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-03-14 | 3,491,953 |  23,893 | 479,742 (13.74%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-03-13 | 3,575,338 |  633,428 | 208,241 (5.82%) Only partial index available: Old Decoding issues |
-| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-03-14 | 2,522,920 |  3,207 | 156 (0.01%)  |
-| [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-03-14 | 2,213,739 |  12,980 | 485 (0.02%)  |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-03-14 | 3,813,868 |  246,713 | 519 (0.01%)  |
-| [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-03-14 | 2,543,179 |  26 | 810 (0.03%)  |
-| [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-03-14 | 2,677,293 |  2,948 | 251 (0.01%)  |
-| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-03-14 | 3,286,197 |  35,654 | 2,324 (0.07%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-03-14 | 3,158,083 |  24,314 | 1,509 (0.05%)  |
-| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-03-14 | 1,974,513 |  2,696 |    |
+| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-03-14 | 2,523,255 |  3,207 | 156 (0.01%)  |
+| [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-03-14 | 2,214,554 |  12,980 | 485 (0.02%)  |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-03-14 | 3,814,446 |  246,713 | 519 (0.01%)  |
+| [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-03-14 | 2,543,563 |  26 | 810 (0.03%)  |
+| [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-03-14 | 2,678,090 |  2,948 | 251 (0.01%)  |
+| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-03-14 | 3,286,791 |  35,654 | 2,324 (0.07%) Only partial index available: Archive node unavailable |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-03-14 | 3,158,359 |  24,314 | 1,509 (0.05%)  |
+| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-03-14 | 1,975,268 |  2,696 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-03-14 | 2,686,668 |  29,388 | 342 (0.01%)  |
-| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-03-14 | 2,948,264 |  18,381 | 955 (0.03%)  |
-| [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-03-14 | 2,617,857 |  16,034 | 298 (0.01%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-03-14 | 2,690,956 |  78,846 | 1,087 (0.04%)  |
-| [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-03-14 | 2,731,424 |  24,745 | 1,367 (0.05%)  |
-| [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-03-14 | 2,404,144 |  33,762 | 45,823 (1.91%) Only partial index available: Onboarding |
-| [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-03-14 | 2,511,229 |  15,549 | 1,861 (0.07%)  |
-| [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-03-14 | 1,442,841 |  1,144 | 285 (0.02%)  |
-| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-03-14 | 1,721,973 |  2,344 | 1,662,115 (96.52%)  |
-| [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-03-14 | 2,179,797 |  13,912 |    |
-| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-03-14 | 1,910,463 |  1,784 | 1,223 (0.06%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-03-14 | 1,413,393 |  13,227 | 855 (0.06%)  |
-| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-03-14 | 2,153,287 |  7,588 | 407 (0.02%)  |
-| [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-03-14 | 1,606,282 |  370 | 1,165 (0.07%)  |
-| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-03-14 | 1,627,004 |  3,623 | 2,452 (0.15%) Only partial index available: Archive node unavailable |
+| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-03-14 | 2,948,944 |  18,381 | 955 (0.03%)  |
+| [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-03-14 | 2,618,352 |  16,034 | 298 (0.01%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-03-14 | 2,691,788 |  78,846 | 1,087 (0.04%)  |
+| [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-03-14 | 2,732,064 |  24,745 | 1,367 (0.05%)  |
+| [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-03-14 | 2,404,865 |  33,762 | 45,823 (1.91%) Only partial index available: Onboarding |
+| [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-03-14 | 2,511,801 |  15,549 | 1,861 (0.07%)  |
+| [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-03-14 | 1,443,074 |  1,144 | 285 (0.02%)  |
+| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-03-14 | 1,721,973 |  2,344 | 1,661,803 (96.51%)  |
+| [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-03-14 | 2,180,896 |  13,912 |    |
+| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-03-14 | 1,911,064 |  1,784 | 1,223 (0.06%)  |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-03-14 | 1,413,926 |  13,227 | 855 (0.06%)  |
+| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-03-14 | 2,154,621 |  7,588 | 609 (0.03%)  |
+| [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-03-14 | 1,607,126 |  370 | 1,165 (0.07%)  |
+| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-03-14 | 1,627,520 |  3,623 | 2,452 (0.15%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
-| [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-03-14 | 1,687,345 |  5,845 | 2,728 (0.16%)  |
-| [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-03-14 | 1,628,027 |  333 | 3,438 (0.21%) Only partial index available: Archive node unavailable |
-| [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-03-14 | 1,061,248 |  1,343 | 417 (0.04%)  |
-| [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-03-14 | 1,257,290 |  935 | 1,358 (0.11%)  |
-| [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-03-14 | 1,344,908 |  7,762 | 1,422 (0.11%)  |
-| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-03-14 | 1,169,682 |  5,831 | 91,926 (7.86%) Only partial index available: Archive node unavailable |
-| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-03-14 | 898,486 |  891 | 900 (0.10%)  |
-| [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-03-14 | 609,821 |  6 |   Endpoint not reachable |
+| [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-03-14 | 1,687,941 |  5,845 | 2,728 (0.16%)  |
+| [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-03-14 | 1,628,761 |  333 | 3,438 (0.21%) Only partial index available: Archive node unavailable |
+| [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-03-14 | 1,061,633 |  1,343 | 417 (0.04%)  |
+| [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-03-14 | 1,258,097 |  935 | 1,358 (0.11%)  |
+| [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-03-14 | 1,345,319 |  7,762 | 1,422 (0.11%)  |
+| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-03-14 | 1,169,980 |  5,831 | 91,926 (7.86%) Only partial index available: Archive node unavailable |
+| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-03-14 | 898,998 |  891 | 900 (0.10%)  |
+| [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-03-14 | 609,953 |  6 |   Endpoint not reachable |
 
 Missing chains
 
@@ -58,31 +58,32 @@ Last Updated: 2023-03-13T00:00:00.000Z
 
 | Symbol | # Holders | # Chains | Free | Reserved | Misc Frozen | Frozen | Recent Price |
 | ------ | --------- | -------- | ---- | -------- | ----------- | ------ | ------------ |
-| [PHA](/kusama/assets/PHA) | 21,253 | 5 | 692,042,209.15 $107,637,101.24 | 13,722.14 $2,134.28 | 1,744,036.09 $271,259.45 | 1,406.9 $218.82 | $0.16 |
-| [RMRK](/kusama/assets/RMRK) | 6,792 | 3 | 10,149,230.91 $23,041,763.50 | 0  | 0  | 0  | $2.27 |
-| [KAR](/kusama/assets/KAR) | 83,641 | 6 | 100,075,161.43 $18,089,608.37 | 8,299.79 $1,500.27 | 32,597,035.81 $5,892,247.42 | 31,806,875.08 $5,749,417.79 | $0.18 |
+| [KSM](/kusama/assets/KSM) | 329,191 | 15 | 98,369,674.33 $448,189,310.26 | 286,184.82 $9,593,700.65 | 7,971,472.48 $267,226,312.06 | 7,635,872.33 $255,976,045.59 | $33.52 |
+| [PHA](/kusama/assets/PHA) | 21,304 | 7 | 692,046,680.62 $107,637,796.72 | 13,722.14 $2,134.28 | 1,744,036.09 $271,259.45 | 1,406.9 $218.82 | $0.16 |
+| [MOVR](/kusama/assets/MOVR) | 246,820 | 7 | 10,591,656.78 $90,026,861.73 | 124,150.76 $1,055,255.43 | 2,250,909.08 $19,132,255.22 | 2,144,099.06 $18,224,392.41 | $8.50 |
+| [RMRK](/kusama/assets/RMRK) | 10,109 | 4 | 14,763,404.6 $33,517,305.91 | 0  | 0  | 0  | $2.27 |
+| [SDN](/kusama/assets/SDN) | 633,583 | 6 | 77,858,351.18 $32,657,534.46 | 803,983.1 $336,828.24 | 18,360,591.6 $7,694,006.59 | 15,857,627.1 $6,645,839.99 | $0.42 |
+| [KAR](/kusama/assets/KAR) | 83,842 | 8 | 100,086,003.61 $18,091,568.20 | 8,299.79 $1,500.27 | 32,597,035.81 $5,892,247.42 | 31,806,875.08 $5,749,417.79 | $0.18 |
 | [NEER](/kusama/assets/NEER) | 24,774 | 2 | 94,441,236.01 $17,453,343.94 | 5,558,687.29 $1,027,280.93 | 73,605,422.77 $13,602,752.50 | 0  | $0.18 |
-| [BNC](/kusama/assets/BNC) | 84,838 | 4 | 42,768,368.42 $12,123,490.78 | 38,965,700.46 $11,045,553.71 | 23,675,496.72 $6,711,260.61 | 8,779,011.23 $2,488,574.28 | $0.28 |
-| [KINT](/kusama/assets/KINT) | 16,351 | 4 | 10,025,593.77 $7,028,718.84 | 433.25 $303.73 | 0  | 2,495,525.32 $1,749,499.78 | $0.70 |
-| [KSM](/kusama/assets/KSM) | 63,217 | 12 | 85,195,858.1 $6,565,716.01 | 21,192.05 $710,393.06 | 0  | 0  | $33.52 |
-| [LKSM](/kusama/assets/LKSM) | 5,007 | 4 | 1,604,785.38 $6,285,021.74 | 33,927.39 $132,184.06 | 0  | 0  | $3.92 |
-| [XRT](/kusama/assets/XRT) | 2,970 | 2 | 1,001,387.41 $5,587,771.64 | 199.04 $1,119.04 | 144,007.34 $809,639.15 | 0  | $5.57 |
+| [BNC](/kusama/assets/BNC) | 84,908 | 6 | 42,769,551.74 $12,123,826.22 | 38,965,700.46 $11,045,553.71 | 23,675,496.72 $6,711,260.61 | 8,779,011.23 $2,488,574.28 | $0.28 |
+| [KINT](/kusama/assets/KINT) | 16,586 | 6 | 10,041,213.73 $7,039,805.44 | 433.25 $303.73 | 0  | 2,495,525.32 $1,749,499.78 | $0.70 |
+| [XRT](/kusama/assets/XRT) | 3,024 | 3 | 1,142,885.95 $6,383,305.77 | 199.04 $1,119.04 | 144,007.34 $809,639.15 | 0  | $5.57 |
+| [LKSM](/kusama/assets/LKSM) | 5,009 | 5 | 1,604,787.58 $6,285,030.35 | 33,927.39 $132,184.06 | 0  | 0  | $3.92 |
 | [BSX](/kusama/assets/BSX) | 16,948 | 3 | 49,503,856,776.8 $5,066,661.24 | 59,382.57 $6.08 | 23,069,987,059.83 $2,361,180.36 | 22,979,534,881.94 $2,351,922.71 | - |
 | [AIR](/kusama/assets/AIR) | 29,460 | 2 | 479,921,690.71 $3,740,671.47 | 511,305.05 $3,985.28 | 78,709,534.53 $613,488.65 | 13,627,791.85 $106,219.60 | $0.00779 |
-| [KUSD](/kusama/assets/KUSD) | 5,042 | 8 | 3,647,993.8 $3,574,366.89 | 0  | 0  | 0  | $0.69 |
-| [TEER](/kusama/assets/TEER) | 12,987 | 2 | 9,997,767.54 $3,421,091.22 | 89.35 $30.58 | 1,602,449.31 $548,334.94 | 0  | $0.34 |
-| [CSM](/kusama/assets/CSM) | 3,300 | 2 | 207,752,335.15 $2,243,375.73 | 1,168.93 $12.62 | 1,048,894.86 $11,326.30 | 412,959.96 $4,459.27 | $0.01 |
-| [CRAB](/kusama/assets/CRAB) | 5,099 | 3 | 1,422,152,854.03 $1,418,181.47 | 32,881.23 $32.79 | 2,002,201.95 $1,996.61 | 2,002,201.95 $1,996.61 | - |
+| [KUSD](/kusama/assets/KUSD) | 5,120 | 10 | 3,706,774.31 $3,633,147.40 | 0  | 0  | 0  | $0.70 |
+| [TEER](/kusama/assets/TEER) | 13,007 | 3 | 9,998,513.58 $3,421,346.50 | 89.35 $30.58 | 1,602,449.31 $548,334.94 | 0  | $0.34 |
+| [CSM](/kusama/assets/CSM) | 3,318 | 4 | 207,834,826.75 $2,244,266.50 | 1,168.93 $12.62 | 1,048,894.86 $11,326.30 | 412,959.96 $4,459.27 | $0.01 |
+| [CRAB](/kusama/assets/CRAB) | 5,111 | 4 | 1,422,181,060.49 $1,418,209.59 | 32,881.23 $32.79 | 2,002,201.95 $1,996.61 | 2,002,201.95 $1,996.61 | - |
 | [QTZ](/kusama/assets/QTZ) | 80,201 | 2 | 1,102,824,787.5 $1,291,094.13 | 0  | 732,437,157.78 $857,536.26 | 732,437,157.78 $857,536.26 | $0.00117 |
-| [KBTC](/kusama/assets/KBTC) | 531 | 4 | 20.29 $545,723.87 | 0.08 $2,046.80 | 0  | 0  | $26,920.50 |
-| [LIT](/kusama/assets/LIT) | 13,913 | 2 | 492,087.91 $495,146.92 | 0.77 $0.77 | 336,008.08 $338,096.84 | 0  | $1.01 |
+| [KBTC](/kusama/assets/KBTC) | 611 | 6 | 25.83 $695,258.00 | 0.08 $2,046.80 | 0  | 0  | $26,931.50 |
+| [LIT](/kusama/assets/LIT) | 13,936 | 3 | 492,986.9 $496,051.50 | 0.77 $0.77 | 336,008.08 $338,096.84 | 0  | $1.01 |
 | [KUSD/KSM](/kusama/assets/KUSD%252FKSM) | 210 | 1 | 774,132.62 $394,284.36 | 0  | 0  | 0  | $0.51 |
 | [KAR/KSM](/kusama/assets/KAR%252FKSM) | 288 | 1 | 787,388.97 $324,463.21 | 0  | 0  | 0  | $0.41 |
 | [ZLK](/kusama/assets/ZLK) | 20,428 | 3 | 4,064,525.92 $108,685.92 | 0  | 0  | 0  | $0.03 |
 | [KAR/LKSM](/kusama/assets/KAR%252FLKSM) | 103 | 1 | 352,348.12 $106,750.93 | 0  | 0  | 0  | $0.30 |
 | [KUSD/LKSM](/kusama/assets/KUSD%252FLKSM) | 43 | 1 | 287,037.09 $106,337.85 | 0  | 0  | 0  | $0.37 |
 | [KAR/KUSD](/kusama/assets/KAR%252FKUSD) | 54 | 1 | 150,811.01 $71,103.59 | 0  | 0  | 0  | $0.47 |
-| [MOVR](/kusama/assets/MOVR) | 702 | 5 | 7,774.34 $66,080.25 | 0  | 0  | 0  | $8.50 |
 | [KUSD/BNC](/kusama/assets/KUSD%252FBNC) | 84 | 1 | 346,409.98 $60,863.10 | 0  | 0  | 0  | $0.18 |
 | [KSM/LKSM](/kusama/assets/KSM%252FLKSM) | 683 | 1 | 23,086.98 $58,128.44 | 0  | 0  | 0  | $4.84 |
 | [cKSM-20/27](/kusama/assets/cKSM-20%252F27) | 97 | 1 | 1,096.57 $36,951.89 | 0  | 0  | 0  | $33.70 |
@@ -90,18 +91,17 @@ Last Updated: 2023-03-13T00:00:00.000Z
 | [KUSD/CSM](/kusama/assets/KUSD%252FCSM) | 12 | 1 | 24,746.16 $29,733.48 | 0  | 0  | 0  | $1.20 |
 | [KUSD/KBTC](/kusama/assets/KUSD%252FKBTC) | 23 | 1 | 30,642.68 $26,289.04 | 0  | 0  | 0  | $0.86 |
 | [KUSD/PHA](/kusama/assets/KUSD%252FPHA) | 11 | 1 | 19,562.84 $16,441.43 | 0  | 0  | 0  | $0.84 |
+| [KMA](/kusama/assets/KMA) | 127 | 3 | 6,802,928.55 $13,534.35 | 0  | 0  | 0  | $0.00199 |
 | [KUSD/RMRK](/kusama/assets/KUSD%252FRMRK) | 20 | 1 | 14,276.24 $7,336.09 | 0  | 0  | 0  | $0.51 |
 | [KUSD/AIR](/kusama/assets/KUSD%252FAIR) | 16 | 1 | 6,777.7 $6,070.81 | 0  | 0  | 0  | $0.90 |
 | [KUSD/KINT](/kusama/assets/KUSD%252FKINT) | 19 | 1 | 14,559.31 $3,998.42 | 0  | 0  | 0  | $0.27 |
-| [SDN](/kusama/assets/SDN) | 56 | 4 | 7,587.37 $3,193.53 | 0  | 0  | 0  | $0.42 |
 | [KSM/RMRK](/kusama/assets/KSM%252FRMRK) | 29 | 1 | 82.26 $3,009.50 | 0  | 0  | 0  | $36.59 |
 | [KUSD/QTZ](/kusama/assets/KUSD%252FQTZ) | 12 | 1 | 7,033.85 $1,999.84 | 0  | 0  | 0  | $0.28 |
 | [KAR/QTZ](/kusama/assets/KAR%252FQTZ) | 19 | 1 | 5,899.17 $821.86 | 0  | 0  | 0  | $0.14 |
 | [LP-KSM/cKSM-20/27](/kusama/assets/LP-KSM%252FcKSM-20%252F27) | 12 | 1 | 5.7 $390.67 | 0  | 0  | 0  | $68.49 |
-| [KMA](/kusama/assets/KMA) | 13 | 2 | 43,137.63 $85.82 | 0  | 0  | 0  | $0.00199 |
 | [vsBOND-BNC-2001-13-20](/kusama/assets/vsBOND-BNC-2001-13-20) | 37,804 | 1 | 20,046.2  | 0  | 0  | 0  |  |
 | [VSKSM](/kusama/assets/VSKSM) | 36,895 | 3 | 57,834.44  | 6,210.89  | 0  | 0  |  |
-| [HKO](/kusama/assets/HKO) | 24,042 | 4 | 1,000,009,742.11  | 143.79  | 634,371,634.49  | 633,280,268.18  |  |
+| [HKO](/kusama/assets/HKO) | 24,065 | 5 | 1,000,010,631.25  | 143.79  | 634,371,634.49  | 633,280,268.18  |  |
 | [ZTG](/kusama/assets/ZTG) | 15,573 | 1 | 102,712,243.26  | 17,112.12  | 36,665,741.71  | 18,300,902.96  |  |
 | [KAB](/kusama/assets/KAB) | 13,224 | 1 | 23,881,728.33  | 45,152,013.3  | 37,998.33  | 0  |  |
 | [TAI](/kusama/assets/TAI) | 10,237 | 1 | 10,000,000  | 0  | 0  | 0  |  |
@@ -117,7 +117,7 @@ Last Updated: 2023-03-13T00:00:00.000Z
 | [AMPE](/kusama/assets/AMPE) | 944 | 1 | 164,042,751.65  | 161.02  | 142,910,624.7  | 7,533,962.55  |  |
 | [MITO](/kusama/assets/MITO) | 891 | 1 | 9,955,071.9  | 1,070.95  | 1  | 0  |  |
 | [GRB](/kusama/assets/GRB) | 816 | 1 | 2,043,401  | 0  | 0  | 0  |  |
-| [vKSM](/kusama/assets/vKSM) | 793 | 2 | 228,922.8  | 0  | 0  | 0  |  |
+| [vKSM](/kusama/assets/vKSM) | 794 | 3 | 228,922.81  | 0  | 0  | 0  |  |
 | [BILL](/kusama/assets/BILL) | 686 | 1 | 1,000,000  | 0  | 0  | 0  |  |
 | [TKN0x00000004-TKN0x00000000](/kusama/assets/TKN0x00000004-TKN0x00000000) | 444 | 1 | 2,437,247.87  | 112,631,416.71  | 0  | 1,724,749.58  |  |
 | [vBNC](/kusama/assets/vBNC) | 425 | 1 | 4,055,018.57  | 0  | 0  | 0  |  |
@@ -187,6 +187,7 @@ Last Updated: 2023-03-13T00:00:00.000Z
 | [LP-LKSM/HKO](/kusama/assets/LP-LKSM%252FHKO) | 6 | 1 | 814.21  | 0  | 0  | 0  |  |
 | [STH](/kusama/assets/STH) | 6 | 1 | 6  | 0  | 0  | 0  |  |
 | [vsBOND-KSM-2102-20-27](/kusama/assets/vsBOND-KSM-2102-20-27) | 6 | 1 | 100.9  | 0  | 0  | 0  |  |
+| [BAR](/kusama/assets/BAR) | 5 | 1 | 314.16  | 0  | 0  | 0  |  |
 | [HOLIC](/kusama/assets/HOLIC) | 5 | 1 | 61,182,033.34  | 0  | 0  | 0  |  |
 | [KICO](/kusama/assets/KICO) | 5 | 1 | 43  | 0  | 0  | 0  |  |
 | [Meow](/kusama/assets/Meow) | 5 | 1 | 1,000,000,000,000  | 0  | 0  | 0  |  |
@@ -205,9 +206,11 @@ Last Updated: 2023-03-13T00:00:00.000Z
 | [MTVD](/kusama/assets/MTVD) | 3 | 1 | 20,000,000  | 0  | 0  | 0  |  |
 | [RRT](/kusama/assets/RRT) | 3 | 1 | 950  | 0  | 0  | 0  |  |
 | [RTT](/kusama/assets/RTT) | 3 | 1 | 10,000,000  | 0  | 0  | 0  |  |
+| [SDG](/kusama/assets/SDG) | 3 | 1 | 759,000,000,000,000,100,000,000,000  | 0  | 0  | 0  |  |
 | [XEN](/kusama/assets/XEN) | 3 | 1 | 1,000  | 0  | 0  | 0  |  |
 | [ADVERT](/kusama/assets/ADVERT) | 2 | 1 | 10,000  | 0  | 0  | 0  |  |
 | [Android](/kusama/assets/Android) | 2 | 1 | 100,100,000,000  | 0  | 0  | 0  |  |
+| [CHAI](/kusama/assets/CHAI) | 2 | 1 | 2,000  | 0  | 0  | 0  |  |
 | [cKSM-15/22](/kusama/assets/cKSM-15%252F22) | 2 | 1 | 57,307  | 0  | 0  | 0  |  |
 | [DREX](/kusama/assets/DREX) | 2 | 1 | 10,001  | 0  | 0  | 0  |  |
 | [ELEV](/kusama/assets/ELEV) | 2 | 1 | 1,000,000  | 0  | 0  | 0  |  |
@@ -260,6 +263,7 @@ Last Updated: 2023-03-13T00:00:00.000Z
 | [RUEPP](/kusama/assets/RUEPP) | 1 | 1 | 500,000,000,000  | 0  | 0  | 0  |  |
 | [SATS](/kusama/assets/SATS) | 1 | 1 | 2,310,000,000,000,000  | 0  | 0  | 0  |  |
 | [SHIB](/kusama/assets/SHIB) | 1 | 1 | 300,000,000,000  | 0  | 0  | 0  |  |
+| [SYG](/kusama/assets/SYG) | 1 | 1 | 1,000,000,000  | 0  | 0  | 0  |  |
 | [test](/kusama/assets/test) | 1 | 1 | 10  | 0  | 0  | 0  |  |
 | [TIP](/kusama/assets/TIP) | 1 | 1 | 10,000,000  | 0  | 0  | 0  |  |
 | [TKN0x0000000F-TKN0x00000000](/kusama/assets/TKN0x0000000F-TKN0x00000000) | 1 | 1 | 0  | 0  | 0  | 0  |  |
@@ -272,6 +276,7 @@ Last Updated: 2023-03-13T00:00:00.000Z
 | [vsBOND-KSM-2262-28-35](/kusama/assets/vsBOND-KSM-2262-28-35) | 1 | 1 | 2,010  | 0  | 0  | 0  |  |
 | [WAVE](/kusama/assets/WAVE) | 1 | 1 | 1,010,000,000  | 0  | 0  | 0  |  |
 | [WITEK](/kusama/assets/WITEK) | 1 | 1 | 1,155  | 0  | 0  | 0  |  |
+| [XCT](/kusama/assets/XCT) | 1 | 1 | 1  | 0  | 0  | 0  |  |
 | [ZKPD](/kusama/assets/ZKPD) | 1 | 1 | 1,000,000,100  | 0  | 0  | 0  |  |
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details

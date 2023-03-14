@@ -10,6 +10,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Darwinia](/polkadot/2046-darwinia) | 21 | 200,000  |   |    |   |  | `{"Token":"RING"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 6 | 815.48  |   |    |   |  | `{"Token":"125699734534028342599692732320197985871"}` |
+| [Astar](/polkadot/2006-astar) | 2 | 5  |   |    |   |  | `{"Token":"18446744073709551627"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

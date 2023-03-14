@@ -10,6 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Darwinia Crab](/kusama/2105-crab) | 5,086 | 1,422,146,406.11 $1,418,175.04 | 32,881.23 $32.79 | 2,002,201.95  $1,996.61 | 2,002,201.95 $1,996.61 | - | `{"Token":"CRAB"}` |
+| [Moonriver](/kusama/2023-moonriver) | 12 | 28,206.46 $28.13 |   |    |   | - | `{"Token":"173481220575862801646329923366065693029"}` |
 | [Karura](/kusama/2000-karura) | 10 | 6,430.92 $6.41 |   |    |   | - | `{"ForeignAsset":"13"}` |
 | [Khala](/kusama/2004-khala) | 4 | 17 $0.02 |   |    |   | - | `{"Token":"11"}` |
 

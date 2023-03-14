@@ -10,6 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Litmus](/kusama/2106-litmus) | 13,912 | 492,086.91 $495,145.92 | 0.77 $0.77 | 336,008.08  $338,096.84 |   | $1.01 | `{"Token":"LIT"}` |
+| [Moonriver](/kusama/2023-moonriver) | 23 | 898.99 $904.58 |   |    |   | $1.01 | `{"Token":"65216491554813189869575508812319036608"}` |
 | [Karura](/kusama/2000-karura) | 2 | 1 $1.01 |   |    |   | $1.01 | `{"ForeignAsset":"20"}` |
 
 ## Substrate-etl Queries:

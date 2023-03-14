@@ -11,6 +11,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Acala](/polkadot/2000-acala) | 156,806 | 999,972,101.54 $104,853,074.68 | 27,896.47 $2,925.11 | 491,667,053.49  $51,554,240.56 | 491,481,055.94 $51,534,737.60 | $0.10 | `{"Token":"ACA"}` |
 | [Parallel](/polkadot/2012-parallel) | 458 | 645,129.7 $67,549.65 |   |    |   | $0.10 | `{"Token":"108"}` |
+| [Astar](/polkadot/2006-astar) | 326 | 185,851.38 $19,459.96 |   |    |   | $0.10 | `{"Token":"18446744073709551616"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 611 | 136,014.69 $14,241.70 |   |    |   | $0.10 | `{"Token":"224821240862170613278369189818311486111"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:

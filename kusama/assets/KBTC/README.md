@@ -10,9 +10,11 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Kintsugi](/kusama/2092-kintsugi) | 368 | 16.36 $439,501.85 | 0.08 $2,046.80 |    |   | $26,863.34 | `{"Token":"KBTC"}` |
+| [Moonriver](/kusama/2023-moonriver) | 79 | 5.54 $149,532.51 |   |    |   | $27,012.74 | `{"Token":"328179947973504579459046439826496046832"}` |
 | [Karura](/kusama/2000-karura) | 134 | 2.67 $72,122.19 |   |    |   | $27,012.74 | `{"Token":"KBTC"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 26 | 1.12 $30,255.64 |   |    |   | $27,012.74 | `{"Token2":"2"}` |
 | [Parallel Heiko](/kusama/2085-parallel-heiko) | 68 | 0.14 $3,844.18 |   |    |   | $27,012.74 | `{"Token":"121"}` |
+| [Shiden](/kusama/2007-shiden) | 2 | - $1.62 |   |    |   | $27,012.74 | `{"Token":"18446744073709551621"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
