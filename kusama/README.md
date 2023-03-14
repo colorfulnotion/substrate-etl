@@ -5,46 +5,46 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-03-14 | 17,031,572 |  285,714 | 335 (0.00%)  |
-| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-03-14 | 4,067,107 |  51,964 | 953 (0.02%)  |
-| [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-03-14 | 2,482,162 |  65 | 5,921 (0.24%) Only partial index available: Old Decoding issues |
-| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-03-14 | 379,725 |   | 906 (0.24%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-03-14 | 17,033,656 |  285,714 | 335 (0.00%)  |
+| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-03-14 | 4,067,782 |  51,964 | 954 (0.02%)  |
+| [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-03-14 | 2,482,988 |  65 | 5,923 (0.24%) Only partial index available: Old Decoding issues |
+| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-03-14 | 380,322 |   | 906 (0.24%)  |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-03-14 | 3,900,432 |  95,235 | 1,198 (0.03%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-03-14 | 3,731,874 |  101,129 | 615 (0.02%)  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-03-14 | 3,492,866 |  23,893 | 479,742 (13.73%) Only partial index available: Old Decoding issues |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-03-14 | 3,732,620 |  101,129 | 615 (0.02%)  |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-03-14 | 3,494,332 |  23,893 | 479,742 (13.73%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-03-13 | 3,575,338 |  633,428 | 208,241 (5.82%) Only partial index available: Old Decoding issues |
-| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-03-14 | 2,524,987 |  3,207 | 156 (0.01%)  |
-| [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-03-14 | 2,215,920 |  12,980 | 485 (0.02%)  |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-03-14 | 3,816,168 |  246,713 | 519 (0.01%)  |
-| [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-03-14 | 2,544,883 |  26 | 810 (0.03%)  |
-| [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-03-14 | 2,679,693 |  2,948 | 251 (0.01%)  |
-| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-03-14 | 3,288,389 |  35,654 | 2,324 (0.07%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-03-14 | 3,158,972 |  24,314 | 1,509 (0.05%)  |
-| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-03-14 | 1,976,529 |  2,696 |    |
-| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-03-14 | 2,688,530 |  29,388 | 342 (0.01%)  |
+| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-03-14 | 2,525,677 |  3,207 | 156 (0.01%)  |
+| [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-03-14 | 2,216,784 |  12,980 | 485 (0.02%)  |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-03-14 | 3,816,693 |  246,713 | 519 (0.01%)  |
+| [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-03-14 | 2,545,956 |  26 | 810 (0.03%)  |
+| [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-03-14 | 2,680,302 |  2,948 | 251 (0.01%)  |
+| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-03-14 | 3,288,921 |  35,654 | 2,324 (0.07%) Only partial index available: Archive node unavailable |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-03-14 | 3,159,209 |  24,314 | 1,509 (0.05%)  |
+| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-03-14 | 1,977,498 |  2,696 |    |
+| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-03-14 | 2,689,161 |  29,388 | 342 (0.01%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-03-14 | 2,950,482 |  18,381 | 955 (0.03%)  |
-| [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-03-14 | 2,620,141 |  16,034 | 298 (0.01%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-03-14 | 2,693,446 |  78,846 | 1,087 (0.04%)  |
-| [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-03-14 | 2,733,670 |  24,745 | 1,367 (0.05%)  |
-| [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-03-14 | 2,406,483 |  33,762 | 45,823 (1.90%) Only partial index available: Onboarding |
+| [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-03-14 | 2,620,863 |  16,034 | 298 (0.01%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-03-14 | 2,694,227 |  78,846 | 1,087 (0.04%)  |
+| [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-03-14 | 2,734,433 |  24,745 | 1,367 (0.05%)  |
+| [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-03-14 | 2,407,063 |  33,762 | 45,823 (1.90%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-03-14 | 2,513,831 |  15,549 | 1,861 (0.07%)  |
-| [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-03-14 | 1,443,900 |  1,144 | 285 (0.02%)  |
-| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-03-14 | 1,721,973 |  2,344 | 1,660,368 (96.42%)  |
-| [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-03-14 | 2,182,765 |  13,912 |    |
-| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-03-14 | 1,912,562 |  1,784 | 1,223 (0.06%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-03-14 | 1,415,348 |  13,227 | 855 (0.06%)  |
-| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-03-14 | 2,155,960 |  7,588 | 609 (0.03%)  |
+| [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-03-14 | 1,444,228 |  1,144 | 285 (0.02%)  |
+| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-03-14 | 1,721,973 |  2,344 | 1,659,573 (96.38%)  |
+| [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-03-14 | 2,183,358 |  13,912 |    |
+| [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-03-14 | 1,913,276 |  1,784 | 1,223 (0.06%)  |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-03-14 | 1,416,219 |  13,227 | 855 (0.06%)  |
+| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-03-14 | 2,157,069 |  7,588 | 609 (0.03%)  |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-03-14 | 1,608,765 |  370 | 1,165 (0.07%)  |
-| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-03-14 | 1,628,802 |  3,623 | 2,452 (0.15%) Only partial index available: Archive node unavailable |
+| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-03-14 | 1,629,039 |  3,623 | 2,452 (0.15%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
-| [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-03-14 | 1,689,788 |  5,845 | 2,728 (0.16%)  |
+| [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-03-14 | 1,690,385 |  5,845 | 2,728 (0.16%)  |
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-03-14 | 1,630,619 |  333 | 3,438 (0.21%) Only partial index available: Archive node unavailable |
-| [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-03-14 | 1,062,376 |  1,343 | 417 (0.04%)  |
+| [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-03-14 | 1,062,648 |  1,343 | 417 (0.04%)  |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-03-14 | 1,259,714 |  935 | 1,358 (0.11%)  |
-| [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-03-14 | 1,346,443 |  7,762 | 1,422 (0.11%)  |
-| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-03-14 | 1,171,696 |  5,831 | 91,926 (7.85%) Only partial index available: Archive node unavailable |
-| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-03-14 | 900,537 |  891 | 900 (0.10%)  |
-| [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-03-14 | 610,557 |  6 |   Endpoint not reachable |
+| [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-03-14 | 1,347,018 |  7,762 | 1,422 (0.11%)  |
+| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-03-14 | 1,172,589 |  5,831 | 91,926 (7.84%) Only partial index available: Archive node unavailable |
+| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-03-14 | 901,229 |  891 | 900 (0.10%)  |
+| [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-03-14 | 611,143 |  6 |   Endpoint not reachable |
 
 Missing chains
 

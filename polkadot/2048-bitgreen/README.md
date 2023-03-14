@@ -9,7 +9,7 @@ _Source_: [bitgreen.polkaholic.io](https://bitgreen.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-14](/polkadot/2048-bitgreen/2023-03-31.md) | 284,654 | 371,626 | 85,666 | 38 | 9 | 950 | - 1,307 (1.50%) |   
+| [2023-03-01 to 2023-03-14](/polkadot/2048-bitgreen/2023-03-31.md) | 284,654 | 372,163 | 86,203 | 39 | 9 | 950 | - 1,307 (1.49%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2048-bitgreen/2023-02-28.md) | 91,749 | 284,653 | 192,905 | 99 | 7 | 782 | -   |   
 | [2023-01-17 to 2023-01-31](/polkadot/2048-bitgreen/2023-01-31.md) | 1 | 91,748 | 91,748 | 6 | 1 | 179 | -   |   
 
