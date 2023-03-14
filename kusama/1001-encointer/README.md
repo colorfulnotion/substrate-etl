@@ -9,7 +9,7 @@ Status: Only partial index available: Old Decoding issues
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-13](/kusama/1001-encointer/2023-03-31.md) | 2,388,650 | 2,479,853 | 90,817 | 11 |  | 65 | - 387 (0.42%) |   
+| [2023-03-01 to 2023-03-14](/kusama/1001-encointer/2023-03-31.md) | 2,388,650 | 2,480,391 | 91,352 | 11 |  | 65 | - 390 (0.43%) |   
 | [2023-02-01 to 2023-02-28](/kusama/1001-encointer/2023-02-28.md) | 2,190,832 | 2,388,649 | 197,199 | 29 | 1 | 65 | - 619 (0.31%) |   
 | [2023-01-01 to 2023-01-31](/kusama/1001-encointer/2023-01-31.md) | 1,972,773 | 2,190,831 | 217,517 | 2 |  | 58 | - 542 (0.25%) |   
 | [2022-12-01 to 2022-12-31](/kusama/1001-encointer/2022-12-31.md) | 1,791,307 | 1,972,772 | 180,844 | 5 |  | 58 | - 622 (0.34%) |   
@@ -25,13 +25,13 @@ Status: Only partial index available: Old Decoding issues
 | [2022-02-01 to 2022-02-28](/kusama/1001-encointer/2022-02-28.md) | 156,173 | 293,070 | 136,898 | 1 |  | 3 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/1001-encointer/2022-01-31.md) | 1 | 156,172 | 156,172 |  |  | 1 | -   |   
 
-## Encointer Assets as of 2023-03-11
+## Encointer Assets as of 2023-03-13
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 65 | 12.72 $379.67 |   |    |   | $29.85 |   `{"Token":"KSM"}` | 
+| [KSM](/kusama/assets/KSM) | 65 | 12.72 $426.35 |   |    |   | $33.52 |   `{"Token":"KSM"}` | 
 
 ## substrate-etl Tables:
 

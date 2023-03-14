@@ -9,7 +9,7 @@ _Source_: [integritee.polkaholic.io](https://integritee.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-13](/kusama/2015-integritee/2023-03-31.md) | 2,122,279 | 2,213,124 | 90,676 | 325 | 17 | 12,985 | - 170 (0.19%) |   
+| [2023-03-01 to 2023-03-14](/kusama/2015-integritee/2023-03-31.md) | 2,122,279 | 2,213,739 | 90,976 | 326 | 16 | 12,985 | - 485 (0.53%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2015-integritee/2023-02-28.md) | 1,925,180 | 2,122,278 | 197,099 | 1,086 | 24 | 12,971 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2015-integritee/2023-01-31.md) | 1,707,931 | 1,925,179 | 217,249 | 1,450 | 23 | 12,922 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2015-integritee/2022-12-31.md) | 1,499,268 | 1,707,930 | 208,663 | 1,017 | 18 | 12,870 | -   |   
@@ -23,13 +23,13 @@ _Source_: [integritee.polkaholic.io](https://integritee.polkaholic.io)
 | [2022-04-01 to 2022-04-30](/kusama/2015-integritee/2022-04-30.md) | 36,169 | 151,996 | 115,828 | 1,584 | 22 | 11,233 | -   |   
 | [2022-03-21 to 2022-03-31](/kusama/2015-integritee/2022-03-31.md) | 1 | 36,168 | 36,168 |  |  | 1 | -   |   
 
-## Integritee Assets as of 2023-03-11
+## Integritee Assets as of 2023-03-13
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [TEER](/kusama/assets/TEER) | 12,985 | 9,997,760.39 $3,383,229.34 | 89.35 $30.24 | 1,603,638.99  $542,669.39 |   | $0.34 |   `{"Token":"TEER"}` | 
+| [TEER](/kusama/assets/TEER) | 12,985 | 9,997,760.39 $3,421,088.77 | 89.35 $30.58 | 1,602,449.31  $548,334.94 |   | $0.34 |   `{"Token":"TEER"}` | 
 
 ## substrate-etl Tables:
 

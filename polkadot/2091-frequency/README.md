@@ -9,13 +9,13 @@ _Source_: [frequency.polkaholic.io](https://frequency.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-13](/polkadot/2091-frequency/2023-03-31.md) | 649,378 | 735,664 | 84,902 |  | 6 | 22 | - 1,385 (1.61%) |   
+| [2023-03-01 to 2023-03-14](/polkadot/2091-frequency/2023-03-31.md) | 649,378 | 735,664 | 84,902 |  | 7 | 22 | - 1,385 (1.61%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2091-frequency/2023-02-28.md) | 450,021 | 649,377 | 199,357 | 58 | 7 | 22 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2091-frequency/2023-01-31.md) | 233,132 | 450,020 | 216,889 | 15 | 6 | 21 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2091-frequency/2022-12-31.md) | 11,895 | 233,131 | 221,237 |  | 6 | 21 | -   |   
 | [2022-11-29 to 2022-11-30](/polkadot/2091-frequency/2022-11-30.md) | 1 | 11,894 | 11,894 |  | 6 | 21 | -   |   
 
-## Frequency Assets as of 2023-03-11
+## Frequency Assets as of 2023-03-13
 
 
 

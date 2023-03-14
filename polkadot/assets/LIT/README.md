@@ -1,12 +1,12 @@
 # LIT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Litentry](/polkadot/2013-litentry) | 4,772 | 9,672,553.16  | 2,017,378.72  | 8,743,794.39   |   |  | `{"Token":"LIT"}` |
+| [Litentry](/polkadot/2013-litentry) | 4,772 | 9,671,035.13  | 2,025,810.75  | 8,739,669.51   |   |  | `{"Token":"LIT"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LIT" and date(ts) = "2023-03-11"
+ where symbol = "LIT" and date(ts) = "2023-03-13"
  group by para_id
  order by free_usd desc
 ```

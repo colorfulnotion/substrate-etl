@@ -1,6 +1,6 @@
 # LDOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 
 *XCM Interior Keys*:
@@ -9,9 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 2,888 | 19,153,443.93  |   |    |   |  | `{"Token":"LDOT"}` |
+| [Acala](/polkadot/2000-acala) | 2,888 | 19,125,709.44  |   |    |   |  | `{"Token":"LDOT"}` |
 | [Parallel](/polkadot/2012-parallel) | 83 | 9,380.17  |   |    |   |  | `{"Token":"110"}` |
-| [Astar](/polkadot/2006-astar) | 17 | 886.22  |   |    |   |  | `{"Token":"18446744073709551618"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -22,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LDOT" and date(ts) = "2023-03-11"
+ where symbol = "LDOT" and date(ts) = "2023-03-13"
  group by para_id
  order by free_usd desc
 ```

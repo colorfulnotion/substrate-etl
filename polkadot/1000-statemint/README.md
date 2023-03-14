@@ -9,7 +9,7 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-13](/polkadot/1000-statemint/2023-03-31.md) | 3,313,604 | 3,401,103 | 87,221 | 443 | 23 | 643 | - 279 (0.32%) |   
+| [2023-03-01 to 2023-03-14](/polkadot/1000-statemint/2023-03-31.md) | 3,313,604 | 3,401,501 | 87,619 | 443 | 23 | 643 | - 279 (0.32%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/1000-statemint/2023-02-28.md) | 3,114,475 | 3,313,603 | 199,129 | 790 | 21 | 601 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/1000-statemint/2023-01-31.md) | 2,893,961 | 3,114,474 | 220,514 | 468 | 16 | 471 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/1000-statemint/2022-12-31.md) | 2,675,090 | 2,893,960 | 218,871 | 406 | 13 | 389 | -   |   
@@ -27,15 +27,15 @@ _Source_: [statemint.polkaholic.io](https://statemint.polkaholic.io)
 | [2021-12-01 to 2021-12-31](/polkadot/1000-statemint/2021-12-31.md) | 184,519 | 389,635 | 205,117 |  | 2 |  | -   |   
 | [2021-11-05 to 2021-11-30](/polkadot/1000-statemint/2021-11-30.md) | 1 | 184,518 | 184,518 |  |  |  | -   |   
 
-## Statemint Assets as of 2023-03-11
+## Statemint Assets as of 2023-03-13
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [USDT](/polkadot/assets/USDT) | 307 | 7,998,764.14 $8,003,049.78 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
-| [DOT](/polkadot/assets/DOT) | 596 | 3,377.99 $18,340.31 | 7,909.55 $42,943.74 |    |   | $5.43 |   `{"Token":"DOT"}` | 
-| [JOE](/polkadot/assets/JOE) | 4 | 1,000,000  |   |    |   |  |   `{"Token":"8"}` | 
+| [USDT](/polkadot/assets/USDT) | 304 | 7,998,764.14 $8,038,757.97 |   |    |   | $1.01 |   `{"Token":"1984"}` | 
+| [JOE](/polkadot/assets/JOE) | 4 | 1,000,000 $2,290,000.00 |   |    |   | $2.29 |   `{"Token":"8"}` | 
+| [DOT](/polkadot/assets/DOT) | 599 | 3,380.22 $20,633.20 | 7,909.55 $48,280.67 |    |   | $6.10 |   `{"Token":"DOT"}` | 
 | [USDC](/polkadot/assets/USDC) | 4 | 250,020,000  |   |    |   |  |   `{"Token":"1337"}` | 
 | [VSC](/polkadot/assets/VSC) | 4 | 31,415,926.54  |   |    |   |  |   `{"Token":"868367"}` | 
 | [DANGER](/polkadot/assets/DANGER) | 2 | 666  |   |    |   |  |   `{"Token":"666"}` | 

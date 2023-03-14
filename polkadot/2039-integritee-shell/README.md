@@ -9,7 +9,7 @@ _Source_: [integritee-shell.polkaholic.io](https://integritee-shell.polkaholic.i
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-13](/polkadot/2039-integritee-shell/2023-03-31.md) | 1,101,695 | 1,172,663 | 70,823 |  |  | 1 | - 146 (0.21%) |   
+| [2023-03-01 to 2023-03-14](/polkadot/2039-integritee-shell/2023-03-31.md) | 1,101,695 | 1,172,945 | 71,105 |  |  | 1 | - 146 (0.20%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2039-integritee-shell/2023-02-28.md) | 940,640 | 1,101,694 | 161,055 |  |  | 1 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2039-integritee-shell/2023-01-31.md) | 762,241 | 940,639 | 178,399 |  |  | 1 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2039-integritee-shell/2022-12-31.md) | 583,908 | 762,240 | 178,333 |  |  | 1 | -   |   
@@ -18,13 +18,13 @@ _Source_: [integritee-shell.polkaholic.io](https://integritee-shell.polkaholic.i
 | [2022-09-01 to 2022-09-30](/polkadot/2039-integritee-shell/2022-09-30.md) | 18,693 | 229,397 | 210,705 |  |  | 1 | -   |   
 | [2022-08-29 to 2022-08-31](/polkadot/2039-integritee-shell/2022-08-31.md) | 1 | 18,692 | 18,692 |  |  | 1 | -   |   
 
-## Integritee Shell Assets as of 2023-03-11
+## Integritee Shell Assets as of 2023-03-13
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [TEER](/polkadot/assets/TEER) | 1 | 10  |   |    |   |  |   `{"Token":"TEER"}` | 
+| [TEER](/polkadot/assets/TEER) | 1 | 10 $3.43 |   |    |   | $0.34 |   `{"Token":"TEER"}` | 
 
 ## substrate-etl Tables:
 

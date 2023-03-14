@@ -1,6 +1,6 @@
 # sDOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 
 *XCM Interior Keys*:
@@ -9,8 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel](/polkadot/2012-parallel) | 4,852 | 966,260.59  |   |    |   |  | `{"Token":"1001"}` |
-| [Astar](/polkadot/2006-astar) | 3 | 243.16  |   |    |   |  | `{"Token":"1332"}` |
+| [Parallel](/polkadot/2012-parallel) | 4,860 | 963,494.81  |   |    |   |  | `{"Token":"1001"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -21,7 +20,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "sDOT" and date(ts) = "2023-03-11"
+ where symbol = "sDOT" and date(ts) = "2023-03-13"
  group by para_id
  order by free_usd desc
 ```

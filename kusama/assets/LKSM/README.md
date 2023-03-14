@@ -1,6 +1,6 @@
 # LKSM on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 
 *XCM Interior Keys*:
@@ -9,11 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-11
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Karura](/kusama/2000-karura) | 4,962 | 1,578,177.4 $5,213,178.99 |   |    |   | $3.30 | `{"Token":"LKSM"}` |
-| [Kintsugi](/kusama/2092-kintsugi) | 32 | 27,070.68 $89,422.33 | 33,926.83 $112,070.20 |    |   | $3.30 | `{"ForeignAsset":"2"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 29 | 116.29 $384.14 |   |    |   | $3.30 | `{"Token":"109"}` |
-| [Turing](/kusama/2114-turing) | 3 | 2.7 $8.92 |   |    |   | $3.30 | `{"Token":"4"}` |
-| [Shiden](/kusama/2007-shiden) | 3 | 2.2 $7.26 |   |    |   | $3.30 | `{"Token":"18446744073709551619"}` |
+| [Karura](/kusama/2000-karura) | 4,962 | 1,577,595.1 $6,179,083.58 |   |    |   | $3.92 | `{"Token":"LKSM"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 32 | 27,070.13 $105,467.58 | 33,927.39 $132,184.06 |    |   | $3.90 | `{"ForeignAsset":"2"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 29 | 117.44 $460.00 |   |    |   | $3.92 | `{"Token":"109"}` |
+| [Turing](/kusama/2114-turing) | 3 | 2.7 $10.57 |   |    |   | $3.92 | `{"Token":"4"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -24,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LKSM" and date(ts) = "2023-03-11"
+ where symbol = "LKSM" and date(ts) = "2023-03-13"
  group by para_id
  order by free_usd desc
 ```
