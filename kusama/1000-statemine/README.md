@@ -9,7 +9,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-15](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,074,452 | 95,052 | 1,069 | 37 | 50,069 | - 946 (0.99%) |   
+| [2023-03-01 to 2023-03-15](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,075,203 | 95,803 | 1,095 | 37 | 50,069 | - 946 (0.98%) |   
 | [2023-02-01 to 2023-02-28](/kusama/1000-statemine/2023-02-28.md) | 3,796,175 | 3,978,454 | 182,280 | 2,293 | 46 | 49,353 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/1000-statemine/2023-01-31.md) | 3,578,790 | 3,796,174 | 217,385 | 2,227 | 43 | 49,101 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/1000-statemine/2022-12-31.md) | 3,370,335 | 3,578,789 | 208,455 | 4,541 | 68 | 49,060 | -   |   
@@ -41,7 +41,6 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
 | [RMRK](/kusama/assets/RMRK) | 6,192 | 9,999,611.77 $22,702,083.68 |   |    |   | $2.27 |   `{"Token":"8"}` | 
-| [USDT](/kusama/assets/USDT) | 451 | 3,499,755.74 $3,512,011.20 |   |    |   | $1.00 |   `{"Token":"1984"}` | 
 | [GRB](/kusama/assets/GRB) | 816 | 2,043,401  |   |    |   |  |   `{"Token":"677"}` | 
 | [BILL](/kusama/assets/BILL) | 686 | 1,000,000  |   |    |   |  |   `{"Token":"223"}` | 
 | [CHRWNA](/kusama/assets/CHRWNA) | 303 | 5,670  |   |    |   |  |   `{"Token":"567"}` | 
@@ -88,6 +87,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [MNCH](/kusama/assets/MNCH) | 2 | 1,027,000,000  |   |    |   |  |   `{"Token":"37"}` | 
 | [PLX](/kusama/assets/PLX) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"34"}` | 
 | [PWS](/kusama/assets/PWS) | 2 | 1,000,000,000  |   |    |   |  |   `{"Token":"300"}` | 
+| [USDT](/kusama/assets/USDT) | 2 | 10,000,000  |   |    |   |  |   `{"Token":"19840"}` | 
 | [XEXR](/kusama/assets/XEXR) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"87"}` | 
 | [ADVNCE](/kusama/assets/ADVNCE) | 1 | 69,420,000,021,000,995,000  |   |    |   |  |   `{"Token":"44"}` | 
 | [BABE](/kusama/assets/BABE) | 1 | 1,000,000,000,000,000,000  |   |    |   |  |   `{"Token":"25"}` | 
