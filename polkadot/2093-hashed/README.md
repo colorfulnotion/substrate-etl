@@ -9,7 +9,7 @@ Status: Only partial index available: Archive node unavailable
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-14](/polkadot/2093-hashed/2023-03-31.md) | 17,638 | 110,628 | 92,991 | 574 |  | 544 | -   |   
+| [2023-03-01 to 2023-03-14](/polkadot/2093-hashed/2023-03-31.md) | 17,638 | 111,473 | 93,836 | 574 |  | 544 | -   |   
 | [2023-02-28 to 2023-02-28](/polkadot/2093-hashed/2023-02-28.md) | 15,878 | 17,637 | 1,760 |  |  | 7 | -   |   
 
 ## substrate-etl Tables:
