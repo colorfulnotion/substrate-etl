@@ -29,18 +29,19 @@ _Source_: [basilisk.polkaholic.io](https://basilisk.polkaholic.io)
 | [2021-10-01 to 2021-10-31](/kusama/2090-basilisk/2021-10-31.md) | 51,706 | 222,678 | 170,972 |  | 5 | 2 | - 1 (0.00%) |   
 | [2021-09-22 to 2021-09-30](/kusama/2090-basilisk/2021-09-30.md) | 1 | 51,705 | 51,705 |  | 8 | 2 | -   |   
 
-## Basilisk Assets as of 2023-03-12
+## Basilisk Assets as of 2023-03-15
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BSX](/kusama/assets/BSX) | 16,942 | 49,499,914,984.26 $5,430,950.94 | 59,382.57 $6.52 | 23,069,327,354.9  $2,531,082.83 | 22,979,582,132 $2,521,236.31 | - |   `{"Token":"BSX"}` | 
-| [KSM](/kusama/assets/KSM) | 1,940 | 5,245.41 $169,564.00 | 1.44 $46.55 |    |   | $32.33 |   `{"Token":"1"}` | 
-| [USDT](/kusama/assets/USDT) | 41 | 20,107.8 $20,328.65 |   |    |   | $1.01 |   `{"Token":"14"}` | 
-| [KUSD](/kusama/assets/KUSD) | 187 | 5,962.59 $5,962.59 |   |    |   | $1.00 |   `{"Token":"2"}` | 
-| [TNKR](/kusama/assets/TNKR) | 1,653 | 990,226.51  |   |    |   |  |   `{"Token":"6"}` | 
-| [XRT](/kusama/assets/XRT) | 22 | 7,785.65  |   |    |   |  |   `{"Token":"16"}` | 
+| [BSX](/kusama/assets/BSX) | 16,952 | 49,499,913,984.26 $5,361,112.77 | 60,382.57 $6.54 | 23,074,783,611.18  $2,499,125.90 | 22,978,234,944.44 $2,488,669.15 | - |   `{"Token":"BSX"}` | 
+| [KSM](/kusama/assets/KSM) | 1,955 | 5,245.6 $173,696.57 | 1.45 $48.01 |    |   | $33.11 |   `{"Token":"1"}` | 
+| [USDT](/kusama/assets/USDT) | 44 | 21,425.87 $21,566.94 |   |    |   | $1.01 |   `{"Token":"14"}` | 
+| [KUSD](/kusama/assets/KUSD) | 188 | 6,007.78 $6,007.78 |   |    |   | $1.00 |   `{"Token":"2"}` | 
+| [DAI](/kusama/assets/DAI) | 2 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Token":"13"}` | 
+| [TNKR](/kusama/assets/TNKR) | 1,665 | 997,411.07  |   |    |   |  |   `{"Token":"6"}` | 
+| [XRT](/kusama/assets/XRT) | 28 | 7,558.9  |   |    |   |  |   `{"Token":"16"}` | 
 | [USDCet](/kusama/assets/USDCet) | 4 | 0.57  |   |    |   |  |   `{"Token":"9"}` | 
 
 ## substrate-etl Tables:

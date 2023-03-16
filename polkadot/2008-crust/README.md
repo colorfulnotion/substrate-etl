@@ -9,20 +9,20 @@ _Source_: [crust.polkaholic.io](https://crust.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-16](/polkadot/2008-crust/2023-03-31.md) | 701,814 | 802,890 | 101,077 | 16 | 4 | 992 | -   |   
+| [2023-03-01 to 2023-03-16](/polkadot/2008-crust/2023-03-31.md) | 701,814 | 803,526 | 101,713 | 16 | 4 | 992 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2008-crust/2023-02-28.md) | 504,230 | 701,813 | 197,584 | 25 | 3 | 990 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2008-crust/2023-01-31.md) | 285,366 | 504,229 | 218,864 |  |  | 974 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2008-crust/2022-12-31.md) | 67,183 | 285,365 | 218,183 |  |  | 9 | -   |   
 | [2022-11-21 to 2022-11-30](/polkadot/2008-crust/2022-11-30.md) | 1 | 67,182 | 67,182 |  |  | 9 | -   |   
 | [2022-10-26 to 2022-10-26](/polkadot/2008-crust/2022-10-31.md) | 288,820 | 289,071 | 252 |  |  |  | -   |   
 
-## Crust Assets as of 2023-03-12
+## Crust Assets as of 2023-03-15
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CRU](/polkadot/assets/CRU) | 991 | 46,119.46  | 91.71  | 2,125.7   | 2,000  |  |   `{"Token":"CRU"}` | 
+| [CRU](/polkadot/assets/CRU) | 992 | 46,129.36  | 91.71  | 2,125.7   | 2,000  |  |   `{"Token":"CRU"}` | 
 
 ## substrate-etl Tables:
 

@@ -1,6 +1,6 @@
 # vKSM on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-12
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
 
 
 *XCM Interior Keys*:
@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-12
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 773 | 227,509.67  |   |    |   |  | `{"VToken":"KSM"}` |
-| [Mangatax](/kusama/2110-mangatax) | 35 | 1,409.81  |   |    |   |  | `{"Token":"15"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 769 | 242,994.99  |   |    |   |  | `{"VToken":"KSM"}` |
+| [Mangatax](/kusama/2110-mangatax) | 35 | 1,412.36  |   |    |   |  | `{"Token":"15"}` |
 | [Shiden](/kusama/2007-shiden) | 4 | 0.01  |   |    |   |  | `{"Token":"18446744073709551628"}` |
 
 ## Substrate-etl Queries:
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "vKSM" and date(ts) = "2023-03-12"
+ where symbol = "vKSM" and date(ts) = "2023-03-15"
  group by para_id
  order by free_usd desc
 ```

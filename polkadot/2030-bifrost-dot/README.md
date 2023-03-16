@@ -9,7 +9,7 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-16](/polkadot/2030-bifrost-dot/2023-03-31.md) | 1,842,354 | 1,942,501 | 99,231 | 5,735 | 86 | 3,954 | - 917 (0.92%) |   
+| [2023-03-01 to 2023-03-16](/polkadot/2030-bifrost-dot/2023-03-31.md) | 1,842,354 | 1,943,048 | 99,778 | 5,735 | 86 | 3,954 | - 917 (0.91%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2030-bifrost-dot/2023-02-28.md) | 1,645,275 | 1,842,353 | 197,079 | 11,360 | 104 | 3,822 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2030-bifrost-dot/2023-01-31.md) | 1,426,953 | 1,645,274 | 218,322 | 9,277 | 77 | 3,568 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2030-bifrost-dot/2022-12-31.md) | 1,212,434 | 1,426,952 | 214,519 | 9,329 | 67 | 3,405 | -   |   
@@ -20,23 +20,23 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2030-bifrost-dot/2022-07-31.md) | 175,695 | 380,233 | 204,539 | 10 | 3 | 2 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2030-bifrost-dot/2022-06-30.md) | 1 | 175,694 | 175,694 |  | 3 | 2 | -   |   
 
-## Bifrost-Polkadot Assets as of 2023-03-12
+## Bifrost-Polkadot Assets as of 2023-03-15
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DOT](/polkadot/assets/DOT) | 494 | 132,521.15 $779,468.83 |   |    |   | $5.88 |   `{"Token2":"0"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 195 | 406,133.1 $151,586.33 |   |    |   | $0.37 |   `{"Token2":"1"}` | 
-| [ASTR](/polkadot/assets/ASTR) | 12 | 140.75 $8.48 |   |    |   | $0.06 |   `{"Token2":"3"}` | 
-| [BNC](/polkadot/assets/BNC) | 3,779 | 14,600,918.66  | 65,399,080.64  | 4,142,258.93   |   |  |   `{"Token":"BNC"}` | 
-| [vsDOT](/polkadot/assets/vsDOT) | 1,421 | 2,290,693.15  |   |    |   |  |   `{"VSToken2":"0"}` | 
+| [DOT](/polkadot/assets/DOT) | 520 | 135,579.09 $798,385.06 |   |    |   | $5.89 |   `{"Token2":"0"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 201 | 325,632.63 $133,358.39 |   |    |   | $0.41 |   `{"Token2":"1"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 12 | 140.75 $8.74 |   |    |   | $0.06 |   `{"Token2":"3"}` | 
+| [BNC](/polkadot/assets/BNC) | 3,814 | 14,600,918.66  | 65,399,080.64  | 4,141,909.32   |   |  |   `{"Token":"BNC"}` | 
+| [vsDOT](/polkadot/assets/vsDOT) | 1,437 | 2,293,226.3  |   |    |   |  |   `{"VSToken2":"0"}` | 
 | [vsBOND-DOT-2006-6-13](/polkadot/assets/vsBOND-DOT-2006-6-13) | 361 | 364,292.66  |   |    |   |  |   `{"VSBond2":["0","2,006","6","13"]}` | 
 | [vsBOND-DOT-2004-6-13](/polkadot/assets/vsBOND-DOT-2004-6-13) | 284 | 70,814.63  |   |    |   |  |   `{"VSBond2":["0","2,004","6","13"]}` | 
 | [vsBOND-DOT-2030-8-15](/polkadot/assets/vsBOND-DOT-2030-8-15) | 274 | 338,909.67  |   |    |   |  |   `{"VSBond2":["0","2,030","8","15"]}` | 
 | [vsBOND-DOT-2019-7-14](/polkadot/assets/vsBOND-DOT-2019-7-14) | 182 | 218,535.87  |   |    |   |  |   `{"VSBond2":["0","2,019","7","14"]}` | 
-| [vGLMR](/polkadot/assets/vGLMR) | 177 | 1,117,623.32  |   |    |   |  |   `{"VToken2":"1"}` | 
-| [vDOT](/polkadot/assets/vDOT) | 166 | 293,682.56  |   |    |   |  |   `{"VToken2":"0"}` | 
+| [vGLMR](/polkadot/assets/vGLMR) | 180 | 1,065,265.52  |   |    |   |  |   `{"VToken2":"1"}` | 
+| [vDOT](/polkadot/assets/vDOT) | 170 | 293,611.54  |   |    |   |  |   `{"VToken2":"0"}` | 
 | [vsBOND-DOT-2032-7-14](/polkadot/assets/vsBOND-DOT-2032-7-14) | 144 | 160,862.57  |   |    |   |  |   `{"VSBond2":["0","2,032","7","14"]}` | 
 | [vsBOND-DOT-2000-6-13](/polkadot/assets/vsBOND-DOT-2000-6-13) | 109 | 10,115.25  |   |    |   |  |   `{"VSBond2":["0","2,000","6","13"]}` | 
 | [vsBOND-DOT-2037-8-15](/polkadot/assets/vsBOND-DOT-2037-8-15) | 108 | 59,833.01  |   |    |   |  |   `{"VSBond2":["0","2,037","8","15"]}` | 

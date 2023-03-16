@@ -1,6 +1,6 @@
 # vsDOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-12
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-12
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 1,421 | 2,290,693.15  |   |    |   |  | `{"VSToken2":"0"}` |
+| [Bifrost-Polkadot](/polkadot/2030-bifrost-dot) | 1,437 | 2,293,226.3  |   |    |   |  | `{"VSToken2":"0"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -20,7 +20,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "vsDOT" and date(ts) = "2023-03-12"
+ where symbol = "vsDOT" and date(ts) = "2023-03-15"
  group by para_id
  order by free_usd desc
 ```

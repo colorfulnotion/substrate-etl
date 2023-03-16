@@ -23,7 +23,7 @@ _Source_: [composable.polkaholic.io](https://composable.polkaholic.io)
 | [2022-04-12 to 2022-04-30](/polkadot/2019-composable/2022-04-30.md) | 36,000 | 129,604 | 93,605 |  |  | 2 | -   |   
 | [2022-03-12 to 2022-03-19](/polkadot/2019-composable/2022-03-31.md) | 1 | 35,999 | 35,999 |  |  | 2 | -   |   
 
-## Composable Finance Assets as of 2023-03-12
+## Composable Finance Assets as of 2023-03-15
 
 
 
