@@ -1,6 +1,6 @@
 # RMRK on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-12
 
 
 *XCM Interior Keys*:
@@ -9,10 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Statemine](/kusama/1000-statemine) | 6,159 | 9,999,611.77 $22,586,899.39 |   |    |   | $2.26 | `{"Token":"8"}` |
-| [Moonriver](/kusama/2023-moonriver) | 3,276 | 4,626,085.62 $10,449,298.72 |   |    |   | $2.26 | `{"Token":"182365888117048807484804376330534607370"}` |
-| [Karura](/kusama/2000-karura) | 897 | 141,071.72 $318,649.65 |   |    |   | $2.26 | `{"ForeignAsset":"0"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 143 | 9,102.41 $20,560.32 |   |    |   | $2.26 | `{"Token":"RMRK"}` |
+| [Statemine](/kusama/1000-statemine) | 6,189 | 9,999,611.77 $21,559,575.78 |   |    |   | $2.16 | `{"Token":"8"}` |
+| [Moonriver](/kusama/2023-moonriver) | 3,318 | 4,625,191.86 $9,972,104.59 |   |    |   | $2.16 | `{"Token":"182365888117048807484804376330534607370"}` |
+| [Karura](/kusama/2000-karura) | 896 | 140,490.9 $302,904.19 |   |    |   | $2.16 | `{"ForeignAsset":"0"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 145 | 9,116.1 $19,654.69 |   |    |   | $2.16 | `{"Token":"RMRK"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "RMRK" and date(ts) = "2023-03-07"
+ where symbol = "RMRK" and date(ts) = "2023-03-12"
  group by para_id
  order by free_usd desc
 ```

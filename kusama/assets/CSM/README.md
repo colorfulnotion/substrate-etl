@@ -1,6 +1,6 @@
 # CSM on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-12
 
 
 *XCM Interior Keys*:
@@ -9,10 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Crust Shadow](/kusama/2012-shadow) | 3,198 | 199,998,810.45 $2,281,355.07 | 1,168.93 $13.33 | 1,048,894.86  $11,964.58 | 412,959.96 $4,710.57 | $0.01 | `{"Token":"CSM"}` |
-| [Karura](/kusama/2000-karura) | 170 | 7,725,454.45 $88,123.05 |   |    |   | $0.01 | `{"ForeignAsset":"5"}` |
-| [Moonriver](/kusama/2023-moonriver) | 13 | 81,353.73 $927.99 |   |    |   | $0.01 | `{"Token":"108457044225666871745333730479173774551"}` |
-| [Shiden](/kusama/2007-shiden) | 12 | 1,133.87 $12.93 |   |    |   | $0.01 | `{"Token":"18446744073709551624"}` |
+| [Crust Shadow](/kusama/2012-shadow) | 3,197 | 199,998,810.28 $2,012,775.87 | 1,168.93 $11.76 | 1,048,894.86  $10,556.01 | 412,959.96 $4,156.00 | $0.01 | `{"Token":"CSM"}` |
+| [Karura](/kusama/2000-karura) | 167 | 7,738,549.88 $77,880.30 |   |    |   | $0.01 | `{"ForeignAsset":"5"}` |
+| [Moonriver](/kusama/2023-moonriver) | 14 | 81,357.73 $818.78 |   |    |   | $0.01 | `{"Token":"108457044225666871745333730479173774551"}` |
+| [Shiden](/kusama/2007-shiden) | 12 | 1,133.87 $11.41 |   |    |   | $0.01 | `{"Token":"18446744073709551624"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "CSM" and date(ts) = "2023-03-07"
+ where symbol = "CSM" and date(ts) = "2023-03-12"
  group by para_id
  order by free_usd desc
 ```

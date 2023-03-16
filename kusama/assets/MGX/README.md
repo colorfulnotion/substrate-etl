@@ -1,6 +1,6 @@
 # MGX on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-12
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Mangatax](/kusama/2110-mangatax) | 1,654 | 1,373,772,874.82  | 17,111.98  |    | 299,656,784.66  |  | `{"Token":"0"}` |
+| [Mangatax](/kusama/2110-mangatax) | 1,660 | 1,382,088,225.42  | 31,611.98  |    | 299,656,784.66  |  | `{"Token":"0"}` |
 | [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 2 | 10  |   |    |   |  | `{"Token2":"4"}` |
 
 ## Substrate-etl Queries:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "MGX" and date(ts) = "2023-03-07"
+ where symbol = "MGX" and date(ts) = "2023-03-12"
  group by para_id
  order by free_usd desc
 ```

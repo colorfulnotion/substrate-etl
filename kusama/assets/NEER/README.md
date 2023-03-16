@@ -1,6 +1,6 @@
 # NEER on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-12
 
 
 *XCM Interior Keys*:
@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,756 | 94,475,306.48 $20,488,718.83 | 5,524,606.29 $1,198,113.13 | 73,640,498.33  $15,970,305.06 |   | $0.22 | `{"Token":"NEER"}` |
-| [Karura](/kusama/2000-karura) | 13 | 11.29 $2.45 |   |    |   | $0.22 | `{"ForeignAsset":"9"}` |
+| [Bit.Country Pioneer](/kusama/2096-bitcountrypioneer) | 24,767 | 94,430,881.81 $16,579,552.14 | 5,569,030.29 $977,773.65 | 73,631,864.41  $12,927,797.68 |   | $0.18 | `{"Token":"NEER"}` |
+| [Karura](/kusama/2000-karura) | 13 | 11.29 $1.98 |   |    |   | $0.18 | `{"ForeignAsset":"9"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "NEER" and date(ts) = "2023-03-07"
+ where symbol = "NEER" and date(ts) = "2023-03-12"
  group by para_id
  order by free_usd desc
 ```
