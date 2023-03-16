@@ -9,7 +9,7 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-15](/polkadot/2043-origintrail/2023-03-31.md) | 1,867,507 | 1,960,243 | 92,387 | 142 | 12 | 3,523 | - 350 (0.38%) |   
+| [2023-03-01 to 2023-03-15](/polkadot/2043-origintrail/2023-03-31.md) | 1,867,507 | 1,961,536 | 93,680 | 142 | 12 | 3,525 | - 350 (0.37%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2043-origintrail/2023-02-28.md) | 1,683,135 | 1,867,506 | 184,372 | 249 | 14 | 3,507 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2043-origintrail/2023-01-31.md) | 1,469,695 | 1,683,134 | 213,440 | 474 | 14 | 3,473 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2043-origintrail/2022-12-31.md) | 1,249,065 | 1,469,694 | 220,630 | 591 | 13 | 3,405 | -   |   
@@ -20,14 +20,14 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2043-origintrail/2022-07-31.md) | 176,609 | 388,054 | 211,446 | 330,210 | 8 | 2,833 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2043-origintrail/2022-06-30.md) | 1 | 176,608 | 176,608 | 1,124,329 | 5 | 11 | -   |   
 
-## Origin Trail Assets as of 2023-03-13
+## Origin Trail Assets as of 2023-03-07
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [OTP](/polkadot/assets/OTP) | 3,521 | 500,052,856.38  | 166  | 22,303,847.56   |   |  |   `{"Token":"OTP"}` | 
-| [TRAC](/polkadot/assets/TRAC) | 230 | 84,040,684.43  |   |    |   |  |   `{"Token":"1"}` | 
+| [OTP](/polkadot/assets/OTP) | 3,511 | 500,053,154.92  | 166  | 22,304,935.36   |   |  |   `{"Token":"OTP"}` | 
+| [TRAC](/polkadot/assets/TRAC) | 226 | 84,040,684.43  |   |    |   |  |   `{"Token":"1"}` | 
 
 ## substrate-etl Tables:
 

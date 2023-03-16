@@ -1,6 +1,6 @@
 # RING on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
 
 
 *XCM Interior Keys*:
@@ -10,7 +10,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
 | [Darwinia](/polkadot/2046-darwinia) | 21 | 200,000  |   |    |   |  | `{"Token":"RING"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 6 | 815.48  |   |    |   |  | `{"Token":"125699734534028342599692732320197985871"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 5 | 841.33  |   |    |   |  | `{"Token":"125699734534028342599692732320197985871"}` |
 | [Astar](/polkadot/2006-astar) | 2 | 5  |   |    |   |  | `{"Token":"18446744073709551627"}` |
 
 ## Substrate-etl Queries:
@@ -22,7 +22,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "RING" and date(ts) = "2023-03-13"
+ where symbol = "RING" and date(ts) = "2023-03-07"
  group by para_id
  order by free_usd desc
 ```

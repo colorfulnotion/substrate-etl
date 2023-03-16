@@ -1,6 +1,6 @@
 # KSM on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-07
 
 
 *XCM Interior Keys*:
@@ -9,20 +9,21 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-13
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Kusama](/kusama/0-kusama) | 286,316 | 13,078,688.23 $438,434,634.39 | 264,992.78 $8,883,307.60 | 7,971,472.48  $267,226,312.06 | 7,635,872.33 $255,976,045.59 | $33.52 | `{"Token":"KSM"}` |
-| [Moonriver](/kusama/2023-moonriver) | 1,395 | 95,063.31 $3,186,791.15 |   |    |   | $33.52 | `{"Token":"42259045809535163221576417993425387648"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 3,110 | 92,130.87 $3,088,487.60 | 0.1 $3.35 |    |   | $33.52 | `{"Token":"KSM"}` |
-| [Karura](/kusama/2000-karura) | 8,129 | 60,873.87 $2,040,664.29 |   |    |   | $33.52 | `{"Token":"KSM"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 3,569 | 18,587.04 $623,090.09 |   |    |   | $33.52 | `{"Token":"100"}` |
-| [Mangatax](/kusama/2110-mangatax) | 888 | 13,751.42 $460,986.42 |   |    |   | $33.52 | `{"Token":"4"}` |
-| [Basilisk](/kusama/2090-basilisk) | 1,942 | 5,301.93 $177,735.82 | 1.44 $48.27 |    |   | $33.52 | `{"Token":"1"}` |
-| [Kintsugi](/kusama/2092-kintsugi) | 213 | 1,266.88 $42,467.89 | 20,114.31 $674,264.22 |    |   | $33.52 | `{"Token":"KSM"}` |
-| [Robonomics](/kusama/2048-robonomics) | 6 | 536.43 $17,982.66 |   |    |   | $33.52 | `{"Token":"4294967295"}` |
-| [Shiden](/kusama/2007-shiden) | 67 | 64.69 $2,168.71 |   |    |   | $33.52 | `{"Token":"340282366920938463463374607431768211455"}` |
-| [Encointer](/kusama/1001-encointer) | 65 | 12.72 $426.35 |   |    |   | $33.52 | `{"Token":"KSM"}` |
-| [Turing](/kusama/2114-turing) | 5 | 5.36 $179.63 |   |    |   | $33.52 | `{"Token":"1"}` |
-| [Dora Factory](/kusama/2115-dorafactory) | 3 | 0.29 $9.72 |   |    |   | $33.52 | `{"Token":"KSM"}` |
-| [Khala](/kusama/2004-khala) | 2 | 0.23 $7.87 |   |    |   | $33.52 | `{"Token":"0"}` |
+| [Kusama](/kusama/0-kusama) | 285,736 | 13,062,466.68 $430,475,683.27 | 261,532.76 $8,618,854.15 | 7,934,375.2  $261,478,606.79 | 7,599,272.05 $250,435,228.55 | $32.96 | `{"Token":"KSM"}` |
+| [Moonriver](/kusama/2023-moonriver) | 1,382 | 93,697.84 $3,087,827.44 |   |    |   | $32.96 | `{"Token":"42259045809535163221576417993425387648"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 3,116 | 92,809.33 $3,058,546.36 | 0.1 $3.30 |    |   | $32.96 | `{"Token":"KSM"}` |
+| [Karura](/kusama/2000-karura) | 8,124 | 60,885.35 $2,006,486.46 |   |    |   | $32.96 | `{"Token":"KSM"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 3,580 | 19,640.48 $647,255.25 |   |    |   | $32.96 | `{"Token":"100"}` |
+| [Mangatax](/kusama/2110-mangatax) | 879 | 13,711.31 $451,858.41 |   |    |   | $32.96 | `{"Token":"4"}` |
+| [Basilisk](/kusama/2090-basilisk) | 1,926 | 4,774.99 $157,360.43 | 1.44 $47.46 |    |   | $32.96 | `{"Token":"1"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 211 | 1,271.44 $41,900.44 | 20,099.05 $662,367.39 |    |   | $32.96 | `{"Token":"KSM"}` |
+| [Robonomics](/kusama/2048-robonomics) | 6 | 536.43 $17,678.14 |   |    |   | $32.96 | `{"Token":"4294967295"}` |
+| [Shiden](/kusama/2007-shiden) | 67 | 64.49 $2,125.39 |   |    |   | $32.96 | `{"Token":"340282366920938463463374607431768211455"}` |
+| [Encointer](/kusama/1001-encointer) | 65 | 12.72 $419.13 |   |    |   | $32.96 | `{"Token":"KSM"}` |
+| [Turing](/kusama/2114-turing) | 5 | 5.36 $176.59 |   |    |   | $32.96 | `{"Token":"1"}` |
+| [Amplitude](/kusama/2124-amplitude) | 1 | 1 $32.85 |   |    |   | $32.96 | `{"XCM":"KSM"}` |
+| [Dora Factory](/kusama/2115-dorafactory) | 3 | 0.29 $9.59 |   |    |   | $33.07 | `{"Token":"KSM"}` |
+| [Khala](/kusama/2004-khala) | 2 | 0.23 $7.74 |   |    |   | $32.96 | `{"Token":"0"}` |
 | [Statemine](/kusama/1000-statemine) | 1 | 85,000,000  |   |    |   |  | `{"Token":"1234"}` |
 
 ## Substrate-etl Queries:
@@ -34,7 +35,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "KSM" and date(ts) = "2023-03-13"
+ where symbol = "KSM" and date(ts) = "2023-03-07"
  group by para_id
  order by free_usd desc
 ```
