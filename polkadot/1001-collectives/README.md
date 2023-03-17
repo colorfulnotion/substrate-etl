@@ -9,19 +9,19 @@ _Source_: [collectives.polkaholic.io](https://collectives.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-16](/polkadot/1001-collectives/2023-03-31.md) | 709,673 | 815,894 | 106,003 |  | 4 | 11 | - 219 (0.21%) |   
+| [2023-03-01 to 2023-03-17](/polkadot/1001-collectives/2023-03-31.md) | 709,673 | 816,541 | 106,449 |  | 4 | 11 | - 420 (0.39%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/1001-collectives/2023-02-28.md) | 510,350 | 709,672 | 199,323 | 2 | 4 | 11 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/1001-collectives/2023-01-31.md) | 289,061 | 510,349 | 221,289 | 2 | 4 | 10 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/1001-collectives/2022-12-31.md) | 68,033 | 289,060 | 221,028 | 16 | 4 | 10 | -   |   
 | [2022-11-21 to 2022-11-30](/polkadot/1001-collectives/2022-11-30.md) | 1 | 68,032 | 68,032 | 2 | 4 | 4 | -   |   
 
-## Collectives Assets as of 2023-03-15
+## Collectives Assets as of 2023-03-16
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DOT](/polkadot/assets/DOT) | 11 | 34.25 $201.68 | 0.4 $2.36 |    |   | $5.89 |   `{"Token":"DOT"}` | 
+| [DOT](/polkadot/assets/DOT) | 11 | 34.25 $209.33 | 0.4 $2.45 |    |   | $6.11 |   `{"Token":"DOT"}` | 
 
 ## substrate-etl Tables:
 

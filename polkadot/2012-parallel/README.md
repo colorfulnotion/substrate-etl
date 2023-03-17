@@ -9,7 +9,7 @@ _Source_: [parallel.polkaholic.io](https://parallel.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-16](/polkadot/2012-parallel/2023-03-31.md) | 2,998,501 | 3,103,728 | 104,984 | 74,608 | 246 | 47,374 | - 244 (0.23%) |   
+| [2023-03-01 to 2023-03-17](/polkadot/2012-parallel/2023-03-31.md) | 2,998,501 | 3,103,728 | 104,984 | 74,608 | 247 | 47,374 | - 244 (0.23%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2012-parallel/2023-02-28.md) | 2,799,332 | 2,998,500 | 199,169 | 161,424 | 368 | 47,248 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2012-parallel/2023-01-31.md) | 2,578,329 | 2,799,331 | 221,003 | 183,405 | 441 | 46,950 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2012-parallel/2022-12-31.md) | 2,357,760 | 2,578,328 | 220,569 | 176,326 | 443 | 46,490 | -   |   
@@ -26,35 +26,35 @@ _Source_: [parallel.polkaholic.io](https://parallel.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/polkadot/2012-parallel/2022-01-31.md) | 92,106 | 295,556 | 203,451 | 2,972 | 7 | 29,470 | -   |   
 | [2021-12-18 to 2021-12-31](/polkadot/2012-parallel/2021-12-31.md) | 1 | 92,105 | 92,105 | 1 | 5 | 2 | -   |   
 
-## Parallel Assets as of 2023-03-15
+## Parallel Assets as of 2023-03-16
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PARA](/polkadot/assets/PARA) | 46,819 | 9,999,999,692.15 $107,207,420.50 | 217.58 $2.33 | 50,607,559,017,673.52  $542,550,602,713.00 | 50,607,558,995,024.86 $542,550,602,470.19 | $0.01 |   `{"Token":"PARA"}` | 
-| [DOT](/polkadot/assets/DOT) | 8,833 | 1,158,988.04 $6,826,103.09 |   |    |   | $5.89 |   `{"Token":"101"}` | 
-| [LP-DOT/PARA](/polkadot/assets/LP-DOT%252FPARA) | 167 | 42,621.65 $261,734.76 |   |    |   | $6.14 |   `{"Token":"6002"}` | 
-| [USDT](/polkadot/assets/USDT) | 284 | 103,252.87 $103,872.45 |   |    |   | $1.01 |   `{"Token":"102"}` | 
-| [ACA](/polkadot/assets/ACA) | 462 | 644,975.62 $62,904.44 |   |    |   | $0.10 |   `{"Token":"108"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 623 | 125,655.56 $51,460.52 |   |    |   | $0.41 |   `{"Token":"114"}` | 
-| [PHA](/polkadot/assets/PHA) | 339 | 48,231.49 $7,813.10 |   |    |   | $0.16 |   `{"Token":"115"}` | 
-| [INTR](/polkadot/assets/INTR) | 226 | 251,665.19 $6,611.80 |   |    |   | $0.03 |   `{"Token":"120"}` | 
+| [PARA](/polkadot/assets/PARA) | 46,830 | 9,999,999,692.15 $116,029,462.00 | 217.58 $2.52 | 50,607,558,968,096.34  $587,196,802,119.91 | 50,607,558,945,263.41 $587,196,801,854.98 | $0.01 |   `{"Token":"PARA"}` | 
+| [DOT](/polkadot/assets/DOT) | 8,851 | 1,107,097.87 $6,766,629.87 |   |    |   | $6.11 |   `{"Token":"101"}` | 
+| [LP-DOT/PARA](/polkadot/assets/LP-DOT%252FPARA) | 168 | 42,616.65 $270,806.85 |   |    |   | $6.35 |   `{"Token":"6002"}` | 
+| [USDT](/polkadot/assets/USDT) | 283 | 102,734.02 $103,452.57 |   |    |   | $1.01 |   `{"Token":"102"}` | 
+| [ACA](/polkadot/assets/ACA) | 462 | 642,326.97 $70,165.52 |   |    |   | $0.11 |   `{"Token":"108"}` | 
+| [GLMR](/polkadot/assets/GLMR) | 631 | 128,785.14 $51,674.55 |   |    |   | $0.40 |   `{"Token":"114"}` | 
+| [PHA](/polkadot/assets/PHA) | 340 | 48,242.42 $7,928.79 |   |    |   | $0.16 |   `{"Token":"115"}` | 
+| [INTR](/polkadot/assets/INTR) | 226 | 253,751.27 $6,651.14 |   |    |   | $0.03 |   `{"Token":"120"}` | 
 | [IBTC](/polkadot/assets/IBTC) | 114 | 0.1 $1,745.16 |   |    |   | $17,841.21 |   `{"Token":"122"}` | 
 | [AUSD](/polkadot/assets/AUSD) | 5 | 7.3 $7.30 |   |    |   | $1.00 |   `{"Token":"104"}` | 
 | [CLV](/polkadot/assets/CLV) | 2 | 4 $1.35 |   |    |   | $0.34 |   `{"Token":"130"}` | 
-| [cDOT-6/13](/polkadot/assets/cDOT-6%252F13) | 24,947 | 19,194,045.06  |   |    |   |  |   `{"Token":"200060013"}` | 
-| [cDOT-7/14](/polkadot/assets/cDOT-7%252F14) | 11,333 | 8,635,892.16  |   |    |   |  |   `{"Token":"200070014"}` | 
-| [sDOT](/polkadot/assets/sDOT) | 4,870 | 959,111.54  |   |    |   |  |   `{"Token":"1001"}` | 
-| [cDOT-8/15](/polkadot/assets/cDOT-8%252F15) | 2,466 | 1,343,732.31  |   |    |   |  |   `{"Token":"200080015"}` | 
-| [LP-DOT/sDOT](/polkadot/assets/LP-DOT%252FsDOT) | 478 | 1,548.24  |   |    |   |  |   `{"Token":"6003"}` | 
+| [cDOT-6/13](/polkadot/assets/cDOT-6%252F13) | 24,946 | 19,194,045.06  |   |    |   |  |   `{"Token":"200060013"}` | 
+| [cDOT-7/14](/polkadot/assets/cDOT-7%252F14) | 11,332 | 8,635,892.16  |   |    |   |  |   `{"Token":"200070014"}` | 
+| [sDOT](/polkadot/assets/sDOT) | 4,875 | 958,645.29  |   |    |   |  |   `{"Token":"1001"}` | 
+| [cDOT-8/15](/polkadot/assets/cDOT-8%252F15) | 2,468 | 1,343,732.31  |   |    |   |  |   `{"Token":"200080015"}` | 
+| [LP-DOT/sDOT](/polkadot/assets/LP-DOT%252FsDOT) | 476 | 1,547.92  |   |    |   |  |   `{"Token":"6003"}` | 
 | [LP-PARA/cDOT-6/13](/polkadot/assets/LP-PARA%252FcDOT-6%252F13) | 289 | 130,844.77  |   |    |   |  |   `{"Token":"6006"}` | 
-| [lcDOT](/polkadot/assets/lcDOT) | 173 | 1,391,790.78  |   |    |   |  |   `{"Token":"106"}` | 
-| [cDOT-10/17](/polkadot/assets/cDOT-10%252F17) | 170 | 14,568.43  |   |    |   |  |   `{"Token":"200100017"}` | 
-| [LP-USDT/PARA](/polkadot/assets/LP-USDT%252FPARA) | 115 | 110.27  |   |    |   |  |   `{"Token":"6010"}` | 
-| [LP-DOT/cDOT-6/13](/polkadot/assets/LP-DOT%252FcDOT-6%252F13) | 101 | 324.47  |   |    |   |  |   `{"Token":"6004"}` | 
-| [LP-GLMR/PARA](/polkadot/assets/LP-GLMR%252FPARA) | 100 | 249,504,307.03  |   |    |   |  |   `{"Token":"6008"}` | 
-| [LP-DOT/cDOT-7/14](/polkadot/assets/LP-DOT%252FcDOT-7%252F14) | 86 | 92.1  |   |    |   |  |   `{"Token":"6005"}` | 
+| [lcDOT](/polkadot/assets/lcDOT) | 172 | 1,391,818.86  |   |    |   |  |   `{"Token":"106"}` | 
+| [cDOT-10/17](/polkadot/assets/cDOT-10%252F17) | 171 | 14,578.41  |   |    |   |  |   `{"Token":"200100017"}` | 
+| [LP-USDT/PARA](/polkadot/assets/LP-USDT%252FPARA) | 114 | 110.45  |   |    |   |  |   `{"Token":"6010"}` | 
+| [LP-DOT/cDOT-6/13](/polkadot/assets/LP-DOT%252FcDOT-6%252F13) | 101 | 328.5  |   |    |   |  |   `{"Token":"6004"}` | 
+| [LP-GLMR/PARA](/polkadot/assets/LP-GLMR%252FPARA) | 101 | 252,735,572.99  |   |    |   |  |   `{"Token":"6008"}` | 
+| [LP-DOT/cDOT-7/14](/polkadot/assets/LP-DOT%252FcDOT-7%252F14) | 85 | 92.16  |   |    |   |  |   `{"Token":"6005"}` | 
 | [LDOT](/polkadot/assets/LDOT) | 83 | 9,378.47  |   |    |   |  |   `{"Token":"110"}` | 
 | [LP-ACA/PARA](/polkadot/assets/LP-ACA%252FPARA) | 78 | 576,257.9  |   |    |   |  |   `{"Token":"6014"}` | 
 | [LP-INTR/PARA](/polkadot/assets/LP-INTR%252FPARA) | 62 | 19,755.95  |   |    |   |  |   `{"Token":"6016"}` | 
@@ -62,7 +62,7 @@ _Source_: [parallel.polkaholic.io](https://parallel.polkaholic.io)
 | [LP-PHA/PARA](/polkadot/assets/LP-PHA%252FPARA) | 54 | 79,512.92  |   |    |   |  |   `{"Token":"6009"}` | 
 | [LP-IBTC/PARA](/polkadot/assets/LP-IBTC%252FPARA) | 38 | 1.09  |   |    |   |  |   `{"Token":"6017"}` | 
 | [LP-DOT/cDOT-8/15](/polkadot/assets/LP-DOT%252FcDOT-8%252F15) | 19 | 27.78  |   |    |   |  |   `{"Token":"6007"}` | 
-| [LP-PARA/cDOT-8/15](/polkadot/assets/LP-PARA%252FcDOT-8%252F15) | 18 | 583.71  |   |    |   |  |   `{"Token":"6013"}` | 
+| [LP-PARA/cDOT-8/15](/polkadot/assets/LP-PARA%252FcDOT-8%252F15) | 18 | 583.81  |   |    |   |  |   `{"Token":"6013"}` | 
 | [LP-PARA/cDOT-7/14](/polkadot/assets/LP-PARA%252FcDOT-7%252F14) | 11 | 5,069.04  |   |    |   |  |   `{"Token":"6012"}` | 
 | [LP-lcDOT/PARA](/polkadot/assets/LP-lcDOT%252FPARA) | 2 | 284,554.13  |   |    |   |  |   `{"Token":"6011"}` | 
 | [LP-LDOT/PARA](/polkadot/assets/LP-LDOT%252FPARA) | 2 | 2,273.91  |   |    |   |  |   `{"Token":"6015"}` | 

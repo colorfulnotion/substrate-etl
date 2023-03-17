@@ -9,7 +9,7 @@ _Source_: [dorafactory.polkaholic.io](https://dorafactory.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-16](/kusama/2115-dorafactory/2023-03-31.md) | 1,529,417 | 1,624,021 | 93,440 | 8 | 3 | 369 | - 1,165 (1.23%) |   
+| [2023-03-01 to 2023-03-17](/kusama/2115-dorafactory/2023-03-31.md) | 1,529,417 | 1,624,521 | 93,878 | 8 | 3 | 369 | - 1,227 (1.29%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2115-dorafactory/2023-02-28.md) | 1,364,746 | 1,529,416 | 164,671 | 15 | 3 | 369 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2115-dorafactory/2023-01-31.md) | 1,183,033 | 1,364,745 | 181,713 | 14 | 3 | 369 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2115-dorafactory/2022-12-31.md) | 1,006,303 | 1,183,032 | 176,730 | 10 | 3 | 370 | -   |   
@@ -21,13 +21,13 @@ _Source_: [dorafactory.polkaholic.io](https://dorafactory.polkaholic.io)
 | [2022-06-01 to 2022-06-30](/kusama/2115-dorafactory/2022-06-30.md) | 1,626 | 166,139 | 164,514 | 23 | 4 | 367 | -   |   
 | [2022-05-31 to 2022-05-31](/kusama/2115-dorafactory/2022-05-31.md) | 1 | 1,625 | 1,625 |  | 3 | 1 | -   |   
 
-## Dora Factory Assets as of 2023-03-15
+## Dora Factory Assets as of 2023-03-16
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KSM](/kusama/assets/KSM) | 3 | 0.29 $9.60 |   |    |   | $33.11 |   `{"Token":"KSM"}` | 
+| [KSM](/kusama/assets/KSM) | 3 | 0.29 $9.65 |   |    |   | $33.26 |   `{"Token":"KSM"}` | 
 | [DORA](/kusama/assets/DORA) | 368 | 50,000  |   | 103   |   |  |   `{"Token":"DORA"}` | 
 
 ## substrate-etl Tables:

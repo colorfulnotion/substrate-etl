@@ -9,7 +9,7 @@ _Source_: [clover.polkaholic.io](https://clover.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-16](/polkadot/2002-clover/2023-03-31.md) | 2,963,616 | 3,070,581 | 105,962 | 3 | 5 | 2,193 | - 1,004 (0.94%) |   
+| [2023-03-01 to 2023-03-17](/polkadot/2002-clover/2023-03-31.md) | 2,963,616 | 3,071,275 | 106,656 | 3 | 5 | 2,193 | - 1,004 (0.93%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2002-clover/2023-02-28.md) | 2,764,805 | 2,963,615 | 198,811 | 5 | 5 | 2,167 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2002-clover/2023-01-31.md) | 2,544,050 | 2,764,804 | 220,755 | 7 | 5 | 2,111 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2002-clover/2022-12-31.md) | 2,323,983 | 2,544,049 | 220,067 | 23 | 5 | 2,064 | -   |   
@@ -26,15 +26,15 @@ _Source_: [clover.polkaholic.io](https://clover.polkaholic.io)
 | [2022-01-01 to 2022-01-31](/polkadot/2002-clover/2022-01-31.md) | 93,137 | 301,021 | 207,885 | 35 | 1 | 17 | -   |   
 | [2021-12-18 to 2021-12-31](/polkadot/2002-clover/2021-12-31.md) | 1 | 93,136 | 93,136 |  | 1 | 7 | -   |   
 
-## Clover Assets as of 2023-03-15
+## Clover Assets as of 2023-03-16
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [CLV](/polkadot/assets/CLV) | 2,192 | 5,157,900.21 $1,742,096.27 | 90.36 $30.52 | 606,070  $204,701.96 | 605,900 $204,644.54 | $0.34 |   `{"Token":"CLV"}` | 
-| [PARA](/polkadot/assets/PARA) | 2 | 14 $0.15 |   |    |   | $0.01 |   `{"Token":"11"}` | 
-| [ASTR](/polkadot/assets/ASTR) | 2 | 2.3 $0.14 |   |    |   | $0.06 |   `{"Token":"12"}` | 
+| [CLV](/polkadot/assets/CLV) | 2,193 | 5,157,899.96 $1,742,096.18 | 90.36 $30.52 | 606,070  $204,701.96 | 605,900 $204,644.54 | $0.34 |   `{"Token":"CLV"}` | 
+| [PARA](/polkadot/assets/PARA) | 2 | 14 $0.16 |   |    |   | $0.01 |   `{"Token":"11"}` | 
+| [ASTR](/polkadot/assets/ASTR) | 2 | 2.3 $0.15 |   |    |   | $0.07 |   `{"Token":"12"}` | 
 
 ## substrate-etl Tables:
 

@@ -9,7 +9,7 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-16](/kusama/2048-robonomics/2023-03-31.md) | 2,584,800 | 2,697,930 | 112,845 | 26,653 | 31 | 2,965 | - 286 (0.25%) |   
+| [2023-03-01 to 2023-03-17](/kusama/2048-robonomics/2023-03-31.md) | 2,584,800 | 2,698,787 | 113,262 | 26,769 | 29 | 2,965 | - 726 (0.64%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2048-robonomics/2023-02-28.md) | 2,385,571 | 2,584,799 | 199,229 | 37,998 | 35 | 2,937 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2048-robonomics/2023-01-31.md) | 2,165,671 | 2,385,570 | 219,900 | 36,137 | 32 | 2,867 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2048-robonomics/2022-12-31.md) | 1,953,566 | 2,165,670 | 212,105 | 46,241 | 34 | 2,804 | -   |   
@@ -25,14 +25,14 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 | [2022-02-01 to 2022-02-28](/kusama/2048-robonomics/2022-02-28.md) | 158,459 | 298,594 | 140,136 | 599,259 | 40 | 2,387 | -   |   
 | [2022-01-09 to 2022-01-31](/kusama/2048-robonomics/2022-01-31.md) | 1 | 158,458 | 158,458 | 219,693 | 30 | 2,356 | -   |   
 
-## Robonomics Assets as of 2023-03-15
+## Robonomics Assets as of 2023-03-16
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [XRT](/kusama/assets/XRT) | 2,963 | 993,897.86 $5,126,546.17 | 199.04 $1,026.65 | 145,905.8  $752,585.21 |   | $5.16 |   `{"Token":"XRT"}` | 
-| [KSM](/kusama/assets/KSM) | 7 | 536.54 $17,766.36 |   |    |   | $33.11 |   `{"Token":"4294967295"}` | 
+| [XRT](/kusama/assets/XRT) | 2,964 | 993,908.29 $5,304,237.83 | 199.04 $1,062.23 | 145,868.56  $778,463.72 |   | $5.34 |   `{"Token":"XRT"}` | 
+| [KSM](/kusama/assets/KSM) | 7 | 536.54 $17,795.99 |   |    |   | $33.17 |   `{"Token":"4294967295"}` | 
 
 ## substrate-etl Tables:
 

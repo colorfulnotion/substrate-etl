@@ -9,7 +9,7 @@ _Source_: [litentry.polkaholic.io](https://litentry.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-16](/polkadot/2013-litentry/2023-03-31.md) | 1,786,894 | 1,895,520 | 107,709 | 2,002 | 74 | 4,772 | - 918 (0.85%) |   
+| [2023-03-01 to 2023-03-17](/polkadot/2013-litentry/2023-03-31.md) | 1,786,894 | 1,896,177 | 108,366 | 2,017 | 70 | 4,772 | - 918 (0.84%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2013-litentry/2023-02-28.md) | 1,587,337 | 1,786,893 | 199,557 | 4,691 | 92 | 4,768 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2013-litentry/2023-01-31.md) | 1,365,864 | 1,587,336 | 221,473 | 4,495 | 82 | 4,751 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2013-litentry/2022-12-31.md) | 1,144,608 | 1,365,863 | 221,256 | 3,865 | 72 | 4,741 | -   |   
@@ -20,13 +20,13 @@ _Source_: [litentry.polkaholic.io](https://litentry.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2013-litentry/2022-07-31.md) | 151,698 | 329,619 | 177,922 | 318 | 10 | 4,671 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2013-litentry/2022-06-30.md) | 1 | 151,697 | 151,697 | 2 | 3 | 16 | -   |   
 
-## Litentry Assets as of 2023-03-15
+## Litentry Assets as of 2023-03-16
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [LIT](/polkadot/assets/LIT) | 4,771 | 9,669,902.02  | 2,030,280.06  | 8,734,873.51   |   |  |   `{"Token":"LIT"}` | 
+| [LIT](/polkadot/assets/LIT) | 4,771 | 9,669,310.32  | 2,034,538.82  | 8,732,150.12   |   |  |   `{"Token":"LIT"}` | 
 
 ## substrate-etl Tables:
 

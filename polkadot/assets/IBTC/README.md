@@ -1,6 +1,6 @@
 # IBTC on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
 
 
 *XCM Interior Keys*:
@@ -9,10 +9,10 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Interlay](/polkadot/2032-interlay) | 373 | 75.53 $1,347,497.18 | 0.15 $2,757.88 |    |   | $17,841.21 | `{"Token":"IBTC"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 105 | 21.33 $380,623.34 |   |    |   | $17,841.21 | `{"Token":"120637696315203257380661607956669368914"}` |
-| [Astar](/polkadot/2006-astar) | 28 | 1.09 $19,534.51 |   |    |   | $17,841.21 | `{"Token":"18446744073709551620"}` |
-| [Acala](/polkadot/2000-acala) | 85 | 1.01 $18,102.06 |   |    |   | $17,841.21 | `{"ForeignAsset":"3"}` |
+| [Interlay](/polkadot/2032-interlay) | 376 | 75.38 $1,344,813.91 | 0.02 $310.25 |    |   | $17,841.21 | `{"Token":"IBTC"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 104 | 21.3 $379,993.15 |   |    |   | $17,841.21 | `{"Token":"120637696315203257380661607956669368914"}` |
+| [Astar](/polkadot/2006-astar) | 27 | 1.07 $19,177.69 |   |    |   | $17,841.21 | `{"Token":"18446744073709551620"}` |
+| [Acala](/polkadot/2000-acala) | 85 | 1 $17,796.55 |   |    |   | $17,841.21 | `{"ForeignAsset":"3"}` |
 | [Parallel](/polkadot/2012-parallel) | 114 | 0.1 $1,745.16 |   |    |   | $17,841.21 | `{"Token":"122"}` |
 
 ## Substrate-etl Queries:
@@ -24,7 +24,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "IBTC" and date(ts) = "2023-03-15"
+ where symbol = "IBTC" and date(ts) = "2023-03-16"
  group by para_id
  order by free_usd desc
 ```

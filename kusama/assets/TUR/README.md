@@ -1,6 +1,6 @@
 # TUR on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
 
 
 *XCM Interior Keys*:
@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Turing](/kusama/2114-turing) | 7,594 | 426,738,477.62  | 454.67  | 33,405,603.45   | 33,402,951.45  |  | `{"Token":"TUR"}` |
-| [Mangatax](/kusama/2110-mangatax) | 553 | 5,581,269.71  |   |    |   |  | `{"Token":"7"}` |
+| [Turing](/kusama/2114-turing) | 7,594 | 426,876,759.93  | 454.67  | 33,426,525.46   | 33,423,873.46  |  | `{"Token":"TUR"}` |
+| [Mangatax](/kusama/2110-mangatax) | 553 | 5,604,822.72  |   |    |   |  | `{"Token":"7"}` |
 | [Karura](/kusama/2000-karura) | 2 | 26.26  |   |    |   |  | `{"ForeignAsset":"16"}` |
 | [Khala](/kusama/2004-khala) | 2 | 1.06  |   |    |   |  | `{"Token":"10"}` |
 
@@ -23,7 +23,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "TUR" and date(ts) = "2023-03-15"
+ where symbol = "TUR" and date(ts) = "2023-03-16"
  group by para_id
  order by free_usd desc
 ```

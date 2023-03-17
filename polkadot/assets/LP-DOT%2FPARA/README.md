@@ -1,12 +1,12 @@
 # LP-DOT/PARA on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel](/polkadot/2012-parallel) | 167 | 42,621.65 $261,734.76 |   |    |   | $6.14 | `{"Token":"6002"}` |
+| [Parallel](/polkadot/2012-parallel) | 168 | 42,616.65 $270,806.85 |   |    |   | $6.35 | `{"Token":"6002"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "LP-DOT/PARA" and date(ts) = "2023-03-15"
+ where symbol = "LP-DOT/PARA" and date(ts) = "2023-03-16"
  group by para_id
  order by free_usd desc
 ```

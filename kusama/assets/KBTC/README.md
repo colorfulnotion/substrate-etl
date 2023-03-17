@@ -1,6 +1,6 @@
 # KBTC on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
 
 
 *XCM Interior Keys*:
@@ -9,12 +9,12 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Kintsugi](/kusama/2092-kintsugi) | 368 | 15.69 $420,556.18 | 0.11 $2,855.01 |    |   | $26,810.96 | `{"Token":"KBTC"}` |
-| [Moonriver](/kusama/2023-moonriver) | 79 | 5.67 $152,224.53 |   |    |   | $26,831.40 | `{"Token":"328179947973504579459046439826496046832"}` |
-| [Karura](/kusama/2000-karura) | 135 | 2.66 $71,381.58 |   |    |   | $26,831.40 | `{"Token":"KBTC"}` |
-| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 25 | 1.01 $27,184.37 |   |    |   | $26,831.40 | `{"Token2":"2"}` |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 69 | 0.13 $3,435.92 |   |    |   | $26,831.40 | `{"Token":"121"}` |
-| [Shiden](/kusama/2007-shiden) | 2 | - $1.61 |   |    |   | $26,831.40 | `{"Token":"18446744073709551621"}` |
+| [Kintsugi](/kusama/2092-kintsugi) | 369 | 15.67 $442,874.70 | 0.08 $2,355.37 |    |   | $28,265.75 | `{"Token":"KBTC"}` |
+| [Moonriver](/kusama/2023-moonriver) | 79 | 5.69 $160,355.03 |   |    |   | $28,181.43 | `{"Token":"328179947973504579459046439826496046832"}` |
+| [Karura](/kusama/2000-karura) | 134 | 2.65 $74,791.06 |   |    |   | $28,181.43 | `{"Token":"KBTC"}` |
+| [Bifrost-Kusama](/kusama/2001-bifrost-ksm) | 25 | 1.01 $28,364.49 |   |    |   | $28,181.43 | `{"Token2":"2"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 68 | 0.13 $3,591.85 |   |    |   | $28,265.75 | `{"Token":"121"}` |
+| [Shiden](/kusama/2007-shiden) | 2 | - $1.69 |   |    |   | $28,181.43 | `{"Token":"18446744073709551621"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -25,7 +25,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "KBTC" and date(ts) = "2023-03-15"
+ where symbol = "KBTC" and date(ts) = "2023-03-16"
  group by para_id
  order by free_usd desc
 ```

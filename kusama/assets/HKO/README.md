@@ -1,6 +1,6 @@
 # HKO on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-15
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Parallel Heiko](/kusama/2085-parallel-heiko) | 24,037 | 999,999,835.29  | 143.79  | 634,371,104.74   | 633,279,738.42  |  | `{"Token":"HKO"}` |
+| [Parallel Heiko](/kusama/2085-parallel-heiko) | 24,035 | 999,999,835.29  | 143.79  | 634,369,603.05   | 633,278,236.74  |  | `{"Token":"HKO"}` |
 | [Karura](/kusama/2000-karura) | 33 | 9,883.31  |   |    |   |  | `{"ForeignAsset":"4"}` |
 | [Moonriver](/kusama/2023-moonriver) | 24 | 889.71  |   |    |   |  | `{"Token":"76100021443485661246318545281171740067"}` |
 | [Khala](/kusama/2004-khala) | 8 | 21.38  |   |    |   |  | `{"Token":"7"}` |
@@ -24,7 +24,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "HKO" and date(ts) = "2023-03-15"
+ where symbol = "HKO" and date(ts) = "2023-03-16"
  group by para_id
  order by free_usd desc
 ```
