@@ -9,17 +9,17 @@ _Source_: [bitgreen.polkaholic.io](https://bitgreen.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-19](/polkadot/2048-bitgreen/2023-03-31.md) | 284,654 | 406,442 | 120,148 | 146 | 10 | 958 | - 1,641 (1.35%) |   
+| [2023-03-01 to 2023-03-19](/polkadot/2048-bitgreen/2023-03-31.md) | 284,654 | 407,297 | 121,003 | 146 | 10 | 958 | - 1,641 (1.34%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2048-bitgreen/2023-02-28.md) | 91,749 | 284,653 | 192,905 | 99 | 7 | 782 | -   |   
 | [2023-01-17 to 2023-01-31](/polkadot/2048-bitgreen/2023-01-31.md) | 1 | 91,748 | 91,748 | 6 | 1 | 179 | -   |   
 
-## Bitgreen Assets as of 2023-03-16
+## Bitgreen Assets as of 2023-03-18
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [BBB](/polkadot/assets/BBB) | 957 | 1,000,033,702.6  | 1,889.7  |    |   |  |   `{"Token":"BBB"}` | 
+| [BBB](/polkadot/assets/BBB) | 958 | 1,000,033,930.6  | 3,074.7  |    |   |  |   `{"Token":"BBB"}` | 
 
 ## substrate-etl Tables:
 

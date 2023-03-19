@@ -9,7 +9,7 @@ _Source_: [tinkernet.polkaholic.io](https://tinkernet.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-19](/kusama/2125-tinkernet/2023-03-31.md) | 1,270,128 | 1,375,784 | 103,674 | 503 | 24 | 7,764 | - 1,983 (1.88%) |   
+| [2023-03-01 to 2023-03-19](/kusama/2125-tinkernet/2023-03-31.md) | 1,270,128 | 1,376,406 | 104,296 | 505 | 24 | 7,764 | - 1,983 (1.87%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2125-tinkernet/2023-02-28.md) | 1,097,041 | 1,270,127 | 173,087 | 5,716 | 154 | 8,055 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2125-tinkernet/2023-01-31.md) | 900,714 | 1,097,040 | 196,327 | 1,015 | 29 | 1,861 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2125-tinkernet/2022-12-31.md) | 710,911 | 900,713 | 189,803 | 544 | 20 | 1,808 | -   |   
@@ -18,13 +18,13 @@ _Source_: [tinkernet.polkaholic.io](https://tinkernet.polkaholic.io)
 | [2022-09-01 to 2022-09-30](/kusama/2125-tinkernet/2022-09-30.md) | 135,276 | 299,894 | 164,619 | 272 | 8 | 1,206 | -   |   
 | [2022-08-08 to 2022-08-31](/kusama/2125-tinkernet/2022-08-31.md) | 1 | 135,275 | 135,275 | 391 | 11 | 1,189 | -   |   
 
-## InvArch Tinkernet Assets as of 2023-03-16
+## InvArch Tinkernet Assets as of 2023-03-18
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [TNKR](/kusama/assets/TNKR) | 7,764 | 11,669,920.51  | 30,075  | 1,996,582.3   | 1,996,582.3  |  |   `{"Token":"TNKR"}` | 
+| [TNKR](/kusama/assets/TNKR) | 7,762 | 11,669,920.5  | 30,075  | 1,984,438.54   | 1,984,438.54  |  |   `{"Token":"TNKR"}` | 
 
 ## substrate-etl Tables:
 

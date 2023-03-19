@@ -9,7 +9,7 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-19](/kusama/2096-bitcountrypioneer/2023-03-31.md) | 2,640,698 | 2,768,816 | 126,179 | 3,504 | 80 | 24,785 | - 1,940 (1.51%) |   
+| [2023-03-01 to 2023-03-19](/kusama/2096-bitcountrypioneer/2023-03-31.md) | 2,640,698 | 2,769,071 | 126,434 | 3,513 | 80 | 24,785 | - 1,940 (1.51%) |   
 | [2023-02-01 to 2023-02-28](/kusama/2096-bitcountrypioneer/2023-02-28.md) | 2,444,069 | 2,640,697 | 196,629 | 10,443 | 148 | 24,728 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2096-bitcountrypioneer/2023-01-31.md) | 2,226,701 | 2,444,068 | 217,368 | 31,043 | 332 | 24,569 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/2096-bitcountrypioneer/2022-12-31.md) | 2,019,162 | 2,226,700 | 207,539 | 9,952 | 136 | 24,095 | -   |   
@@ -27,13 +27,13 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 | [2021-12-01 to 2021-12-31](/kusama/2096-bitcountrypioneer/2021-12-31.md) | 17,803 | 213,883 | 196,081 | 14 |  | 4 | -   |   
 | [2021-11-28 to 2021-11-30](/kusama/2096-bitcountrypioneer/2021-11-30.md) | 1 | 17,802 | 17,802 |  |  | 2 | -   |   
 
-## Bit.Country Pioneer Assets as of 2023-03-16
+## Bit.Country Pioneer Assets as of 2023-03-18
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [NEER](/kusama/assets/NEER) | 24,780 | 94,433,090.24 $17,184,491.40 | 5,566,821.19 $1,013,024.04 | 73,603,367.08  $13,393,995.95 |   | $0.18 |   `{"Token":"NEER"}` | 
+| [NEER](/kusama/assets/NEER) | 24,785 | 94,399,664.24 $17,747,735.35 | 5,600,247.19 $1,052,881.98 | 73,558,958.38  $13,829,550.53 |   | $0.19 |   `{"Token":"NEER"}` | 
 | [KUSD](/kusama/assets/KUSD) | 3 | 0.1 $0.10 |   |    |   | $1.00 |   `{"Stable":"0"}` | 
 
 ## substrate-etl Tables:

@@ -1,12 +1,12 @@
 # PEN on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-18
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Pendulum](/polkadot/2094-pendulum) | 584 | 160,007,445.39  | 65.93  | 125,009,872.24   | 4,662,923.6  |  | `{"Token":"PEN"}` |
+| [Pendulum](/polkadot/2094-pendulum) | 601 | 160,009,191.33  | 65.93  | 125,035,658.84   | 5,199,821.77  |  | `{"Token":"PEN"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "PEN" and date(ts) = "2023-03-16"
+ where symbol = "PEN" and date(ts) = "2023-03-18"
  group by para_id
  order by free_usd desc
 ```

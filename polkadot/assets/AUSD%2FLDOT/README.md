@@ -1,12 +1,12 @@
 # AUSD/LDOT on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-18
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Acala](/polkadot/2000-acala) | 54 | 150,653.78  |   |    |   |  | `[{"Token":"AUSD"},{"Token":"LDOT"}]` |
+| [Acala](/polkadot/2000-acala) | 56 | 149,897.36  |   |    |   |  | `[{"Token":"AUSD"},{"Token":"LDOT"}]` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "AUSD/LDOT" and date(ts) = "2023-03-16"
+ where symbol = "AUSD/LDOT" and date(ts) = "2023-03-18"
  group by para_id
  order by free_usd desc
 ```

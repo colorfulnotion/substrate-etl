@@ -9,19 +9,19 @@ _Source_: [frequency.polkaholic.io](https://frequency.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-19](/polkadot/2091-frequency/2023-03-31.md) | 649,378 | 773,984 | 122,510 | 6 | 7 | 22 | - 2,097 (1.68%) |   
+| [2023-03-01 to 2023-03-19](/polkadot/2091-frequency/2023-03-31.md) | 649,378 | 774,574 | 123,100 | 6 | 7 | 22 | - 2,097 (1.67%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2091-frequency/2023-02-28.md) | 450,021 | 649,377 | 199,357 | 58 | 7 | 22 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2091-frequency/2023-01-31.md) | 233,132 | 450,020 | 216,889 | 15 | 6 | 21 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2091-frequency/2022-12-31.md) | 11,895 | 233,131 | 221,237 |  | 6 | 21 | -   |   
 | [2022-11-29 to 2022-11-30](/polkadot/2091-frequency/2022-11-30.md) | 1 | 11,894 | 11,894 |  | 6 | 21 | -   |   
 
-## Frequency Assets as of 2023-03-16
+## Frequency Assets as of 2023-03-18
 
 
 
 | Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [FRQCY](/polkadot/assets/FRQCY) | 22 | 999,999,999.15  |   | 471.86   |   |  |   `{"Token":"FRQCY"}` | 
+| [FRQCY](/polkadot/assets/FRQCY) | 22 | 999,999,949.04  |   | 471.86   |   |  |   `{"Token":"FRQCY"}` | 
 
 ## substrate-etl Tables:
 

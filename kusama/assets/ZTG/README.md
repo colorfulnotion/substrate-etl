@@ -1,12 +1,12 @@
 # ZTG on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-18
 
 
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Zeitgeist](/kusama/2101-zeitgeist) | 15,577 | 102,751,120.43  | 17,123.92  | 36,687,277.79   | 18,328,860.79  |  | `{"Token":"ZTG"}` |
+| [Zeitgeist](/kusama/2101-zeitgeist) | 15,585 | 102,777,836.02  | 16,723.92  | 36,742,466.08   | 18,392,313.16  |  | `{"Token":"ZTG"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -17,7 +17,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "ZTG" and date(ts) = "2023-03-16"
+ where symbol = "ZTG" and date(ts) = "2023-03-18"
  group by para_id
  order by free_usd desc
 ```

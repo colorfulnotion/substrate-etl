@@ -1,6 +1,6 @@
 # AIR on kusama substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-18
 
 
 *XCM Interior Keys*:
@@ -9,8 +9,8 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Altair](/kusama/2088-altair) | 29,399 | 476,513,014.44 $4,094,081.02 | 511,319.57 $4,393.13 | 78,663,683.16  $675,858.75 | 13,627,791.85 $117,086.59 | $0.00859 | `{"Token":"AIR"}` |
-| [Karura](/kusama/2000-karura) | 281 | 3,410,038.04 $29,298.20 |   |    |   | $0.00859 | `{"ForeignAsset":"12"}` |
+| [Altair](/kusama/2088-altair) | 29,550 | 476,512,914.42 $3,782,706.89 | 511,419.57 $4,059.81 | 78,557,874.7  $623,616.71 | 13,627,791.85 $108,181.63 | $0.00794 | `{"Token":"AIR"}` |
+| [Karura](/kusama/2000-karura) | 282 | 3,440,621 $27,312.71 |   |    |   | $0.00794 | `{"ForeignAsset":"12"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "AIR" and date(ts) = "2023-03-16"
+ where symbol = "AIR" and date(ts) = "2023-03-18"
  group by para_id
  order by free_usd desc
 ```

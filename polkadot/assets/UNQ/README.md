@@ -1,6 +1,6 @@
 # UNQ on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-18
 
 
 *XCM Interior Keys*:
@@ -9,7 +9,7 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Unique](/polkadot/2037-unique) | 23,916 | 1,041,977,859.89  | 2  | 854,787,174.36   | 854,787,174.36  |  | `{"Token":"UNQ"}` |
+| [Unique](/polkadot/2037-unique) | 23,919 | 1,041,977,841.92  | 2  | 854,719,115.06   | 854,719,115.06  |  | `{"Token":"UNQ"}` |
 | [Acala](/polkadot/2000-acala) | 2 | 4.9  |   |    |   |  | `{"ForeignAsset":"10"}` |
 
 ## Substrate-etl Queries:
@@ -21,7 +21,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "UNQ" and date(ts) = "2023-03-16"
+ where symbol = "UNQ" and date(ts) = "2023-03-18"
  group by para_id
  order by free_usd desc
 ```

@@ -1,6 +1,6 @@
 # INTR on polkadot substrate-etl Summary
 
-_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
+_Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-18
 
 
 *XCM Interior Keys*:
@@ -9,11 +9,11 @@ _Source_: [polkaholic.io](https://polkaholic.io) *Report Date*: 2023-03-16
 
 | Chain | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID |
 | ----- | --------- | ---- | -------- | ----------- | ------ | ----- | ------- |
-| [Interlay](/polkadot/2032-interlay) | 11,428 | 999,998,448.08 $26,211,200.31 | 1,418.06 $37.17 |    | 72,220,995.34 $1,893,001.91 | $0.03 | `{"Token":"INTR"}` |
-| [Moonbeam](/polkadot/2004-moonbeam) | 381 | 2,877,425.45 $75,420.89 |   |    |   | $0.03 | `{"Token":"101170542313601871197860408087030232491"}` |
-| [Acala](/polkadot/2000-acala) | 410 | 1,207,821.48 $31,658.50 |   |    |   | $0.03 | `{"ForeignAsset":"4"}` |
-| [Parallel](/polkadot/2012-parallel) | 226 | 253,751.27 $6,651.14 |   |    |   | $0.03 | `{"Token":"120"}` |
-| [Astar](/polkadot/2006-astar) | 68 | 185,412.28 $4,859.89 |   |    |   | $0.03 | `{"Token":"18446744073709551621"}` |
+| [Interlay](/polkadot/2032-interlay) | 11,438 | 999,998,427.82 $25,799,679.86 | 1,438.32 $37.11 |    | 72,243,399.58 $1,863,859.51 | $0.03 | `{"Token":"INTR"}` |
+| [Moonbeam](/polkadot/2004-moonbeam) | 382 | 2,974,880.76 $76,751.09 |   |    |   | $0.03 | `{"Token":"101170542313601871197860408087030232491"}` |
+| [Acala](/polkadot/2000-acala) | 409 | 1,193,449.54 $30,790.66 |   |    |   | $0.03 | `{"ForeignAsset":"4"}` |
+| [Parallel](/polkadot/2012-parallel) | 227 | 251,582.61 $6,490.76 |   |    |   | $0.03 | `{"Token":"120"}` |
+| [Astar](/polkadot/2006-astar) | 69 | 190,223.23 $4,907.71 |   |    |   | $0.03 | `{"Token":"18446744073709551621"}` |
 
 ## Substrate-etl Queries:
 You can generate the above summary data using the following queries using the public dataset `substrate-etl` in Google BigQuery:
@@ -24,7 +24,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
  from `substrate-etl.kusama.balances*` 
- where symbol = "INTR" and date(ts) = "2023-03-16"
+ where symbol = "INTR" and date(ts) = "2023-03-18"
  group by para_id
  order by free_usd desc
 ```
