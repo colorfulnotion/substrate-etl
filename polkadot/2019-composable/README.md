@@ -9,7 +9,7 @@ _Source_: [composable.polkaholic.io](https://composable.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-20](/polkadot/2019-composable/2023-03-31.md) | 1,488,367 | 1,617,627 | 128,465 |  | 3 | 5 | - 796 (0.62%) |   
+| [2023-03-01 to 2023-03-20](/polkadot/2019-composable/2023-03-31.md) | 1,488,367 | 1,618,071 | 128,909 |  | 3 | 5 | - 796 (0.61%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2019-composable/2023-02-28.md) | 1,289,521 | 1,488,366 | 198,846 | 3 | 3 | 5 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2019-composable/2023-01-31.md) | 1,143,924 | 1,289,520 | 145,597 | 8 | 5 | 5 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2019-composable/2022-12-31.md) | 1,028,926 | 1,143,923 | 114,998 |  | 4 | 2 | -   |   
@@ -22,14 +22,6 @@ _Source_: [composable.polkaholic.io](https://composable.polkaholic.io)
 | [2022-05-01 to 2022-05-31](/polkadot/2019-composable/2022-05-31.md) | 129,605 | 294,394 | 164,790 | 1 | 3 | 2 | -   |   
 | [2022-04-12 to 2022-04-30](/polkadot/2019-composable/2022-04-30.md) | 36,000 | 129,604 | 93,605 |  |  | 2 | -   |   
 | [2022-03-12 to 2022-03-19](/polkadot/2019-composable/2022-03-31.md) | 1 | 35,999 | 35,999 |  |  | 2 | -   |   
-
-## Composable Finance Assets as of 2023-03-18
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [LAYR](/polkadot/assets/LAYR) | 5 | 99,999,999.18  |   |    |   |  |   `{"Token":"LAYR"}` | 
 
 ## substrate-etl Tables:
 

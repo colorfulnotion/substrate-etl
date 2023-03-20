@@ -15,14 +15,6 @@ _Source_: [collectives.polkaholic.io](https://collectives.polkaholic.io)
 | [2022-12-01 to 2022-12-31](/polkadot/1001-collectives/2022-12-31.md) | 68,033 | 289,060 | 221,028 | 16 | 4 | 10 | -   |   
 | [2022-11-21 to 2022-11-30](/polkadot/1001-collectives/2022-11-30.md) | 1 | 68,032 | 68,032 | 2 | 4 | 4 | -   |   
 
-## Collectives Assets as of 2023-03-18
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [DOT](/polkadot/assets/DOT) | 11 | 34.25 $218.32 | 0.4 $2.56 |    |   | $6.37 |   `{"Token":"DOT"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks1001` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

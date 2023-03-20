@@ -9,7 +9,7 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-20](/polkadot/2035-phala/2023-03-31.md) | 2,009,121 | 2,139,544 | 129,617 | 676 | 24 | 3,176 | - 807 (0.62%) |   
+| [2023-03-01 to 2023-03-20](/polkadot/2035-phala/2023-03-31.md) | 2,009,121 | 2,140,036 | 130,109 | 677 | 24 | 3,176 | - 807 (0.62%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2035-phala/2023-02-28.md) | 1,809,602 | 2,009,120 | 199,519 | 924 | 26 | 3,128 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2035-phala/2023-01-31.md) | 1,587,962 | 1,809,601 | 221,640 | 616 | 20 | 3,021 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2035-phala/2022-12-31.md) | 1,367,180 | 1,587,961 | 220,782 | 502 | 18 | 2,979 | -   |   
@@ -21,18 +21,6 @@ _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 | [2022-06-01 to 2022-06-30](/polkadot/2035-phala/2022-06-30.md) | 92,105 | 293,541 | 201,437 | 284 | 11 | 2,466 | -   |   
 | [2022-05-31 to 2022-05-31](/polkadot/2035-phala/2022-05-31.md) | 90,052 | 92,104 | 2,053 |  | 3 | 5 | -   |   
 | [2022-04-01 to 2022-04-15](/polkadot/2035-phala/2022-04-30.md) | 1 | 90,051 | 90,051 |  | 3 | 5 | -   |   
-
-## Phala Assets as of 2023-03-18
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PHA](/polkadot/assets/PHA) | 3,161 | 541,799,866.69 $87,346,446.55 | 133.15 $21.47 | 11,306,334.99  $1,822,754.57 |   | $0.16 |   `{"Token":"PHA"}` | 
-| [GLMR](/polkadot/assets/GLMR) | 11 | 36.51 $15.28 |   |    |   | $0.42 |   `{"Token":"1"}` | 
-| [ASTR](/polkadot/assets/ASTR) | 12 | 135.33 $9.63 |   |    |   | $0.07 |   `{"Token":"6"}` | 
-| [PARA](/polkadot/assets/PARA) | 5 | 55.56 $0.66 |   |    |   | $0.01 |   `{"Token":"2"}` | 
-| [EQ](/polkadot/assets/EQ) | 2 | 807.76  |   |    |   |  |   `{"Token":"9"}` | 
 
 ## substrate-etl Tables:
 

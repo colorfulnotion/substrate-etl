@@ -12,14 +12,6 @@ _Source_: [pendulum.polkaholic.io](https://pendulum.polkaholic.io)
 | [2023-03-01 to 2023-03-20](/polkadot/2094-pendulum/2023-03-31.md) | 82,548 | 211,793 | 128,594 | 1,488 | 35 | 607 | - 652 (0.50%) |   
 | [2023-02-13 to 2023-02-28](/polkadot/2094-pendulum/2023-02-28.md) | 1 | 82,547 | 82,547 | 95 | 8 | 85 | -   |   
 
-## Pendulum Assets as of 2023-03-18
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [PEN](/polkadot/assets/PEN) | 601 | 160,009,191.33  | 65.93  | 125,035,658.84   | 5,199,821.77  |  |   `{"Token":"PEN"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.polkadot.blocks2094` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

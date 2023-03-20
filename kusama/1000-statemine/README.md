@@ -9,7 +9,7 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-20](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,105,195 | 121,133 | 1,276 | 36 | 50,102 | - 5,608 (4.42%) |   
+| [2023-03-01 to 2023-03-20](/kusama/1000-statemine/2023-03-31.md) | 3,978,455 | 4,105,647 | 121,585 | 1,281 | 36 | 50,102 | - 5,608 (4.41%) |   
 | [2023-02-01 to 2023-02-28](/kusama/1000-statemine/2023-02-28.md) | 3,796,175 | 3,978,454 | 182,280 | 2,293 | 46 | 49,353 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/1000-statemine/2023-01-31.md) | 3,578,790 | 3,796,174 | 217,385 | 2,227 | 43 | 49,101 | -   |   
 | [2022-12-01 to 2022-12-31](/kusama/1000-statemine/2022-12-31.md) | 3,370,335 | 3,578,789 | 208,455 | 4,541 | 68 | 49,060 | -   |   
@@ -33,107 +33,6 @@ _Source_: [statemine.polkaholic.io](https://statemine.polkaholic.io)
 | [2021-06-01 to 2021-06-30](/kusama/1000-statemine/2021-06-30.md) | 47,607 | 233,378 | 185,766 | 93 | 6 | 80 | - 6 (0.00%) |   
 | [2021-05-25 to 2021-05-31](/kusama/1000-statemine/2021-05-31.md) | 1 | 47,606 | 47,606 |  |  |  | -   |   
 | [2020-01-01 to 2020-01-01](/kusama/1000-statemine/2020-01-31.md) | 1 | 66,686 | 66,680 |  |  |  | - 6 (0.01%) |   
-
-## Statemine Assets as of 2023-03-18
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [RMRK](/kusama/assets/RMRK) | 6,200 | 9,999,611.77 $24,211,902.98 |   |    |   | $2.42 |   `{"Token":"8"}` | 
-| [GRB](/kusama/assets/GRB) | 816 | 2,043,401  |   |    |   |  |   `{"Token":"677"}` | 
-| [BILL](/kusama/assets/BILL) | 686 | 1,000,000  |   |    |   |  |   `{"Token":"223"}` | 
-| [CHRWNA](/kusama/assets/CHRWNA) | 303 | 5,670  |   |    |   |  |   `{"Token":"567"}` | 
-| [ARIS](/kusama/assets/ARIS) | 89 | 9,983,102.64  |   |    |   |  |   `{"Token":"16"}` | 
-| [SPOT](/kusama/assets/SPOT) | 70 | 1,000  |   |    |   |  |   `{"Token":"1441"}` | 
-| [KAA](/kusama/assets/KAA) | 47 | 2,100  |   |    |   |  |   `{"Token":"377"}` | 
-| [STRGZN](/kusama/assets/STRGZN) | 45 | 100,001  |   |    |   |  |   `{"Token":"1607"}` | 
-| [GAV](/kusama/assets/GAV) | 36 | 10,000,000  |   |    |   |  |   `{"Token":"60"}` | 
-| [NRNF](/kusama/assets/NRNF) | 21 | 1,000,000  |   |    |   |  |   `{"Token":"42"}` | 
-| [SIK](/kusama/assets/SIK) | 21 | 1,000,000  |   |    |   |  |   `{"Token":"224"}` | 
-| [CHAOS](/kusama/assets/CHAOS) | 13 | 69,420  |   |    |   |  |   `{"Token":"69420"}` | 
-| [bLd](/kusama/assets/bLd) | 12 | 7,590,882  |   |    |   |  |   `{"Token":"759"}` | 
-| [CUBO](/kusama/assets/CUBO) | 12 | 856.48  |   |    |   |  |   `{"Token":"862812"}` | 
-| [ACT](/kusama/assets/ACT) | 11 | 2,927  |   |    |   |  |   `{"Token":"3077"}` | 
-| [BFKK](/kusama/assets/BFKK) | 9 | 26,995  |   |    |   |  |   `{"Token":"20"}` | 
-| [MAR](/kusama/assets/MAR) | 9 | 100,000  |   |    |   |  |   `{"Token":"70"}` | 
-| [ZHE](/kusama/assets/ZHE) | 8 | 80,008,888.89  |   |    |   |  |   `{"Token":"8888"}` | 
-| [DOG](/kusama/assets/DOG) | 6 | 1,000,000,000,000  |   |    |   |  |   `{"Token":"0"}` | 
-| [FNT](/kusama/assets/FNT) | 6 | 6,000  |   |    |   |  |   `{"Token":"13000"}` | 
-| [STH](/kusama/assets/STH) | 6 | 6  |   |    |   |  |   `{"Token":"22"}` | 
-| [HOLIC](/kusama/assets/HOLIC) | 5 | 61,182,033.34  |   |    |   |  |   `{"Token":"1107"}` | 
-| [Meow](/kusama/assets/Meow) | 5 | 1,000,000,000,000  |   |    |   |  |   `{"Token":"3"}` | 
-| [TMJ](/kusama/assets/TMJ) | 5 | 10,000  |   |    |   |  |   `{"Token":"91"}` | 
-| [BAILEGO](/kusama/assets/BAILEGO) | 4 | 10,000  |   |    |   |  |   `{"Token":"88888"}` | 
-| [FAN](/kusama/assets/FAN) | 4 | 6,942,000,694,270,425,000,000,000  |   |    |   |  |   `{"Token":"46"}` | 
-| [BEER](/kusama/assets/BEER) | 3 | 1,024  |   |    |   |  |   `{"Token":"5"}` | 
-| [CRIB](/kusama/assets/CRIB) | 3 | 5,000  |   |    |   |  |   `{"Token":"45"}` | 
-| [DRX](/kusama/assets/DRX) | 3 | 1,000  |   |    |   |  |   `{"Token":"102"}` | 
-| [FAV](/kusama/assets/FAV) | 3 | 101  |   |    |   |  |   `{"Token":"32"}` | 
-| [GOOSE](/kusama/assets/GOOSE) | 3 | 1,000  |   |    |   |  |   `{"Token":"41"}` | 
-| [LAC](/kusama/assets/LAC) | 3 | 10,000,000  |   |    |   |  |   `{"Token":"28"}` | 
-| [MTVD](/kusama/assets/MTVD) | 3 | 20,000,000  |   |    |   |  |   `{"Token":"1111"}` | 
-| [RRT](/kusama/assets/RRT) | 3 | 950  |   |    |   |  |   `{"Token":"36"}` | 
-| [RTT](/kusama/assets/RTT) | 3 | 10,000,000  |   |    |   |  |   `{"Token":"314159"}` | 
-| [XEN](/kusama/assets/XEN) | 3 | 1,000  |   |    |   |  |   `{"Token":"1123"}` | 
-| [ADVERT](/kusama/assets/ADVERT) | 2 | 10,000  |   |    |   |  |   `{"Token":"68"}` | 
-| [Android](/kusama/assets/Android) | 2 | 100,100,000,000  |   |    |   |  |   `{"Token":"2049"}` | 
-| [DREX](/kusama/assets/DREX) | 2 | 10,001  |   |    |   |  |   `{"Token":"12345"}` | 
-| [ELEV](/kusama/assets/ELEV) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"21"}` | 
-| [EUR](/kusama/assets/EUR) | 2 | 200  |   |    |   |  |   `{"Token":"47"}` | 
-| [INTRN](/kusama/assets/INTRN) | 2 | 0.05  |   |    |   |  |   `{"Token":"42069"}` | 
-| [KOJO](/kusama/assets/KOJO) | 2 | 1,985  |   |    |   |  |   `{"Token":"23"}` | 
-| [L T](/kusama/assets/L%2520T) | 2 | 10  |   |    |   |  |   `{"Token":"1"}` | 
-| [MNCH](/kusama/assets/MNCH) | 2 | 1,027,000,000  |   |    |   |  |   `{"Token":"37"}` | 
-| [PLX](/kusama/assets/PLX) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"34"}` | 
-| [PWS](/kusama/assets/PWS) | 2 | 1,000,000,000  |   |    |   |  |   `{"Token":"300"}` | 
-| [USDT](/kusama/assets/USDT) | 2 | 10,000,000  |   |    |   |  |   `{"Token":"19840"}` | 
-| [XEXR](/kusama/assets/XEXR) | 2 | 1,000,000  |   |    |   |  |   `{"Token":"87"}` | 
-| [ADVNCE](/kusama/assets/ADVNCE) | 1 | 69,420,000,021,000,995,000  |   |    |   |  |   `{"Token":"44"}` | 
-| [BABE](/kusama/assets/BABE) | 1 | 1,000,000,000,000,000,000  |   |    |   |  |   `{"Token":"25"}` | 
-| [BIT](/kusama/assets/BIT) | 1 | 2,100,000,000,000,000  |   |    |   |  |   `{"Token":"80"}` | 
-| [BUSSY](/kusama/assets/BUSSY) | 1 | 33,333  |   |    |   |  |   `{"Token":"33"}` | 
-| [CBDC](/kusama/assets/CBDC) | 1 | 1,000,000,000  |   |    |   |  |   `{"Token":"999"}` | 
-| [Chralt](/kusama/assets/Chralt) | 1 | 100  |   |    |   |  |   `{"Token":"100"}` | 
-| [CODES](/kusama/assets/CODES) | 1 | 9,999,999.74  |   |    |   |  |   `{"Token":"29"}` | 
-| [CRY](/kusama/assets/CRY) | 1 | 100  |   |    |   |  |   `{"Token":"61"}` | 
-| [CUT](/kusama/assets/CUT) | 1 | 992.26  |   |    |   |  |   `{"Token":"2050"}` | 
-| [DEFI](/kusama/assets/DEFI) | 1 | 77,777,777  |   |    |   |  |   `{"Token":"777777"}` | 
-| [DOS](/kusama/assets/DOS) | 1 | 100,000,000  |   |    |   |  |   `{"Token":"7"}` | 
-| [DOT](/kusama/assets/DOT) | 1 | 1,000,000,000  |   |    |   |  |   `{"Token":"14"}` | 
-| [ENT](/kusama/assets/ENT) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"38"}` | 
-| [EREN](/kusama/assets/EREN) | 1 | 1,001,019,001,704,300,000,000  |   |    |   |  |   `{"Token":"598"}` | 
-| [ERIC](/kusama/assets/ERIC) | 1 | 100  |   |    |   |  |   `{"Token":"40"}` | 
-| [FRALEY](/kusama/assets/FRALEY) | 1 | 1,000,000,000,000  |   |    |   |  |   `{"Token":"80817"}` | 
-| [GMK](/kusama/assets/GMK) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"3943"}` | 
-| [HYDR](/kusama/assets/HYDR) | 1 | 1,420,010,000,000  |   |    |   |  |   `{"Token":"1420"}` | 
-| [ki](/kusama/assets/ki) | 1 | 1,000,000,000  |   |    |   |  |   `{"Token":"31"}` | 
-| [KODA](/kusama/assets/KODA) | 1 | 10,000  |   |    |   |  |   `{"Token":"383"}` | 
-| [KPOTS](/kusama/assets/KPOTS) | 1 | 8,099,991,100  |   |    |   |  |   `{"Token":"9000"}` | 
-| [KSM](/kusama/assets/KSM) | 1 | 85,000,000  |   |    |   |  |   `{"Token":"1234"}` | 
-| [LN](/kusama/assets/LN) | 1 | 13  |   |    |   |  |   `{"Token":"13"}` | 
-| [LUCKY](/kusama/assets/LUCKY) | 1 | 35  |   |    |   |  |   `{"Token":"35"}` | 
-| [LUL](/kusama/assets/LUL) | 1 | 1  |   |    |   |  |   `{"Token":"95834"}` | 
-| [MAXI](/kusama/assets/MAXI) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"404"}` | 
-| [MEME](/kusama/assets/MEME) | 1 | 28,000  |   |    |   |  |   `{"Token":"17"}` | 
-| [NICE](/kusama/assets/NICE) | 1 | 69  |   |    |   |  |   `{"Token":"69"}` | 
-| [OAK](/kusama/assets/OAK) | 1 | 10,000  |   |    |   |  |   `{"Token":"71"}` | 
-| [oh!](/kusama/assets/oh!) | 1 | 100  |   |    |   |  |   `{"Token":"64"}` | 
-| [PNEO](/kusama/assets/PNEO) | 1 | 1,000,000,000  |   |    |   |  |   `{"Token":"222"}` | 
-| [PNN](/kusama/assets/PNN) | 1 | 682,668,266,826  |   |    |   |  |   `{"Token":"2"}` | 
-| [RUEPP](/kusama/assets/RUEPP) | 1 | 500,000,000,000  |   |    |   |  |   `{"Token":"80816"}` | 
-| [SATS](/kusama/assets/SATS) | 1 | 2,310,000,000,000,000  |   |    |   |  |   `{"Token":"90"}` | 
-| [SHIB](/kusama/assets/SHIB) | 1 | 300,000,000,000  |   |    |   |  |   `{"Token":"4206969"}` | 
-| [test](/kusama/assets/test) | 1 | 10  |   |    |   |  |   `{"Token":"24"}` | 
-| [TIP](/kusama/assets/TIP) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"1337"}` | 
-| [TOT](/kusama/assets/TOT) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"9"}` | 
-| [TTT](/kusama/assets/TTT) | 1 | 20,141  |   |    |   |  |   `{"Token":"43"}` | 
-| [USDC](/kusama/assets/USDC) | 1 | 6,942,000,000  |   |    |   |  |   `{"Token":"10"}` | 
-| [VCOP](/kusama/assets/VCOP) | 1 | 280,000  |   |    |   |  |   `{"Token":"863012"}` | 
-| [VHM](/kusama/assets/VHM) | 1 | 10,000,000  |   |    |   |  |   `{"Token":"6789"}` | 
-| [WAVE](/kusama/assets/WAVE) | 1 | 1,010,000,000  |   |    |   |  |   `{"Token":"2021"}` | 
-| [WITEK](/kusama/assets/WITEK) | 1 | 1,155  |   |    |   |  |   `{"Token":"1155"}` | 
-| [ZKPD](/kusama/assets/ZKPD) | 1 | 1,000,000,100  |   |    |   |  |   `{"Token":"6"}` | 
 
 ## substrate-etl Tables:
 

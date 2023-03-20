@@ -28,18 +28,6 @@ _Source_: [kintsugi.polkaholic.io](https://kintsugi.polkaholic.io)
 | [2021-11-01 to 2021-11-30](/kusama/2092-kintsugi/2021-11-30.md) | 27,097 | 60,447 | 33,351 | 9 | 3 |  | -   |   
 | [2021-10-13 to 2021-10-31](/kusama/2092-kintsugi/2021-10-31.md) | 1 | 27,096 | 27,088 | 4 | 7 |  | - 8 (0.03%) |   
 
-## Kintsugi Assets as of 2023-03-18
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [KINT](/kusama/assets/KINT) | 16,140 | 9,999,380.6 $7,246,398.94 | 368.21 $266.84 |    | 2,495,991.79 $1,808,807.26 | $0.72 |   `{"Token":"KINT"}` | 
-| [KBTC](/kusama/assets/KBTC) | 370 | 15.77 $464,939.35 | 0.16 $4,832.35 |    |   | $29,480.81 |   `{"Token":"KBTC"}` | 
-| [LKSM](/kusama/assets/LKSM) | 33 | 28,658.76 $118,901.17 | 37,997.43 $157,646.01 |    |   | $4.15 |   `{"ForeignAsset":"2"}` | 
-| [KSM](/kusama/assets/KSM) | 216 | 1,278.83 $45,796.23 | 19,949.06 $714,395.74 |    |   | $35.81 |   `{"Token":"KSM"}` | 
-| [USDT](/kusama/assets/USDT) | 5 | 6.56 $6.63 |   |    |   | $1.01 |   `{"ForeignAsset":"3"}` | 
-
 ## substrate-etl Tables:
 
 * _Blocks_: `substrate-etl.kusama.blocks2092` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)

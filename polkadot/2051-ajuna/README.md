@@ -9,19 +9,11 @@ _Source_: [ajuna.polkaholic.io](https://ajuna.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-20](/polkadot/2051-ajuna/2023-03-31.md) | 678,772 | 806,775 | 127,394 |  | 4 | 9 | - 610 (0.48%) |   
+| [2023-03-01 to 2023-03-20](/polkadot/2051-ajuna/2023-03-31.md) | 678,772 | 807,339 | 127,958 |  | 4 | 9 | - 610 (0.47%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2051-ajuna/2023-02-28.md) | 486,290 | 678,771 | 192,482 | 2 | 4 | 9 | -   |   
 | [2023-01-01 to 2023-01-31](/polkadot/2051-ajuna/2023-01-31.md) | 277,227 | 486,289 | 209,063 | 3 | 4 | 7 | -   |   
 | [2022-12-01 to 2022-12-31](/polkadot/2051-ajuna/2022-12-31.md) | 65,407 | 277,226 | 211,820 |  | 4 | 6 | -   |   
 | [2022-11-21 to 2022-11-30](/polkadot/2051-ajuna/2022-11-30.md) | 1 | 65,406 | 65,406 | 9 | 4 | 6 | -   |   
-
-## Ajuna Assets as of 2023-03-18
-
-
-
-| Symbol | # Holders | Free | Reserved | Misc Frozen | Frozen | Price | AssetID | 
-| ----- | --------- | ---- | -------- | ----------- | ------ | ----- | --- |
-| [AJUN](/polkadot/assets/AJUN) | 9 | 500,000,000  |   |    |   |  |   `{"Token":"AJUN"}` | 
 
 ## substrate-etl Tables:
 
