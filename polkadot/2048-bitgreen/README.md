@@ -9,9 +9,9 @@ _Source_: [bitgreen.polkaholic.io](https://bitgreen.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-01 to 2023-03-20](/polkadot/2048-bitgreen/2023-03-31.md) | 284,654 | 416,158 | 129,882 | 157 | 10 | 958 | - 1,623 (1.23%) |   
+| [2023-03-01 to 2023-03-20](/polkadot/2048-bitgreen/2023-03-31.md) | 284,654 | 417,357 | 131,081 | 157 | 11 | 958 | - 1,623 (1.22%) |   
 | [2023-02-01 to 2023-02-28](/polkadot/2048-bitgreen/2023-02-28.md) | 91,749 | 284,653 | 192,905 | 131 | 7 | 782 | -   |   
-| [2023-01-17 to 2023-01-31](/polkadot/2048-bitgreen/2023-01-31.md) | 1 | 91,748 | 91,748 | 8 | 1 | 179 | -   |   
+| [2023-01-17 to 2023-01-31](/polkadot/2048-bitgreen/2023-01-31.md) | 1 | 91,748 | 91,748 | 12 | 1 | 179 | -   |   
 
 ## substrate-etl Tables:
 
