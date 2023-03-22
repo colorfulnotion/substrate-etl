@@ -5,14 +5,14 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-03-21 | 17,141,708 |  286,081 | 401 (0.00%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-03-22 | 17,141,708 |  286,081 | 401 (0.00%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-03-22 | 4,118,210 |  51,964 | 4,602 (0.11%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-03-22 | 2,537,030 |  65 | 6,164 (0.24%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-03-22 | 434,121 |   |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-03-22 | 3,954,950 |  95,317 | 1 (0.00%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-03-22 | 3,784,707 |  101,153 |    |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-03-22 | 3,784,707 |  101,153 | 3 (0.00%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-03-22 | 3,545,099 |  24,032 | 479,738 (13.53%) Only partial index available: Old Decoding issues |
-| [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-03-22 | 3,631,008 |  633,498 | 209,841 (5.78%) Only partial index available: Old Decoding issues |
+| [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-03-22 | 3,631,008 |  633,498 | 209,844 (5.78%) Only partial index available: Old Decoding issues |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-03-22 | 2,579,136 |  3,207 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-03-22 | 2,270,270 |  12,982 |    |
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-03-22 | 3,870,331 |  246,966 |    |
