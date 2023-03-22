@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-03-22 | 17,147,464 |  286,081 | 401 (0.00%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-03-22 | 17,147,464 |  286,081 | 371 (0.00%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-03-22 | 4,119,098 |  51,964 | 12 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-03-22 | 2,538,050 |  65 | 6,165 (0.24%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-03-22 | 435,117 |   |    |
@@ -20,7 +20,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-03-22 | 2,735,379 |  2,955 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-03-22 | 3,341,697 |  36,108 | 2,294 (0.07%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-03-22 | 3,183,743 |  24,317 | 1 (0.00%)  |
-| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-03-22 | 2,032,236 |  2,720 | 10,863 (0.53%)  |
+| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-03-22 | 2,032,236 |  2,720 | 6,649 (0.33%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-03-22 | 2,740,487 |  29,428 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-03-22 | 3,003,610 |  18,395 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-03-22 | 2,675,091 |  16,082 | 8 (0.00%)  |
