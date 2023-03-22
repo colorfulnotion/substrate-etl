@@ -83,5 +83,10 @@
     "mode": "NULLABLE",
     "name": "price_usd",
     "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nonce",
+    "type": "INTEGER"
   }
 ]

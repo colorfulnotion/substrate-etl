@@ -6,6 +6,16 @@
   },
   {
     "mode": "NULLABLE",
+    "name": "xcm_interior_key",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "xcm_interior_keys_unregistered",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
     "name": "price_usd",
     "type": "FLOAT"
   },

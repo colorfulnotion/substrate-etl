@@ -52,5 +52,11 @@
     "name": "block_hash",
     "type": "STRING",
     "description": "Block hash of the block that includes this event"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "data_decoded",
+    "type": "JSON",
+    "description": "Decoded JSON data of the event, if available"
   }
 ]

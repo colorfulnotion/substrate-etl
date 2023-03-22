@@ -1,52 +1,61 @@
-[
-  {
-    "mode": "REQUIRED",
-    "name": "msg_hash",
-    "type": "STRING"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "origination_ts",
-    "type": "TIMESTAMP"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "origination_para_id",
-    "type": "INTEGER"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "destination_para_id",
-    "type": "INTEGER"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "relayed_at",
-    "type": "INTEGER"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "included_at",
-    "type": "INTEGER"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "msg",
-    "type": "STRING"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "msg_hex",
-    "type": "STRING"
-  },
-  {
-    "mode": "REQUIRED",
-    "name": "msg_type",
-    "type": "STRING"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "version",
-    "type": "STRING"
-  }
+[{
+        "mode": "REQUIRED",
+        "name": "msg_hash",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "origination_ts",
+        "type": "TIMESTAMP"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "origination_para_id",
+        "type": "INTEGER"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "destination_para_id",
+        "type": "INTEGER"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "relayed_at",
+        "type": "INTEGER"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "included_at",
+        "type": "INTEGER"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "msg",
+        "type": "STRING"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "msg_hex",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "msg_type",
+        "type": "STRING"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "version",
+        "type": "STRING"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "xcm_interior_keys",
+        "type": "JSON"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "xcm_interior_keys_unregistered",
+        "type": "JSON"
+    }
 ]

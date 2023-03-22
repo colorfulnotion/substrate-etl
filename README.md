@@ -1,7 +1,7 @@
 
 # Substrate ETL
 
-***Status: As of March 2023, this is under active development, but we welcome feedback.***
+**Status: As of March 2023, substrate-etl is under active development as a [Substrate XCM Big Data project](https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit) (feedback welcome, add comments in the doc!)**
 
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,

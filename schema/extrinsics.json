@@ -61,6 +61,12 @@
   },
   {
     "mode": "NULLABLE",
+    "name": "fee_usd",
+    "type": "FLOAT",
+    "description": "Fee USD of extrinsic (if available)"
+  },
+  {
+    "mode": "NULLABLE",
     "name": "weight",
     "type": "INTEGER",
     "description": "Extrinsic weight (if available)"
