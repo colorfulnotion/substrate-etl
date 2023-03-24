@@ -43,8 +43,8 @@ Missing chains
 
 * *Polkadex* Para ID 2040; No Public Websocket Endpoint available: Not indexing yet.
 * *Aventus* Para ID 2056; No Public Websocket Endpoint available: Not indexing yet.
-* *TBD2* Para ID 2092; 
-* *null* Para ID 2104; 
-* *TBD* Para ID 3333; No public endpoint
+* *Zeitgeist2* Para ID 2092; 
+* *Manta* Para ID 2104; 
+* *T3rn* Para ID 3333; No public endpoint
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
