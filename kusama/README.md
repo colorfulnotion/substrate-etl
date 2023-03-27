@@ -52,5 +52,6 @@ Missing chains
 * *SORA* Para ID 2011; No Public Websocket Endpoint available: Not indexing yet.
 * *TBD* Para ID 2258; 
 * *TBD* Para ID 2262; No public endpoint
+* *null* Para ID 2264; 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
