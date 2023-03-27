@@ -27,18 +27,18 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-03-27 | 2,188,649 |  3,162 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-03-27 | 2,000,874 |  23,290 |    |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-03-27 | 1,247,288 |  1 |    |
-| [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-03-27 | 2,039,803 |  3,520 | 7,130 (0.35%)  |
+| [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-03-27 | 2,039,803 |  3,520 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-03-27 | 1,119,314 |  21 |    |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-03-27 | 452,842 |  909 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-03-27 | 844,943 |  9 |    |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-03-27 | 795,302 |  1,107 |    |
-| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-04 | 2023-03-27 | 134,165 |   | 2,319 (1.73%) Onboarding |
+| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-04 | 2023-03-27 | 134,165 |   | 1,511 (1.13%) Onboarding |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-03-27 | 3,443,389 |  18,186 | 554 (0.02%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-03-27 | 827,605 |  22 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-03-27 | 196,422 |  544 |   Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-03-27 | 261,232 |  420 |    |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-03-27 | 35,299 |  9 | 12,512 (35.45%) Onboarding |
-| [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-03-27 | 133,883 |  2 | 27,898 (20.84%) Onboarding |
+| [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-03-27 | 133,883 |  2 | 14,208 (10.61%) Onboarding |
 
 Missing chains
 
