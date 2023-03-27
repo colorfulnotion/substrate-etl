@@ -32,13 +32,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-03-27 | 452,842 |  909 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-03-27 | 844,943 |  9 |    |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-03-27 | 795,302 |  1,107 |    |
-| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-04 | 2023-03-27 | 134,165 |   | 1,511 (1.13%) Onboarding |
+| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-04 | 2023-03-27 | 134,165 |   | 1,507 (1.12%) Onboarding |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-03-27 | 3,443,389 |  18,186 | 554 (0.02%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-03-27 | 827,605 |  22 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-03-27 | 196,422 |  544 |   Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-03-27 | 261,232 |  420 |    |
-| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-03-27 | 35,299 |  9 | 12,379 (35.07%) Onboarding |
-| [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-03-27 | 133,883 |  2 | 14,208 (10.61%) Onboarding |
+| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-03-27 | 35,299 |  9 | 11,789 (33.40%) Onboarding |
+| [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-03-27 | 133,883 |  2 | 14,113 (10.54%) Onboarding |
 
 Missing chains
 
