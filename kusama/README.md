@@ -22,7 +22,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-03-28 | 3,224,763 |  24,321 | 1 (0.00%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-03-28 | 2,073,352 |  2,738 | 1,192 (0.06%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-03-28 | 2,778,886 |  29,456 | 2 (0.00%)  |
-| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-03-28 | 3,043,118 |  18,405 | 6,759 (0.22%)  |
+| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-03-28 | 3,043,118 |  18,405 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-03-28 | 2,715,991 |  16,111 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-03-28 | 2,789,809 |  79,497 |    |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-03-28 | 2,828,540 |  24,770 |    |
