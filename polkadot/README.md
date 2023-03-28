@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-03-28 | 894,499 |  11 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-03-28 | 3,235,236 |  167,769 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-03-28 | 3,148,557 |  2,189 | 299 (0.01%)  |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-03-28 | 3,231,629 |  1,066,044 | 503 (0.02%)  |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-03-28 | 3,231,629 |  1,066,044 | 8 (0.00%)  |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-03-28 | 3,227,632 |  495,765 |    |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-03-28 | 1,359,676 |  1,055 | 7,125 (0.52%)  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-03-28 | 877,025 |  992 |    |
@@ -32,12 +32,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-03-28 | 467,004 |  913 | 7,081 (1.52%)  |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-03-28 | 852,101 |  9 |    |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-03-28 | 798,896 |  1,107 |    |
-| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-04 | 2023-03-28 | 134,165 |   | -12  Onboarding |
+| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-04 | 2023-03-28 | 134,165 |   | -16  Onboarding |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-03-28 | 3,450,520 |  18,189 | 554 (0.02%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-03-28 | 834,758 |  22 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-03-28 | 203,542 |  544 | 216 (0.11%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-03-28 | 268,383 |  430 |    |
-| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-03-28 | 42,418 |  9 | 10,880 (25.65%) Onboarding |
+| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-03-28 | 42,418 |  9 | 10,024 (23.63%) Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-03-28 | 141,055 |  2 | 14,090 (9.99%) Onboarding |
 
 Missing chains
