@@ -4,7 +4,7 @@ _Source_: [watr.polkaholic.io](https://watr.polkaholic.io)
 
 *Relay Chain*: polkadot
 *Para ID*: 2058
-Status: Onboarding
+
 
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |

@@ -4,7 +4,7 @@ _Source_: [t3rn.polkaholic.io](https://t3rn.polkaholic.io)
 
 *Relay Chain*: polkadot
 *Para ID*: 3333
-Status: Onboarding
+
 
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
