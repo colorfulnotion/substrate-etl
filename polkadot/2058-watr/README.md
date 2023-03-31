@@ -9,7 +9,7 @@ _Source_: [watr.polkaholic.io](https://watr.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-03-14 to 2023-03-30](/polkadot/2058-watr/2023-03-31.md) | 1 | 115,159 | 107,368 |  |  | 9 | - 7,791 (6.77%) |   
+| [2023-03-14 to 2023-03-31](/polkadot/2058-watr/2023-03-31.md) | 1 | 115,159 | 107,368 |  |  | 9 | - 7,791 (6.77%) |   
 
 ## substrate-etl Tables:
 
