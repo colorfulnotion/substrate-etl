@@ -32,7 +32,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-03-31 | 495,252 |  925 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-03-31 | 873,435 |  9 |    |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-03-31 | 813,258 |  1,107 |    |
-| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-03-31 | 122,276 |  9 | 7,791 (6.37%)  |
+| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-03-31 | 122,276 |  9 | 7,426 (6.07%)  |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-03-31 | 3,478,963 |  18,200 | 554 (0.02%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-03-31 | 863,256 |  22 | 7,104 (0.82%)  |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-03-31 | 231,212 |  544 | 241 (0.10%) Only partial index available: Archive node unavailable |
