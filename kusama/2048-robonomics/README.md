@@ -9,7 +9,7 @@ _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-04-01 to 2023-04-01](/kusama/2048-robonomics/2023-04-30.md) |  |  |  |  |  |  | -   |   
+| [2023-04-01 to 2023-04-01](/kusama/2048-robonomics/2023-04-30.md) |  |  |  |  |  | 2,978 | -   |   
 | [2023-03-01 to 2023-03-31](/kusama/2048-robonomics/2023-03-31.md) | 2,584,800 | 2,797,914 | 213,115 | 52,582 | 29 | 2,978 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2048-robonomics/2023-02-28.md) | 2,385,571 | 2,584,799 | 199,229 | 37,998 | 35 | 2,937 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2048-robonomics/2023-01-31.md) | 2,165,671 | 2,385,570 | 219,900 | 36,137 | 32 | 2,867 | -   |   
