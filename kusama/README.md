@@ -11,7 +11,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-04-04 | 525,472 |   | 14,071 (2.68%)  |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-04-04 | 4,046,393 |  95,689 | 1 (0.00%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-04-04 | 3,874,576 |  101,258 | 6,972 (0.18%)  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-04-04 | 3,629,214 |  24,685 | 479,740 (13.22%) Only partial index available: Old Decoding issues |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-04-04 | 3,629,214 |  24,685 | 479,738 (13.22%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-04-04 | 3,718,838 |  633,908 | 209,844 (5.64%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-04-03 | 1,379,627 |  3 | 282 (0.02%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-04-04 | 2,668,009 |  3,210 | 6,835 (0.26%)  |
