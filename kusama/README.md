@@ -33,7 +33,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-05 | 1,692,086 |  5,210 | 6,968 (0.41%)  |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-05 | 2,328,212 |  13,912 | 7,049 (0.30%)  |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-05 | 2,046,769 |  1,895 | 1 (0.00%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-02 | 1,536,314 |  13,227 |    |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-05 | 1,550,396 |  13,227 | 10,455 (0.67%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-04-05 | 2,308,547 |  7,609 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-05 | 1,736,287 |  370 | 5,858 (0.34%)  |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-04-05 | 1,778,572 |  3,623 | 2,528 (0.14%) Only partial index available: Archive node unavailable |
