@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-04-06 | 17,356,299 |  287,594 | 371 (0.00%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-04-06 | 17,356,299 |  287,613 | 371 (0.00%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-04-06 | 4,220,954 |  51,964 | 7,000 (0.17%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-04-05 | 2,641,439 |  741,205 | 406,803 (15.40%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-04-06 | 539,176 |   | 14,071 (2.61%)  |
@@ -30,7 +30,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-06 | 2,567,071 |  33,765 | 45,822 (1.78%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-06 | 2,672,284 |  15,631 | 21,856 (0.82%)  |
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-06 | 1,524,842 |  1,146 |    |
-| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-06 | 1,692,086 |  5,210 | 6,968 (0.41%)  |
+| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-06 | 1,692,086 |  5,212 | 6,968 (0.41%)  |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-06 | 2,341,910 |  13,912 | 13,891 (0.59%)  |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-06 | 2,060,396 |  1,897 | 6,810 (0.33%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-06 | 1,555,096 |  13,227 | 4,338 (0.28%)  |
