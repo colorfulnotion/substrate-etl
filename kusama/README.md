@@ -28,10 +28,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-06 | 2,852,692 |  80,114 | 7,030 (0.25%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-04-06 | 2,884,266 |  24,830 | 7,015 (0.24%)  |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-06 | 2,567,071 |  33,765 | 45,822 (1.78%) Only partial index available: Onboarding |
-| [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-06 | 2,672,284 |  15,631 | 21,856 (0.82%)  |
+| [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-06 | 2,672,284 |  15,631 | 21,468 (0.80%)  |
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-06 | 1,524,842 |  1,146 |    |
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-06 | 1,692,086 |  5,212 | 6,968 (0.41%)  |
-| [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-06 | 2,341,910 |  13,912 | 6,842 (0.29%)  |
+| [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-06 | 2,341,910 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-06 | 2,060,396 |  1,897 | 6,810 (0.33%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-06 | 1,555,096 |  13,227 | 4,338 (0.28%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-04-06 | 2,315,419 |  7,610 |    |
