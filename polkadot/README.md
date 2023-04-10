@@ -9,13 +9,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-04-10 | 3,593,873 |  676 |    |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-04-10 | 987,342 |  14 | 14,253 (1.44%)  |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-04-10 | 3,327,849 |  167,769 |    |
-| [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-04-10 | 3,239,069 |  2,210 | 18 (0.00%)  |
+| [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-04-10 | 3,239,069 |  2,210 |    |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-04-10 | 3,320,080 |  1,092,321 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-04-10 | 3,320,203 |  500,037 |    |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-04-10 | 1,452,381 |  1,055 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-04-10 | 946,633 |  996 | 5,337 (0.56%)  |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-04-10 | 2,119,381 |  8,591 | 13,459 (0.64%)  |
-| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-04-10 | 3,274,894 |  47,504 | 21,382 (0.65%)  |
+| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-04-10 | 3,274,894 |  47,504 | 21,367 (0.65%)  |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-04-10 | 2,059,513 |  4,775 | 7,152 (0.35%)  |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-04-10 | 1,766,730 |  8 | 912,531 (51.65%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-04-10 | 2,460,662 |  16,206 |    |
@@ -37,7 +37,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-04-10 | 927,569 |  33 | 21,384 (2.31%)  |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-04-10 | 293,512 |  544 | 242 (0.08%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-04-10 | 360,653 |  720 | 14,163 (3.93%)  |
-| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-04-10 | 133,603 |  9 | 34,621 (25.91%) Onboarding |
+| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-04-10 | 133,603 |  9 | 34,274 (25.65%) Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-04-10 | 234,087 |  2 | 14,331 (6.12%)  |
 
 Missing chains
