@@ -25,7 +25,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-04-10 | 2,864,224 |  29,566 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-04-10 | 3,130,603 |  18,471 | 13,314 (0.43%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-04-10 | 2,806,296 |  16,425 | 6,859 (0.24%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-10 | 2,881,014 |  80,117 | 7,030 (0.24%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-10 | 2,881,205 |  80,117 | 70,266 (2.44%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-04-10 | 2,919,249 |  24,853 | 13,779 (0.47%)  |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-10 | 2,595,585 |  33,765 | 45,822 (1.77%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-10 | 2,693,707 |  15,633 | 21,385 (0.79%)  |
