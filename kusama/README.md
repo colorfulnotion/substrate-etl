@@ -25,7 +25,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-04-11 | 2,870,858 |  29,567 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-04-11 | 3,137,198 |  18,472 | 13,314 (0.42%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-04-11 | 2,806,296 |  16,426 | 6,859 (0.24%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-11 | 2,888,099 |  80,117 | 70,457 (2.44%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-11 | 2,888,099 |  80,117 | 70,266 (2.43%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-04-11 | 2,919,249 |  24,856 | 13,779 (0.47%)  |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-11 | 2,602,696 |  33,765 | 45,822 (1.76%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-11 | 2,708,005 |  15,633 | 28,544 (1.05%)  |
@@ -33,7 +33,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-11 | 1,692,086 |  5,220 | 6,968 (0.41%)  |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-11 | 2,377,241 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-11 | 2,095,602 |  1,905 | 6,810 (0.32%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-11 | 1,581,239 |  13,227 | 1,640,392 (103.74%)  |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-11 | 1,581,239 |  13,227 | 3,232,205 (204.41%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-04-11 | 2,350,794 |  7,610 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-11 | 1,771,970 |  370 | 5,858 (0.33%)  |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-04-11 | 1,820,735 |  3,623 | 2,528 (0.14%) Only partial index available: Archive node unavailable |
