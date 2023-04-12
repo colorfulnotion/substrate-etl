@@ -37,7 +37,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-04-12 | 941,839 |  33 | 21,384 (2.27%)  |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-04-12 | 307,351 |  544 | 242 (0.08%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-04-12 | 367,757 |  722 | 14,163 (3.85%)  |
-| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-04-12 | 147,778 |  9 | 33,996 (23.00%) Onboarding |
+| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-04-12 | 147,778 |  9 | 33,698 (22.80%) Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-04-12 | 241,243 |  2 | 14,331 (5.94%)  |
 
 Missing chains
