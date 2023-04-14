@@ -29,7 +29,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-04-14 | 2,947,464 |  24,866 | 20,835 (0.71%)  |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-14 | 2,624,122 |  33,765 | 45,822 (1.75%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-14 | 2,729,472 |  15,638 | 28,544 (1.05%)  |
-| [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-14 | 1,553,432 |  1,146 | 3,577 (0.23%)  |
+| [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-14 | 1,553,432 |  1,146 |    |
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-14 | 1,692,086 |  5,225 | 13,439 (0.79%)  |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-14 | 2,398,465 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-14 | 2,116,796 |  1,910 | 6,810 (0.32%)  |
