@@ -9,7 +9,7 @@ _Source_: [t3rn.polkaholic.io](https://t3rn.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-04-01 to 2023-04-13](/polkadot/3333-t3rn/2023-04-30.md) | 169,689 | 255,581 | 64,400 |  | 2 | 2 | - 21,493 (25.02%) |   
+| [2023-04-01 to 2023-04-14](/polkadot/3333-t3rn/2023-04-30.md) | 169,689 | 262,738 | 71,557 |  | 2 | 2 | - 21,493 (23.10%) |   
 | [2023-03-07 to 2023-03-31](/polkadot/3333-t3rn/2023-03-31.md) | 1 | 162,529 | 162,529 |  | 2 | 2 | -  **BROKEN**  |   
 
 ## substrate-etl Tables:
