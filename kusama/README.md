@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-04-15 | 1,476,040 |  958 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-04-15 | 1,551,676 |  7,758 | 7,063 (0.46%)  |
 | [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-04-15 | 1,392,945 |  5,831 | 93,630 (6.72%) Only partial index available: Archive node unavailable |
-| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-04-14 | 1,123,332 |  891 | 34,957 (3.11%)  |
+| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-04-15 | 1,124,582 |  891 | 36,144 (3.21%)  |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-04-15 | 829,089 |  6 | 2 (0.00%) Endpoint not reachable |
 
 Missing chains
