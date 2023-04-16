@@ -25,7 +25,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-04-16 | 2,903,947 |  29,572 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-04-16 | 3,171,348 |  18,475 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-04-16 | 2,848,133 |  16,432 | 8 (0.00%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-16 | 2,923,553 |  80,119 | 64,841 (2.22%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-16 | 2,923,553 |  80,119 | 64,632 (2.21%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-04-16 | 2,961,555 |  24,871 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-16 | 2,638,379 |  33,766 | 45,822 (1.74%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-16 | 2,743,795 |  15,642 |    |
@@ -33,7 +33,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-16 | 1,692,086 |  5,229 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-16 | 2,412,604 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-16 | 2,130,786 |  1,912 | 1 (0.00%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-16 | 1,612,297 |  13,227 | 3,231,838 (200.45%)  |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-16 | 1,612,297 |  13,227 | 3,232,365 (200.48%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-04-16 | 2,384,417 |  7,612 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-16 | 1,802,001 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-04-16 | 1,856,050 |  3,623 | 2,528 (0.14%) Only partial index available: Archive node unavailable |
