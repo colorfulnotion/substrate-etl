@@ -19,10 +19,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-04-16 | 2,109,643 |  4,780 |    |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-04-16 | 1,809,469 |  9 | 901,328 (49.81%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-04-16 | 2,493,035 |  16,210 |    |
-| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-04-16 | 2,479,581 |  742,238 | 701,770 (28.30%)  |
+| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-04-16 | 2,479,581 |  742,238 | 701,544 (28.29%)  |
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-04-16 | 2,157,846 |  4,155 | 1 (0.00%)  |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-04-16 | 2,748,856 |  45,085 |    |
-| [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-04-16 | 2,533,086 |  11,562 | 637,109 (25.15%)  |
+| [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-04-16 | 2,533,086 |  11,562 | 632,222 (24.96%)  |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-04-16 | 2,354,505 |  23,439 |    |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-04-16 | 2,331,704 |  3,218 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-04-16 | 2,144,198 |  24,026 |    |
@@ -32,9 +32,9 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-04-16 | 600,885 |  1,018 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-04-16 | 987,886 |  9 |    |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-04-16 | 867,191 |  1,107 |    |
-| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-16 | 229,462 |  9 | 3,114 (1.36%)  |
+| [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-16 | 229,462 |  9 | 2,899 (1.26%)  |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-04-16 | 3,585,892 |  18,322 | 554 (0.02%)  |
-| [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-04-16 | 970,409 |  33 | 2 (0.00%)  |
+| [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-04-16 | 970,409 |  33 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-04-16 | 334,999 |  544 | 242 (0.07%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-04-16 | 403,293 |  730 |    |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-04-16 | 175,896 |  9 | 33,698 (19.16%) Onboarding |
