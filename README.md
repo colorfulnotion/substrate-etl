@@ -1,8 +1,9 @@
 
 # Substrate ETL
 
-**Status: As of April 2023, substrate-etl is under consideration as part of a Polkadot Treasury funded project proposal (https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit), curated by the
-Parity data team (see [Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)) as part of a broader Polkadot Data Alliance.**
+**Status: As of April 2023, substrate-etl is under consideration as part of a 
+[Polkadot Treasury-funded bounty proposal](https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit), curated by the
+Parity data team, as part of a broader "Polkadot Data Alliance" (see [select * from polkadot/Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)).**
 
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,
@@ -15,19 +16,33 @@ Network Summary: (All-time, Monthly, Daily)
 * [Polkadot](/polkadot)
 * [Kusama](/kusama)
 
-Included in each summary are sample queries.  Chain data is summary dashboard of the last 30 days of the raw data is available:
+Included in each summary are sample queries and a complete breakdown.  Chain data is appended daily.  
+
+A summary dashboard of the last 30 days and the last 1 hour is available:
 * [Polkadot + Kusama Indexing (Last 30 days)](https://analytics.polkaholic.io/superset/dashboard/f5840894-9c5d-47b1-b4c1-9dd4781a6b5c/)
 * [Real-time Dashboard (Last 1hour to 1d)](https://analytics.polkaholic.io/superset/dashboard/92307bef-6173-4df6-ba1d-b97a71bb04e8/)
 
+### Quick Start
 
-### Quick Start!
+`substrate-etl` is a public project within BigQuery which anyone can access:
 
-Key steps:
-1. Get a [Google Cloud Platform](https://cloud.google.com/) account, and go to the [Google Cloud BigQuery](https://cloud.google.com/bigquery) console.
+1. Get a [Google Cloud Platform](https://cloud.google.com/) account, and go to the [Google Cloud BigQuery](https://cloud.google.com/bigquery) console:
 
-2. Click on "Add Data" and then star the `substrate-etl` project, which is a public dataset.
+<img src="https://cdn.polkaholic.io/substrate-etl/gcp-1.jpg" width="400"/>
 
-3. Open the query editor and try some of the queries below:
+2. Click on "Add Data" and then "Star a project by name"
+
+<img src="https://cdn.polkaholic.io/substrate-etl/gcp-2.jpg" width="400"/>
+
+3. Enter "substrate-etl", which is a public BigQuery project.  
+
+<img src="https://cdn.polkaholic.io/substrate-etl/gcp-3.jpg" width="400"/>
+ 
+4. You now can see hundreds of BigQuery  tables in the public `polkadot` and `kusama` datasets:
+
+<img src="https://cdn.polkaholic.io/substrate-etl/gcp-4.jpg" width="400"/>
+
+5. Open the query editor and try some of the queries below:
 
 _Get blocks of paraid 2007_ ([Schema](#blocksjson)):
 ```bash
@@ -44,8 +59,7 @@ _Get XCM Transfers of Polkadot Network_ ([Schema](#xcmtransfersjson)):
 select * from `substrate-etl.polkadot.xcmtransfers` where DATE(origination_ts) >= "2023-04-01" and DATE(origination_ts) <= "2023-04-30"
 ```
 
-See also this [XCM Transfers blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9).  
-
+Schemas for several of the most common source tables are listed below -- a full list of schemas can be found [here](/schema) with further details below.
 
 
 ### Public Datasets in BigQuery
@@ -87,15 +101,6 @@ Notes:
 * System tables (`chains`, `assets`, `xcmassets`, `xcmtransfers`, `xcm`) are not specific to any parachain and apply to the whole relay chain.
 * All tables (except for `chains`, `assets` and `xcmassets`) are date-partitioned to support low cost, high speed scans.
 * If a parachain has a renewal, the first paraid assigned is used for subsequent renewals.
-
-Schemas for several of the most common source tables are listed below -- a full list of schemas can be found [here](/schema).
-
-Substrate has preliminary EVM support:
-
-* _EVM Transactions_: `substrate-etl.${relayChain}.evmtxs{paraID}` (date-partitioned by `block_time`) - [Schema](/schema/evmtxs.json)
-* _EVM Transfers_: `substrate-etl.${relayChain}.evmtransfers${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/evmtransfers.json)
-* _Active Accounts_: `substrate-etl.${relayChain}.accountsevmactive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsevmactive.json)
-* _Passive Accounts_: `substrate-etl.${relayChain}.accountsevmpassive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsevmpassive.json)
 
 ### chains.json
 
@@ -307,15 +312,15 @@ Spring 2023
 * [x] Daily/hourly dump via [Github workflow](https://github.com/colorfulnotion/substrate-etl/actions)
 * [x] Hourly summary [report](SUMMARY) for all reachable parachains
 * [x] On-chain activity metrics: {active, passive, reaped, new} users, {numSignedExtrinsics, numTransfers, numXCMTransfers} modeled in bigQuery
+* [ ] GKE systematization, Reliability Improvements
 * [ ] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
 
 Summer/Fall 2023
-* [ ] XCM Message table design (after XCMv3 release)
-* [ ] Full XCMv3 Multilocation support
-* [ ] Dotsama metrics - user activities, xcm activities across the whole ecosystem, also in bigQuery
-* [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
 * [ ] EVM Chain Support: Transaction / Transfers, Contracts, Tokens / UniswapV2
-* [ ] GKE systematization, Reliability Improvements
+* [ ] XCM Message table redesign
+* [ ] Full XCMv3 Multilocation support
+* [ ] Dotsama metrics 
+* [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
 * [ ] New functionality based on community feedback
 
 Fall/Winter 2023
