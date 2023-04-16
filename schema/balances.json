@@ -1,46 +1,46 @@
 [
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "symbol",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "address_ss58",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "address_pubkey",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "ts",
     "type": "TIMESTAMP"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "id",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "chain_name",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "asset",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "para_id",
     "type": "INTEGER"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "free",
     "type": "FLOAT"
   },
@@ -50,7 +50,12 @@
     "type": "FLOAT"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
+    "name": "free_raw",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
     "name": "reserved",
     "type": "FLOAT"
   },
@@ -60,7 +65,12 @@
     "type": "FLOAT"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
+    "name": "reserved_raw",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
     "name": "misc_frozen",
     "type": "FLOAT"
   },
@@ -70,7 +80,12 @@
     "type": "FLOAT"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
+    "name": "misc_frozen_raw",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
     "name": "frozen",
     "type": "FLOAT"
   },
@@ -78,6 +93,11 @@
     "mode": "NULLABLE",
     "name": "frozen_usd",
     "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "frozen_raw",
+    "type": "STRING"
   },
   {
     "mode": "NULLABLE",

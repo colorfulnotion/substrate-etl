@@ -1,0 +1,20 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "address_pubkey",
+        "type": "STRING",
+        "description": "The Exchange account's pubkey"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "address_nickname",
+        "type": "STRING",
+        "description": "The nickname of the Exchange account"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "address_label",
+        "type": "STRING",
+        "description": "The label of the exchange"
+    }
+]

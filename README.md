@@ -1,7 +1,8 @@
 
 # Substrate ETL
 
-**Status: As of March 2023, substrate-etl is under active development as a [Substrate XCM Big Data project](https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit) (feedback welcome, add comments in the doc!)**
+**Status: As of April 2023, substrate-etl is under consideration as part of a Polkadot Treasury funded project proposal (https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit), curated by the
+Parity data team (see [Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)) as part of a broader Polkadot Data Alliance.**
 
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,
@@ -13,40 +14,20 @@ of Polkadot + Kusama networks into public Google BigQuery datasets
 Network Summary: (All-time, Monthly, Daily)
 * [Polkadot](/polkadot)
 * [Kusama](/kusama)
-* [All Networks (Polkadot+Kusama)](SUMMARY.md)
 
-Chain data is appended daily.  Included in each summary are sample queries.  See also this [XCM Transfers blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9).  
-
-### Roadmap
-
-Spring 2023
-* [x] Initial table designs {blocks, extrinsics, events, trasnfers, balances, xcmTransfers}
-* [x] Daily/hourly dump via [Github workflow](https://github.com/colorfulnotion/substrate-etl/actions)
-* [x] Hourly summary [report](SUMMARY) for all reachable parachains
-* [x] On-chain activity metrics: {active, passive, reaped, new} users, {numSignedExtrinsics, numTransfers, numXCMTransfers} modeled in bigQuery
-* [ ] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
-
-Summer/Fall 2023
-* [ ] XCM Message table design (after XCMv3 release)
-* [ ] Full XCMv3 Multilocation support
-* [ ] Dotsama metrics - user activities, xcm activities across the whole ecosystem, also in bigQuery
-* [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
-* [ ] EVM Chain Support: Transaction / Transfers, Contracts, Tokens / UniswapV2
-* [ ] GKE systematization, Reliability Improvements
-* [ ] New functionality based on community feedback
-
-Fall/Winter 2023
-
-* [ ] Bridgehub integration
-* [ ] Basic Wasm contract support (psp22, events, bytecode)
-* [ ] Reporting on Comparison to other ecosystems also modelled in BigQuery
-* [ ] Solochain, testnet integration based on community feedback
-* [ ] New functionality based on community feedback
+Included in each summary are sample queries.  Chain data is summary dashboard of the last 30 days of the raw data is available:
+* [Polkadot + Kusama Indexing (Last 30 days)](https://analytics.polkaholic.io/superset/dashboard/f5840894-9c5d-47b1-b4c1-9dd4781a6b5c/)
+* [Real-time Dashboard (Last 1hour to 1d)](https://analytics.polkaholic.io/superset/dashboard/92307bef-6173-4df6-ba1d-b97a71bb04e8/)
 
 
-### Quick Start
+### Quick Start!
 
-You can access Substrate ETL data using the [Google Cloud BigQuery](https://cloud.google.com/bigquery) console.
+Key steps:
+1. Get a [Google Cloud Platform](https://cloud.google.com/) account, and go to the [Google Cloud BigQuery](https://cloud.google.com/bigquery) console.
+
+2. Click on "Add Data" and then star the `substrate-etl` project, which is a public dataset.
+
+3. Open the query editor and try some of the queries below:
 
 _Get blocks of paraid 2007_ ([Schema](#blocksjson)):
 ```bash
@@ -60,8 +41,11 @@ select * from `substrate-etl.kusama.extrinsics2007` where DATE(block_time) >= "2
 
 _Get XCM Transfers of Polkadot Network_ ([Schema](#xcmtransfersjson)):
 ```bash
-select * from `substrate-etl.polkadot.xcmtransfers` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
+select * from `substrate-etl.polkadot.xcmtransfers` where DATE(origination_ts) >= "2023-04-01" and DATE(origination_ts) <= "2023-04-30"
 ```
+
+See also this [XCM Transfers blog post](https://colorfulnotion.medium.com/polkaholic-ios-2022-xcm-transfers-in-bigquery-public-dataset-substrate-etl-polkadot-xcmtransfers-dfa6f2261ce9).  
+
 
 
 ### Public Datasets in BigQuery
@@ -316,7 +300,33 @@ and for every single chain that is being indexed.  See the report **Issues** col
 * When assets are mentioned (transfers, xcmtransfers), we "decimalize" the output and include basic USD price valuation if possible.  Many assets are not valued with USD values in this way.
 
 
-Your feedback is important -- please [submit an issue](https://github.com/colorfulnotion/substrate-etl/issues).
+### Roadmap
+
+Spring 2023
+* [x] Initial table designs {blocks, extrinsics, events, trasnfers, balances, xcmTransfers}
+* [x] Daily/hourly dump via [Github workflow](https://github.com/colorfulnotion/substrate-etl/actions)
+* [x] Hourly summary [report](SUMMARY) for all reachable parachains
+* [x] On-chain activity metrics: {active, passive, reaped, new} users, {numSignedExtrinsics, numTransfers, numXCMTransfers} modeled in bigQuery
+* [ ] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
+
+Summer/Fall 2023
+* [ ] XCM Message table design (after XCMv3 release)
+* [ ] Full XCMv3 Multilocation support
+* [ ] Dotsama metrics - user activities, xcm activities across the whole ecosystem, also in bigQuery
+* [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
+* [ ] EVM Chain Support: Transaction / Transfers, Contracts, Tokens / UniswapV2
+* [ ] GKE systematization, Reliability Improvements
+* [ ] New functionality based on community feedback
+
+Fall/Winter 2023
+
+* [ ] Bridgehub integration
+* [ ] Basic Wasm contract support (psp22, events, bytecode)
+* [ ] Reporting on Comparison to other ecosystems also modelled in BigQuery
+* [ ] Solochain, testnet integration based on community feedback
+* [ ] New functionality based on community feedback
+
+Your feedback and your ideas are important -- please [submit an issue](https://github.com/colorfulnotion/substrate-etl/issues) or reach out to us on Telegram (@sourabhniyogi) or [Matrix](https://matrix.to/#/#polkaholic:matrix.org).
 
 ### Contributions
 

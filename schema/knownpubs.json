@@ -1,0 +1,27 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "address_pubkey",
+        "type": "STRING",
+        "description": "The account's pubkey"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "address_nickname",
+        "type": "STRING",
+        "description": "The nickname of the account"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "address_label",
+        "type": "STRING",
+        "description": "Public label"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "account_type",
+        "type": "STRING",
+        "description": "The account type (system, exchange, scam, sanctions..)"
+    }
+
+]

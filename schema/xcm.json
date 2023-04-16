@@ -18,6 +18,16 @@
         "name": "destination_para_id",
         "type": "INTEGER"
     },
+  {
+    "mode": "NULLABLE",
+    "name": "origination_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "destination_id",
+    "type": "STRING"
+  },
     {
         "mode": "NULLABLE",
         "name": "relayed_at",
