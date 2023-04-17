@@ -7,7 +7,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-04-17 | 17,513,969 |  287,879 | 371 (0.00%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-04-17 | 4,296,854 |  51,964 | 12 (0.00%)  |
-| [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-04-17 | 2,718,838 |  65 | 85,814 (3.16%) Only partial index available: Old Decoding issues |
+| [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-04-17 | 2,718,838 |  65 | 1,027,656 (37.80%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-04-17 | 616,333 |   | 2 (0.00%)  |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-04-17 | 4,138,098 |  95,746 | 1 (0.00%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-04-17 | 3,965,248 |  101,280 | 3 (0.00%)  |
@@ -33,7 +33,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-17 | 1,692,086 |  5,230 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-17 | 2,419,614 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-17 | 2,137,782 |  1,913 | 1 (0.00%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-17 | 1,618,210 |  13,227 | 3,261,108 (201.53%)  |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-17 | 1,622,757 |  13,227 | 3,349,770 (206.42%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-04-17 | 2,390,943 |  7,613 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-17 | 1,807,959 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-04-17 | 1,863,051 |  3,881 | 2,528 (0.14%) Only partial index available: Archive node unavailable |
@@ -43,7 +43,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-04-17 | 1,191,243 |  1,348 |    |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-04-17 | 1,489,475 |  959 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-04-17 | 1,565,760 |  7,758 |    |
-| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-04-17 | 1,406,963 |  5,956 | 93,630 (6.65%) Only partial index available: Archive node unavailable |
+| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-04-17 | 1,406,963 |  5,958 | 93,630 (6.65%) Only partial index available: Archive node unavailable |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-04-17 | 1,138,733 |  891 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-04-17 | 842,805 |  6 | 2 (0.00%) Endpoint not reachable |
 
