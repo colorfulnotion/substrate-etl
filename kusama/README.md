@@ -7,7 +7,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-04-17 | 17,513,969 |  287,879 | 371 (0.00%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-04-17 | 4,296,854 |  51,964 | 12 (0.00%)  |
-| [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-04-16 | 2,718,838 |  65 | 393,032 (14.46%) Only partial index available: Old Decoding issues |
+| [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-04-17 | 2,718,838 |  65 | 118,484 (4.36%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-04-17 | 616,333 |   | 2 (0.00%)  |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-04-17 | 4,138,098 |  95,746 | 1 (0.00%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-04-17 | 3,965,248 |  101,280 | 3 (0.00%)  |
