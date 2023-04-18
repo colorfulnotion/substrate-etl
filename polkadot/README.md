@@ -19,7 +19,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-04-18 | 2,123,968 |  4,781 |    |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-04-18 | 1,823,743 |  9 | 901,367 (49.42%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-04-18 | 2,503,822 |  16,212 |    |
-| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-04-18 | 2,493,868 |  745,123 | 701,244 (28.12%)  |
+| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-04-18 | 2,493,868 |  745,123 | 701,135 (28.11%)  |
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-04-18 | 2,171,767 |  4,161 | 1 (0.00%)  |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-04-18 | 2,763,037 |  45,096 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-04-18 | 2,545,873 |  11,572 | 645,081 (25.34%)  |
