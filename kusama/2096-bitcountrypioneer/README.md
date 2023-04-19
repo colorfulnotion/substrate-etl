@@ -9,7 +9,7 @@ _Source_: [bitcountrypioneer.polkaholic.io](https://bitcountrypioneer.polkaholic
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-04-01 to 2023-04-18](/kusama/2096-bitcountrypioneer/2023-04-30.md) | 2,856,547 | 2,975,602 | 119,056 | 6,119 | 127 | 24,912 | -   |   
+| [2023-04-01 to 2023-04-18](/kusama/2096-bitcountrypioneer/2023-04-30.md) | 2,856,547 | 2,982,635 | 126,089 | 6,250 | 123 | 24,912 | -   |   
 | [2023-03-01 to 2023-03-31](/kusama/2096-bitcountrypioneer/2023-03-31.md) | 2,640,698 | 2,856,546 | 215,849 | 7,186 | 106 | 24,817 | -   |   
 | [2023-02-01 to 2023-02-28](/kusama/2096-bitcountrypioneer/2023-02-28.md) | 2,444,069 | 2,640,697 | 196,629 | 10,443 | 148 | 24,728 | -   |   
 | [2023-01-01 to 2023-01-31](/kusama/2096-bitcountrypioneer/2023-01-31.md) | 2,226,701 | 2,444,068 | 217,368 | 31,043 | 332 | 24,569 | -   |   
