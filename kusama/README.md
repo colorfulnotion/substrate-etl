@@ -33,7 +33,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-20 | 1,692,086 |  5,235 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-20 | 2,440,748 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-20 | 2,158,901 |  1,916 | 1 (0.00%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-20 | 1,637,693 |  13,227 | 3,533,802 (215.78%)  |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-20 | 1,637,693 |  13,227 | 3,534,423 (215.82%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-04-20 | 2,410,659 |  7,614 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-04-20 | 1,884,149 |  3,884 | 2,528 (0.13%) Only partial index available: Archive node unavailable |
@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-04-20 | 1,509,631 |  960 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-04-20 | 1,586,678 |  7,758 |    |
 | [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-04-20 | 1,427,852 |  5,962 | 93,630 (6.56%) Only partial index available: Archive node unavailable |
-| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-04-19 | 1,158,632 |  891 |    |
+| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-04-20 | 1,159,975 |  891 | 1,183 (0.10%)  |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-04-20 | 863,364 |  6 | 2 (0.00%) Endpoint not reachable |
 
 Missing chains
