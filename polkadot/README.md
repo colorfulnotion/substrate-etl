@@ -19,10 +19,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-04-20 | 2,138,254 |  4,783 |    |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-04-20 | 1,837,981 |  10 | 904,019 (49.19%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-04-20 | 2,514,608 |  16,213 |    |
-| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-04-20 | 2,508,109 |  745,747 | 700,848 (27.94%)  |
+| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-04-20 | 2,508,109 |  745,747 | 698,806 (27.86%)  |
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-04-20 | 2,185,266 |  4,167 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-04-20 | 2,777,299 |  45,107 |    |
-| [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-04-20 | 2,558,653 |  11,582 | 703,425 (27.49%)  |
+| [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-04-20 | 2,558,653 |  11,582 | 704,852 (27.55%)  |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-04-20 | 2,381,384 |  23,452 |    |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-04-20 | 2,360,326 |  3,223 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-04-20 | 2,172,842 |  24,031 |    |

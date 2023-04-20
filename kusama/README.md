@@ -8,7 +8,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-04-20 | 17,556,975 |  287,950 | 371 (0.00%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-04-20 | 4,317,694 |  51,964 | 12 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-04-19 | 2,739,867 |  65 | 958,036 (34.97%) Only partial index available: Old Decoding issues |
-| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-04-20 | 637,435 |   | 2 (0.00%)  |
+| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-04-20 | 637,435 |   |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-04-20 | 4,159,307 |  95,760 | 1 (0.00%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-04-20 | 3,986,385 |  101,285 | 3 (0.00%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-04-20 | 3,732,808 |  24,811 | 479,738 (12.85%) Only partial index available: Old Decoding issues |
