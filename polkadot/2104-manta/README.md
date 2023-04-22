@@ -9,7 +9,7 @@ Status: Onboarding
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-04-01 to 2023-04-21](/polkadot/2104-manta/2023-04-30.md) | 70,511 | 210,726 | 140,216 | 5 |  | 9 | -   |   
+| [2023-04-01 to 2023-04-21](/polkadot/2104-manta/2023-04-30.md) | 70,511 | 217,752 | 147,242 | 5 |  | 9 | -   |   
 | [2023-03-21 to 2023-03-31](/polkadot/2104-manta/2023-03-31.md) | 1 | 70,510 | 39,678 |  |  | 9 | - 30,832 (43.73%) |   
 
 ## substrate-etl Tables:
