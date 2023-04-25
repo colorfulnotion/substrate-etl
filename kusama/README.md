@@ -20,20 +20,20 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-04-25 | 2,822,246 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-04-25 | 2,974,606 |  2,980 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-04-25 | 3,575,612 |  57,091 | 2,294 (0.06%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-04-25 | 3,420,656 |  24,353 | 10 (0.00%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-04-25 | 3,422,849 |  24,353 | 2,185 (0.06%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-04-25 | 2,270,345 |  2,885 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-04-25 | 2,964,250 |  29,577 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-04-25 | 3,233,377 |  18,479 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-04-25 | 2,911,207 |  16,452 | 8 (0.00%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-25 | 2,987,002 |  80,125 | 501,311 (16.78%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-25 | 2,987,002 |  80,125 | 898,352 (30.08%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-04-25 | 3,024,776 |  24,886 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-25 | 2,702,605 |  33,766 | 45,822 (1.70%) Only partial index available: Onboarding |
-| [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-25 | 2,808,144 |  15,656 | 728,841 (25.95%)  |
+| [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-25 | 2,808,144 |  15,656 | 725,323 (25.83%)  |
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-18 | 1,570,649 |  1,146 |    |
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-25 | 1,692,086 |  5,241 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-25 | 2,475,938 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-04-25 | 2,193,994 |  1,922 | 1 (0.00%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-25 | 1,668,973 |  13,227 | 4,972,940 (297.96%)  |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-04-25 | 1,668,973 |  13,227 | 6,230,043 (373.29%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-04-25 | 2,443,396 |  7,615 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-04-25 | 1,917,773 |  3,852 | 2,528 (0.13%) Only partial index available: Archive node unavailable |
