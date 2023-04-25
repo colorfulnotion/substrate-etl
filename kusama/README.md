@@ -22,13 +22,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-04-25 | 3,575,612 |  57,091 | 2,294 (0.06%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-04-25 | 3,423,173 |  24,353 | 2,496 (0.07%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-04-25 | 2,270,345 |  2,885 |    |
-| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-04-25 | 2,964,250 |  29,577 | 2 (0.00%)  |
+| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-04-25 | 2,964,250 |  29,579 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-04-25 | 3,233,377 |  18,479 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-04-25 | 2,911,207 |  16,452 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-25 | 2,991,237 |  80,125 | 923,709 (30.88%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-04-25 | 3,024,776 |  24,886 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-25 | 2,702,605 |  33,766 | 45,822 (1.70%) Only partial index available: Onboarding |
-| [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-25 | 2,808,144 |  15,656 | 724,350 (25.79%)  |
+| [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-25 | 2,808,144 |  15,656 | 724,230 (25.79%)  |
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-18 | 1,570,649 |  1,146 |    |
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-04-25 | 1,692,086 |  5,241 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-04-25 | 2,475,938 |  13,912 |    |
