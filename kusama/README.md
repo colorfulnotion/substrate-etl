@@ -20,12 +20,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-04-26 | 2,828,684 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-04-26 | 2,981,587 |  2,980 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-04-26 | 3,582,497 |  57,091 | 2,294 (0.06%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-04-26 | 3,427,597 |  24,353 | 223 (0.01%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-04-26 | 3,427,597 |  24,353 | 445 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-04-26 | 2,277,297 |  2,887 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-04-26 | 2,970,951 |  29,580 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-04-26 | 3,240,165 |  18,480 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-04-26 | 2,918,134 |  16,454 | 8 (0.00%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-26 | 2,993,963 |  80,125 | 945,310 (31.57%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-04-26 | 2,993,963 |  80,125 | 946,920 (31.63%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-04-26 | 3,031,707 |  24,887 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-04-26 | 2,709,754 |  33,766 | 45,822 (1.69%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-04-26 | 2,815,294 |  15,658 | 798,432 (28.36%)  |
@@ -43,7 +43,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-04-26 | 1,233,503 |  1,350 |    |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-04-26 | 1,549,796 |  961 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-04-26 | 1,628,211 |  7,758 |    |
-| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-04-26 | 1,469,573 |  5,966 | 93,630 (6.37%) Only partial index available: Archive node unavailable |
+| [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-04-26 | 1,469,573 |  5,967 | 93,630 (6.37%) Only partial index available: Archive node unavailable |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-04-26 | 1,202,348 |  891 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-04-26 | 904,185 |  6 | 2 (0.00%) Endpoint not reachable |
 
