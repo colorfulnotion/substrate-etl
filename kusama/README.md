@@ -20,7 +20,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-04-27 | 2,834,918 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-04-27 | 2,988,393 |  2,980 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-04-27 | 3,589,229 |  58,190 | 2,294 (0.06%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-04-27 | 3,434,376 |  24,354 | 413 (0.01%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-04-27 | 3,435,217 |  24,354 | 1,254 (0.04%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-04-27 | 2,284,070 |  2,889 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-04-27 | 2,977,499 |  29,581 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-04-27 | 3,246,792 |  18,481 | 2 (0.00%)  |
@@ -40,7 +40,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
 | [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-04-27 | 1,997,340 |  6,227 | 270 (0.01%)  |
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-04-27 | 1,937,194 |  333 | 3,432 (0.18%) Only partial index available: Archive node unavailable |
-| [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-04-26 | 1,240,194 |  1,350 |    |
+| [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-04-27 | 1,240,194 |  1,350 |    |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-04-27 | 1,556,264 |  961 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-04-27 | 1,634,864 |  7,758 |    |
 | [Snow Para ID 2129](/kusama/2129-snow) | 2022-10-26 | 2023-04-27 | 1,476,300 |  5,967 | 93,630 (6.34%) Only partial index available: Archive node unavailable |
