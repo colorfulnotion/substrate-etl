@@ -9,6 +9,7 @@ _Source_: [ajuna.polkaholic.io](https://ajuna.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2023-05-01 to 2023-05-01](/polkadot/2051-ajuna/2023-05-31.md) |  |  |  |  |  |  | -   |   
 | [2023-04-01 to 2023-04-30](/polkadot/2051-ajuna/2023-04-30.md) | 880,587 | 1,095,066 | 214,480 |  | 4 | 9 | -   |   
 | [2023-03-01 to 2023-03-31](/polkadot/2051-ajuna/2023-03-31.md) | 678,772 | 880,586 | 201,815 |  | 4 | 9 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2051-ajuna/2023-02-28.md) | 486,290 | 678,771 | 192,482 | 2 | 4 | 9 | -   |   
