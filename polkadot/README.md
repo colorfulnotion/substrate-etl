@@ -35,7 +35,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-05-02 | 3,694,154 |  18,449 | 554 (0.01%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-05-02 | 1,084,864 |  35 |    |
-| [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-05-02 | 448,874 |  571 | 244 (0.05%) Only partial index available: Archive node unavailable |
+| [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-05-02 | 448,874 |  572 | 244 (0.05%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-05-02 | 514,094 |  791 |    |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-05-02 | 288,526 |  9 | 29,501 (10.22%) Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-05-02 | 391,750 |  2 |    |
