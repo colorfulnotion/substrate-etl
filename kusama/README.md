@@ -16,11 +16,11 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-05-02 | 1,578,270 |  3 | 284 (0.02%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-05-03 | 2,867,156 |  3,216 | 1 (0.00%)  |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-05-03 | 2,562,126 |  13,071 |    |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-05-03 | 4,161,903 |  249,694 |    |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-05-03 | 4,161,903 |  249,716 |    |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-05-03 | 2,872,396 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-05-03 | 3,029,496 |  2,995 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-05-03 | 3,630,008 |  85,423 | 2,294 (0.06%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-05-03 | 3,475,307 |  24,365 | 1,875 (0.05%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-05-03 | 3,475,307 |  24,365 | 2,170 (0.06%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-05-03 | 2,325,005 |  2,974 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-05-03 | 3,017,035 |  29,606 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-05-03 | 3,286,940 |  18,510 | 2 (0.00%)  |
