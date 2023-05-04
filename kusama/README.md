@@ -33,10 +33,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-05-04 | 1,692,086 |  5,328 |    |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-05-04 | 2,537,344 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-05-04 | 2,255,362 |  1,955 | 1 (0.00%)  |
-| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-05-04 | 1,721,170 |  13,227 | 5,478,254 (318.29%)  |
+| [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-05-04 | 1,721,170 |  13,227 | 5,478,577 (318.31%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-05-04 | 2,500,998 |  7,617 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
-| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-04 | 1,976,294 |  3,868 | 2,528 (0.13%) Only partial index available: Archive node unavailable |
+| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-04 | 1,976,294 |  3,869 | 2,528 (0.13%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
 | [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-05-04 | 2,035,234 |  6,405 | 270 (0.01%)  |
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-05-04 | 1,984,911 |  334 | 3,453 (0.17%) Only partial index available: Archive node unavailable |
