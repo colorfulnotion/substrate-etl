@@ -9,7 +9,7 @@ _Source_: [equilibrium.polkaholic.io](https://equilibrium.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-05-01 to 2023-05-07](/polkadot/2011-equilibrium/2023-05-31.md) | 2,269,738 | 2,312,493 | 42,756 | 12,889 | 54 |  | -   |   
+| [2023-05-01 to 2023-05-07](/polkadot/2011-equilibrium/2023-05-31.md) | 2,269,738 | 2,319,654 | 49,915 | 14,850 | 53 |  | - 2 (0.00%) |   
 | [2023-04-01 to 2023-04-30](/polkadot/2011-equilibrium/2023-04-30.md) | 2,055,002 | 2,269,737 | 214,736 | 53,270 | 55 |  | -   |   
 | [2023-03-01 to 2023-03-31](/polkadot/2011-equilibrium/2023-03-31.md) | 1,840,665 | 2,055,001 | 214,337 | 47,210 | 119 | 9,386 | -   |   
 | [2023-02-01 to 2023-02-28](/polkadot/2011-equilibrium/2023-02-28.md) | 1,641,356 | 1,840,664 | 199,309 | 10,401 | 119 | 9,419 | -   |   
