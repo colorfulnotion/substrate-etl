@@ -14,10 +14,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-05-08 | 3,519,396 |  504,640 | 7 (0.00%)  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-05-08 | 1,651,426 |  1,058 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-05-08 | 1,096,706 |  997 |    |
-| [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-05-08 | 2,319,654 |  8,591 | 2 (0.00%)  |
+| [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-05-08 | 2,319,654 |  8,591 |    |
 | [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-05-08 | 3,474,344 |  47,665 | 602 (0.02%)  |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-05-08 | 2,266,942 |  4,801 |    |
-| [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-05-08 | 1,965,929 |  21 | 3,289,654 (167.33%)  |
+| [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-05-08 | 1,965,929 |  21 | 3,296,718 (167.69%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-05-08 | 2,633,356 |  16,283 |    |
 | [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-05-08 | 2,632,610 |  758,990 | 698,978 (26.55%)  |
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-05-08 | 2,298,310 |  4,291 |    |
