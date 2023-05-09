@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-05-09 | 1,194,051 |  14 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-05-09 | 3,534,765 |  167,769 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-05-09 | 3,441,198 |  2,225 | 17 (0.00%)  |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-05-09 | 3,521,256 |  1,135,893 |    |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-05-09 | 3,521,256 |  1,136,083 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-05-09 | 3,526,511 |  504,640 | 9 (0.00%)  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-05-09 | 1,658,583 |  1,058 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-05-09 | 1,102,079 |  998 |    |
@@ -23,7 +23,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-05-09 | 2,304,559 |  4,294 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-05-09 | 2,910,464 |  45,381 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-05-09 | 2,680,065 |  11,758 | 663,696 (24.76%)  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-05-09 | 2,508,931 |  23,585 | 55 (0.00%)  |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-05-09 | 2,508,931 |  23,585 | 47 (0.00%)  |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-05-09 | 2,496,319 |  3,342 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-05-09 | 2,308,793 |  24,147 |    |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-05-09 | 1,494,481 |  1 |    |
@@ -46,5 +46,6 @@ Missing chains
 * *Polkadex* Para ID 2040; No Public Websocket Endpoint available: Not indexing yet.
 * *Aventus* Para ID 2056; No Public Websocket Endpoint available: Not indexing yet.
 * *Zeitgeist2* Para ID 2092; 
+* *null* Para ID 3334; 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
