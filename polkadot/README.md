@@ -43,6 +43,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 Missing chains
 
 
+* *null* Para ID 1002; 
 * *Polkadex* Para ID 2040; No Public Websocket Endpoint available: Not indexing yet.
 * *Aventus* Para ID 2056; No Public Websocket Endpoint available: Not indexing yet.
 * *Zeitgeist2* Para ID 2092; 
