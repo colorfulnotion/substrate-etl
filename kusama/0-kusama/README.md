@@ -55,19 +55,19 @@ _Source_: [kusama.polkaholic.io](https://kusama.polkaholic.io)
 
 ## substrate-etl Tables:
 
-* _Blocks_: `substrate-etl.kusama.blocks0` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
-* _Extrinsics_: `substrate-etl.kusama.extrinsics0` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
-* _Events_: `substrate-etl.kusama.events0` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
-* _Transfers_: `substrate-etl.kusama.transfers0` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
-* _Balances_: `substrate-etl.kusama.balances0` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
-* _Active Accounts_: `substrate-etl.kusama.accountsactive0` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
-* _Passive Accounts_: `substrate-etl.kusama.accountspassive0` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.kusama.accountsnew0` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
-* _Reaped Accounts_: `substrate-etl.kusama.accountsreaped0` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
-* _Assets_: `substrate-etl.kusama.assets` (filter on `0`) - [Schema](/schema/assets.json)
-* _XCM Assets_: `substrate-etl.kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
-* _XCM Transfers_: `substrate-etl.kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
-* _XCM Messages_: `substrate-etl.kusama.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
+* _Blocks_: `substrate-etl.crypto_kusama.blocks0` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.crypto_kusama.extrinsics0` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.crypto_kusama.events0` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.crypto_kusama.transfers0` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.crypto_kusama.balances0` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.crypto_kusama.accountsactive0` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.crypto_kusama.accountspassive0` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.crypto_kusama.accountsnew0` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.crypto_kusama.accountsreaped0` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.crypto_kusama.assets` (filter on `0`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.crypto_kusama.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.crypto_kusama.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Messages_: `substrate-etl.crypto_kusama.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
 
 ### # Blocks
 ```bash
@@ -75,7 +75,7 @@ SELECT LAST_DAY( date(block_time)) as monthDT,
   Min(date(block_time)) startBN, max(date(block_time)) endBN, 
  min(number) minBN, max(number) maxBN, 
  count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
-FROM `substrate-etl.kusama.blocks0` 
+FROM `substrate-etl.crypto_kusama.blocks0` 
 group by monthDT 
 order by monthDT desc
 ```

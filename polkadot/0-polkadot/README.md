@@ -49,19 +49,19 @@ _Source_: [polkadot.polkaholic.io](https://polkadot.polkaholic.io)
 
 ## substrate-etl Tables:
 
-* _Blocks_: `substrate-etl.polkadot.blocks0` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
-* _Extrinsics_: `substrate-etl.polkadot.extrinsics0` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
-* _Events_: `substrate-etl.polkadot.events0` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
-* _Transfers_: `substrate-etl.polkadot.transfers0` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
-* _Balances_: `substrate-etl.polkadot.balances0` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
-* _Active Accounts_: `substrate-etl.polkadot.accountsactive0` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
-* _Passive Accounts_: `substrate-etl.polkadot.accountspassive0` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.polkadot.accountsnew0` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
-* _Reaped Accounts_: `substrate-etl.polkadot.accountsreaped0` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
-* _Assets_: `substrate-etl.polkadot.assets` (filter on `0`) - [Schema](/schema/assets.json)
-* _XCM Assets_: `substrate-etl.polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
-* _XCM Transfers_: `substrate-etl.polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
-* _XCM Messages_: `substrate-etl.polkadot.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
+* _Blocks_: `substrate-etl.crypto_polkadot.blocks0` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `substrate-etl.crypto_polkadot.extrinsics0` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `substrate-etl.crypto_polkadot.events0` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `substrate-etl.crypto_polkadot.transfers0` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `substrate-etl.crypto_polkadot.balances0` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `substrate-etl.crypto_polkadot.accountsactive0` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `substrate-etl.crypto_polkadot.accountspassive0` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `substrate-etl.crypto_polkadot.accountsnew0` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `substrate-etl.crypto_polkadot.accountsreaped0` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `substrate-etl.crypto_polkadot.assets` (filter on `0`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `substrate-etl.crypto_polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `substrate-etl.crypto_polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Messages_: `substrate-etl.crypto_polkadot.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
 
 ### # Blocks
 ```bash
@@ -69,7 +69,7 @@ SELECT LAST_DAY( date(block_time)) as monthDT,
   Min(date(block_time)) startBN, max(date(block_time)) endBN, 
  min(number) minBN, max(number) maxBN, 
  count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
-FROM `substrate-etl.polkadot.blocks0` 
+FROM `substrate-etl.crypto_polkadot.blocks0` 
 group by monthDT 
 order by monthDT desc
 ```
