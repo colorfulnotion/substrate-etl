@@ -179,9 +179,14 @@ module.exports = class Reporter {
 	}
     }
     
+    get_relayChain_dataset(relayChain) {
+	return `crypto_${relayChain}`;
+    }
+    
     async asset_report_summary(relayChain, symbol, url) {
 	// fetch chains where symbol appears
 	try {
+	    let bqDataset = this.get_relayChain_dataset(relayChain);
 	    let cmd = `curl --silent -H "Content-Type: application/json" --max-time 10 --connect-timeout 5 ${url}`
             const {
 		stdout,
@@ -230,7 +235,6 @@ module.exports = class Reporter {
 			recursive: true
 		    });
 		}
-
 		j.push(`\r\n## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:
 \`\`\`bash
 select para_id, count(distinct address_pubkey) numHolders, 
@@ -238,7 +242,7 @@ select para_id, count(distinct address_pubkey) numHolders,
  sum(reserved) as reserved, sum(free_usd) reserved_usd,
  sum(misc_frozen) as misc_frozen, sum(misc_frozen_usd) misc_frozen_usd,
  sum(frozen) as frozen, sum(frozen_usd) frozen_usd
- from \`substrate-etl.kusama.balances*\` 
+ from \`substrate-etl.${bqDataset}.balances*\` 
  where symbol = "${symbol}" and date(ts) = "${logDT}"
  group by para_id
  order by free_usd desc
@@ -262,6 +266,7 @@ select para_id, count(distinct address_pubkey) numHolders,
 	// fetch monthly + daily summary for chainID
         let paraID = chain.paraID;
         let relayChain = chain.relayChain;
+	let bqDataset = this.get_relayChain_dataset(relayChain);
         let id = chain.id;
 	let chainName = chain.chainName;
         let url = `https://cdn.polkaholic.io/substrate-etl/${relayChain}/${paraID}.json`;
@@ -291,19 +296,19 @@ select para_id, count(distinct address_pubkey) numHolders,
         docs = [];
 
 	docs.push(`\r\n## substrate-etl Tables:\r\n`)
-	docs.push(`* _Blocks_: \`substrate-etl.${relayChain}.blocks${paraID}\` (date-partitioned by \`block_time\`) - [Schema](/schema/balances.json)`)
-	docs.push(`* _Extrinsics_: \`substrate-etl.${relayChain}.extrinsics${paraID}\` (date-partitioned by \`block_time\`) - [Schema](/schema/extrinsics.json)`)
-	docs.push(`* _Events_: \`substrate-etl.${relayChain}.events${paraID}\` (date-partitioned by \`block_time\`) - [Schema](/schema/events.json)`)
-	docs.push(`* _Transfers_: \`substrate-etl.${relayChain}.transfers${paraID}\` (date-partitioned by \`block_time\`) - [Schema](/schema/transfers.json)`)
-	docs.push(`* _Balances_: \`substrate-etl.${relayChain}.balances${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/balances.json)`)
-	docs.push(`* _Active Accounts_: \`substrate-etl.${relayChain}.accountsactive${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsactive.json)`)
-	docs.push(`* _Passive Accounts_: \`substrate-etl.${relayChain}.accountspassive${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountspassive.json)`)
-	docs.push(`* _New Accounts_: \`substrate-etl.${relayChain}.accountsnew${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsnew.json)`)
-	docs.push(`* _Reaped Accounts_: \`substrate-etl.${relayChain}.accountsreaped${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsreaped.json)`)
-	docs.push(`* _Assets_: \`substrate-etl.${relayChain}.assets\` (filter on \`${paraID}\`) - [Schema](/schema/assets.json)`)
-	docs.push(`* _XCM Assets_: \`substrate-etl.${relayChain}.xcmassets\` (filter on \`para_id\`) - [Schema](/schema/xcmassets.json)`)
-	docs.push(`* _XCM Transfers_: \`substrate-etl.${relayChain}.xcmtransfers\` (filter on \`origination_para_id\` or \`destination_para_id\`, date-partitioned by \`origination_ts\`) - [Schema](/schema/xcmtransfers.json)`)
-	docs.push(`* _XCM Messages_: \`substrate-etl.${relayChain}.xcm\` (filter on \`origination_para_id\` or \`destination_para_id\`, date-partitioned by \`origination_ts\`) - [Schema](/schema/xcm.json)`)
+	docs.push(`* _Blocks_: \`substrate-etl.${bqDataset}.blocks${paraID}\` (date-partitioned by \`block_time\`) - [Schema](/schema/balances.json)`)
+	docs.push(`* _Extrinsics_: \`substrate-etl.${bqDataset}.extrinsics${paraID}\` (date-partitioned by \`block_time\`) - [Schema](/schema/extrinsics.json)`)
+	docs.push(`* _Events_: \`substrate-etl.${bqDataset}.events${paraID}\` (date-partitioned by \`block_time\`) - [Schema](/schema/events.json)`)
+	docs.push(`* _Transfers_: \`substrate-etl.${bqDataset}.transfers${paraID}\` (date-partitioned by \`block_time\`) - [Schema](/schema/transfers.json)`)
+	docs.push(`* _Balances_: \`substrate-etl.${bqDataset}.balances${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/balances.json)`)
+	docs.push(`* _Active Accounts_: \`substrate-etl.${bqDataset}.accountsactive${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsactive.json)`)
+	docs.push(`* _Passive Accounts_: \`substrate-etl.${bqDataset}.accountspassive${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountspassive.json)`)
+	docs.push(`* _New Accounts_: \`substrate-etl.${bqDataset}.accountsnew${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsnew.json)`)
+	docs.push(`* _Reaped Accounts_: \`substrate-etl.${bqDataset}.accountsreaped${paraID}\` (date-partitioned by \`ts\`) - [Schema](/schema/accountsreaped.json)`)
+	docs.push(`* _Assets_: \`substrate-etl.${bqDataset}.assets\` (filter on \`${paraID}\`) - [Schema](/schema/assets.json)`)
+	docs.push(`* _XCM Assets_: \`substrate-etl.${bqDataset}.xcmassets\` (filter on \`para_id\`) - [Schema](/schema/xcmassets.json)`)
+	docs.push(`* _XCM Transfers_: \`substrate-etl.${bqDataset}.xcmtransfers\` (filter on \`origination_para_id\` or \`destination_para_id\`, date-partitioned by \`origination_ts\`) - [Schema](/schema/xcmtransfers.json)`)
+	docs.push(`* _XCM Messages_: \`substrate-etl.${bqDataset}.xcm\` (filter on \`origination_para_id\` or \`destination_para_id\`, date-partitioned by \`origination_ts\`) - [Schema](/schema/xcm.json)`)
 
         docs.push(`\r\n### # Blocks
 \`\`\`bash
@@ -311,7 +316,7 @@ SELECT LAST_DAY( date(block_time)) as monthDT,
   Min(date(block_time)) startBN, max(date(block_time)) endBN, 
  min(number) minBN, max(number) maxBN, 
  count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
-FROM \`substrate-etl.${relayChain}.blocks${paraID}\` 
+FROM \`substrate-etl.${bqDataset}.blocks${paraID}\` 
 group by monthDT 
 order by monthDT desc
 \`\`\`
@@ -421,7 +426,8 @@ order by monthDT desc
 		
                 docs[k].push(`\r\n## Substrate-etl Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`substrate-etl\` in Google BigQuery:`);
 		
-		if ( isEVM ) {
+		if ( isEVM && false ) {
+		    // refactor
 		    docs[k].push(`\r\n
 ### EVM Transactions 
 
@@ -429,7 +435,7 @@ order by monthDT desc
 \`\`\`bash
 SELECT date(block_time) as logDT, 
  COUNT(*) numEVMTransactions
- FROM \`substrate-etl.${relayChain}.evmtxs${paraID}\`  
+ FROM \`substrate-etl.${bqDataset}.evmtxs${paraID}\`  
  where LAST_DAY(date(block_time)) = "${monthDT}" 
  group by logDT 
  order by logDT
@@ -442,7 +448,7 @@ SELECT date(block_time) as logDT,
 \`\`\`bash
 SELECT date(block_time) as logDT, 
 COUNT(*) numEVMTransfers
-FROM \`substrate-etl.${relayChain}.evmtransfers${paraID}\`  
+FROM \`substrate-etl.${bqDataset}.evmtransfers${paraID}\`  
 where signed and LAST_DAY(date(block_time)) = "${monthDT}" 
 group by logDT 
 order by logDT
@@ -455,7 +461,7 @@ order by logDT
 \`\`\`bash
 SELECT date(ts) as logDT, 
  COUNT(*) numActiveEVMAccounts 
- FROM \`substrate-etl.${relayChain}.accountsactive${paraID}\` 
+ FROM \`substrate-etl.${bqDataset}.accountsactive${paraID}\` 
  where LAST_DAY(date(ts)) = "${monthDT}" 
  group by logDT 
  order by logDT
@@ -468,7 +474,7 @@ SELECT date(ts) as logDT,
 \`\`\`bash
 SELECT date(ts) as logDT, 
  COUNT(*) numPassiveEVMAccounts 
- FROM \`substrate-etl.${relayChain}.accountspassive${paraID}\` 
+ FROM \`substrate-etl.${bqDataset}.accountspassive${paraID}\` 
  where LAST_DAY(date(ts)) = "${monthDT}" 
  group by logDT 
  order by logDT
@@ -482,7 +488,7 @@ SELECT date(ts) as logDT,
 
 \`\`\`bash
 SELECT date(block_time) as logDT, MIN(number) startBN, MAX(number) endBN, COUNT(*) numBlocks 
- FROM \`substrate-etl.${relayChain}.blocks${paraID}\`  
+ FROM \`substrate-etl.${bqDataset}.blocks${paraID}\`  
  where LAST_DAY(date(block_time)) = "${monthDT}" 
  group by logDT 
  order by logDT
@@ -495,7 +501,7 @@ SELECT date(block_time) as logDT, MIN(number) startBN, MAX(number) endBN, COUNT(
 \`\`\`bash
 SELECT date(block_time) as logDT, 
 COUNT(*) numSignedExtrinsics 
-FROM \`substrate-etl.${relayChain}.extrinsics${paraID}\`  
+FROM \`substrate-etl.${bqDataset}.extrinsics${paraID}\`  
 where signed and LAST_DAY(date(block_time)) = "${monthDT}" 
 group by logDT 
 order by logDT
@@ -508,7 +514,7 @@ order by logDT
 \`\`\`bash
 SELECT date(ts) as logDT, 
  COUNT(*) numActiveAccounts 
- FROM \`substrate-etl.${relayChain}.accountsactive${paraID}\` 
+ FROM \`substrate-etl.${bqDataset}.accountsactive${paraID}\` 
  where LAST_DAY(date(ts)) = "${monthDT}" 
  group by logDT 
  order by logDT
@@ -521,7 +527,7 @@ SELECT date(ts) as logDT,
 \`\`\`bash
 SELECT date(ts) as logDT, 
  COUNT(*) numPassiveAccounts 
- FROM \`substrate-etl.${relayChain}.accountspassive${paraID}\` 
+ FROM \`substrate-etl.${bqDataset}.accountspassive${paraID}\` 
  where LAST_DAY(date(ts)) = "${monthDT}" 
  group by logDT 
  order by logDT
@@ -534,7 +540,7 @@ SELECT date(ts) as logDT,
 \`\`\`bash
 SELECT date(ts) as logDT, 
  COUNT(*) numNewAccounts 
- FROM \`substrate-etl.${relayChain}.accountsnew${paraID}\` 
+ FROM \`substrate-etl.${bqDataset}.accountsnew${paraID}\` 
  where LAST_DAY(date(ts)) = "${monthDT}" 
  group by logDT
  order by logDT
@@ -560,7 +566,7 @@ SELECT date(ts) as logDT,
 \`\`\`bash
 SELECT date(block_time) as logDT, 
  COUNT(*) numEvents 
- FROM \`substrate-etl.${relayChain}.events${paraID}\` 
+ FROM \`substrate-etl.${bqDataset}.events${paraID}\` 
  where LAST_DAY(date(block_time)) = "${monthDT}" 
  group by logDT 
  order by logDT
@@ -573,7 +579,7 @@ SELECT date(block_time) as logDT,
 \`\`\`bash
 SELECT date(block_time) as logDT, 
  COUNT(*) numEvents 
- FROM \`substrate-etl.${relayChain}.transfers${paraID}\` 
+ FROM \`substrate-etl.${bqDataset}.transfers${paraID}\` 
  where LAST_DAY(date(block_time)) = "${monthDT}" 
  group by logDT 
  order by logDT
@@ -586,7 +592,7 @@ SELECT date(block_time) as logDT,
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMTransfersOut 
- FROM \`substrate-etl.${relayChain}.xcmtransfers\` 
+ FROM \`substrate-etl.${bqDataset}.xcmtransfers\` 
  where destination_para_id = ${paraID} and LAST_DAY(date(origination_ts)) = "${monthDT}" 
  group by logDT order by logDT
 \`\`\`
@@ -598,7 +604,7 @@ SELECT date(origination_ts) as logDT,
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMTransfersIn 
- FROM \`substrate-etl.${relayChain}.xcmtransfers\` 
+ FROM \`substrate-etl.${bqDataset}.xcmtransfers\` 
  where origination_para_id = ${paraID} and LAST_DAY(date(origination_ts)) = "${monthDT}" 
  group by logDT 
 order by logDT
@@ -611,7 +617,7 @@ order by logDT
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMMessagesOut 
- FROM \`substrate-etl.${relayChain}.xcm\` 
+ FROM \`substrate-etl.${bqDataset}.xcm\` 
  where destination_para_id = ${paraID} and LAST_DAY(date(origination_ts)) = "${monthDT}" 
  group by logDT order by logDT
 \`\`\`
@@ -623,7 +629,7 @@ SELECT date(origination_ts) as logDT,
 \`\`\`bash
 SELECT date(origination_ts) as logDT, 
  COUNT(*) numXCMMessagesIn 
- FROM \`substrate-etl.${relayChain}.xcm\` 
+ FROM \`substrate-etl.${bqDataset}.xcm\` 
  where origination_para_id = ${paraID} and LAST_DAY(date(origination_ts)) = "${monthDT}" 
  group by logDT 
 order by logDT

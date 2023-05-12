@@ -1,7 +1,9 @@
 
 # Substrate ETL
 
-**Status: As of April 2023, substrate-etl is under consideration as part of a 
+**IMPORTANT UPDATE!!! As of May 10, 2023, substrate-etl is moving to Google's Public Data Finance.  The new dataset names are crypto_polkadot and crypto_kusama and are still under the `substrate-etl` project but will soon be under the `public-data-finance` project.  **
+
+**Status: As of May 2023, substrate-etl slated as part of a 
 [Polkadot Treasury-funded bounty proposal](https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit), curated by the
 Parity data team, as part of a broader "Polkadot Data Alliance" (see [select * from polkadot/Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)).**
 
