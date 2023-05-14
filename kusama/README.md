@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-05-14 | 17,901,313 |  289,152 | 373 (0.00%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-05-14 | 17,901,313 |  289,172 | 373 (0.00%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-05-14 | 4,479,114 |  51,964 | 12 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-05-13 | 2,903,380 |  65 | 958,036 (33.00%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-05-14 | 801,969 |   |    |
@@ -20,7 +20,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-05-14 | 2,943,869 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-05-14 | 3,104,607 |  2,998 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-05-14 | 3,704,399 |  87,819 | 2,294 (0.06%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-05-14 | 3,549,110 |  24,374 | 1,167 (0.03%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-05-14 | 3,549,110 |  24,375 | 1,167 (0.03%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-05-14 | 2,399,734 |  3,101 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-05-14 | 3,087,186 |  29,609 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-05-14 | 3,360,163 |  18,515 | 2 (0.00%)  |
@@ -39,7 +39,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-14 | 2,044,090 |  3,876 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
 | [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-05-14 | 2,103,271 |  6,515 | 270 (0.01%)  |
-| [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-05-14 | 2,052,697 |  344 | 3,498 (0.17%) Only partial index available: Archive node unavailable |
+| [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-05-14 | 2,052,697 |  345 | 3,498 (0.17%) Only partial index available: Archive node unavailable |
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-05-14 | 1,354,432 |  1,358 |    |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-05-14 | 1,666,676 |  967 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-05-14 | 1,749,635 |  7,758 |    |
