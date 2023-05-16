@@ -36,7 +36,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-05-16 | 1,790,948 |  13,227 | 5,485,140 (306.27%)  |
 | [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-05-16 | 2,579,757 |  7,621 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
-| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-16 | 2,057,437 |  3,877 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
+| [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-16 | 2,057,437 |  3,878 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
 | [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-05-16 | 2,116,737 |  6,536 | 270 (0.01%)  |
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-05-16 | 2,066,121 |  346 | 3,498 (0.17%) Only partial index available: Archive node unavailable |
