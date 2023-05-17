@@ -19,7 +19,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-05-17 | 4,256,540 |  250,023 |    |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-05-17 | 2,962,607 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-05-17 | 3,124,899 |  2,998 |    |
-| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-05-17 | 3,724,555 |  91,771 | 2,294 (0.06%) Only partial index available: Archive node unavailable |
+| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-05-17 | 3,724,555 |  94,334 | 2,294 (0.06%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-05-17 | 3,564,777 |  24,377 | 1,167 (0.03%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-05-17 | 2,419,956 |  3,123 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-05-17 | 3,105,377 |  29,610 | 2 (0.00%)  |
@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-05-17 | 2,625,431 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-05-17 | 2,342,907 |  1,960 | 3 (0.00%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-05-17 | 1,795,694 |  13,227 | 5,485,140 (305.46%)  |
-| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-05-17 | 2,586,521 |  7,621 |    |
+| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-05-17 | 2,586,521 |  7,623 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-17 | 2,064,187 |  3,878 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
