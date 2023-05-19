@@ -1,4 +1,4 @@
-# substrate-etl kusama Network-wide Summary (All-time)
+# kusama Network-wide Summary (All-time)
 
 Source: [Polkaholic.io](https://polkaholic.io)
 

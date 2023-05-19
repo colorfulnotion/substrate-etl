@@ -1,4 +1,4 @@
-# substrate-etl polkadot Network-wide Summary (All-time)
+# polkadot Network-wide Summary (All-time)
 
 Source: [Polkaholic.io](https://polkaholic.io)
 

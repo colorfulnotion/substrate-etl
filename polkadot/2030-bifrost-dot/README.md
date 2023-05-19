@@ -1,4 +1,4 @@
-# Bifrost-Polkadot substrate-etl Summary (Monthly)
+# Bifrost-Polkadot Summary (Monthly)
 
 _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 
@@ -22,21 +22,21 @@ _Source_: [bifrost-dot.polkaholic.io](https://bifrost-dot.polkaholic.io)
 | [2022-07-01 to 2022-07-31](/polkadot/2030-bifrost-dot/2022-07-31.md) | 175,695 | 380,233 | 204,539 | 10 | 3 | 2 | -   |   
 | [2022-06-04 to 2022-06-30](/polkadot/2030-bifrost-dot/2022-06-30.md) | 1 | 175,694 | 175,694 |  | 3 | 2 | -   |   
 
-## substrate-etl Tables:
+## Tables:
 
-* _Blocks_: `substrate-etl.crypto_polkadot.blocks2030` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
-* _Extrinsics_: `substrate-etl.crypto_polkadot.extrinsics2030` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
-* _Events_: `substrate-etl.crypto_polkadot.events2030` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
-* _Transfers_: `substrate-etl.crypto_polkadot.transfers2030` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
-* _Balances_: `substrate-etl.crypto_polkadot.balances2030` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
-* _Active Accounts_: `substrate-etl.crypto_polkadot.accountsactive2030` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
-* _Passive Accounts_: `substrate-etl.crypto_polkadot.accountspassive2030` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.crypto_polkadot.accountsnew2030` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
-* _Reaped Accounts_: `substrate-etl.crypto_polkadot.accountsreaped2030` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
-* _Assets_: `substrate-etl.crypto_polkadot.assets` (filter on `2030`) - [Schema](/schema/assets.json)
-* _XCM Assets_: `substrate-etl.crypto_polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
-* _XCM Transfers_: `substrate-etl.crypto_polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
-* _XCM Messages_: `substrate-etl.crypto_polkadot.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
+* _Blocks_: `bigquery-public-data.crypto_polkadot.blocks2030` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
+* _Extrinsics_: `bigquery-public-data.crypto_polkadot.extrinsics2030` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `bigquery-public-data.crypto_polkadot.events2030` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `bigquery-public-data.crypto_polkadot.transfers2030` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `bigquery-public-data.crypto_polkadot.balances2030` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `bigquery-public-data.crypto_polkadot.accountsactive2030` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `bigquery-public-data.crypto_polkadot.accountspassive2030` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `bigquery-public-data.crypto_polkadot.accountsnew2030` (date-partitioned by `ts`) - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `bigquery-public-data.crypto_polkadot.accountsreaped2030` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `bigquery-public-data.crypto_polkadot.assets` (filter on `2030`) - [Schema](/schema/assets.json)
+* _XCM Assets_: `bigquery-public-data.crypto_polkadot.xcmassets` (filter on `para_id`) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `bigquery-public-data.crypto_polkadot.xcmtransfers` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Messages_: `bigquery-public-data.crypto_polkadot.xcm` (filter on `origination_para_id` or `destination_para_id`, date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
 
 ### # Blocks
 ```bash
@@ -44,7 +44,7 @@ SELECT LAST_DAY( date(block_time)) as monthDT,
   Min(date(block_time)) startBN, max(date(block_time)) endBN, 
  min(number) minBN, max(number) maxBN, 
  count(*) numBlocks, max(number)-min(number)+1-count(*) as numBlocks_missing 
-FROM `substrate-etl.crypto_polkadot.blocks2030` 
+FROM `bigquery-public-data.crypto_polkadot.blocks2030` 
 group by monthDT 
 order by monthDT desc
 ```

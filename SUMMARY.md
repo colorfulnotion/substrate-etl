@@ -1,4 +1,4 @@
-# substrate-etl Summary (All-time, All Networks)
+# Summary (All-time, All Networks)
 
 Source: [Polkaholic.io](https://polkaholic.io)
 
