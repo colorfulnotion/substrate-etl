@@ -1,11 +1,8 @@
 
 # Substrate ETL
 
-**IMPORTANT UPDATE!!! As of May 10, 2023, substrate-etl is moving to Google's Public Data Finance.  The new dataset names are crypto_polkadot and crypto_kusama and are still under the `substrate-etl` project but will soon be under the `public-data-finance` project.  **
-
-**Status: As of May 2023, substrate-etl slated as part of a 
-[Polkadot Treasury-funded bounty proposal](https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit), curated by the
-Parity data team, as part of a broader "Polkadot Data Alliance" (see [select * from polkadot/Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)).**
+**IMPORTANT UPDATE!!! As of May 18, 2023, substrate-etl datasets are now in Google's BigQuery Public Datasets: `bigquery-public-data.crypto_polkadot` and `bigquery-public-data.crypto_kusama`.  This project is part of a 
+[Polkadot Treasury-funded bounty proposal](https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit), with curation led by the Parity data team, as part of a broader "Polkadot Data Alliance" (see [select * from polkadot/Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)).**
 
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,
@@ -26,43 +23,24 @@ A summary dashboard of the last 30 days and the last 1 hour is available:
 
 ### Quick Start
 
-`substrate-etl` is a public project within BigQuery which anyone can access:
+`bigquery-public-data` is a public project within BigQuery which anyone can access.  You see hundreds of BigQuery tables in the public `crypto_polkadot` and `crypto_kusama` datasets.  Just open the query editor and try some of the queries below:
 
-1. Get a [Google Cloud Platform](https://cloud.google.com/) account, and go to the [Google Cloud BigQuery](https://cloud.google.com/bigquery) console:
-
-<img src="https://cdn.polkaholic.io/substrate-etl/gcp-1.jpg" width="400"/>
-
-2. Click on "Add Data" and then "Star a project by name"
-
-<img src="https://cdn.polkaholic.io/substrate-etl/gcp-2.jpg" width="400"/>
-
-3. Enter "substrate-etl", which is a public BigQuery project.  
-
-<img src="https://cdn.polkaholic.io/substrate-etl/gcp-3.jpg" width="400"/>
- 
-4. You now can see hundreds of BigQuery  tables in the public `polkadot` and `kusama` datasets:
-
-<img src="https://cdn.polkaholic.io/substrate-etl/gcp-4.jpg" width="400"/>
-
-5. Open the query editor and try some of the queries below:
-
-_Get blocks of paraid 2007_ ([Schema](#blocksjson)):
+_Get blocks of paraid 2000_ ([Schema](#blocksjson)):
 ```bash
-select * from `substrate-etl.kusama.blocks2007` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
+select * from `bigquery-public-data.crypto_polkadot.blocks2000` where DATE(block_time) >= "2023-04-01" and DATE(block_time) <= ""2023-04-30"
 ```
 
-_Get extrinsics of paraid 2007_ ([Schema](#extrinsicsjson)):
+_Get extrinsics of paraid 2000_ ([Schema](#extrinsicsjson)):
 ```bash
-select * from `substrate-etl.kusama.extrinsics2007` where DATE(block_time) >= "2022-12-25" and DATE(block_time) <= "2022-12-31"
+select * from `bigquery-public-data.crypto_polkadot.blocks2000` where DATE(block_time) >= "2023-04-01" and DATE(block_time) <= ""2023-04-30"
 ```
 
 _Get XCM Transfers of Polkadot Network_ ([Schema](#xcmtransfersjson)):
 ```bash
-select * from `substrate-etl.polkadot.xcmtransfers` where DATE(origination_ts) >= "2023-04-01" and DATE(origination_ts) <= "2023-04-30"
+select * from `bigquery-public-data.crypto_polkadot.xcmtransfers` where DATE(origination_ts) >= "2023-04-01" and DATE(origination_ts) <= "2023-04-30"
 ```
 
 Schemas for several of the most common source tables are listed below -- a full list of schemas can be found [here](/schema) with further details below.
-
 
 ### Public Datasets in BigQuery
 
@@ -70,30 +48,30 @@ Substrate data for each chain is held in 9 tables in one of 2 public
 datasets, with one dataset for each relay chain and all its
 parachains.  By convention, relaychain data is considered "paraid=0".
 
-Project: (Location: us-central1)
-* `substrate-etl`
+Project: (Location: US)
+* `bigquery-public-data`
 
 Datasets:
-* `polkadot`
-* `kusama`
+* `crypto_polkadot`
+* `crypto_kusama`
 
 Tables: (replace `{paraID}` with a specific para ID, e.g. `2000` for `acala`)
 
-* _Blocks_: `substrate-etl.${relayChain}.blocks${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/balances.json)
-* _Extrinsics_: `substrate-etl.${relayChain}.extrinsics${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
-* _Events_: `substrate-etl.${relayChain}.events${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
-* _Transfers_: `substrate-etl.${relayChain}.transfers${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
-* _Balances_: `substrate-etl.${relayChain}.balances${paraID}` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
-* _Active Accounts_: `substrate-etl.${relayChain}.accountsactive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
-* _Passive Accounts_: `substrate-etl.${relayChain}.accountspassive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
-* _New Accounts_: `substrate-etl.${relayChain}.accountsnew${paraID}` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
-* _Reaped Accounts_: `substrate-etl.${relayChain}.accountsreaped${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
-* _Assets_: `substrate-etl.${relayChain}.assets` (relaychain-wide table: filter on `para_id` as needed) - [Schema](/schema/assets.json)
-* _XCM Assets_: `substrate-etl.${relayChain}.xcmassets` (relaychain-wide table: filter on `para_id` as needed) - [Schema](/schema/xcmassets.json)
-* _XCM Transfers_: `substrate-etl.${relayChain}.xcmtransfers` (relaychain-wide table: filter on `origination_para_id` or `destination_para_id` as needed; date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
-* _XCM Messages_: `substrate-etl.${relayChain}.xcm` (relaychain-wide table: filter on  `origination_para_id` or `destination_para_id` as needed; date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
+* _Blocks_: `bigquery-public-data.crypto_${relayChain}.blocks${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/blocks.json)
+* _Extrinsics_: `bigquery-public-data.crypto_${relayChain}.extrinsics${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/extrinsics.json)
+* _Events_: `bigquery-public-data.crypto_${relayChain}.events${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/events.json)
+* _Transfers_: `bigquery-public-data.crypto_${relayChain}.transfers${paraID}` (date-partitioned by `block_time`) - [Schema](/schema/transfers.json)
+* _Balances_: `bigquery-public-data.crypto_${relayChain}.balances${paraID}` (date-partitioned by `ts`) - [Schema](/schema/balances.json)
+* _Active Accounts_: `bigquery-public-data.crypto_${relayChain}.accountsactive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsactive.json)
+* _Passive Accounts_: `bigquery-public-data.crypto_${relayChain}.accountspassive${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountspassive.json)
+* _New Accounts_: `bigquery-public-data.crypto_${relayChain}.accountsnew${paraID}` (date-partitioned by `ts`)  - [Schema](/schema/accountsnew.json)
+* _Reaped Accounts_: `bigquery-public-data.crypto_${relayChain}.accountsreaped${paraID}` (date-partitioned by `ts`) - [Schema](/schema/accountsreaped.json)
+* _Assets_: `bigquery-public-data.crypto_${relayChain}.assets` (relaychain-wide table: filter on `para_id` as needed) - [Schema](/schema/assets.json)
+* _XCM Assets_: `bigquery-public-data.crypto_${relayChain}.xcmassets` (relaychain-wide table: filter on `para_id` as needed) - [Schema](/schema/xcmassets.json)
+* _XCM Transfers_: `bigquery-public-data.crypto_${relayChain}.xcmtransfers` (relaychain-wide table: filter on `origination_para_id` or `destination_para_id` as needed; date-partitioned by `origination_ts`) - [Schema](/schema/xcmtransfers.json)
+* _XCM Messages_: `bigquery-public-data.crypto_${relayChain}.xcm` (relaychain-wide table: filter on  `origination_para_id` or `destination_para_id` as needed; date-partitioned by `origination_ts`) - [Schema](/schema/xcm.json)
 
-Thus [polkadot](/polkadot/0-polkadot) relay chain blocks are held in `substrate-etl.polkadot.blocks0`, [acala](/polkadot/2000-polkadot) blocks are stored in `substrate-etl.polkadot.blocks2000`, and similarly for any chain / table name.  
+Thus [polkadot](/polkadot/0-polkadot) relay chain blocks are held in `bigquery-public-data.crypto_polkadot.blocks0`, [acala](/polkadot/2000-polkadot) blocks are stored in `bigquery-public-data.crypto_polkadot.blocks2000`, and similarly for any chain / table name.  
 
 See [Definitions](/DEFINITIONS.md) for how the tables are constructed and tentative definitions.
 
@@ -198,8 +176,8 @@ to_ss58                 | string                | STRING |
 from_pub_key            | string                | STRING |
 to_pub_key              | string                | STRING |
 asset                   | string                | STRING |
-price_usd               | float                | FLOAT64 |
-amount_usd              | float                | FLOAT64 |
+price_usd               | float                 | FLOAT64 |
+amount_usd              | float                 | FLOAT64 |
 symbol                  | string                | STRING  |
 decimals                | int8                  | INTEGER |
 amount                  | float                 | FLOAT64 |
@@ -314,14 +292,13 @@ Spring 2023
 * [x] Daily/hourly dump via [Github workflow](https://github.com/colorfulnotion/substrate-etl/actions)
 * [x] Hourly summary [report](SUMMARY) for all reachable parachains
 * [x] On-chain activity metrics: {active, passive, reaped, new} users, {numSignedExtrinsics, numTransfers, numXCMTransfers} modeled in bigQuery
-* [ ] GKE systematization, Reliability Improvements
-* [ ] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
+* [x] GKE systematization, Reliability Improvements
+* [x] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
 
 Summer/Fall 2023
 * [ ] EVM Chain Support: Transaction / Transfers, Contracts, Tokens / UniswapV2
 * [ ] XCM Message table redesign
 * [ ] Full XCMv3 Multilocation support
-* [ ] Dotsama metrics 
 * [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
 * [ ] New functionality based on community feedback
 
