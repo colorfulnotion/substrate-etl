@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-05-21 | 2,957,354 |  65 | 958,036 (32.40%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-05-22 | 856,626 |   |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-05-22 | 4,378,788 |  96,038 |    |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-05-22 | 4,205,360 |  101,471 | 3 (0.00%)  |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-05-22 | 4,205,360 |  101,471 |    |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-05-22 | 3,930,796 |  25,128 | 479,740 (12.20%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-05-22 | 4,047,503 |  634,571 | 209,844 (5.18%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-05-21 | 1,705,131 |  3 | 295 (0.02%) Archive node unavailable |
@@ -25,7 +25,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-05-22 | 3,136,365 |  29,613 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-05-22 | 3,412,074 |  18,523 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-05-22 | 3,086,257 |  16,529 | 8 (0.00%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-05-22 | 3,171,102 |  80,152 | 936,393 (29.53%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-05-22 | 3,171,102 |  80,152 | 884,001 (27.88%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-05-22 | 3,206,734 |  24,960 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-05-22 | 2,895,465 |  33,767 | 723,723 (25.00%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-05-22 | 3,000,997 |  15,746 | 803,158 (26.76%)  |
