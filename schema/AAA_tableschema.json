@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "table_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_partitioning_field",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "table_cols",
+    "type": "ARRAY<STRING>"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "table_schema",
+    "type": "STRING"
+  }
+]

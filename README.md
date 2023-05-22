@@ -1,7 +1,7 @@
 
 # Substrate ETL
 
-**IMPORTANT UPDATE!!! As of May 18, 2023, substrate-etl datasets are now in Google's BigQuery Public Datasets: `bigquery-public-data.crypto_polkadot` and `bigquery-public-data.crypto_kusama`.  This project is part of a 
+**IMPORTANT UPDATE!!! As of May 18, 2023, substrate-etl datasets are now in Google's BigQuery Public Datasets: `bigquery-public-data.crypto_polkadot` and `bigquery-public-data.crypto_kusama`.  This project is part of a
 [Polkadot Treasury-funded bounty proposal](https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit), with curation led by the Parity data team, as part of a broader "Polkadot Data Alliance" (see [select * from polkadot/Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)).**
 
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
@@ -24,6 +24,15 @@ A summary dashboard of the last 30 days and the last 1 hour is available:
 ### Quick Start
 
 `bigquery-public-data` is a public project within BigQuery which anyone can access.  You see hundreds of BigQuery tables in the public `crypto_polkadot` and `crypto_kusama` datasets.  Just open the query editor and try some of the queries below:
+
+_See all available tables/views via AAA_tableschema_ ([Schema](#AAA_tableschemajson))
+```bash
+select * from `bigquery-public-data.crypto_polkadot.AAA_tableschema`
+```
+_See all available tables/views of paraid 2000_
+```bash
+select * from `bigquery-public-data.crypto_polkadot.AAA_tableschema` where table_id like '%2000'
+```
 
 _Get blocks of paraid 2000_ ([Schema](#blocksjson)):
 ```bash
@@ -81,6 +90,20 @@ Notes:
 * System tables (`chains`, `assets`, `xcmassets`, `xcmtransfers`, `xcm`) are not specific to any parachain and apply to the whole relay chain.
 * All tables (except for `chains`, `assets` and `xcmassets`) are date-partitioned to support low cost, high speed scans.
 * If a parachain has a renewal, the first paraid assigned is used for subsequent renewals.
+
+### AAA_tableschema.json
+See:
+* [AAA_tableschema.json BigQuery schema](https://github.com/colorfulnotion/substrate-etl/tree/main/schema/AAA_tableschema.json)
+
+Field                   | BigQuery Type             |
+----------------------- |---------------------------|
+table_id                | STRING  |
+time_partitioning_field | STRING  |
+table_cols              | STRING	REPEATED  |
+table_schema            | INTEGER |
+
+*For a quick overview of the available tables/views within the dataset, please query AAA_tableschema view*
+
 
 ### chains.json
 
@@ -296,7 +319,6 @@ Spring 2023
 * [x] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
 
 Summer/Fall 2023
-* [ ] EVM Chain Support: Transaction / Transfers, Contracts, Tokens / UniswapV2
 * [ ] XCM Message table redesign
 * [ ] Full XCMv3 Multilocation support
 * [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
