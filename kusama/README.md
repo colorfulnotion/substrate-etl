@@ -50,6 +50,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 Missing chains
 
 
+* *null* Para ID 2241; 
 * *TBD* Para ID 2258; 
 * *TBD* Para ID 2262; No public endpoint
 * *null* Para ID 2264; 
