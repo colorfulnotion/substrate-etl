@@ -21,15 +21,15 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-05-31 | 2,796,787 |  16,383 |    |
 | [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-05-31 | 2,796,167 |  762,823 | 697,249 (24.94%)  |
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-05-31 | 2,441,721 |  4,387 |    |
-| [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-05-31 | 3,067,725 |  45,475 |    |
-| [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-05-31 | 2,813,020 |  11,791 | 621,626 (22.10%)  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-05-31 | 2,660,760 |  23,623 |    |
+| [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-05-31 | 3,067,725 |  45,481 |    |
+| [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-05-31 | 2,813,020 |  11,794 | 621,626 (22.10%)  |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-05-31 | 2,660,760 |  23,626 |    |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-05-31 | 2,653,754 |  3,404 | 2 (0.00%)  |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-05-31 | 2,466,375 |  24,176 | 2 (0.00%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-05-31 | 1,620,856 |  1 |    |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-05-31 | 2,502,028 |  3,607 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-05-31 | 1,232,613 |  626 | 1,098,150 (89.09%)  |
-| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-05-31 | 918,713 |  1,251 |    |
+| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-05-31 | 918,713 |  1,252 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-05-31 | 1,309,235 |  9 |    |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-05-31 | 1,029,002 |  1,107 |    |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
