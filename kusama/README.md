@@ -12,7 +12,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-05-31 | 4,449,334 |  96,073 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-05-31 | 4,275,578 |  101,496 |    |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-05-31 | 3,992,667 |  25,171 | 479,740 (12.02%) Only partial index available: Old Decoding issues |
-| [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-05-31 | 4,117,198 |  634,603 | 210,426 (5.11%) Only partial index available: Old Decoding issues |
+| [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-05-31 | 4,117,198 |  634,608 | 210,426 (5.11%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-05-31 | 1,774,627 |  3 | 21,152 (1.19%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-05-31 | 3,066,832 |  3,217 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-05-31 | 2,760,585 |  13,077 |    |
@@ -23,10 +23,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-05-31 | 3,644,894 |  24,384 | 377 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-05-31 | 2,524,836 |  3,180 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-05-31 | 3,201,718 |  29,616 | 2 (0.00%)  |
-| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-05-31 | 3,478,196 |  18,528 | 2 (0.00%)  |
+| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-05-31 | 3,478,196 |  18,529 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-05-31 | 3,151,594 |  16,535 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-05-31 | 3,240,853 |  80,159 | 883,882 (27.27%)  |
-| [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-05-31 | 3,276,084 |  24,967 |    |
+| [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-05-31 | 3,276,084 |  24,968 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-05-31 | 2,966,826 |  33,768 | 711,835 (23.99%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-05-31 | 3,072,315 |  15,761 | 716,784 (23.33%)  |
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-18 | 1,570,649 |  1,146 |    |
