@@ -9,6 +9,7 @@ _Source_: [amplitude.polkaholic.io](https://amplitude.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2023-06-01 to 2023-06-01](/kusama/2124-amplitude/2023-06-30.md) |  |  |  |  |  |  | -   |   
 | [2023-05-01 to 2023-05-31](/kusama/2124-amplitude/2023-05-31.md) | 1,582,230 | 1,783,998 | 201,769 | 131,449 | 22 | 968 | -   |   
 | [2023-04-01 to 2023-04-30](/kusama/2124-amplitude/2023-04-30.md) | 1,382,337 | 1,582,229 | 199,893 | 125,806 | 31 | 967 | -   |   
 | [2023-03-01 to 2023-03-31](/kusama/2124-amplitude/2023-03-31.md) | 1,166,960 | 1,382,336 | 215,377 | 42,248 | 36 | 953 | -   |   

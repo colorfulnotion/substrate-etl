@@ -9,6 +9,7 @@ _Source_: [moonriver.polkaholic.io](https://moonriver.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2023-06-01 to 2023-06-01](/kusama/2023-moonriver/2023-06-30.md) |  |  |  |  |  |  | -   |   
 | [2023-05-01 to 2023-05-31](/kusama/2023-moonriver/2023-05-31.md) | 4,148,267 | 4,360,972 | 212,706 | 3,427 | 35 | 251,384 | -   |   
 | [2023-04-01 to 2023-04-30](/kusama/2023-moonriver/2023-04-30.md) | 3,940,325 | 4,148,266 | 207,942 | 2,582 | 55 | 249,651 | -   |   
 | [2023-03-01 to 2023-03-31](/kusama/2023-moonriver/2023-03-31.md) | 3,723,310 | 3,940,324 | 217,015 | 2,799 | 58 | 248,137 | -   |   
