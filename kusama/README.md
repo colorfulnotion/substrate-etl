@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-05-31 | 18,159,295 |  289,517 |    |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-05-31 | 18,159,295 |  289,530 |    |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-05-31 | 4,603,710 |  51,964 | 6 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-05-31 | 3,027,382 |  65 | 958,030 (31.65%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-05-31 | 927,081 |   |    |
@@ -54,5 +54,6 @@ Missing chains
 * *TBD* Para ID 2258; 
 * *TBD* Para ID 2262; No public endpoint
 * *null* Para ID 2264; 
+* *null* Para ID 2270; 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
