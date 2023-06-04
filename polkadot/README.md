@@ -9,7 +9,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-06-04 | 3,907,653 |  900 |    |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-06-04 | 1,379,841 |  14 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-06-04 | 3,720,582 |  167,769 |    |
-| [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-06-03 | 3,622,400 |  2,233 | 7,075 (0.20%)  |
+| [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-06-04 | 3,622,400 |  2,233 | 7,011 (0.19%)  |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-06-04 | 3,704,609 |  1,158,740 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-06-04 | 3,711,468 |  508,021 |    |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-06-04 | 1,841,415 |  1,060 |    |
