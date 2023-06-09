@@ -16,7 +16,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-06-08 | 1,830,995 |  3 | 21,153 (1.16%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-06-09 | 3,123,908 |  3,217 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-06-09 | 2,817,097 |  13,088 |    |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-06-09 | 4,417,647 |  251,722 |    |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-06-09 | 4,417,647 |  251,865 |    |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-06-09 | 3,116,912 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-06-09 | 3,287,369 |  3,013 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-06-09 | 3,842,413 |  176,817 | 1,014 (0.03%) Only partial index available: Archive node unavailable |
@@ -25,7 +25,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-06-09 | 3,254,813 |  29,628 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-06-09 | 3,532,248 |  18,560 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-06-09 | 3,206,283 |  16,569 | 8 (0.00%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-06-09 | 3,297,032 |  80,195 | 899,511 (27.28%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-06-09 | 3,297,032 |  80,196 | 899,511 (27.28%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-06-09 | 3,327,779 |  25,008 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-06-09 | 3,023,318 |  33,770 | 711,835 (23.54%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-06-09 | 3,129,512 |  15,849 | 716,784 (22.90%)  |
