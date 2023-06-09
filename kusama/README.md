@@ -22,8 +22,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-06-09 | 3,842,413 |  176,817 | 1,014 (0.03%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-06-09 | 3,688,020 |  24,407 | 3,852 (0.10%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-06-09 | 2,581,857 |  3,303 |    |
-| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-06-09 | 3,248,141 |  29,628 | 2 (0.00%)  |
-| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-06-09 | 3,525,280 |  18,560 | 2 (0.00%)  |
+| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-06-09 | 3,254,813 |  29,628 | 2 (0.00%)  |
+| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-06-09 | 3,532,248 |  18,560 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-06-09 | 3,206,283 |  16,569 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-06-09 | 3,297,032 |  80,195 | 899,900 (27.29%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-06-09 | 3,327,779 |  25,008 |    |
