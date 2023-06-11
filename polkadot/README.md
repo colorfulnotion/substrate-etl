@@ -15,15 +15,15 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-06-11 | 1,891,442 |  1,060 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-06-11 | 1,278,903 |  1,000 |    |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-06-11 | 2,562,642 |  8,591 | 6 (0.00%)  |
-| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-06-11 | 3,692,809 |  47,801 | 152 (0.00%)  |
+| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-06-11 | 3,692,809 |  47,804 | 152 (0.00%)  |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-06-11 | 2,510,225 |  4,818 |    |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-06-11 | 2,208,182 |  27 | 994,669 (45.04%)  |
-| [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-06-11 | 2,801,656 |  16,528 | 39,174 (1.40%)  |
+| [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-06-11 | 2,801,656 |  16,529 | 39,174 (1.40%)  |
 | [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-06-11 | 2,871,798 |  774,022 | 697,249 (24.28%)  |
-| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-06-11 | 2,509,806 |  4,573 |    |
+| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-06-11 | 2,509,806 |  4,577 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-06-11 | 3,146,309 |  45,771 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-06-11 | 2,885,713 |  11,912 | 621,626 (21.54%)  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-06-11 | 2,736,311 |  23,736 |    |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-06-11 | 2,736,311 |  23,738 |    |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-06-11 | 2,732,358 |  3,558 | 2 (0.00%)  |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-06-11 | 2,545,117 |  24,239 | 2 (0.00%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-06-11 | 1,684,010 |  1 |    |
