@@ -17,7 +17,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-06-13 | 2,575,911 |  8,591 | 6 (0.00%)  |
 | [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-06-13 | 3,705,383 |  47,809 | 152 (0.00%)  |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-06-13 | 2,524,486 |  4,819 |    |
-| [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-06-13 | 2,222,366 |  27 | 993,422 (44.70%)  |
+| [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-06-13 | 2,222,381 |  27 | 993,436 (44.70%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-06-13 | 2,801,656 |  16,530 | 53,497 (1.91%)  |
 | [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2023-06-13 | 2,886,037 |  774,496 | 697,249 (24.16%)  |
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-06-13 | 2,522,116 |  4,584 |    |
@@ -38,7 +38,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-06-13 | 748,962 |  574 | 311 (0.04%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-06-13 | 804,292 |  895 |    |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-06-13 | 582,013 |  10 |   Onboarding |
-| [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-06-13 | 692,031 |  2 |    |
+| [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-06-13 | 692,033 |  2 |    |
 
 Missing chains
 
