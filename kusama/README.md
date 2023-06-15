@@ -20,12 +20,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-06-15 | 3,157,875 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-06-15 | 3,330,243 |  3,014 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-06-15 | 3,883,442 |  180,986 | 1,014 (0.03%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-06-15 | 3,720,356 |  24,409 | 14,816 (0.40%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-06-15 | 3,720,356 |  24,409 | 14,814 (0.40%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-06-15 | 2,624,565 |  3,312 |    |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-06-15 | 3,295,348 |  29,630 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-06-15 | 3,572,513 |  18,565 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-06-15 | 3,247,144 |  16,572 | 8 (0.00%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-06-15 | 3,339,392 |  80,199 | 912,998 (27.34%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-06-15 | 3,339,392 |  80,199 | 912,996 (27.34%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-06-15 | 3,366,534 |  25,013 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-06-15 | 3,066,029 |  33,773 | 711,835 (23.22%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-06-15 | 3,172,327 |  15,857 | 716,784 (22.59%)  |
