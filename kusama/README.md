@@ -8,7 +8,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-06-16 | 18,374,584 |  290,520 | 17 (0.00%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-06-16 | 4,710,246 |  51,964 | 6 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-06-15 | 3,133,799 |  65 | 958,099 (30.57%) Only partial index available: Old Decoding issues |
-| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-06-16 | 1,033,993 |  4 |    |
+| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-06-16 | 1,033,993 |  5 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-06-16 | 4,556,331 |  96,366 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-06-16 | 4,381,971 |  101,627 |    |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-06-16 | 4,086,739 |  25,429 | 479,740 (11.74%) Only partial index available: Old Decoding issues |
@@ -20,12 +20,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-06-16 | 3,164,756 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-06-16 | 3,337,396 |  3,015 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-06-16 | 3,890,478 |  181,865 | 1,014 (0.03%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-06-16 | 3,725,759 |  24,409 | 17,457 (0.47%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-06-16 | 3,725,759 |  24,410 | 17,248 (0.46%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-06-16 | 2,631,396 |  3,312 |    |
-| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-06-16 | 3,302,038 |  29,630 | 2 (0.00%)  |
+| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-06-16 | 3,302,038 |  29,631 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-06-16 | 3,579,229 |  18,565 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-06-16 | 3,253,803 |  16,572 | 8 (0.00%)  |
-| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-06-16 | 3,346,531 |  80,199 | 913,124 (27.29%)  |
+| [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-06-16 | 3,346,531 |  80,200 | 912,810 (27.28%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-06-16 | 3,373,001 |  25,013 |    |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-06-16 | 3,073,120 |  33,773 | 711,835 (23.16%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-06-16 | 3,179,398 |  15,857 | 716,784 (22.54%)  |
