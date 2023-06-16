@@ -259,29 +259,7 @@ The **# of Transfers** metric is computed using the following table, and include
 
 ## XCM Transfers
 
-The process of matching XCM Transfers between an origination chain and a destination chain will be detailed further in Q2 2023.
-
-## Account Metrics (EVM Chains)
-
-Preliminary tables for Parachains with EVM activity (Moonbeam/Moonriver, Astar/Shiden, Clover, Snow) are available for preview, with analogous definitions for EVM Active Accounts and EVM Passive Accounts 
-
-* `substrate-etl.{relayChain}.evmtxs{paraID}` - all transactions
-* `substrate-etl.{relayChain}.evmtransfers{paraID}` - all transfers 
-* `substrate-etl.{relayChain}.accountsevmactive{paraID}` - holds accounts which originated an signed EVM transaction in `evmtxs`
-* `substrate-etl.{relayChain}.accountsevmpassive{paraID}` - holds accounts which are not active but are either a from_address or to_address in `evmtransfers`
-
-## Dotsama Network Metrics
-
-To form Dotsama datasets, using the above source tables, we union datasets from chains across both networks:
-
-| Dotsama Dataset         | Polkadot Source Tables                   | Kusama Source Tables                   | Dotsama Destination Table              |
-| ----------------------- | ---------------------------------------- | -------------------------------------- | -------------------------------------- |
-| Addresses With Balances | `substrate-etl.polkadot.balances*`       | `substrate-etl.kusama.balances*`       | `substrate-etl.dotsama.accountsall`    | 
-| Active Accounts         | `substrate-etl.polkadot.accountactive*`  | `substrate-etl.kusama.accountactive*`  | `substrate-etl.dotsama.accountsactive` | 
-| New Accounts            | `substrate-etl.polkadot.accountsnew*`    | `substrate-etl.kusama.accountsnew*`    | `substrate-etl.dotsama.accountsnew`    |
-| Reaped Accounts         | `substrate-etl.polkadot.accountsreaped*` | `substrate-etl.kusama.accountsreaped*` | `substrate-etl.dotsama.accountsreaped` |
-
-Daily counts from the above 4 Dotsama Destination Tables can be seen in the [**Dotsama Daily Log (2023)**](https://github.com/colorfulnotion/substrate-etl/blob/defs/SUMMARY.md#dotsama-daily-log-2023).
+The process of matching XCM Transfers between an origination chain and a destination chain with topics will be detailed further in Q3 2023.
 
 **Important:** Because some parachains do not provide archive nodes (see "Issues"), only tables from chains that provide archive nodes can be included.  If new archive nodes become available for these
 chains, the above datasets may be adjusted.

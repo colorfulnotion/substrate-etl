@@ -323,7 +323,7 @@ order by monthDT desc
 `);
 	let broken = [];
 	let chainInfo = chaindata.chain;
-	let isEVM = chainInfo.isEVM;
+
 	let isWASM = chainInfo.isWASM;
 	
 	let prevStartBN = null;
@@ -419,67 +419,10 @@ order by monthDT desc
                 desc += `\r\n\r\n`
                 j[k].push(desc);
                 j[k].push(`### Daily Summary for Month ending in ${monthDT}\r\n\r\n`);
-		let evmcola = isEVM ? "| # EVM Txs | # EVM Transfers | # Active EVM Accounts | # Passive EVM Accounts " : "";
-		let evmcolb = isEVM ? "| --------- | --------------- | --------------------- | ---------------------- " : "";
-                j[k].push(`| Date | Start Block | End Block | # Blocks ${evmcola} | # Signed Extrinsics (total) | # Active Accounts | # Passive | # New | # Addresses with Balances | # Events | # Transfers | # XCM Transfers In | # XCM Transfers Out | # XCM In | # XCM Out | Issues | `);
-                j[k].push(`| ---- | ----------- | --------- | -------- ${evmcolb} | --------------------------- | ----------------- | --------- | ----- | ------------------------- | -------- | ----------- | ------------------ | ------------------- | -------- | --------- | ------ |`);
+
 		
                 docs[k].push(`\r\n## Sample Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`bigquery-public-data.${bqDataset}\` in Google BigQuery:`);
 		
-		if ( isEVM && false ) {
-		    // refactor
-		    docs[k].push(`\r\n
-### EVM Transactions 
-
-[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/evmtxs.json)
-\`\`\`bash
-SELECT date(block_time) as logDT, 
- COUNT(*) numEVMTransactions
- FROM \`bigquery-public-data.${bqDataset}.evmtxs${paraID}\`  
- where LAST_DAY(date(block_time)) = "${monthDT}" 
- group by logDT 
- order by logDT
-\`\`\`
-
-### EVM Transfers 
-
-[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/evmtransfers.json)
-
-\`\`\`bash
-SELECT date(block_time) as logDT, 
-COUNT(*) numEVMTransfers
-FROM \`bigquery-public-data.${bqDataset}.evmtransfers${paraID}\`  
-where signed and LAST_DAY(date(block_time)) = "${monthDT}" 
-group by logDT 
-order by logDT
-\`\`\`
-
-### Active EVM Accounts 
-
-[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/accountsevmactive.json)
-
-\`\`\`bash
-SELECT date(ts) as logDT, 
- COUNT(*) numActiveEVMAccounts 
- FROM \`bigquery-public-data.${bqDataset}.accountsactive${paraID}\` 
- where LAST_DAY(date(ts)) = "${monthDT}" 
- group by logDT 
- order by logDT
-\`\`\`
-
-### Passive EVM Accounts 
-
-[Schema](https://github.com/colorfulnotion/substrate-etl/blob/main/schema/accountsevmpassive.json)
-
-\`\`\`bash
-SELECT date(ts) as logDT, 
- COUNT(*) numPassiveEVMAccounts 
- FROM \`bigquery-public-data.${bqDataset}.accountspassive${paraID}\` 
- where LAST_DAY(date(ts)) = "${monthDT}" 
- group by logDT 
- order by logDT
-\`\`\`
-`)
 		}
 		docs[k].push(`\r\n
 ### Blocks 
@@ -667,16 +610,8 @@ order by logDT
                 broken.push(logDT);
                 numBlocks_missing = " **BROKEN**";
             }
-	    let evmcols = ""
-	    if ( isEVM ) {
-		let numEVMTransactions = r.numTransactionsEVM ? r.numTransactionsEVM.toLocaleString('en-US') : "";
-		let numEVMTransfers = r.numEVMTransfers ? r.numEVMTransfers.toLocaleString('en-US') : "";
-		let numActiveAccountsEVM = r.numActiveAccountsEVM ? r.numActiveAccountsEVM.toLocaleString('en-US') : "";
-		let numPassiveAccountsEVM = r.numPassiveAccountsEVM ? r.numPassiveAccountsEVM.toLocaleString('en-US') : "";
-		evmcols = `| ${numEVMTransactions} | ${numEVMTransfers} | ${numActiveAccountsEVM} | ${numPassiveAccountsEVM} `
-	    }
 	    
-            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} ${evmcols} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} | ${numXCMMessagesIn} | ${numXCMMessagesOut} | ${missing} |`)
+            j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} | ${numXCMMessagesIn} | ${numXCMMessagesOut} | ${missing} |`)
             prevStartBN = r.startBN;
         }
 	

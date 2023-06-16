@@ -1,8 +1,12 @@
 
-# Substrate ETL
+# Substrate ETL 
 
-**IMPORTANT UPDATE!!! As of May 18, 2023, substrate-etl datasets are now in Google's BigQuery Public Datasets: `bigquery-public-data.crypto_polkadot` and `bigquery-public-data.crypto_kusama`.  This project is part of a
-[Polkadot Treasury-funded bounty proposal](https://docs.google.com/document/d/1ryC6dxcd9tiQsB7KiCc2BY_TwBJ5jKloGfCyVAGCkKo/edit), with curation led by the Parity data team, as part of a broader "Polkadot Data Alliance" (see [select * from polkadot/Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)).**
+**IMPORTANT UPDATE!!! As of May 18, 2023, substrate-etl datasets are now in Google's BigQuery Public Datasets: `bigquery-public-data.crypto_polkadot` and `bigquery-public-data.crypto_kusama`!**
+
+This project is part of the [Polkadot Data Bounty Treasury-funded
+bounty proposal](https://docs.google.com/document/d/1fA5ARHy-frzgZC66rniKZ5o7CSbDvCTkS--kWaMzuMs/edit#),
+with curation led by the Parity data team, as part of a broader
+"Polkadot Data Alliance" (see [select * from polkadot/Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)).
 
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,
@@ -310,7 +314,7 @@ and for every single chain that is being indexed.  See the report **Issues** col
 
 ### Roadmap
 
-Spring 2023
+Spring/Summer 2023
 * [x] Initial table designs {blocks, extrinsics, events, trasnfers, balances, xcmTransfers}
 * [x] Daily/hourly dump via [Github workflow](https://github.com/colorfulnotion/substrate-etl/actions)
 * [x] Hourly summary [report](SUMMARY) for all reachable parachains
@@ -318,16 +322,16 @@ Spring 2023
 * [x] GKE systematization, Reliability Improvements
 * [x] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
 
-Summer/Fall 2023
+Fall/Winter 2023
+* [ ] Basic Wasm contract support (psp22, events, bytecode)
 * [ ] XCM Message table redesign
 * [ ] Full XCMv3 Multilocation support
-* [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
 * [ ] New functionality based on community feedback
 
-Fall/Winter 2023
+Spring/Summer 2024
 
 * [ ] Bridgehub integration
-* [ ] Basic Wasm contract support (psp22, events, bytecode)
+* [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
 * [ ] Reporting on Comparison to other ecosystems also modelled in BigQuery
 * [ ] Solochain, testnet integration based on community feedback
 * [ ] New functionality based on community feedback
