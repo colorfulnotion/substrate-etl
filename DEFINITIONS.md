@@ -151,7 +151,7 @@ WITH ActiveAccount AS
      (SELECT to_ss58 AS address_ss58,
              to_pub_key AS address_pubkey,
              Max(block_time) AS block_time
-      FROM `substrate-etl.kusama.transfers2004`
+      FROM `substrate-etl.kusama.transfers0`
       WHERE DATE(block_time) = "2023-02-01"
       GROUP BY address_ss58,
                address_pubkey
