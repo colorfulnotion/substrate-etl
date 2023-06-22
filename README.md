@@ -40,12 +40,12 @@ select * from `bigquery-public-data.crypto_polkadot.AAA_tableschema` where table
 
 _Get blocks of paraid 2000_ ([Schema](#blocksjson)):
 ```bash
-select * from `bigquery-public-data.crypto_polkadot.blocks2000` where DATE(block_time) >= "2023-04-01" and DATE(block_time) <= ""2023-04-30"
+select * from `bigquery-public-data.crypto_polkadot.blocks2000` where DATE(block_time) >= "2023-04-01" and DATE(block_time) <= "2023-04-30"
 ```
 
 _Get extrinsics of paraid 2000_ ([Schema](#extrinsicsjson)):
 ```bash
-select * from `bigquery-public-data.crypto_polkadot.blocks2000` where DATE(block_time) >= "2023-04-01" and DATE(block_time) <= ""2023-04-30"
+select * from `bigquery-public-data.crypto_polkadot.extrinsics2000` where DATE(block_time) >= "2023-04-01" and DATE(block_time) <= "2023-04-30"
 ```
 
 _Get XCM Transfers of Polkadot Network_ ([Schema](#xcmtransfersjson)):
