@@ -423,7 +423,6 @@ order by monthDT desc
 		
                 docs[k].push(`\r\n## Sample Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`bigquery-public-data.${bqDataset}\` in Google BigQuery:`);
 		
-		}
 		docs[k].push(`\r\n
 ### Blocks 
 
