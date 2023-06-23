@@ -16,7 +16,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-06-22 | 1,930,238 |  3 | 21,349 (1.11%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-06-23 | 3,223,857 |  3,218 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-06-23 | 2,916,513 |  13,093 |    |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-06-23 | 4,517,013 |  258,702 | 9 (0.00%)  |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-06-23 | 4,517,013 |  259,457 | 9 (0.00%)  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-06-23 | 3,210,869 |  20 |    |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-06-23 | 3,387,539 |  3,017 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-06-23 | 3,940,330 |  191,924 | 8,090 (0.21%) Only partial index available: Archive node unavailable |
