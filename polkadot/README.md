@@ -30,14 +30,14 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-06-23 | 2,664,652 |  3,622 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-06-23 | 1,232,613 |  714 | 1,098,347 (89.11%)  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-06-23 | 1,081,178 |  1,282 |    |
-| [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-06-23 | 1,466,132 |  9 |    |
+| [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-06-23 | 1,473,269 |  9 |    |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-06-23 | 1,111,644 |  1,109 |    |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-06-23 | 4,053,989 |  18,686 | 7,475 (0.18%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-06-23 | 1,456,330 |  118 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-06-23 | 820,279 |  574 | 327 (0.04%) Only partial index available: Archive node unavailable |
-| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-06-23 | 868,429 |  898 |    |
-| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-06-23 | 644,450 |  11 |   Onboarding |
+| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-06-23 | 875,574 |  898 |    |
+| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-06-23 | 651,598 |  11 |   Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-06-23 | 763,398 |  2 |    |
 
 Missing chains
