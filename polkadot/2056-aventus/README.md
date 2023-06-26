@@ -9,7 +9,7 @@ Status: Crawling initiated
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-06-25 to 2023-06-25](/polkadot/2056-aventus/2023-06-30.md) |  |  |  |  |  |  | -   |   
+| [2023-06-25 to 2023-06-25](/polkadot/2056-aventus/2023-06-30.md) | 1,490,434 | 1,496,777 | 526 |  |  |  | - 5,818 (91.72%) |   
 
 ## Tables:
 
