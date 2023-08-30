@@ -39,7 +39,7 @@ function tokenCount(c, _maximumFractionDigits = 2) {
 module.exports = class Reporter {
     async fetch_networklog(url) {
 	try {
-            let cmd = `curl --silent -H "Content-Type: application/json" --max-time 30 --connection-timeout 13 ${url}`
+            let cmd = `curl --silent -H "Content-Type: application/json" --max-time 30 ${url}`
             let {
 		stdout,
 		stderr
@@ -61,7 +61,7 @@ module.exports = class Reporter {
 	let dotsamalog = await this.fetch_networklog(dotsamaurl);
 	
 	let url = "https://cdn.polkaholic.io/substrate-etl/polkaholic.json";
-        let cmd = `curl --silent -H "Content-Type: application/json" --max-time 30 --connection-timeout 13 ${url}`
+        let cmd = `curl --silent -H "Content-Type: application/json" --max-time 30 ${url}`
         let {
             stdout,
             stderr
@@ -187,7 +187,7 @@ module.exports = class Reporter {
 	// fetch chains where symbol appears
 	try {
 	    let bqDataset = this.get_relayChain_dataset(relayChain);
-	    let cmd = `curl --silent -H "Content-Type: application/json" --max-time 30 --connection-timeout 13 ${url}`
+	    let cmd = `curl --silent -H "Content-Type: application/json" --max-time 30 ${url}`
             const {
 		stdout,
 		stderr
@@ -270,7 +270,7 @@ select para_id, count(distinct address_pubkey) numHolders,
         let id = chain.id;
 	let chainName = chain.chainName;
         let url = `https://cdn.polkaholic.io/substrate-etl/${relayChain}/${paraID}.json`;
-	let cmd = `curl --silent -H "Content-Type: application/json" --max-time 30 --connection-timeout 13 ${url}`
+	let cmd = `curl --silent -H "Content-Type: application/json" --max-time 30 ${url}`
 	let chaindata = null;
 	try { 
             const {
