@@ -77,6 +77,7 @@ module.exports = class Reporter {
 	summary.push(`| Network          | Indexed up until | # Chains Indexed | # Chains Not Indexed | # Blocks Across Network   | # Blocks Missing |`);
 	summary.push(`| ---------------- | ---------------- | ---------------- | -------------------- | ------------------------- | ---------------- |`);
 	for (const relayChain of Object.keys(polkaholic)) {
+	    if ( ! ["polkadot","kusama"].includes(relayChain) ) continue;
             if (o[relayChain] == undefined) {
 		o[relayChain] = [];
 		o[relayChain].push(`# ${relayChain} Network-wide Summary (All-time)\r\n\r\nSource: [Polkaholic.io](https://polkaholic.io)\r\n\r\n`);
@@ -419,7 +420,8 @@ order by monthDT desc
                 desc += `\r\n\r\n`
                 j[k].push(desc);
                 j[k].push(`### Daily Summary for Month ending in ${monthDT}\r\n\r\n`);
-
+	    j[k].push(`| Date    | Start Block | End Block | # Blocks | # Extrinsics | # Active Accounts | # Passive Accounts | # New Accounts | # Addresses | # Events  | # Transfers ($USD) | # XCM Transfers In ($USD) | # XCM Transfers Out ($USD) | # XCM In | # XCM Out | Issues |`)
+	    j[k].push(`|---------|-------------|-----------|----------|--------------|-------------------|--------------------|----------------|-------------|-----------|--------------------|---------------------------|----------------------------|----------|-----------|--------|`)
 		
                 docs[k].push(`\r\n## Sample Queries:\r\nYou can generate the above summary data using the following queries using the public dataset \`bigquery-public-data.${bqDataset}\` in Google BigQuery:`);
 		
@@ -607,9 +609,9 @@ order by logDT
 
             if (prevStartBN && (prevStartBN != (r.endBN + 1)) && (r.endBN < prevStartBN)) {
                 broken.push(logDT);
+		console.log(logDT, prevStartBN, r.endBN)
                 numBlocks_missing = " **BROKEN**";
             }
-	    
             j[k].push(`| ${logDT} | ${startBN} | ${endBN} | ${numBlocks} | ${numSignedExtrinsics} | ${numActiveAccounts} | ${numPassiveAccounts} | ${numNewAccounts} | ${numAddresses} | ${numEvents} | ${numTransfers} ${valueTransfersUSD} | ${numXCMTransfersIn} ${valXCMTransferIncomingUSD} | ${numXCMTransfersOut} ${valXCMTransferOutgoingUSD} | ${numXCMMessagesIn} | ${numXCMMessagesOut} | ${missing} |`)
             prevStartBN = r.startBN;
         }
@@ -621,7 +623,7 @@ order by logDT
             fs.writeSync(f, j[k].join(NL) + NL);
         }
 	if( broken.length > 0 ) {
-	    console.log("BROKEN CHAIN", broken);
+	    console.log("BROKEN CHAIN", chainID, broken);
 	}
     }
 }
