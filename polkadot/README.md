@@ -9,7 +9,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2023-09-13 | 4,566,350 |  1,454 |    |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2023-09-13 | 2,102,073 |  54 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-09-13 | 4,442,854 |  167,769 | 15 (0.00%)  |
-| [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-09-13 | 4,327,197 |  2,279 | 1,776 (0.04%)  |
+| [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-09-13 | 4,327,197 |  2,279 | 478 (0.01%)  |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-09-13 | 4,422,186 |  1,390,342 | 1 (0.00%)  |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-09-13 | 4,430,495 |  530,491 |    |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-09-08 | 2,523,500 |  1,065 |    |
@@ -37,7 +37,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-09-13 | 4,598,761 |  18,972 | 554 (0.01%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-09-13 | 2,039,637 |  120 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-09-13 | 1,407,615 |  586 | 3,154 (0.22%) Only partial index available: Archive node unavailable |
-| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-09-13 | 1,454,798 |  1,171 | 4,292 (0.30%)  |
+| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-09-13 | 1,461,454 |  1,171 | 4,292 (0.29%)  |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-09-13 | 1,233,506 |  27 |   Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-09-13 | 1,351,431 |  2 |    |
 
