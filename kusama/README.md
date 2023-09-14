@@ -27,7 +27,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-09-14 | 3,880,175 |  16,687 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-09-14 | 3,988,653 |  80,237 | 891,067 (22.34%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-09-14 | 3,939,788 |  25,084 |    |
-| [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-09-14 | 3,716,948 |  33,790 | 710,395 (19.11%) Only partial index available: Onboarding |
+| [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-09-14 | 3,716,948 |  33,790 | 680,832 (18.32%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2023-09-14 | 3,821,076 |  16,081 | 716,783 (18.76%)  |
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-18 | 1,570,649 |  1,146 |    |
 | [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2023-09-13 | 1,692,086 |  5,426 | 11,776 (0.70%)  |
