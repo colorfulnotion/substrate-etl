@@ -9,7 +9,7 @@ _Source_: [origintrail.polkaholic.io](https://origintrail.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-09-01 to 2023-09-16](/polkadot/2043-origintrail/2023-09-30.md) | 3,163,988 | 3,277,229 | 113,242 | 175 | 11 | 3,742 | -   |   
+| [2023-09-01 to 2023-09-17](/polkadot/2043-origintrail/2023-09-30.md) | 3,163,988 | 3,277,229 | 113,242 | 175 | 12 | 3,742 | -   |   
 | [2023-08-01 to 2023-08-31](/polkadot/2043-origintrail/2023-08-31.md) | 2,942,961 | 3,163,987 | 221,027 | 91 | 10 | 3,713 | -   |   
 | [2023-07-01 to 2023-07-31](/polkadot/2043-origintrail/2023-07-31.md) | 2,721,472 | 2,942,960 | 221,489 | 318 | 13 | 3,705 | -   |   
 | [2023-06-01 to 2023-06-30](/polkadot/2043-origintrail/2023-06-30.md) | 2,509,153 | 2,721,471 | 212,319 | 102 | 10 | 3,628 | -   |   
