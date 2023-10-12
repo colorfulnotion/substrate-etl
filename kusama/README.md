@@ -11,12 +11,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-10-12 | 1,870,401 |  29 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-12 | 5,398,577 |  97,625 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-12 | 5,206,986 |  102,373 |    |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-12 | 4,815,932 |  25,787 | 479,740 (9.96%) Only partial index available: Old Decoding issues |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-12 | 4,821,678 |  25,787 | 479,740 (9.95%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-10-12 | 5,061,501 |  645,882 | 208,395 (4.12%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-10-12 | 2,716,454 |  3 | 21,142 (0.78%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-10-12 | 3,971,268 |  3,239 |    |
-| [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-10-11 | 3,705,571 |  13,167 |    |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-10-11 | 5,302,168 |  486,795 |    |
+| [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-10-12 | 3,705,571 |  13,167 |    |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-10-12 | 5,302,168 |  487,093 |    |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-10-04 | 3,788,773 |  1,560 | 4,430 (0.12%)  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-10-12 | 4,180,943 |  3,054 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-10-12 | 4,709,332 |  284,070 | 165 (0.00%) Only partial index available: Archive node unavailable |
