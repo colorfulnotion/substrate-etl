@@ -5,13 +5,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-10-14 | 20,114,024 |  297,335 | 43,391 (0.22%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-10-15 | 20,114,024 |  297,361 | 43,389 (0.22%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-10-15 | 5,573,159 |  63,061 | 6 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-10-15 | 3,979,207 |  75 | 1,198,630 (30.12%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-10-15 | 1,891,883 |  29 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-15 | 5,420,043 |  97,631 |    |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-15 | 5,226,482 |  102,376 |    |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-14 | 4,839,807 |  25,795 | 479,740 (9.91%) Only partial index available: Old Decoding issues |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-15 | 5,226,482 |  102,378 |    |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-15 | 4,839,807 |  25,795 | 479,740 (9.91%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-10-15 | 5,082,818 |  645,888 | 208,395 (4.10%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-10-15 | 2,737,535 |  3 | 21,142 (0.77%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-10-15 | 3,992,134 |  3,240 |    |
@@ -22,7 +22,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-10-15 | 4,730,753 |  284,070 | 165 (0.00%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-10-15 | 4,548,846 |  24,527 | 515 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-10-15 | 3,451,330 |  3,882 | 64 (0.00%)  |
-| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-10-15 | 4,101,766 |  29,688 | 2 (0.00%)  |
+| [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-10-15 | 4,108,579 |  29,688 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-10-15 | 4,412,152 |  18,647 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-10-15 | 4,092,701 |  16,715 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-10-15 | 4,210,837 |  80,253 | 891,040 (21.16%)  |
