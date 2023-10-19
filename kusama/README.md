@@ -11,19 +11,19 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-10-19 | 1,920,584 |  29 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-19 | 5,448,716 |  97,641 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-19 | 5,252,483 |  102,397 |    |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-19 | 4,864,248 |  25,804 | 479,740 (9.86%) Only partial index available: Old Decoding issues |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-19 | 4,864,248 |  25,807 | 479,740 (9.86%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-10-19 | 5,111,281 |  645,896 | 208,395 (4.08%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-10-19 | 2,766,131 |  3 | 21,142 (0.76%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-10-19 | 4,019,968 |  3,240 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-10-19 | 3,755,554 |  13,169 |    |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-10-19 | 5,350,732 |  489,527 | 79 (0.00%)  |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-10-19 | 5,350,732 |  489,527 | 42 (0.00%)  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-10-19 | 3,808,785 |  1,560 | 4,430 (0.12%)  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-10-19 | 4,231,091 |  3,056 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-10-19 | 4,759,350 |  284,070 | 165 (0.00%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-10-19 | 4,577,394 |  24,528 | 515 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-10-19 | 3,477,489 |  3,889 | 64 (0.00%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-10-19 | 4,135,904 |  29,690 | 2 (0.00%)  |
-| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-10-18 | 4,440,052 |  18,648 | 2 (0.00%)  |
+| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-10-19 | 4,440,052 |  18,648 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-10-19 | 4,119,937 |  16,716 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-10-19 | 4,239,500 |  80,254 | 891,040 (21.02%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-10-13 | 4,126,334 |  25,132 | 7,064 (0.17%)  |
