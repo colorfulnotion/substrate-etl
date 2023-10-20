@@ -9,7 +9,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-10-20 | 5,609,018 |  63,082 | 6 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-10-20 | 4,014,768 |  75 | 1,198,630 (29.86%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-10-20 | 1,927,767 |  29 |    |
-| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-20 | 5,455,892 |  97,641 |    |
+| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-20 | 5,455,892 |  97,644 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-20 | 5,258,972 |  102,403 |    |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-20 | 4,870,376 |  25,809 | 479,740 (9.85%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-10-20 | 5,118,392 |  645,898 | 208,395 (4.07%) Only partial index available: Old Decoding issues |
@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-10-20 | 3,735,632 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-10-17 | 3,429,014 |  2,367 | 37 (0.00%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-10-20 | 2,532,933 |  13,227 | 885,356 (34.95%)  |
-| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-10-20 | 3,688,566 |  7,737 |    |
+| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-10-20 | 3,688,566 |  7,738 |    |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-30 | 2,161,094 |  3,882 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
