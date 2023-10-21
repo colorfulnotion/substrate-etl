@@ -9,10 +9,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-10-21 | 5,616,183 |  63,086 | 6 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-10-21 | 4,021,880 |  75 | 1,198,630 (29.80%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-10-21 | 1,934,933 |  29 |    |
-| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-21 | 5,463,049 |  97,644 |    |
+| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-21 | 5,463,049 |  97,648 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-21 | 5,265,462 |  102,410 |    |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-21 | 4,876,452 |  25,809 | 479,740 (9.84%) Only partial index available: Old Decoding issues |
-| [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-10-21 | 5,125,483 |  645,898 | 208,395 (4.07%) Only partial index available: Old Decoding issues |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-21 | 4,876,452 |  25,811 | 479,740 (9.84%) Only partial index available: Old Decoding issues |
+| [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-10-21 | 5,125,483 |  645,900 | 208,395 (4.07%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-10-21 | 2,780,448 |  3 | 21,142 (0.76%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-10-21 | 4,033,873 |  3,240 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-10-21 | 3,769,858 |  13,170 |    |
