@@ -23,7 +23,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-10-29 | 4,648,479 |  24,531 | 515 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-10-29 | 3,542,800 |  3,908 | 133 (0.00%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-10-29 | 4,201,249 |  29,693 | 2 (0.00%)  |
-| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-10-29 | 4,509,213 |  18,650 | 14 (0.00%)  |
+| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-10-29 | 4,509,213 |  18,650 | 2 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-10-29 | 4,188,813 |  16,720 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-10-29 | 4,310,893 |  80,255 | 891,040 (20.67%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-10-13 | 4,126,334 |  25,132 | 7,064 (0.17%)  |
@@ -38,7 +38,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-30 | 2,161,094 |  3,882 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
-| [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-10-29 | 3,272,852 |  8,010 | 6,729 (0.21%)  |
+| [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2023-10-29 | 3,272,852 |  8,010 | 6,682 (0.20%)  |
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2023-09-23 | 2,988,166 |  359 | 3,138 (0.11%) Only partial index available: Archive node unavailable |
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-09-01 | 1,835,448 |  1,364 |    |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-10-29 | 2,674,744 |  2,611 |    |
