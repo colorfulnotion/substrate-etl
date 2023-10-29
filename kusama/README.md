@@ -6,12 +6,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-10-29 | 20,315,302 |  297,741 | 28,747 (0.14%)  |
-| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-10-28 | 5,673,363 |  63,120 | 6 (0.00%)  |
+| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-10-29 | 5,673,363 |  63,120 | 6 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-10-29 | 4,078,519 |  75 | 1,198,630 (29.39%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-10-29 | 1,992,135 |  30 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-29 | 5,520,280 |  97,679 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-29 | 5,317,460 |  102,471 | 421 (0.01%)  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-28 | 4,925,356 |  25,827 | 479,740 (9.74%) Only partial index available: Old Decoding issues |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-29 | 4,925,356 |  25,827 | 479,740 (9.74%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-10-29 | 5,182,191 |  645,938 | 208,395 (4.02%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-10-29 | 2,837,308 |  3 | 21,142 (0.75%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-10-29 | 4,089,172 |  3,239 |    |
@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-10-29 | 3,799,720 |  13,912 |    |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-10-17 | 3,429,014 |  2,367 | 37 (0.00%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-10-29 | 2,591,929 |  13,227 | 885,356 (34.16%)  |
-| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-10-29 | 3,753,005 |  7,747 | 715 (0.02%)  |
+| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-10-29 | 3,753,005 |  7,747 | 235 (0.01%)  |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-30 | 2,161,094 |  3,882 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
