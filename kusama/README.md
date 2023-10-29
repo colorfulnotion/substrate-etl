@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-10-29 | 4,078,519 |  75 | 1,198,630 (29.39%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-10-29 | 1,992,135 |  30 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-10-29 | 5,520,280 |  97,679 |    |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-29 | 5,317,460 |  102,471 | 421 (0.01%)  |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-10-29 | 5,317,460 |  102,471 | 252 (0.00%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-10-29 | 4,925,356 |  25,827 | 479,740 (9.74%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-10-29 | 5,182,191 |  645,938 | 208,395 (4.02%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-10-29 | 2,837,308 |  3 | 21,142 (0.75%) Archive node unavailable |
@@ -23,7 +23,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-10-29 | 4,648,479 |  24,531 | 515 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-10-29 | 3,542,800 |  3,908 | 133 (0.00%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-10-29 | 4,201,249 |  29,693 | 2 (0.00%)  |
-| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-10-29 | 4,509,196 |  18,650 | 882 (0.02%)  |
+| [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-10-29 | 4,509,213 |  18,650 | 14 (0.00%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-10-29 | 4,188,813 |  16,720 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-10-29 | 4,310,893 |  80,255 | 891,040 (20.67%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-10-13 | 4,126,334 |  25,132 | 7,064 (0.17%)  |
