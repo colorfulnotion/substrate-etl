@@ -9,7 +9,7 @@ _Source_: [integritee-shell.polkaholic.io](https://integritee-shell.polkaholic.i
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2023-11-01 to 2023-11-01](/polkadot/2039-integritee-shell/2023-11-30.md) |  |  |  |  |  |  | -   |   
+| [2023-11-01 to 2023-11-01](/polkadot/2039-integritee-shell/2023-11-30.md) | 2,122,810 | 2,125,686 | 2,877 |  |  |  | -   |   
 | [2023-10-01 to 2023-10-31](/polkadot/2039-integritee-shell/2023-10-31.md) | 2,033,732 | 2,122,809 | 89,078 |  |  |  | -   |   
 | [2023-09-01 to 2023-09-30](/polkadot/2039-integritee-shell/2023-09-30.md) | 1,947,646 | 2,033,731 | 86,086 |  |  | 1 | -   |   
 | [2023-08-01 to 2023-08-31](/polkadot/2039-integritee-shell/2023-08-31.md) | 1,858,446 | 1,947,645 | 89,200 |  |  | 1 | -   |   
