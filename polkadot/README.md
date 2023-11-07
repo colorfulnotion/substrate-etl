@@ -25,7 +25,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-11-07 | 3,908,853 |  12,869 | 621,626 (15.90%)  |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-11-07 | 3,776,053 |  24,728 |    |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-11-07 | 3,793,011 |  4,467 |    |
-| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-11-07 | 3,612,478 |  33,039 | 12,839 (0.36%)  |
+| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-11-07 | 3,612,478 |  33,040 | 12,839 (0.36%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-11-07 | 2,140,078 |  1 |    |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-11-07 | 3,628,586 |  3,790 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-11-06 | 1,375,187 |  891 | 1,098,047 (79.85%)  |

@@ -5,10 +5,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-11-07 | 20,444,575 |  298,962 | 28,843 (0.14%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-11-07 | 20,444,575 |  298,962 | 28,804 (0.14%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-11-07 | 5,737,313 |  63,585 | 6 (0.00%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-11-07 | 4,141,794 |  77 | 1,198,630 (28.94%) Only partial index available: Old Decoding issues |
-| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-11-06 | 2,056,125 |  30 | 1 (0.00%)  |
+| [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-11-07 | 2,056,125 |  30 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-11-07 | 5,584,266 |  97,835 |    |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-11-07 | 5,374,193 |  102,710 | 20,893 (0.39%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-11-07 | 4,979,777 |  25,892 | 479,740 (9.63%) Only partial index available: Old Decoding issues |
@@ -16,7 +16,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-11-07 | 2,900,529 |  3 | 21,142 (0.73%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-11-07 | 4,149,509 |  3,239 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-11-07 | 3,890,677 |  13,184 |    |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-11-07 | 5,481,416 |  512,615 |    |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-11-07 | 5,481,416 |  513,010 |    |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-11-07 | 3,919,741 |  1,560 | 4,430 (0.11%)  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-11-07 | 4,366,393 |  3,111 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-11-06 | 4,893,270 |  284,070 | 15,905 (0.33%) Only partial index available: Archive node unavailable |
