@@ -5,22 +5,22 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-11-11 | 20,502,056 |  299,144 | 29,477 (0.14%)  |
-| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-11-11 | 5,764,946 |  63,611 | 5,384 (0.09%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-11-11 | 20,502,056 |  299,144 | 29,474 (0.14%)  |
+| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-11-11 | 5,764,946 |  63,620 | 5,384 (0.09%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-11-11 | 4,170,254 |  77 | 1,198,630 (28.74%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-11-11 | 2,082,973 |  30 |    |
-| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-11-10 | 5,612,741 |  97,853 |    |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-11-10 | 5,399,674 |  102,714 | 44,762 (0.83%)  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-11-10 | 5,005,088 |  25,891 | 479,740 (9.59%) Only partial index available: Old Decoding issues |
+| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-11-11 | 5,612,741 |  97,853 |    |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-11-10 | 5,399,674 |  102,720 | 44,762 (0.83%)  |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-11-11 | 5,005,088 |  25,891 | 479,740 (9.59%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-11-10 | 5,273,581 |  646,211 | 208,395 (3.95%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-11-10 | 2,928,661 |  3 | 21,142 (0.72%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-11-10 | 4,176,302 |  3,239 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-11-11 | 3,919,030 |  13,184 |    |
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-11-11 | 5,508,508 |  514,760 |    |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-11-11 | 3,940,663 |  1,560 | 4,430 (0.11%)  |
-| [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-11-11 | 4,394,822 |  3,112 |    |
+| [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-11-11 | 4,394,822 |  3,113 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-11-11 | 4,921,389 |  284,070 | 30,068 (0.61%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-11-11 | 4,739,865 |  24,551 | 515 (0.01%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-11-11 | 4,739,865 |  24,552 | 515 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-11-08 | 3,614,372 |  4,013 | 51,328 (1.42%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-11-11 | 4,275,473 |  29,705 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-11-10 | 4,590,134 |  18,660 | 19,667 (0.43%)  |
@@ -46,7 +46,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [null Para ID 2129](/kusama/2129-kusama-parachain-2129) | 2022-10-26 | 2023-05-02 | 1,514,494 |  5,975 | 93,630 (6.18%)  |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-11-11 | 2,612,334 |  900 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-10-04 | 2,006,942 |  11 |   Endpoint not reachable |
-| [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2023-11-10 | 1,145,663 |   | 298 (0.03%) Crawling initiated |
+| [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2023-11-11 | 1,145,663 |   | 298 (0.03%) Crawling initiated |
 
 Missing chains
 
