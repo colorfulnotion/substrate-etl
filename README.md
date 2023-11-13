@@ -300,11 +300,7 @@ A daily/hourly github actions process summarizes the state of the index for:
 
 and for every single chain that is being indexed.  See the report **Issues** column for chains with systemic issues or blocks that are missing.  Generally the last 24 hrs have blocks that are missing that are filled in by the end of the day.
 
-Included in each summary are sample queries and a complete breakdown.  Chain data is appended daily.  
-
-A summary dashboard of the last 30 days and the last 1 hour is available:
-* [Polkadot + Kusama Indexing (Last 30 days)](https://analytics.polkaholic.io/superset/dashboard/f5840894-9c5d-47b1-b4c1-9dd4781a6b5c/)
-* [Real-time Dashboard (Last 1hour to 1d)](https://analytics.polkaholic.io/superset/dashboard/92307bef-6173-4df6-ba1d-b97a71bb04e8/)
+Included in each summary are sample queries and a complete breakdown.  Chain data is appended daily.
 
 ### Design choices:
 
