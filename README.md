@@ -15,10 +15,10 @@ This project aims to be funded by the Polkadot Treasury via [Referendum #248](ht
 ### Quick Start: Analytics Hub 
 
 You can add these datasets to your Google Cloud project with the following Analytics Hub links:
-* [Polkadot](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/polkadot_and_polkadot_parachains_18bca877a0a) 
-* [Kusama](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/kusama_and_kusama_parachains_18bca8f79fb)
+* [crypto_polkadot on Analytics Hub](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/polkadot_and_polkadot_parachains_18bca877a0a) 
+* [crypto_kusama on Analytics Hub](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/kusama_and_kusama_parachains_18bca8f79fb)
 
-When you add your project, you will get a Google Cloud assigned project ID (e.g. bumbleholt_14234) -- use this ID in place of the `bigquery-public-data` below.
+When you add your project, you will get a Google Cloud assigned project ID (e.g. bumbleholt_14234) and will be able to get _linked datasets_ to the `crypto_polkadot` and `crypto_kusama` datasets -- use this ID in place of the `bigquery-public-data` below.
 
 ### Quick Start: BigQuery Public Datasets
 
