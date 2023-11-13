@@ -1,13 +1,6 @@
 
 # Substrate ETL 
 
-**IMPORTANT UPDATE!!! As of May 18, 2023, substrate-etl datasets are now in Google's BigQuery Public Datasets: `bigquery-public-data.crypto_polkadot` and `bigquery-public-data.crypto_kusama`!**
-
-This project is part of the [Polkadot Data Bounty Treasury-funded
-bounty proposal](https://docs.google.com/document/d/1fA5ARHy-frzgZC66rniKZ5o7CSbDvCTkS--kWaMzuMs/edit#),
-with curation led by the Parity data team, as part of a broader
-"Polkadot Data Alliance" (see [select * from polkadot/Dotlake](https://forum.polkadot.network/t/select-from-polkadot/2593)).
-
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,
 transfers and xcmtransfers.  Substrate ETL relies on Colorful Notion's
@@ -15,17 +8,19 @@ transfers and xcmtransfers.  Substrate ETL relies on Colorful Notion's
 of Polkadot + Kusama networks into public Google BigQuery datasets
 (one dataset for each relay chain).
 
-Network Summary: (All-time, Monthly, Daily)
-* [Polkadot](/polkadot)
-* [Kusama](/kusama)
+As of September 2023, substrate-etl datasets are now in Google's BigQuery Public Datasets: `bigquery-public-data.crypto_polkadot` and `bigquery-public-data.crypto_kusama`! See announcements from [Google Cloud Web3](https://cloud.google.com/blog/products/data-analytics/data-for-11-more-blockchains-in-bigquery-public-datasets) + [Parity](https://twitter.com/Polkadot/status/1707052392712212676)
 
-Included in each summary are sample queries and a complete breakdown.  Chain data is appended daily.  
+This project aims to be funded by the Polkadot Treasury via [Referendum #248](https://polkadot.polkassembly.io/referenda/248)
 
-A summary dashboard of the last 30 days and the last 1 hour is available:
-* [Polkadot + Kusama Indexing (Last 30 days)](https://analytics.polkaholic.io/superset/dashboard/f5840894-9c5d-47b1-b4c1-9dd4781a6b5c/)
-* [Real-time Dashboard (Last 1hour to 1d)](https://analytics.polkaholic.io/superset/dashboard/92307bef-6173-4df6-ba1d-b97a71bb04e8/)
+### Quick Start: Analytics Hub 
 
-### Quick Start
+You can add these datasets to your Google Cloud project with the following Analytics Hub links:
+* [Polkadot](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/polkadot_and_polkadot_parachains_18bca877a0a) 
+* [Kusama](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/kusama_and_kusama_parachains_18bca8f79fb)
+
+When you add your project, you will get a Google Cloud assigned project ID (e.g. bumbleholt_14234) -- use this ID in place of the `bigquery-public-data` below.
+
+### Quick Start: BigQuery Public Datasets
 
 `bigquery-public-data` is a public project within BigQuery which anyone can access.  You see hundreds of BigQuery tables in the public `crypto_polkadot` and `crypto_kusama` datasets.  Just open the query editor and try some of the queries below:
 
@@ -305,6 +300,12 @@ A daily/hourly github actions process summarizes the state of the index for:
 
 and for every single chain that is being indexed.  See the report **Issues** column for chains with systemic issues or blocks that are missing.  Generally the last 24 hrs have blocks that are missing that are filled in by the end of the day.
 
+Included in each summary are sample queries and a complete breakdown.  Chain data is appended daily.  
+
+A summary dashboard of the last 30 days and the last 1 hour is available:
+* [Polkadot + Kusama Indexing (Last 30 days)](https://analytics.polkaholic.io/superset/dashboard/f5840894-9c5d-47b1-b4c1-9dd4781a6b5c/)
+* [Real-time Dashboard (Last 1hour to 1d)](https://analytics.polkaholic.io/superset/dashboard/92307bef-6173-4df6-ba1d-b97a71bb04e8/)
+
 ### Design choices:
 
 * All temporal BigQuery datasets are date-partitioned and split into multiple tables by {paraId} to enable low-cost low-latency BigQuery scans for specific date, parachain combinations. Timestamped data use BigQuery TIMESTAMP date types.
@@ -323,10 +324,10 @@ Spring/Summer 2023
 * [x] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
 
 Fall/Winter 2023
-* [ ] Basic Wasm contract support (psp22, events, bytecode)
-* [ ] XCM Message table redesign
-* [ ] Full XCMv3 Multilocation support
-* [ ] New functionality based on community feedback
+* [x] Basic Wasm contract support (psp22, events, bytecode) using ChainIDE integration (ink!ubator)
+* [x] Staking + Democracy + Relay Chain Trace Support (supported by Web3F)
+* [.] EVM Chain Support 
+* [ ] XCM v3 TopicID 
 
 Spring/Summer 2024
 
