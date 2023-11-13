@@ -320,10 +320,10 @@ Spring/Summer 2023
 * [x] Integration with [XCM Global-Asset Registry](https://github.com/colorfulnotion/xcm-global-registry) repo
 
 Fall/Winter 2023
-* [x] Basic Wasm contract support (psp22, events, bytecode) using ChainIDE integration (ink!ubator)
-* [x] Staking + Democracy + Relay Chain Trace Support (supported by Web3F)
-* [.] EVM Chain Support 
-* [ ] XCM v3 TopicID 
+* [x] Basic WASM contract support (psp22, events, bytecode) using ChainIDE integration (ink!ubator)
+* [x] Deep Account Analytics: Staking + Democracy + _Relay Chain_ Trace Support (supported by Web3F)
+* [ ] EVM Chain Support 
+* [ ] XCMv3 TopicID based Match
 
 Spring/Summer 2024
 
