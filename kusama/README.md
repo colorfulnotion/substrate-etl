@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-11-17 | 20,602,682 |  299,363 | 31,514 (0.15%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-11-18 | 20,602,682 |  299,395 | 31,334 (0.15%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-11-18 | 5,813,820 |  63,687 | 9,366 (0.16%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-11-17 | 4,220,223 |  77 | 1,198,630 (28.40%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-11-17 | 2,131,679 |  31 |    |
@@ -14,7 +14,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-11-17 | 5,046,769 |  25,879 | 479,740 (9.51%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-11-17 | 5,322,829 |  646,243 | 213,090 (4.00%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-11-18 | 2,978,060 |  3 | 21,161 (0.71%) Archive node unavailable |
-| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-11-17 | 4,223,293 |  3,239 |    |
+| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-11-18 | 4,223,293 |  3,239 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-11-17 | 3,968,730 |  13,189 |    |
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-11-17 | 5,556,176 |  517,475 | 3,441 (0.06%)  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-11-17 | 3,974,515 |  1,560 | 4,430 (0.11%)  |
@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2023-11-18 | 2,791,120 |  2,622 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2023-11-18 | 2,822,419 |  7,802 |    |
 | [null Para ID 2129](/kusama/2129-kusama-parachain-2129) | 2022-10-26 | 2023-05-02 | 1,514,494 |  5,975 | 93,630 (6.18%)  |
-| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-11-17 | 2,660,809 |  900 |    |
+| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-11-18 | 2,660,809 |  900 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-11-18 | 2,020,384 |  11 |   Endpoint not reachable |
 | [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2023-11-17 | 1,194,267 |   | 298 (0.02%) Crawling initiated |
 
