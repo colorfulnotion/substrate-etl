@@ -29,16 +29,16 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-11-19 | 2,177,489 |  1 | 2 (0.00%)  |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-11-19 | 3,721,372 |  3,798 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-11-19 | 1,463,688 |  903 | 1,098,164 (75.03%)  |
-| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-11-19 | 2,141,979 |  1,346 |    |
+| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-11-20 | 2,141,979 |  1,346 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-11-19 | 2,488,710 |  9 | 4,926 (0.20%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2023-11-19 | 2,443,456 |   | 108 (0.00%) Crawling initiated |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
-| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-11-19 | 5,059,860 |  19,190 | 8,068 (0.16%)  |
+| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-11-19 | 5,059,860 |  19,199 | 8,068 (0.16%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-11-19 | 2,523,455 |  135 | 192 (0.01%)  |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-11-19 | 1,893,682 |  586 | 4,991 (0.26%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-11-19 | 1,909,386 |  1,409 |    |
-| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-11-19 | 1,716,570 |  28 | 12,262 (0.71%) Onboarding |
+| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-11-20 | 1,716,570 |  28 | 12,262 (0.71%) Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-11-19 | 1,837,301 |  2 | 222 (0.01%)  |
 
 Missing chains
