@@ -34,9 +34,9 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2023-11-24 | 2,476,458 |   | 521 (0.02%) Crawling initiated |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
-| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-11-24 | 5,093,750 |  19,222 | 8,068 (0.16%)  |
+| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-11-25 | 5,093,750 |  19,222 | 8,068 (0.16%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-11-24 | 2,558,999 |  135 | 22 (0.00%)  |
-| [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-11-24 | 1,929,448 |  586 | 4,991 (0.26%) Only partial index available: Archive node unavailable |
+| [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-11-25 | 1,929,448 |  586 | 4,991 (0.26%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-11-24 | 1,941,312 |  1,409 |    |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-11-24 | 1,752,354 |  28 | 12,262 (0.70%) Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-11-24 | 1,872,853 |  2 | 22 (0.00%)  |
