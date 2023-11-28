@@ -5,26 +5,26 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-11-26 | 20,732,130 |  299,671 | 72,362 (0.35%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-11-26 | 20,732,130 |  299,716 | 72,362 (0.35%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-11-21 | 5,835,465 |  63,711 | 6,402 (0.11%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-11-26 | 4,284,523 |  78 | 1,198,630 (27.98%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-11-27 | 2,195,868 |  31 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-11-26 | 5,726,686 |  97,862 | 84,571 (1.48%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-11-26 | 5,501,806 |  102,801 | 113,724 (2.07%)  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-11-27 | 5,104,041 |  25,885 | 479,841 (9.40%) Only partial index available: Old Decoding issues |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-11-27 | 5,104,041 |  25,890 | 479,830 (9.40%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-11-26 | 5,386,253 |  646,273 | 222,234 (4.13%) Only partial index available: Old Decoding issues |
-| [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-11-26 | 3,041,754 |  3 | 21,160 (0.70%) Archive node unavailable |
-| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-11-26 | 4,282,872 |  3,239 | 900 (0.02%)  |
+| [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-11-27 | 3,041,754 |  3 | 21,153 (0.70%) Archive node unavailable |
+| [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2023-11-27 | 4,282,872 |  3,239 | 174 (0.00%)  |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-11-27 | 4,032,765 |  13,197 |    |
-| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-11-26 | 5,618,658 |  519,995 | 12,148 (0.22%)  |
+| [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-11-26 | 5,618,658 |  520,378 | 12,148 (0.22%)  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-11-27 | 4,005,305 |  1,560 | 4,430 (0.11%)  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-11-27 | 4,508,308 |  3,116 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-11-27 | 5,034,900 |  284,070 | 127,673 (2.54%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-11-27 | 4,850,735 |  24,563 | 515 (0.01%)  |
-| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-11-26 | 3,737,957 |  4,147 | 162,717 (4.35%)  |
+| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-11-26 | 3,737,957 |  4,163 | 162,717 (4.35%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-11-27 | 4,370,803 |  29,718 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-11-26 | 4,695,062 |  18,665 | 79,400 (1.69%)  |
-| [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-11-26 | 4,386,446 |  16,754 | 8 (0.00%)  |
+| [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2023-11-26 | 4,386,446 |  16,755 | 8 (0.00%)  |
 | [Quartz Para ID 2095](/kusama/2095-quartz) | 2021-11-27 | 2023-11-27 | 4,517,504 |  80,263 | 891,040 (19.72%)  |
 | [Bit.Country Pioneer Para ID 2096](/kusama/2096-bitcountrypioneer) | 2021-11-28 | 2023-10-13 | 4,126,334 |  25,132 | 7,064 (0.17%)  |
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2023-11-27 | 4,245,831 |  33,790 | 680,832 (16.04%) Only partial index available: Onboarding |
