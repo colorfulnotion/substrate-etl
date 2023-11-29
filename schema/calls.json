@@ -1,0 +1,148 @@
+[{
+        "mode": "REQUIRED",
+        "name": "relay_chain",
+        "type": "STRING"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "para_id",
+        "type": "INTEGER"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "id",
+        "type": "STRING"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "block_hash",
+        "type": "STRING",
+        "description": "Block hash of extrinsic"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "block_number",
+        "type": "INTEGER",
+        "description": "Block number that includes the extrinsic"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "block_time",
+        "type": "TIMESTAMP",
+        "description": "Block timestamp of block that includes the extrinsic"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "extrinsic_hash",
+        "type": "STRING",
+        "description": "Hash of extrinsic data -- because of account reaping, may not be unique"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "extrinsic_id",
+        "type": "STRING",
+        "description": "Extrinsic ID of extrinsic"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "extrinsic_section",
+        "type": "STRING",
+        "description": "Pallet/section of extrinsic (top-level call)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "extrinsic_method",
+        "type": "STRING",
+        "description": "Method of extrinsic  (top-level call)"
+    },
+    {
+        "mode": "REQUIRED",
+        "name": "call_id",
+        "type": "STRING",
+        "description": "Call ID of extrinsic"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "call_index",
+        "type": "STRING",
+        "description": "The 2 bytes index of the call_section:call_method"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "call_section",
+        "type": "STRING",
+        "description": "Pallet/section of call (top-level call)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "call_method",
+        "type": "STRING",
+        "description": "Method of call"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "call_args",
+        "type": "JSON",
+        "description": "Args of call"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "call_args_def",
+        "type": "JSON",
+        "description": "Args Definition of call"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "root",
+        "type": "BOOLEAN",
+        "description": "Whether the call is root (top-level call)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "leaf",
+        "type": "BOOLEAN",
+        "description": "Whether the call is leaf (bottom-level call)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "fee",
+        "type": "FLOAT",
+        "description": "Fee of extrinsic"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "fee_usd",
+        "type": "FLOAT",
+        "description": "Fee USD of extrinsic (if available)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "weight",
+        "type": "INTEGER",
+        "description": "Extrinsic weight (if available)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "signed",
+        "type": "BOOLEAN",
+        "description": "Whether extrinsic has been signed (true) or not (false)"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "signer_ss58",
+        "type": "STRING",
+        "description": "SS58 Address of Signer of extrinsic, if signed"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "signer_pub_key",
+        "type": "STRING",
+        "description": "Pub key of Signer of extrinsic"
+    },
+    {
+        "mode": "NULLABLE",
+        "name": "lifetime",
+        "type": "JSON",
+        "description": "Lifetime of extrinsic"
+    }
+]
