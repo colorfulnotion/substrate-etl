@@ -1,0 +1,97 @@
+[
+  {
+    "mode": "REQUIRED",
+    "name": "pubkey",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "polkadot_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "kusama_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "polkadot_parent",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "polkadot_is_subidentity",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "polkadot_fullname",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "polkadot_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "polkadot_subname",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "polkadot_info",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "polkadot_judgements",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "polkadot_judgement_verified",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kusama_parent",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kusama_is_subidentity",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kusama_fullname",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kusama_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kusama_subname",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kusama_info",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kusama_judgements",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kusama_judgement_verified",
+    "type": "BOOLEAN"
+  }
+]
