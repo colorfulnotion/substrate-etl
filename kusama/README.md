@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-11-29 | 4,024,080 |  13,912 | 191,998 (4.77%)  |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-11-29 | 3,735,866 |  2,454 | 30,625 (0.82%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-11-30 | 2,793,773 |  13,227 | 885,357 (31.69%)  |
-| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-11-29 | 3,980,557 |  7,793 | 36,936 (0.93%)  |
+| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-11-30 | 3,980,557 |  7,793 | 33,367 (0.84%)  |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-30 | 2,161,094 |  3,882 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
