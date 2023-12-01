@@ -11,7 +11,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2023-11-30 | 5,007,868 |  167,769 | 4 (0.00%)  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2023-11-30 | 4,983,723 |  1,477,112 | 843 (0.02%)  |
-| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-11-30 | 4,993,798 |  578,704 | 208 (0.00%)  |
+| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2023-11-30 | 4,993,798 |  579,107 | 208 (0.00%)  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-11-30 | 3,107,945 |  1,080 | 781 (0.03%)  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-11-30 | 2,281,537 |  1,012 |    |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-11-30 | 3,797,753 |  9,840 | 4 (0.00%)  |
@@ -23,7 +23,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-11-30 | 3,557,601 |  6,357 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-11-30 | 4,362,096 |  47,603 | 2 (0.00%)  |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-11-30 | 4,080,320 |  13,001 | 621,635 (15.23%)  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-11-30 | 3,944,651 |  24,852 | 29 (0.00%)  |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-11-30 | 3,944,651 |  24,862 | 29 (0.00%)  |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-11-30 | 3,963,759 |  4,514 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-11-30 | 3,784,615 |  33,060 | 20,355 (0.54%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-11-30 | 2,209,137 |  1 |    |
