@@ -9,6 +9,7 @@ Status: Only partial index available: Onboarding
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2023-12-01 to 2023-12-01](/kusama/2100-subsocialx/2023-12-31.md) |  |  |  |  |  |  | -   |   
 | [2023-11-01 to 2023-11-30](/kusama/2100-subsocialx/2023-11-30.md) | 4,059,888 | 4,274,443 | 213,558 | 8,966 |  |  | - 998 (0.47%) |   
 | [2023-10-01 to 2023-10-31](/kusama/2100-subsocialx/2023-10-31.md) | 3,838,258 | 4,059,887 | 221,630 | 3,180 |  |  | -   |   
 | [2023-09-01 to 2023-09-30](/kusama/2100-subsocialx/2023-09-30.md) | 3,623,838 | 3,838,257 | 214,420 | 1,028 | 7 | 33,790 | -   |   
