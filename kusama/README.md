@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-12-02 | 4,327,289 |  78 | 1,198,654 (27.70%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-12-02 | 2,238,577 |  32 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2023-12-02 | 5,769,399 |  97,862 | 122,064 (2.12%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-12-02 | 5,542,606 |  103,060 | 150,463 (2.71%)  |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2023-12-02 | 5,542,606 |  103,064 | 150,463 (2.71%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2023-12-02 | 5,144,061 |  25,993 | 482,666 (9.38%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2023-12-02 | 5,428,387 |  646,287 | 218,505 (4.03%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2023-12-02 | 3,084,175 |  3 | 21,357 (0.69%) Archive node unavailable |
@@ -20,7 +20,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-12-02 | 4,020,485 |  1,560 | 4,438 (0.11%)  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-12-02 | 4,550,553 |  3,123 | 1 (0.00%)  |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-12-02 | 5,077,377 |  284,070 | 158,549 (3.12%) Only partial index available: Archive node unavailable |
-| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-12-02 | 4,893,285 |  24,566 | 515 (0.01%)  |
+| [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-12-02 | 4,893,285 |  24,583 | 515 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-12-02 | 3,780,663 |  4,352 | 202,551 (5.36%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2023-12-02 | 4,407,052 |  29,774 | 69 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2023-12-02 | 4,734,084 |  18,681 | 76,757 (1.62%)  |
