@@ -28,7 +28,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-12-02 | 3,798,963 |  33,082 | 20,364 (0.54%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-12-02 | 2,214,879 |  1 |    |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2023-12-02 | 3,813,252 |  3,818 |    |
-| [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-12-02 | 1,552,669 |  938 | 1,098,239 (70.73%)  |
+| [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2023-12-02 | 1,552,669 |  937 | 1,098,239 (70.73%)  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2023-12-02 | 2,233,682 |  1,346 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2023-12-02 | 2,581,695 |  9 | 5,005 (0.19%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
@@ -37,7 +37,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2023-12-02 | 5,148,935 |  19,463 | 8,068 (0.16%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2023-12-02 | 2,615,897 |  135 | 120 (0.00%)  |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2023-12-02 | 1,986,729 |  586 | 4,991 (0.25%) Only partial index available: Archive node unavailable |
-| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-12-02 | 1,991,613 |  1,606 |    |
+| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2023-12-02 | 1,991,613 |  1,607 |    |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2023-12-02 | 1,809,651 |  28 | 12,262 (0.68%) Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2023-12-02 | 1,929,852 |  2 | 25 (0.00%)  |
 
