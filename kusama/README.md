@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-12-08 | 20,890,228 |  301,533 | 39,628 (0.19%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2023-12-08 | 20,890,228 |  301,595 | 39,628 (0.19%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2023-11-21 | 5,835,465 |  63,711 | 5,448 (0.09%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2023-12-08 | 4,362,580 |  78 | 1,198,630 (27.48%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2023-12-08 | 2,273,800 |  32 |    |
@@ -18,7 +18,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2023-12-08 | 4,110,485 |  13,328 |    |
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2023-12-08 | 5,693,339 |  535,510 | 402 (0.01%)  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2023-12-08 | 4,031,708 |  1,560 | 4,479 (0.11%)  |
-| [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-12-08 | 4,585,349 |  3,125 | 2 (0.00%)  |
+| [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2023-12-08 | 4,585,349 |  3,126 | 2 (0.00%)  |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2023-12-07 | 5,111,260 |  284,070 | 165,881 (3.25%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2023-12-08 | 4,928,369 |  24,588 | 515 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2023-12-07 | 3,815,846 |  4,370 | 218,174 (5.72%)  |
@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2023-12-07 | 4,080,300 |  13,912 | 225,284 (5.52%)  |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-11-29 | 3,735,866 |  2,458 | 30,625 (0.82%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2023-12-08 | 2,842,649 |  13,227 | 885,356 (31.15%)  |
-| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-12-07 | 20,866,146 |  7,820 | 16,894,368 (80.97%)  |
+| [Turing Para ID 2114](/kusama/2114-turing) | 2022-04-03 | 2023-12-07 | 20,866,146 |  7,821 | 16,894,368 (80.97%)  |
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-30 | 2,161,094 |  3,882 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
