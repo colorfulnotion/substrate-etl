@@ -23,7 +23,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2023-12-16 | 3,652,089 |  7,155 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2023-12-16 | 4,460,718 |  48,362 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2023-12-16 | 4,187,499 |  13,250 | 621,626 (14.84%)  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-12-16 | 4,048,820 |  25,325 | 2,423 (0.06%)  |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2023-12-16 | 4,048,820 |  25,325 | 2,418 (0.06%)  |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2023-12-16 | 4,071,198 |  4,609 | 7 (0.00%)  |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2023-12-16 | 3,892,140 |  33,106 | 20,019 (0.51%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2023-12-16 | 2,252,220 |  1 |    |
