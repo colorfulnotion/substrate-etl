@@ -1,6 +1,12 @@
 
-# Substrate ETL 
+# Substrate ETL
 
+### Important Announcements
+Substrate-ETL 2.0 -- We are integrating with Dune in Q1 2024 for Polkadot/Kusama relay chain data, along with many parachains in Q2 2024. If you are interested in long-term support for your parachain, please email michael@colorfulnotion.com.
+
+Additionally, messaging data (XCM, XCMTransfers) along with other tables (Stakings, Identities, Democracy, parachains, etc.) will be gradually moved to Analytics Hub's separate listing. Separate listing enables us to provide a direct channel to communicate with teams about future updates and the decommissioning of tables, thereby enhancing our engagement and responsiveness. We encourage anyone who is currently utilizing Substrate-ETL 1.0 to reach out to us in order to avoid service disruption.
+
+### Substrate-ETL 1.0
 Using Substrate ETL, users can query [Polkadot](/polkadot) and [Kusama](/kusama) networks for
 large scale analysis data of blocks, extrinsics, events, balances, logs,
 transfers and xcmtransfers.  Substrate ETL relies on Colorful Notion's
@@ -10,15 +16,17 @@ of Polkadot + Kusama networks into public Google BigQuery datasets
 
 As of September 2023, substrate-etl datasets are now in Google's BigQuery Public Datasets: `bigquery-public-data.crypto_polkadot` and `bigquery-public-data.crypto_kusama`! See announcements from [Google Cloud Web3](https://cloud.google.com/blog/products/data-analytics/data-for-11-more-blockchains-in-bigquery-public-datasets) + [Parity](https://twitter.com/Polkadot/status/1707052392712212676)
 
-This project aims to be funded by the Polkadot Treasury via [Referendum #248](https://polkadot.polkassembly.io/referenda/248)
+This project is retroactively funded by the Polkadot Treasury via [Referendum #248](https://polkadot.polkassembly.io/referenda/248)
 
-### Quick Start: Analytics Hub 
+### Quick Start: Analytics Hub
 
 You can add these datasets to your Google Cloud project with the following Analytics Hub links:
-* [crypto_polkadot on Analytics Hub](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/polkadot_and_polkadot_parachains_18bca877a0a) 
+* [crypto_polkadot on Analytics Hub](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/polkadot_and_polkadot_parachains_18bca877a0a)
 * [crypto_kusama on Analytics Hub](https://console.cloud.google.com/bigquery/analytics-hub/exchanges/projects/974572213039/locations/us/dataExchanges/polkadot_18bca7589e7/listings/kusama_and_kusama_parachains_18bca8f79fb)
 
 When you add your project, you will get a Google Cloud assigned project ID (e.g. bumbleholt_14234) and will be able to get _linked datasets_ to the `crypto_polkadot` and `crypto_kusama` datasets -- use this ID in place of the `bigquery-public-data` below.
+
+*Substrate-ETL 2.0* -- We are integrating with Dune in Q1 2024 for Polkadot/Kusama relay chain data, along with many parachains in Q2 2024. If you are interested in long-term support for your parachain, please email michael@colorfulnotion.com.
 
 ### Quick Start: BigQuery Public Datasets
 
@@ -322,15 +330,13 @@ Spring/Summer 2023
 Fall/Winter 2023
 * [x] Basic WASM contract support (psp22, events, bytecode) using ChainIDE integration (ink!ubator)
 * [x] Deep Account Analytics: Staking + Democracy + _Relay Chain_ Trace Support (supported by Web3F)
-* [ ] EVM Chain Support 
-* [ ] XCMv3 TopicID based Match
+* [x] Dune PoC
 
 Spring/Summer 2024
 
-* [ ] Bridgehub integration
-* [ ] DEX table for Statemine/Statemint's DotSwap trade volume analytics
-* [ ] Reporting on Comparison to other ecosystems also modelled in BigQuery
-* [ ] Solochain, testnet integration based on community feedback
+* [ ] Dune Integration
+* [ ] EVM Chain Support
+* [ ] XCMv3 TopicID based Match
 * [ ] New functionality based on community feedback
 
 Your feedback and your ideas are important -- please [submit an issue](https://github.com/colorfulnotion/substrate-etl/issues) or reach out to us on Telegram (@sourabhniyogi) or [Matrix](https://matrix.to/#/#polkaholic:matrix.org).
