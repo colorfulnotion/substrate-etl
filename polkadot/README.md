@@ -15,7 +15,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2023-12-31 | 3,265,274 |  1,080 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2023-12-31 | 2,489,435 |  1,014 |    |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2023-12-31 | 4,011,675 |  9,886 | 4 (0.00%)  |
-| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-12-31 | 5,089,934 |  48,923 | 19,763 (0.39%)  |
+| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2023-12-31 | 5,089,934 |  48,923 | 19,363 (0.38%)  |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2023-12-31 | 3,961,638 |  4,871 | 7,148 (0.18%)  |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2023-12-31 | 3,648,452 |  44 | 988,706 (27.10%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
