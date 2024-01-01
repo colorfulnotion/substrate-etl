@@ -47,6 +47,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2023-12-31 | 2,954,461 |  900 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2023-12-31 | 2,232,980 |  11 |   Endpoint not reachable |
 | [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2023-12-31 | 1,483,119 |   | 298 (0.02%) Crawling initiated |
+| [Blobs Para ID 3338](/kusama/3338-Blobs) | 2023-12-10 | 2023-12-31 | 149,019 |   |    |
 
 Missing chains
 
@@ -62,6 +63,5 @@ Missing chains
 * *null* Para ID 2284; 
 * *null* Para ID 3334; 
 * *null* Para ID 3336; 
-* *null* Para ID 3338; 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
