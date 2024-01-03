@@ -19,7 +19,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2024-01-03 | 5,865,725 |  547,011 | 683 (0.01%)  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2024-01-01 | 4,066,211 |  1,560 | 4,479 (0.11%)  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2024-01-03 | 4,764,900 |  3,128 | 6 (0.00%)  |
-| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2024-01-03 | 5,288,789 |  284,070 | 82,841 (1.57%) Only partial index available: Archive node unavailable |
+| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2024-01-03 | 5,288,789 |  284,070 | 82,792 (1.57%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2024-01-03 | 5,109,218 |  24,604 | 515 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2024-01-02 | 3,996,699 |  4,531 | 239,947 (6.00%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2024-01-03 | 4,591,294 |  29,820 | 2 (0.00%)  |
@@ -30,7 +30,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2024-01-03 | 4,509,557 |  33,790 | 680,906 (15.10%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2024-01-03 | 4,607,012 |  16,728 | 716,783 (15.56%)  |
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-18 | 1,570,649 |  1,146 |    |
-| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2024-01-02 | 2,016,763 |  5,517 | 18,951 (0.94%)  |
+| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2024-01-02 | 2,016,763 |  5,519 | 18,951 (0.94%)  |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2024-01-02 | 4,218,999 |  13,912 | 226,235 (5.36%)  |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-11-29 | 3,735,866 |  2,458 | 30,625 (0.82%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2024-01-03 | 2,994,870 |  13,227 | 885,356 (29.56%)  |

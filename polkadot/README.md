@@ -27,14 +27,14 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-01-03 | 4,199,402 |  4,624 | 10 (0.00%)  |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-01-03 | 4,020,394 |  33,139 | 20,019 (0.50%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2024-01-03 | 2,303,884 |  1 |    |
-| [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2024-01-03 | 4,034,280 |  3,822 |    |
+| [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2024-01-03 | 4,034,280 |  3,823 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-01-03 | 1,767,276 |  957 | 1,098,047 (62.13%)  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-01-03 | 2,450,373 |  1,353 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-01-03 | 2,802,601 |  9 | 5,211 (0.19%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2024-01-03 | 2,729,644 |   | 108 (0.00%) Crawling initiated |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
-| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-01-03 | 5,367,408 |  19,508 | 8,068 (0.15%)  |
+| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-01-03 | 5,367,408 |  19,518 | 8,068 (0.15%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-01-03 | 2,827,092 |  135 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2024-01-03 | 2,199,280 |  586 | 8,337 (0.38%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-01-03 | 2,163,941 |  1,625 |    |
