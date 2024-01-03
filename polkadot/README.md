@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-01-02 | 18,873,535 |  1,192,832 | 110,026 (0.58%)  |
+| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-01-03 | 18,873,535 |  1,192,832 | 110,026 (0.58%)  |
 | [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2024-01-03 | 5,356,354 |  3,671 | 475 (0.01%)  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-01-03 | 2,884,812 |  70 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-01-03 | 5,242,668 |  167,769 | 5 (0.00%)  |
@@ -23,7 +23,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2024-01-03 | 3,772,749 |  7,172 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-01-03 | 4,579,925 |  48,552 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-01-03 | 4,315,502 |  13,360 | 621,626 (14.40%)  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-01-03 | 4,176,107 |  25,543 | 4,489 (0.11%)  |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-01-03 | 4,176,107 |  25,543 | 4,486 (0.11%)  |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-01-03 | 4,199,402 |  4,624 | 10 (0.00%)  |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-01-03 | 4,020,394 |  33,139 | 20,019 (0.50%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2024-01-03 | 2,303,884 |  1 |    |
@@ -48,6 +48,7 @@ Missing chains
 * *Polkadex* Para ID 2040; No Public Websocket Endpoint available: Not indexing yet.
 * *Zeitgeist2* Para ID 2092; 
 * *null* Para ID 3334; 
+* *null* Para ID 3338; 
 * *null* Para ID 3340; 
 * *null* Para ID 3344; 
 * *null* Para ID 3345; 
