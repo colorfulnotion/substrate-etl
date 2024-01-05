@@ -20,11 +20,11 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2024-01-05 | 3,683,479 |  46 | 988,698 (26.84%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
 | [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-01-05 | 4,128,004 |  876,539 | 697,249 (16.89%)  |
-| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2024-01-05 | 3,786,739 |  7,176 |    |
+| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2024-01-05 | 3,786,739 |  7,174 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-01-05 | 4,592,644 |  49,342 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-01-05 | 4,329,747 |  13,360 | 621,626 (14.36%)  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-01-05 | 4,190,288 |  25,553 | 5,444 (0.13%)  |
-| [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-01-05 | 4,213,668 |  4,625 | 11 (0.00%)  |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-01-05 | 4,190,288 |  25,553 | 5,414 (0.13%)  |
+| [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-01-05 | 4,213,668 |  4,630 | 11 (0.00%)  |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-01-05 | 4,034,659 |  33,139 | 20,019 (0.50%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2024-01-05 | 2,309,419 |  1 |    |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2024-01-05 | 4,048,551 |  3,834 |    |
@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2024-01-05 | 2,742,518 |   | 108 (0.00%) Crawling initiated |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
-| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-01-05 | 5,381,665 |  19,530 | 8,068 (0.15%)  |
+| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-01-05 | 5,381,665 |  19,540 | 8,068 (0.15%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-01-05 | 2,839,891 |  135 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2024-01-05 | 2,213,467 |  586 | 8,337 (0.38%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-01-05 | 2,174,289 |  1,626 |    |
