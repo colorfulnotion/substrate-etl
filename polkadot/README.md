@@ -11,7 +11,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-01-06 | 5,264,054 |  167,769 | 5 (0.00%)  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-01-06 | 5,238,330 |  1,511,181 | 559 (0.01%)  |
-| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-01-06 | 5,250,004 |  637,578 | 25,318 (0.48%)  |
+| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-01-06 | 5,250,004 |  639,144 | 25,318 (0.48%)  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-01-06 | 3,296,042 |  1,080 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-01-06 | 2,530,918 |  1,015 |    |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2024-01-06 | 4,054,322 |  9,962 | 4 (0.00%)  |
@@ -23,13 +23,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost-dot) | 2022-06-04 | 2024-01-06 | 3,793,829 |  30,520 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-01-06 | 4,598,726 |  49,342 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-01-06 | 4,336,875 |  13,375 | 621,626 (14.33%)  |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-01-06 | 4,197,383 |  26,525 | 5,672 (0.14%)  |
-| [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-01-06 | 4,220,806 |  4,638 | 11 (0.00%)  |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-01-06 | 4,197,383 |  26,578 | 5,650 (0.13%)  |
+| [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-01-06 | 4,220,806 |  4,640 | 11 (0.00%)  |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-01-06 | 4,041,798 |  33,240 | 20,019 (0.50%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2024-01-06 | 2,310,853 |  1 |    |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2024-01-06 | 4,055,684 |  3,834 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-01-06 | 1,787,735 |  958 | 1,098,047 (61.42%)  |
-| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-01-06 | 2,471,364 |  1,366 |    |
+| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-01-06 | 2,471,364 |  1,463 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-01-06 | 2,823,969 |  9 | 5,211 (0.18%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2024-01-06 | 2,748,976 |   | 108 (0.00%) Crawling initiated |

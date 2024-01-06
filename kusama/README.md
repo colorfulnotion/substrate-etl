@@ -15,13 +15,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2024-01-06 | 5,662,257 |  646,477 | 208,395 (3.68%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2024-01-06 | 3,318,409 |  3 | 21,223 (0.64%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2024-01-06 | 4,529,071 |  3,246 |    |
-| [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2024-01-06 | 4,312,249 |  13,452 |    |
+| [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2024-01-06 | 4,312,249 |  13,457 |    |
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2024-01-06 | 5,885,826 |  557,713 | 700 (0.01%)  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2024-01-06 | 4,073,695 |  1,560 | 4,479 (0.11%)  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2024-01-06 | 4,785,898 |  3,152 | 2 (0.00%)  |
-| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2024-01-06 | 5,309,316 |  284,070 | 81,101 (1.53%) Only partial index available: Archive node unavailable |
+| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2024-01-06 | 5,309,316 |  284,070 | 81,045 (1.53%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2024-01-06 | 5,130,334 |  24,608 | 516 (0.01%)  |
-| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2024-01-05 | 4,017,858 |  5,958 | 240,913 (6.00%)  |
+| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2024-01-05 | 4,017,858 |  5,913 | 240,913 (6.00%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2024-01-06 | 4,609,228 |  29,941 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2024-01-05 | 4,944,558 |  18,738 | 97,248 (1.97%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2024-01-06 | 4,654,201 |  16,954 | 8 (0.00%)  |
@@ -63,6 +63,7 @@ Missing chains
 * *null* Para ID 2284; 
 * *null* Para ID 3334; 
 * *null* Para ID 3336; 
+* *null* Para ID 3340; 
 * *null* Para ID 3343; 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
