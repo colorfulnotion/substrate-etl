@@ -6,7 +6,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-01-07 | 21,335,159 |  306,252 | 64,050 (0.30%)  |
-| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2024-01-07 | 6,162,880 |  63,711 | 5,449 (0.09%)  |
+| [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2024-01-07 | 6,162,880 |  63,711 | 5,448 (0.09%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-01-08 | 4,579,541 |  78 | 1,198,630 (26.17%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2024-01-08 | 2,490,226 |  32 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-01-07 | 6,018,018 |  97,862 | 335,345 (5.57%)  |
@@ -19,7 +19,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Moonriver Para ID 2023](/kusama/2023-moonriver) | 2021-06-29 | 2024-01-08 | 5,899,428 |  557,713 | 700 (0.01%)  |
 | [Genshiro Para ID 2024](/kusama/2024-genshiro) | 2021-11-27 | 2024-01-08 | 4,085,712 |  1,560 | 4,479 (0.11%)  |
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2024-01-08 | 4,799,907 |  3,152 | 2 (0.00%)  |
-| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2024-01-08 | 5,323,303 |  284,070 | 79,600 (1.50%) Only partial index available: Archive node unavailable |
+| [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2024-01-08 | 5,323,303 |  284,070 | 79,580 (1.49%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2024-01-08 | 5,144,376 |  24,610 | 516 (0.01%)  |
 | [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2024-01-07 | 4,031,927 |  5,913 | 242,386 (6.01%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2024-01-08 | 4,621,237 |  29,936 | 2 (0.00%)  |
