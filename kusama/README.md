@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-01-09 | 21,363,873 |  306,138 | 65,026 (0.30%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-01-10 | 21,363,873 |  306,138 | 64,951 (0.30%)  |
 | [Statemine Para ID 1000](/kusama/1000-statemine) | 2020-01-01 | 2024-01-10 | 6,182,091 |  64,571 | 10,354 (0.17%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-01-10 | 4,593,646 |  78 | 1,198,630 (26.09%) Only partial index available: Old Decoding issues |
 | [BridgeHub Para ID 1002](/kusama/1002-bridgehub) | 2023-01-19 | 2024-01-10 | 2,504,299 |  33 |    |
@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2024-01-10 | 3,130,619 |  2,632 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2024-01-10 | 2,822,419 |  7,802 |    |
 | [null Para ID 2129](/kusama/2129-kusama-parachain-2129) | 2022-10-26 | 2023-05-02 | 1,514,494 |  5,975 | 93,630 (6.18%)  |
-| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2024-01-09 | 3,013,661 |  900 |    |
+| [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2024-01-10 | 3,013,661 |  900 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2024-01-10 | 2,277,387 |  11 |   Endpoint not reachable |
 | [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2024-01-10 | 1,544,340 |   | 298 (0.02%) Crawling initiated |
 | [Blobs Para ID 3338](/kusama/3338-Blobs) | 2023-12-10 | 2024-01-10 | 211,671 |  1 |    |
