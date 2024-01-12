@@ -9,7 +9,7 @@ _Source_: [polkadot-onboarding-3334.polkaholic.io](https://polkadot-onboarding-3
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-01-07 to 2024-01-11](/polkadot/3334-polkadot-onboarding-3334/2024-01-31.md) | 175,852 | 203,905 | 28,054 |  |  |  | -   |   
+| [2024-01-07 to 2024-01-12](/polkadot/3334-polkadot-onboarding-3334/2024-01-31.md) | 175,852 | 210,784 | 34,933 |  |  |  | -   |   
 
 ## Tables:
 
