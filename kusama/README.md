@@ -30,7 +30,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [SubsocialX Para ID 2100](/kusama/2100-subsocialx) | 2022-01-25 | 2024-01-13 | 4,580,788 |  33,790 | 680,908 (14.86%) Only partial index available: Onboarding |
 | [Zeitgeist Para ID 2101](/kusama/2101-zeitgeist) | 2022-01-13 | 2024-01-13 | 4,676,926 |  16,859 | 716,783 (15.33%)  |
 | [Pichiu Para ID 2102](/kusama/2102-pichiu) | 2022-06-21 | 2023-04-18 | 1,570,649 |  1,146 |    |
-| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2024-01-12 | 2,083,707 |  5,559 | 19,205 (0.92%)  |
+| [Darwinia Crab Para ID 2105](/kusama/2105-crab) | 2022-02-20 | 2024-01-12 | 2,083,707 |  5,559 | 18,576 (0.89%)  |
 | [Litmus Para ID 2106](/kusama/2106-litmus) | 2022-02-20 | 2024-01-12 | 4,286,889 |  13,912 | 230,970 (5.39%)  |
 | [Mangatax Para ID 2110](/kusama/2110-mangatax) | 2022-04-12 | 2023-11-29 | 3,735,866 |  2,458 | 30,625 (0.82%)  |
 | [Kabocha Para ID 2113](/kusama/2113-kabocha) | 2022-06-27 | 2024-01-10 | 3,039,069 |  13,227 | 885,356 (29.13%)  |
