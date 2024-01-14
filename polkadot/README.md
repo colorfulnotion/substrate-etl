@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-01-13 | 19,016,429 |  1,230,777 | 107,953 (0.57%)  |
+| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-01-13 | 19,016,429 |  1,230,777 | 107,344 (0.56%)  |
 | [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2024-01-13 | 5,427,542 |  4,450 | 112 (0.00%)  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-01-13 | 2,956,025 |  74 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-01-13 | 5,313,821 |  168,222 | 27 (0.00%)  |
@@ -25,12 +25,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-01-13 | 4,386,644 |  13,852 | 621,626 (14.17%)  |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-01-13 | 4,246,573 |  26,622 | 233 (0.01%)  |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-01-13 | 4,270,652 |  4,732 | 11 (0.00%)  |
-| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-01-13 | 4,091,655 |  33,245 | 20,019 (0.49%)  |
+| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-01-13 | 4,098,783 |  33,245 | 20,019 (0.49%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee-shell) | 2022-08-29 | 2024-01-08 | 2,314,777 |  1 |    |
 | [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2024-01-09 | 2024-01-13 | 3,957,642 |   | 553 (0.01%) No Public Websocket Endpoint available: Not indexing yet. |
 | [Origin Trail Para ID 2043](/polkadot/2043-origintrail) | 2022-06-04 | 2024-01-13 | 4,105,514 |  3,836 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-01-13 | 1,836,946 |  1,009 | 1,098,047 (59.78%)  |
-| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-01-13 | 2,520,221 |  1,463 |    |
+| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-01-13 | 2,527,222 |  1,463 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-01-13 | 2,873,725 |  9 | 5,211 (0.18%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2024-01-13 | 2,793,895 |   | 108 (0.00%) Crawling initiated |
