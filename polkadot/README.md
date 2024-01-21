@@ -5,13 +5,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-01-20 | 19,073,574 |  1,236,633 | 56,926 (0.30%)  |
-| [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2024-01-20 | 5,455,930 |  4,538 | 125 (0.00%)  |
+| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-01-21 | 19,073,574 |  1,237,256 | 56,926 (0.30%)  |
+| [Statemint Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2024-01-20 | 5,455,930 |  4,551 | 125 (0.00%)  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-01-20 | 2,984,496 |  76 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-01-20 | 5,342,273 |  168,613 | 3 (0.00%)  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-01-20 | 5,316,188 |  1,743,782 | 393 (0.01%)  |
-| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-01-20 | 5,327,982 |  648,196 | 23,544 (0.44%)  |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-01-21 | 5,316,188 |  1,743,782 | 393 (0.01%)  |
+| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-01-21 | 5,327,982 |  648,809 | 23,544 (0.44%)  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-01-20 | 3,352,439 |  1,080 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-01-20 | 2,606,954 |  1,016 |    |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2024-01-16 | 4,130,019 |  9,975 | 4 (0.00%)  |
@@ -35,7 +35,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2024-01-20 | 2,819,592 |   | 108 (0.00%) Crawling initiated |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
-| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-01-20 | 5,466,911 |  19,802 | 8,068 (0.15%)  |
+| [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-01-20 | 5,466,911 |  19,806 | 8,068 (0.15%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-01-20 | 2,924,605 |  135 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2024-01-20 | 2,298,774 |  586 | 8,384 (0.36%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-01-20 | 2,236,352 |  1,652 |    |
