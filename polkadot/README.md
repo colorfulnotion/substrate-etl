@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-01-27 | 2,984,496 |  77 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-01-27 | 5,342,273 |  168,859 | 3 (0.00%)  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-01-27 | 5,316,188 |  1,736,668 |    |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-01-27 | 5,316,188 |  1,739,153 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-01-27 | 5,327,982 |  652,398 | 23,528 (0.44%)  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-01-22 | 3,352,439 |  1,080 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-01-27 | 2,606,954 |  1,016 |    |
@@ -33,7 +33,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-01-26 | 2,548,117 |  1,500 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-01-27 | 2,902,171 |  9 | 5,211 (0.18%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
-| [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2024-01-26 | 2,819,592 |   | 108 (0.00%) Crawling initiated |
+| [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-06-23 | 2024-01-27 | 2,819,592 |   | 108 (0.00%) Crawling initiated |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
 | [KILT Spiritnet Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-01-27 | 5,466,911 |  19,827 | 8,068 (0.15%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-01-26 | 2,924,605 |  135 |    |
