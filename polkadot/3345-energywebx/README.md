@@ -9,7 +9,7 @@ _Source_: [energywebx.polkaholic.io](https://energywebx.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-01-28 to 2024-01-28](/polkadot/3345-energywebx/2024-01-31.md) |  |  |  |  |  | 587 | -   |   
+| [2024-01-27 to 2024-01-29](/polkadot/3345-energywebx/2024-01-31.md) |  |  |  |  |  | 587 | -   |   
 
 ## Tables:
 

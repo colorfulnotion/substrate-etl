@@ -9,7 +9,9 @@ _Source_: [polimec.polkaholic.io](https://polimec.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-01-28 to 2024-01-28](/polkadot/3344-polimec/2024-01-31.md) |  |  |  |  |  | 540 | -   |   
+| [2024-01-01 to 2024-01-29](/polkadot/3344-polimec/2024-01-31.md) |  |  |  |  |  | 540 | -   |   
+| [2023-12-01 to 2023-12-31](/polkadot/3344-polimec/2023-12-31.md) |  |  |  |  |  | 3 | -   |   
+| [2023-11-29 to 2023-11-30](/polkadot/3344-polimec/2023-11-30.md) |  |  |  |  |  | 2 | -   |   
 
 ## Tables:
 
