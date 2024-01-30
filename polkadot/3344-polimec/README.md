@@ -9,7 +9,7 @@ _Source_: [polimec.polkaholic.io](https://polimec.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-01-01 to 2024-01-29](/polkadot/3344-polimec/2024-01-31.md) | 230,205 | 427,549 | 190,241 | 854 |  | 540 | - 7,104 (3.60%) |   
+| [2024-01-01 to 2024-01-29](/polkadot/3344-polimec/2024-01-31.md) | 230,205 | 427,549 | 197,344 | 866 |  | 540 | - 1 (0.00%) |   
 | [2023-12-01 to 2023-12-31](/polkadot/3344-polimec/2023-12-31.md) | 9,634 | 230,204 | 220,571 | 8 |  | 3 | -   |   
 | [2023-11-29 to 2023-11-30](/polkadot/3344-polimec/2023-11-30.md) | 1 | 9,633 | 9,633 |  |  | 2 | -   |   
 
