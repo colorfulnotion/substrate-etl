@@ -9,7 +9,7 @@ _Source_: [bridgehub_kusama.polkaholic.io](https://bridgehub_kusama.polkaholic.i
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-01-01 to 2024-01-29](/kusama/1002-bridgehub_kusama/2024-01-31.md) | 2,440,860 | 2,637,978 | 197,116 | 3 |  | 36 | - 3 (0.00%) |   
+| [2024-01-01 to 2024-01-30](/kusama/1002-bridgehub_kusama/2024-01-31.md) | 2,440,860 | 2,637,978 | 197,119 | 3 |  | 36 | -   |   
 | [2023-12-01 to 2023-12-31](/kusama/1002-bridgehub_kusama/2023-12-31.md) | 2,224,407 | 2,440,859 | 216,453 |  | 9 | 32 | -   |   
 | [2023-11-01 to 2023-11-30](/kusama/1002-bridgehub_kusama/2023-11-30.md) | 2,013,497 | 2,224,406 | 210,910 | 4 | 13 | 32 | -   |   
 | [2023-10-01 to 2023-10-31](/kusama/1002-bridgehub_kusama/2023-10-31.md) | 1,791,494 | 2,013,496 | 222,003 | 2 | 12 | 30 | -   |   
