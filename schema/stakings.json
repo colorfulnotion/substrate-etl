@@ -1,146 +1,152 @@
-[{
-        "mode": "NULLABLE",
-        "name": "address_ss58",
-        "type": "STRING"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "address_pubkey",
-        "type": "STRING"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "section",
-        "type": "STRING"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "storage",
-        "type": "STRING"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "block_number",
-        "type": "INTEGER"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "block_hash",
-        "type": "STRING"
-    },
-    {
-        "mode": "REQUIRED",
-        "name": "ts",
-        "type": "TIMESTAMP"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "era",
-        "type": "INTEGER"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "submitted_in",
-        "type": "INTEGER"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "suppressed",
-        "type": "BOOLEAN"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "validator_total",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "validator_own",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "validator_commission",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "validator_reward_shares",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "validator_reward_points",
-        "type": "INTEGER"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "validator_staking_rewards",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "total_staked",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "total_reward_points",
-        "type": "INTEGER"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "total_staking_rewards",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "nominationpools_id",
-        "type": "INTEGER"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "nominationpools_total",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "nominationpools_member_cnt",
-        "type": "INTEGER"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "nominationpools_commission",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "nominationpools_rewardpools",
-        "type": "JSON"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "member_bonded",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "member_unbonded",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "member_share",
-        "type": "FLOAT"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "targets",
-        "type": "JSON"
-    },
-    {
-        "mode": "NULLABLE",
-        "name": "pv",
-        "type": "JSON"
-    }
+[
+  {
+    "mode": "NULLABLE",
+    "name": "address_ss58",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "address_pubkey",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "section",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "storage",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "track",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "block_number",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "block_hash",
+    "type": "STRING"
+  },
+  {
+    "mode": "REQUIRED",
+    "name": "ts",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "era",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "submitted_in",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "suppressed",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "validator_total",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "validator_own",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "validator_commission",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "validator_reward_shares",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "validator_reward_points",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "validator_staking_rewards",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "total_staked",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "total_reward_points",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "total_staking_rewards",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nominationpools_id",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nominationpools_total",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nominationpools_member_cnt",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nominationpools_commission",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "nominationpools_rewardpools",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "member_bonded",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "member_unbonded",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "member_share",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "targets",
+    "type": "JSON"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "pv",
+    "type": "JSON"
+  }
 ]
