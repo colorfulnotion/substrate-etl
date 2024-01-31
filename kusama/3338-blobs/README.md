@@ -9,7 +9,7 @@ _Source_: [blobs.polkaholic.io](https://blobs.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-01-01 to 2024-01-30](/kusama/3338-blobs/2024-01-31.md) | 149,020 | 347,626 | 198,607 |  |  | 1 | -   |   
+| [2024-01-01 to 2024-01-31](/kusama/3338-blobs/2024-01-31.md) | 149,020 | 347,626 | 198,607 |  |  | 1 | -   |   
 | [2023-12-10 to 2023-12-31](/kusama/3338-blobs/2023-12-31.md) | 1 | 149,019 | 149,019 | 7 |  | 1 | -   |   
 
 ## Tables:
