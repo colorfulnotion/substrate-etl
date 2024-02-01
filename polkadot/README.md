@@ -5,13 +5,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-01-31 | 19,287,775 |  1,242,614 | 201,075 (1.04%)  |
+| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-01-31 | 19,287,775 |  1,242,614 | 213,039 (1.10%)  |
 | [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-01-31 | 5,562,693 |  4,667 |    |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-01-31 | 3,091,246 |  78 |    |
 | [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2024-01-27 | 2024-01-29 | 1,862,122 |  19 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-01-31 | 5,448,780 |  169,014 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-01-31 | 5,422,221 |  1,748,577 |    |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-01-31 | 5,422,221 |  1,750,623 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-01-31 | 5,434,389 |  655,318 | 2,007 (0.04%)  |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-01-28 | 3,383,188 |  1,080 |    |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-01-31 | 2,710,406 |  1,016 |    |
