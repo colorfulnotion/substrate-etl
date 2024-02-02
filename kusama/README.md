@@ -5,12 +5,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-01-31 | 21,679,745 |  307,613 | 223,400 (1.03%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-01-31 | 21,679,745 |  307,613 | 271,648 (1.25%)  |
 | [AssetHub on Kusama Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-01-31 | 6,327,536 |  64,691 | 17,178 (0.27%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-01-31 | 4,740,556 |  78 | 1,198,630 (25.28%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-01-31 | 2,649,890 |  34 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-01-31 | 6,177,903 |  97,862 | 390,871 (6.33%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-01-31 | 5,929,642 |  104,213 | 404,271 (6.82%)  |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-01-31 | 5,929,642 |  104,213 | 404,036 (6.81%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-01-31 | 5,536,130 |  26,395 | 479,741 (8.67%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2024-01-31 | 5,833,811 |  646,893 | 208,395 (3.57%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2024-01-22 | 3,434,463 |  3 | 21,223 (0.62%) Archive node unavailable |
@@ -47,7 +47,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2024-01-31 | 3,153,124 |  901 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2024-01-31 | 2,375,552 |  11 |   Endpoint not reachable |
 | [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2024-01-31 | 1,682,942 |   | 298 (0.02%) Crawling initiated |
-| [Blobs on Kusama Para ID 3338](/kusama/3338-blobs) | 2023-12-10 | 2024-01-31 | 347,626 |  1 |    |
+| [Blobs on Kusama Para ID 3338](/kusama/3338-blobs) | 2023-12-10 | 2024-01-31 | 353,505 |  1 |    |
 
 Missing chains
 
