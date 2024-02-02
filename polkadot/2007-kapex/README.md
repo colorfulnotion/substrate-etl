@@ -9,6 +9,7 @@ _Source_: [kapex.polkaholic.io](https://kapex.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2024-02-01 to 2024-02-01](/polkadot/2007-kapex/2024-02-29.md) |  |  |  |  |  |  | -   |   
 | [2024-01-01 to 2024-01-28](/polkadot/2007-kapex/2024-01-31.md) | 3,270,399 | 3,383,188 | 112,790 | 1 |  | 1,080 | -   |   
 | [2023-12-01 to 2023-12-31](/polkadot/2007-kapex/2023-12-31.md) | 3,107,946 | 3,270,398 | 162,453 |  | 5 | 1,080 | -   |   
 | [2023-11-01 to 2023-11-30](/polkadot/2007-kapex/2023-11-30.md) | 2,902,319 | 3,107,945 | 205,627 | 10 | 7 | 1,080 | -   |   
