@@ -5,8 +5,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Network          | Indexed up until | # Chains Indexed | # Chains Not Indexed | # Blocks Across Network   | # Blocks Missing |
 | ---------------- | ---------------- | ---------------- | -------------------- | ------------------------- | ---------------- |
-| [polkadot](polkadot) | 2024-01-31 | 40 | 7 | 142,916,998 | 4,252,227 |
-| [kusama](kusama) | 2024-01-31 | 43 | 13 | 182,021,330 | 23,722,994 |
+| [polkadot](polkadot) | 2024-01-31 | 40 | 7 | 142,829,660 | 3,745,326 |
+| [kusama](kusama) | 2024-01-31 | 43 | 13 | 182,058,934 | 23,685,390 |
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
 
