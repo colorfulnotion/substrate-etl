@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-02-04 | 21,737,165 |  309,215 | 72,001 (0.33%)  |
+| [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-02-04 | 21,737,165 |  309,215 | 65,290 (0.30%)  |
 | [AssetHub on Kusama Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-02-04 | 6,354,908 |  64,876 | 18,780 (0.30%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-02-04 | 4,767,986 |  78 | 1,198,630 (25.14%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-02-04 | 2,677,281 |  36 | 13 (0.00%)  |
@@ -46,8 +46,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [null Para ID 2129](/kusama/2129-kusama-parachain-2129) | 2022-10-26 | 2023-05-02 | 1,514,494 |  5,975 | 93,630 (6.18%)  |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2024-02-04 | 3,180,183 |  901 | 16 (0.00%)  |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2024-02-04 | 2,392,683 |  11 |   Endpoint not reachable |
-| [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2024-02-04 | 1,703,237 |   | 298 (0.02%) Crawling initiated |
-| [Blobs on Kusama Para ID 3338](/kusama/3338-blobs) | 2023-12-10 | 2024-02-04 | 373,696 |  1 |    |
+| [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2024-02-04 | 1,710,129 |   | 314 (0.02%) Crawling initiated |
+| [Blobs on Kusama Para ID 3338](/kusama/3338-blobs) | 2023-12-10 | 2024-02-04 | 380,432 |  1 | 14 (0.00%)  |
 
 Missing chains
 
