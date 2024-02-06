@@ -21,7 +21,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2024-02-06 | 4,994,950 |  3,172 | 5 (0.00%)  |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2024-02-06 | 5,505,633 |  284,070 | 123,961 (2.25%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2024-02-06 | 5,338,891 |  24,698 | 2,262 (0.04%)  |
-| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2024-02-06 | 4,227,180 |  6,978 | 74,608 (1.76%)  |
+| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2024-02-06 | 4,227,180 |  6,978 | 74,591 (1.76%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2024-02-06 | 4,788,650 |  29,994 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2024-02-06 | 5,131,206 |  18,925 | 67,782 (1.32%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2024-02-06 | 4,854,568 |  17,035 | 27 (0.00%)  |
@@ -39,7 +39,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-30 | 2,161,094 |  3,882 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
 | [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2024-02-06 | 3,905,366 |  8,010 | 1,163 (0.03%)  |
-| [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2024-02-06 | 3,908,409 |  359 | 3,144 (0.08%) Only partial index available: Archive node unavailable |
+| [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2024-02-06 | 3,908,409 |  359 | 3,138 (0.08%) Only partial index available: Archive node unavailable |
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-09-01 | 1,835,448 |  1,364 |    |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2024-02-06 | 3,307,640 |  2,722 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2024-02-06 | 2,822,419 |  7,802 | 27,587 (0.98%)  |
