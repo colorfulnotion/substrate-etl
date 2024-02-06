@@ -84,5 +84,11 @@
     "mode": "NULLABLE",
     "name": "pv",
     "type": "JSON"
+  },
+  {
+    "description": "source that generates this snapshot",
+    "mode": "REQUIRED",
+    "name": "source",
+    "type": "STRING"
   }
 ]
