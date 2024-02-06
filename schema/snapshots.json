@@ -1,0 +1,88 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "relay_chain",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "para_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "chain_name",
+    "type": "STRING"
+  },
+  {
+    "description": "timestamp when the snapshot is taken",
+    "mode": "REQUIRED",
+    "name": "ts",
+    "type": "TIMESTAMP"
+  },
+  {
+    "description": "block_number when the snapshot is taken",
+    "mode": "REQUIRED",
+    "name": "block_number",
+    "type": "INTEGER"
+  },
+  {
+    "description": "block_hash when the snapshot is taken",
+    "mode": "REQUIRED",
+    "name": "block_hash",
+    "type": "STRING"
+  },
+  {
+    "description": "ss58 of the snaptshot state address if available",
+    "mode": "NULLABLE",
+    "name": "address_ss58",
+    "type": "STRING"
+  },
+  {
+    "description": "pubkey of the snaptshot state address if available",
+    "mode": "NULLABLE",
+    "name": "address_pubkey",
+    "type": "STRING"
+  },
+  {
+    "description": "section of the snapshot",
+    "mode": "REQUIRED",
+    "name": "section",
+    "type": "STRING"
+  },
+  {
+    "description": "storag of the snapshot",
+    "mode": "REQUIRED",
+    "name": "storage",
+    "type": "STRING"
+  },
+  {
+    "description": "optional identifier for the snapshot state",
+    "mode": "NULLABLE",
+    "name": "track",
+    "type": "STRING"
+  },
+  {
+    "description": "optional val associated with track",
+    "mode": "NULLABLE",
+    "name": "track_val",
+    "type": "STRING"
+  },
+  {
+    "description": "generic snapshot value from the key",
+    "mode": "NULLABLE",
+    "name": "kv",
+    "type": "JSON"
+  },
+  {
+    "description": "generic snapshot value from storage",
+    "mode": "NULLABLE",
+    "name": "pv",
+    "type": "JSON"
+  }
+]
