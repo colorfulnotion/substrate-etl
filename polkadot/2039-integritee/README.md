@@ -9,7 +9,7 @@ _Source_: [integritee.polkaholic.io](https://integritee.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-02-01 to 2024-02-06](/polkadot/2039-integritee/2024-02-29.md) | 2,387,205 | 2,422,918 | 35,712 |  |  |  | - 2 (0.01%) |   
+| [2024-02-01 to 2024-02-06](/polkadot/2039-integritee/2024-02-29.md) | 2,387,205 | 2,430,062 | 42,858 |  |  |  | -   |   
 | [2024-01-01 to 2024-01-31](/polkadot/2039-integritee/2024-01-31.md) | 2,298,148 | 2,387,204 | 72,203 | 19 |  |  | - 16,854 (18.93%) |   
 | [2023-12-01 to 2023-12-31](/polkadot/2039-integritee/2023-12-31.md) | 2,209,138 | 2,298,147 | 89,010 |  |  |  | -   |   
 | [2023-11-01 to 2023-11-30](/polkadot/2039-integritee/2023-11-30.md) | 2,122,810 | 2,209,137 | 86,328 |  |  |  | -   |   

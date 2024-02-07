@@ -9,7 +9,15 @@ _Source_: [bridgehub.polkaholic.io](https://bridgehub.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-01-27 to 2024-01-29](/polkadot/1002-bridgehub/2024-01-31.md) | 1,847,049 | 1,862,122 | 15,074 |  |  | 19 | -   |   
+| [2024-01-01 to 2024-01-29](/polkadot/1002-bridgehub/2024-01-31.md) | 1,711,964 | 1,862,122 | 150,159 |  |  | 19 | -   |   
+| [2023-12-01 to 2023-12-31](/polkadot/1002-bridgehub/2023-12-31.md) |  |  |  |  |  | 19 | -  **BROKEN**  |   
+| [2023-11-01 to 2023-11-30](/polkadot/1002-bridgehub/2023-11-30.md) |  |  |  |  |  | 17 | -   |   
+| [2023-10-01 to 2023-10-31](/polkadot/1002-bridgehub/2023-10-31.md) |  |  |  |  |  | 17 | -   |   
+| [2023-09-01 to 2023-09-30](/polkadot/1002-bridgehub/2023-09-30.md) |  |  |  |  |  | 17 | -   |   
+| [2023-08-01 to 2023-08-31](/polkadot/1002-bridgehub/2023-08-31.md) |  |  |  |  |  | 17 | -   |   
+| [2023-07-01 to 2023-07-31](/polkadot/1002-bridgehub/2023-07-31.md) |  |  |  |  |  | 10 | -   |   
+| [2023-06-01 to 2023-06-30](/polkadot/1002-bridgehub/2023-06-30.md) |  |  |  |  |  | 1 | -   |   
+| [2023-05-12 to 2023-05-31](/polkadot/1002-bridgehub/2023-05-31.md) |  |  |  |  |  |  | -   |   
 
 ## Tables:
 
