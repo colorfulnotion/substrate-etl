@@ -6,11 +6,11 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-02-18 | 21,923,585 |  309,777 | 53 (0.00%)  |
-| [AssetHub on Kusama Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-02-16 | 6,429,337 |  64,922 | 18,899 (0.29%)  |
+| [AssetHub on Kusama Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-02-18 | 6,440,637 |  64,922 | 18,899 (0.29%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-02-18 | 4,854,166 |  78 | 1,198,630 (24.69%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-02-18 | 2,763,067 |  37 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-02-17 | 6,290,938 |  97,862 | 400,212 (6.36%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-02-18 | 6,037,586 |  104,579 | 340,456 (5.64%)  |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-02-18 | 6,037,586 |  104,579 | 328,948 (5.45%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-02-18 | 5,645,181 |  26,529 | 479,741 (8.50%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2024-02-18 | 5,944,845 |  647,098 | 208,404 (3.51%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2024-01-22 | 3,434,463 |  3 | 21,223 (0.62%) Archive node unavailable |
