@@ -26,7 +26,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-02-21 | 4,661,031 |  15,045 |    |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-02-21 | 4,522,713 |  28,686 |    |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-02-21 | 4,548,468 |  4,885 | 4 (0.00%)  |
-| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-02-21 | 4,369,645 |  34,754 | 4,184 (0.10%)  |
+| [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-02-21 | 4,369,645 |  34,759 | 4,184 (0.10%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-02-21 | 2,529,894 |  1 | 342 (0.01%)  |
 | [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-02-21 | 4,221,925 |   | 1,837,152 (43.51%) No Public Websocket Endpoint available: Not indexing yet. |
 | [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-02-21 | 4,365,233 |  3,881 | 3 (0.00%)  |
