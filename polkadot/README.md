@@ -11,7 +11,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-01-29 | 1,862,122 |  19 | 812,302 (43.62%)  |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-02-23 | 5,605,351 |  170,749 | 2 (0.00%)  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-02-23 | 5,577,615 |  1,784,538 | 2 (0.00%)  |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-02-23 | 5,577,615 |  1,790,639 | 2 (0.00%)  |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-02-23 | 5,590,749 |  697,304 |    |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-02-02 | 3,435,211 |  1,080 | 31,872 (0.93%)  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-02-23 | 2,860,087 |  1,022 |    |
@@ -42,7 +42,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-02-23 | 2,431,086 |  1,759 |    |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-02-23 | 2,391,274 |  18,632 |   Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-02-23 | 2,510,202 |  2 |    |
-| [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-02-21 | 497,282 |  4 | 7,005 (1.41%)  |
+| [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-02-23 | 497,282 |  4 | 7,005 (1.41%)  |
 | [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-01-29 | 427,549 |  502 | 1 (0.00%)  |
 | [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-01-29 | 689,326 |  522 | 142,272 (20.64%)  |
 
