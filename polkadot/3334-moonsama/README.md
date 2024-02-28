@@ -9,7 +9,7 @@ _Source_: [moonsama.polkaholic.io](https://moonsama.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-02-01 to 2024-02-27](/polkadot/3334-moonsama/2024-02-29.md) | 350,852 | 522,348 | 164,492 |  |  | 4 | - 7,005 (4.08%) |   
+| [2024-02-01 to 2024-02-28](/polkadot/3334-moonsama/2024-02-29.md) | 350,852 | 529,354 | 171,498 |  |  | 4 | - 7,005 (3.92%) |   
 | [2024-01-07 to 2024-01-31](/polkadot/3334-moonsama/2024-01-31.md) | 175,852 | 350,851 | 175,000 |  |  | 4 | -   |   
 
 ## Tables:
