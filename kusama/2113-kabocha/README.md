@@ -9,6 +9,7 @@ _Source_: [kabocha.polkaholic.io](https://kabocha.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2024-03-01 to 2024-03-01](/kusama/2113-kabocha/2024-03-31.md) |  |  |  |  |  |  | -   |   
 | [2024-02-01 to 2024-02-29](/kusama/2113-kabocha/2024-02-29.md) | 3,154,814 | 3,299,571 | 144,758 | 1 |  | 13,222 | -   |   
 | [2024-01-01 to 2024-01-31](/kusama/2113-kabocha/2024-01-31.md) | 2,982,842 | 3,154,813 | 79,400 | 7 |  | 13,221 | - 92,572 (53.83%) |   
 | [2023-12-01 to 2023-12-31](/kusama/2113-kabocha/2023-12-31.md) | 2,799,986 | 2,982,841 | 182,856 | 3 | 2 | 13,220 | -   |   
