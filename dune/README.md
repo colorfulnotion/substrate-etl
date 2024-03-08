@@ -11,7 +11,7 @@ Every substrate chain onboarded to Dune will, by default, include a list of _bas
 
 Additional _add-on_ tables have also been developed to enable Dune wizards to build more complex dashboards. For example, both the Polkadot and Kusama chains have a *stakings* table for staking-related state and a *traces* table for all openGov-related information.
 
-#### <_chainName_>  substrate chains that have already been on-boarded
+#### Substrate chains that have already been on-boarded
 | Namespace   | Status         | relayChain | paraID | first block  |
 |-------------|----------------|------------|--------|--------------|
 | polkadot    | OF1            | polkadot   | 0      | 2020-05-26   |
