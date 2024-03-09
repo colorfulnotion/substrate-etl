@@ -1,4 +1,4 @@
-# null Summary (Monthly)
+# Efinity Summary (Monthly)
 
 _Source_: [efinity.polkaholic.io](https://efinity.polkaholic.io)
 

@@ -1,4 +1,4 @@
-# KILT Spiritnet Summary (Monthly)
+# kilt-dot Summary (Monthly)
 
 _Source_: [kilt.polkaholic.io](https://kilt.polkaholic.io)
 
