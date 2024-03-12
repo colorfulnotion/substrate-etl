@@ -11,7 +11,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-01-29 | 1,862,122 |  19 | 812,302 (43.62%)  |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-03-12 | 5,733,513 |  172,388 | 2 (0.00%)  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-03-12 | 5,704,556 |  1,959,477 | 2 (0.00%)  |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-03-12 | 5,704,556 |  1,960,632 | 2 (0.00%)  |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-03-12 | 5,716,925 |  737,396 |    |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-03-11 | 3,634,381 |  1,080 | 140,668 (3.87%)  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-03-12 | 2,956,091 |  1,051 |    |
