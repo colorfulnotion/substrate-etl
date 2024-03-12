@@ -9,7 +9,7 @@ _Source_: [collectives.polkaholic.io](https://collectives.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-03-01 to 2024-03-11](/polkadot/1001-collectives/2024-03-31.md) | 3,297,763 | 3,364,893 | 67,131 | 54 |  | 93 | -   |   
+| [2024-03-01 to 2024-03-12](/polkadot/1001-collectives/2024-03-31.md) | 3,297,763 | 3,371,468 | 73,706 | 69 |  | 93 | -   |   
 | [2024-02-01 to 2024-02-29](/polkadot/1001-collectives/2024-02-29.md) | 3,091,247 | 3,297,762 | 206,516 | 164 |  | 92 | -   |   
 | [2024-01-01 to 2024-01-31](/polkadot/1001-collectives/2024-01-31.md) | 2,871,323 | 3,091,246 | 219,924 | 182 |  | 85 | -   |   
 | [2023-12-01 to 2023-12-31](/polkadot/1001-collectives/2023-12-31.md) | 2,664,914 | 2,871,322 | 206,409 | 110 | 12 | 73 | -   |   
