@@ -53,9 +53,9 @@ Missing chains
 * *Zeitgeist2* Para ID 2092; 
 * *peaq* Para ID 3338; 
 * *InvArch* Para ID 3340; 
-* *null* Para ID 3346; 
+* *Continuum* Para ID 3346; 
 * *null* Para ID 3350; 
 * *null* Para ID 3351; 
-* *null* Para ID 3354; 
+* *Logion* Para ID 3354; 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
