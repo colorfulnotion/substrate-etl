@@ -9,7 +9,7 @@ Status: No Public Websocket Endpoint available: Not indexing yet.
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-03-01 to 2024-03-26](/polkadot/2040-polkadex/2024-03-31.md) | 4,284,205 | 4,457,434 | 173,230 | 6 |  |  | -   |   
+| [2024-03-01 to 2024-03-27](/polkadot/2040-polkadex/2024-03-31.md) | 4,284,205 | 4,464,344 | 180,140 | 8 |  |  | -   |   
 | [2024-02-01 to 2024-02-29](/polkadot/2040-polkadex/2024-02-29.md) | 4,083,655 | 4,284,204 | 200,550 | 23 |  |  | -   |   
 | [2024-01-01 to 2024-01-31](/polkadot/2040-polkadex/2024-01-31.md) | 3,877,719 | 4,083,654 | 205,936 | 4 |  |  | -   |   
 | [2023-12-01 to 2023-12-31](/polkadot/2040-polkadex/2023-12-31.md) | 3,681,572 | 3,877,718 | 196,147 | 25 |  |  | -   |   
