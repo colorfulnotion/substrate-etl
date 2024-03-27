@@ -12,11 +12,11 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-03-27 | 5,840,564 |  173,058 | 2 (0.00%)  |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-03-27 | 5,810,786 |  1,977,917 | 2 (0.00%)  |
-| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-03-27 | 5,823,331 |  744,972 |    |
+| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-03-27 | 5,823,331 |  745,572 |    |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-03-27 | 3,711,336 |  1,080 | 140,668 (3.79%)  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-03-27 | 3,036,145 |  1,063 |    |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2024-01-16 | 4,130,019 |  9,979 | 4 (0.00%)  |
-| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2024-03-27 | 5,699,370 |  50,925 |    |
+| [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2024-03-27 | 5,699,370 |  50,930 |    |
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2024-03-27 | 4,566,081 |  4,871 |    |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2024-03-27 | 4,239,089 |  46 | 988,228 (23.31%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
@@ -30,7 +30,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-03-27 | 2,777,270 |  1 | 342 (0.01%)  |
 | [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-03-27 | 4,464,344 |   | 1,837,152 (41.15%) No Public Websocket Endpoint available: Not indexing yet. |
 | [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-03-27 | 4,589,749 |  3,970 | 3 (0.00%)  |
-| [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-03-27 | 2,349,925 |  1,096 | 1,098,047 (46.73%)  |
+| [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-03-27 | 2,349,925 |  1,097 | 1,098,047 (46.73%)  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-03-27 | 3,032,378 |  1,528 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-03-27 | 3,386,932 |  9 | 28,565 (0.84%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
