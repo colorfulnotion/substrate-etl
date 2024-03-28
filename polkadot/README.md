@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-03-28 | 20,088,557 |  1,299,695 | 8 (0.00%)  |
+| [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-03-28 | 20,088,557 |  1,300,348 | 8 (0.00%)  |
 | [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-03-28 | 5,945,140 |  293,652 | 50 (0.00%)  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-03-28 | 3,476,118 |  95 |    |
 | [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-01-29 | 1,862,122 |  19 | 9 (0.00%)  |
@@ -20,7 +20,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2024-03-28 | 4,572,903 |  4,871 |    |
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2024-03-28 | 4,246,011 |  46 | 988,228 (23.27%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
-| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-03-28 | 4,709,394 |  1,019,705 | 28,472 (0.60%)  |
+| [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-03-28 | 4,709,394 |  1,019,705 | 230,940 (4.90%)  |
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-03-28 | 4,366,375 |  34,872 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-03-28 | 5,163,287 |  51,477 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-03-28 | 4,916,004 |  16,015 |    |
