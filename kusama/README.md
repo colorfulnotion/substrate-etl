@@ -10,8 +10,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-03-31 | 5,139,753 |  84 | 1,198,630 (23.32%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-03-31 | 3,026,801 |  41 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-03-30 | 6,575,692 |  97,862 | 427,327 (6.50%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-03-31 | 6,316,420 |  105,086 | 328,948 (5.21%)  |
-| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-03-31 | 5,920,954 |  26,892 | 479,741 (8.10%) Only partial index available: Old Decoding issues |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-03-31 | 6,316,420 |  105,094 | 328,948 (5.21%)  |
+| [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-03-31 | 5,920,954 |  26,902 | 479,741 (8.10%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2024-02-27 | 6,010,639 |  647,149 | 208,404 (3.47%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2024-01-22 | 3,434,463 |  3 | 21,223 (0.62%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2024-03-31 | 5,070,764 |  3,260 |    |

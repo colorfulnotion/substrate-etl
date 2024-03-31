@@ -13,7 +13,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-03-31 | 5,839,135 |  1,980,946 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-03-31 | 5,851,826 |  746,244 |    |
-| [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-03-30 | 3,731,856 |  1,080 | 140,668 (3.77%)  |
+| [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-03-31 | 3,731,856 |  1,080 | 140,668 (3.77%)  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-03-31 | 3,057,513 |  1,065 |    |
 | [Equilibrium Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2024-01-16 | 4,130,019 |  9,979 | 4 (0.00%)  |
 | [Parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2024-03-31 | 5,726,327 |  50,939 |    |
@@ -29,9 +29,9 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-03-31 | 4,648,325 |  36,558 | 4,184 (0.09%)  |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-03-31 | 2,805,869 |  1 | 342 (0.01%)  |
 | [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-03-31 | 4,492,102 |   | 1,837,143 (40.90%) No Public Websocket Endpoint available: Not indexing yet. |
-| [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-03-31 | 4,616,145 |  3,971 |    |
+| [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-03-31 | 4,616,145 |  3,973 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-03-31 | 2,378,157 |  1,098 | 1,098,047 (46.17%)  |
-| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-03-31 | 3,060,345 |  1,531 |    |
+| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-03-31 | 3,060,345 |  1,532 |    |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-03-31 | 3,415,377 |  9 | 28,565 (0.84%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-03-29 | 2024-03-31 | 3,296,348 |   | 5,299 (0.16%) Crawling initiated |
@@ -40,11 +40,11 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-03-31 | 3,452,393 |  135 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2024-03-30 | 2,811,622 |  586 | 15,715 (0.56%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-03-31 | 2,662,379 |  1,878 |    |
-| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-03-31 | 2,641,038 |  21,237 |   Onboarding |
+| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-03-31 | 2,641,038 |  21,275 |   Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-03-31 | 2,772,763 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
-| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-03-31 | 869,192 |  738 | 1 (0.00%)  |
-| [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-03-31 | 1,129,443 |  931 | 142,272 (12.60%)  |
+| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-03-31 | 869,192 |  741 | 1 (0.00%)  |
+| [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-03-31 | 1,129,443 |  942 | 142,272 (12.60%)  |
 
 Missing chains
 
