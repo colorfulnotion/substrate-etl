@@ -9,7 +9,7 @@ _Source_: [energywebx.polkaholic.io](https://energywebx.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-03-26 to 2024-03-31](/polkadot/3345-energywebx/2024-03-31.md) | 1,093,816 | 1,129,443 | 35,628 | 1,972 |  | 964 | -   |   
+| [2024-03-26 to 2024-03-31](/polkadot/3345-energywebx/2024-03-31.md) | 1,093,816 | 1,136,579 | 42,764 | 2,110 |  | 964 | -   |   
 | [2024-01-01 to 2024-01-29](/polkadot/3345-energywebx/2024-01-31.md) | 539,535 | 689,326 | 149,792 | 303 |  | 587 | -  **BROKEN**  |   
 | [2023-12-01 to 2023-12-31](/polkadot/3345-energywebx/2023-12-31.md) | 290,691 | 454,334 | 21,372 |  |  | 425 | -  **BROKEN** (86.94%) |   
 | [2023-11-01 to 2023-11-30](/polkadot/3345-energywebx/2023-11-30.md) | 55,088 | 62,266 | 7,179 |  |  | 1 | -  **BROKEN**  |   
