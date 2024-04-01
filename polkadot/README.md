@@ -8,10 +8,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-03-31 | 20,145,866 |  1,301,022 | 8 (0.00%)  |
 | [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-03-31 | 5,970,970 |  293,652 | 50 (0.00%)  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-03-31 | 3,501,633 |  95 |    |
-| [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-01-29 | 1,862,122 |  19 |    |
+| [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-03-31 | 2,291,855 |  19 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-03-31 | 5,876,132 |  173,308 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-03-31 | 5,846,251 |  1,980,946 |    |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-03-31 | 5,846,251 |  1,979,300 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-03-31 | 5,858,956 |  746,244 |    |
 | [Kapex Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-03-31 | 3,736,992 |  1,080 | 140,668 (3.76%)  |
 | [Crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-03-31 | 3,062,861 |  1,065 |    |
