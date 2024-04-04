@@ -9,7 +9,7 @@ _Source_: [bridgehub.polkaholic.io](https://bridgehub.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-04-01 to 2024-04-03](/polkadot/1002-bridgehub/2024-04-30.md) | 2,291,856 | 2,304,763 | 12,908 | 21 |  | 27 | -   |   
+| [2024-04-01 to 2024-04-04](/polkadot/1002-bridgehub/2024-04-30.md) | 2,291,856 | 2,311,199 | 19,344 | 28 |  | 27 | -   |   
 | [2024-03-01 to 2024-03-31](/polkadot/1002-bridgehub/2024-03-31.md) | 2,089,260 | 2,291,855 | 202,596 | 201 |  | 28 | -   |   
 | [2024-02-01 to 2024-02-29](/polkadot/1002-bridgehub/2024-02-29.md) | 1,882,672 | 2,089,259 | 206,588 |  |  | 19 | -   |   
 | [2024-01-01 to 2024-01-31](/polkadot/1002-bridgehub/2024-01-31.md) | 1,662,432 | 1,882,671 | 220,240 |  |  | 19 | -   |   
