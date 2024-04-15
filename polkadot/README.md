@@ -31,7 +31,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-04-15 | 4,596,254 |   |   No Public Websocket Endpoint available: Not indexing yet. |
 | [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-04-15 | 4,718,532 |  4,091 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-04-15 | 2,484,842 |  1,135 | 1,098,047 (44.19%)  |
-| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-04-14 | 3,153,745 |  1,569 | 2 (0.00%)  |
+| [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-04-15 | 3,153,745 |  1,569 | 2 (0.00%)  |
 | [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-04-09 | 3,479,353 |  9 | 28,565 (0.82%)  |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-03-29 | 2024-04-15 | 3,393,416 |   |   Crawling initiated |
