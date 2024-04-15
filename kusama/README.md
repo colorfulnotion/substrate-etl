@@ -68,6 +68,7 @@ Missing chains
 * *null* Para ID 3340; 
 * *null* Para ID 3343; 
 * *null* Para ID 3344; 
+* *null* Para ID 3347; 
 * *null* Para ID 3350; 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details
