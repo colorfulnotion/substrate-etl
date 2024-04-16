@@ -6,7 +6,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-04-16 | 22,755,962 |  316,526 |    |
-| [AssetHub on Kusama Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-04-12 | 6,774,852 |  65,659 | 20,186 (0.30%)  |
+| [AssetHub on Kusama Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-04-16 | 6,793,808 |  65,659 | 28,137 (0.41%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-04-16 | 5,249,360 |  93 | 1,198,630 (22.83%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-04-16 | 3,122,103 |  49 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-04-08 | 6,630,314 |  97,862 | 440,959 (6.65%)  |
