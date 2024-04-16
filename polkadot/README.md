@@ -24,7 +24,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-04-16 | 4,501,653 |  35,416 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-04-16 | 5,292,814 |  53,005 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-04-16 | 5,051,291 |  17,378 |    |
-| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-04-16 | 4,913,190 |  32,863 |    |
+| [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-04-16 | 4,913,190 |  32,914 |    |
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-04-16 | 4,941,163 |  5,187 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-04-16 | 4,762,741 |  39,789 |    |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-04-16 | 2,920,161 |  1 | 342 (0.01%)  |
