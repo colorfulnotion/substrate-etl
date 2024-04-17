@@ -6,7 +6,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-04-17 | 20,374,884 |  1,323,280 | 8 (0.00%)  |
-| [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-04-17 | 6,073,276 |  1,211,149 | 50 (0.00%)  |
+| [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-04-17 | 6,073,276 |  1,309,295 | 50 (0.00%)  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-04-17 | 3,603,627 |  102 |    |
 | [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-04-17 | 2,394,088 |  31 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-04-17 | 5,990,217 |  175,563 |    |
@@ -40,7 +40,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-04-17 | 3,573,950 |  140 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2024-04-16 | 2,912,281 |  586 | 21,101 (0.72%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-04-17 | 2,773,684 |  1,962 |    |
-| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-04-17 | 2,754,991 |  22,525 |   Onboarding |
+| [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-04-17 | 2,754,991 |  22,538 |   Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-04-17 | 2,893,370 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-04-17 | 990,666 |  802 | 1 (0.00%)  |

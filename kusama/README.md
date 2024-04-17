@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-04-17 | 5,256,322 |  94 | 1,198,630 (22.80%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-04-17 | 3,128,046 |  49 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-04-08 | 6,630,314 |  97,862 | 440,959 (6.65%)  |
-| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-04-17 | 6,428,916 |  105,411 | 328,948 (5.12%)  |
+| [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-04-17 | 6,428,916 |  105,414 | 328,948 (5.12%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-04-03 | 5,946,355 |  27,210 | 479,741 (8.07%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2024-02-27 | 6,010,639 |  647,149 | 208,404 (3.47%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2024-01-22 | 3,434,463 |  3 | 21,223 (0.62%) Archive node unavailable |
@@ -46,7 +46,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [null Para ID 2129](/kusama/2129-kusama-parachain-2129) | 2022-10-26 | 2023-05-02 | 1,514,494 |  5,975 | 93,630 (6.18%)  |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2024-04-17 | 3,655,446 |  905 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2024-04-17 | 2,697,968 |  12 |   Endpoint not reachable |
-| [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2024-04-16 | 2,186,806 |   | 314 (0.01%) Crawling initiated |
+| [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2024-04-17 | 2,187,087 |   | 314 (0.01%) Crawling initiated |
 | [Gondatsu Para ID 3338](/kusama/3338-gondatsu) | 2023-12-10 | 2024-04-17 | 859,021 |  1 |    |
 
 Missing chains
