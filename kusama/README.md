@@ -21,7 +21,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Robonomics Para ID 2048](/kusama/2048-robonomics) | 2022-01-09 | 2024-04-19 | 5,493,941 |  3,213 |    |
 | [Calamari Para ID 2084](/kusama/2084-calamari) | 2021-09-16 | 2024-04-19 | 5,975,547 |  284,070 | 123,879 (2.07%) Only partial index available: Archive node unavailable |
 | [Parallel Heiko Para ID 2085](/kusama/2085-parallel-heiko) | 2021-10-06 | 2024-04-19 | 5,719,816 |  24,755 | 2,240 (0.04%)  |
-| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2024-04-19 | 4,710,414 |  7,391 | 74,591 (1.58%)  |
+| [Picasso Para ID 2087](/kusama/2087-picasso) | 2021-12-28 | 2024-04-19 | 4,717,188 |  7,391 | 74,591 (1.58%)  |
 | [Altair Para ID 2088](/kusama/2088-altair) | 2021-09-29 | 2024-04-19 | 5,276,552 |  30,203 | 2 (0.00%)  |
 | [Basilisk Para ID 2090](/kusama/2090-basilisk) | 2021-09-22 | 2024-04-19 | 5,585,376 |  19,062 | 67,774 (1.21%)  |
 | [Kintsugi Para ID 2092](/kusama/2092-kintsugi) | 2021-10-13 | 2024-02-18 | 4,932,532 |  17,051 | 8 (0.00%)  |
