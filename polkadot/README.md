@@ -39,7 +39,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [kilt-dot Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-02-18 | 5,695,902 |  19,983 | 554 (0.01%)  |
 | [Frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-04-26 | 3,637,727 |  140 |    |
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2024-04-25 | 2,969,884 |  586 | 21,163 (0.71%) Only partial index available: Archive node unavailable |
-| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-04-25 | 2,830,667 |  1,965 | 5,986 (0.21%)  |
+| [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-04-26 | 2,830,667 |  1,965 | 4,404 (0.16%)  |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-04-26 | 2,818,232 |  22,685 |   Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-04-24 | 2,943,318 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
