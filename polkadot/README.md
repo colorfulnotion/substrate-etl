@@ -21,7 +21,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Composable Finance Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2024-04-28 | 4,466,636 |  46 | 988,229 (22.12%)  |
 | [Efinity Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
 | [Nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-04-20 | 4,875,325 |  1,069,420 | 20 (0.00%)  |
-| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-04-27 | 4,585,403 |  35,542 |    |
+| [Bifrost-Polkadot Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-04-28 | 4,585,403 |  35,542 |    |
 | [Centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-04-28 | 5,372,533 |  53,125 |    |
 | [Interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-04-28 | 5,136,588 |  17,437 |    |
 | [HydraDX Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-04-28 | 4,998,193 |  33,252 |    |
