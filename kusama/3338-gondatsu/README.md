@@ -9,7 +9,7 @@ _Source_: [gondatsu.polkaholic.io](https://gondatsu.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-04-01 to 2024-04-28](/kusama/3338-gondatsu/2024-04-30.md) | 751,054 | 942,536 | 191,483 |  |  | 1 | -   |   
+| [2024-04-01 to 2024-04-29](/kusama/3338-gondatsu/2024-04-30.md) | 751,054 | 942,536 | 191,483 |  |  | 1 | -   |   
 | [2024-03-01 to 2024-03-31](/kusama/3338-gondatsu/2024-03-31.md) | 543,860 | 751,053 | 207,194 |  |  | 1 | -   |   
 | [2024-02-01 to 2024-02-29](/kusama/3338-gondatsu/2024-02-29.md) | 353,506 | 543,859 | 190,354 |  |  | 1 | -   |   
 | [2024-01-01 to 2024-01-31](/kusama/3338-gondatsu/2024-01-31.md) | 149,020 | 353,505 | 204,486 |  |  | 1 | -   |   
