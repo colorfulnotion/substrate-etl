@@ -28,7 +28,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-04-29 | 5,033,810 |  5,100 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-04-29 | 4,855,354 |  40,130 |    |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-04-29 | 3,012,711 |  1 | 342 (0.01%)  |
-| [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-04-25 | 4,661,476 |   |   No Public Websocket Endpoint available: Not indexing yet. |
+| [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-04-29 | 4,685,124 |   | 16,031 (0.34%) No Public Websocket Endpoint available: Not indexing yet. |
 | [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-04-29 | 4,814,790 |  4,200 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-04-29 | 2,582,441 |  1,143 | 1,098,047 (42.52%)  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-04-29 | 3,226,777 |  1,569 | 2 (0.00%)  |
@@ -45,6 +45,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-04-29 | 1,074,371 |  828 | 1 (0.00%)  |
 | [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-04-29 | 1,335,584 |  1,060 | 256,523 (19.21%)  |
+| [Mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-04-29 | 281,890 |  2 |    |
 
 Missing chains
 
@@ -58,6 +59,5 @@ Missing chains
 * *null* Para ID 3351; 
 * *Logion* Para ID 3354; 
 * *null* Para ID 3366; 
-* *Mythos* Para ID 3369; 
 
 Report source: [https://cdn.polkaholic.io/substrate-etl/polkaholic.json](https://cdn.polkaholic.io/substrate-etl/polkaholic.json) | See [Definitions](/DEFINITIONS.md) for details

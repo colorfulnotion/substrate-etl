@@ -9,6 +9,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [AssetHub on Kusama Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-04-29 | 6,871,218 |  65,821 | 33,277 (0.48%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-04-29 | 5,339,313 |  96 | 1,198,630 (22.45%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-04-29 | 3,201,321 |  49 |    |
+| [Coretime-Kusama Para ID 1005](/kusama/1005-coretime_kusama) | 2024-04-10 | 2024-04-29 | 126,659 |   |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-04-09 | 6,641,587 |  97,862 | 447,737 (6.74%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-04-29 | 6,511,315 |  105,439 | 328,948 (5.05%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-04-03 | 5,946,355 |  27,210 | 479,741 (8.07%) Only partial index available: Old Decoding issues |
@@ -52,7 +53,6 @@ Source: [Polkaholic.io](https://polkaholic.io)
 Missing chains
 
 
-* *Coretime-Kusama* Para ID 1005; 
 * *Acurast Canary* Para ID 2239; 
 * *TBD* Para ID 2258; 
 * *TBD* Para ID 2262; No public endpoint
