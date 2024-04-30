@@ -6,7 +6,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-04-30 | 20,561,463 |  1,323,280 | 8 (0.00%)  |
-| [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-04-30 | 6,155,770 |  1,263,108 | 51 (0.00%)  |
+| [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-04-30 | 6,155,770 |  1,263,108 | 50 (0.00%)  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-04-30 | 3,685,372 |  103 |    |
 | [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-04-30 | 2,476,340 |  32 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-04-30 | 6,082,664 |  175,742 |    |
@@ -28,7 +28,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-04-30 | 5,040,935 |  5,100 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-04-30 | 4,862,473 |  40,130 |    |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-04-30 | 3,019,832 |  1 | 342 (0.01%)  |
-| [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-04-30 | 4,691,009 |   | 16,031 (0.34%) No Public Websocket Endpoint available: Not indexing yet. |
+| [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-04-30 | 4,691,009 |   | 229 (0.00%) No Public Websocket Endpoint available: Not indexing yet. |
 | [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-04-30 | 4,821,874 |  4,200 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-04-30 | 2,589,485 |  1,143 | 1,098,047 (42.40%)  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-04-30 | 3,231,873 |  1,569 | 2 (0.00%)  |
@@ -41,7 +41,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Hashed Network Para ID 2093](/polkadot/2093-hashed) | 2023-02-28 | 2024-04-30 | 2,992,852 |  586 | 21,163 (0.71%) Only partial index available: Archive node unavailable |
 | [Pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-04-30 | 2,854,529 |  1,970 |    |
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-04-30 | 2,846,341 |  22,744 |   Onboarding |
-| [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-04-24 | 2,943,318 |  2 |    |
+| [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-04-30 | 2,943,318 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-04-30 | 1,081,478 |  828 | 1 (0.00%)  |
 | [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-04-30 | 1,342,669 |  1,060 | 242,304 (18.05%)  |
