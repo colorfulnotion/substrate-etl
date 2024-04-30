@@ -9,7 +9,7 @@ _Source_: [mythos.polkaholic.io](https://mythos.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-04-01 to 2024-04-29](/polkadot/3369-mythos/2024-04-30.md) | 82,254 | 281,890 | 199,637 |  |  | 2 | -   |   
+| [2024-04-01 to 2024-04-30](/polkadot/3369-mythos/2024-04-30.md) | 82,254 | 289,009 | 206,756 | 3 |  | 2 | -   |   
 | [2024-03-20 to 2024-03-31](/polkadot/3369-mythos/2024-03-31.md) | 1 | 82,253 | 82,253 | 1 |  | 2 | -   |   
 
 ## Tables:
