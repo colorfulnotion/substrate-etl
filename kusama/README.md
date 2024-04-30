@@ -42,7 +42,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2024-04-09 | 4,327,175 |  8,010 | 1,174 (0.03%)  |
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2024-04-29 | 4,426,570 |  359 | 3,138 (0.07%) Only partial index available: Archive node unavailable |
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-09-01 | 1,835,448 |  1,364 |    |
-| [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2024-04-29 | 3,756,048 |  2,731 |    |
+| [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2024-04-29 | 3,761,376 |  2,731 |    |
 | [InvArch Tinkernet Para ID 2125](/kusama/2125-tinkernet) | 2022-08-08 | 2024-04-29 | 2,822,419 |  40,840 | 38,005 (1.35%)  |
 | [null Para ID 2129](/kusama/2129-kusama-parachain-2129) | 2022-10-26 | 2023-05-02 | 1,514,494 |  5,975 | 93,630 (6.18%)  |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2024-04-29 | 3,737,394 |  905 |    |
