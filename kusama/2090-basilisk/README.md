@@ -9,6 +9,7 @@ _Source_: [basilisk.polkaholic.io](https://basilisk.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2024-05-01 to 2024-05-01](/kusama/2090-basilisk/2024-05-31.md) |  |  |  |  |  |  | -   |   
 | [2024-04-01 to 2024-04-30](/kusama/2090-basilisk/2024-04-30.md) | 5,466,325 | 5,669,207 | 202,883 | 4,355 |  | 19,069 | -   |   
 | [2024-03-01 to 2024-03-31](/kusama/2090-basilisk/2024-03-31.md) | 5,275,493 | 5,466,324 | 190,832 | 8,140 |  | 19,053 | -   |   
 | [2024-02-01 to 2024-02-29](/kusama/2090-basilisk/2024-02-29.md) | 5,100,374 | 5,275,492 | 175,119 | 5,616 |  | 18,961 | -   |   

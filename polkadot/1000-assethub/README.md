@@ -9,6 +9,7 @@ _Source_: [assethub.polkaholic.io](https://assethub.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2024-05-01 to 2024-05-01](/polkadot/1000-assethub/2024-05-31.md) |  |  |  |  |  |  | -   |   
 | [2024-04-01 to 2024-04-30](/polkadot/1000-assethub/2024-04-30.md) | 5,970,971 | 6,162,200 | 191,230 | 15,599 |  | 1,310,889 | -   |   
 | [2024-03-01 to 2024-03-31](/polkadot/1000-assethub/2024-03-31.md) | 5,769,204 | 5,970,970 | 201,767 | 23,201 |  | 1,308,793 | -   |   
 | [2024-02-01 to 2024-02-29](/polkadot/1000-assethub/2024-02-29.md) | 5,562,694 | 5,769,203 | 206,510 | 8,652 |  | 6,863 | -   |   
