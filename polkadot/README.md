@@ -28,7 +28,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-04-30 | 5,048,080 |  5,100 |    |
 | [Unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-04-30 | 4,869,614 |  40,154 |    |
 | [Integritee Shell Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-04-30 | 3,026,976 |  1 | 342 (0.01%)  |
-| [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-04-30 | 4,696,936 |   | 229 (0.00%) No Public Websocket Endpoint available: Not indexing yet. |
+| [Polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-04-30 | 4,696,936 |   | 134 (0.00%) No Public Websocket Endpoint available: Not indexing yet. |
 | [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-04-30 | 4,828,987 |  4,219 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-04-30 | 2,596,224 |  1,144 | 1,098,047 (42.29%)  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-04-30 | 3,236,976 |  1,569 | 2 (0.00%)  |
