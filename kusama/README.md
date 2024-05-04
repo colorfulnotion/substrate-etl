@@ -47,7 +47,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [null Para ID 2129](/kusama/2129-kusama-parachain-2129) | 2022-10-26 | 2023-05-02 | 1,514,494 |  5,975 | 93,630 (6.18%)  |
 | [DAO IPCI Para ID 2222](/kusama/2222-daoipci) | 2022-10-10 | 2024-05-03 | 3,764,006 |  905 |    |
 | [subzero Para ID 2236](/kusama/2236-subzero) | 2022-12-13 | 2024-05-03 | 2,769,237 |  12 |   Endpoint not reachable |
-| [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2024-05-03 | 2,293,181 |   | 6,342 (0.28%) Crawling initiated |
+| [Krest Para ID 2241](/kusama/2241-krest) | 2023-05-26 | 2024-05-03 | 2,293,181 |   | 314 (0.01%) Crawling initiated |
 | [Gondatsu Para ID 3338](/kusama/3338-gondatsu) | 2023-12-10 | 2024-05-03 | 970,289 |  1 |    |
 
 Missing chains
