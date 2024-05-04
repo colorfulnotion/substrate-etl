@@ -10,7 +10,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-05-04 | 5,374,335 |  105 | 1,198,630 (22.30%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-05-04 | 3,232,863 |  51 |    |
 | [Coretime-Kusama Para ID 1005](/kusama/1005-coretime_kusama) | 2024-04-10 | 2024-05-04 | 161,499 |  18 |    |
-| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-04-09 | 6,641,587 |  97,862 | 441,524 (6.65%)  |
+| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-04-09 | 6,641,587 |  99,855 | 441,524 (6.65%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-05-04 | 6,545,629 |  105,519 | 328,948 (5.03%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-04-03 | 5,946,355 |  27,210 | 479,741 (8.07%) Only partial index available: Old Decoding issues |
 | [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2024-02-27 | 6,010,639 |  647,149 | 208,404 (3.47%) Only partial index available: Old Decoding issues |
