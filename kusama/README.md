@@ -10,10 +10,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-05-05 | 5,381,354 |  105 | 1,198,630 (22.27%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-05-05 | 3,239,399 |  51 |    |
 | [Coretime-Kusama Para ID 1005](/kusama/1005-coretime_kusama) | 2024-04-10 | 2024-05-05 | 168,505 |  18 |    |
-| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-04-09 | 6,641,587 |  98,650 | 441,524 (6.65%)  |
+| [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-05-05 | 6,818,376 |  101,667 | 441,524 (6.48%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-05-05 | 6,552,510 |  105,520 | 328,948 (5.02%)  |
 | [Khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-04-03 | 5,946,355 |  27,210 | 479,741 (8.07%) Only partial index available: Old Decoding issues |
-| [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2024-02-27 | 6,010,639 |  647,149 | 208,404 (3.47%) Only partial index available: Old Decoding issues |
+| [Shiden Para ID 2007](/kusama/2007-shiden) | 2021-07-06 | 2024-05-05 | 6,010,639 |  647,149 | 208,404 (3.47%) Only partial index available: Old Decoding issues |
 | [SORA Para ID 2011](/kusama/2011-sora) | 2022-07-12 | 2024-01-22 | 3,434,463 |  3 | 21,223 (0.62%) Archive node unavailable |
 | [Crust Shadow Para ID 2012](/kusama/2012-shadow) | 2022-01-09 | 2024-05-05 | 5,307,644 |  3,268 |    |
 | [Integritee Para ID 2015](/kusama/2015-integritee) | 2022-03-21 | 2024-05-05 | 5,120,214 |  13,762 |    |
@@ -39,7 +39,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Dora Factory Para ID 2115](/kusama/2115-dorafactory) | 2022-05-31 | 2023-04-18 | 1,818,800 |  370 |    |
 | [Tanganika Para ID 2116](/kusama/2116-tanganika) | 2022-06-27 | 2023-05-30 | 2,161,094 |  3,882 | 2,528 (0.12%) Only partial index available: Archive node unavailable |
 | [Listen Para ID 2118](/kusama/2118-listen) | 2022-06-27 | 2023-02-23 | 1,507,516 |  2,053 |   Network endpoint unreliable |
-| [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2024-04-09 | 4,327,175 |  8,010 | 1,174 (0.03%)  |
+| [Bajun Network Para ID 2119](/kusama/2119-bajun) | 2022-06-30 | 2024-05-05 | 4,504,656 |  8,010 | 1,174 (0.03%)  |
 | [Imbue Network Para ID 2121](/kusama/2121-imbue) | 2022-06-27 | 2024-05-05 | 4,466,800 |  359 | 3,138 (0.07%) Only partial index available: Archive node unavailable |
 | [GM Parachain Para ID 2123](/kusama/2123-gm) | 2022-08-15 | 2023-09-01 | 1,835,448 |  1,364 |    |
 | [Amplitude Para ID 2124](/kusama/2124-amplitude) | 2022-08-11 | 2024-05-05 | 3,793,355 |  2,737 |    |
