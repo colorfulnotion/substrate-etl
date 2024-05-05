@@ -9,7 +9,7 @@ _Source_: [parallel-heiko.polkaholic.io](https://parallel-heiko.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-05-01 to 2024-05-04](/kusama/2085-parallel-heiko/2024-05-31.md) | 5,777,124 | 5,796,192 | 19,069 | 4,645 |  | 24,761 | -   |   
+| [2024-05-01 to 2024-05-05](/kusama/2085-parallel-heiko/2024-05-31.md) | 5,777,124 | 5,796,192 | 19,069 | 4,645 |  | 24,761 | -   |   
 | [2024-04-01 to 2024-04-30](/kusama/2085-parallel-heiko/2024-04-30.md) | 5,634,722 | 5,777,123 | 142,402 | 54,852 |  | 24,760 | -   |   
 | [2024-03-01 to 2024-03-31](/kusama/2085-parallel-heiko/2024-03-31.md) | 5,488,841 | 5,634,721 | 145,881 | 63,111 |  | 24,753 | -   |   
 | [2024-02-01 to 2024-02-29](/kusama/2085-parallel-heiko/2024-02-29.md) | 5,304,706 | 5,488,840 | 184,135 | 77,894 |  | 24,735 | -   |   
