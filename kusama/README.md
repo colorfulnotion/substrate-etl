@@ -53,6 +53,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 Missing chains
 
 
+* *null* Para ID 1004; 
 * *Acurast Canary* Para ID 2239; 
 * *TBD* Para ID 2258; 
 * *TBD* Para ID 2262; No public endpoint
