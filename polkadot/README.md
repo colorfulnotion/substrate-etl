@@ -32,7 +32,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [NeuroWeb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-05-14 | 4,921,317 |  4,486 |    |
 | [Darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-05-08 | 2,646,763 |  1,162 | 1,098,047 (41.49%)  |
 | [Bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-05-14 | 3,303,650 |  1,610 |    |
-| [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-05-14 | 3,728,957 |  9 | 35,697 (0.96%)  |
+| [Ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-05-14 | 3,728,957 |  9 |    |
 | [Kylin Para ID 2052](/polkadot/2052-kylin) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [Aventus Para ID 2056](/polkadot/2056-aventus) | 2023-03-29 | 2024-05-14 | 3,573,582 |   | 253 (0.01%) Crawling initiated |
 | [Watr Network Para ID 2058](/polkadot/2058-watr) | 2023-03-14 | 2023-04-18 | 247,348 |  9 | 1,242 (0.50%)  |
@@ -44,8 +44,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-05-14 | 3,039,609 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [InvArch Para ID 3340](/polkadot/3340-invarch) | 2024-05-11 | 2024-05-13 | 1,385,921 |  76,503 |    |
-| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-13 | 1,181,394 |  908 | 276,434 (23.40%)  |
-| [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-14 | 1,442,175 |  1,157 | 78,759 (5.46%)  |
+| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-13 | 1,181,394 |  908 | 264,867 (22.42%)  |
+| [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-14 | 1,442,175 |  1,157 | 2,817 (0.20%)  |
 | [Mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-05-14 | 388,998 |  3 |    |
 
 Missing chains
