@@ -44,8 +44,8 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-05-15 | 3,046,664 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [InvArch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-05-13 | 1,385,921 |  76,501 |    |
-| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-14 | 1,181,394 |  910 | 253,654 (21.47%)  |
-| [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-15 | 1,449,249 |  1,162 | 56 (0.00%)  |
+| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-14 | 1,181,394 |  910 | 267,729 (22.66%)  |
+| [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-15 | 1,449,249 |  1,162 | 2 (0.00%)  |
 | [Mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-05-15 | 396,108 |  3 |    |
 
 Missing chains
