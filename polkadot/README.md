@@ -43,9 +43,9 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-05-14 | 2,944,863 |  23,457 |   Onboarding |
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-05-14 | 3,039,609 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
-| [InvArch Para ID 3340](/polkadot/3340-invarch) | 2024-05-11 | 2024-05-13 | 1,385,921 |  76,503 |    |
-| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-13 | 1,181,394 |  908 | 264,867 (22.42%)  |
-| [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-14 | 1,442,175 |  1,157 | 2,817 (0.20%)  |
+| [InvArch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-05-13 | 1,385,921 |  76,501 | 44,702 (3.23%)  |
+| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-13 | 1,181,394 |  909 | 263,034 (22.26%)  |
+| [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-14 | 1,442,175 |  1,157 | 2 (0.00%)  |
 | [Mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-05-14 | 388,998 |  3 |    |
 
 Missing chains
