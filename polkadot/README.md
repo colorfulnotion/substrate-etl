@@ -6,7 +6,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [Polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-05-17 | 20,804,925 |  1,329,735 | 8 (0.00%)  |
-| [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-05-17 | 6,272,688 |  1,317,710 | 50 (0.00%)  |
+| [AssetHub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-05-17 | 6,272,688 |  1,317,741 | 50 (0.00%)  |
 | [Collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-05-17 | 3,800,961 |  108 |    |
 | [BridgeHub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-05-17 | 2,592,846 |  37 |    |
 | [Acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-05-17 | 6,203,321 |  176,480 |    |
@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-05-17 | 3,060,714 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [InvArch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-05-17 | 1,408,616 |  76,503 | 1,432 (0.10%)  |
-| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-17 | 1,202,724 |  914 | 161,447 (13.42%)  |
+| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-17 | 1,202,724 |  914 | 30,494 (2.54%)  |
 | [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-17 | 1,463,410 |  1,173 | 2 (0.00%)  |
 | [Logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-05-17 | 546,294 |  412 |    |
 | [null Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-05-16 | 101,090 |  1 | 17,018 (16.83%)  |
