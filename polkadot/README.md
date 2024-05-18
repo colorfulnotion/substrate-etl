@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [T3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-05-17 | 3,060,714 |  2 |    |
 | [Moonsama Para ID 3334](/polkadot/3334-moonsama) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [InvArch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-05-17 | 1,408,616 |  76,503 | 1,432 (0.10%)  |
-| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-17 | 1,202,724 |  914 | 30,494 (2.54%)  |
+| [Polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-17 | 1,202,724 |  914 | 7,178 (0.60%)  |
 | [Energy Web X Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-17 | 1,463,410 |  1,173 | 2 (0.00%)  |
 | [Logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-05-17 | 546,294 |  412 |    |
 | [null Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-05-16 | 101,090 |  1 | 17,018 (16.83%)  |
