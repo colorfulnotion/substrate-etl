@@ -9,7 +9,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [AssetHub on Kusama Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-05-19 | 6,999,312 |  66,892 | 37,855 (0.54%)  |
 | [Encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-05-19 | 5,479,831 |  105 | 1,198,630 (21.87%) Only partial index available: Old Decoding issues |
 | [BridgeHub on Kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-05-19 | 3,331,592 |  52 |    |
-| [null Para ID 1004](/kusama/1004-people_kusama) | 2024-05-13 | 2024-05-19 | 34,877 |  2,138 | 29,101 (83.44%)  |
+| [null Para ID 1004](/kusama/1004-people_kusama) | 2024-05-13 | 2024-05-19 | 34,877 |  2,851 |    |
 | [Coretime-Kusama Para ID 1005](/kusama/1005-coretime_kusama) | 2024-04-10 | 2024-05-19 | 266,741 |  18 |    |
 | [Karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-05-19 | 6,914,684 |  98,650 | 441,524 (6.39%)  |
 | [Bifrost-Kusama Para ID 2001](/kusama/2001-bifrost-ksm) | 2021-07-20 | 2024-05-19 | 6,648,513 |  105,453 | 328,948 (4.95%)  |
