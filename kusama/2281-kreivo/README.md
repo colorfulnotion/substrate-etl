@@ -9,7 +9,7 @@ _Source_: [kreivo.polkaholic.io](https://kreivo.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-05-17 to 2024-05-19](/kusama/2281-kreivo/2024-05-31.md) | 1,517,757 | 1,530,819 | 13,063 | 6 |  | 26 | -   |   
+| [2024-05-17 to 2024-05-19](/kusama/2281-kreivo/2024-05-31.md) | 1,517,757 | 1,537,806 | 20,048 | 10 |  | 26 | - 2 (0.01%) |   
 
 ## Tables:
 
