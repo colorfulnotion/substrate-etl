@@ -20,7 +20,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [composable Para ID 2019](/polkadot/2019-composableFinance) | 2022-03-12 | 2024-05-22 | 4,623,322 |  46 | 1 (0.00%)  |
 | [null Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
 | [nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-05-22 | 5,078,664 |  1,138,136 |    |
-| [bifrost Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-05-22 | 4,742,149 |  35,895 |    |
+| [bifrost Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-05-22 | 4,742,149 |  35,901 |    |
 | [centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-05-22 | 5,518,423 |  53,468 |    |
 | [interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-05-22 | 5,292,968 |  17,487 |    |
 | [hydradx Para ID 2034](/polkadot/2034-hydra) | 2022-03-12 | 2024-05-22 | 5,154,825 |  34,144 |    |
@@ -30,7 +30,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-05-22 | 4,808,780 |   |    |
 | [neuroweb Para ID 2043](/polkadot/2043-origintrail-parachain) | 2022-06-04 | 2024-05-22 | 4,963,697 |  4,502 | 2 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-polkadot-parachain-2046) | 2022-08-29 | 2024-05-22 | 2,730,521 |  1,166 | 1,240,326 (45.42%)  |
-| [bitgreen Para ID 2048](/polkadot/2048-polkadot-parachain-2048) | 2023-01-17 | 2024-05-22 | 3,334,413 |  1,628 |    |
+| [bitgreen Para ID 2048](/polkadot/2048-polkadot-parachain-2048) | 2023-01-17 | 2024-05-22 | 3,334,413 |  1,630 |    |
 | [ajuna Para ID 2051](/polkadot/2051-polkadot-parachain-2051) | 2022-11-21 | 2024-05-22 | 3,771,779 |  9 |    |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [aventus Para ID 2056](/polkadot/2056-polkadot-parachain-2056) | 2022-09-29 | 2024-05-21 | 3,610,540 |   | 970,522 (26.88%)  |
@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [manta Para ID 2104](/polkadot/2104-polkadot-parachain-2104) | 2023-03-21 | 2024-05-22 | 2,987,116 |  23,540 |    |
 | [t3rn Para ID 3333](/polkadot/3333-polkadot-parachain-3333) | 2023-03-07 | 2024-05-22 | 3,081,903 |  2 |    |
 | [null Para ID 3334](/polkadot/3334-polkadot-parathread-3334) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
-| [invarch Para ID 3340](/polkadot/3340-polkadot-parachain-3340) | 2023-10-24 | 2024-05-22 | 1,429,952 |  76,507 |    |
+| [invarch Para ID 3340](/polkadot/3340-polkadot-parachain-3340) | 2023-10-24 | 2024-05-22 | 1,429,952 |  76,508 |    |
 | [polimec Para ID 3344](/polkadot/3344-polkadot-parachain-3344) | 2023-11-29 | 2024-05-22 | 1,224,104 |  925 | 7,117 (0.58%)  |
 | [energywebx Para ID 3345](/polkadot/3345-polkadot-parachain-3345) | 2023-10-24 | 2024-05-22 | 1,484,690 |  1,194 | 2 (0.00%)  |
 | [logion Para ID 3354](/polkadot/3354-polkadot-parachain-3354) | 2024-02-15 | 2024-05-22 | 565,091 |  412 |    |
