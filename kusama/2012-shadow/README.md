@@ -1,4 +1,4 @@
-# Crust Shadow Summary (Monthly)
+# shadow Summary (Monthly)
 
 _Source_: [shadow.polkaholic.io](https://shadow.polkaholic.io)
 

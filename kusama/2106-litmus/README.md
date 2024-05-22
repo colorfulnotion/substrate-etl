@@ -1,4 +1,4 @@
-# Litmus Summary (Monthly)
+# litmus Summary (Monthly)
 
 _Source_: [litmus.polkaholic.io](https://litmus.polkaholic.io)
 

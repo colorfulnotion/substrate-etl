@@ -1,4 +1,4 @@
-# Robonomics Summary (Monthly)
+# robonomics Summary (Monthly)
 
 _Source_: [robonomics.polkaholic.io](https://robonomics.polkaholic.io)
 

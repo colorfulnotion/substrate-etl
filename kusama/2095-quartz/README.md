@@ -1,4 +1,4 @@
-# Quartz Summary (Monthly)
+# quartz Summary (Monthly)
 
 _Source_: [quartz.polkaholic.io](https://quartz.polkaholic.io)
 

@@ -1,4 +1,4 @@
-# Acala Summary (Monthly)
+# acala Summary (Monthly)
 
 _Source_: [acala.polkaholic.io](https://acala.polkaholic.io)
 

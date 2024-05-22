@@ -1,4 +1,4 @@
-# Kabocha Summary (Monthly)
+# kabocha Summary (Monthly)
 
 _Source_: [kabocha.polkaholic.io](https://kabocha.polkaholic.io)
 

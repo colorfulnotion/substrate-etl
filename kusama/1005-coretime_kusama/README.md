@@ -1,4 +1,4 @@
-# Coretime-Kusama Summary (Monthly)
+# kusama-parachain-1005 Summary (Monthly)
 
 _Source_: [coretime_kusama.polkaholic.io](https://coretime_kusama.polkaholic.io)
 

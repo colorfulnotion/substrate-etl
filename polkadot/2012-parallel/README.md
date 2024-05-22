@@ -1,4 +1,4 @@
-# Parallel Summary (Monthly)
+# parallel Summary (Monthly)
 
 _Source_: [parallel.polkaholic.io](https://parallel.polkaholic.io)
 

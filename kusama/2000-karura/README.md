@@ -1,4 +1,4 @@
-# Karura Summary (Monthly)
+# karura Summary (Monthly)
 
 _Source_: [karura.polkaholic.io](https://karura.polkaholic.io)
 

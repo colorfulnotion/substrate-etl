@@ -1,4 +1,4 @@
-# Integritee Summary (Monthly)
+# integritee Summary (Monthly)
 
 _Source_: [integritee.polkaholic.io](https://integritee.polkaholic.io)
 

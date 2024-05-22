@@ -1,4 +1,4 @@
-# Basilisk Summary (Monthly)
+# basilisk Summary (Monthly)
 
 _Source_: [basilisk.polkaholic.io](https://basilisk.polkaholic.io)
 

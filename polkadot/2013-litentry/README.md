@@ -1,4 +1,4 @@
-# Litentry Summary (Monthly)
+# litentry Summary (Monthly)
 
 _Source_: [litentry.polkaholic.io](https://litentry.polkaholic.io)
 

@@ -1,4 +1,4 @@
-# Altair Summary (Monthly)
+# altair Summary (Monthly)
 
 _Source_: [altair.polkaholic.io](https://altair.polkaholic.io)
 

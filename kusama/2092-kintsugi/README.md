@@ -1,4 +1,4 @@
-# Kintsugi Summary (Monthly)
+# kintsugi Summary (Monthly)
 
 _Source_: [kintsugi.polkaholic.io](https://kintsugi.polkaholic.io)
 

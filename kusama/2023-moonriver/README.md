@@ -1,4 +1,4 @@
-# Moonriver Summary (Monthly)
+# moonriver Summary (Monthly)
 
 _Source_: [moonriver.polkaholic.io](https://moonriver.polkaholic.io)
 

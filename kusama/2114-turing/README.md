@@ -1,4 +1,4 @@
-# Turing Summary (Monthly)
+# turing Summary (Monthly)
 
 _Source_: [turing.polkaholic.io](https://turing.polkaholic.io)
 

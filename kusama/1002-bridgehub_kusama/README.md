@@ -1,4 +1,4 @@
-# BridgeHub on Kusama Summary (Monthly)
+# bridgehub_kusama Summary (Monthly)
 
 _Source_: [bridgehub_kusama.polkaholic.io](https://bridgehub_kusama.polkaholic.io)
 

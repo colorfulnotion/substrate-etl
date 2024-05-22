@@ -1,4 +1,4 @@
-# Dora Factory Summary (Monthly)
+# dorafactory Summary (Monthly)
 
 _Source_: [dorafactory.polkaholic.io](https://dorafactory.polkaholic.io)
 

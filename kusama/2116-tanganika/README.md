@@ -1,10 +1,10 @@
-# Tanganika Summary (Monthly)
+# tanganika Summary (Monthly)
 
 _Source_: [tanganika.polkaholic.io](https://tanganika.polkaholic.io)
 
 *Relay Chain*: kusama
 *Para ID*: 2116
-Status: Only partial index available: Archive node unavailable
+
 
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |

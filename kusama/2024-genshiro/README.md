@@ -1,4 +1,4 @@
-# Genshiro Summary (Monthly)
+# genshiro Summary (Monthly)
 
 _Source_: [genshiro.polkaholic.io](https://genshiro.polkaholic.io)
 

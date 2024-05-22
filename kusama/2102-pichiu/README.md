@@ -1,4 +1,4 @@
-# Pichiu Summary (Monthly)
+# pichiu Summary (Monthly)
 
 _Source_: [pichiu.polkaholic.io](https://pichiu.polkaholic.io)
 

@@ -1,4 +1,4 @@
-# Nodle Summary (Monthly)
+# nodle Summary (Monthly)
 
 _Source_: [nodle.polkaholic.io](https://nodle.polkaholic.io)
 

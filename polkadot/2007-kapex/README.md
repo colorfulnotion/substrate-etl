@@ -1,4 +1,4 @@
-# Kapex Summary (Monthly)
+# null Summary (Monthly)
 
 _Source_: [kapex.polkaholic.io](https://kapex.polkaholic.io)
 

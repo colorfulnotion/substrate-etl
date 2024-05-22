@@ -1,4 +1,4 @@
-# Darwinia Crab Summary (Monthly)
+# crab Summary (Monthly)
 
 _Source_: [crab.polkaholic.io](https://crab.polkaholic.io)
 

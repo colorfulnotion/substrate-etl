@@ -1,4 +1,4 @@
-# Interlay Summary (Monthly)
+# interlay Summary (Monthly)
 
 _Source_: [interlay.polkaholic.io](https://interlay.polkaholic.io)
 

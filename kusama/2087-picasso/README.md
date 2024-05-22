@@ -1,4 +1,4 @@
-# Picasso Summary (Monthly)
+# picasso Summary (Monthly)
 
 _Source_: [picasso.polkaholic.io](https://picasso.polkaholic.io)
 

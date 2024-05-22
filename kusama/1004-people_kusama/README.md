@@ -1,4 +1,4 @@
-# null Summary (Monthly)
+# kusama-parathread-1004 Summary (Monthly)
 
 _Source_: [people_kusama.polkaholic.io](https://people_kusama.polkaholic.io)
 

@@ -1,10 +1,10 @@
-# Calamari Summary (Monthly)
+# calamari Summary (Monthly)
 
 _Source_: [calamari.polkaholic.io](https://calamari.polkaholic.io)
 
 *Relay Chain*: kusama
 *Para ID*: 2084
-Status: Only partial index available: Archive node unavailable
+
 
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |

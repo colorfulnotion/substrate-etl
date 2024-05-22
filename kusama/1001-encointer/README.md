@@ -1,10 +1,10 @@
-# Encointer Summary (Monthly)
+# encointer Summary (Monthly)
 
 _Source_: [encointer.polkaholic.io](https://encointer.polkaholic.io)
 
 *Relay Chain*: kusama
 *Para ID*: 1001
-Status: Only partial index available: Old Decoding issues
+
 
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |

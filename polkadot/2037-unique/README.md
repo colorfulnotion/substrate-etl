@@ -1,4 +1,4 @@
-# Unique Summary (Monthly)
+# unique Summary (Monthly)
 
 _Source_: [unique.polkaholic.io](https://unique.polkaholic.io)
 

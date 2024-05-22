@@ -1,4 +1,4 @@
-# Equilibrium Summary (Monthly)
+# null Summary (Monthly)
 
 _Source_: [equilibrium.polkaholic.io](https://equilibrium.polkaholic.io)
 

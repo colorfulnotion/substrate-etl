@@ -1,4 +1,4 @@
-# Bifrost-Polkadot Summary (Monthly)
+# bifrost Summary (Monthly)
 
 _Source_: [bifrost.polkaholic.io](https://bifrost.polkaholic.io)
 

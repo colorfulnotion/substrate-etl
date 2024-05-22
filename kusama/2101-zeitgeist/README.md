@@ -1,4 +1,4 @@
-# Zeitgeist Summary (Monthly)
+# zeitgeist Summary (Monthly)
 
 _Source_: [zeitgeist.polkaholic.io](https://zeitgeist.polkaholic.io)
 

@@ -1,4 +1,4 @@
-# Phala Summary (Monthly)
+# phala Summary (Monthly)
 
 _Source_: [phala.polkaholic.io](https://phala.polkaholic.io)
 

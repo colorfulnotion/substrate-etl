@@ -1,4 +1,4 @@
-# Centrifuge Summary (Monthly)
+# centrifuge Summary (Monthly)
 
 _Source_: [centrifuge.polkaholic.io](https://centrifuge.polkaholic.io)
 
