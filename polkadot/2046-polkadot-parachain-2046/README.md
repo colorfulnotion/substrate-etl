@@ -9,7 +9,7 @@ _Source_: [polkadot-parachain-2046.polkaholic.io](https://polkadot-parachain-204
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-05-01 to 2024-05-21](/polkadot/2046-polkadot-parachain-2046/2024-05-31.md) | 2,596,225 | 2,730,521 | 134,297 | 39 |  | 1,170 | -   |   
+| [2024-05-01 to 2024-05-22](/polkadot/2046-polkadot-parachain-2046/2024-05-31.md) | 2,596,225 | 2,730,521 | 134,297 | 39 |  | 1,170 | -   |   
 | [2024-04-01 to 2024-04-30](/polkadot/2046-polkadot-parachain-2046/2024-04-30.md) | 2,385,302 | 2,596,224 | 210,923 | 104 |  | 1,159 | -   |   
 | [2024-03-01 to 2024-03-31](/polkadot/2046-polkadot-parachain-2046/2024-03-31.md) | 2,171,185 | 2,385,301 | 214,117 | 148 |  | 1,124 | -   |   
 | [2024-02-01 to 2024-02-29](/polkadot/2046-polkadot-parachain-2046/2024-02-29.md) | 1,969,255 | 2,171,184 | 201,930 | 477 |  | 1,074 | -   |   

@@ -9,7 +9,7 @@ _Source_: [crustParachain.polkaholic.io](https://crustParachain.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-05-01 to 2024-05-21](/polkadot/2008-crustParachain/2024-05-31.md) | 3,222,647 | 3,298,835 | 76,189 | 209 |  | 1,128 | -   |   
+| [2024-05-01 to 2024-05-22](/polkadot/2008-crustParachain/2024-05-31.md) | 3,222,647 | 3,298,835 | 76,189 | 209 |  | 1,128 | -   |   
 | [2024-04-01 to 2024-04-30](/polkadot/2008-crustParachain/2024-04-30.md) | 3,062,862 | 3,222,646 | 159,785 | 598 |  | 1,118 | -   |   
 | [2024-03-01 to 2024-03-31](/polkadot/2008-crustParachain/2024-03-31.md) | 2,897,422 | 3,062,861 | 165,440 | 1,369 |  | 1,093 | -   |   
 | [2024-02-01 to 2024-02-29](/polkadot/2008-crustParachain/2024-02-29.md) | 2,710,407 | 2,897,421 | 187,015 | 67 |  | 1,033 | -   |   
