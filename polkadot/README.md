@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [assethub Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2024-05-22 | 6,293,581 |  1,317,847 | 50 (0.00%)  |
+| [assethub Para ID 1000](/polkadot/1000-statemint) | 2021-11-05 | 2024-05-22 | 6,293,581 |  1,317,870 | 50 (0.00%)  |
 | [collectives Para ID 1001](/polkadot/1001-polkadot-parachain-1001) | 2022-11-21 | 2024-05-22 | 3,822,046 |  108 |    |
 | [bridgehub Para ID 1002](/polkadot/1002-polkadot-parachain-1002) | 2023-05-12 | 2024-05-22 | 2,613,590 |  38 |    |
 | [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-05-22 | 6,222,936 |  176,544 |    |
@@ -15,7 +15,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [null Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-04-10 | 3,784,810 |  1,080 | 140,668 (3.72%)  |
 | [crust Para ID 2008](/polkadot/2008-crustParachain) | 2022-10-26 | 2024-05-22 | 3,298,835 |  1,122 |    |
 | [null Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2024-01-16 | 4,130,019 |  9,979 | 4 (0.00%)  |
-| [parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2024-05-22 | 6,023,942 |  51,247 |    |
+| [parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2024-05-22 | 6,023,942 |  51,248 |    |
 | [litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2024-05-22 | 4,939,683 |  4,871 |    |
 | [composable Para ID 2019](/polkadot/2019-composableFinance) | 2022-03-12 | 2024-05-22 | 4,623,322 |  46 | 1 (0.00%)  |
 | [null Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
@@ -28,7 +28,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-05-22 | 5,005,165 |  44,459 |    |
 | [integritee Para ID 2039](/polkadot/2039-polkadot-parachain-2039) | 2022-08-29 | 2024-05-22 | 3,162,374 |  4 |    |
 | [polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-05-22 | 4,808,780 |   |    |
-| [neuroweb Para ID 2043](/polkadot/2043-origintrail-parachain) | 2022-06-04 | 2024-05-22 | 4,963,697 |  4,502 | 2 (0.00%)  |
+| [neuroweb Para ID 2043](/polkadot/2043-origintrail-parachain) | 2022-06-04 | 2024-05-22 | 4,963,697 |  4,504 | 2 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-polkadot-parachain-2046) | 2022-08-29 | 2024-05-22 | 2,730,521 |  1,166 | 1,240,326 (45.42%)  |
 | [bitgreen Para ID 2048](/polkadot/2048-polkadot-parachain-2048) | 2023-01-17 | 2024-05-22 | 3,334,413 |  1,630 |    |
 | [ajuna Para ID 2051](/polkadot/2051-polkadot-parachain-2051) | 2022-11-21 | 2024-05-22 | 3,771,779 |  9 |    |
