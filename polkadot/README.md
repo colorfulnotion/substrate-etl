@@ -5,7 +5,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-05-23 | 6,293,581 |  1,317,870 | 50 (0.00%)  |
+| [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-05-23 | 6,293,581 |  1,317,892 | 50 (0.00%)  |
 | [collectives Para ID 1001](/polkadot/1001-assethub) | 2022-11-21 | 2024-05-23 | 3,822,046 |  108 |    |
 | [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-05-23 | 2,613,590 |  38 |    |
 | [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-05-23 | 6,222,936 |  176,556 |    |
