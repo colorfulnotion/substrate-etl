@@ -48,7 +48,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-24 | 1,224,104 |  930 | 7,117 (0.58%)  |
 | [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-24 | 1,484,690 |  1,201 | 2 (0.00%)  |
 | [logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-05-24 | 565,091 |  413 |    |
-| [hyperbridge Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-05-23 | 172,064 |  2 | 84,878 (49.33%)  |
+| [hyperbridge Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-05-24 | 172,064 |  2 | 84,878 (49.33%)  |
 | [mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-05-24 | 431,714 |  3 |    |
 
 Missing chains
