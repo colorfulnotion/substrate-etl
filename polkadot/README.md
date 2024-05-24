@@ -37,10 +37,10 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [watr Para ID 2058](/polkadot/2058-watr) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
 | [null Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-05-20 | 5,695,902 |  20,432 | 554 (0.01%)  |
 | [frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-05-24 | 3,808,606 |  145 |    |
-| [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-05-23 | 5,563,080 |  17,492 | 828,192 (14.89%)  |
+| [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-05-24 | 5,563,080 |  17,492 | 828,192 (14.89%)  |
 | [hashed Para ID 2093](/polkadot/2093-hashed) | 2022-01-15 | 2024-05-24 | 3,111,091 |  661 | 20,845 (0.67%)  |
 | [pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-05-24 | 2,973,953 |  2,015 |    |
-| [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-05-23 | 5,486,613 |  33,790 | 293 (0.01%)  |
+| [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-05-24 | 5,486,613 |  33,790 | 293 (0.01%)  |
 | [manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-05-24 | 2,987,116 |  23,565 |    |
 | [t3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-05-24 | 3,081,903 |  2 |    |
 | [null Para ID 3334](/polkadot/3334-polkadot-parathread-3334) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
