@@ -6,7 +6,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-05-23 | 6,293,581 |  1,317,892 | 50 (0.00%)  |
-| [collectives Para ID 1001](/polkadot/1001-assethub) | 2022-11-21 | 2024-05-23 | 3,822,046 |  108 |    |
+| [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-05-23 | 3,822,046 |  108 |    |
 | [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-05-23 | 2,613,590 |  38 |    |
 | [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-05-23 | 6,222,936 |  176,556 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
@@ -34,7 +34,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-05-23 | 3,771,779 |  10 |    |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-05-22 | 3,610,540 |   | 970,522 (26.88%)  |
-| [watr Para ID 2058](/polkadot/2058-polkadot-parachain-2058) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
+| [watr Para ID 2058](/polkadot/2058-watr) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
 | [null Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-05-20 | 5,695,902 |  20,432 | 554 (0.01%)  |
 | [frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-05-23 | 3,808,606 |  145 |    |
 | [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-05-22 | 5,563,080 |  17,492 | 828,192 (14.89%)  |

@@ -1,4 +1,4 @@
-# Watr Network Summary (Monthly)
+# watr Summary (Monthly)
 
 _Source_: [watr.polkaholic.io](https://watr.polkaholic.io)
 
