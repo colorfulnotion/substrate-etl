@@ -31,9 +31,9 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-05-25 | 4,998,751 |  4,510 | 2 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-05-25 | 2,765,672 |  1,167 | 1,240,326 (44.85%)  |
 | [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-05-25 | 3,360,528 |  1,635 |    |
-| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-05-25 | 3,807,337 |  11 | 40 (0.00%)  |
+| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-05-25 | 3,807,337 |  11 | 38 (0.00%)  |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
-| [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-05-24 | 3,641,383 |   | 970,576 (26.65%)  |
+| [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-05-24 | 3,641,383 |   | 970,551 (26.65%)  |
 | [watr Para ID 2058](/polkadot/2058-watr) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
 | [null Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-05-20 | 5,695,902 |  20,432 | 554 (0.01%)  |
 | [frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-05-25 | 3,844,056 |  146 |    |
