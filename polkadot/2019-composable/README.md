@@ -9,7 +9,7 @@ _Source_: [composable.polkaholic.io](https://composable.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-05-01 to 2024-05-24](/polkadot/2019-composable/2024-05-31.md) | 4,488,016 | 4,623,322 | 135,307 | 6,812 |  | 47 | -   |   
+| [2024-05-01 to 2024-05-25](/polkadot/2019-composable/2024-05-31.md) | 4,488,016 | 4,658,783 | 170,768 | 9,634 |  | 47 | -   |   
 | [2024-04-01 to 2024-04-30](/polkadot/2019-composable/2024-04-30.md) | 4,274,572 | 4,488,015 | 213,444 | 17,869 |  | 46 | -   |   
 | [2024-03-01 to 2024-03-31](/polkadot/2019-composable/2024-03-31.md) | 4,077,275 | 4,274,571 | 197,297 | 19,943 |  | 46 | -   |   
 | [2024-02-01 to 2024-02-29](/polkadot/2019-composable/2024-02-29.md) | 3,872,454 | 4,077,274 | 204,821 | 18,854 |  | 46 | -   |   
