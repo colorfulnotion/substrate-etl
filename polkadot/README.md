@@ -31,9 +31,9 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-05-26 | 5,005,726 |  4,511 | 2 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-05-26 | 2,772,718 |  1,167 | 1,240,326 (44.73%)  |
 | [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-05-25 | 3,365,906 |  1,635 |    |
-| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-05-26 | 3,814,437 |  11 | 38 (0.00%)  |
+| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-05-26 | 3,814,437 |  11 | 35 (0.00%)  |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
-| [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-05-26 | 3,647,668 |   | 971,101 (26.62%)  |
+| [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-05-26 | 3,647,668 |   | 971,068 (26.62%)  |
 | [watr Para ID 2058](/polkadot/2058-watr) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
 | [null Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-05-20 | 5,695,902 |  20,432 | 554 (0.01%)  |
 | [frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-05-26 | 3,851,125 |  147 |    |
@@ -44,7 +44,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-05-26 | 3,029,237 |  23,587 |    |
 | [t3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-05-26 | 3,124,134 |  2 |    |
 | [null Para ID 3334](/polkadot/3334-polkadot-parathread-3334) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
-| [invarch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-05-25 | 1,472,408 |  76,510 |    |
+| [invarch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-05-26 | 1,472,408 |  76,511 |    |
 | [polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-26 | 1,266,756 |  934 | 7,117 (0.56%)  |
 | [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-26 | 1,527,130 |  1,208 | 2 (0.00%)  |
 | [logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-05-26 | 602,524 |  413 |    |
