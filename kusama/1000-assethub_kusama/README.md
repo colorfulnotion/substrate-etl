@@ -9,7 +9,7 @@ _Source_: [assethub_kusama.polkaholic.io](https://assethub_kusama.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-05-01 to 2024-05-26](/kusama/1000-assethub_kusama/2024-05-31.md) | 6,883,029 | 7,044,300 | 161,272 | 6,845 |  | 67,786 | -   |   
+| [2024-05-01 to 2024-05-26](/kusama/1000-assethub_kusama/2024-05-31.md) | 6,883,029 | 7,050,653 | 167,625 | 6,857 |  | 67,786 | -   |   
 | [2024-04-01 to 2024-04-30](/kusama/1000-assethub_kusama/2024-04-30.md) | 6,707,443 | 6,883,028 | 175,586 | 3,123 |  | 66,137 | -   |   
 | [2024-03-01 to 2024-03-31](/kusama/1000-assethub_kusama/2024-03-31.md) | 6,520,407 | 6,707,442 | 187,036 | 3,851 |  | 65,577 | -   |   
 | [2024-02-01 to 2024-02-29](/kusama/1000-assethub_kusama/2024-02-29.md) | 6,327,537 | 6,520,406 | 192,870 | 2,897 |  | 65,068 | -   |   
