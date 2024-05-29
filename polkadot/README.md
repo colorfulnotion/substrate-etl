@@ -33,7 +33,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-05-29 | 3,382,061 |  1,640 |    |
 | [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-05-29 | 3,835,855 |  12 |    |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
-| [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-05-29 | 3,666,280 |   | 982,678 (26.80%)  |
+| [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-05-29 | 3,666,280 |   | 248,240 (6.77%)  |
 | [watr Para ID 2058](/polkadot/2058-watr) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
 | [null Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-05-20 | 5,695,902 |  20,432 | 554 (0.01%)  |
 | [frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-05-29 | 3,872,482 |  149 |    |
@@ -48,7 +48,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-05-29 | 1,281,019 |  940 | 7,117 (0.56%)  |
 | [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-05-29 | 1,548,458 |  1,217 | 2 (0.00%)  |
 | [logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-05-29 | 621,275 |  413 |    |
-| [hyperbridge Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-05-27 | 271,102 |  2 | 142,533 (52.58%)  |
+| [hyperbridge Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-05-29 | 299,596 |  2 |    |
 | [mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-05-29 | 495,779 |  3 |    |
 
 Missing chains
