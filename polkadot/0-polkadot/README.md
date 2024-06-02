@@ -1,4 +1,4 @@
-# Polkadot Summary (Monthly)
+# polkadot Summary (Monthly)
 
 _Source_: [polkadot.polkaholic.io](https://polkadot.polkaholic.io)
 
@@ -9,7 +9,8 @@ _Source_: [polkadot.polkaholic.io](https://polkadot.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-05-01 to 2024-05-21](/polkadot/0-polkadot/2024-05-31.md) | 20,575,788 | 20,847,845 | 272,058 | 205,556 |  | 1,333,704 | -   |   
+| [2024-06-01 to 2024-06-02](/polkadot/0-polkadot/2024-06-30.md) | 21,019,665 | 21,034,013 | 14,349 | 8,921 |  |  | -   |   
+| [2024-05-01 to 2024-05-31](/polkadot/0-polkadot/2024-05-31.md) | 20,575,788 | 21,019,664 | 443,875 | 334,230 |  | 1,333,704 | - 2 (0.00%) |   
 | [2024-04-01 to 2024-04-30](/polkadot/0-polkadot/2024-04-30.md) | 20,145,867 | 20,575,787 | 429,921 | 421,938 |  | 1,332,026 | -   |   
 | [2024-03-01 to 2024-03-31](/polkadot/0-polkadot/2024-03-31.md) | 19,702,419 | 20,145,866 | 443,447 | 603,501 |  | 1,321,430 | - 1 (0.00%) |   
 | [2024-02-01 to 2024-02-29](/polkadot/0-polkadot/2024-02-29.md) | 19,287,776 | 19,702,418 | 414,636 | 437,262 |  | 1,281,031 | - 7 (0.00%) |   
