@@ -9,6 +9,7 @@ _Source_: [subsocial.polkaholic.io](https://subsocial.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2024-06-01 to 2024-06-01](/polkadot/2101-subsocial/2024-06-30.md) | 5,579,204 | 5,586,335 | 7,132 | 763 |  |  | -   |   
 | [2024-05-01 to 2024-05-31](/polkadot/2101-subsocial/2024-05-31.md) | 5,358,271 | 5,579,203 | 156,916 | 28,029 |  |  | - 64,017 (28.98%) |   
 | [2024-04-01 to 2024-04-30](/polkadot/2101-subsocial/2024-04-30.md) | 5,144,314 | 5,358,270 | 213,957 | 50,297 |  |  | -   |   
 | [2024-03-01 to 2024-03-31](/polkadot/2101-subsocial/2024-03-31.md) | 4,922,954 | 5,144,313 | 221,360 | 73,470 |  |  | -   |   
