@@ -31,7 +31,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-06-06 | 4,951,354 |  2 |    |
 | [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-06-06 | 5,081,933 |  4,568 | 6 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-06-06 | 2,848,993 |  1,182 | 1,240,326 (43.54%)  |
-| [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-06-05 | 3,425,173 |  1,669 |    |
+| [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-06-06 | 3,425,173 |  1,669 |    |
 | [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-06-06 | 3,892,996 |  21 |    |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-06-02 | 3,691,405 |   |    |
@@ -46,7 +46,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [t3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-06-06 | 3,201,941 |  2 |    |
 | [null Para ID 3334](/polkadot/3334-polkadot-parathread-3334) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [invarch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-06-06 | 1,550,805 |  76,530 |    |
-| [polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-06-05 | 1,331,025 |  1,008 | 14,271 (1.07%)  |
+| [polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-06-06 | 1,331,025 |  1,010 | 14,271 (1.07%)  |
 | [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-06-06 | 1,605,338 |  1,311 | 2 (0.00%)  |
 | [logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-06-06 | 671,341 |  414 |    |
 | [hyperbridge Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-06-06 | 413,460 |  3 |    |
