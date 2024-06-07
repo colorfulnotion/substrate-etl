@@ -6,7 +6,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-06-07 | 21,105,635 |  1,338,354 | 10 (0.00%)  |
-| [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-06-07 | 6,419,889 |  1,319,294 | 50 (0.00%)  |
+| [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-06-07 | 6,419,889 |  1,319,308 | 50 (0.00%)  |
 | [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-06-07 | 3,948,227 |  109 |    |
 | [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-06-07 | 2,739,163 |  41 |    |
 | [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-06-07 | 6,338,473 |  177,049 |    |
@@ -31,7 +31,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-06-07 | 4,958,455 |  3 |    |
 | [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-06-07 | 5,089,003 |  4,568 | 6 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-06-07 | 2,855,990 |  1,182 | 1,240,326 (43.43%)  |
-| [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-06-06 | 3,430,557 |  1,669 |    |
+| [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-06-07 | 3,430,557 |  1,669 |    |
 | [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-06-07 | 3,900,094 |  21 |    |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-06-02 | 3,691,405 |   |    |
