@@ -47,7 +47,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [null Para ID 3334](/polkadot/3334-polkadot-parathread-3334) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
 | [invarch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-06-09 | 1,572,122 |  76,534 |    |
 | [polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-06-09 | 1,359,518 |  1,121 | 35,644 (2.62%)  |
-| [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-06-08 | 1,605,338 |  1,313 | 2 (0.00%)  |
+| [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-06-09 | 1,605,338 |  1,314 | 2 (0.00%)  |
 | [logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-06-09 | 690,049 |  414 |    |
 | [hyperbridge Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-06-09 | 455,907 |  3 |    |
 | [mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-06-09 | 574,257 |  3 |    |
