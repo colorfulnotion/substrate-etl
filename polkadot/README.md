@@ -21,7 +21,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [composable Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2024-06-15 | 4,808,105 |  46 |    |
 | [null Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
 | [nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-06-15 | 5,261,785 |  1,186,976 | 4 (0.00%)  |
-| [bifrost Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-06-15 | 4,925,888 |  38,723 | 7,089 (0.14%)  |
+| [bifrost Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-06-15 | 4,925,888 |  38,723 |    |
 | [centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-06-15 | 5,692,170 |  53,531 |    |
 | [interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-06-15 | 5,472,014 |  17,572 |    |
 | [hydradx Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-06-15 | 5,336,812 |  35,033 |    |
