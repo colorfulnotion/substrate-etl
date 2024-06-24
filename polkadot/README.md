@@ -7,7 +7,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
 | [polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-06-24 | 21,349,211 |  1,341,078 | 12 (0.00%)  |
 | [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-06-24 | 6,539,921 |  1,319,588 | 50 (0.00%)  |
-| [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-06-24 | 4,058,443 |  113 | 13,169 (0.32%)  |
+| [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-06-24 | 4,065,023 |  113 | 13,169 (0.32%)  |
 | [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-06-24 | 2,844,989 |  42 | 7,036 (0.25%)  |
 | [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-06-24 | 6,445,296 |  177,195 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
