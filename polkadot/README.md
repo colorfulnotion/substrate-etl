@@ -14,7 +14,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-06-28 | 6,468,805 |  1,977,378 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-06-28 | 6,483,893 |  798,870 |    |
 | [null Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-04-10 | 3,784,810 |  1,080 | 140,668 (3.72%)  |
-| [crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-06-26 | 3,569,276 |  1,143 |    |
+| [crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-06-28 | 3,570,665 |  1,144 |    |
 | [null Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2024-01-16 | 4,130,019 |  9,979 | 4 (0.00%)  |
 | [parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2024-06-28 | 6,272,789 |  51,314 |    |
 | [litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2024-06-28 | 5,209,723 |  4,871 |    |
