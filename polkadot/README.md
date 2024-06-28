@@ -9,46 +9,46 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-06-27 | 6,561,095 |  1,319,640 | 50 (0.00%)  |
 | [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-06-27 | 4,071,618 |  114 | 13,169 (0.32%)  |
 | [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-06-27 | 2,880,297 |  43 | 21,153 (0.73%)  |
-| [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-06-27 | 6,464,146 |  177,219 |    |
+| [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-06-27 | 6,470,408 |  177,228 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
-| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-06-27 | 6,461,778 |  1,977,378 |    |
-| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-06-27 | 6,476,790 |  798,825 |    |
+| [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-06-27 | 6,468,805 |  1,977,378 |    |
+| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-06-27 | 6,483,893 |  798,825 |    |
 | [null Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-04-10 | 3,784,810 |  1,080 | 140,668 (3.72%)  |
 | [crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-06-26 | 3,569,276 |  1,143 |    |
 | [null Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2024-01-16 | 4,130,019 |  9,979 | 4 (0.00%)  |
-| [parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2024-06-27 | 6,266,428 |  51,314 |    |
-| [litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2024-06-27 | 5,202,651 |  4,871 |    |
-| [composable Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2024-06-27 | 4,893,266 |  46 |    |
+| [parallel Para ID 2012](/polkadot/2012-parallel) | 2021-12-18 | 2024-06-27 | 6,272,789 |  51,314 |    |
+| [litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2024-06-27 | 5,209,723 |  4,871 |    |
+| [composable Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2024-06-27 | 4,900,363 |  46 |    |
 | [null Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
-| [nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-06-27 | 5,346,355 |  1,196,988 | 4 (0.00%)  |
-| [bifrost Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-06-27 | 5,008,113 |  38,909 |    |
-| [centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-06-27 | 5,772,060 |  53,637 |    |
-| [interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-06-27 | 5,557,232 |  17,572 |    |
-| [hydradx Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-06-27 | 5,422,149 |  35,459 |    |
-| [phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-06-27 | 5,453,784 |  5,437 | 6 (0.00%)  |
-| [unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-06-27 | 5,275,943 |  52,178 |    |
-| [integritee Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-06-27 | 3,410,445 |  4 |    |
-| [polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-06-27 | 5,100,917 |  4 |    |
-| [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-06-27 | 5,229,802 |  4,589 | 6 (0.00%)  |
-| [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-06-27 | 2,994,028 |  1,189 | 119,220 (3.98%)  |
-| [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-06-27 | 3,538,299 |  1,750 |    |
-| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-06-27 | 4,109,625 |  21 |    |
+| [nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-06-27 | 5,353,349 |  1,196,988 | 4 (0.00%)  |
+| [bifrost Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-06-27 | 5,014,941 |  38,918 |    |
+| [centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-06-27 | 5,778,712 |  53,649 |    |
+| [interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-06-27 | 5,564,329 |  17,572 |    |
+| [hydradx Para ID 2034](/polkadot/2034-hydradx) | 2022-03-12 | 2024-06-27 | 5,422,149 |  35,488 |    |
+| [phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-06-27 | 5,460,883 |  5,439 | 6 (0.00%)  |
+| [unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-06-27 | 5,283,021 |  52,221 |    |
+| [integritee Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-06-27 | 3,416,755 |  4 |    |
+| [polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-06-27 | 5,108,018 |  4 |    |
+| [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-06-27 | 5,236,891 |  4,590 | 6 (0.00%)  |
+| [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-06-27 | 3,001,124 |  1,190 | 119,220 (3.97%)  |
+| [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-06-27 | 3,543,676 |  1,752 |    |
+| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-06-27 | 4,123,775 |  21 |    |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-06-14 | 3,766,264 |   |    |
 | [watr Para ID 2058](/polkadot/2058-watr) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
 | [null Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-05-20 | 5,695,902 |  20,432 | 554 (0.01%)  |
-| [frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-06-27 | 4,078,767 |  170 | 2 (0.00%)  |
-| [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-06-27 | 5,837,419 |  17,539 | 828,192 (14.19%)  |
-| [hashed Para ID 2093](/polkadot/2093-hashed) | 2022-01-15 | 2024-06-27 | 3,375,454 |  661 | 20,847 (0.62%)  |
-| [pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-06-27 | 3,198,199 |  2,075 | 4 (0.00%)  |
-| [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-06-26 | 5,764,444 |  33,790 | 57,214 (0.99%)  |
-| [manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-06-27 | 3,278,937 |  23,969 |    |
-| [t3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-06-27 | 3,349,952 |  2 |    |
+| [frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-06-27 | 4,085,858 |  171 | 2 (0.00%)  |
+| [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-06-27 | 5,844,456 |  17,541 | 828,192 (14.17%)  |
+| [hashed Para ID 2093](/polkadot/2093-hashed) | 2022-01-15 | 2024-06-27 | 3,382,556 |  661 | 20,847 (0.62%)  |
+| [pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-06-27 | 3,204,250 |  2,075 | 4 (0.00%)  |
+| [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-06-27 | 5,771,548 |  33,790 | 57,214 (0.99%)  |
+| [manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-06-27 | 3,285,887 |  23,967 |    |
+| [t3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-06-27 | 3,356,977 |  2 |    |
 | [null Para ID 3334](/polkadot/3334-polkadot-parathread-3334) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
-| [invarch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-06-27 | 1,700,395 |  76,538 |    |
-| [polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-06-27 | 1,494,950 |  1,397 | 35,644 (2.38%)  |
-| [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-06-27 | 1,754,237 |  1,332 | 14,163 (0.81%)  |
-| [logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-06-27 | 797,634 |  415 |    |
+| [invarch Para ID 3340](/polkadot/3340-invarch) | 2023-10-24 | 2024-06-27 | 1,707,500 |  76,538 |    |
+| [polimec Para ID 3344](/polkadot/3344-polimec) | 2023-11-29 | 2024-06-27 | 1,494,950 |  1,410 | 35,644 (2.38%)  |
+| [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-06-27 | 1,761,321 |  1,335 | 14,163 (0.80%)  |
+| [logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-06-27 | 803,931 |  415 |    |
 | [hyperbridge Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-06-27 | 711,279 |  2 | 14,262 (2.01%)  |
 | [mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-06-27 | 702,560 |  6 |    |
 
