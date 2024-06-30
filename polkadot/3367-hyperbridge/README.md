@@ -9,7 +9,7 @@ _Source_: [hyperbridge.polkaholic.io](https://hyperbridge.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-06-01 to 2024-06-29](/polkadot/3367-hyperbridge/2024-06-30.md) | 342,355 | 739,705 | 383,089 | 2 |  | 3 | - 14,262 (3.59%) |   
+| [2024-06-01 to 2024-06-30](/polkadot/3367-hyperbridge/2024-06-30.md) | 342,355 | 753,965 | 397,349 | 2 |  | 3 | - 14,262 (3.46%) |   
 | [2024-05-07 to 2024-05-31](/polkadot/3367-hyperbridge/2024-05-31.md) | 1 | 342,354 | 342,354 | 12 |  | 3 | -   |   
 
 ## Tables:
