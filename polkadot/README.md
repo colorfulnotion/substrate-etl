@@ -5,14 +5,14 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-06-30 | 21,449,517 |  1,341,967 | 12 (0.00%)  |
-| [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-06-30 | 6,589,341 |  1,319,689 | 50 (0.00%)  |
-| [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-06-30 | 4,084,759 |  115 | 13,162 (0.32%)  |
-| [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-06-30 | 2,880,297 |  43 | 7,069 (0.25%)  |
+| [polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-06-30 | 21,449,517 |  1,342,112 | 12 (0.00%)  |
+| [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-06-30 | 6,589,341 |  1,319,704 | 50 (0.00%)  |
+| [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-06-30 | 4,098,060 |  115 | 19,674 (0.48%)  |
+| [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-06-30 | 2,894,342 |  43 | 14,076 (0.49%)  |
 | [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-06-30 | 6,489,307 |  177,253 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-06-30 | 6,490,021 |  1,977,378 |    |
-| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-06-30 | 6,505,347 |  798,956 |    |
+| [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-06-30 | 6,505,347 |  798,997 |    |
 | [null Para ID 2007](/polkadot/2007-kapex) | 2022-09-16 | 2024-04-10 | 3,784,810 |  1,080 | 140,668 (3.72%)  |
 | [crust Para ID 2008](/polkadot/2008-crust) | 2022-10-26 | 2024-06-30 | 3,597,833 |  1,145 |    |
 | [null Para ID 2011](/polkadot/2011-equilibrium) | 2022-03-19 | 2024-01-16 | 4,130,019 |  9,979 | 4 (0.00%)  |
@@ -20,7 +20,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [litentry Para ID 2013](/polkadot/2013-litentry) | 2022-06-04 | 2024-06-30 | 5,231,068 |  4,871 |    |
 | [composable Para ID 2019](/polkadot/2019-composable) | 2022-03-12 | 2024-06-30 | 4,921,793 |  46 |    |
 | [null Para ID 2021](/polkadot/2021-efinity) | 2022-03-12 | 2023-09-15 | 2,801,656 |  16,630 | 242,949 (8.67%)  |
-| [nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-06-30 | 5,374,424 |  1,199,472 | 4 (0.00%)  |
+| [nodle Para ID 2026](/polkadot/2026-nodle) | 2022-03-12 | 2024-06-30 | 5,374,424 |  1,200,279 | 4 (0.00%)  |
 | [bifrost Para ID 2030](/polkadot/2030-bifrost) | 2022-06-04 | 2024-06-30 | 5,036,167 |  38,941 |    |
 | [centrifuge Para ID 2031](/polkadot/2031-centrifuge) | 2022-03-12 | 2024-06-30 | 5,799,130 |  53,680 |    |
 | [interlay Para ID 2032](/polkadot/2032-interlay) | 2022-03-12 | 2024-06-30 | 5,585,695 |  17,572 |    |
