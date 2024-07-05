@@ -5,12 +5,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-07-04 | 23,902,297 |  323,104 | 14,300 (0.06%)  |
-| [statemine Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-07-04 | 7,303,557 |  67,868 | 6 (0.00%)  |
+| [kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-07-05 | 23,902,297 |  323,104 | 14,300 (0.06%)  |
+| [statemine Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-07-05 | 7,303,557 |  67,868 | 6 (0.00%)  |
 | [encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-05-20 | 5,486,859 |  105 | 1,198,630 (21.85%)  |
 | [bridgehub_kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-07-04 | 3,531,519 |  54 |    |
-| [kusama-parathread-1004 Para ID 1004](/kusama/1004-people_kusama) | 2024-05-13 | 2024-07-04 | 330,259 |  4,390 |    |
-| [kusama-parachain-1005 Para ID 1005](/kusama/1005-coretime_kusama) | 2024-04-10 | 2024-07-04 | 598,233 |  34 |    |
+| [kusama-parathread-1004 Para ID 1004](/kusama/1004-people_kusama) | 2024-05-13 | 2024-07-05 | 330,259 |  4,390 |    |
+| [kusama-parachain-1005 Para ID 1005](/kusama/1005-coretime_kusama) | 2024-04-10 | 2024-07-05 | 598,233 |  34 |    |
 | [karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-05-19 | 6,914,684 |  98,650 | 441,524 (6.39%)  |
 | [bifrost Para ID 2001](/kusama/2001-bifrost) | 2021-07-20 | 2024-05-19 | 6,648,513 |  105,453 | 328,948 (4.95%)  |
 | [khala Para ID 2004](/kusama/2004-khala) | 2021-07-13 | 2024-05-19 | 6,257,475 |  27,526 | 479,741 (7.67%)  |
