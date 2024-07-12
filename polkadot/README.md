@@ -41,7 +41,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-07-12 | 5,942,133 |  17,596 | 828,192 (13.94%)  |
 | [hashed Para ID 2093](/polkadot/2093-hashed) | 2022-01-15 | 2024-07-12 | 3,482,180 |  661 | 20,847 (0.60%)  |
 | [pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-07-12 | 3,288,844 |  2,191 | 4 (0.00%)  |
-| [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-07-11 | 5,844,821 |  33,790 | 57,214 (0.98%)  |
+| [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-07-12 | 5,844,821 |  33,790 | 57,214 (0.98%)  |
 | [manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-07-12 | 3,383,082 |  23,962 |    |
 | [t3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-07-12 | 3,455,356 |  2 |    |
 | [null Para ID 3334](/polkadot/3334-polkadot-parathread-3334) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
