@@ -9,6 +9,7 @@ _Source_: [moonbeam.polkaholic.io](https://moonbeam.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
+| [2024-08-01 to 2024-08-01](/polkadot/2004-moonbeam/2024-08-31.md) |  |  |  |  |  |  | -   |   
 | [2024-07-01 to 2024-07-31](/polkadot/2004-moonbeam/2024-07-31.md) | 6,490,022 | 6,826,426 | 336,405 | 6,260 |  | 1,728,754 | -   |   
 | [2024-06-01 to 2024-06-30](/polkadot/2004-moonbeam/2024-06-30.md) | 6,277,889 | 6,490,021 | 212,133 | 7,666 |  | 1,720,157 | -   |   
 | [2024-05-01 to 2024-05-31](/polkadot/2004-moonbeam/2024-05-31.md) | 6,058,082 | 6,277,888 | 219,807 | 6,153 |  | 1,714,409 | -   |   
