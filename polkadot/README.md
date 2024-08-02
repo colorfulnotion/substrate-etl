@@ -50,7 +50,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [energywebx Para ID 3345](/polkadot/3345-energywebx) | 2023-10-24 | 2024-08-02 | 2,010,707 |  1,662 | 4 (0.00%)  |
 | [logion Para ID 3354](/polkadot/3354-logion) | 2024-02-15 | 2024-08-02 | 1,024,728 |  415 |    |
 | [hyperbridge Para ID 3367](/polkadot/3367-hyperbridge) | 2024-05-07 | 2024-08-02 | 1,222,865 |  2 |    |
-| [mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-08-02 | 1,195,196 |  791,517 |    |
+| [mythos Para ID 3369](/polkadot/3369-mythos) | 2024-03-20 | 2024-08-02 | 1,209,400 |  791,517 |    |
 
 Missing chains
 
