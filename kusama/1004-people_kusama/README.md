@@ -9,7 +9,7 @@ _Source_: [people_kusama.polkaholic.io](https://people_kusama.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-08-01 to 2024-08-02](/kusama/1004-people_kusama/2024-08-31.md) | 501,721 | 508,070 | 6,350 | 76 |  | 4,463 | -   |   
+| [2024-08-01 to 2024-08-02](/kusama/1004-people_kusama/2024-08-31.md) | 501,721 | 514,325 | 12,605 | 87 |  | 4,465 | -   |   
 | [2024-07-01 to 2024-07-31](/kusama/1004-people_kusama/2024-07-31.md) | 304,876 | 501,720 | 196,845 | 353 |  | 4,446 | -   |   
 | [2024-06-01 to 2024-06-30](/kusama/1004-people_kusama/2024-06-30.md) | 116,842 | 304,875 | 188,034 | 281 |  | 4,360 | -   |   
 | [2024-05-13 to 2024-05-31](/kusama/1004-people_kusama/2024-05-31.md) | 1 | 116,841 | 116,841 | 236 |  | 4,304 | -   |   
