@@ -9,7 +9,7 @@ _Source_: [polkadex.polkaholic.io](https://polkadex.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-08-01 to 2024-08-04](/polkadot/2040-polkadex/2024-08-31.md) | 5,350,388 | 5,371,764 | 21,377 |  |  | 4 | -   |   
+| [2024-08-01 to 2024-08-04](/polkadot/2040-polkadex/2024-08-31.md) | 5,350,388 | 5,378,899 | 28,512 |  |  | 4 | -   |   
 | [2024-07-01 to 2024-07-31](/polkadot/2040-polkadex/2024-07-31.md) | 5,129,471 | 5,350,387 | 220,917 | 4 |  | 4 | -   |   
 | [2024-06-01 to 2024-06-30](/polkadot/2040-polkadex/2024-06-30.md) | 4,915,676 | 5,129,470 | 213,795 | 35 |  | 4 | -   |   
 | [2024-05-01 to 2024-05-31](/polkadot/2040-polkadex/2024-05-31.md) | 4,696,937 | 4,915,675 | 218,739 | 18 |  |  | -   |   
