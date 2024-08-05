@@ -33,13 +33,13 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-08-05 | 5,507,511 |  4,780 | 9 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-08-05 | 3,270,713 |  1,240 | 119,220 (3.65%)  |
 | [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-08-05 | 3,748,417 |  1,800 |    |
-| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-08-05 | 4,564,330 |  868 |    |
+| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-08-05 | 4,663,948 |  868 | 14,204 (0.30%)  |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-06-14 | 3,766,264 |   |    |
 | [watr Para ID 2058](/polkadot/2058-watr) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
 | [null Para ID 2086](/polkadot/2086-kilt) | 2021-09-08 | 2024-05-20 | 5,695,902 |  20,432 | 554 (0.01%)  |
 | [frequency Para ID 2091](/polkadot/2091-frequency) | 2022-11-29 | 2024-08-05 | 4,356,762 |  206 | 2 (0.00%)  |
-| [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-08-05 | 6,110,671 |  17,689 | 856,428 (14.02%)  |
+| [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-08-05 | 6,110,671 |  17,689 | 849,383 (13.90%)  |
 | [hashed Para ID 2093](/polkadot/2093-hashed) | 2022-01-15 | 2024-08-05 | 3,653,024 |  661 | 15,466 (0.42%)  |
 | [pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-08-05 | 3,433,371 |  2,254 | 7 (0.00%)  |
 | [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-08-05 | 5,982,591 |  33,790 | 293 (0.00%)  |
