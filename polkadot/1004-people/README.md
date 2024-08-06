@@ -10,6 +10,7 @@ _Source_: [people.polkaholic.io](https://people.polkaholic.io)
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
 | [2024-08-03 to 2024-08-05](/polkadot/1004-people/2024-08-31.md) | 108,192 | 122,455 | 14,264 | 53 |  | 1,981 | -   |   
+| [2024-07-18 to 2024-07-31](/polkadot/1004-people/2024-07-31.md) |  |  |  |  |  |  | -  **BROKEN**  |   
 
 ## Tables:
 
