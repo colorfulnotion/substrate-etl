@@ -9,8 +9,8 @@ _Source_: [people.polkaholic.io](https://people.polkaholic.io)
 
 | Month | Start Block | End Block | # Blocks | # Signed Extrinsics (total) | # Active Accounts (avg) | # Addresses with Balances (max) | Issues |
 | ----- | ----------- | --------- | -------- | --------------------------- | ----------------------- | ------------------------------- | ------ |
-| [2024-08-01 to 2024-08-06](/polkadot/1004-people/2024-08-31.md) | 108,192 | 122,455 | 14,264 | 53 |  | 1,989 | -   |   
-| [2024-07-18 to 2024-07-31](/polkadot/1004-people/2024-07-31.md) |  |  |  |  |  |  | -  **BROKEN**  |   
+| [2024-08-01 to 2024-08-06](/polkadot/1004-people/2024-08-31.md) | 93,933 | 129,580 | 35,648 | 165 |  | 1,989 | -   |   
+| [2024-07-18 to 2024-07-31](/polkadot/1004-people/2024-07-31.md) | 1 | 93,932 | 93,932 | 114 |  |  | -   |   
 
 ## Tables:
 

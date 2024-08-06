@@ -5,12 +5,12 @@ Source: [Polkaholic.io](https://polkaholic.io)
 
 | Chain            | Start Date | End Date | End Block | # Addresses with Balances | Missing Blocks / Status |
 | ---------------- | ---------- | ---------| --------- | ------------------------- | ----------------------- |
-| [polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-08-06 | 21,950,379 |  1,355,276 | 12 (0.00%)  |
+| [polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-08-06 | 21,964,726 |  1,355,276 | 12 (0.00%)  |
 | [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-08-06 | 6,843,861 |  1,321,966 | 50 (0.00%)  |
 | [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-08-06 | 4,366,335 |  127 |    |
 | [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-08-05 | 3,155,493 |  49 |    |
-| [null Para ID 1004](/polkadot/1004-people) | 2024-07-18 | 2024-08-06 | 122,455 |  1,985 |    |
-| [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-08-06 | 6,709,846 |  177,979 |    |
+| [null Para ID 1004](/polkadot/1004-people) | 2024-07-18 | 2024-08-06 | 129,580 |  1,985 |    |
+| [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-08-06 | 6,716,111 |  177,979 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
 | [Moonbeam Para ID 2004](/polkadot/2004-moonbeam) | 2021-12-18 | 2024-08-06 | 6,897,342 |  1,977,378 |    |
 | [Astar Para ID 2006](/polkadot/2006-astar) | 2021-12-18 | 2024-08-06 | 6,756,003 |  802,644 |    |
@@ -29,7 +29,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [phala Para ID 2035](/polkadot/2035-phala) | 2022-04-01 | 2024-08-06 | 5,738,801 |  5,636 | 8 (0.00%)  |
 | [unique Para ID 2037](/polkadot/2037-unique) | 2022-06-04 | 2024-08-06 | 5,560,972 |  53,461 |    |
 | [integritee Para ID 2039](/polkadot/2039-integritee) | 2022-08-29 | 2024-07-03 | 3,452,476 |  4 |    |
-| [polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-08-06 | 5,378,899 |  4 |    |
+| [polkadex Para ID 2040](/polkadot/2040-polkadex) | 2022-06-04 | 2024-08-06 | 5,386,019 |  4 |    |
 | [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-08-06 | 5,514,005 |  4,780 | 9 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-08-06 | 3,277,744 |  1,240 | 119,220 (3.64%)  |
 | [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-08-06 | 3,753,796 |  1,800 |    |
@@ -42,7 +42,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [zeitgeist Para ID 2092](/polkadot/2092-zeitgeist) | 2022-01-13 | 2024-08-06 | 6,117,739 |  17,692 | 849,383 (13.88%)  |
 | [hashed Para ID 2093](/polkadot/2093-hashed) | 2022-01-15 | 2024-08-06 | 3,660,144 |  661 | 15,466 (0.42%)  |
 | [pendulum Para ID 2094](/polkadot/2094-pendulum) | 2023-02-13 | 2024-08-06 | 3,439,443 |  2,255 | 7 (0.00%)  |
-| [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-08-06 | 5,982,591 |  33,790 | 293 (0.00%)  |
+| [subsocial Para ID 2101](/polkadot/2101-subsocial) | 2022-01-25 | 2024-08-06 | 5,989,711 |  33,790 | 293 (0.00%)  |
 | [manta Para ID 2104](/polkadot/2104-manta) | 2023-03-21 | 2024-08-06 | 3,554,170 |  24,092 |    |
 | [t3rn Para ID 3333](/polkadot/3333-t3rn) | 2023-03-07 | 2024-08-06 | 3,630,648 |  2 |    |
 | [null Para ID 3334](/polkadot/3334-polkadot-parathread-3334) | 2024-01-07 | 2024-03-07 | 588,786 |  4 | 7,005 (1.19%)  |
