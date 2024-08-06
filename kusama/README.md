@@ -8,7 +8,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [kusama Para ID 0](/kusama/0-kusama) | 2019-11-28 | 2024-08-06 | 24,357,900 |  324,451 | 14,300 (0.06%)  |
 | [statemine Para ID 1000](/kusama/1000-assethub_kusama) | 2020-01-01 | 2024-08-06 | 7,511,160 |  68,033 | 6 (0.00%)  |
 | [encointer Para ID 1001](/kusama/1001-encointer) | 2022-01-09 | 2024-05-20 | 5,486,859 |  105 | 1,198,630 (21.85%)  |
-| [bridgehub_kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-08-05 | 3,531,519 |  54 |    |
+| [bridgehub_kusama Para ID 1002](/kusama/1002-bridgehub_kusama) | 2023-01-19 | 2024-08-06 | 3,531,519 |  54 |    |
 | [kusama-parathread-1004 Para ID 1004](/kusama/1004-people_kusama) | 2024-05-13 | 2024-08-06 | 534,261 |  4,467 |    |
 | [kusama-parachain-1005 Para ID 1005](/kusama/1005-coretime_kusama) | 2024-04-10 | 2024-08-06 | 822,740 |  47 |    |
 | [karura Para ID 2000](/kusama/2000-karura) | 2021-06-22 | 2024-05-19 | 6,914,684 |  98,650 | 441,524 (6.39%)  |

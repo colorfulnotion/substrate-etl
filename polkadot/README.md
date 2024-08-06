@@ -8,7 +8,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [polkadot Para ID 0](/polkadot/0-polkadot) | 2020-05-26 | 2024-08-06 | 21,964,726 |  1,355,276 | 12 (0.00%)  |
 | [assethub Para ID 1000](/polkadot/1000-assethub) | 2021-11-05 | 2024-08-06 | 6,843,861 |  1,321,966 | 50 (0.00%)  |
 | [collectives Para ID 1001](/polkadot/1001-collectives) | 2022-11-21 | 2024-08-06 | 4,366,335 |  127 |    |
-| [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-08-05 | 3,155,493 |  49 |    |
+| [bridgehub Para ID 1002](/polkadot/1002-bridgehub) | 2023-05-12 | 2024-08-06 | 3,155,493 |  49 |    |
 | [null Para ID 1004](/polkadot/1004-people) | 2024-07-18 | 2024-08-06 | 129,580 |  1,985 |    |
 | [acala Para ID 2000](/polkadot/2000-acala) | 2021-12-18 | 2024-08-06 | 6,716,111 |  177,979 |    |
 | [Clover Para ID 2002](/polkadot/2002-clover) | 2021-12-18 | 2023-10-24 | 4,618,218 |  2,280 |    |
@@ -33,7 +33,7 @@ Source: [Polkaholic.io](https://polkaholic.io)
 | [neuroweb Para ID 2043](/polkadot/2043-neuroweb) | 2022-06-04 | 2024-08-06 | 5,514,005 |  4,780 | 9 (0.00%)  |
 | [darwinia Para ID 2046](/polkadot/2046-darwinia) | 2022-08-29 | 2024-08-06 | 3,277,744 |  1,240 | 119,220 (3.64%)  |
 | [bitgreen Para ID 2048](/polkadot/2048-bitgreen) | 2023-01-17 | 2024-08-06 | 3,753,796 |  1,800 |    |
-| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-08-06 | 4,678,153 |  891 | 14,204 (0.30%)  |
+| [ajuna Para ID 2051](/polkadot/2051-ajuna) | 2022-11-21 | 2024-08-06 | 4,678,153 |  891 |    |
 | [null Para ID 2052](/polkadot/2052-polkadot-parathread-2052) | 2022-08-29 | 2023-11-10 | 1,616,948 |  1,114 |    |
 | [aventus Para ID 2056](/polkadot/2056-aventus) | 2022-09-29 | 2024-06-14 | 3,766,264 |   |    |
 | [watr Para ID 2058](/polkadot/2058-watr) | 2023-02-22 | 2024-05-18 | 1,466,592 |  74 | 196,567 (13.40%)  |
